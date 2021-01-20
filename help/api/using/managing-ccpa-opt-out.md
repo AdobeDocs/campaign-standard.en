@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing CCPA opt-out
 description: Learn how to manage CCPA opt-out with APIs
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
 ---
 
@@ -25,7 +22,7 @@ A profile's CCPA opt-out status can be monitored and managed using the **ccpaOpt
 >
 >The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>For more on this, refer to the [Managing Privacy requests documentation](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

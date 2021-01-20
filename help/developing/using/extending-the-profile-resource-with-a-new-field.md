@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Extending the profile resource with a new field
 description: Learn how to extend the profile resource.
-page-status-flag: never-activated
-uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 
 ---
 

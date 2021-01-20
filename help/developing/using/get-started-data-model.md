@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign Standard data model
 description: Enrich Campaign Standard data model with custom fields and resources, and extend REST APIs to expose extended fields.
-page-status-flag: never-activated
-uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 
 ---
 
@@ -61,5 +58,4 @@ With Campaign Standard APIs, create integrations for Adobe Campaign Standard and
 ## Additional resources
 
 * [About Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
-* [Creating custom resources (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Exporting / importing custom resources](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)

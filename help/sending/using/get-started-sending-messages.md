@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with testing and sending
 description: Prepare, test, schedule, send and monitor your messages.
-page-status-flag: never-activated
-uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 
 ---
 
@@ -26,6 +23,8 @@ Once you have defined the target and created the content of a message, you need 
 Once marketing campaigns have been executed and the different messages have been sent, monitor them using logs to check the success of your campaign, and retrieve tracking information on the recipients.
 
 Finally, leverage deliverability guidelines and tools available in Campaign Standard to improve the number of delivered messages and ensure successfull marketing campaigns.
+
+![](assets/do-not-localize/how-to-video.png) [Discover how to send a test email, prepare and send an email delivery in video](#video)
 
 ## Prepare and test {#prepare-test-send}
 
@@ -86,8 +85,14 @@ Read more:
 ## Additional resources
 
 * [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md)
-* [Send a test, prepare, and send an email (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Adding a control group](../../sending/using/control-group.md)
+
+## Tutorial video {#video}
+
+This video shows how to send a test email, prepare and then send an email delivery in Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

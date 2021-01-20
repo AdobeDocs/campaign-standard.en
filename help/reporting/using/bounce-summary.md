@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Bounce summary
 description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
-page-status-flag: never-activated
-uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 ---
 
 # Bounce summary{#bounce-summary}
 
-This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces.
+This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces (see [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)). 
 
 ![](assets/campaign_reports_bounces.png)
 

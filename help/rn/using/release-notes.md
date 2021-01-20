@@ -1,20 +1,19 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Latest Release
 description: This page details content of the latest Campaign Standard release
-page-status-flag: never-activated
-uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: vignes
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 
 ---
 
 # Latest Release{#latest-release}
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -107,7 +106,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 * When publishing a custom resource, a confirmation pop-up is now displayed after preparation.
 * The pop-up message which appears when a custom resource fails has been improved for better clarity.
 * The expression editor in workflows has been improved to prevent execution errors. [New functions](../../automating/using/customizing-workflow-external-parameters.md) are available: they can be used in all the activities that allow you to use event variables after calling a workflow with external parameters. Additionally, a tooltip now displays in the expression editor with the function description. 
-* [New filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
+* [New filters](../../channels/using/configuring-transactional-event.md#searching-transactional-events) have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
 * After sending a message, you can now search, filter and export the list of [tracked URLs](../../sending/using/tracking-messages.md).
 * Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating and using reusable content 
 description: Start building reusable email content with the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
 ---
 # Creating and using reusable content {#using-reusable-content}
@@ -20,6 +17,8 @@ Learn how to master email content edition. With Email Designer, you can create t
 >[!NOTE]
 >
 > In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/marketing-activity-templates.md).
+
+![](assets/do-not-localize/how-to-video.png) [Discover how to create templates in video](#video)
 
 ### About content templates {#content-templates}
 
@@ -41,7 +40,6 @@ When editing content with the Email Designer, you can also create content templa
 
 **Related topics:**
 
-* Learn how to personalize content templates [in this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
 * For more information on editing content, see [About email content design](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Creating a content template {#creating-a-content-template}
@@ -133,8 +131,16 @@ To use it, create an email and select the content template that you just created
 **Related topic**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+* [Introduction video to the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
+### Tutorial video {#video}
+
+This videos shows how to create your own template.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
 
 ## About fragments {#about-fragments}
 

@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Release Notes 2020
 description: This page lists all 2020 releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 
 ---
 
 # Release Notes 2020{#release-notes-2020}
 
-[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
@@ -200,7 +197,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 
 * Fixed an issue with the **Enrichment** workflow activity that could occur when adding spaces in the **Alias** field which then created a new row item. (CAMP-39229)
 * Fixed an issue where every test profile could be targeted when sending a proof message.
-* Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Fixed an issue where the **Save** button disappeared when making changes to workflows.
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
 * Fixed an issue that could occur when previewing or sending messages that included special characters from Adobe Experience Manager.
@@ -288,7 +285,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 * The Organizational unit of the Administrators security group can no longer be changed.
 * When creating a profile, the Organizational unit field must now be filled.
 * An Experience Cloud Trigger can now only be deleted if both the event and the transactional template that are linked to it are deleted.
-* [!DNL Adobe Creative SDK] has been decommissioned. It is now deprecated in Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+* [!DNL Adobe Creative SDK] has been decommissioned. It is now deprecated in Campaign Standard. See the [Deprecated and removed features](../../rn/using/deprecated-features.md) page.
 
 
 **Patches**

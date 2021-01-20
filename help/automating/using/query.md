@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Query
 description: The Query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-page-status-flag: never-activated
-uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 ---
 
@@ -54,7 +51,7 @@ The **[!UICONTROL Query]** activity can be used for various types of uses:
 
 1. In the **[!UICONTROL Transition]** tab, the **[!UICONTROL Enable an outbound transition]** option lets you add an outbound transition after the query activity, even if it retrieves no data.
 
-   The outbound transition's segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+   The outbound transition's segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Confirm the configuration of your activity and save your workflow.
 

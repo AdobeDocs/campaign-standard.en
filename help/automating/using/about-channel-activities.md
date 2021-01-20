@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About channel activities
 description: Channel activities are available from the left-hand side of the screen.
-page-status-flag: never-activated
-uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing opt-in and opt-out in Campaign
 description: Understand how opt-in and opt-out are managed in Adobe Campaign.
-page-status-flag: never-activated
-uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 
 ---
 

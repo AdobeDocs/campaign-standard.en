@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About Adobe Experience Platform Data Connector
 description: Manage XDM schemas to make your Campaign Standard data available on Adobe Experience Platform.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
 ---
 
@@ -26,7 +23,7 @@ Adobe Experience Platform Data Connector is intended for **data engineers** who 
 
 The following sections describe the key-steps to perform a data mapping between Campaign Standard and Adobe Experience Platform. This starts with the creation of an XDM schema and a dataset.
 
-How-to videos are also available in [this page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 >[!NOTE]
 >Once Adobe Experience Platform Data Connector is configured and data is successfullly ingested into Adobe Experience Platform, you need to enable the dataset so that the data is included in the Real-time Customer Profile.
@@ -71,3 +68,11 @@ How-to videos are also available in [this page](https://docs.adobe.com/content/h
 * Restrictions on marketing actions become applicable only after DULE labels are applied in Adobe Experience Platform. Before that, all data are available for all types of marketing actions.
 
 * Every 15 minutes, the batch job is running and it identifies the records which have changed since the latest batch. If all records change at the same timestamp, a performance bottleneck could appear to manage ingestion of all profiles
+
+## Tutorial video {#video}
+
+This video provides an overview over the Adobe Experience Platform Data Connector.
+
+https://video.tv.adobe.com/v/27304?quality=12&captions=eng
+
+Additional videos related the Adobe Experience Platform Data Connector are available [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

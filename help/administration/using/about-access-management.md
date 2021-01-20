@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About access management
 description: Manage your Adobe Campaign operators using roles, groups and organizational units.
-page-status-flag: never-activated
-uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 ---
 
 # About access management{#about-access-management}
@@ -18,11 +15,11 @@ Adobe Campaign allows you to define and manage the permissions assigned to diffe
 * **Organizational units**: These allow you to define a hierarchy of permissions on the different objects of the platform (emails, workflows, templates, users, profiles, etc.). Refer to the [Organizational units](../../administration/using/organizational-units.md) section.
 * **Roles**: A set of unitary rights that allow you to define the authorizations assigned to users and user groups. Refer to the [List of roles](../../administration/using/list-of-roles.md) section.
 
-  Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+  Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Authorizations table](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >
->Note that the geographical unit capability has been deprecated. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>Note that the geographical unit capability has been deprecated. For more on this, refer to this [page](../../rn/using/deprecated-features.md).
 
 Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the **[!UICONTROL Administration > Users & Security]** menu. 
 

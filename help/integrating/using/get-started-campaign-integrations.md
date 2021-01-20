@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign integrations
 description: Use other Adobe solutions and combine their different capabilities with Campaign.
-page-status-flag: never-activated
-uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 
 ---
 
@@ -46,7 +43,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Allows you to create email contents or forms mapped to the Adobe Campaign database directly in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Work with Campaign and Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrate Experience Manager and Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Create an email with Experience Manager and Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Work with Campaign and Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrate Experience Manager and Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Create an email with Experience Manager and Campaign</a> 
     </td> 
   </tr> 
   <tr> 

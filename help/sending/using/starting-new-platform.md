@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Starting a new platform with Adobe Campaign Standard
 description: Learn how to set up a new platform while maintaining your domain and IP address reputation with Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 ---
 
@@ -25,7 +22,7 @@ Starting a platform often happens when using a list of addresses for the first t
 * If, all the same, you wish to requalify the invalid addresses, it is by far preferable to do this once the reputation of the platform is established and bit by bit in order to "dilute" the use of bad addresses over time.
 
 To summarize the principles to be followed when starting up:
-* **Delegate a dedicated sub-domain** to Adobe that is specific to email campaigns sent from Adobe.
+* **Configure a dedicated subdomain** to work with Campaign that is specific to email campaigns sent from Adobe.
 * **Import invalid/inactive addresses into the quarantine table** (if you have this information).
 * **Limit the delivery throughput** rate (technical setting: limiting the number of mtachilds).
 * **Progressively increase the volumes sent**: do not target the whole database from the very start, but rather add an extra fraction of the list each time you send. This should enable you to increase the volume at each step while reducing the overall rate of invalid addresses.

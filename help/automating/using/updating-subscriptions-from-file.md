@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Updating multiple subscription statuses from a file
 description: This use case shows how to import a file containing profiles and update their subscription to several services specified in the file.
-page-status-flag: never-activated
-uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 ---
 

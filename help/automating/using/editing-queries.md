@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Editing queries
 description: Build a population thanks to the predefined filters and rules.
-page-status-flag: never-activated
-uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
 context-tags: queryFilter,overview;audience,main
 ---
 

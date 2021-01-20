@@ -1,20 +1,21 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Using Triggers in Campaign
 description: 
-page-status-flag: never-activated
-uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 
 ---
 
 # Using Triggers in Campaign{#using-triggers-in-campaign}
 
 ## Creating a mapped trigger in Campaign {#creating-a-mapped-trigger-in-campaign}
+
+>[!NOTE]
+>
+>To create Triggers, you will need the **[!UICONTROL Administration]** role or to be in the **[!UICONTROL Administrators]** security group. For more information on this, refer to this [page](../../administration/using/list-of-roles.md).
 
 You should make sure to define the behaviors that you want to monitor beforehand in Adobe Experience Cloud ( **[!UICONTROL Triggers]** core service). For more on this, refer to the [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). Note that when you define the trigger, you need to enable the aliases. For each behavior (browsing/form abandonment, adding/deleting products, session expired, etc.), a new trigger must be added in Adobe Experience Cloud.
 
@@ -74,7 +75,7 @@ Once the event has been published, a transactional template linked to the new ev
 
 Once you have created and published the trigger event, the corresponding transactional template is created automatically. For more on this, refer to the [Creating a mapped trigger in Campaign](#creating-a-mapped-trigger-in-campaign) section.
 
-In order for the event to trigger sending a transactional message, you have to personalize the template, then test it and publish it. These steps are the same as for a standard transactional message. For more on this, refer to the [Transactional template](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) section.
+In order for the event to trigger sending a transactional message, you have to personalize the template, then test it and publish it. These steps are the same as for a standard transactional message. For more on this, refer to the [Editing a transactional message](../../channels/using/editing-transactional-message.md) section.
 
 >[!NOTE]
 >

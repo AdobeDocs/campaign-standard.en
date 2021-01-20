@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Branding
 description: Discover all the tools available to manage your branding identities.
-page-status-flag: never-activated
-uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 ---
 
@@ -85,13 +82,13 @@ A **Brand** is defined by the following characteristics:
 
 You can add new entities of your organization in Campaign, or create a new type of email which you need to send under a different subdomain. To perform this, follow the steps below:
 
-1. **Delegate a new subdomain** - For any new subdomain to be used by Adobe, the first step will be to delegate it. You can perform this through [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html) or reach out to your Adobe technical contact. Learn more about subdomain delegation [in this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+1. **Configure a new subdomain** - For any new subdomain to be used by Adobe, the first step will be to configure it. You can perform this through [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html) or reach out to your Adobe technical contact. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
-1. **Create a ticket** - Once the subdomain is delegated, Adobe will need to set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
+1. **Create a ticket** - Once the subdomain is configured, Adobe will need to set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
 
    * Subject: ACS New brand set up
    
-   * Content: A new domain has been delegated to Adobe and we would like to get it set up in our Campaign platform
+   * Content: A new domain has been configured and we would like to get it set up in our Campaign platform
    
    * Domain: XXX
    

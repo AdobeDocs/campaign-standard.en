@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Triggering data ingestion through APIs
 description: Learn how to trigger data ingestion through APIs.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
 ---
 
@@ -51,8 +48,11 @@ Immediate ingestion of a XDM mapping into Adobe Experience Platform is triggered
 >
 >In order to execute ingest POST API call, user must have an **SQL function execution** role, which can be provided by a Campaign Standard administrator by executing below JS Script:
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
->REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
+>
 
 The POST operation returns information regarding the created request status:
 

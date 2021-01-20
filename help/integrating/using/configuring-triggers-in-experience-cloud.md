@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring Triggers in Experience Cloud
 description: Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. 
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 
 ---
 
@@ -48,7 +45,7 @@ You also need to have a working website.
 
 >[!CAUTION]
 >
->Sub-domain delegation is a deliverability key element. Make sure that the Adobe Campaign emails are sent from the same domain as the one used by the website.
+>Sub-domain configuration is a deliverability key element. Make sure that the Adobe Campaign emails are sent from the same domain as the one used by the website.
 
 You need to configure [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) and [Campaign](#configuring-triggers-and-aliases-in-campaign) to run these use cases.
 

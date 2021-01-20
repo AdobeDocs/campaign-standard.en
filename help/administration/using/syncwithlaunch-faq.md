@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sync with Launch technical workflow FAQ
 description: Common questions about Launch technical workflow.
-page-status-flag: never-activated
-uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 ---
 
 # Adobe Launch Synchronization FAQ {#syncwithlaunch-faq}

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Key steps of adding a resource
 description: Learn here the key steps of adding a resource in the Adobe Campaign data model.
-page-status-flag: never-activated
-uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 
 ---
 
@@ -22,7 +19,12 @@ To create a new resource or to extend an existing resource with new fields, seve
 1. [Configuring filter definition](../../developing/using/configuring-filter-definition.md)
 1. [Updating the database structure](../../developing/using/updating-the-database-structure.md)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Creating and modifying resources are sensitive operations which must be performed by expert users only.
 
+This video shows how to create custom resources.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

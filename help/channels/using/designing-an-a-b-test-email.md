@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing an A/B test email
 description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 ---
 
@@ -80,10 +77,6 @@ In the specific context of an A/B test:
    >If there is a tie, the winning variant must be manually selected. You can notify the email creator and modifier(s) that a variant has been chosen or needs to be selected. See [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
 
 Your email is now defined and sent. You can access its logs and reports to measure the success of your campaign.
-
-**Related topic**:
-
-[Creating an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
 
 ## About A/B test indicators {#about-a-b-test-indicators}
 

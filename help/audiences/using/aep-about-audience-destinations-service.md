@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About the Audience Destinations service
 description: Learn more about the Audience Destinations service.
-page-status-flag: never-activated
-uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 ---
 
@@ -29,7 +26,7 @@ Adobe Campaign Standard will then use the **Audience Destinations** service to r
 
 Once a segment has been created, you can then activate it as an audience for a delivery in [Campaign Standard workflows](../../automating/using/aep-targeting-audiences.md). Additionally, you can use contextual data from the Adobe Experience Platform to [personalize](../../automating/using/aep-personalizing-campaigns.md) and add dynamic content to your campaigns.
 
-How-to videos are also available in [this section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+![](assets/do-not-localize/how-to-video.png) How-to videos are also available in [this section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Terms used in these sections:
 

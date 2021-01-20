@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Defining the subject line and the sender of an email
 description: Discover how to define the subject line and the sender of an email in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
 ---
 
@@ -29,7 +26,6 @@ The message subject is mandatory to prepare and send the message.
     ![](assets/email_designer_subject.png)
 
 1. You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons. For more on this, see [Personalization](../../designing/using/personalization.md).
-1. You can try out different subject lines in order to get an estimation of your email open rate before you send it. For more on this, see [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md).
 
 ## Defining the email sender of an email {#email-sender}
 

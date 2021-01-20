@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Exporting / importing custom resources
 description: This tutorial explains how export and import a package of custom resources.
-page-status-flag: never-activated
-uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 ---
 
 # Exporting / importing custom resources {#exporting-importing-custom-resources}

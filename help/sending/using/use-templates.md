@@ -1,14 +1,10 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Use delivery templates
-seo-title: Use delivery templates
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 ---
 
@@ -42,7 +38,7 @@ In the **[!UICONTROL Advanced parameters]** section of an email template's prope
 
 ![](assets/template-parameters.png)
 
-The address domain must be the same as the sub-domain that you delegated to Adobe.
+The address domain must be the same as the sub-domain that you configured.
 
 The **[!UICONTROL Reply to]** fields correspond to the email address and name used for replies.
 

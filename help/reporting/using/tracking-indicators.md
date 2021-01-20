@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Tracking indicators
 description: With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages.
-page-status-flag: never-activated
-uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 ---
 

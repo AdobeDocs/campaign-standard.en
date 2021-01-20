@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: List of functions
 description: The query editing tool allows you to use advanced functions to carry out complex filtering.
-page-status-flag: never-activated
-uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 
 ---
 

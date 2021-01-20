@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Release Notes 2017
 description: This page lists all 2017 releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 
 ---
 
@@ -490,7 +487,7 @@ _Workflows_
      <li> Include the unsubscription link within the messages. </li> 
      <li> Add the transactional messages to the global delivery reporting. </li> 
      <li> Leverage the transactional messages in the customer journey. </li> 
-    </ul> For more information, refer to the <a href="../../channels/using/profile-transactional-messages.md">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 

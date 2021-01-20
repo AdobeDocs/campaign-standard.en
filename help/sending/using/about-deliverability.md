@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About deliverability in Adobe Campaign Standard
 description: Learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Standard to optimize sending your deliveries.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 ---
 
@@ -40,7 +37,6 @@ Here is a list of the key points to check to ensure good deliverability.
 First, start by consulting the documentation on the deliverability tools provided with Campaign Standard:
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender)
-* [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md)
 * [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
 * [Email rendering](../../sending/using/email-rendering.md)
