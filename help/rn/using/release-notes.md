@@ -109,7 +109,7 @@ topic-tags: campaign-standard-releases
 
 * Session management has been improved to optimize memory. (CAMP-45901, CAMP-46767)
 
-* The **Transfer file** activity now generates an additional variable (filesCount) that contains the number of uploaded or downloaded files. (CAMP-45842)
+* The **Transfer file** activity now generates an additional variable (filesCount) that contains the number of uploaded or downloaded files. (CAMP-45842) [Learn more](../../automating/using/transfer-file.md#output-variables)
 
 * The SMS connector can now send multiple optional parameters with each message.
 
@@ -137,6 +137,9 @@ topic-tags: campaign-standard-releases
 
 * The transactional SMS message validity date can now be defined by the value set for the expiration parameter in the Transactional Messages API. (CAMP-36600)
 
+* In Dynamic reporting, the **Delivery summary** built-in report is showing incorrect data for the unsubscribed rate
+metric. A new metric called Unique unsubscription has been added to fix this. (CAMP-46445)
+
 **Patches**
 
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
@@ -146,31 +149,31 @@ topic-tags: campaign-standard-releases
 * Fixed an issue which prevented all available Experience Manager content templates from displaying when creating a delivery. (CAMP-45990)
 * Fixed an issue in workflows which could prevent failure messages from displaying in the delivery logs after adding the **Reason** column to the additional data tab. (CAMP-45139)
 * Fixed an issue that could occur when two app subscription calls had the same Marketing Cloud ID ('duplicate key value violates unique constraint' error).
-* Fixed an issue that could lead to slowness issues when drag-and-dropping activities into a workflow containing a large amount of Query and Read audience activities. (CAMP-44511)
+* Fixed an issue that could lead to slowness issues when drag and dropping activities into a workflow containing a large amount of **Query** and **Read audience** activities. (CAMP-44511)
 * Fixed an error that could occur at the end of transactional message preparation, preventing redirection information from being uploaded to the tracking servers.
 * Fixed an issue which could display error messages when trying to open import templates or past import jobs after having customized the workflow resource. (CAMP-46183)
 * Fixed an issue that could prevent a **Read audience** activity from running if it was configured with a dynamic audience name. (CAMP-46047)
 * Fixed an issue which prevented the **Export list** button from being displayed
 * Fixed an issue which could lead to the failure of the **Reporting aggregates** workflow. (CAMP-45979)
 * Fixed an issue when creating a custom resource with a custom composite key (text/date dynamic content).
-* Fixed issue that could prevent query transition data from being displayed. (CAMP-45669)
+* Fixed an issue that could prevent query transition data from being displayed. (CAMP-45669)
 * Fixed memory consumption issues related to custom resource publication.
 * Fixed an issue that occurred when configuring a delivery to be sent on a specific date. If the delivery was then set to be sent immediately once confirmed, the delivery preparation failed and the date specified initially was still taken into account. (CAMP-44107)
 * Fixed an issue that could prevent transactional templates from being opened. (CAMP-47181)
 * Fixed an issue in transactional message publication process which could lead to duplicate typologies and typology rules with names exceeding the allowed string size. (CAMP-47104)
-* Fixed an issue in the **External API** activity that occurred when an input parameter returns a record that does not exist. (CAMP-47023)
-* Fixed an issue that could, on really rare occasions, prevent the SMPP connector from reconnecting.
-* Fixed an issue that occurred in the file transfer activity when downloading a file containing a dot in its name. The characters following the dot were considered as the file's extension. (CAMP-46624)
+* Fixed an issue in the **External API** activity that occurred when an input parameter returned a record that did not exist. (CAMP-47023)
+* Fixed an issue that could prevent the SMPP connector from reconnecting.
+* Fixed an issue that occurred in the **File transfer** activity when downloading a file containing a dot in its name. The characters following the dot were considered as the file's extension. (CAMP-46624)
 * Fixed an issue that prevented database pooling from being performed, which caused transactional messages to be stuck in the router queue.
 * Fixed an error that did not prevent the canceled delivery logs from being sent.
-* Fixed an issue that could lead a workflow to fail when using an **AND-join** activity. The activity automatically changed the Primary set to the last transition wired to it, even if it visually showed the first wired transition. (CAMP-46900)
+* Fixed an issue that could cause a workflow to fail when using an **AND-join** activity. The activity automatically changed the Primary set to the last transition wired to it, even if it visually showed the first wired transition. (CAMP-46900)
 * Fixed an issue that could cause addresses that were successfully quarantined to have their status incorrectly set to Valid, thus removing them from quarantine.
 * Fixed an issue that could prevent personalized fields from displaying if they contained special characters. (CAMP-46805)
-* Fixed an issue that could prevent you from displaying a specific detailed view for a profile. This occurred if it the profile resource had been extended with custom fields with the **Add a personalized fields section** option enabled.
+* Fixed an issue that could prevent you from displaying a specific detailed view for a profile. This occurred if the profile resource had been extended with custom fields with the **Add a personalized fields section** option enabled.
 * Fixed an issue that could return an error code 500 when sending transactional events. (CAMP-46811)
 * Fixed an issue which could prevent you from receiving email scheduled reports. (CAMP-46891)
 * Fixed an issue that occurred when linking a custom resource to the profile resource with a 1 cardinality simple link. When accessing a profile with the custom resource field empty, an error message is now displayed instead of an empty list.
-* Fixed an issue when using profile substitution in a workflow where the page fails to load the delivery profiles when selecting the profile to replace. (CAMP-46522)
+* Fixed an issue when using profile substitution in a workflow where the page failed to load the delivery profiles when selecting the profile to replace. (CAMP-46522)
 * Fixed a regression where the **Database Cleanup** technical workflow tried to drop expired delivery worktables resulting to the following errors: (CAMP-46536)
    ```
    PGS-220000 PostgreSQL error: ERROR: table ""wkdlv_24439460_data"" does not exist and WDB-200001 SQL statement 'DROP TABLE wkdlv_24448131_data' could not be executed.
@@ -180,26 +183,26 @@ topic-tags: campaign-standard-releases
    The 'profile/xxxx' field used in the filter 'xxxxx' does not exist in custom resource 'xxx'
    ```
 * Fixed an issue where Push notification preparation was taking too much time to be completed. This was caused by a missing index on the transient working tables.
-* Fixed an error which could occurred using the **Dimension to reconciliate** option in a **Reconciliation** activity in a workflow when a relation was already defined between a custom resource and a profile resource.
+* Fixed an error which could occur when using the **Dimension to reconciliate** option in a **Reconciliation** activity in a workflow if a relation was already defined between a custom resource and a profile resource.
 * Fixed an issue which occurred when adding links through a **Reconciliation** or **Enrichment** activity. Chosen links were not displayed in the output transition.
-* Fixed an issue when using **Segmentation** activity with recurring deliveries in workflow where the delivery was sent to the wrong audience. (CAMP-46275)
-* Fixed an error where custom resources publication failed when trying to extend the Profile resource to create custom profile dimension for Dynamic reporting. (CAMP-46266)
+* Fixed an issue when using a **Segmentation** activity with recurring deliveries in a workflow which caused the delivery to be sent to the wrong audience. (CAMP-46275)
+* Fixed an error where custom resources publication failed when trying to extend the Profile resource to create custom profile dimensions for Dynamic reporting. (CAMP-46266)
 * Fixed an error which occurred when adding a link to a File import table. After adding an **Enrichment** activity to the **File import** activity, the link previously configured disappeared. (CAMP-46557)
-* Fixed an issue when using custom resources linked to Profile data where the Display order in the Detail screen configuration was changed when saving. (CAMP-46312)
+* Fixed an issue when using custom resources linked to Profile data where the display order in the Detail configuration screen was changed when saving. (CAMP-46312)
 * Fixed an issue which could prevent you from displayed data in dynamic reporting due to deliveries based on a custom delivery mapping.
 * Fixed an error which could prevent you from selecting a collection with an incorrect resource target in a workflow query activity.  
-* Fixed an issue which could result in InMail process to incorrectly validating hard bounces.
+* Fixed an issue which could cause the InMail process to validate hard bounces incorrectly.
 * Fixed an error which occurred when opening a profile screen due to a link error.
 * Fixed an issue which could prevent you from deleting GDPR data from the cleanup workflow.
-* Fixed an error which occurred when the scheduling configuration is manually updated with keyboard in email delivery schedule parameters.
+* Fixed an error which occurred when the scheduling configuration was manually updated with tye keyboard in email delivery schedule parameters.
 *  Fixed an issue which could prevent you from editing a profile due to incorrect parameters in the Organizational unit.
-* Fixed an issue which was letting the Service extension field empty and impossible to set in the Email properties, even if it was set in the in delivery template.
+* Fixed an issue which let the Service extension field empty and impossible to set in the Email properties, even if it was set in the delivery template.
 * Fixed an issue which could result in proofs taking longer to be processed. (CAMP-45048)
 * Fixed an issue which could prevent you from sorting columns in a profile overview screen.
-* Fixed a thumbnail generation issue which could happen on Azure in email variants containing Chinese characters. (CAMP-47152)
+* Fixed a thumbnail generation issue which could occur on Azure in email variants containing Chinese characters. (CAMP-47152)
 * Fixed a regression introduced in 20.4 which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
 * Fixed an issue which could prevent you from importing HTML content into a transactional message template. (CAMP-47318)
 * Fixed an issue that could slow down the display of the renderings in the Email rendering report. (CAMP-46226)
 * Fixed an issue which could prevent you from publishing custom resources configured with a List-type element in the screen definition. (CAMP-47217)
 * Fixed an issue in the Creative Designer which prevented line dividers from rendering correctly in Microsoft Outlook when placed at the top of the email content. (CAMP-46294)
-
+* Fixed an issue that caused the KPIs reconciliation with Adobe Analytics technical workflow to get stuck. (CAMP-46576) 
