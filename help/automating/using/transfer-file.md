@@ -160,7 +160,7 @@ The **[!UICONTROL Transfer file]** activity generates event variables as output,
 
 Note that event variables can also be passed to another workflow using an external signal (see [Customizing a workflow with external parameters](../../automating/using/customizing-workflow-external-parameters.md)).
 
-Avaiable output variables are:
+Available output variables are:
 
 * **[!UICONTROL fileName]**: name of the transferred files.
 * **[!UICONTROL filesCount]**: number of transferred files.
