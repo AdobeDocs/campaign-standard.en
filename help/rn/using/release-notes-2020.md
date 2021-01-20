@@ -15,6 +15,8 @@ topic-tags: campaign-standard-releases
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
+![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
 **What's new?**
