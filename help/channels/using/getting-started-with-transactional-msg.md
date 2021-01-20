@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Main steps to set up a transactional message
+title: Getting started with transactional messaging
 description: Discover what transactional messaging is and learn the main steps to set up a transactional message in Adobe Campaign Standard.
 audience: channels
 content-type: reference

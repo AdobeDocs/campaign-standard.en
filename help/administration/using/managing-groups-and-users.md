@@ -17,15 +17,18 @@ Security groups are sets of users that share the same roles and rights within yo
 
 Users must always be linked to a security group. This will allow you to assign them specific roles and organizational units.
 
-For more information on roles, the tables in the following page present the different operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+For more information on roles, the tables in the following page present the different operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Default security groups are:
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents (mcExec)]** security groups are internal only and should not be assign to users.
 
 If a user is not linked to any security group, he will not be able to access Adobe Campaign.
 

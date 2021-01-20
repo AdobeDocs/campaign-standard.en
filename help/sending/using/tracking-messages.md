@@ -66,13 +66,13 @@ The **[!UICONTROL Tracking logs]** tab lists the tracking history for this deliv
 In the example above, the recipient:
 
 * Opened the message.
+* Clicked on the mirror page link.
 * Clicked on the "LEARN MORE" custom link.
-* Clicked on the unsubscription and the mirror page link.
 
 In the **[!UICONTROL Type]** column, the possible values are:
 
-* **[!UICONTROL Email click]**: the recipients clicked on a custom link. 
-* **[!UICONTROL Mirror page]**: the recipient clicked on a link to the mirror page. 
+* **[!UICONTROL Email click]**: the recipients clicked on a custom link.
+* **[!UICONTROL Mirror page]**: the recipient clicked on a link to the mirror page.
 * **[!UICONTROL Open]**: the recipient opened the email.
 * **[!UICONTROL Opt-out]**: the recipient clicked on an unsubscription link.
 
@@ -81,6 +81,8 @@ In the **[!UICONTROL Type]** column, the possible values are:
 >For the **push notification** channel, only clicks on mobile notifications are tracked. In that case, the value will be **[!UICONTROL Click on mobile notification]**.
 
 For more on how to insert tracking links, refer to [this page](../../designing/using/links.md#inserting-a-link).
+
+The **[!UICONTROL Tracking indicators]** report contains the key indicators for tracking behavior after email messages are received. For more on this, refer to this [page](../../reporting/using/tracking-indicators.md).
 
 ## Tracked URLs {#tracked-urls}
 

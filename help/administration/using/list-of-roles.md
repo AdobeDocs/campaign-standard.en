@@ -17,13 +17,18 @@ Combined with organizational units, roles give users a filtered view of the inte
 
 For more on this, refer to the [Roles and permissions table](/help/administration/using/assets/acs_rights.pdf), which details the functions available in the interface depending on the selected authorizations.
 
-   [![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
 Default rights are:
 
 * **[!UICONTROL Administration]**: Generic administration right.
+
+    >[!NOTE]
+    >
+    >If you need to create Triggers, you will need the **[!UICONTROL Administration]** to be able to access the Triggers menu. For more information on Triggers, refer to this [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
 * **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
 * **[!UICONTROL Prepare deliveries]**: Right to create, modify, prepare and delete deliveries. Users with this role can prepare the delivery but not send it.

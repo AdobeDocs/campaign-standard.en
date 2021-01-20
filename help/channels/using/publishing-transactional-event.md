@@ -1,12 +1,13 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configuring transactional messaging
-description: Learn how to configure transactional messaging.
+title: Publishing a transactional event
+description: Learn how to preview, publish, unpublish and delete a transactional event configuration.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+
 ---
 
 # Publishing a transactional event {#publishing-transactional-event}
@@ -15,7 +16,7 @@ Once [configuration](../../channels/using/configuring-transactional-event.md) is
 
 >[!IMPORTANT]
 >
->Event configuration and publication must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
+>Only [Functional administrators](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->have the appropriate rights to publish event configurations.
 
 A chart illustrating the whole transactional messaging publication process, including publishing and unpublishing event configurations, is available in [this section](../../channels/using/publishing-transactional-message.md).
 
@@ -35,7 +36,7 @@ Before being able to use the event, you must preview and publish it.
 
    >[!NOTE]
    >
-   >The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to [Transactional event specific configurations](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+   >The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to [this section](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Click **[!UICONTROL Publish]** to start publication.
 

@@ -1,9 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Event transactional messages
-description: Learn how to create and publish an event transactional message.
-page-status-flag: never-activated
+title: Editing a transactional message
+description: Learn how to access, edit and personalize a transactional message.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -45,7 +44,9 @@ To edit and personalize a transactional message, follow the steps below.
 
 >[!NOTE]
 >
->This section describes how to edit an **event-based** transactional message.  The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages). The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
+>This section describes how to edit an **event-based** transactional message. The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
+>
+>The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages). 
 
 For example, you want to send a notification to your website users who have added products to their cart and leave the site without going through with their purchases. This example is presented in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section.
 
@@ -65,7 +66,7 @@ For example, you want to send a notification to your website users who have adde
 
    ![](assets/message-center_7.png)
 
-1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In this example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. You can also enrich the content of your message. To do this, add fields from the table that you linked to your event configuration (see [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). In this example, select the **[!UICONTROL Title (salutation)]** field from the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -81,7 +82,7 @@ For example, you want to send a notification to your website users who have adde
 
    You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a specific test profile](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
+<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
 When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
@@ -199,7 +200,7 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
 ## Profile-based transactional message specificities {#profile-transactional-message-specificities}
 
@@ -208,8 +209,6 @@ You can send transactional messages based on customer marketing profiles, which 
 * For more on the differences between event-based and profile-based transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
 * The configuration steps to create a profile-based transactional message are detailed in [this section](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
-
-<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
 The steps for creating, editing and personalizing a profile transactional message are mostly the same as for an event transactional message.
 
