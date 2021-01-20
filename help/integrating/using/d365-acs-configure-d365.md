@@ -9,27 +9,15 @@ topic-tags: working-with-campaign-and-ms-dynamics
 
 ---
 
-# Configure Microsoft Dynamics 365 for Campaign integration
+# Configure Microsoft Dynamics 365 for the integration with Adobe Campaign Standard
 
 Learn how to configure Microsoft Dynamics 365 integration and activate your CRM data on cross-channel communication with Adobe Campaign Standard.
 
 ## Overview
 
-Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+The general description of the Adobe Campaign Standard integration with Microsoft Dynamics 365 is described in [this page](../../integrating/using/d365-acs-get-started.md).
 
-Three systems that need to be provisioned for this integration: 
-
-1. Adobe Campaign Standard - [Learn more](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
-1. Microsoft Dynamics 365 for Sales - Described below
-1. Integration tool - owned by Adobe Consulting team
-
-Once provisioned, these systems need to be configured by an Administrator.
-
-This article highlights the steps, on the Microsoft Dynamics 365 side, required during pre-integration setup to enable a customer to use the Adobe Campaign Standard - Microsoft Dynamics 365 integration. 
-
->[!NOTE]
->
->Until the UI for the self-service tool is available later this year, the onboarding team will assist you in configuring the integration. 
+Multiple applications will need to be configured to enable the integration, however, this article will focus on steps required within Dynamics 365.  
 
 ## Prerequisites
 
@@ -39,7 +27,7 @@ If you are configuring the integration for both staging and production environme
 
 ## Setting up application and permissions
 
-An OAuth access token allows the integration tool to authenticate with your Microsoft Dynamics 365 instance via web APIs in order to post Campaign Standard experience events to the timeline view of the Microsoft Dynamics 365 interface. 
+An OAuth access token allows the integration tool to authenticate with your Microsoft Dynamics 365 instance via web APIs in order to post Campaign Standard experience events to the timeline view of the Microsoft Dynamics 365 interface.
 
 Main steps are outlined in the following video:
 
@@ -47,7 +35,7 @@ Main steps are outlined in the following video:
 
 To generate the OAuth access token, follow the steps outlined below.
 
-### Register a new application
+### Register a new application {#register-a-new-app}
 
 1. Under your administrator login, login to portal.azure.com.  
 
@@ -66,9 +54,9 @@ To generate the OAuth access token, follow the steps outlined below.
 
 >[!NOTE]
 >
->Azure AD assigns a unique application` (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform pre-integration setup for the integration tool.
+>Microsoft Azure Directory assigns a unique application (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform the integration tool setup.
 
-### Generate client secret
+### Generate client secret {#generate-a-client-secret}
 
 1. From the app overview screen, on the sub menu on the left, click **[!UICONTROL Certificates and Secrets > New client secret]**
 
@@ -119,19 +107,17 @@ This new user is a generic user. It will be used by the application: any change 
 
 1. Click on the user icon and upload an Adobe Campaign icon; this is the icon that will be displayed in the Timeline view when new Adobe events appear in Dynamics 365.
 
-<!-- ***getfile*** adobe campaign logo-->
-
 1. Open the user roles list by clicking **[!UICONTROL MANAGE ROLES]** in the top ribbon.
 
 1. Scroll down and select **[!UICONTROL System administrator]** access for this user.
 
 1. Click **[!UICONTROL OK]**.
 
-### Get the tenant ID
+### Get the tenant ID {#get-the-tenant-id}
 
 Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) to find your tenant ID.  You’ll need this ID during pre-integration setup in the integration tool.
 
-## Install Campaign Standard for Microsoft Dynamics 365
+## Install Campaign Standard for Microsoft Dynamics 365 {#install-appsource-app}
 
 To integrate the Dynamics 365 App to your Campaign Standard environment, follow the steps below:
 
@@ -151,5 +137,5 @@ To integrate the Dynamics 365 App to your Campaign Standard environment, follow 
 
 **Related topics** 
 
-* [Campaign Standard - Microsoft Dynamics 365 integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
+* [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-configure-adobe-io.md) is the next step in setting up the integration
+* [Get started with the self-service integration app](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contains the full list of steps to get the integration up-and-running.

@@ -10,7 +10,7 @@ topic-tags: campaign-standard-apis
 
 # Interacting with custom resources {#interacting-with-custom-resources}
 
-The **/customResources** endpoint allows you to expose the ACS custom resources in REST. Based on this API, an integration between custom entities and external endpoints is available.
+The **/customResources** endpoint allows you to expose the Campaign custom resources in REST. Based on this API, an integration between custom entities and external endpoints is available.
 
 The /customResources endpoint has exactly the same behavior as /profileAndServices endpoint.
 
