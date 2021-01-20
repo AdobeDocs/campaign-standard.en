@@ -86,15 +86,15 @@ topic-tags: campaign-standard-releases
 * Fixed an issue that caused delivery running very slow because of certain processes taking most of CPU. This was due to some parameters' unit to be wrong (using milliseconds instead of seconds for example).
 
 * Fixed an issue when the Mobile SDK sent an open tracking request based on the condition that deliveryId/MessageID is not null. This would result in 404 errors for deliveries with tracking disabled. 
-An additional variable acsDeliveryTracking with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status.
+An additional variable acsDeliveryTracking with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status. [Learn more](../../administration/using/push-tracking.md)
 
 * An improvement has been made to ease troubleshooting sessions when encountering issues with the Transactional messaging process.
 
-* The Profiles list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in Advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter.
+* The Profiles list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in Advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter. [Learn more](../../audiences/using/integrated-customer-profile.md)
 
 * A parameter has been adjusted to the number of containers running the Transactional messaging database pooling process. This allows to distribute the load uniformly across all the containers that are used and reach optimal performance.
 
-* A new function (GetOption) is now available in activities using events variables after calling a workflow with external parameters. It allows you to return the value of a specified function.
+* A new function (GetOption) is now available in activities using events variables after calling a workflow with external parameters. It allows you to return the value of a specified function. [Learn more](../../automating/using/customizing-workflow-external-parameters.md)
 
 * A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is below 5120 Mb, the workflow execution will be delayed until the system memory reaches this threshold. Note that this option read-only and cannot be modified.
 
