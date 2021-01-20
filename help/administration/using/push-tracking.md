@@ -13,11 +13,11 @@ context-tags: mobileApp,overview
 
 ## About push tracking {#about-push-tracking}
 
-To ensure that the push notification has been fully developed you need to be sure that the tracking portion has been implemented correctly.
-This assumes that you have already implemented the first parts of Push Notification implementation:
+To ensure that the push notification has been fully developed you need to be sure that the tracking portion has been implemented correctly since not every push notification has tracking enabled. To enable this, developers need to identify which deliveries have tracking enabled, Adobe Campaign Standard will send a flag called `_acsDeliveryTracking` with two values **on** or **off**. The app developer should send a tracking request only on deliveries that have the variable set as **on**. 
 
-* Registering the app user
-* Handling a push notification message
+>[!IMPORTANT]
+>
+>This variable is not be available to deliveries set before the 21.1 release or deliveries using custom templates.
 
 Push Tracking is separated into three types:
 
@@ -43,15 +43,28 @@ To send tracking information there are three variables that need to be sent. Two
 
 For impression tracking, you will have to send value "7" for action when calling **[!UICONTROL trackAction()]** function.
 
+For deliveries created before 21.1 release or deliveries with custom template, refer to this [section](../../administration/using/push-tracking.md#about-push-tracking).
+
 ```
+
 @Override
 public void onMessageReceived(RemoteMessage remoteMessage) {
 ....{Handle push messages}....
   if (data.size() > 0) {
     String deliveryId = data.get("_dId");
     String messageId = data.get("_mId");
+    String acsDeliveryTracking = data.get("_acsDeliveryTracking");
+ 
+    /*
+    This is to handle deliveries created before 21.1 release or deliveries with custom template
+    where acsDeliveryTracking is not available.
+    */
+    if( acsDeliveryTracking == null ) {
+        acsDeliveryTracking = "on";
+    }
+ 
     HashMap<String, String> contextData = new HashMap<>();
-    if (deliveryId != null && messageId != null) {
+    if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
                 contextData.put("deliveryId", deliveryId);
                 contextData.put("broadlogId", messageId);
                 contextData.put("action", "7");
@@ -71,6 +84,8 @@ To track click, two scenarios need to be handled:
 * The user sees the notification and clicks on it turning it into an open tracking.
 
 To handle this, you need to use two Intents: one for clicking the notification and another one to dismiss the notification.
+
+For deliveries created before 21.1 release or deliveries with custom template, refer to this [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -122,14 +137,23 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
         Bundle data = intent.getExtras();
         String deliveryId = data.getString("_dId");
         String messageId = data.getString("_mId");
-  
+        String acsDeliveryTracking = data.get("_acsDeliveryTracking");
+         
+        /*
+        This is to handle deliveries created before 21.1 release or deliveries with custom template
+        where acsDeliveryTracking is not available.
+        */
+        if( acsDeliveryTracking == null ) {
+            acsDeliveryTracking = "on";
+        }
+ 
         HashMap<String, Object> contextData = new HashMap<>();
-  
+ 
         //We only send the click tracking since the user dismissed the notification
-        if (deliveryId != null && messageId != null) {
+        if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-            contextData.put("action", "1");
+            contextData.put("action", "2");
             MobileCore.trackAction("tracking", contextData);
         }
     }
@@ -150,28 +174,36 @@ protected void onResume() {
     super.onResume();
     handleTracking();
 }
-  
-  
+ 
+ 
 private void handleTracking() {
     //Check to see if this view was opened based on a notification
     Intent intent = getIntent();
     Bundle data = intent.getExtras();
-  
+ 
     if (data != null) {
         //Looks it was opened based on the notification, lets get the tracking we passed on.
         String deliveryId = data.getString("_dId");
         String messageId = data.getString("_mId");
-  
-        HashMap<String, Object> contextData = new HashMap<>();
-  
-        if (deliveryId != null && messageId != null) {
+        String acsDeliveryTracking = data.get("_acsDeliveryTracking");
+        /*
+        This is to handle deliveries created before 21.1 release or deliveries with custom template
+        where acsDeliveryTracking is not available.
+        */
+        if( acsDeliveryTracking == null) {
+            acsDeliveryTracking = "on";
+        }
+ 
+        HashMap<String, String> contextData = new HashMap<>();
+ 
+        if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-  
+ 
             //Send Click Tracking since the user did click on the notification
             contextData.put("action", "2");
             MobileCore.trackAction("tracking", contextData);
-  
+ 
             //Send Open Tracking since the user opened the app
             contextData.put("action", "1");
             MobileCore.trackAction("tracking", contextData);
