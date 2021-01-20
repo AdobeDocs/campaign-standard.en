@@ -89,9 +89,7 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_13.png)
 
-1. Fill in the **[!UICONTROL Properties]** and **[!UICONTROL Audience]** of your email.
-
-1. Click **[!UICONTROL Create]**.
+1. Fill in the **[!UICONTROL Properties]** and **[!UICONTROL Audience]** of your email and click **[!UICONTROL Create]**.
 
 1. In the **[!UICONTROL Edit properties]**, make sure your Adobe Experience Manager account is correctly set in the **[!UICONTROL Content]** drop-down.
 
@@ -101,21 +99,23 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_14.png)
 
-1. Select your previously created Adobe Experience Manager email content.
+1. Select your previously created Adobe Experience Manager email content. Then, click **[!UICONTROL Save & Close]**.
 
     ![](assets/aem_acs_15.png)
-
-1. Click **[!UICONTROL Save & Close]**.
 
 1. Click **[!UICONTROL Language copy creation]**.
 
     ![](assets/aem_acs_16.png)
 
-1. Select one of your previously created language copy of your Adobe Experience Manager content and click **[!UICONTROL Confirm]**.
+1. Select one of your previously created language copy of your Adobe Experience Manager content and click **[!UICONTROL Confirm]**. The Adobe Experience Manager contents displayed here are only validated contents and can be filtered on their **[!UICONTROL Label]** and **[!UICONTROL Path]**.
+
+   >[!NOTE]
+   >
+   >The chosen language copy will be set as default, you can later change it in the **[!UICONTROL Content variant]** block.
 
     ![](assets/aem_acs_17.png)
 
-1. Adobe Campaign Standard will automatically link the other language copies to this content. Select the variant you want to add to Adobe Campaign Standard and click **[!UICONTROL Create variants]**.
+1. Adobe Campaign Standard will then automatically link the other language copies to this content. The created variants will have the same label and code language as the ones chosen in Adobe Experience Manager. Click **[!UICONTROL Create variants]** to link your multilingual content.
 
     ![](assets/aem_acs_18.png)
 
@@ -123,6 +123,8 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_19.png)
 
-1. Your email is ready to be send. For more information on this, refer to this [page](../../sending/using/get-started-sending-messages.md).
+1. If your content is updated in Adobe Experience Manager, you can directly update it in Adobe Campaign Standard with the **[!UICONTROL Refresh AEM contents]** button.
+
+1. Your email is now ready to be send. For more information on this, refer to this [page](../../sending/using/get-started-sending-messages.md).
 
 Your audience will receive your email depending on the **[!UICONTROL Preferred languages]** set in their **[!UICONTROL Profiles]**. To learn more on how to edit profiles and preferred languages, refer to this [page](../../audiences/using/editing-profiles.md).
