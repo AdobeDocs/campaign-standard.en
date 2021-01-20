@@ -153,3 +153,16 @@ Every time the activity is executed, the folder is checked as follows:
 >[!NOTE]
 >
 >If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
+
+## Output variables {#output-variables}
+
+The **[!UICONTROL Transfer file]** activity generates event variables as output, that you can leverage in other activities, for example to check the number of downloaded files using a [Test](../../automating/using/test.md) activity.
+
+Note that event variables can also be passed to another workflow using an external signal (see [Customizing a workflow with external parameters](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Avaiable output variables are:
+
+* **[!UICONTROL fileName]**: name of the transferred files.
+* **[!UICONTROL filesCount]**: number of transferred files.
+
+
