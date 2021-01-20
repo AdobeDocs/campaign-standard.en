@@ -115,7 +115,7 @@ The primary keys will always be the first field names listed in the **[!UICONTRO
 
 The **[!UICONTROL Field Mappings]** section allows you to add field mappings other than the Primary Keys. To add a new mapping of a field from Microsoft Dynamics 365 to Adobe Campaign, click the **[!UICONTROL Add new field mapping]** button.
 
-Select Microsoft Dynamics and Campaign fields in the lists:
+Select Microsoft Dynamics 365 and Campaign fields in the lists:
 
 ![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 

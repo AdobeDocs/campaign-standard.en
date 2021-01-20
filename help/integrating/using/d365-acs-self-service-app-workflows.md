@@ -20,7 +20,7 @@ The integration application comes with three workflows:
 * This is also known as **Ingress** (referring to the ingress of data from Microsoft Dynamics 365 to Adobe Campaign)
 
 **Campaign to Microsoft Dynamics 365**
-* Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce). [Learn more](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* Email marketing events from Adobe Campaign Standard are sent to Dynamics 365 (email send, open, click, bounce). [Learn more](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * This is also known as **Egress** (referring to the egress of data from Adobe Campaign to Microsoft Dynamics 365)
 
 **Opt-In/Out**
