@@ -137,8 +137,7 @@ topic-tags: campaign-standard-releases
 
 * The transactional SMS message validity date can now be defined by the value set for the expiration parameter in the Transactional Messages API. (CAMP-36600)
 
-* In Dynamic reporting, the **Delivery summary** built-in report is showing incorrect data for the unsubscribed rate
-metric. A new metric called Unique unsubscription has been added to fix this. (CAMP-46445)
+* In Dynamic reporting, the **Delivery summary** built-in report was showing incorrect data for the unsubscribed rate metric. A new metric named **Unique unsubscription** has been added to fix this. (CAMP-46445)
 
 **Patches**
 
