@@ -28,7 +28,7 @@ topic-tags: campaign-standard-releases
 <tbody> 
 <tr> 
 <td>
-<p>Email Feedback service (beta) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be available for all customers in future releases.</p>
+<p>Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.</p>
 <ul>
 <li>All categories of events are captured: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
 <li>Calculation of Sent/ Delivered indicators is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
@@ -50,7 +50,7 @@ topic-tags: campaign-standard-releases
 <tbody> 
 <tr> 
 <td>
-<p>The Adobe Campaign Standard and Adobe Experience Manager integration has been improved: it is now easier to import multilingual content from Adobe Experience Manager. Adobe Campaign Standard will now automatically detect language variants from Adobe Experience Manager content. 
+<p>The Integration with Adobe Experience Manager has been improved: it is now easier to import multilingual content from Adobe Experience Manager. Adobe Campaign Standard will now automatically detect language variants from Adobe Experience Manager content. 
 </p>
 <p>For more information refer to the <a href="../../integrating/using/creating-multilingual-email-aem.md">detailed documentation</a>.
 </p>
@@ -202,4 +202,8 @@ Fixed an issue which could prevent to select a custom service from a delivery te
 * Fixed a thumbnail generation issue which could happen on Azure in email variants containing Chinese characters. (CAMP-47152)
 * Fixed a regression introduced in 20.4 which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
 * Fixed an issue which could prevent you from importing HTML content into a transactional message template. (CAMP-47318)
+* Fixed an issue that could slow down the display of the renderings in the Email rendering report. (CAMP-46226)
+* Fixed an issue which could prevent you from publishing custom resources configured with a List-type element in the screen definition. (CAMP-47217)
+* Fixed an issue in the Creative Designer which prevented line dividers from rendering correctly in Microsoft Outlook when placed at the top of the email content. (CAMP-46294)
+
 
