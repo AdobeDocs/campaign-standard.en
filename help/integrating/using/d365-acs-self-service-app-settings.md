@@ -38,16 +38,16 @@ The following image will explain in detail the mapping between Adobe I/O and the
 
 * *URL*: This value will fit the pattern https\://mc.adobe.io/&lt;campaign-instance-name&gt;. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
 
+## Adobe Campaign SFTP settings {#ac-smtp-settings}
+
+These settings are optional. You need to define them if you plan on using your Adobe Campaign SFTP instance to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your expectations.  
+
+The other reason to setup the SFTP server would be if you plan on running the opt-in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365, either **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** or **[!UICONTROL Bidirectional]**.
+
 >[!IMPORTANT]
 >
 >You are responsible for the information you access and download from the SFTP folders. If the information contains personal data, you are responsible for complying with any applicable privacy laws and regulations. [Learn more](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 >
-
-## Adobe Campaign SFTP Settings {#ac-smtp-settings}
-
-These settings are optional. You need to define them if you plan on using your Adobe Campaign SFTP instance to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your expectations.  
-
-The other reason to setup the SFTP server would be if you plan on running the opt-in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365, either **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]** or **[!UICONTROL Bidirectional]**.
 
 To define Campaign SFTP settings for the Microsoft Dynamics 365 integration, access the following section:
 
