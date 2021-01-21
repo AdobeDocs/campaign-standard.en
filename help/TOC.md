@@ -256,14 +256,17 @@ title: Campaign Standard Guide
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + [Get Started with Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-       + [Manage data between Campaign and Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-       + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-       + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-       + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-       + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-       + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-       + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
+       + [Get started with Microsoft Dynamics 365 integration](integrating/using/d365-acs-get-started.md)
+       + [Best practices and limitations](integrating/using/d365-acs-notices-and-recommendations.md)
+       + [Configure Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+       + [Configure Campaign and Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+       + Configure the integration app {#configure-integration-tool}
+          + [Get started with the integration app](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+          + [Access to the integration app](integrating/using/d365-acs-self-service-app-control-access.md)
+          + [Connect systems with the integration app](integrating/using/d365-acs-self-service-app-settings.md)
+          + [Manage synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
+          + [Map data between Microsoft Dynamics 365 and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+       + [Use the Microsoft Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
