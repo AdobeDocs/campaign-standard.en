@@ -71,13 +71,14 @@ Error label | Error type | Description
 If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
 The number of retries (how many retries should be performed the day after the send is started) and the minimum delay between retries are now managed by the Adobe Campaign Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain. The **Retries** settings in Campaign are ignored.
-Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template, and edit the **[!UICONTROL Delivery duration]** field of the [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters) section.
 
 >[!IMPORTANT]
 >
->**The **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is now only used if set to 3.5 days or less.** If you define a value higher than 3.5 days, it will not be taken into account as it is now managed by the Adobe Campaign Enhanced MTA.
+>**The **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is now only used if set to 3.5 days or less.** If you define a value higher than 3.5 days, it will not be taken into account<!--as it is now managed by the Adobe Campaign Enhanced MTA-->.
 
 For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.
 
@@ -114,7 +115,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimizing mail deliverability with double opt-in mechanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimizing email deliverability with double opt-in mechanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Double opt-in mechanism is a best practice when sending emails. It protects the platform from wrong or invalid email addresses, spambots, and prevents possible spam complaints.
 
