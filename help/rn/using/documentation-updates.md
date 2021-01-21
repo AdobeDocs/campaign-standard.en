@@ -13,6 +13,24 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 21.1 - January 2021 {#release-21-1---january-2021}
+
+**New capabilities included in the release**
+
+xxxx - Read More
+
+xxxx - Read More
+
+xxxx - Read More
+
+**Other documentation updates coming with the release**
+
+Information has been added on how to search for a profile based on the email, first name, last name or any custom field. [Read more](../../audiences/using/integrated-customer-profile.md)
+
+Information has been added on the new GetOption function that allows you to return the value of a specified function when calling a workflow with external parameters. [Read more](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Information has been added on the new **[!UICONTROL filesCount]** output variable available after using a **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/transfer-file.md#output-variables)
+
 ## December 2020 {#doc-updates-december-2020}
 
 **Predictive Subject Line** capability is now deprecated. [Read more](../../rn/using/deprecated-features.md)
