@@ -48,7 +48,7 @@ topic-tags: campaign-standard-releases
 <tbody> 
 <tr> 
 <td>
-<p>The integration with Adobe Experience Manager has been improved: you can now import multilingual content more easily from Adobe Experience Manager. Adobe Campaign Standard now automatically detects language variants from Adobe Experience Manager content. 
+<p>The integration with Adobe Experience Manager has been improved: you can now import multilingual content more easily from Adobe Experience Manager. Adobe Campaign Standard now automatically detects language variants from Adobe Experience Manager content and allows for bulk variant import and creation, significantly simplifying the number of steps that a practitioner needs to go through to create a multilingual campaign based on Adobe Experience Manager content.
 </p>
 <p>For more information refer to the <a href="../../integrating/using/creating-multilingual-email-aem.md">detailed documentation</a>.
 </p>
@@ -81,7 +81,7 @@ topic-tags: campaign-standard-releases
 
 **Improvements**
 
-* Microsoft Dynamics 365 integration has been enhanced with a dedicated self-service integration app and an improved implementation process.
+* Microsoft Dynamics 365 integration has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 * Fixed an issue that caused deliveries to run very slowly because of certain processes. This was due to incorrect units defined for several parameters (milliseconds instead of seconds for example).
 
@@ -126,8 +126,6 @@ topic-tags: campaign-standard-releases
 * The SMPP log format has been improved.
 
 * Optional parameters to cryptString and decryptString JS functions have been added to match Adobe Campaign Classic API's.
-
-* You can now modify the default validity date of SMS transactional messages.
 
 * Improved warning or error messages in delivery preparation logs.
 
@@ -184,7 +182,7 @@ topic-tags: campaign-standard-releases
 * Fixed an issue where Push notification preparation was taking too much time to be completed. This was caused by a missing index on the transient working tables.
 * Fixed an error which could occur when using the **Dimension to reconciliate** option in a **Reconciliation** activity in a workflow if a relation was already defined between a custom resource and a profile resource.
 * Fixed an issue which occurred when adding links through a **Reconciliation** or **Enrichment** activity. Chosen links were not displayed in the output transition.
-* Fixed an issue when using a **Segmentation** activity with recurring deliveries in a workflow which caused the delivery to be sent to the wrong audience. (CAMP-46275)
+* Fixed an issue when using a **Segmentation** activity with recurring deliveries in a workflow which caused the delivery to be sent to the wrong audience. (CAMP-46275, CAMP-46470)
 * Fixed an error where custom resources publication failed when trying to extend the Profile resource to create custom profile dimensions for Dynamic reporting. (CAMP-46266)
 * Fixed an error which occurred when adding a link to a File import table. After adding an **Enrichment** activity to the **File import** activity, the link previously configured disappeared. (CAMP-46557)
 * Fixed an issue when using custom resources linked to Profile data where the display order in the Detail configuration screen was changed when saving. (CAMP-46312)
@@ -206,3 +204,9 @@ topic-tags: campaign-standard-releases
 * Fixed an issue in the Email Designer which prevented line dividers from rendering correctly in Microsoft Outlook when placed at the top of the email content. (CAMP-46294)
 * Fixed an issue that caused the KPIs reconciliation with Adobe Analytics technical workflow to get stuck. (CAMP-46576) 
 * Fixed an issue in the Email Designer that prevented fragments from being automatically displayed in search boxes when inserting content blocks. (CAMP-44205)
+* Fixed an issue in the Email Designer that caused unwanted characters to be displayed in sent emails when using emojis in fragments. (CAMP-46621)
+* Fixed regression introduced in 20.4 in the Email Designer impacting the Divider component, which resulted in additional line heights and image distorsions in content. (CAMP-46663)
+* Fixed an issue that forced the out-of-the-box buttons to remain centered when the message was sent to an Outlook mailbox, even though these buttons were aligned to the right or left in Email Designer. (CAMP-46466) 
+* Fixed an issue that prevented the list of test profiles from refreshing when searching profiles in the Email Designer preview. (CAMP-45265)
+* Fixed an issue that prevented custom test profiles from displaying in the list when searching profiles in the Email Designer preview. (CAMP-45589)
+* Fixed an issue that caused mismatching dates to be displayed when generating trend graphics from the delivery summary report. (CAMP-45521)
