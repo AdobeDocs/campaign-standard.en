@@ -15,9 +15,19 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## December 2020 {#doc-updates-december-2020}
 
-The Privacy section has been moved. [Read more](../../start/using/privacy.md)
+**Predictive Subject Line** capability is now deprecated. [Read more](../../rn/using/deprecated-features.md)
 
-The Transactional messaging section has been reorganized and improved, with a clarified getting started section including [enhanced charts](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the full process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+The **Transactional messaging** getting started section now includes [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the implementation process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
+The **Privacy** section has been moved [here](../../start/using/privacy.md).
+
+A new **Accessibility** page is available: it details accessibility support in Adobe Campaign Standard workspace. [Read more](../../start/using/accessibility.md)
+
+A caution note has been added stating that, for optimal performance, the number of published transactional messages should remain under 100. [Read more](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+The SMS connector protocol and settings page has been moved [here](../../administration/using/sms-protocol.md).
+
+The **Using product listings in a transactional message** section has been moved [here](../../designing/using/using-product-listings.md).
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -168,8 +178,6 @@ Limitation has been added with MCPNS when configuring a mobile application. [Rea
 A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 A new section describing how to delete an event configuration is now available. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
 
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -413,7 +421,7 @@ The Automating guide has been updated with links to related workflow activities.
 
 The Indicator calculation section for Dynamic reports has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
-Dynamic reporting compatibility table has been added to better understand compatibility between dimensions and metrics. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Dynamic reporting compatibility table has been added to better understand compatibility between dimensions and metrics. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 The list of functions for workflows has been updated. [Read more](../../automating/using/list-of-functions.md)
 
@@ -501,7 +509,7 @@ Added information in the Extract file activity section on the new option that le
 
 Email Designer General Availability - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Product Listings in Transactional Emails - [Read more](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Product Listings in Transactional Emails - [Read more](../../designing/using/using-product-listings.md)
 
 Mobile View in the Email Designer - [Read more](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -691,7 +699,7 @@ The **[!UICONTROL Subscription Services]** activity has been updated to support 
 
 Added a step-by-step use case on how to prepare a delivery. [Read more](../../sending/using/preparing-the-send.md)
 
-The section including the list of authorizations has been removed. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf) (PDF).
+The section including the list of authorizations has been removed. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF).
 
 Added a step-by-step use case on how to use SMS auto reply. [Read more](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -863,7 +871,7 @@ A new technote is now available: "Integrating the Adobe Mobile SDK with your mob
 
 Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+Authorizations table revised to make certain roles’ function clearer. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Update of the contextual help links available directly from Adobe Campaign.
 

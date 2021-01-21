@@ -13,7 +13,9 @@ topic: Premium
 
 ## What's New
 
-* **[Updated release planning](rn/using/release-planning.md)**<br/> Upcoming February 2021 release dates have been added to the release planning
+* **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
+
+* **[Release planning](rn/using/release-planning.md)**<br/> Upcoming February 2021 release dates have been added to the release planning
 
 * **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
 
@@ -68,5 +70,5 @@ topic: Premium
 | [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campaign APIs](api/using/get-started-apis.md) |
 | [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release planning](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
-| [Deprecated and removed features](rn/using/deprecated-features.md)) | [Multi-solution guide](integrating/using/get-started-campaign-integrations.md) |
+| [Deprecated and removed features](rn/using/deprecated-features.md) | [Multi-solution guide](integrating/using/get-started-campaign-integrations.md) |
 | [Get started with Campaign Standard](start/using/about-campaign-standard.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |

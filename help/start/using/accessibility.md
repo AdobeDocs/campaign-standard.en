@@ -13,31 +13,33 @@ topic-tags: accessibility
 
 Learn about accessibility support in Adobe Campaign Standard Workspace.
 
-Accessibility refers to making products usable for people with visual, auditory, cognitive, motor, and other disabilities. Examples of accessibility features for software products include screen reader support, text equivalents for graphics, keyboard shortcuts, change of display colors to high contrast, and so on.
+Accessibility refers to making products usable for people with visual, auditory, cognitive, motor, and other disabilities. Examples of accessibility features for software products include semantically structured content, screen reader support, text equivalents for graphics, keyboard shortcuts, and so on.
 
-Adobe Campaign Standard provides some tools that make it accessible to use such as contrast, keyboard navigation, contextual help and responsive resize.
+Adobe Campaign Standard provides features that make it more accessible to use such as contrast, labels, structured content, keyboard navigation and contextual help.
 
 ## Accessibility features {#accessibility-features}
 
-### Contrast {#contrast}
+### Contrast and color {#contrast}
 
-Adobe Campaign Standard user interface strives to provide enough contrast in the application to ensure an accessible viewing experience for users with low vision or color deficiencies.
+The Adobe Campaign Standard user interface strives to provide enough contrast in the application to ensure an accessible viewing experience for users with low vision or color deficiencies.
 
-* Workflows' pause and cancel icons have been updated to improve the contrast between background and foreground.
-
-    ![](assets/accessibility_1.png)
-
-* The text displayed when a delivery is successful contained large green text with an insufficient contrast between the background and the foreground. The contrast has been updated with a minimum ratio of 3:1.
+* Large text and headings have been enhanced to meet a 3:1 contrast ratio.
 
     ![](assets/accessibility_2.png)
 
-* Adobe Campaign Standard ensures that color, shape or location are not the sole methods used to communicate information or hierarchy.
+* Help content and body text in the application have been updated to meet a 4.5:1 contrast ratio.
+
+* Workflows' pause and cancel icons have been updated to improve the contrast between background and foreground colors.
+
+    ![](assets/accessibility_1.png)
+
+* Color, shape and location are not the sole methods used to communicate information or hierarchy in the application.
 
 ### User interface {#user-interface}
 
-Adobe Campaign Standard user interface makes it easier for users to see and hear content including separating foreground from background and adding alternative texts to the different available buttons.
+The Adobe Campaign Standard user interface makes it easier for all users to interact with content by adding alternative texts to visual elements and by using semantic structure to convey information both visually and programmatically.
 
-* When the user leaves a required ID field blank, a graphic indicates visually which field is in error with an error message text.
+* When the user leaves a required ID field blank, a graphic indicates visually which field is in error with error message text and that same information is conveyed programmatically to users with assistive technologies like screen readers.
 
     ![](assets/accessibility_3.png)
 
@@ -45,12 +47,9 @@ Adobe Campaign Standard user interface makes it easier for users to see and hear
 
     ![](assets/accessibility_4.png)
 
-* Alternative texts for image buttons have been added and can be read instead of viewing an illustration.
+* Alternative texts for image and accessible names for buttons have been added and can be read aloud with assistive technology instead of relying solely on visual cues for identifying elements.
 
-    ![](assets/accessibility_5.png)
-
-* Data table headers cells are not left empty in the corner of table when using lists.
-
+<!--
 ### Create responsive resize for multiple devices {#resize-devices}
 
 When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
@@ -58,30 +57,25 @@ When designing for multiple devices and platforms, it's important to create a se
 Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
 
 ![](assets/accessibility_6.png)
+-->
 
 ## Contextual help {#contextual-help}
 
->[!NOTE]
->
-> The contextual help is only available when using the email designer.
+Contextual help can help you better understand the different requested fields and features available. It also guides you through product documentation to learn more information on the selected feature.
 
-The contextual help can help you better understand the different requested fields and features available. It also guides you through product documentation to learn more information on the selected feature.
-
-When designing an email, you can hover your cursor over the information button. A tooltip will appear providing features descriptions and links to the product documentation.
+When designing an email, you can access a tooltip which will provide features descriptions and links to the product documentation.
 
 ![](assets/accessibility_7.png)
 
-## Support for screen magnifiers {#screen-magnifiers}
+## Support for assistive technology {#screen-magnifiers}
 
-A screen reader reads text that appears on the computer screen. It also reads non-textual information, such as button labels or image descriptions in the application, provided in accessibility tags or attributes.
-
-In Adobe Campaign Standard, content and functionality are still available even if the user overrides text spacing properties.
+We strive to make the Adobe Campaign Standard application as usable as possible by various assistive technologies, including but not limited to modified keyboards, screen magnifying software, screen readers, voice recognition software, and other assistive devices.
 
 ## Work in your preferred language {#languages}
 
 Adobe Campaign Standard is available in different languages: English, French and German.
 
-Please note that language is set up at the installation, and cannot be changed afterwards.
+Please note that language is set up at installation, and cannot be changed afterwards.
 
 ## Keyboard shortcuts {#shortcuts}
 

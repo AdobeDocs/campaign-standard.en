@@ -1,11 +1,11 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configuring transactional messaging
-description: Learn how to configure transactional messaging.
-audience: administration
+title: Configuring a transactional event
+description: Learn how to configure transactional events in Adobe Campaign.
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: 
 ---
 
@@ -43,7 +43,7 @@ To get started, create the event corresponding to your needs.
 
 >[!NOTE]
 >
->The number of real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete unused real-time events. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>The number of transactinoal events can have an impact on your platform. To ensure optimal performance, make sure you delete unused events. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Defining the event attributes {#defining-the-event-attributes}
 
@@ -61,7 +61,7 @@ The steps for adding and modifying fields are the same as for [custom resources]
 
 You can add to the event content a collection of elements, each element itself including several attributes.
 
-This collection can be used in a transactional email to add [product listings](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
+This collection can be used in a transactional email to add [product listings](../../designing/using/using-product-listings.md) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
 
 1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
@@ -89,7 +89,7 @@ Here is the API preview for this example:
 **Related topics:**
 
 * [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Using product listings in a transactional message](../../designing/using/using-product-listings.md)
 * [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Enriching the event {#enriching-the-transactional-message-content}
@@ -128,7 +128,7 @@ For more on creating and publishing resources, see [this section](../../developi
 
    >[!NOTE]
    >
-   >Selecting a targeting enrichment based on the **[!UICONTROL Profile]** resource is mandatory for profile-based events.
+   >Creating a enrichment and selecting a targeting enrichment based on the **[!UICONTROL Profile]** resource are mandatory for profile-based events.
 
 Once the event and the message are published, this link will allow you to enrich the content of the transactional message.
 
@@ -170,11 +170,9 @@ To send an event-based transactional message, you first need to create and confi
 
 1. When creating the event configuration, select the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](#creating-an-event)).
 1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](#defining-the-event-attributes)).
-1. Enrich the transactional message content if you want to use additional information from the Adobe Campaign database (see [Enriching the transactional message content](#enriching-the-transactional-message-content)).
+1. Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization.
 
-   >[!NOTE]
-   >
-   >Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.
+   However, if you want to use additional information from the Adobe Campaign database, you can enrich the transactional message content (see [Enriching the transactional message content](#enriching-the-transactional-message-content)).
 
 1. Preview and publish the event (see [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
@@ -192,7 +190,12 @@ To send a profile-based transactional message, you first need to create and conf
 
 1. When creating the event configuration, select the **[!UICONTROL Profile event]** targeting dimension (see [Creating an event](#creating-an-event)).
 1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](#defining-the-event-attributes)). You must add at least one field to create an enrichment. You do not need to create other fields such as **First name** and **Last name** as you will be able to use personalization fields from the Adobe Campaign database. 
-1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
+1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the event](#enriching-the-transactional-message-content)) and select this enrichment as the **[!UICONTROL Targeting enrichment]**.
+
+   >[!IMPORTANT]
+   >
+   >This step is mandatory for profile-based events.
+
 1. Preview and publish the event (see [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
    When previewing the event, the REST API does not contain an attribute specifying the email address, mobile phone, or push notification specific attributes, as it will be retrieved from the **[!UICONTROL Profile]** resource.

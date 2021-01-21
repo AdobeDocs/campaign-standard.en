@@ -2,18 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Transactional messaging limitations
-description: Learn about the main limitations and recommendations regarding transactional messages in Adobe Campaign Standard.
+description: Learn about the main recommendations and limitations regarding transactional messages in Adobe Campaign Standard.
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: 
+
 ---
 
 # Transactional messaging best practices and limitations {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-The section below lists the best practices and limitations you should be aware of before starting creating transactional messages.
+This section lists the best practices and limitations you should be aware of before starting creating transactional messages.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -31,6 +32,12 @@ As you are configuring and publishing transactional events, some of the steps yo
 * You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * It is not possible to rollback a publication, but you can unpublish an event: this operation makes the event and the associated transactional message inaccessible. See [Unpublishing an event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * The only transactional message that can be associated with an event is the message that is automatically created upon publishing that event. See [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+## Number of transactional messages {#transactional-message-number}
+
+The number of published transactional messages can have a significant impact on your platform. For optimal performance, the number of published transactional messages should remain under 100. To ensure this, unpublish or delete any unused transactional messages. See [Unpublishing a transactional message](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) and [Deleting a transactional message](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+
+To ensure best performance, you can also unpublish or delete unused events. Indeed, unpublishing or deleting an event will also unpublish or delete the corresponding transactional message(s), and its sending and tracking logs if any. See [Unpublishing an event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) and [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalization {#personalization}
 
@@ -51,7 +58,7 @@ The way you can personalize a message content depends on the type of transaction
 
 ### Product listings
 
-Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../designing/using/using-product-listings.md).
 
 ## Branding {#permissions-and-branding}
 

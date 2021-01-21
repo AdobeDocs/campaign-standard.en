@@ -2,11 +2,12 @@
 solution: Campaign Standard
 product: campaign
 title: Transactional push notifications
-description: Learn how to create and publish a transactional push         notification.
+description: Learn how to send transactional push notifications with Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+
 ---
 
 # Transactional push notifications{#transactional-push-notifications}
@@ -48,7 +49,7 @@ To configure the event, follow the steps below:
 
 1. When creating the event configuration, select the **[!UICONTROL Push notification]** channel and the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 1. Add fields to the event. This will allow you to personalize the transactional message (see [Defining the event attributes](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)). In this example, define the "gateNumber", "lastname" and "firstname" fields.
-1. Enrich the transactional message content if you want to use additional information from Adobe Campaign database (see [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
+1. You can also enrich the content of your message. To do this, add fields from the table that you linked to your event configuration (see [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
 
    <!--Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.-->
 
@@ -142,7 +143,12 @@ To send a transactional push notification to the Adobe Campaign profiles who hav
    >
    >You must add at least one field to create an enrichment. You do not need to create other fields such as **First name** and **Last name** as you will be able to use personalization fields from the Adobe Campaign database.
 
-1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
+1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) and select this enrichment as the **[!UICONTROL Targeting enrichment]**.
+
+   >[!IMPORTANT]
+   >
+   >This step is mandatory for profile-based events.
+   
 1. [Preview and publish the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
    When previewing the event, the REST API does not contain an attribute specifying the registration token, the application name and the push platform as they will be retrieved from the **[!UICONTROL Profile]** resource.

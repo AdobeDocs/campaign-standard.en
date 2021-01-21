@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Event transactional messages
-description: Learn how to create and publish an event transactional message.
+title: Transactional message lifecycle
+description: Learn how to publish, pause, unpublish and delete a transactional message.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -13,7 +13,11 @@ context-tags:
 
 When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published.
 
-The steps to publish, pause, unpublish and delete a transactional message are detailed below. This section also describes how to monitor the delivery and details the transactional messaging retry process.
+The steps to publish, pause, unpublish and delete a transactional message are detailed below.
+
+>[!IMPORTANT]
+>
+>Only users with the [Administration](../../administration/using/users-management.md#functional-administrators) role can access and publish transactional messages.
 
 ## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -77,7 +81,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Publishing a transactional message {#publishing-a-transactional-message}
 
-Once you have tested your transactional message, you can publish it.
+Once you have edited and tested your transactional message, you can publish it. Simply click the **[!UICONTROL Publish]** button.
 
 ![](assets/message-center_12.png)
 
@@ -87,11 +91,16 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 ![](assets/message-center_13.png)
 
+**Related topics**:
+* [Editing a transactional message](../../channels/using/editing-transactional-message.md)
+* [Testing a transactional message](../../channels/using/testing-transactional-message.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
 ## Suspending a transactional message publication {#suspending-a-transactional-message-publication}
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
-The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/managing-transactional-messages.md) or in the trigger event if you are using the Triggers core service (see [About Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/managing-transactional-messages.md)) or in the trigger event if you are using the Triggers core service (see [About Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
