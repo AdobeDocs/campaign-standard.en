@@ -107,7 +107,7 @@ If the **parsing is validated**, a message appears and invites you to customize 
 
 ### Execution
 
-This tab lets you define the connection endpoint. The **[!UICONTROL URL]** field allows you to define the **HTTPS Endpoint** that will send data to ACS.
+This tab lets you define the connection endpoint. The **[!UICONTROL URL]** field allows you to define the **HTTPS Endpoint** that will send data to Campaign.
 
 If needed by the endpoint, two types of authentification method are available:
 
