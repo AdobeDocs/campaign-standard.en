@@ -418,7 +418,7 @@ This table contains the remaining functions avalaible.
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> Extracts the domain from an email address<br /> </td> 
    <td> GetEmailDomain(&lt;value&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> Retrieves the URL of the mirror page server<br /> </td> 
