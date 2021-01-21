@@ -65,3 +65,24 @@ Once a message is sent, you can track the behavior of its recipients, and monito
 * [Tracking messages](../../sending/using/tracking-messages.md)
 * [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
 
+## Sent status report
+
+For customers who upgraded to the Enhanced MTA:
+
+All messages will show as Sent as soon as they are successfully relayed from Campaign to the Enhanced MTA. They will stay in that state unless or until a bounce for that message is communicated back from the Enhanced MTA to Campaign. You should wait until the end of the validity period to see the final Success percentage, and the final number of Sent and Failed messages. Consequently:
+* In the Summary view of each message, the Success percentage will start out at 100% and then go down throughout the validity period of the delivery as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
+* Soft-bouncing messages will no longer show as Failed after day one of the delivery, and be retried on each additional day of the validity period for the delivery. They will stay in the Enhanced MTA retry queue throughout the delivery validity period.
+
+>[!NOTE]
+>
+>You should wait until the end of the validity period to see the final Success percentage, and the final number of Sent and Failed messages.
+>
+>The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.
+
+## Email Feedback Service
+
+With the new Email Feedback Service (currently available as beta), the status of each message is accurately reported.
+
+The messages first show as Pending when they are successfully relayed from Campaign to the Enhanced MTA. The delivery logs show the Taken into account by the service provider status for these messages.
+
+Soft-bouncing messages will show as Failed while they are retried on each additional day of the validity period for the delivery. They will stay in the Enhanced MTA retry queue throughout the delivery validity period.
