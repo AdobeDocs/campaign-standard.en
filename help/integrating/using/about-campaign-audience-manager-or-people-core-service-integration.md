@@ -40,6 +40,6 @@ Integration supports two types of Adobe Experience Cloud IDs:
 
   For example, with the ability to decrypt encrypted email addresses or SMS numbers, you can also send triggered messages to your users even if their profile does not exist in the Adobe Campaign database.
 
-The following diagram details how this integration works. Here, AAM stands for Adobe Audience Manager et ACS for Adobe Campaign Standard.
+The following diagram details how this integration works. Here, AAM stands for Adobe Audience Manager and ACS for Adobe Campaign Standard.
 
 ![](assets/aam_diagram.png)
