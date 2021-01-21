@@ -115,7 +115,7 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_17.png)
 
-1. Adobe Campaign Standard will then automatically link the other language copies to this content. The created variants will have the same label and code language as the ones chosen in Adobe Experience Manager. Click **[!UICONTROL Create variants]** to link your multilingual content.
+1. Click **[!UICONTROL Create variants]** to link your multilingual content. Adobe Campaign Standard will then automatically link the other language copies to this content. The created variants will have the same label and code language as the ones chosen in Adobe Experience Manager.
 
     ![](assets/aem_acs_18.png)
 
@@ -123,7 +123,7 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_19.png)
 
-1. If your content is updated in Adobe Experience Manager, you can directly update it in Adobe Campaign Standard with the **[!UICONTROL Refresh AEM contents]** button.
+1. If your content is updated in Adobe Experience Manager, you can directly synchronize it in Adobe Campaign Standard with the **[!UICONTROL Refresh AEM contents]** button.
 
 1. Your email is now ready to be send. For more information on this, refer to this [page](../../sending/using/get-started-sending-messages.md).
 
