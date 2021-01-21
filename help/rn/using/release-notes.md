@@ -87,7 +87,7 @@ topic-tags: campaign-standard-releases
 
 * Fixed an issue when the Mobile SDK sent an open tracking request based on the condition that deliveryId/MessageID is not null. This would result in 404 errors for deliveries with tracking disabled. An additional variable (acsDeliveryTracking) with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status. [Learn more](../../administration/using/push-tracking.md)
 
-* An improvement has been made to facilitate troubleshooting when encountering issues with the Transactional messaging process.
+* An improvement has been made to facilitate troubleshooting when encountering issues with the Transactional messaging process. Adobe technical administrators can now use tracing on any process without restarting it.
 
 * The Profiles list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter. [Learn more](../../audiences/using/integrated-customer-profile.md)
 
