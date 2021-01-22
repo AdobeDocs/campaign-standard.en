@@ -21,7 +21,7 @@ xxxx - Read More
 
 xxxx - Read More
 
-xxxx - Read More
+Email Feedback service - [Read more](../../sending/using/confirming-the-send.md#email-feedback-service)
 
 **Other documentation updates coming with the release**
 
