@@ -115,7 +115,7 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_19.png)
 
-1. If your content or variant are updated in Adobe Experience Manager, you can directly synchronize it in Adobe Campaign Standard with the **[!UICONTROL Refresh AEM contents]** button.
+1. If your content or variants are updated in Adobe Experience Manager, you can directly synchronize it in Adobe Campaign Standard with the **[!UICONTROL Refresh AEM contents]** button.
 
 1. Your email is now ready to be send. For more information on this, refer to this [page](../../sending/using/get-started-sending-messages.md).
 
