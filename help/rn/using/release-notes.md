@@ -172,13 +172,17 @@ topic-tags: campaign-standard-releases
 * Fixed an issue that occurred when linking a custom resource to the profile resource with a 1 cardinality simple link. When accessing a profile with the custom resource field empty, an error message is now displayed instead of an empty list.
 * Fixed an issue when using profile substitution in a workflow where the page failed to load the delivery profiles when selecting the profile to replace. (CAMP-46522)
 * Fixed a regression where the **Database Cleanup** technical workflow tried to drop expired delivery worktables resulting to the following errors: (CAMP-46536)
-   ```
+
+```
    PGS-220000 PostgreSQL error: ERROR: table ""wkdlv_24439460_data"" does not exist and WDB-200001 SQL statement 'DROP TABLE wkdlv_24448131_data' could not be executed.
-   ```
+```
+
 * Fixed the following error which occurred in some cases when using custom filter on custom resources: (CAMP-46509)
-   ```
+
+```
    The 'profile/xxxx' field used in the filter 'xxxxx' does not exist in custom resource 'xxx'
-   ```
+```
+
 * Fixed an issue where Push notification preparation was taking too much time to be completed. This was caused by a missing index on the transient working tables.
 * Fixed an error which could occur when using the **Dimension to reconciliate** option in a **Reconciliation** activity in a workflow if a relation was already defined between a custom resource and a profile resource.
 * Fixed an issue which occurred when adding links through a **Reconciliation** or **Enrichment** activity. Chosen links were not displayed in the output transition.
