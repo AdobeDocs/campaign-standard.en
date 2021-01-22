@@ -332,6 +332,6 @@ Bounces can have the following qualification statuses:
 
 ### Delivered status report {#legacy-delivered-status-report}
 
-In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will start out at 0% and then go up throughout the validity period of the delivery as the soft and hard bounces get reported back.
+In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will start out at 0% and then progressively go up throughout the validity period of the delivery as the soft and hard bounces get reported back.
 
 Soft-bouncing messages will show as **[!UICONTROL Failed]** after day one of the delivery, and they will be retried on each additional day of the validity period for the delivery.
