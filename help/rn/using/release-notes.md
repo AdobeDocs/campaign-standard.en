@@ -81,7 +81,7 @@ topic-tags: campaign-standard-releases
 
 **Improvements**
 
-* Microsoft Dynamics 365 integration has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* Microsoft Dynamics 365 integration has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/d365-acs-get-started.md)
 
 * Fixed an issue that caused deliveries to run very slowly because of certain processes. This was due to incorrect units defined for several parameters (milliseconds instead of seconds for example).
 
