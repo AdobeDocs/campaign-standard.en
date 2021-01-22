@@ -95,7 +95,7 @@ topic-tags: campaign-standard-releases
 
 * A new function (GetOption) is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function. [Learn more](../../automating/using/customizing-workflow-external-parameters.md)
 
-* A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is below 5120 Mb, the workflow execution will be delayed until the system memory reaches this threshold. Note that this option is read-only and cannot be modified.
+* A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This is done to avoid further degradation of performance and mitigate the risk of an outage. Please try rescheduling this workflow to a time of less activity and try again. The workflow will auto-resume once the server stress is relaxed. Note that this option is read-only and cannot be modified.
 
 **Other changes**
 
