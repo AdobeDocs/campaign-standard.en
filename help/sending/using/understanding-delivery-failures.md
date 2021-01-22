@@ -86,7 +86,7 @@ For example, if you want retries for a delivery to stop after one day, you can s
 
 >[!NOTE]
 >
->Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated<!--from **[!UICONTROL Sent]**--> to **[!UICONTROL Failed]** in the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 

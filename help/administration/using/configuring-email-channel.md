@@ -329,3 +329,9 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
+
+### Delivered status report {#legacy-delivered-status-report}
+
+In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will start out at 0% and then go up throughout the validity period of the delivery as the soft and hard bounces get reported back.
+
+Soft-bouncing messages will show as **[!UICONTROL Failed]** after day one of the delivery, and they will be retried on each additional day of the validity period for the delivery.
