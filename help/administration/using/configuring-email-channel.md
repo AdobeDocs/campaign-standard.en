@@ -40,7 +40,7 @@ The email configuration screen allows to define the parameters for the email cha
 
   >[!IMPORTANT]
   >
-  >**This parameter in Campaign is now only used if set to 3.5 days or less.** If you define a value higher than 3.5 days, it will not be taken into account unless you are running an older version of Adobe Campaign.
+  >**This parameter in Campaign is now only used if set to 3.5 days or less.** If you define a value higher than 3.5 days, it will not be taken into account.
 
   The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
@@ -79,7 +79,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 The **[!UICONTROL Email processing rules]** can be accessed by administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
 
-Note that the email domains and the MX rules are now automatically managed by the Adobe Campaign Enhanced MTA and cannot be changed.
+Note that the email domains and the MX rules are now automatically managed<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> and cannot be changed.
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME**.
 * MX rules customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 
@@ -95,7 +95,7 @@ These rules contain the list of character strings which can be returned by remot
 
 >[!NOTE]
 >
->For synchronous delivery failure error messages, the Adobe Campaign Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+>Synchronous delivery failure error messages are now qualified by the Adobe Campaign Enhanced MTA, which determines the bounce type and qualification, and sends back that information to Campaign.
 
 For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -151,7 +151,7 @@ Temporarily undelivered messages are subject to an automatic retry. For more on 
 
 >[!NOTE]
 >
->The minimum delay between retries and the maximum number of retries to be performed are now managed by the Adobe Campaign Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain. The Campaign **Retries** settings will be ignored.
+>The minimum delay between retries and the maximum number of retries to be performed are now based on how well an IP is performing both historically and currently at a given domain. The Campaign **Retries** settings will be ignored.
 
 The **delivery duration setting** (defined in the [Validity period parameters](#validity-period-parameters) section) **set up in Campaign will still be honored but only up to 3.5 days**. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce. For more on delivery failures, see this [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -202,7 +202,7 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
   >[!IMPORTANT]
   >
-  >This parameter is now managed by the Adobe Campaign Enhanced MTA. **You must define a value up to 3.5 days.** If you define a value higher than 3.5 days, it will not be taken into account.
+  >**You must define a value up to 3.5 days.** If you set a value higher than 3.5 days, it will not be taken into account.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 * **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
@@ -296,33 +296,29 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
 
 * The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
 
-## Applicable settings for older Campaign versions
+## Legacy settings {#legacy-settings}
 
-If you are not running the latest version of Campaign, the following parameters still apply to you.
+If you are **not** running the latest version of Campaign, the parameters and UI sections described below still apply to you.
 
-### Retries
+### Retries {#legacy-retries}
 
 The **[!UICONTROL Retries]** settings in the [Configuration menu](#email-channel-parameters) and in the [Sending parameters](#retries-parameters) of the email properties indicate how many retries should be performed the day after the send is started (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) and the minimum delay between retries (**[!UICONTROL Retry period]**).
 
-By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined globally in the **[!UICONTROL Delivery parameters]** section of the in the [Configuration menu](#email-channel-parameters) or in the [Validity period parameters](#validity-period-parameters) section for each delivery or delivery template.
-
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.
 
-### Email processing rules
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined globally in the **[!UICONTROL Delivery parameters]** section of the **[!UICONTROL Configuration]** menu, or in the **[!UICONTROL Validity period]** section at the delivery level (see the [Delivery duration](#legacy-delivery-duration) section below).
 
-The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONTROL Domain management]** rules can be accessed and modified by administrators through the **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu.
+### Delivery duration {#legacy-delivery-duration}
 
-For more on this, see [Email processing rules menu](#email-processing-rules).
+The **[!UICONTROL Message delivery duration]** parameter in the [Configuration menu](#email-channel-parameters) allows you to specify the time frame in which any message in the delivery that encounters a temporary error or soft bounce will be retried.
 
-Other parameters are now partially managed by Enhanced MTA, while some configuration can still be done within Campaign. The impacted settings are as follows:
+The **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the [Validity period parameters](#validity-period-parameters) section allows you to specify the duration during which the messages can be sent.
 
-### Delivery duration
+### Email processing rules {#legacy-email-processing-rules}
 
-The **[!UICONTROL Message delivery duration]** parameter in the **[!UICONTROL Configuration]** menu allows you to specify the time frame in which any message in the delivery that encounters a temporary error or soft bounce will be retried. For more on this, see [this section](#email-channel-parameters).
+The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONTROL Domain management]** rules can be accessed and modified by administrators through the **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
 
-The **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the **[!UICONTROL Validity period]** section allows you to specify the duration during which the messages can be sent. For more on this, see [this section](#validity-period-parameters).
-
-### Bounce mail qualification
+### Bounce mail qualification {#legacy-bounce-mail-qualification}
 
 To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
@@ -332,4 +328,4 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-For more on this, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
