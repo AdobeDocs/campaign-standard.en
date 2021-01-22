@@ -25,11 +25,11 @@ Once ready, follow the steps below to send your message.
 
 1. Click the **[!UICONTROL Confirm send]** button found in the message's action bar.
 
-  ![](assets/confirm_delivery.png)
+    ![](assets/confirm_delivery.png)
 
-2. Finalize the send by clicking the **[!UICONTROL OK]** button.
+1. Finalize the send by clicking the **[!UICONTROL OK]** button.
 
-  ![](assets/confirm_delivery1.png)
+    ![](assets/confirm_delivery1.png)
 
 The message is being sent. The **[!UICONTROL Deployment]** block shows the progress of the send.
 
