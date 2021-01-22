@@ -32,7 +32,7 @@ topic-tags: campaign-standard-releases
 <li>Calculation of Sent/ Delivered indicators is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
 <li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of load off from the inMail process.</li>
 </ul>
-<p>For more information refer to the <a href="../../sending/using/confirming-the-send.md">detailed documentation</a>.
+<p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#email-feedback-service">detailed documentation</a>.
 </p>
 </td> 
 </tr> 
