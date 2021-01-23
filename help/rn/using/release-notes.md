@@ -101,7 +101,7 @@ topic-tags: campaign-standard-releases
 
 * Changed an error to a warning during message preparation, when the limit of 100 content downloads per rolling hour is reached. A warning is now displayed when the limit is reached, which allows to proceed with delivery.
 
-* A new delivery mapping (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the Profile target dimension.
+* A new target mapping (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the **Profile** targeting dimension.
 
 * When enriching a transactional message content, the links are not retrieved anymore when fetching data from the Profile table, which reduces latency during message preparation and avoids empty profile data due to an incorrect relation defined with the profile table.
 
