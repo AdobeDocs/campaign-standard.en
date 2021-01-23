@@ -28,9 +28,9 @@ topic-tags: campaign-standard-releases
 <td>
 <p>Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.</p>
 <ul>
-<li>All categories of events are captured: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
-<li>Calculation of Sent/ Delivered indicators is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
-<li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of load off from the inMail process.</li>
+<li>All categories of events are captured: Delays, Delivered, To Send, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
+<li>Calculation of the <b>Delivered</b> indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
+<li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of the load from the inMail process.</li>
 </ul>
 <p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#email-feedback-service">detailed documentation</a>.
 </p>

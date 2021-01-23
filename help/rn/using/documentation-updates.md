@@ -31,7 +31,7 @@ Information has been added on the new GetOption function that allows you to retu
 
 Information has been added on the new **[!UICONTROL filesCount]** output variable available after using a **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/transfer-file.md#output-variables)
 
-The **Configuration email channel** page has been updated to clarify the latest applicable email parameters vs some legacy parameters still in use for some customers. [Read more](../../administration/using/configuring-email-channel.md)
+The **Configuring email channel** section has been updated to clarify what the latest applicable email settings are. Some legacy parameters still in use for certain customers are listed at the bottom of this page. [Read more](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
