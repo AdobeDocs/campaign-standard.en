@@ -96,7 +96,8 @@ This page describes new features, improvements and fixes included in the next Ca
 
 * A new **GetOption** function is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function.
 
-* A new option allows Campaign Standard to **check physical memory** availablity on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This avoids further degradation of performance and mitigate the risk of an outage. The workflow will auto-resume once the server stress is relaxed.  If your workflow execution is delayed, try rescheduling this workflow to a time of less activity and try again. Note that this option is read-only and cannot be modified.
+* A new option allows Campaign Standard to **check physical memory** availablity on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This avoids further degradation of performance and mitigate the risk of an outage. The workflow will auto-resume once the load on the server comes down and the memory increases. Note that this option is read-only and cannot be modified.
+
 
 **Other changes**
 
