@@ -14,11 +14,12 @@ hide: yes
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
->[!CAUTION]
+This page describes new features, improvements and fixes included in the next Campaign Standard release.
+
+[!CAUTION]
 >
-> This page describes new features, improvements and fixes included in the next Campaign Standard release.
-This content is subject to changes without notice until the stage environments upgrade date. 
-Learn more in the [release planning page](../../rn/using/release-planning.md).
+> This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
+>
 
 ## Release 21.1 - Febuary 2021 {#release-21-1---febuary-2021}
 
