@@ -35,12 +35,13 @@ This page describes new features, improvements and fixes included in the next Ca
 <tbody> 
 <tr> 
 <td>
-<p>Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.</p>
+<p>Email Feedback Service (EFS) is a scalable service which improves reporting accuracy by capturing email feedback directly from the Enhanced MTA.</p>
 <ul>
-<li>All categories of events are captured: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
+<li>All categories of events are captured: Delays, Delivered, To Send, Unsubscribe (Link, List), Feedback (Spam complaints, asynchronous events).</li>
 <li>Calculation of Sent/ Delivered indicators is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
 <li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of load off from the inMail process.</li>
 </ul>
+<p>This capability is released as a <strong>private beta</strong> and will be progressively available to all customers in future releases.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -55,7 +56,8 @@ This page describes new features, improvements and fixes included in the next Ca
 <tbody> 
 <tr> 
 <td>
-<p>The integration with Adobe Experience Manager has been improved: you can now import multilingual content more easily from Adobe Experience Manager. Adobe Campaign Standard now automatically detects language variants from Adobe Experience Manager content and allows for bulk variant import and creation, significantly simplifying the number of steps that a practitioner needs to go through to create a multilingual campaign based on Adobe Experience Manager content.
+<p>Campaign integration with Adobe Experience Manager has been improved: you can now import multilingual content more easily from Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard now automatically detects language variants from Adobe Experience Manager content and allows for bulk variant import and creation, significantly simplifying the number of steps that a practitioner needs to go through to create a multilingual campaign based on Adobe Experience Manager content.</p>
 </p>
 </td> 
 </tr> 
@@ -84,27 +86,21 @@ This page describes new features, improvements and fixes included in the next Ca
 
 **Improvements**
 
-* Microsoft Dynamics 365 integration has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/d365-acs-get-started.md)
+* **Microsoft Dynamics 365** integration has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/d365-acs-get-started.md)
 
-* Fixed an issue that caused deliveries to run very slowly because of certain processes. This was due to incorrect units defined for several parameters (milliseconds instead of seconds for example).
+* An improvement has been made to facilitate troubleshooting when encountering issues with the **Transactional messaging process**. Adobe technical administrators can now use tracing on any process without restarting it.
 
-* Fixed an issue when the Mobile SDK sent an open tracking request based on the condition that deliveryId/MessageID is not null. This would result in 404 errors for deliveries with tracking disabled. An additional variable (acsDeliveryTracking) with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status.
+* The **Profiles** list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter.
 
-* An improvement has been made to facilitate troubleshooting when encountering issues with the Transactional messaging process. Adobe technical administrators can now use tracing on any process without restarting it.
+* A parameter has been adjusted to the number of containers running the **Transactional messaging** database pooling process. This allows the load to be uniformly distributed across all the containers that are used and reach optimal performance.
 
-* The Profiles list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter.
+* A new **GetOption** function is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function.
 
-* A parameter has been adjusted to the number of containers running the Transactional messaging database pooling process. This allows the load to be uniformly distributed across all the containers that are used and reach optimal performance.
-
-* A new function (GetOption) is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function.
-
-* A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This is done to avoid further degradation of performance and mitigate the risk of an outage. Please try rescheduling this workflow to a time of less activity and try again. The workflow will auto-resume once the server stress is relaxed. Note that this option is read-only and cannot be modified.
+* A new option allows Campaign Standard to **check physical memory** availablity on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This avoids further degradation of performance and mitigate the risk of an outage. The workflow will auto-resume once the server stress is relaxed.  If your workflow execution is delayed, try rescheduling this workflow to a time of less activity and try again. Note that this option is read-only and cannot be modified.
 
 **Other changes**
 
 * Changed an error to a warning during message preparation, when the limit of 100 content downloads per rolling hour is reached. A warning is now displayed when the limit is reached, which allows to proceed with delivery.
-
-* A new delivery mapping (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the Profile target dimension.
 
 * When enriching a transactional message content, the links are not retrieved anymore when fetching data from the Profile table, which reduces latency during message preparation and avoids empty profile data due to an incorrect relation defined with the profile table.
 
@@ -114,15 +110,13 @@ This page describes new features, improvements and fixes included in the next Ca
 
 * The **Transfer file** activity now generates an additional variable (filesCount) that contains the number of uploaded or downloaded files. (CAMP-45842)
 
-* The SMS connector can now send multiple optional parameters with each message.
+* The **SMS connector** can now send multiple optional parameters with each message.
 
-* Fixed an issue that prevented users with the DATA MODEL role from publishing delivery log extensions. This operation will now be available for the DATA MODEL role. (CAMP-46604)
-
-* Fixed an issue in workflows that could occur when copy-pasting a **Deduplication** activity that had been executed once and that leveraged a temporary resource. Once duplicated, the activity's resource was automatically set to empty, leading to issues in other activities of the workflow. Once pasted, the activity's resource will now remain the same, in order for the error to be triggered as soon as possible rather than later in the workflow. (CAMP-46903)
+* Users with the DATAMODEL role can now publish delivery log extensions. (CAMP-46604)
 
 * The error message that displayed when trying to publish a resource targeting a custom resource that does not exist anymore has been made clearer. (CAMP-46893)
  
-* The following languages have been added to the Preferred language list: Indonesian - Indonesia (in-id), English – Sweden (en-se), English – Asia Pacific (en-ap), English - Japan (en-jp), Spanish – Latin America (es-la). (CAMP-46351)
+* The following languages have been added to the **Preferred language** list: Indonesian - Indonesia (in-id), English – Sweden (en-se), English – Asia Pacific (en-ap), English - Japan (en-jp), Spanish – Latin America (es-la). (CAMP-46351)
 
 * The picker for profiles selection when testing a landing page will now use the profilBase resource instead of profile to prevent timeout.
 
@@ -132,19 +126,23 @@ This page describes new features, improvements and fixes included in the next Ca
 
 * Improved warning or error messages in delivery preparation logs.
 
-* Improved error logs when trying to connect to IMS.
+* Improved error logs when trying to connect to Adobe Identity Management Service (IMS).
 
-* You can now further filter the Delivery and Campaign dimensions using the search bar in Dynamic reporting.
+* You can now further filter the Delivery and Campaign dimensions using the search bar in **Dynamic reporting**.
 
-* The transactional SMS message validity date can now be defined by the value set for the expiration parameter in the Transactional Messages API. (CAMP-36600)
+* The transactional SMS message validity date can now be defined by the value set for the expiration parameter in the **Transactional Messages API**. (CAMP-36600)
 
 * In Dynamic reporting, the **Delivery summary** built-in report was showing incorrect data for the unsubscribed rate metric. A new metric named **Unique unsubscription** has been added to fix this. (CAMP-46445)
 
 **Patches**
 
+* Fixed an issue that caused deliveries to run very slowly because of certain processes. This was due to incorrect units defined for several parameters (milliseconds instead of seconds for example).
+* Fixed an issue in workflows that could occur when copy-pasting a **Deduplication** activity that had been executed once and that leveraged a temporary resource. Once duplicated, the activity's resource was automatically set to empty, leading to issues in other activities of the workflow. Once pasted, the activity's resource will now remain the same, in order for the error to be triggered as soon as possible rather than later in the workflow. (CAMP-46903)
+* Fixed an issue when the Mobile SDK sent an open tracking request based on the condition that deliveryID/MessageID is not null. This would result in 404 errors for deliveries with tracking disabled. An additional variable (acsDeliveryTracking) with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status.
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
 * Fixed an issue with A/B testing which prevented content of variant B from being updated after the delivery template had been modified. (CAMP-45235)
 * Fixed an issue that caused the Transactional messaging process to get stuck, preventing messages from being sent.
+* Fixed an issue which caused delivery analysis to fail when sending a transactional push message using the Profile target dimension. A new delivery mapping (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables.
 * Fixed an issue which could lead to navigation issues after clicking an internal link (for example when accessing the parent delivery from a proof summary screen).
 * Fixed an issue which prevented all available Experience Manager content templates from displaying when creating a delivery. (CAMP-45990)
 * Fixed an issue in workflows which could prevent failure messages from displaying in the delivery logs after adding the **Reason** column to the additional data tab. (CAMP-45139)
