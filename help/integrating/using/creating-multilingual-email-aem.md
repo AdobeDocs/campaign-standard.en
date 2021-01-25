@@ -71,7 +71,7 @@ Your language copies are now created, you can now edit your content depending on
 
 >[!CAUTION]
 >
->Every language copy need to be approved via the **[!UICONTROL Approve for Adobe Campaign]** validation workflow. You will not be able to send an email in Adobe Campaign if it uses a content that has not been approved.
+>Every language copy needs to be approved via the **[!UICONTROL Approve for Adobe Campaign]** validation workflow. You will not be able to send an email in Adobe Campaign if it uses a content that has not been approved.
 
 ![](assets/aem_acs_11.png)
 
