@@ -15,7 +15,7 @@ topic-tags: configuring-channels
 >
 >Adobe Experience Platform Data Connector is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-In this section, you will discover how to map a Campaign Standard field with an an Experience Data Model (XDM) field.
+In this section, you will discover how to map a Campaign Standard field with an Experience Data Model (XDM) field.
 
 To perform this task, the prerequisites are:
 
@@ -45,7 +45,7 @@ The following screen presents the **[!UICONTROL Field mappings]** section where 
 
 The **[!UICONTROL Create new field mapping]** button allows you to select the Campaign Standard field and the corresponding field path expression in the XDM schema.
 
-If you are unable to find an Campaign Standard field, you can use the search field to search for the field. Currently, search only works for fields which are open in hierarchy.
+If you are unable to find an Adobe Campaign Standard field, you can use the search field to search for the field. Currently, search only works for fields which are open in hierarchy.
 
 ![](assets/aep_mapfield.png)
 

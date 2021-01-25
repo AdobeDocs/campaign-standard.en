@@ -30,7 +30,7 @@ Related topics:
 
 1. Before configuring the identification key, make sure that the resource has been extended with the desired fields and that it has been published. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
+1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
    ![](assets/uc_idkey1.png)
 

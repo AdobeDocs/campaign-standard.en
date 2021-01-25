@@ -27,7 +27,7 @@ Extension fields are generated with a prefix so that they never conflict with th
 
 >[!NOTE]
 >
->You can find a datamodel representation for the buil-in resources in [this page](../../developing/using/datamodel-introduction.md).
+>You can find a datamodel representation for the built-in resources in [this page](../../developing/using/datamodel-introduction.md).
 
 You can also [configure the navigation](configuring-the-screen-definition.md) in the screens corresponding to the resource created.
 
