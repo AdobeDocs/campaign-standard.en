@@ -13,7 +13,7 @@ topic-tags: campaign-standard-releases
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
-## Release 21.1 - January 2021 {#release-21-1---january-2021}
+## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **What's new?**
 
