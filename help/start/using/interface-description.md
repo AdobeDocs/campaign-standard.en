@@ -50,10 +50,10 @@ The navigation principles are:
   The advanced menu is presented in the [Advanced menu](#advanced-menu) section.
 
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
-* The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 
-* The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
-* The organization button
+* The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities.
 * The **Solution switcher** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
+* The **[!UICONTROL Help]** button gives access to Adobe Campaign Standard documentation, videos, release notes and release planning, as well as the links to the Adobe Experience Cloud community and customer care.
+* The organization button
 * The **Notifications** icon displays the latest alerts or information.
 * The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
 
