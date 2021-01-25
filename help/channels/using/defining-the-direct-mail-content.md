@@ -27,7 +27,7 @@ The **[!UICONTROL Content]** definition screen is specific to the direct mail ch
 
 1. Click the **[!UICONTROL +]** or **[!UICONTROL Add an element]** button to add an output column. The **[!UICONTROL Output columns]** let you define the profile information (columns) to be exported into the output file.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Make sure that your profiles include a postal address as this information is essential to the direct mail provider. Also make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information. See [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
 

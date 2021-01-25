@@ -33,7 +33,7 @@ The section below lists the limitations you should be aware of, before starting 
 * Landing pages are limited to **[!UICONTROL Profile]** and **[!UICONTROL Subscription]** resources only. Record can be saved and updated from **[!UICONTROL Profile]** and a subscription/unsubscription to a **[!UICONTROL Service]**.
 To learn more on resources configuration, see [Configuring the resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
 
@@ -106,7 +106,7 @@ Once the landing page is defined, you can simulate the way it will execute and b
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The landing page tests can only be carried out with profiles, and not with test profiles. When the form is being submitted, the selected profile's data will be updated for real. To avoid modifying real profiles, use a fake customer profile.
 
