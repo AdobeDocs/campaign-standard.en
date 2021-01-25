@@ -111,7 +111,7 @@ topic-tags: campaign-standard-releases
 
 * The **Transfer file** activity now generates an additional variable (filesCount) that contains the number of uploaded or downloaded files. (CAMP-45842) [Learn more](../../automating/using/transfer-file.md#output-variables)
 
-* The SMS connector can now send multiple optional parameters with each message.
+* The SMS connector can now send multiple optional parameters with each message. [Learn more](../../administration/using/sms-protocol.md)
 
 * Fixed an issue that prevented users with the DATA MODEL role from publishing delivery log extensions. This operation will now be available for the DATA MODEL role. (CAMP-46604)
 
