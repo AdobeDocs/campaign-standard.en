@@ -48,9 +48,9 @@ The email configuration screen allows to define the parameters for the email cha
 
   Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-  >[!NOTE]
+  >[!IMPORTANT]
   >
-  >The maximum number of retries to be performed and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain. The **Retries** settings in Campaign will be ignored.
+  >The maximum number of retries to be performed and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain. The **[!UICONTROL Retry period]** and **[!UICONTROL Number of retries]** settings in Campaign will be ignored.
 
   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -79,9 +79,12 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 The **[!UICONTROL Email processing rules]** can be accessed by administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
 
-Note that the email domains and the MX rules are now automatically managed<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> and cannot be changed.
+>[!IMPORTANT]
+>
+>The email domains and the MX rules are now automatically managed<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> and cannot be changed.
+
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME**.
-* MX rules customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+* MX rules automatically customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
@@ -93,7 +96,7 @@ Asynchronous bounces are still qualified by the Campaign inMail process through 
 
 These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Synchronous delivery failure error messages are now qualified by the Adobe Campaign Enhanced MTA, which determines the bounce type and qualification, and sends back that information to Campaign.
 
@@ -149,9 +152,9 @@ The **[!UICONTROL Send]** section is only available for email templates. It cont
 
 Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->The minimum delay between retries and the maximum number of retries to be performed are now based on how well an IP is performing both historically and currently at a given domain. The Campaign **Retries** settings will be ignored.
+>The minimum delay between retries and the maximum number of retries to be performed are now based on how well an IP is performing both historically and currently at a given domain. The **[!UICONTROL Retry period]** and **[!UICONTROL Max. number of retries]** settings in Campaign will be ignored.
 
 The **delivery duration setting** (defined in the [Validity period parameters](#validity-period-parameters) section) **set up in Campaign will still be honored but only up to 3.5 days**. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce. For more on delivery failures, see this [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
