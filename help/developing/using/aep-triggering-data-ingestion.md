@@ -111,7 +111,7 @@ The GET operation returns the information below:
 
 Possible responses to the GET operation are:
 
-* Ingest request successfull:
+* Ingest request successful:
 
     ```
     {
@@ -135,7 +135,7 @@ Possible responses to the GET operation are:
     }
     ```
 
-* Ingest request faild, with some record uploaded under a batch:
+* Ingest request failed, with some record uploaded under a batch:
 
     ```
     {
