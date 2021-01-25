@@ -91,7 +91,13 @@ With the Email Feedback Service (EFS) capability, the status of each email is ac
 >
 >The Email Feedback Service is currently available as a beta capability.
 
-Once the delivery has started, there is no change in the **[!UICONTROL Delivered]** percentage when the message is successfully relayed from Campaign to the Enhanced MTA. The delivery logs show the **[!UICONTROL Pending]** status for the targeted addresses.
+Once the delivery has started, there is no change in the **[!UICONTROL Delivered]** percentage when the message is successfully relayed from Campaign to the Enhanced MTA.
+
+![](assets/efs-sending.png)
+
+The delivery logs show the **[!UICONTROL Pending]** status for the targeted addresses.
+
+![](assets/efs-pending.png)
 
 When the message is actually delivered to the targeted profiles, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Delivered]** percentage is updated accordingly with each successful delivery.
 
