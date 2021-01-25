@@ -16,7 +16,7 @@ hide: yes
 
 This page describes new features, improvements and fixes included in the next Campaign Standard release.
 
-[!CAUTION]
+>[!CAUTION]
 >
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 >
