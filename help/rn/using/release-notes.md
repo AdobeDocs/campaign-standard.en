@@ -101,8 +101,6 @@ topic-tags: campaign-standard-releases
 
 * Changed an error to a warning during message preparation, when the limit of 100 content downloads per rolling hour is reached. A warning is now displayed when the limit is reached, which allows to proceed with delivery.
 
-* A new target mapping (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the **Profile** targeting dimension.
-
 * When enriching a transactional message content, the links are not retrieved anymore when fetching data from the Profile table, which reduces latency during message preparation and avoids empty profile data due to an incorrect relation defined with the profile table.
 
 * The instance technical configuration has been optimized to ensure stability. (CAMP-45681)
@@ -139,6 +137,7 @@ topic-tags: campaign-standard-releases
 
 **Patches**
 
+* Fixed an issue which caused delivery analysis to fail when sending a transactional push message targeting profiles by introducing a new [target mapping](../../administration/using/target-mappings-in-campaign.md): **Profile - Real-time event for Push** (*mapRtEventAppSubRcp*). The delivery, exclusion and tracking logs for [transactional push notifications targeting a profile](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) will now be stored in the *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp* tables.
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
 * Fixed an issue with A/B testing which prevented content of variant B from being updated after the delivery template had been modified. (CAMP-45235)
 * Fixed an issue that caused the Transactional messaging process to get stuck, preventing messages from being sent.
