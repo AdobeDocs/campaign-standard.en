@@ -11,9 +11,11 @@ context-tags: mobileApp,overview
 
 # How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK {#sdkv4-migration}
 
-[!IMPORTANT]
+>[!IMPORTANT]
 >
-> The migration process is a irreversible. Please read the document carefully before performing it.
+> The migration process is irreversible.
+>
+> Please read the document carefully before starting the migration of your mobile application SDK V4 to Adobe Experience Platform SDK.
 
 ## About the SDK V4 migration
 
@@ -21,7 +23,6 @@ Adobe Campaign Standard treats a mobile app using SDK V4 as a separate applicati
 
 Customers that upgrade the SDK version in their mobile applications do not consider their app a different app when they upgrade Adobe's SDK. Customers after the upgrading the Adobe SDK version (from v4 to Adobe Experience Platform/v5 ) in their mobile applications need to continue using their application subscriber data and campaigns as it. For this they need to migrate their v4 SDK application in Adobe Campaign Standard to Adobe Experience Platform SDK application.
 This feature will enable them to do this by single click. The feature is migration of SDK v4 application to a fresh Adobe Experience Platform SDK application. Please do not consider it as the feature to merge any SDK v4 application with any Adobe Experience Platform SDK application.
-
 
 | Things that will not change after migrating |
 |:-:|
@@ -48,9 +49,9 @@ Before migrating
 * Before migration make sure that you have rights to **[!UICONTROL Organizational unit]** of application which you are migrating and the Adobe Experience Platform application which you are using for migration.
 * The application will become a Adobe Experience Platform SDK application after migration and its changes will be linked to Launch Property.
 
-1. Create a new mobile property in the Adobe Experience Platform Launch.
-1. Let that property sync to Adobe Campaign Standard via Launch Sync workflow.
-1. After workflow completion verify that an application is available in Adobe Campaign Standard in 'Ready to Configure' state.
+1. Create a new mobile property in the Adobe Experience Platform Launch. For more information on this, refer to [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** and open the **[!UICONTROL syncWithLaunch]** workflow. Check if the workflow has ended without error.
+1. After workflow completion, check if the mobile application is available in Adobe Campaign Standard and is in **[!UICONTROL Ready to Configure]** state.
 1. Go to the v4 SDK application which you want to migrate.
 1. Select the `Mobile application migration to Adobe Experience Platform SDK` tab.
 1. From the list of available Adobe Experience Platform applications, select the application created in step 1-3.
@@ -61,6 +62,7 @@ On pressing 'Go to Adobe Experience Platform SDK channel list' Adobe Experience 
 1. Open it and press save to complete the migration.
 
 Additional good to have steps:
+
 Both the old subscribers collected by v4 version of mobile application and the new subscribers collected by v5 version of mobile application will available under the single migrated application. There will no obvious way to distinguish between them. After migration customers may want to have some information to distinguish between the subscriber which are still on v4 version and which are using new version. For this they can implement a new custom field of type text in the 'Subscriptions to an application' as 'sdkversion' or 'appVersion' (any name of customer's choice). Configure the associated Launch property to send this custom field value in Collect Pii call. Change the mobile application implementation accordingly.
 
 ## FAQ {#faq}
@@ -85,12 +87,12 @@ A: The mobile application after migration will be visible in **[!UICONTROL Admin
 
 ### Q. After migration is Adobe Experience Platform SDK application is not visible? {#Adobe Experience Platform-not-visible}
 
-A: The original Adobe Experience Platform SDK application used in migration will not exist as separate application. Only migrated SDK v4 application will be available.
+A: The original Adobe Experience Platform SDK application used in migration will not exist as a separate application. Only migrated SDK v4 application will be available.
 
 ### Q. SDK v4 application is of Organizational unit A (child of Organizational unit ALL) and Adobe Experience Platform SDK is of Organizational unit ALL. How to do the merge? {#v4-org-unit}
 
-A: Administration of **[!UICONTROL Organizational unit]** ALL will have rights to both. Let her do the migration.
+A: Administrators of the **[!UICONTROL Organizational unit]** ALL will have rights to manage both mobile applications. They will be in charge of the migration.
 
 ### Q. SDK v4 application is of Organizational unit A and Adobe Experience Platform SDK application is of Organizational unit B (sibling of Organizational unit A). How to do the migration? {#Adobe Experience Platform-org-unit}
 
-A: Adobe Experience Platform SDK application being the asset of sibling **[!UICONTROL Organizational unit]** will not be visible to the Administrator of **[!UICONTROL Organizational unit]** A. Though such migration option will available to the Administrator of ALL but should not be attempted. Please do the migration of applications in same **[!UICONTROL Organizational unit]** or with parent tree path only.
+A: Adobe Experience Platform SDK application being the asset of sibling **[!UICONTROL Organizational unit]** will not be visible to the Administrator of **[!UICONTROL Organizational unit]** A. Though such migration option will be available to the Administrator of ALL but should not be attempted. Please migrate your mobile applications in a same **[!UICONTROL Organizational unit]** or with a parent tree path only.
