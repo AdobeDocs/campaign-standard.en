@@ -128,13 +128,15 @@ Metacharacters, or wildcards (for example &#42; or ?) can be used to filter file
 Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]** 
 The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to [this page](../../automating/using/customizing-workflow-external-parameters.md).
 
-Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
+Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space.
 
-      >**user&lt;yourinstancename>/my_recipients.csv** is correct.
-      >
-      >**../hello/my_recipients.csv** is incorrect.
-      >
-      >**//myserver/hello/myrecipients.csv** is incorrect.
+For example:
+
+`user&lt;yourinstancename>/my_recipients.csv` is correct.
+
+`../hello/my_recipients.csv` is incorrect.
+
+`//myserver/hello/myrecipients.csv` is incorrect.
 
 ## Historization settings {#historization-settings}
 

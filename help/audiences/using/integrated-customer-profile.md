@@ -19,6 +19,9 @@ To access the integrated customer profile, steps are as follows:
 
 1. To search a profile based on a specific field, open the search pane, then select the field on which you want to perform your search.
 
+
+   ![](assets/profile-search.png)
+
 1. Specify the value that you want to search, then press Enter.
 
       >[!NOTE]
