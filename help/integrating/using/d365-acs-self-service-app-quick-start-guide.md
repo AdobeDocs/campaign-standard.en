@@ -101,7 +101,7 @@ Once your configuration is correct, click the **[!UICONTROL Play]** button next 
 
 >[!IMPORTANT]
 >
->We **strongly** recommend that you first run this in your Stage or Dev environments before running in Production. Please check that the stage/dev intance is selected in the header.
+>We **strongly** recommend that you first run this in your Stage or Dev environments before running in Production. Please check that the stage/dev instance is selected in the header.
 >
 
 ![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
@@ -119,10 +119,10 @@ Select the **ORG** and the **INSTANCE** you want to view/edit. These fields appe
 
 A dropdown menu will be displayed when you click the button with the three horizontal lines ![](assets/d365-to-acs-icon-hamburger.png) on the right hand side of the header.
 
-The entries in the dropdown menu are 
- 
+The entries in the drop-down menu are:
+
 * **Settings**: Selecting this option will send you to a screen that allows you to specify API credentials for Microsoft Dynamics 365 and Adobe Campaign, as well as other general settings for the application.
-   
+
 * **Documentation**: This option is a link to the Adobe Campaign Documentation specific to this integration
 
 * **Customer Care**: This is a link to Experience Cloud documentation related to opening a Customer Care ticket 

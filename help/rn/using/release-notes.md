@@ -13,7 +13,7 @@ topic-tags: campaign-standard-releases
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
-## Release 21.1 - January 2021 {#release-21-1---january-2021}
+## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **What's new?**
 
@@ -28,9 +28,9 @@ topic-tags: campaign-standard-releases
 <td>
 <p>Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.</p>
 <ul>
-<li>All categories of events are captured: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
-<li>Calculation of Sent/ Delivered indicators is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
-<li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of load off from the inMail process.</li>
+<li>All categories of events are captured: Delays, Delivered, To Send, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
+<li>Calculation of the <b>Delivered</b> indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
+<li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of the load from the inMail process.</li>
 </ul>
 <p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#email-feedback-service">detailed documentation</a>.
 </p>
@@ -101,8 +101,6 @@ topic-tags: campaign-standard-releases
 
 * Changed an error to a warning during message preparation, when the limit of 100 content downloads per rolling hour is reached. A warning is now displayed when the limit is reached, which allows to proceed with delivery.
 
-* A new delivery mapping (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the Profile target dimension.
-
 * When enriching a transactional message content, the links are not retrieved anymore when fetching data from the Profile table, which reduces latency during message preparation and avoids empty profile data due to an incorrect relation defined with the profile table.
 
 * The instance technical configuration has been optimized to ensure stability. (CAMP-45681)
@@ -111,7 +109,7 @@ topic-tags: campaign-standard-releases
 
 * The **Transfer file** activity now generates an additional variable (filesCount) that contains the number of uploaded or downloaded files. (CAMP-45842) [Learn more](../../automating/using/transfer-file.md#output-variables)
 
-* The SMS connector can now send multiple optional parameters with each message.
+* The SMS connector can now send multiple optional parameters with each message. [Learn more](../../administration/using/sms-protocol.md)
 
 * Fixed an issue that prevented users with the DATA MODEL role from publishing delivery log extensions. This operation will now be available for the DATA MODEL role. (CAMP-46604)
 
@@ -139,6 +137,7 @@ topic-tags: campaign-standard-releases
 
 **Patches**
 
+* Fixed an issue which caused delivery analysis to fail when sending a transactional push message targeting profiles, by introducing a new [target mapping](../../administration/using/target-mappings-in-campaign.md): **Profile - Real-time event for Push** (*mapRtEventAppSubRcp*). The delivery, exclusion and tracking logs for [transactional push notifications targeting a profile](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) will now be stored in the *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp* tables.
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
 * Fixed an issue with A/B testing which prevented content of variant B from being updated after the delivery template had been modified. (CAMP-45235)
 * Fixed an issue that caused the Transactional messaging process to get stuck, preventing messages from being sent.

@@ -17,7 +17,7 @@ To allow this, Adobe Campaign captures the rendering and makes it available in a
 
 The mobile, messaging and webmail clients available for **Email rendering** in Adobe Campaign are listed on the Litmus [website](https://litmus.com/email-testing) (click **View all email clients**).
 
-## Checking the Email rendering report {#checking-the-email-rendering-report}
+## Generating Email rendering {#checking-the-email-rendering-report}
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 
@@ -60,20 +60,21 @@ The dedicated email rendering report is displayed. See [Email rendering report d
 * [Sending proofs](../../sending/using/sending-proofs.md)
 * [Query editor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Email rendering report description {#email-rendering-report-description}
+## Email rendering report {#email-rendering-report-description}
 
 This report presents the email renderings as they appear to the recipient. Email renderings can differ based upon how the recipient opens the email delivery: in a browser, on a mobile device, or via an email application.
 
->[!NOTE]
->
->The number of available renderings is listed in your license agreement. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one.
->
->Tokens account for each individual rendering and not for the whole Email rendering report, meaning that:
->
->**Each time** the Inbox rendering report is generated, one token per messaging client is deducted: one token for the Outlook 2000 rendering, one for the Outlook rendering, one for the Apple Mail rendering, and so on.
->
->**For the same delivery**, if you generate the Email rendering again, the number of available tokens is again decreased by the number of generated renderings.
+### Email rendering tokens
 
+The number of available renderings is listed in your license agreement. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one.
+
+Tokens account for each individual rendering and not for the whole Email rendering report, meaning that:
+
+* **Each time** the Email rendering report is generated, one token per messaging client is deducted: one token for the Outlook 2000 rendering, one for the Outlook rendering, one for the Apple Mail rendering, and so on.
+
+* **For the same delivery**, if you generate the Email rendering again, the number of available tokens is again decreased by the number of generated renderings.
+
+### Report summary
 
 The report summary presents the number of messages received, unwanted (spam), not received, or pending reception.
 

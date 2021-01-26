@@ -18,7 +18,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Use templates](use-templates.md)** - Facilitate and fasten new deliveries
+**[Use templates](use-templates.md)** - Facilitate and accelerate new deliveries
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 

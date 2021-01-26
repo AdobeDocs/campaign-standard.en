@@ -514,7 +514,7 @@ To know the total throughput limit, multiply this number by the total number of 
 
 0 means no limit, the MTA will send MT as fast as possible.
 
-It is generally recommended to keep this setting under 1000, since it is impossible to guarantee precise throughput above this number unless properly benchmarked on the final architecture and specifically requested SMPP provider. It may be better to increase the number of connections to go above 1000 MT/s.
+It is generally recommended to keep this setting under 1000, since it is impossible to guarantee precise throughput above this number unless properly benchmarked on the final architecture. If you need a throughput above 1000, please contact your provider. It may be better to increase the number of connections to go above 1000 MT/s.
 
 #### Time before reconnection {#time-reconnection}
 

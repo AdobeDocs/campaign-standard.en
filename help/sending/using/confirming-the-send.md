@@ -41,7 +41,7 @@ If you are using a recurring delivery with no aggregation period, you can reques
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-## About message indicators {#message-indicators}
+## Understanding message indicators {#message-indicators}
 
 Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data , including:
 
@@ -71,28 +71,38 @@ Once a message is sent, you can track the behavior of its recipients, and monito
 
 ### Delivered status report {#delivered-status-report}
 
-<!--All messages will show as Sent as soon as they are successfully relayed from Campaign to the Enhanced MTA. They will stay in that state unless or until a bounce for that message is communicated back from the Enhanced MTA to Campaign. You should wait until the end of the validity period to see the final Success percentage, and the final number of Sent and Failed messages. Consequently:-->
+<!--All messages will show as Sent as soon as they are successfully relayed from Campaign to the Enhanced MTA. They will stay in that state unless or until a bounce for that message is communicated back from the Enhanced MTA to Campaign.-->
 
-For the email channel, in the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will start out at 100% and then progressively go down throughout the validity period of the delivery as the soft and hard bounces get reported back<!--from the Enhanced MTA to Campaign-->.
+For the email channel, in the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage starts out at 100% and then progressively goes down throughout the validity period of the delivery, as the soft and hard bounces get reported back<!--from the Enhanced MTA to Campaign-->.
 
-Soft-bouncing messages do not show as **[!UICONTROL Failed]** after day one of the delivery. They will be retried and stay in the retry queue until the end of the delivery [validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters). For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Indeed, all messages show as **[!UICONTROL Sent]** as soon as they are successfully relayed from Campaign to the Enhanced MTA (Message Transfer Agent). They stay in that state unless or until a bounce for that message is communicated back from the Enhanced MTA to Campaign.
 
->[!NOTE]
->
->You should wait until the end of the validity period to see the final **[!UICONTROL Delivered]** percentage, and the final number of actually delivered and failed messages in the [sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
-
-### Email Feedback service (beta) {#email-feedback-service}
-
-With the Email Feedback service capability, the status of each email is accurately reported, because feedback is captured directly from the Enhanced MTA (Message Transfer Agent).
+Soft-bouncing messages do not show as **[!UICONTROL Failed]** after day one of the delivery. They are retried and stay in the retry queue until the end of the delivery [validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters). For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->The Email Feedback service capability is currently available as a beta.
+>You should wait until the end of the validity period to see the final **[!UICONTROL Delivered]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages in the [sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
-Once the delivery has started, there is no change in the **[!UICONTROL Delivered]** percentage when the message is successfully relayed from Campaign to the Enhanced MTA. <!--The delivery logs show the **[!UICONTROL Taken into account by the service provider]** status for the targeted addresses.-->
+### Email Feedback Service (beta) {#email-feedback-service}
 
-<!--Soft-bouncing messages will show as Failed while they are retried on each additional day of the validity period for the delivery. They will stay in the Enhanced MTA retry queue throughout the delivery validity period.??-->
+With the Email Feedback Service (EFS) capability, the status of each email is accurately reported, because feedback is captured directly from the Enhanced MTA (Message Transfer Agent).
 
-Soft-bouncing messages do no increment the error counter and they are not added to the quarantined address list. They are retried and will stay in the retry queue throughout the delivery [validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+>[!IMPORTANT]
+>
+>The Email Feedback Service is currently available as a beta capability.
 
-When the message is actually delivered to the targeted profiles, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Delivered]** percentage is then updated.
+Once the delivery has started, there is no change in the **[!UICONTROL Delivered]** percentage when the message is successfully relayed from Campaign to the Enhanced MTA.
+
+![](assets/efs-sending.png)
+
+The delivery logs show the **[!UICONTROL Pending]** status for the targeted addresses.
+
+![](assets/efs-pending.png)
+
+When the message is actually delivered to the targeted profiles, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Delivered]** percentage is updated accordingly with each successful delivery.
+
+Soft-bouncing messages show as **[!UICONTROL Failed]** as soon as EFS retrieves their status. They do not increment an error counter and they are not added to the quarantined address list.
+
+They are retried and stay in the retry queue throughout the delivery [validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters). If a retry is successful before the end of the validity period, the message status changes to **[!UICONTROL Sent]**. Otherwise, the status remains as **[!UICONTROL Failed]**.
+
+For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
