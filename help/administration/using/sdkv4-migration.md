@@ -20,11 +20,11 @@ context-tags: mobileApp,overview
 ## About the SDK V4 migration
 
 Adobe Campaign Standard processes mobile applications using SDK V4 as separate applications from those using Adobe Experience Platform SDK.
-After upgrading the Adobe SDK version from v4 to Adobe Experience Platform, mobile applications need to continue using application subscriber data and campaigns: a migration is therefore needed.
+After upgrading the Adobe SDK version from v4 to Adobe Experience Platform, mobile applications need to continue using existing application subscriber data and campaigns: a migration is therefore needed.
 
 >[!NOTE]
 >
-> This page documents the migration of a SDK v4 mobile application to a newly created Adobe Experience Platform SDK application. Your SDK v4 mobile applications will not be merged with an Adobe Experience Platform SDK mobile application.
+> This page documents the migration of a SDK v4 mobile application to a newly created Adobe Experience Platform SDK application. Your SDK v4 mobile applications will not be merged with an Adobe Experience Platform SDK mobile application with a **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
 
 | What will not change after the migration |
 |:-:|
@@ -87,7 +87,7 @@ To distinguish the two different types of subscribers, you can add a new custom 
 
 ## FAQ {#faq}
 
-### Q: In the SDK v4 mobile application, the 'Mobile application migration to Adobe Experience Platform SDK' tab is not visible. {#tab-not-visible}
+### Q: In the SDK v4 mobile application, the Mobile application migration to Adobe Experience Platform SDK tab is not visible. {#tab-not-visible}
 
 A: From the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**, check the value of the **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** option. It should be set to 1 and enabled by default. Administrator may have disabled it manually.
 
@@ -120,3 +120,7 @@ A: Administrators of the **[!UICONTROL Organizational unit]** ALL will have the 
 A: Adobe Experience Platform SDK application being the asset of a sibling **[!UICONTROL Organizational unit]**, the mobile application will not be visible to users of the **[!UICONTROL Organizational unit]** A. The mobile application will be available to the Administrators of the **[!UICONTROL Organizational unit]** ALL but we do not recommend these administrators to migrate the mobile application.
 In this case, you should move your mobile applications in the same **[!UICONTROL Organizational unit]** or in an **[!UICONTROL Organizational unit]** with a parent link.
 For more information on **[!UICONTROL Organizational unit]**, please refer to this [section](../../administration/using/organizational-units.md).
+
+### Q: From your Adobe Experience Platform SDK mobile application (migrated from your v4 mobile application) page, under the Push channel settings drop-down, no information such as uploaded date/name is displayed for the Android key or iOS certificate {#no-information-v5}
+
+A: The system does not store this information when the SDK V4 mobile application is created. When migrating your SDK V4 mobile application to an Adobe Experience Platform SDK mobile application, your migrated mobile application will not have this kind of information either. As soon as a user will upload a new iOS certificate or Android key, the different details of the key or certificate will be stored and displayed correctly under the **[!UICONTROL Push channel settings]** drop-down.
