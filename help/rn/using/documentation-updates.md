@@ -13,7 +13,7 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-## Release 21.1 - January 2021 {#release-21-1---january-2021}
+## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **New capabilities included in the release**
 
