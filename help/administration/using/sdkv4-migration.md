@@ -42,24 +42,23 @@ This feature will enable them to do this by single click. The feature is migrati
 
 ## Migrate your mobile application from SDK v4 to Adobe Experience Platform SDK {#how-to-migrate}
 
-Before migrating
+Before migrating, you should take into account the following recommendations:
 
 * The migration process is irreversible.
-* It is advisable not to run migration of multiple application in parallel. Also make migration of same application is not triggered by multiple window at the same time.
-* Before migration make sure that you have rights to **[!UICONTROL Organizational unit]** of application which you are migrating and the Adobe Experience Platform application which you are using for migration.
-* The application will become a Adobe Experience Platform SDK application after migration and its changes will be linked to Launch Property.
+* You should not run migration of multiple application at the same time. You should also make sure the migration of a same application is not triggered by multiple window at the same time.
+* Before migration make sure that you have permission to the **[!UICONTROL Organizational unit]** of the mobile application you want to migrate and of the Adobe Experience Platform application you are using for migration.
+* After migration, the application will become an Adobe Experience Platform SDK application. Its changes will be linked to its corresponding **[!UICONTROL Launch Property]**.
 
-1. Create a new mobile property in the Adobe Experience Platform Launch. For more information on this, refer to [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Create a new **[!UICONTROL Mobile property]** in the Adobe Experience Platform Launch. For more information on this, refer to [Adobe Experience Platform Launch documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** and open the **[!UICONTROL syncWithLaunch]** workflow. Check if the workflow has ended without error.
-1. After workflow completion, check if the mobile application is available in Adobe Campaign Standard and is in **[!UICONTROL Ready to Configure]** state.
-1. Go to the v4 SDK application which you want to migrate.
-1. Select the `Mobile application migration to Adobe Experience Platform SDK` tab.
-1. From the list of available Adobe Experience Platform applications, select the application created in step 1-3.
-1. Press the 'Migrate' button after selecting the Adobe Experience Platform SDK app from the list.
-1. On pressing the 'Migrate' Button confirm dialog is shown. Press 'OK' on it.
-The successful completion dialog is shown and press 'Go to Adobe Experience Platform SDK Channel list' button of the dialog.
-On pressing 'Go to Adobe Experience Platform SDK channel list' Adobe Experience Platform SDK channel list page is opened where the migrated v4 app is visible in Ready To Configure state.
-1. Open it and press save to complete the migration.
+1. After workflow completion, from the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** menu, check if the mobile application is available in Adobe Campaign Standard and is in **[!UICONTROL Ready to Configure]** state.
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)**, select the SDK V4 application you want to migrate.
+1. Select the **[!UICONTROL Mobile application migration to AEP SDK]** tab.
+1. From the **[!UICONTROL Select AEP SDK mobile application to merge current application with]** drop-down, select the Adobe Experience Platform SDK mobile application previously created.
+1. Click **[!UICONTROL Migrate]** and select **[!UICONTROL Ok]**.
+1. The successful completion window appears appears, click **[!UICONTROL Go to Adobe Experience Platform SDK Channel list]**.
+1. From the Adobe Experience Platform SDK channel list page, check that your previous V4 mobile application is set to **[!UICONTROL Ready To Configure]**.
+1. Select your mobile application and click **[!UICONTROL Save]** to complete the migration.
 
 Additional good to have steps:
 
