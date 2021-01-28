@@ -97,6 +97,8 @@ topic-tags: campaign-standard-releases
 
 * A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This is done to avoid further degradation of performance and mitigate the risk of an outage. Please try rescheduling this workflow to a time of less activity and try again. The workflow will auto-resume once the server stress is relaxed. Note that this option is read-only and cannot be modified. [Learn more](../../automating/using/best-practices-workflows.md#execution)
 
+* A new process is available in Adobe Campaign Standard which allows you to migrate more easily from SDK V4 mobile application to Adobe Experience Platform SDK mobile. Refer to [this page](../../administration/using/sdkv4-migration.md).
+
 **Other changes**
 
 * Changed an error to a warning during message preparation, when the limit of 100 content downloads per rolling hour is reached. A warning is now displayed when the limit is reached, which allows to proceed with delivery.
