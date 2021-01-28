@@ -21,7 +21,7 @@ Only users with the **[!UICONTROL Start deliveries]** role can confirm send. For
 
 ## Sending the message {#sending-message}
 
-Once ready, follow the steps below to send your message.
+Once preparation is complete, follow the steps below to send your message.
 
 1. Click the **[!UICONTROL Confirm send]** button found in the message's action bar.
 
@@ -31,7 +31,7 @@ Once ready, follow the steps below to send your message.
 
     ![](assets/confirm_delivery1.png)
 
-The message is being sent. The **[!UICONTROL Deployment]** block shows the progress of the send.
+1. Wait while the message is being sent. The **[!UICONTROL Deployment]** block shows the progress of the send.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ If you are using a recurring delivery with no aggregation period, you can reques
 
 ## Understanding message indicators {#message-indicators}
 
-Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data , including:
+Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data, including:
 
 * The number of messages to deliver
 * The number of messages sent
@@ -128,3 +128,11 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
 For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
+
+| Step | KPI summary<br>without EFS | Sending logs status<br>without EFS | KPI summary<br>with EFS | Sending logs status<br>with EFS |
+|--- |--- |--- | --- | --- |
+| Message is successfully relayed from Campaign to the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage starts out at 100%</li><li>**[!UICONTROL Bounces + errors]** percentage starts out at 0%</li></ul>| Sent | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Pending |
+| Hard-bouncing messages get reported back from the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage is decreased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
+| Soft-bouncing messages get reported back from the Enhanced MTA | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Sent | <ul><li>**[!UICONTROL Delivered]** percentage remains unchanged</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
+| Soft-bouncing messages retries successful | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Sent | <ul><li>**[!UICONTROL Delivered]** percentage is increased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is decreased accordingly</li></ul> | Sent |
+| Soft-bouncing messages retries failed | <ul><li>**[!UICONTROL Delivered]** percentage is decreased accordingly</li><li>No change in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Failed | <ul><li> No change in **[!UICONTROL Delivered]** percentage </li><li> No change in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Failed |
