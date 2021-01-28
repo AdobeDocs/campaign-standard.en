@@ -12,7 +12,7 @@ The **[!UICONTROL Workflows]** page lists the technical workflows and their stat
 
 The integration application comes with three workflows:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 to Campaign**
 * Send *contacts* from Microsoft Dynamics 365 into Adobe Campaign
@@ -64,4 +64,4 @@ Possible actions are listed below.
  
  A warning indication is added to the **Stop** button to let you know when you have (a) made updates to workflow, but (b) have not done a Stop/Start of this workflow. 
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)

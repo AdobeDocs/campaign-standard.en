@@ -16,7 +16,7 @@ The **[!UICONTROL Settings]** screen allows you to specify Microsoft Dynamics 36
 
 The Microsoft Dynamics 365 Credentials give the integration application permission to pull your data from Microsoft Dynamics 365.  You must first follow the steps on the screen [Configure Microsoft Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md) in order to generate the values that will be pasted into this screen. The inputs described below will reference this screen.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**: Learn how to reference your Client ID in [this section](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app) 
 
@@ -32,7 +32,7 @@ The Adobe Campaign credentials are generated using [Adobe I/O](https://www.adobe
 
 The following image will explain in detail the mapping between Adobe I/O and the settings screen inputs.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *Private Key*: the process to to define this starts by clicking the "Generate public/private keypair" button. This will create a zip file that you must download. Once you download it then unzip the file which will result in two files named certificate_pub.crt and private.key. Make sure to put the private.key in a secure place and do not share it. Open the private.key file in a text editor. Copy the entire value in the text editor (ctrl-A then ctrl-C on a PC, or  cmd-A then cmd-C on a Mac). This should include the lines with "BEGIN PRIVATE KEY" and "END PRIVATE KEY" in their entirety. Paste this entire, multi-line text into the "Private Key" input in the Settings screen.
 
@@ -51,7 +51,7 @@ The other reason to setup the SFTP server would be if you plan on running the op
 
 To define Campaign SFTP settings for the Microsoft Dynamics 365 integration, access the following section:
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 You need to specify:
 
