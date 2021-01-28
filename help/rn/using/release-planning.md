@@ -35,11 +35,11 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Jan 25 - 27, 2021<br /> </td>
+   <td>Feb 1 - 2, 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>Feb 1 - 8, 2021<br /> </td>
+   <td>Feb 8 - 15, 2021<br /> </td>
   </tr>
  </tbody>
 </table>

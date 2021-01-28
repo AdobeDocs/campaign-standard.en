@@ -19,7 +19,7 @@ You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign 
 
 The **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page shows a list of entities in Microsoft Dynamics 365 and the custom resources in Adobe Campaign they will be synchronized with. You can add new mappings, edit or delete existing mappings. 
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 Here is a description of each of the columns in this table:
 
@@ -58,7 +58,7 @@ To create a new mapping, follow the steps below:
 1. Use the drop-down lists to select Microsoft Dynamics 365 and Campaign tables to map. 
   Most of the other inputs on the page will be dependent on which tables you choose. 
 
-      ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+      ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
   
     >[!NOTE]
     >You cannot map each table more than once. Therefore, you will notice that the dropdown selections will not include tables that have already been mapped.
@@ -75,7 +75,7 @@ You can then proceed with the mapping configuration. [Learn more](#new-mapping-s
 
 If you edit an existing mapping then you will see that the table selections are not editable.   
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 This is by design because the inputs further down in the page are based on the fields associated with these tables. Changing the tables would make all the fields associated with these tables invalid.  If you want to change the table to map to, you will need to return to the previous page, delete the mapping you want to change, and add a new mapping.
 
@@ -97,7 +97,7 @@ You can define the following settings:
 
 When adding a new Microsoft Dynamics 365 to Campaign table mapping, you need to identify the ID field. 
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 The Microsoft Dynamics 365 primary key is read-only because the application will detect it. 
 
@@ -109,7 +109,7 @@ For Campaign, you need to select which field will be the unique key. It must be 
 
 The primary keys will always be the first field names listed in the **[!UICONTROL Field Mappings]** section. As a reminder, the following icon is listed to the right to remind you that these are the primary keys.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### Add other field mappings
 
@@ -117,14 +117,14 @@ The **[!UICONTROL Field Mappings]** section allows you to add field mappings oth
 
 Select Microsoft Dynamics 365 and Campaign fields in the lists:
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 These lists contain the field names that are associated with the Microsoft Dynamics 365 and Campaign tables you have selected at the top of the page. 
 
 The **[!UICONTROL Apply updates]** switcher allows you to control whether updates to this field will be propagated from Microsoft Dynamics 365 to Campaign:
-* If it is switched on ![](assets/d365-to-acs-icon-switch-on.png), updates to the value(s) in Microsoft Dynamics 365 will be propagated to Adobe Campaign as the updates occur. 
+* If it is switched on ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), updates to the value(s) in Microsoft Dynamics 365 will be propagated to Adobe Campaign as the updates occur. 
 
-* If you switched off ![](assets/d365-to-acs-icon-switch-off.png), the value will be propagated when data is initially loaded (or replayed), but incremental updates to the field in Microsoft Dynamics 365 will not be propagated.  
+* If you switched off ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png), the value will be propagated when data is initially loaded (or replayed), but incremental updates to the field in Microsoft Dynamics 365 will not be propagated.  
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ The **[!UICONTROL Apply updates]** switcher allows you to control whether update
 
 When you select field values, you will see the data type show up below the drop down menus.   This is something to keep in mind when mapping values from one field to the other.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png) 
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png) 
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ The **[!UICONTROL Campaign to Microsoft Dynamics 365]** page allows you to ident
 
 The four metrics that you are able to control are: **Sends**, **Clicks**, **Opens**, and **Bounces**. 
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png) 
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png) 
 
 Select **Yes** to confirm that you do want events of that type to flow to Microsoft Dynamics 365. 
 
@@ -199,7 +199,7 @@ Learn more about Opt-out management in [this section](../../integrating/using/d3
 
 Remember that you need to click "Save" to save your selections. Also remember that you must stop the **Campaign to Microsoft Dynamics 365** workflow and then click play for the integration to incorporate your changes.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Opt in/out synchronization direction
 

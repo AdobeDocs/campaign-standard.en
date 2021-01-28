@@ -28,9 +28,9 @@ topic-tags: campaign-standard-releases
 <td>
 <p>Email Feedback Service (EFS) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This capability is released as a private beta and will be progressively available to all customers in future releases.</p>
 <ul>
-<li>All categories of events are captured: Delays, Delivered, To Send, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).</li>
+<li>All categories of feedback are now captured for complete and precise reporting.</li>
 <li>Calculation of the <b>Delivered</b> indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
-<li>EFS solves the problem of synchronous bounces reporting delays and takes 80% of the load from the inMail process.</li>
+<li>EFS solves the problem of delays with synchronous soft bounces reporting.</li>
 </ul>
 <p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#email-feedback-service">detailed documentation</a>.
 </p>
@@ -95,7 +95,9 @@ topic-tags: campaign-standard-releases
 
 * A new function (GetOption) is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function. [Learn more](../../automating/using/customizing-workflow-external-parameters.md)
 
-* A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This is done to avoid further degradation of performance and mitigate the risk of an outage. Please try rescheduling this workflow to a time of less activity and try again. The workflow will auto-resume once the server stress is relaxed. Note that this option is read-only and cannot be modified.
+* A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This is done to avoid further degradation of performance and mitigate the risk of an outage. Please try rescheduling this workflow to a time of less activity and try again. The workflow will auto-resume once the server stress is relaxed. Note that this option is read-only and cannot be modified. [Learn more](../../automating/using/best-practices-workflows.md#execution)
+
+* A new process is available in Adobe Campaign Standard which allows you to migrate more easily from SDK V4 mobile application to Adobe Experience Platform SDK mobile. Refer to [this page](../../administration/using/sdkv4-migration.md).
 
 **Other changes**
 
