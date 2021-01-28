@@ -37,10 +37,10 @@ After upgrading the Adobe SDK version from v4 to Adobe Experience Platform, mobi
 
 | What will change after the migration |
 |:-:|
-| The mobile application will be available in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. Before migration, it was available in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)**.  |
+| The mobile application will be available in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. Before migration, it was available in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**.  |
 | The **[!UICONTROL Collect PII Endpoint]** of the application will change. The older **[!UICONTROL Collect PII Endpoint]** will continue to work, sent data will not be lost. |
 | The application will be tied to an Adobe Experience Platform Launch **[!UICONTROL Mobile Property]**. It will be processed as a newly created mobile application.  |
-|  The original Adobe Experience Platform SDK application used in the migration will not exist as a separate application. Only the migrated SDK v4 application will be available. |
+| The original Adobe Experience Platform SDK application used in the migration will not exist as a separate application. Only the migrated SDK v4 application will be available. |
 
 ## Migrate your mobile application from SDK v4 to Adobe Experience Platform SDK {#how-to-migrate}
 
@@ -59,7 +59,7 @@ Before migrating, you should take into account the following recommendations:
 
     ![](assets/aep_v4_2.png)
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)**, select the SDK V4 application you want to migrate.
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**, select the SDK V4 application you want to migrate.
 
 1. Select the **[!UICONTROL Mobile application migration to AEP SDK]** tab.
 
@@ -107,7 +107,7 @@ A: Migration process retains the SDK v4 subscribers and attributes. It only keep
 
 A: The mobile application after migration will be visible from the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
 
-### Q: After the migration, where can I found my newly created Adobe Experience Platform SDK application? {#Adobe Experience Platform-not-visible}
+### Q: After the migration, where can I found my newly created Adobe Experience Platform SDK application? {#aep-not-visible}
 
 A: The newly created Adobe Experience Platform SDK application used for the migration will not exist as a separate application. Only the migrated SDK v4 application will be available.
 
@@ -115,7 +115,7 @@ A: The newly created Adobe Experience Platform SDK application used for the migr
 
 A: Administrators of the **[!UICONTROL Organizational unit]** ALL will have the rights to manage both mobile applications and will be in charge of the migration.
 
-### Q: If the SDK v4 mobile application Organizational unit is set to A and the Adobe Experience Platform SDK application is set to B (a sibling of the Organizational unit A). How can I migrate my mobile application? {#Adobe Experience Platform-org-unit}
+### Q: If the SDK v4 mobile application Organizational unit is set to A and the Adobe Experience Platform SDK application is set to B (a sibling of the Organizational unit A). How can I migrate my mobile application? {#aep-org-unit}
 
 A: Adobe Experience Platform SDK application being the asset of a sibling **[!UICONTROL Organizational unit]**, the mobile application will not be visible to users of the **[!UICONTROL Organizational unit]** A. The mobile application will be available to the Administrators of the **[!UICONTROL Organizational unit]** ALL but we do not recommend these administrators to migrate the mobile application.
 In this case, you should move your mobile applications in the same **[!UICONTROL Organizational unit]** or in an **[!UICONTROL Organizational unit]** with a parent link.
