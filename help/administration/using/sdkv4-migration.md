@@ -83,7 +83,8 @@ Before migrating, you should take into account the following recommendations:
 
 After this migration, subscribers collected by the V4 version of the mobile application and new subscribers collected by the AEP version of the mobile application will be available in the migrated application.
 
-To distinguish the two different types of subscribers, you can add a new custom field of Text type in the **Subscriptions to an application** as `sdkversion` or `appVersion` for example. You will then need to configure the associated Launch **[!UICONTROL Mobile property]** to send this custom field value in the Collect PII call and change your mobile application configuration accordingly.
+To distinguish the two different types of subscribers, you can add a new custom field of **[!UICONTROL Text]** type when extending the custom resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** as `sdkversion` or `appVersion` for example. For more information on how to extend a custom resource, refer to this [page](../../developing/using/creating-or-extending-the-resource.md).
+You will then need to configure the associated Launch **[!UICONTROL Mobile property]** to send this custom field value in the Collect PII call and change your mobile application configuration accordingly.
 
 ## FAQ {#faq}
 
