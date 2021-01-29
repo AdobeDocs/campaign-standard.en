@@ -333,7 +333,7 @@ Bounces can have the following qualification statuses:
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### Delivered status report {#legacy-delivered-status-report}
+### Delivered indicator reporting {#legacy-delivered-status-report}
 
 In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will progressively go up throughout the validity period of the delivery, as the soft and hard bounces get reported back.
 
