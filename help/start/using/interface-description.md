@@ -58,11 +58,11 @@ The navigation principles are:
 
 ### Help {#help}
 
-The **Help** icon brings Adobe Experience League into the product.
+On the top-right corner, the **Help** icon brings Adobe Experience League into the product.
 
   ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** field: search results include documentation and help articles, results from community forums and more video content, giving you easier access to more content to help get the most out of the application.
+Use the **[!UICONTROL Search]** field to find guidance. Search results include documentation and help articles, results from community forums and video content, giving you easier access to more content to help get the most out of the application.
 
 Three tabs help you to find help and assistance:
 
