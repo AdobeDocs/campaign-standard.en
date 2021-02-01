@@ -15,6 +15,7 @@ title: Campaign Standard Guide
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
+  + [Early Release Notes](rn/using/early-release-notes.md)
   + Previous Releases {#previous-releases}
     + [Release Notes 2020](rn/using/release-notes-2020.md)
     + [Release Notes 2019](rn/using/release-notes-2019.md)
