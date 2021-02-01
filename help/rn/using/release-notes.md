@@ -48,8 +48,8 @@ topic-tags: campaign-standard-releases
 <tbody> 
 <tr> 
 <td>
-<p>The integration with Adobe Experience Manager has been improved: you can now import multilingual content more easily from Adobe Experience Manager. Adobe Campaign Standard now automatically detects language variants from Adobe Experience Manager content and allows for bulk variant import and creation, significantly simplifying the number of steps that a practitioner needs to go through to create a multilingual campaign based on Adobe Experience Manager content.
-</p>
+<p>Campaign integration with Adobe Experience Manager has been improved: you can now import multilingual content more easily from Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard now automatically detects language variants from Adobe Experience Manager content and allows for bulk variant import and creation, significantly simplifying the number of steps that a practitioner needs to go through to create a multilingual campaign based on Adobe Experience Manager content.</p>
 <p>For more information refer to the <a href="../../integrating/using/creating-multilingual-email-aem.md">detailed documentation</a>.
 </p>
 </td> 
@@ -81,23 +81,19 @@ topic-tags: campaign-standard-releases
 
 **Improvements**
 
-* Microsoft Dynamics 365 integration has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/d365-acs-get-started.md)
-
-* Fixed an issue that caused deliveries to run very slowly because of certain processes. This was due to incorrect units defined for several parameters (milliseconds instead of seconds for example).
-
-* Fixed an issue when the Mobile SDK sent an open tracking request based on the condition that deliveryId/MessageID is not null. This would result in 404 errors for deliveries with tracking disabled. An additional variable (acsDeliveryTracking) with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status. [Learn more](../../administration/using/push-tracking.md)
+* **Microsoft Dynamics 365 integration** has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/d365-acs-get-started.md)
 
 * An improvement has been made to facilitate troubleshooting when encountering issues with the Transactional messaging process. Adobe technical administrators can now use tracing on any process without restarting it.
 
-* The Profiles list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter. [Learn more](../../audiences/using/integrated-customer-profile.md)
+* The **Profiles** list now allows you to search for records based on one of these fields: email, first name, last name or custom fields that have been added in advanced filtering when extending the profile resource. This feature is also available in Campaign Standard APIs using the filterType parameter. [Learn more](../../audiences/using/integrated-customer-profile.md)
 
 * A parameter has been adjusted to the number of containers running the Transactional messaging database pooling process. This allows the load to be uniformly distributed across all the containers that are used and reach optimal performance.
 
-* A new function (GetOption) is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function. [Learn more](../../automating/using/customizing-workflow-external-parameters.md)
+* A new **GetOption** function is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function. [Learn more](../../automating/using/customizing-workflow-external-parameters.md)
 
-* A new technical option has been added. It allows Campaign Standard to check if there is enough physical memory available on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This is done to avoid further degradation of performance and mitigate the risk of an outage. Please try rescheduling this workflow to a time of less activity and try again. The workflow will auto-resume once the server stress is relaxed. Note that this option is read-only and cannot be modified. [Learn more](../../automating/using/best-practices-workflows.md#execution)
+* A new option allows Campaign Standard to **check physical memory** availablity on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This avoids further degradation of performance and mitigate the risk of an outage. The workflow will auto-resume once the load on the server comes down and the memory increases. Note that this option is read-only and cannot be modified. [Learn more](../../automating/using/best-practices-workflows.md#execution)
 
-* A new process is available in Adobe Campaign Standard which allows you to migrate more easily from SDK V4 mobile application to Adobe Experience Platform SDK mobile. Refer to [this page](../../administration/using/sdkv4-migration.md).
+* A new process is available in Adobe Campaign Standard which allows you to migrate more easily from the legacy SDK v4 mobile application to **Adobe Experience Platform Mobile SDK**. Refer to [this page](../../administration/using/sdkv4-migration.md).
 
 **Other changes**
 
@@ -113,13 +109,11 @@ topic-tags: campaign-standard-releases
 
 * The SMS connector can now send multiple optional parameters with each message. [Learn more](../../administration/using/sms-protocol.md)
 
-* Fixed an issue that prevented users with the DATA MODEL role from publishing delivery log extensions. This operation will now be available for the DATA MODEL role. (CAMP-46604)
-
-* Fixed an issue in workflows that could occur when copy-pasting a **Deduplication** activity that had been executed once and that leveraged a temporary resource. Once duplicated, the activity's resource was automatically set to empty, leading to issues in other activities of the workflow. Once pasted, the activity's resource will now remain the same, in order for the error to be triggered as soon as possible rather than later in the workflow. (CAMP-46903)
+* Users with the DATAMODEL role can now publish delivery log extensions. (CAMP-46604)
 
 * The error message that displayed when trying to publish a resource targeting a custom resource that does not exist anymore has been made clearer. (CAMP-46893)
  
-* The following languages have been added to the Preferred language list: Indonesian - Indonesia (in-id), English – Sweden (en-se), English – Asia Pacific (en-ap), English - Japan (en-jp), Spanish – Latin America (es-la). (CAMP-46351)
+* The following languages have been added to the **Preferred language** list: Indonesian - Indonesia (in-id), English – Sweden (en-se), English – Asia Pacific (en-ap), English - Japan (en-jp), Spanish – Latin America (es-la). (CAMP-46351)
 
 * The picker for profiles selection when testing a landing page will now use the profilBase resource instead of profile to prevent timeout.
 
@@ -129,15 +123,21 @@ topic-tags: campaign-standard-releases
 
 * Improved warning or error messages in delivery preparation logs.
 
-* Improved error logs when trying to connect to IMS.
+* Improved error logs when trying to connect to Adobe Identity Management Service (IMS).
 
-* You can now further filter the Delivery and Campaign dimensions using the search bar in Dynamic reporting.
+* You can now further filter the **Delivery** and **Campaign** dimensions using the search bar in Dynamic reporting.
 
 * The transactional SMS message validity date can now be defined by the value set for the expiration parameter in the Transactional Messages API. (CAMP-36600)
 
 * In Dynamic reporting, the **Delivery summary** built-in report was showing incorrect data for the unsubscribed rate metric. A new metric named **Unique unsubscription** has been added to fix this. (CAMP-46445)
 
 **Patches**
+
+* Fixed an issue that caused deliveries to run very slowly because of certain processes. This was due to incorrect units defined for several parameters (milliseconds instead of seconds for example).
+
+* Fixed an issue when the Mobile SDK sent an open tracking request based on the condition that deliveryId/MessageID is not null. This would result in 404 errors for deliveries with tracking disabled. An additional variable (acsDeliveryTracking) with information on the tracking status of the delivery is now sent in the payload. This variable can have two values on or off depending on the set tracking status. [Learn more](../../administration/using/push-tracking.md).
+
+* Fixed an issue in workflows that could occur when copy-pasting a **Deduplication** activity that had been executed once and that leveraged a temporary resource. Once duplicated, the activity's resource was automatically set to empty, leading to issues in other activities of the workflow. Once pasted, the activity's resource will now remain the same, in order for the error to be triggered as soon as possible rather than later in the workflow. (CAMP-46903)
 
 * Fixed an issue which caused delivery analysis to fail when sending a transactional push message targeting profiles, by introducing a new [target mapping](../../administration/using/target-mappings-in-campaign.md): **Profile - Real-time event for Push** (*mapRtEventAppSubRcp*). The delivery, exclusion and tracking logs for [transactional push notifications targeting a profile](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) will now be stored in the *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp* tables.
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
@@ -184,34 +184,34 @@ topic-tags: campaign-standard-releases
    The 'profile/xxxx' field used in the filter 'xxxxx' does not exist in custom resource 'xxx'
 ```
 
-* Fixed an issue where Push notification preparation was taking too much time to be completed. This was caused by a missing index on the transient working tables.
+* Fixed an issue where **Push notification preparation** was taking too much time to be completed. This was caused by a missing index on the transient working tables.
 * Fixed an error which could occur when using the **Dimension to reconciliate** option in a **Reconciliation** activity in a workflow if a relation was already defined between a custom resource and a profile resource.
 * Fixed an issue which occurred when adding links through a **Reconciliation** or **Enrichment** activity. Chosen links were not displayed in the output transition.
 * Fixed an issue when using a **Segmentation** activity with recurring deliveries in a workflow which caused the delivery to be sent to the wrong audience. (CAMP-46275, CAMP-46470)
 * Fixed an error where custom resources publication failed when trying to extend the Profile resource to create custom profile dimensions for Dynamic reporting. (CAMP-46266)
 * Fixed an error which occurred when adding a link to a File import table. After adding an **Enrichment** activity to the **File import** activity, the link previously configured disappeared. (CAMP-46557)
-* Fixed an issue when using custom resources linked to Profile data where the display order in the Detail configuration screen was changed when saving. (CAMP-46312)
-* Fixed an issue which could prevent you from displayed data in dynamic reporting due to deliveries based on a custom delivery mapping.
-* Fixed an error which could prevent you from selecting a collection with an incorrect resource target in a workflow query activity.  
+* Fixed an issue when using custom resources linked to Profile data where the display order in the **Details** configuration screen was changed when saving. (CAMP-46312)
+* Fixed an issue which could prevent you from displaying data in dynamic reporting due to deliveries based on a custom delivery mapping.
+* Fixed an error which could prevent you from selecting a collection with an incorrect resource target in a workflow **Query** activity.  
 * Fixed an issue which could cause the InMail process to validate hard bounces incorrectly.
 * Fixed an error which occurred when opening a profile screen due to a link error.
 * Fixed an issue which could prevent you from deleting GDPR data from the cleanup workflow.
-* Fixed an error which occurred when the scheduling configuration was manually updated with tye keyboard in email delivery schedule parameters.
+* Fixed an error which occurred when the scheduling configuration was manually updated with the keyboard in email delivery schedule parameters.
 *  Fixed an issue which could prevent you from editing a profile due to incorrect parameters in the Organizational unit.
-* Fixed an issue which let the Service extension field empty and impossible to set in the Email properties, even if it was set in the delivery template.
+* Fixed an issue which let the **Service** extension field empty and impossible to set in the **Email properties**, even if it was set in the delivery template.
 * Fixed an issue which could result in proofs taking longer to be processed. (CAMP-45048)
 * Fixed an issue which could prevent you from sorting columns in a profile overview screen.
 * Fixed a thumbnail generation issue which could occur on Azure in email variants containing Chinese characters. (CAMP-47152)
-* Fixed a regression introduced in 20.4 which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
+* Fixed a regression introduced in Campaign 20.4 which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
 * Fixed an issue which could prevent you from importing HTML content into a transactional message template. (CAMP-47318)
-* Fixed an issue that could slow down the display of the renderings in the Email rendering report. (CAMP-46226)
+* Fixed an issue that could slow down the display of the renderings in the **Email rendering report**. (CAMP-46226)
 * Fixed an issue which could prevent you from publishing custom resources configured with a List-type element in the screen definition. (CAMP-47217)
-* Fixed an issue in the Email Designer which prevented line dividers from rendering correctly in Microsoft Outlook when placed at the top of the email content. (CAMP-46294)
-* Fixed an issue that caused the KPIs reconciliation with Adobe Analytics technical workflow to get stuck. (CAMP-46576) 
-* Fixed an issue in the Email Designer that prevented fragments from being automatically displayed in search boxes when inserting content blocks. (CAMP-44205)
-* Fixed an issue in the Email Designer that caused unwanted characters to be displayed in sent emails when using emojis in fragments. (CAMP-46621)
-* Fixed regression introduced in 20.4 in the Email Designer impacting the Divider component, which resulted in additional line heights and image distorsions in content. (CAMP-46663)
-* Fixed an issue that forced the out-of-the-box buttons to remain centered when the message was sent to an Outlook mailbox, even though these buttons were aligned to the right or left in Email Designer. (CAMP-46466) 
-* Fixed an issue that prevented the list of test profiles from refreshing when searching profiles in the Email Designer preview. (CAMP-45265)
-* Fixed an issue that prevented custom test profiles from displaying in the list when searching profiles in the Email Designer preview. (CAMP-45589)
-* Fixed an issue that caused mismatching dates to be displayed when generating trend graphics from the delivery summary report. (CAMP-45521)
+* Fixed an issue in the Email Designer which prevented line dividers from rendering correctly in **Microsoft Outlook** when placed at the top of the email content. (CAMP-46294)
+* Fixed an issue that caused the KPIs reconciliation with **Adobe Analytics** technical workflow to get stuck. (CAMP-46576) 
+* Fixed an issue in the **Email Designer** that prevented fragments from being automatically displayed in search boxes when inserting content blocks. (CAMP-44205)
+* Fixed an issue in the **Email Designer** that caused unwanted characters to be displayed in sent emails when using emojis in fragments. (CAMP-46621)
+* Fixed regression introduced in 20.4 in the **Email Designer** impacting the Divider component, which resulted in additional line heights and image distorsions in content. (CAMP-46663)
+* Fixed an issue that forced the out-of-the-box buttons to remain centered when the message was sent to an Outlook mailbox, even though these buttons were aligned to the right or left in **Email Designer**. (CAMP-46466) 
+* Fixed an issue that prevented the list of test profiles from refreshing when searching profiles in the **Email Designer** preview. (CAMP-45265)
+* Fixed an issue that prevented custom test profiles from displaying in the list when searching profiles in the **Email Designer** preview. (CAMP-45589)
+* Fixed an issue that caused mismatching dates to be displayed when generating trend graphics from the **Delivery summary report**. (CAMP-45521)
