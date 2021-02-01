@@ -44,7 +44,7 @@ The **[!UICONTROL Diagnosis]** menu is a key tool to monitor and analyze the dif
 Export audits allow you to monitor the exports performed on your instances: files uploaded from workflows, list exports, and files downloaded from direct mail messages.
 [Read more](../../administration/using/auditing-export-logs.md)
 
-**Licences**
+**Licenses**
 With the **[!UICONTROL Licenses]** menu, monitor information about your instances: installed licenses, build versions and terms agreement acceptances.
 [Read more](../../administration/using/licenses.md)
 
@@ -57,11 +57,11 @@ Following best practices and troubleshooting guidelines when using workflows can
 [Read more](../../automating/using/best-practices-workflows.md)
 
 **Logs and tasks**
-Worklow logs monitoring is a key step to analyze your workflows and make sure they are running properly.
+Workflow logs monitoring is a key step to analyze your workflows and make sure they are running properly.
 [Read more](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **Notifications**
-Campaign Standard allows you to send notifications to supervisors in order to monitor your workfows' execution and see if there is any error that requires your attention.
+Campaign Standard allows you to send notifications to supervisors in order to monitor your workflows' execution and see if there is any error that requires your attention.
 [Read more](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Monitoring deliveries {#monitoring-deliveries}
@@ -69,7 +69,7 @@ Campaign Standard allows you to send notifications to supervisors in order to mo
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **Deliverability**
-Campaign Standard provides several deliverability tools to help you improve the number of successfully delivered messages: delivery thoughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
+Campaign Standard provides several deliverability tools to help you improve the number of successfully delivered messages: delivery throughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
 [Read more](../../sending/using/about-deliverability.md)
 
 **Deliveries**
@@ -81,5 +81,5 @@ With the Delivery alerting feature, you can set up alerts that will be automatic
 [Read more](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Dynamic reporting**
-Dynamic reporting provides various reports to help you being kept informed of how your deliveries are performing: bounces, most viewed deeliveries by recipients, deliveries' throughput, etc.
+Dynamic reporting provides various reports to help you being kept informed of how your deliveries are performing: bounces, most viewed deliveries by recipients, deliveries' throughput, etc.
 [Read more](../../reporting/using/about-dynamic-reports.md)

@@ -231,6 +231,7 @@ title: Campaign Standard Guide
        + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)
        + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
        + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+       + [Creating a multilingual email with the Adobe Experience Manager integration](integrating/using/creating-multilingual-email-aem.md)
   + Campaign and Target {#working-with-campaign-and-target}
        + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
        + [Configuring the Campaign-Target integration](integrating/using/configuring-the-campaign-target-integration.md)
@@ -444,6 +445,7 @@ title: Campaign Standard Guide
        + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
        + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
        + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+       + [How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
   + Configuring SMS channel {#configuring-sms}
        + [Implementing the SMS channel](administration/using/configuring-sms-channel.md)
        + [SMS connector protocol and settings](administration/using/sms-protocol.md)

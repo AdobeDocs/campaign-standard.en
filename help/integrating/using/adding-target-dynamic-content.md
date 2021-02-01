@@ -41,7 +41,7 @@ Before accessing the image in Adobe Campaign, the following tasks must first be 
 
 1. Preview your email to see if, when selecting different profiles, the image inserted changes depending on the parameters specified in the Adobe Target activity and in Adobe Campaign.
 
-Your delivery containing the dynamic image can now be send. Its results can be found in Adobe Target.
+Your delivery containing the dynamic image can now be sent. Its results can be found in Adobe Target.
 
 **Related topics:**
 

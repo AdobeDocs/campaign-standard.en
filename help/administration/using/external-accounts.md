@@ -94,7 +94,7 @@ For a OAuth 2.0 external account, provide the following details:
 * **OAuth 2.0 sensitive credentials**: This section is meant for credentials that are sensitive in nature. Credential values will be masked on the screen after they are added; at that point, they will not be readable nor editable. If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
 * **OAuth 2.0 non-sensitive credentials**: This section is meant for credentials that are non-sensitive in nature. Credential values will be visible on the screen after they are added; they will also be editable.  If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
 
-When the end of the configuration, click on **Test connector** to verify that the external account is set up correctly.
+After entering the account information, click on **Test connection** to verify that the external account has been configured correctly.
 
 ![](assets/external_accounts_OAuth.png)
 

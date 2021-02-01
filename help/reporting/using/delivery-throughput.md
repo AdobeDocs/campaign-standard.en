@@ -20,4 +20,4 @@ This report contains data relating to the delivery throughput of a send, or seve
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
+>The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA (Message Transfer Agent).

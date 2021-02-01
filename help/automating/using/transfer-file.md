@@ -128,13 +128,15 @@ Metacharacters, or wildcards (for example &#42; or ?) can be used to filter file
 Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]** 
 The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to [this page](../../automating/using/customizing-workflow-external-parameters.md).
 
-Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
+Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space.
 
-      >**user&lt;yourinstancename>/my_recipients.csv** is correct.
-      >
-      >**../hello/my_recipients.csv** is incorrect.
-      >
-      >**//myserver/hello/myrecipients.csv** is incorrect.
+For example:
+
+`user&lt;yourinstancename>/my_recipients.csv` is correct.
+
+`../hello/my_recipients.csv` is incorrect.
+
+`//myserver/hello/myrecipients.csv` is incorrect.
 
 ## Historization settings {#historization-settings}
 
@@ -153,3 +155,16 @@ Every time the activity is executed, the folder is checked as follows:
 >[!NOTE]
 >
 >If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
+
+## Output variables {#output-variables}
+
+The **[!UICONTROL Transfer file]** activity generates event variables as output, that you can leverage in other activities, for example to check the number of downloaded files using a [Test](../../automating/using/test.md) activity.
+
+Note that event variables can also be passed to another workflow using an external signal (see [Customizing a workflow with external parameters](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Available output variables are:
+
+* **[!UICONTROL fileName]**: name of the transfered files.
+* **[!UICONTROL filesCount]**: number of transfered files.
+
+

@@ -514,7 +514,7 @@ To know the total throughput limit, multiply this number by the total number of 
 
 0 means no limit, the MTA will send MT as fast as possible.
 
-It is generally recommended to keep this setting under 1000, since it is impossible to guarantee precise throughput above this number unless properly benchmarked on the final architecture and specifically requested SMPP provider. It may be better to increase the number of connections to go above 1000 MT/s.
+It is generally recommended to keep this setting under 1000, since it is impossible to guarantee precise throughput above this number unless properly benchmarked on the final architecture. If you need a throughput above 1000, please contact your provider. It may be better to increase the number of connections to go above 1000 MT/s.
 
 #### Time before reconnection {#time-reconnection}
 
@@ -691,6 +691,10 @@ Allows to add a custom TLV. This field sets the tag portion. The value can be cu
 
 This setting only allows adding one TLV option per message.
 
+>[!NOTE]
+>
+>As of the 21.1 release, it is now possible to add more than one optional parameter. For more on this, refer to this [section](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+
 ### Automatic reply sent to the MO {#automatic-reply}
 
 This feature allows to quickly reply text to MO and handle per-short code sending to block list.
@@ -708,6 +712,12 @@ The **Additional action** column provides an extra action when both **Keyword** 
 >The send full phone number setting has an impact on the behavior of automatic reply quarantine mechanism: if send full phone number is not checked, the phone number put in quarantine will be prefixed by a plus sign ("+") to make it compatible with the international phone number format.
 
 All entries in the table are processed in the specified order, until one rule matches. If multiple rules match a MO, only the topmost rule will be applied.
+
+### Automatic reply optional parameters (TLV) {#automatic-reply-tlv}
+
+As of the 21.1 release, you can add optional parameters to automatic reply MT. They are added as optional TLV parameters to the `SUBMIT_SM PDU` of the reply, as described in the section 5.3 of the [SMPP specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
+
+For more information about optional parameters, refer to this [section](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## SMS delivery template parameters {#sms-delivery-template-parameters}
 
@@ -747,7 +757,19 @@ This setting is transmitted in the `dest_addr_subunit` optional field in the `SU
 
 #### Validity period {#validity-period}
 
-The validity period is transmitted in the `validity_period` field of the `SUBMIT_SM PDU`. The date is always formatted as an absolute UTC time format, the date field will end with "00+".
+The validity period is transmitted in the `validity_period` field of the `SUBMIT_SM PDU`. The date is always formatted as an absolute UTC time format (the date field will end with "00+").
+
+#### SMPP optional parameters (TLV) {#smpp-optional-parameters}
+
+As of the 21.1 release, you can add multiple optional parameters to every MT sent for this delivery. These optional parameters are added to the `SUBMIT_SM PDU` of the reply, as described in the section 5.3 of the [SMPP specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
+
+Each row in the table represents an optional parameter:
+
+* **Parameter**: Description of the parameter. Not transmitted to the provider.
+* **Tag Id**: Tag of the optional parameter. Must be valid hexadecimal, using the format 0x1234. Invalid values will lead to a delivery preparation error.
+* **Value**: Value of the optional field. Encoded as UTF-8 when it is transmitted to the provider. Encoding format cannot be changed, it is not possible to send binary values or use different encodings such as UTF-16 or GSM7.
+
+If any optional parameter has the same **Tag Id** as the **Service Tag Id** defined in the external account, the value defined in this table will prevail.
 
 ## SMPP connector {#ACS-SMPP-connector}
 
@@ -792,7 +814,9 @@ This checklist provides a list of things that you should check before going live
 
 Check that you don't have old SMS external accounts. If you leave the test account disabled you run the risk for it to be re-enable on the production system and generate potential conflicts.
 
-If you have multiple accounts on the same Adobe Campaign instance that connect to the same provider, contact the provider to make sure that they actually distinguish connections between these accounts. Having multiple accounts with the same login requires extra configuration.
+Check that no other instance connects to this account. In particular, make sure that the stage environment does not connect to the account. Some providers support this, but it requires very specific configuration both on Adobe Campaign side and on the provider's platform.
+
+If you need to have multiple accounts on the same Adobe Campaign instance that connect to the same provider, contact the provider to make sure that they actually distinguish connections between these accounts. Having multiple accounts with the same login requires extra configuration.
 
 ### Enable verbose SMPP traces during checks {#enable-verbose}
 

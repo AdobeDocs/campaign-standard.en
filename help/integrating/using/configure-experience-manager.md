@@ -44,7 +44,7 @@ To configure Adobe Campaign:
 
     ![](assets/aem_2.png)
 
-1. Then, in the advanced menu under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplicate one of the existing template to create an email template specific to Adobe Experience Manager.
+1. Then, in the advanced menu under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplicate one of the existing templates to create an email template specific to Adobe Experience Manager.
 
     ![](assets/aem_3.png)
 

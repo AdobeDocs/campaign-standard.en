@@ -12,7 +12,8 @@ context-tags: delivery,main
 # Monitoring a delivery{#monitoring-a-delivery}
 
 There are several ways to monitor a delivery and to measure its impact. As a functional administrator, you can access message logs and delivery logs.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Only Functional [administrators](../../administration/using/users-management.md#functional-administrators), with **[!UICONTROL Administration]** role and access to **All** units can access sending logs, message logs, tracking logs, exclusion or subscription logs. A non-admin user can target these logs but starting on a linked table (profiles, delivery).
 
