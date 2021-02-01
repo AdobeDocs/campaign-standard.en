@@ -21,7 +21,7 @@ For direct mail, the targeted profiles are the ones that will be included in the
 
 For each targeted profile a new line is added in the extraction file. The amount of profile information that will be included for each recipient is defined in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) screen.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Make sure that your profiles include a postal address as this information is essential to the direct mail provider. Also make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information. See [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
 

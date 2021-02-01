@@ -107,13 +107,13 @@ If the **parsing is validated**, a message appears and invites you to customize 
 
 ### Execution
 
-This tab lets you define the connection endpoint. The **[!UICONTROL URL]** field allows you to define the **HTTPS Endpoint** that will send data to Campaign.
+This tab lets you define the connection endpoint. The **[!UICONTROL URL]** field allows you to define the **HTTPS Endpoint** that Campaign Standard will communicate with.
 
 If needed by the endpoint, two types of authentification method are available:
 
-* Basic authentification: enter your username/password information in the **[!UICONTROL Request Header(s)]** field. 
+* Basic authentification: enter your username/password information in the **[!UICONTROL Request Header(s)]** section. 
 
-* OAuth authentification: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]**, you can select an external account where the OAuth authentification is defined. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth authentification: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]** in an external account, you can select an external account where the OAuth authentification is defined. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
 
 ![](assets/externalAPI-execution.png)
 
@@ -148,6 +148,10 @@ This tab lets you activate the **outbound transition** and its label. This speci
 This tab is available in most of the workflow activities. For more information, consult the [Activity properties](../../automating/using/activity-properties.md) section.
 
 ![](assets/externalAPI-options.png)
+
+## Testing
+
+To test out the External API functionality with a simple test endpoint, you can use Postman Echo: https://docs.postman-echo.com.
 
 ## Troubleshooting
 
@@ -249,7 +253,7 @@ These log messages are used to log information about unexpected error conditions
    <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> WKF-560247 -  Ann HTTP header value is bad (header value: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 

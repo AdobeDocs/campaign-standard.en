@@ -11,7 +11,7 @@ context-tags: delivery,schedule,back
 
 # About scheduling messages{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Whenever making changes to a delivery’s schedule, you must re-prepare the delivery by clicking on the **Prepare** button before clicking **Confirm**.
 
@@ -35,7 +35,7 @@ The **[!UICONTROL Schedule]** properties let you set sending options for your em
 
   ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When duplicating a delivery, all scheduling settings are deleted. Unless you schedule a new contact date, the duplicated delivery will be sent as soon as the send is confirmed.
 

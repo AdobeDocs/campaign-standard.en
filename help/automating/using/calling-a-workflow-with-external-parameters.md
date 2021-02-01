@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Overview
-description: This section details thow to call a workflow with external parameters.
+description: This section details how to call a workflow with external parameters.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation

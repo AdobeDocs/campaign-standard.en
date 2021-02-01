@@ -28,7 +28,7 @@ There are two columns dedicated to displaying these statuses in the **[!UICONTRO
   >
   >The **[!UICONTROL Cancel re-draft]** option is available when the resource that you want to re-draft still contains links through other resources with the "Published" status. This option allows you to revert the "re-draft" process. The custom resources will then go back to their original statuses.
 
-* **Published**: the resource has been published. If the resource is modified after the last modified date, then a message is displayed to invit you to republish the resource in order to take into account the latest modifications.
+* **Published**: the resource has been published. If the resource is modified after the last modified date, then a message is displayed to invite you to republish the resource in order to take into account the latest modifications.
 
 The **[!UICONTROL Do not publish latest modifications]** field prevents modifications from being taken into account during future publications.
 

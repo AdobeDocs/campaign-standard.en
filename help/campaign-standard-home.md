@@ -13,6 +13,8 @@ topic: Premium
 
 ## What's New
 
+* **[Campaign 21.1 February Release is live!](rn/using/release-notes.md)**<br/> Discover new features, latest updates and fixes
+
 * **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
 
 * **[Release planning](rn/using/release-planning.md)**<br/> Upcoming February 2021 release dates have been added to the release planning

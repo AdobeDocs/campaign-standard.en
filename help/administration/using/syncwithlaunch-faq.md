@@ -21,7 +21,7 @@ application. For more information on organizational unit, refer to this [page](.
 
 ## I am unable to edit a configured mobile application in Adobe Campaign Standard and mobile applications are in Read-mode only. {#read-mode-mobile-app}
 
-Check the organizational unit of the mobile application in the **[!UICONTROL Access Authorization ]** section. Only users of the assigned organizational unit can edit the mobile application.
+Check the organizational unit of the mobile application in the **[!UICONTROL Access Authorization]** section. Only users of the assigned organizational unit can edit the mobile application.
 
 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
