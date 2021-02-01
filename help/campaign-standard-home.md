@@ -17,8 +17,6 @@ topic: Premium
 
 * **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
 
-* **[Release planning](rn/using/release-planning.md)**<br/> Upcoming February 2021 release dates have been added to the release planning
-
 * **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
 
 * **[AI-powered emails](sending/using/predictive.md)**<br/> Optimize design and delivery with AI-powered emails
