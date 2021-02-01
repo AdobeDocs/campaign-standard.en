@@ -41,7 +41,7 @@ The home page is made up of a set of cards that give you quick access to the mai
 
 ## Top bar {#top-bar}
 
-The top bar is visible on every screen and allows you to navigate through Adobe Campaign functionalities as well as access the Adobe profile connected, notifications, other Adobe Experience Cloud services and solutions, and the documentation.
+The top bar is visible on every screen and allows you to navigate through Adobe Campaign functionalities as well as access the Adobe profile connected, notifications, Adobe Experience Cloud services and solutions, and the documentation.
 
 The navigation principles are:
 
@@ -51,24 +51,23 @@ The navigation principles are:
 
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
 * The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities.
-* The **Solution switcher** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
+* The **Solution switcher** icon lets you switch between your organizations or to a different application.
 * The **[!UICONTROL Help]** button gives access to Adobe Campaign Standard documentation, videos, release notes and release planning, as well as the links to the Adobe Experience Cloud community and customer care.
 * The organization button
 * The **Notifications** icon displays the latest alerts or information.
-* The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
+* The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button, and the **[!UICONTROL About]** screen.
 
 ### Help {#help}
 
-* **[!UICONTROL Search]** allows you to retrieve documentation, articles and videos and filter content by solution
-
+* **[!UICONTROL Search]** brings Adobe Experience League into the product: search results include documentation and help articles, results from community forums and more video content, giving you easier access to more content to help get the most out of the application.
 * **[!UICONTROL Help]** tab
   * Links gives you quick access to Adobe Campaign Standard documentation, videos and release notes.
   * **[!UICONTROL Learning]** this link  allows you to access Adobe Campaign content library.  
   * **[!UICONTROL Community]** this link allows you access the forum dedicated to your questions on ACS.
 
-* **[!UICONTROL Support]** tab allows you to create a support ticket and contact us by phone or Twitter.
+* **[!UICONTROL Support]** tab allows you to open a support case and contact us by phone or Twitter.
 
-* **[!UICONTROL Feedback]** tab enables you to share issues and ideas about the solution.
+* **[!UICONTROL Feedback]**  makes it easier to report issues or share your ideas.
 
   ![](assets/ux_help.png)
 
