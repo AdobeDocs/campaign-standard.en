@@ -91,7 +91,7 @@ topic-tags: campaign-standard-releases
 
 * A new **GetOption** function is now available in activities using event variables after calling a workflow with external parameters. It allows you to return the value of a specified function. [Learn more](../../automating/using/customizing-workflow-external-parameters.md)
 
-* A new option allows Campaign Standard to **check physical memory** availablity on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This avoids further degradation of performance and mitigate the risk of an outage. The workflow will auto-resume once the load on the server comes down and the memory increases. Note that this option is read-only and cannot be modified. [Learn more](../../automating/using/best-practices-workflows.md#execution)
+* A new option allows Campaign Standard to **check physical memory** availability on your system before starting a workflow. If the amount of memory is too low, the workflow execution will be delayed until the system memory reaches this threshold. This avoids further degradation of performance and mitigate the risk of an outage. The workflow will auto-resume once the load on the server comes down and the memory increases. Note that this option is read-only and cannot be modified. [Learn more](../../automating/using/best-practices-workflows.md#execution)
 
 * A new process is available in Adobe Campaign Standard which allows you to migrate more easily from the legacy SDK v4 mobile application to **Adobe Experience Platform Mobile SDK**. Refer to [this page](../../administration/using/sdkv4-migration.md).
 
