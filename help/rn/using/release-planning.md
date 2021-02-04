@@ -23,7 +23,9 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 ## Release 21.1 - February Release {#release-21-1-release}
 
-Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md) when Stage environment upgrades start. If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
+
+Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md) when Stage environment upgrades start. 
 
 <table>
  <thead>
@@ -35,14 +37,16 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Feb 1 - 2, 2021<br /> </td>
+   <td>Feb 1 - 10, 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>Feb 8 - 15, 2021<br /> </td>
+   <td>Feb 8 - 17, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
+
+If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 ## Questions & Answers {#questions-and-answers}
 
