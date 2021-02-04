@@ -17,7 +17,7 @@ Security groups are sets of users that share the same roles and rights within yo
 
 Users must always be linked to a security group. This will allow you to assign them specific roles and organizational units.
 
-For more information on roles, the tables in the following page present the different operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+For more information on roles, the table in the following page presents possible operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Default security groups are:
 
@@ -28,9 +28,9 @@ Default security groups are:
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents (mcExec)]** security groups are internal only and should not be assign to users.
+>The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents (mcExec)]** security groups are Adobe internal only and should not be assigned to any user.
 
-If a user is not linked to any security group, he will not be able to access Adobe Campaign.
+To be able to access Adobe Campaign, each user must be assigned to a security group.
 
 To restrict a user's access, do not add the user to the Campaign Standard users group as this is linked to **[!UICONTROL All]** organizational unit.
 
@@ -139,5 +139,5 @@ Your users are now assigned to a security group and can connect to Adobe Campaig
 
 >[!IMPORTANT]
 >
->If users are removed from a security group in the admin console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information.
+>If users are removed from a security group in the Admin console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information.
 
