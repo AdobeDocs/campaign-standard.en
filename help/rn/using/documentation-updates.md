@@ -17,7 +17,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 **New capabilities included in the release**
 
-Email Feedback Service - [Read more](../../sending/using/confirming-the-send.md#email-feedback-service)
+Email Feedback Service - [Read more](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager integration improvements - [Read more](../../integrating/using/creating-multilingual-email-aem.md)
 

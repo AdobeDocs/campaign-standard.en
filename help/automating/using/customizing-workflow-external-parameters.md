@@ -57,7 +57,7 @@ When using a variable in an activity, the interface provides help to call it.
   DateFormat | Formats a date using the format specified in the 2nd parameter (example:  '%4Y%2M%2D') | DateFormat(&lt;Date&gt;,&lt;Format&gt;)
   FileName | Returns the name of a file path. | FileName(&lt;String&gt;)
   FileExt | Returns the extension of a file path. | FileExt(&lt;String&gt;)
-  GetOption | Returns the value of the specified function. | GetOption(&lt;optionName&gt;
+  GetOption | Returns the value of the specified function. | GetOption(&lt;optionName&gt;)
   IsNull | Indicates if a string or a date is null. | IsNull(&lt;String/date&gt;)
   UrlUtf8Encode | Encodes an URL in UTF8. | UrlUtf8Encode(&lt;String&gt;)
 
