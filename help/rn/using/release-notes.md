@@ -74,6 +74,8 @@ topic-tags: campaign-standard-releases
 </ul>
 <p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
+</p>
 </td> 
 </tr> 
 </tbody> 
