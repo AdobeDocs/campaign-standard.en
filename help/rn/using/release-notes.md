@@ -32,7 +32,7 @@ topic-tags: campaign-standard-releases
 <li>Calculation of the <b>Delivered</b> indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
 <li>EFS solves the problem of delays with synchronous soft bounces reporting.</li>
 </ul>
-<p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#email-feedback-service">detailed documentation</a>.
+<p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#message-indicators">detailed documentation</a>.
 </p>
 </td> 
 </tr> 
@@ -73,6 +73,8 @@ topic-tags: campaign-standard-releases
 <li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
 <p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
+</p>
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 

@@ -27,11 +27,11 @@ In this section you will learn how to grant access to the Adobe Campaign Standar
 1. Browse to https://experience.adobe.com/ and log into the Adobe Experience Cloud.
 1. Access the **Admin Console**.
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. Click on **[!UICONTROL Products]** to access your Experience Cloud solutions.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -41,11 +41,11 @@ In this section you will learn how to grant access to the Adobe Campaign Standar
 
 1. Click on the first instance to configure.
 
-    ![](assets/d365-to-acs-access-6.png)
+    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    The instance page should look something like this:
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. Click the **[!UICONTROL New Profile]** button and add a new entry named: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
@@ -57,11 +57,11 @@ In this section you will learn how to grant access to the Adobe Campaign Standar
 
 1. If your entries look similar to the following, then click the **[!UICONTROL Done]** button.
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    The new product profile has been added.
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## Grant access to users {#add-users-to-profile}
 
@@ -69,11 +69,11 @@ From the **[!UICONTROL Products]**  page, select your Campaign instance and foll
 
 1. Click on the new profile that you've created earlier:  **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. Click on the **[!UICONTROL Developers]** tab.
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. Click on the **[!UICONTROL Add Developer]** button
 

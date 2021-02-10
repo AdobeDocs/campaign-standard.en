@@ -37,11 +37,11 @@ Detailed information about this release are available in the [Release Notes](../
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Feb 1 - 10, 2021<br /> </td>
+   <td>Feb 1 - 22, 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>Feb 8 - 17, 2021<br /> </td>
+   <td>Feb 8 - Mar 1, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
