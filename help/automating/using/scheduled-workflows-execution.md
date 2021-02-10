@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Preventing overlapping execution of scheduled workflows
+title: Scheduled workflows' overlapping execution
 description: Learn how to prevent overlapping execution of scheduled workflows.
 audience: automating
 content-type: reference
@@ -9,7 +9,7 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 ---
 
-# Preventing overlapping execution of scheduled workflows {#preventing-overlapping-execution-of-scheduled-workflows}
+# Scheduled workflows' overlapping execution{#preventing-overlapping-execution-of-scheduled-workflows}
 
 ## About scheduled workflows execution
 
