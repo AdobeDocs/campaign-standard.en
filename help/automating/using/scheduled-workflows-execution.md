@@ -17,7 +17,7 @@ In Campaign Standard, the workflow engine guarantees that a workflow instance is
 
 Blocking activities such as imports, long running queries or writes into the database prevent the execution of any other task when running.
 
-On the other hand, non-blocking activities do not block the execution of other tasks (usually activities waiting for an event such as the **[!UICONTROL Scheduler]**, the **[!UICONTROL Wait]** activity etc.).
+On the other hand, non-blocking activities do not block the execution of other tasks (usually activities waiting for an event such as the **[!UICONTROL Scheduler]** activity).
 
 This can lead to a scenario where a schedule-based workflow can start executing even when the previous run of that same workflow has not yet finished, potentially leading to unexpected data issues.
 
