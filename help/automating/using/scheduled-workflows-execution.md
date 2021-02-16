@@ -23,7 +23,6 @@ This can lead to a scenario where a schedule-based workflow can start executing 
 
 Therefore, when designing a scheduled workflow which includes multiple activities, you need to make sure that the workflow is not rescheduled until it is finished. To do this, you need to configure your workflow in order to prevent its execution if one or more tasks from a previously execution is still pending.
 
-
 ## Configuring the workflow
 
 To check if one or more tasks from a previous workflow execution is still pending, you need to use a **[!UICONTROL Query]** and a **[!UICONTROL Test]** activity.

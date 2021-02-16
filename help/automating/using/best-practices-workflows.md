@@ -103,6 +103,8 @@ You can preview the next ten executions of your workflows by clicking **[!UICONT
 
 For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
 
+When designing a scheduled workflow which includes multiple activities, you need to make sure that the workflow is not rescheduled until it is finished. To do this, you need to configure your workflow in order to prevent its execution if one or more tasks from a previously execution is still pending. For more on this, refer to [this page](../../automating/using/scheduled-workflows-execution.md).
+
 ## Calling workflow with parameters{#workflow-with-parameters}
 
 Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md). The parameters' types must also be consistent with the values that are expected.
