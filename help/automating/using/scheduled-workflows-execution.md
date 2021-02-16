@@ -13,9 +13,7 @@ context-tags: workflow,overview;workflow,main
 
 ## About scheduled workflows execution
 
-In Campaign Standard, the workflow engine guarantees that a workflow instance is executed by only one process (see [Architecture](../../workflow/using/architecture.md)).
-
-Blocking activities such as imports, long running queries or writes into the database prevent the execution of any other task when running.
+In Campaign Standard, the workflow engine guarantees that a workflow instance is executed by only one process. Blocking activities such as imports, long running queries or writes into the database prevent the execution of any other task when running.
 
 On the other hand, non-blocking activities do not block the execution of other tasks (usually activities waiting for an event such as the **[!UICONTROL Scheduler]** activity).
 
