@@ -13,6 +13,10 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## February 2021 {#doc-updates-february-2021}
+
+Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
+
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **New capabilities included in the release**

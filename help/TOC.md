@@ -281,6 +281,7 @@ title: Campaign Standard Guide
        + [Monitoring workflow execution](automating/using/monitoring-workflow-execution.md)
        + [Managing execution options](automating/using/managing-execution-options.md)
        + [Managing activities' properties](automating/using/activity-properties.md)
+       + [Scheduled workflows' overlapping execution](automating/using/scheduled-workflows-execution.md)
   + Calling a workflow with external parameters {#calling-workflow-external-parameters}
        + [Overview](automating/using/calling-a-workflow-with-external-parameters.md)
        + [Declaring the parameters in the External Signal activity](automating/using/declaring-parameters-external-signal.md)

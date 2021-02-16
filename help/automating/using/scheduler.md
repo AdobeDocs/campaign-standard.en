@@ -27,6 +27,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 >
 >The **[!UICONTROL Repetition frequency]** of the activity cannot be less than 10 minutes. It means that a workflow cannot be automatically executed more than once every 10 minutes.
 
+When designing a scheduled workflow which includes multiple activities, you need to make sure that the workflow is not rescheduled until it is finished. To do this, you need to configure your workflow in order to prevent its execution if one or more tasks from a previously execution is still pending. For more on this, refer to [this page](../../automating/using/scheduled-workflows-execution.md).
+
 **Related topics:**
 
 * [Use case: Creating deliveries on profiles' creation date](../../automating/using/workflow-creation-date-query.md)
