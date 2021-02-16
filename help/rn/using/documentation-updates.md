@@ -13,24 +13,9 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-## February 2021 {doc-updates-february-2021}
+## February 2021 {#doc-updates-february-2021}
 
 Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
-
-# Scheduled workflows' overlapping execution{#preventing-overlapping-execution-of-scheduled-workflows}
-
-## About scheduled workflows execution
-
-In Campaign Standard, the workflow engine guarantees that a workflow instance is executed by only one process (see [Architecture](../../workflow/using/architecture.md)).
-
-Blocking activities such as imports, long running queries or writes into the database prevent the execution of any other task when running.
-
-On the other hand, non-blocking activities do not block the execution of other tasks (usually activities waiting for an event such as the **[!UICONTROL Scheduler]** activity).
-
-This can lead to a scenario where a schedule-based workflow can start executing even when the previous run of that same workflow has not yet finished, potentially leading to unexpected data issues.
-
-Therefore, when designing a scheduled workflow which includes multiple activities, you need to make sure that the workflow is not rescheduled until it is finished. To do this, you need to configure your workflow in order to prevent its execution if one or more tasks from a previously execution is still pending.
-
 
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
