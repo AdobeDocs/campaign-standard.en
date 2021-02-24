@@ -11,6 +11,8 @@ context-tags: delivery,schedule,back
 
 # Controlling email content{#control-email-content}
 
+<!--TO KEEP because specific to Campaign-->
+
 To improve your email deliverability rate and make sure that your emails reach your recipients, the email must respect a certain number of rules.
 
 * **Sender name and address**: The address has to explicitly identify the sender. The domain has to be owned by and registered to the sender. The domain registry must not be privatized.

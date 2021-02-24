@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 
 Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 
-More precisely, email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.
+More precisely, email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
@@ -60,6 +60,8 @@ Adobe Campaign provides a number of tools designed to help with deliverability:
 
 ### Check network configuration {#network-configuration}
 
+<!--NOT SURE TO KEEP HERE-->
+
 Spammers try to conceal their real identity and as a consequence make their servers difficult to identify.
 
 A legitimate network configuration that does not try to hide the identity of the server is essential to sending emails in large volumes.
@@ -81,11 +83,23 @@ Make sure you follow the best practices mentioned in the sections listed below w
 * [Previewing messages](../../sending/using/previewing-messages.md)
 * [Email rendering](../../sending/using/email-rendering.md)
 
+### Verify consent through double opt-in {#double-opt-in}
+
+To avoid sending messages to invalid addresses, limit improper communications and improve sender reputation, Adobe recommends implementing a double opt-in mechanism for post-subscription confirmation. This helps ensure a recipient subscribed intentionally.
+
+For more on this, see [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+Details for implementing this mechanism are outlined in [this section](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
 ### Leverage quarantine management
 
 Adobe Campaign manages a list that gathers spam complaints, hard bounces, and soft bounces that occur consistently.
 
 To protect your deliverability, the recipients whose addresses are on the suppression list are excluded by default from all future deliveries, because sending to these contacts could hurt your sending reputation.
+
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
+
+For more on this, refer to the following sections:
 
 * [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
@@ -100,6 +114,12 @@ The delivery dashboard allows you to check how your deliveries are performing th
 * [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
+
+<!--## General recommendations
+
+NOT SURE TO KEEP
+
+Here are a few additional recommendations when it comes to deliverability.
 
 ### Send to valid addresses {#valid-addresses}
 
