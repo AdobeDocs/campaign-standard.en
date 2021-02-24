@@ -22,6 +22,10 @@ To improve your email deliverability rate and make sure that your emails reach y
 
 For additional information on editing email content, consult the [Email Designer overview](../../designing/using/designing-content-in-adobe-campaign.md) and the [Message design best practices](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
+>[!NOTE]
+>
+>For additional tips to optimizing deliverability when designing content, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+
 ## Sender name and address {#sender-name}
 
 Certain ISPs check the validity of the sender address (From) before accepting messages. A badly formed address may result in it being rejected by the receiving server. You must make sure a correct address is given at the instance level or in the most frequently-used scenarios. Contact your administrator.
