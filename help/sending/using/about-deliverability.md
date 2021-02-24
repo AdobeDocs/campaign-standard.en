@@ -13,7 +13,9 @@ context-tags: delivery,schedule,back
 
 Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 
-The deliverability rate depends on numerous factors, particularly:
+For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+
+With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
 
 * Correct configuration of your instances
 * Your IP address reputation
@@ -25,16 +27,18 @@ The deliverability rate depends on numerous factors, particularly:
 
 ## Key points to check {#deliverability-key-points}
 
-To optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed below. Deliverability problems are generally linked to measures of protection against spam implemented by internet service providers and mail server administrators.
+For general recommendations on how to design successful email marketing campaigns, see [Deliverability strategy and definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
-Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time,and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.
+More precisely, to optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed below. Deliverability problems are generally linked to measures of protection against spam implemented by internet service providers and mail server administrators.
+
+Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.
 
 The deliverability rate is the number of sent emails that were successfully delivered to its recipients.
 Here is a list of the key points to check to ensure good deliverability.
 
 ## Deliverability tools {#deliverability-tools}
 
-First, start by consulting the documentation on the deliverability tools provided with Campaign Standard:
+First, start by consulting the documentation on the deliverability tools provided with Adobe Campaign:
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender)
 * [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
