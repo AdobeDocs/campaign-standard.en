@@ -57,6 +57,7 @@ topic-tags: campaign-standard-releases
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
@@ -80,6 +81,7 @@ topic-tags: campaign-standard-releases
 </tr> 
 </tbody> 
 </table>
+-->
 
 **Improvements**
 
