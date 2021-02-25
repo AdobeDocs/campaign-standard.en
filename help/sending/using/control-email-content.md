@@ -46,7 +46,9 @@ For more on this, see [Optimizing the sending time](../../sending/using/optimizi
 
 By default, when the message is analyzed, a typology rule checks whether an opt-out link has been included and generates a warning if it is missing.
 
-You must check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the No longer contact boxes are checked. You should make this check systematically because human error is always possible when entering the link or when changing the form.
+You must check that the opt-out link works correctly before each time you send. For example, when [sending the proof](../../sending/using/sending-proofs.md), make sure the link is valid, that the form is on-line and that validating this checks the **[!UICONTROL No longer contact]** boxes. You should make this check systematically because human error is always possible when entering the link or when changing the form.
+
+For more on managing links, see [this section](../../designing/using/links.md).
 
 If a problem is detected concerning unsubscription after the delivery is started, it is still possible to perform an unsubscription manually (using the mass-update function, for example) for those recipients who click the opt-out link even if they were not able to confirm their choice.
 
