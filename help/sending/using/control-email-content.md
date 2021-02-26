@@ -13,7 +13,9 @@ context-tags: delivery,schedule,back
 
 <!--TO KEEP because specific to Campaign-->
 
-To improve your email deliverability rate and make sure that your emails reach your recipients, the email must respect a certain number of rules.
+The content of certain messages may be detected as spam. To make sure that your emails reach your recipients and improve your email deliverability rate, the email must respect a certain number of rules.
+
+Follow the principles listed below when designing your message content:
 
 * **Sender name and address**: The address has to explicitly identify the sender. The domain has to be owned by and registered to the sender. The domain registry must not be privatized.
 * **Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).

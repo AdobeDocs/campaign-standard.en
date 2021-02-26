@@ -11,29 +11,19 @@ context-tags: delivery,schedule,back
 
 # What is deliverability{#about-deliverability}
 
-Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
+Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. [Learn why deliverability matters](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
 More precisely, email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-The deliverability rate is the number of messages that hit the recipients’ inboxes compared to the number of messages that were delivered. With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
-
-* Correct configuration of your instances
-* Your IP address reputation
-* Quality of the addresses targeted
-* Low complaints and hard bounce rates
-* Your message content
-* Message authentication (SPF, DKIM, DMARC)
-* Sender reputation
-
 ## How to improve deliverability {#deliverability-key-points}
 
-Deliverability problems are generally linked to measures of protection against spam implemented by internet service providers and mail server administrators.
+Deliverability problems are usually linked to measures of protection against spam implemented by internet service providers and mail server administrators.
 
-For general recommendations on how to design successful email marketing campaigns, see [Deliverability strategy and definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
+* For general recommendations on how to design successful email marketing campaigns, see [Deliverability strategy and definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
-To optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed on this page / in this section.
+* For more specific recommendations on how to optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed in this section.
 
 <!--Here is a list of the key points to check to ensure good deliverability.-->
 
@@ -41,9 +31,25 @@ To optimize the deliverability of your Adobe Campaign emails, we recommend using
 >
 >Because ISPs are obliged to continuously develop new sophisticated filtering techniques to protect their customers from spammers, email deliverability is characterized by ever-changing criteria and rules. Make sure you refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) which is regularly updated.
 
+### Deliverability rate
+
+The deliverability rate is the number of messages that hit the recipients’ inboxes compared to the number of messages that were delivered.
+
+With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
+
+* Correct configuration of your instances: contact your Adobe representative for assistance.
+* Legitimate network configuration: see [this section](../../sending/using/optimize-delivery.md#network-config) and [Domain setup and strategy](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Your IP address reputation: see [IP strategy](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Quality of the addresses targeted
+* Low complaints and hard bounce rates
+* Your message content: see [Controlling email content](../../sending/using/control-email-content.md).
+* Message authentication (SPF, DKIM, DMARC): see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Sender reputation: to learn how main ISPs evaluate a sender reputation, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+
+
 ## Campaign deliverability tools {#deliverability-tools}
 
-Adobe Campaign provides a number of tools designed to help with deliverability:
+Adobe Campaign provides a number of tools designed to help with deliverability.
 <!-->
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender)
@@ -57,22 +63,6 @@ Adobe Campaign provides a number of tools designed to help with deliverability:
 * [Quarantine vs denylist](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
 -->
-
-### Check network configuration {#network-configuration}
-
-<!--NOT SURE TO KEEP HERE-->
-
-Spammers try to conceal their real identity and as a consequence make their servers difficult to identify.
-
-A legitimate network configuration that does not try to hide the identity of the server is essential to sending emails in large volumes.
-
-### Adapt your message content {#adapt-message-content}
-
-<!--TO REMOVE?-->
-
-The content of certain messages may be detected as spam. To make sure that your emails reach your recipients when designing your message content, follow the principles listed in the [Controlling email content](sending/using/control-email-content.md) section.
-
-For additional tips to optimizing deliverability when designing content, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 ### Carefully build your message
 
