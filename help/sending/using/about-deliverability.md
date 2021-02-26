@@ -86,9 +86,7 @@ For more on this, refer to the following sections:
 
 Use the features offered by Adobe Campaign to monitor your deliverability.
 
-Adobe Campaign allows you to check how your deliveries are performing through a set of built-in real-time indicators. For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.
-
-You can also build fully customizable and real-time reports for improved insight on your deliveries.
+Adobe Campaign allows you to check how your deliveries are performing through a set of built-in real-time indicators. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->You can also build fully customizable and real-time reports for improved insight on your deliveries.
 
 For more on this, refer to the following sections:
 
