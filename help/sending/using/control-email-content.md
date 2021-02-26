@@ -18,39 +18,37 @@ The content of certain messages may be detected as spam. To make sure that your 
 Follow the principles listed below when designing your message content:
 
 * **Sender name and address**: The address has to explicitly identify the sender. The domain has to be owned by and registered to the sender. The domain registry must not be privatized.
-* **Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).
-* **Personalize your email**: Personalizing the email increases the chances of your message being opened.
+    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+* **Personalization and send time optimization**: Personalizing content and defining a sending time per recipient increase the chances of your message being opened.
 * **Images and text**: Respect a decent text/image ratio (for example 60% text and 40% images).
 * **Unsubscription link and landing page**: The unsubscription link is essential. It must be visible and valid, and the form must be functional.
-* **Use tools** offered by Adobe Campaign to optimize the content of your email (delivery analysis, anti-spam analysis).
+* **Preview**: Use the tools offered by Adobe Campaign to check and optimize the content of your email (anti-spam analysis, email rendering).
 
-For additional information on editing email content, consult the [Email Designer overview](../../designing/using/designing-content-in-adobe-campaign.md) and the [Message design best practices](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+For additional tips to optimizing deliverability when designing content, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 >[!NOTE]
 >
->For additional tips to optimizing deliverability when designing content, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+>For more information on editing email content, consult the [Email Designer overview](../../designing/using/designing-content-in-adobe-campaign.md) and the [Message design best practices](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Sender name and address {#sender-name}
 
-Certain ISPs check the validity of the sender address (From) before accepting messages. A badly formed address may result in it being rejected by the receiving server. You must make sure a correct address is given at the instance level or in the most frequently-used scenarios. Contact your administrator.
+Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) before accepting messages. A badly formed address may result in it being rejected by the receiving server. You must make sure a correct address is given at the instance level or in the most frequently-used scenarios. To do this, contact your administrator.
 
 ![](assets/delivery_content_edition16.png)
 
-For more on this, see [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender).
+For more on this, see [Defining the email sender of an email](../../designing/using/subject-line.md#email-sender).
   
-## Send time optimization {#send-time-optimization}
+## Personalization and send time optimization {#send-time-optimization}
 
-To improve the success rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible.
+To improve your recipients’ experience and make them open your email, Adobe Campaign enables you to personalize your messages. For more on this, see [this section](designing/using/personalization.md).
 
-For more on this, see [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md).
+To improve the opening rate of your messages, you can also manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible. For more on this, see [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md).
 
 ## Opt-out link and form {#opt-out}
 
 By default, when the message is analyzed, a typology rule checks whether an opt-out link has been included and generates a warning if it is missing.
 
-You must check that the opt-out link works correctly before each time you send. For example, when [sending the proof](../../sending/using/sending-proofs.md), make sure the link is valid, that the form is on-line and that validating this checks the **[!UICONTROL No longer contact]** boxes. You should make this check systematically because human error is always possible when entering the link or when changing the form.
-
-For more on managing links, see [this section](../../designing/using/links.md).
+You must check that the opt-out link works correctly before each time you send. For example, when [sending the proof](../../sending/using/sending-proofs.md), make sure the link is valid, that the form is on-line and that validating this checks the **[!UICONTROL No longer contact]** boxes. You should make this check systematically because human error is always possible when entering the link or when changing the form. For more on managing links, see [this section](../../designing/using/links.md).
 
 If a problem is detected concerning unsubscription after the delivery is started, it is still possible to perform an unsubscription manually (using the mass-update function, for example) for those recipients who click the opt-out link even if they were not able to confirm their choice.
 
@@ -70,6 +68,6 @@ Before sending your message, you can check what your message is going to look li
 
 To allow this, Adobe Campaign captures the rendering and makes it available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received.
 
-For more on this, see [Email rendering](../../sending/using/email-rendering.md).
-
 ![](assets/inbox_rendering_report_3.png)
+
+For more on this, see [Email rendering](../../sending/using/email-rendering.md).
