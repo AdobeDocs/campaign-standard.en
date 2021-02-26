@@ -15,13 +15,13 @@ Deliverability allows to measure the success of your campaigns reaching your rec
 
 More precisely, email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## How to improve deliverability {#deliverability-key-points}
 
 Deliverability problems are usually linked to measures of protection against spam implemented by internet service providers and mail server administrators.
 
-* For general recommendations on how to design successful email marketing campaigns, see [Deliverability strategy and definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
+* For general recommendations on how to design successful email marketing campaigns, refer to [Deliverability strategy and definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
 * For more specific recommendations on how to optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed in this section.
 
@@ -33,7 +33,7 @@ Deliverability problems are usually linked to measures of protection against spa
 
 ### Deliverability rate
 
-The deliverability rate is the number of messages that hit the recipients’ inboxes compared to the number of messages that were delivered.
+The deliverability rate is the number of messages that hit the recipients’ inboxes compared to the number of messages that were delivered. To improve deliverability, you may work on increasing this rate.
 
 With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
 
@@ -49,43 +49,30 @@ With Adobe Campaign, the deliverability rate depends on numerous factors, partic
 
 ## Campaign deliverability tools {#deliverability-tools}
 
-Adobe Campaign provides a number of tools designed to help with deliverability.
-<!-->
-* [Delivery best practices](../../sending/using/delivery-best-practices.md)
-* [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender)
-* [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
-* [Previewing messages](../../sending/using/previewing-messages.md)
-* [Email rendering](../../sending/using/email-rendering.md)
-* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
-* [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
-* [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine vs denylist](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
-* [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
--->
+Adobe Campaign provides a number of tools designed to ensure optimal deliverability.
 
 ### Carefully build your message
 
-Make sure you follow the best practices mentioned in the sections listed below when configuring, designing and testing your message.
+When configuring, designing and testing your message, make sure you follow the best practices mentioned in the sections listed below. Leveraging all the features provided by Adobe Campaign will help you improve deliverability.
 
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
-* [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
+* [Controlling email content](../../sending/using/control-email-content.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
-* [Email rendering](../../sending/using/email-rendering.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)
 
 ### Verify consent through double opt-in {#double-opt-in}
 
-To avoid sending messages to invalid addresses, limit improper communications and improve sender reputation, Adobe recommends implementing a double opt-in mechanism for post-subscription confirmation. This helps ensure a recipient subscribed intentionally.
+To avoid sending messages to invalid addresses, limit improper communications and improve sender reputation, Adobe recommends implementing a double opt-in mechanism. This enables you to ensure that your recipients subscribed intentionally.
 
 For more on this, see [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Details for implementing this mechanism are outlined in [this section](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+For more on best practices when collecting data from your customers, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
 ### Leverage quarantine management
 
 Adobe Campaign manages a list that gathers spam complaints, hard bounces, and soft bounces that occur consistently.
 
-To protect your deliverability, the recipients whose addresses are on the suppression list are excluded by default from all future deliveries, because sending to these contacts could hurt your sending reputation.
+To protect your deliverability, the recipients whose addresses are on that list are excluded by default from all future deliveries, because sending to these contacts could hurt your sending reputation.
 
 Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
@@ -99,9 +86,14 @@ For more on this, refer to the following sections:
 
 Use the features offered by Adobe Campaign to monitor your deliverability.
 
-The delivery dashboard allows you to check how your deliveries are performing through a set of real-time indicators. Amongst other things, check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.
+Adobe Campaign allows you to check how your deliveries are performing through a set of built-in real-time indicators. For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.
 
-* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+You can also build fully customizable and real-time reports for improved insight on your deliveries.
+
+For more on this, refer to the following sections:
+
+* [Monitoring deliverability](../../sending/using/monitor-deliverability.md)
+    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
 
