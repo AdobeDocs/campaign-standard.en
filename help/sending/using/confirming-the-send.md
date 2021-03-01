@@ -125,12 +125,24 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
 
 ### Changes introduced by EFS {#changes-introduced-by-efs}
 
-The table below shows the changes in KPIs and sending logs statuses introduced by the EFS capability.
+The tables below show the changes in KPIs and sending logs statuses introduced by the EFS capability.
 
-| Step in the<br>sending process | KPI summary<br>WITHOUT EFS | Sending logs status<br>WITHOUT EFS | KPI summary<br>WITH EFS | Sending logs status<br>WITH EFS |
-|--- |--- |--- | --- | --- |
-| Message is successfully relayed from Campaign to the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage starts out at 100%</li><li>**[!UICONTROL Bounces + errors]** percentage starts out at 0%</li></ul>| Sent | <ul><li>**[!UICONTROL Delivered]** percentage starts out at 0%</li><li>**[!UICONTROL Bounces + errors]** percentage starts out at 0%</li></ul> | Pending |
-| Hard-bouncing messages get reported back from the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage is decreased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
-| Soft-bouncing messages get reported back from the Enhanced MTA | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Sent | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
-| Soft-bouncing messages retries are successful | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Sent | <ul><li>**[!UICONTROL Delivered]** percentage is increased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is decreased accordingly</li></ul> | Sent |
-| Soft-bouncing messages retries fail | <ul><li>**[!UICONTROL Delivered]** percentage is decreased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed | <ul><li> No change in **[!UICONTROL Delivered]** percentage </li><li> No change in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Failed |
+**With Email Feedback Service**
+
+| Step in the sending process | KPI summary | Sending logs status |
+|--- |--- |--- |
+| Message is successfully relayed from Campaign to the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage starts out at 0%</li><li>**[!UICONTROL Bounces + errors]** percentage starts out at 0%</li></ul> | Pending |
+| Hard-bouncing messages get reported back from the Enhanced MTA | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
+| Soft-bouncing messages get reported back from the Enhanced MTA | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
+| Soft-bouncing messages retries are successful | <ul><li>**[!UICONTROL Delivered]** percentage is increased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is decreased accordingly</li></ul> | Sent |
+| Soft-bouncing messages retries fail | <ul><li> No change in **[!UICONTROL Delivered]** percentage </li><li> No change in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Failed |
+
+**Without Email Feedback Service**
+
+| Step in the sending process | KPI summary | Sending logs status |
+|--- |--- |--- |
+| Message is successfully relayed from Campaign to the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage starts out at 100%</li><li>**[!UICONTROL Bounces + errors]** percentage starts out at 0%</li></ul>| Sent |
+| Hard-bouncing messages get reported back from the Enhanced MTA | <ul><li>**[!UICONTROL Delivered]** percentage is decreased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
+| Soft-bouncing messages get reported back from the Enhanced MTA | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Sent |
+| Soft-bouncing messages retries are successful | <ul><li>No change in **[!UICONTROL Delivered]** percentage</li><li>No change in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Sent |
+| Soft-bouncing messages retries fail | <ul><li>**[!UICONTROL Delivered]** percentage is decreased accordingly</li><li>**[!UICONTROL Bounces + errors]** percentage is increased accordingly</li></ul> | Failed |
