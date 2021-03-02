@@ -13,7 +13,7 @@ context-tags: delivery,deployment,back
 
 Once you have finished preparing your messages and the approval steps have been carried out, you can send them. For more on messages preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-Only users with the **[!UICONTROL Start deliveries]** role can confirm send. For more on this, refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+Only users with the **[!UICONTROL Start deliveries]** role can confirm sending. For more on this, refer to the [List of roles](../../administration/using/list-of-roles.md) section.
 
 <!--Users without this role will see the following message: 
 
@@ -35,9 +35,9 @@ Once preparation is complete, follow the steps below to send your message.
 
 >[!NOTE]
 >
->If the message is scheduled, it will be sent when sending time is reached. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>If the message is scheduled, it is sent when sending time is reached. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
 
-If you are using a recurring delivery with no aggregation period, you can request confirmation before the delivery is sent. To do this, when configuring your message, open the **[!UICONTROL Schedule]** block of the delivery dashboard and activate the dedicated option.
+If you are using a recurring delivery with no aggregation period, you can request a confirmation before the delivery is sent. When configuring your message, open the **[!UICONTROL Schedule]** block of the delivery dashboard and activate the dedicated option.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -58,7 +58,7 @@ Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone s
 
 ![](assets/sending_delivery.png)
 
-If the KPIs take too long to update or do not take into account the results from the sending logs, click the **[!UICONTROL Compute stats]** button in the **[!UICONTROL Deployment]** window.
+If the KPIs take too long to update or do not reflect the results from the sending logs, click the **[!UICONTROL Compute stats]** button in the **[!UICONTROL Deployment]** window.
 
 ![](assets/sending_delivery7.png)
 
@@ -87,7 +87,7 @@ When soft-bouncing messages get reported back from the Enhanced MTA, they still
 
 * Otherwise, the status changes to **[!UICONTROL Failed]** and the **[!UICONTROL Delivered]** percentage is decreased accordingly.
 
-Consequently, you should wait until the end of the validity period to see the final **[!UICONTROL Delivered]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
+Therefore, you must wait until the end of the validity period to see the final **[!UICONTROL Delivered]** percentage, and the final number of **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
 
 ### Email Feedback Service (beta) {#email-feedback-service}
 
