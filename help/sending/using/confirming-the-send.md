@@ -37,7 +37,7 @@ Once preparation is complete, follow the steps below to send your message.
 >
 >If the message is scheduled, it is sent when sending time is reached. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
 
-If you are using a recurring delivery with no aggregation period, you can request a confirmation before the delivery is sent. When configuring your message, open the **[!UICONTROL Schedule]** block of the delivery dashboard and activate the dedicated option.
+If you are using a recurring delivery with no aggregation period, you can request confirmation before the delivery is sent. When configuring your message, open the **[!UICONTROL Schedule]** block of the delivery dashboard and activate the dedicated option.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -105,7 +105,7 @@ The delivery logs show the **[!UICONTROL Pending]** status for each targeted a
 
 ![](assets/efs-pending.png)
 
-When the message is actually delivered to the targeted profiles and once this information is reported back in real time from the Enhanced MTA, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Delivered]** percentage is increased accordingly with each successful delivery.
+When the message delivery to the targeted profiles is reported back in real time from the Enhanced MTA, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Delivered]** percentage is increased accordingly with each successful delivery.
 
 When hard-bouncing messages get reported back from the Enhanced MTA, their log status changes from **[!UICONTROL Pending]** to **[!UICONTROL Failed]** and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly.
 
