@@ -13,6 +13,10 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## March 2021 {#doc-updates-march-2021}
+
+Information has been added to specify that, when selecting au audience in a query, its definition is copied and not referenced. [Read more](../../audiences/using/selecting-an-audience-in-a-message.md) 
+
 ## February 2021 {#doc-updates-february-2021}
 
 Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
