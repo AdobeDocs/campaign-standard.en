@@ -13,11 +13,15 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## February 2021 {#doc-updates-february-2021}
+
+Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
+
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **New capabilities included in the release**
 
-Email Feedback service - [Read more](../../sending/using/confirming-the-send.md#email-feedback-service)
+Email Feedback Service - [Read more](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager integration improvements - [Read more](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -31,13 +35,15 @@ Information has been added on the new GetOption function that allows you to retu
 
 Information has been added on the new **[!UICONTROL filesCount]** output variable available after using a **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/transfer-file.md#output-variables)
 
-The **Configuring email channel** section has been updated to clarify what the latest applicable email settings are. Some legacy parameters still in use for certain customers are listed at the bottom of this page. [Read more](../../administration/using/configuring-email-channel.md)
+The **Configuring email channel** section has been updated to clarify what the latest applicable email settings are. Some legacy parameters still in use for certain customers are listed at the bottom of the page. [Read more](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
 **Predictive Subject Line** capability is now deprecated. [Read more](../../rn/using/deprecated-features.md)
 
-The **Transactional messaging** getting started section now includes [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the implementation process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+The **Getting started with transactional messaging** section now includes [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) for a better understanding of the process.
+
+An end-to-end use case to illustrate the transactional messaging implementation process is now available. [Read more](../../channels/using/transactional-messaging-use-case.md)
 
 The **Privacy** section has been moved [here](../../start/using/privacy.md).
 
@@ -51,11 +57,13 @@ The **Using product listings in a transactional message** section has been moved
 
 ## November 2020 {#doc-updates-november-2020}
 
-The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
+The **Personal Data and Personas** section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
 
 A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../start/using/privacy-faq.md)
 
-The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
+The **Privacy** section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
+
+The **Transactional messaging** section has been reorganized and gathered into one place for improved navigation. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
 
@@ -81,7 +89,7 @@ A section has been added to describe the new filters that enable to search the e
 
 ## September 2020 {#doc-updates-september-2020}
 
-The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/editing-transactional-message.md)
+The **Event transactional messages** section has been reorganized and clarified. [Read more](../../channels/using/editing-transactional-message.md)
 
 A caution note has been added to warn users about permissions limitation related to log access. [Read more](../../administration/using/users-management.md)
 
@@ -95,9 +103,9 @@ Information has been added on anonymous sources in the Active profiles report. [
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
-The **Transactional messaging limitations** section has moved [here](../../channels/using/transactional-messaging-limitations.md)
+The **Transactional messaging limitations** section has moved [here](../../channels/using/transactional-messaging-limitations.md).
 
-The **Preparing the send** section has moved [here](../../sending/using/preparing-the-send.md)
+The **Preparing the send** section has moved [here](../../sending/using/preparing-the-send.md).
 
 ## July 2020 {#doc-updates-july-2020}
 

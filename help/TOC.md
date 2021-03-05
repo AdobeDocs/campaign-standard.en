@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 
 title: Adobe Campaign Standard Help Center
-breadcrumb-title: Campaign Standard
+breadcrumb-title: Help Center
 title: Campaign Standard Guide
 ---
 
@@ -15,6 +15,7 @@ title: Campaign Standard Guide
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
+  + [Early Release Notes](rn/using/early-release-notes.md)
   + Previous Releases {#previous-releases}
     + [Release Notes 2020](rn/using/release-notes-2020.md)
     + [Release Notes 2019](rn/using/release-notes-2019.md)
@@ -280,6 +281,7 @@ title: Campaign Standard Guide
        + [Monitoring workflow execution](automating/using/monitoring-workflow-execution.md)
        + [Managing execution options](automating/using/managing-execution-options.md)
        + [Managing activities' properties](automating/using/activity-properties.md)
+       + [Scheduled workflows' overlapping execution](automating/using/scheduled-workflows-execution.md)
   + Calling a workflow with external parameters {#calling-workflow-external-parameters}
        + [Overview](automating/using/calling-a-workflow-with-external-parameters.md)
        + [Declaring the parameters in the External Signal activity](automating/using/declaring-parameters-external-signal.md)

@@ -13,9 +13,9 @@ topic: Premium
 
 ## What's New
 
-* **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
+* **[Campaign 21.1 February Release is live!](rn/using/release-notes.md)**<br/> Discover new features, latest updates and fixes
 
-* **[Release planning](rn/using/release-planning.md)**<br/> Upcoming February 2021 release dates have been added to the release planning
+* **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
 
 * **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
 
