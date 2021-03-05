@@ -268,7 +268,7 @@ title: Campaign Standard Guide
        + Audience Destinations Service {#audience-destinations}
           + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
           + [Managing Adobe Experience Platform audiences](integrating/using/aep-managing-audiences.md)
-          + [Using the Segment Builder](integrating/using/aep-using-segment-bullder.md)
+          + [Using the Segment Builder](integrating/using/aep-using-segment-builder.md)
           + [Targeting Adobe Experience Platform audiences](integrating/using/aep-targeting-audiences.md)
           + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
        + Adobe Experience Platform Data Connector {#data-connector}
