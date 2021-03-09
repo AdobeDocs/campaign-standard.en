@@ -19,10 +19,6 @@ Information has been added to specify that, when selecting au audience in a quer
 
 Information related to the Audience Destinations Service and Adobe Experience Platform Data Connector has been regrouped into a new section. [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
 
-## February 2021 {#doc-updates-february-2021}
-
-Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
-
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **New capabilities included in the release**
@@ -42,6 +38,8 @@ Information has been added on the new GetOption function that allows you to retu
 Information has been added on the new **[!UICONTROL filesCount]** output variable available after using a **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/transfer-file.md#output-variables)
 
 The **Configuring email channel** section has been updated to clarify what the latest applicable email settings are. Some legacy parameters still in use for certain customers are listed at the bottom of the page. [Read more](../../administration/using/configuring-email-channel.md)
+
+Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
