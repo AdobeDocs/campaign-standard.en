@@ -23,9 +23,9 @@ The content and display of messages delivered by Adobe Campaign can be personali
 
 To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon). For more on this, see [Defining the sender of an email](../../designing/using/subject-line.md#email-sender).
 
-  You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
+You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
 
-  This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
+This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
 
 >[!NOTE]
 >

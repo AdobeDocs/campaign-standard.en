@@ -175,11 +175,7 @@ title: Campaign Standard Guide
        + [Understanding quarantine management](sending/using/understanding-quarantine-management.md)
   + Managing deliverability {#managing-deliverability}
        + [About deliverability](sending/using/about-deliverability.md)
-       + [Starting a new platform](sending/using/starting-new-platform.md)
        + [Controlling email content](sending/using/control-email-content.md)
-       + [Improving your reputation](sending/using/improving-reputation.md)
-       + [IP Certification](sending/using/ip-certification.md)
-       + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
   + Working with typology rules {#working-with-typology-rules}

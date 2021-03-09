@@ -28,7 +28,7 @@ If the problem persists, contact the commercial or deliverability services, or A
 
 * **What is the difference between an email address on denylist and a quarantined email address?**
 
-    * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL On denylist]** is a result of a [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (when a person reports a message as spam).
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
