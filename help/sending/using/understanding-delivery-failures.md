@@ -68,9 +68,9 @@ Error label | Error type | Description
  **[!UICONTROL Character not supported by encoding]** | Ignored | The SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
 
- **Related topics:**
- * [Hard bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
- * [Soft bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+**Related topics:**
+* [Hard bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Soft bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
