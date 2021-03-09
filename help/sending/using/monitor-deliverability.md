@@ -45,7 +45,7 @@ The **[!UICONTROL Delivery alerting]** feature is an alert management system tha
 
 For more on this, see [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md).
 
-## External tools (#external-tools)
+<!--## External tools (#external-tools)
 
 ### Signal Spam {#signal-spam}
 
@@ -59,4 +59,4 @@ Signal Spam also provides direct complaints that end users log through a dedicat
 
 250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
-The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
