@@ -25,8 +25,6 @@ Deliverability problems are usually linked to measures of protection against spa
 
 * For more specific recommendations on how to optimize the deliverability of your Adobe Campaign emails, we recommend using the best practices listed in this section.
 
-<!--Here is a list of the key points to check to ensure good deliverability.-->
-
 >[!NOTE]
 >
 >Because ISPs are obliged to continuously develop new sophisticated filtering techniques to protect their customers from spammers, email deliverability is characterized by ever-changing criteria and rules. Make sure you refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) which is regularly updated.
@@ -46,10 +44,9 @@ With Adobe Campaign, the deliverability rate depends on numerous factors, partic
 * Message authentication (SPF, DKIM, DMARC): see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 * Sender reputation: to learn how main ISPs evaluate a sender reputation, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
-
 ## Campaign deliverability tools {#deliverability-tools}
 
-Adobe Campaign provides a number of tools designed to ensure optimal deliverability.
+Adobe Campaign provides a number of tools to track and improve the deliverability performance of your platform. This page also highlights the main principles you should have in mind to optimize deliverability when using Campaign.
 
 ### Carefully build your message
 
