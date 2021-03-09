@@ -89,7 +89,7 @@ Three systems need to be provisioned and configured for this integration:
 
 Support tickets can be logged with Adobe Customer Care.
 
-For any issues with integration data flows, make sure to include the report suite as part of the issue description as well as the following information:
+For any issues with integration data flows, make sure to include the following information:
 
 * **Process Owner**: Engineering Architects
 * **ES Process ID**: Provided during onboarding process
