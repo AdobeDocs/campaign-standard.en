@@ -259,7 +259,7 @@ The Exporting logs section has been updated to reflect the availability of the D
 
 ## January 2020 {#doc-updates-january-2020}
 
-The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
+The Deliverability documentation has been updated with a new section on IP Certification. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 A new section describing how to create a cross-channel delivery workflow is available. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
 
