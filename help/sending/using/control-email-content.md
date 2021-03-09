@@ -42,7 +42,7 @@ For more on this, see [Defining the email sender of an email](../../designing/us
   
 ## Personalization and send time optimization {#perso-send-time-optimization}
 
-To improve your recipients’ experience and make them open your email, Adobe Campaign enables you to personalize your messages. For more on this, see [this section](designing/using/personalization.md).
+To improve your recipients’ experience and make them open your email, Adobe Campaign enables you to personalize your messages. For more on this, see [this section](../../designing/using/personalization.md).
 
 To increase the opening rate of your messages, you can also manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible. For more on this, see [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md).
 
