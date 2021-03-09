@@ -45,9 +45,9 @@ You can then start with the integration tool. Follow the steps blow:
 
 Open a browser and browse to the connector associated with your region:
 
-* [Asia Pacific](http://d365-acs-ap.ea.adobe.com/)
-* [Europe, Middle East, or Africa (EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [Americas](http://d365-acs-na.ea.adobe.com/)
+* [Asia Pacific](https://d365-acs-ap.ea.adobe.com/)
+* [Europe, Middle East, or Africa (EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [Americas](https://d365-acs-am.ea.adobe.com/)
 
 ## Privacy request acknowledgement {#self-service-app-acknowledgement}
 
