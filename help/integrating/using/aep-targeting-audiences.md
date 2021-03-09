@@ -15,7 +15,7 @@ topic-tags: channel-activities
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Segment Builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
+Once you have created an [Adobe Experience Platform audience](../../integrating/using/aep-about-audience-destinations-service.md) using the Segment Builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
 To activate an Adobe Experience Platform audience into your workflows, follow these steps:
 
@@ -39,7 +39,7 @@ To activate an Adobe Experience Platform audience into your workflows, follow th
 
     ![](assets/aep_wkf_readaudience_namespace.png)
 
-    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Adobe Experience Platform Data Connector, refer to [this dedicated document](../../developing/using/aep-about-data-connector.md).
+    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Adobe Experience Platform Data Connector, refer to [this dedicated document](../../integrating/using/aep-about-data-connector.md).
 
     ![](assets/aep_wkf_readaudience_namespace2.png)
 
