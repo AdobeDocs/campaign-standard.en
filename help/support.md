@@ -31,7 +31,7 @@ Get support using our FAQs, best practices, online resources and support portal.
 
 Read out a set of specific Q&A by topics:
 
-* [Deliverability](sending/using/monitoring-deliverability.md)
+* [Deliverability](sending/using/monitor-deliverability.md)
 * [InApp and Push notifications](administration/using/aep-faq.md)
 * [Email Designer](designing/using/faq-email-designer.md)
 
@@ -46,13 +46,13 @@ Read out a set of specific Q&A by topics:
 
 * [Workflow best practices](automating/using/best-practices-workflows.md)
 * [Workflow monitoring](automating/using/about-workflow-execution.md)
-* [Understand tracking management](sending/using/tracking-messages.mdg)
+* [Understand tracking management](sending/using/tracking-messages.md)
 * [Deliverability best practices](sending/using/about-deliverability.md)
-* [Import data with workflows](automating/using/importing-data.md)
+* [Import data with workflows](automating/using/creating-import-workflow-templates.md)
 * [Timezone management](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 * [Receive a notification when a failure happens](sending/using/receiving-alerts-when-failures-happen.md)
 * [Import or convert an email content](designing/using/using-existing-content.md)
-* [Delivery best practices](channels/using/delivery-best-practices.md)
+* [Delivery best practices](sending/using/delivery-best-practices.md)
 
 ### How-to
 
