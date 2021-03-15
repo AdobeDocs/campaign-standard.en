@@ -9,7 +9,7 @@ topic-tags: latest-release-notes
 hidefromtoc: yes
 ---
 
-# Help & support options for Campaign Standard {#hel-psupport-options}
+# Help & support options for Campaign Standard {#help-support-options}
 
 Need Support for Campaign Standard? You are at the right place!
 
