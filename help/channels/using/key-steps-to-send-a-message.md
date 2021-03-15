@@ -29,7 +29,7 @@ Leverage Campaign Standard [marketing activities](../../start/using/marketing-ac
 
 ![](assets/marketing-activities.png)
 
-Messages can be created either from the marketing activties list or integrated within a workflow using [dedicated activities](../../automating/using/about-channel-activities.md).
+Messages can be created either from the marketing activties list or from a workflow using [dedicated activities](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
@@ -46,19 +46,17 @@ There are several types of audiences available:
 
 ## Design and personalize content
 
-In the **[!UICONTROL Content]** block, design and personalize the content of your message using fields from your database. For more information on a specific channel, refer to the sections listed at the top of this page.
-
-For emails, Adobe Campaign integrates the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) that allows you to easily create and modify content in HTML format.
+In the **[!UICONTROL Content]** block, design and personalize the content of your message using fields from your database. For more information on how to design content for a specific channel, refer to the sections listed at the top of this page.
 
 ![](assets/steps-content.png)
 
 ## Prepare and test
 
-Start [preparing](../../sending/using/preparing-the-send.md) the message. This process calculates the target population and prepares the personalized message.
+[Prepare](../../sending/using/preparing-the-send.md) the message. This process calculates the target population and prepares the personalized message.
 
 ![](assets/steps-prepare.png)
 
-**Check and test your message** before using Campaign Standard dedicated capabilities: preview, email rendering, proofing, etc. For more on how to prepare and send a message, refer to [this section](../../sending/using/previewing-messages.md).
+**Check and test your message** before sending it using Campaign Standard  capabilities: preview, email rendering, proofing, etc. For more on this, refer to [this section](../../sending/using/previewing-messages.md).
 
 Use the **[!UICONTROL Schedule]** block to define when your messages will be sent (see [Scheduling messages](../../sending/using/about-scheduling-messages.md)).
 
