@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
+feature: Workflows
+role: Data Architect
+level: Experienced
 ---
 
 # Managing packages{#managing-packages}

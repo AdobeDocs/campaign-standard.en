@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # SMS report{#sms-report}

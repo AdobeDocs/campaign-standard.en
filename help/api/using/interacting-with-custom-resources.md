@@ -6,6 +6,9 @@ description: Learn more about custom resources management with APIs/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Data Engineer
+level: Experienced
 ---
 
 # Interacting with custom resources {#interacting-with-custom-resources}

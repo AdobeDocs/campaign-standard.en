@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started with communication channels {#discovering-communication-channels}

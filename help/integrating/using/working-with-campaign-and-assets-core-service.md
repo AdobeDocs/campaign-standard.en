@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 
+feature: People Core Service Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Working with Campaign and Assets core service{#working-with-campaign-and-assets-core-service}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Enriching profile data with data contained in a file {#enriching-profile-data-with-data-contained-in-a-file}

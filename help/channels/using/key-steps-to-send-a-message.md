@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Key steps to send a message{#key-steps-to-send-a-message}

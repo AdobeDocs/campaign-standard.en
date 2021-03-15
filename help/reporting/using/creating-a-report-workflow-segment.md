@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Creating a report based on workflow segments{#creating-a-report-workflow-segment}

@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
+feature: Audiences
+role: Business Practitioner
+level: Beginner
 ---
 
 # Creating a service{#creating-a-service}

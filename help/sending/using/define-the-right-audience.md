@@ -6,6 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: "When you have your content ready, learn how you carefully define who will receive your message."
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Define the right audience {#define-the-right-audience}

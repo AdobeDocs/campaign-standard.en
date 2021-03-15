@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # landingPage (nms:landingPage)

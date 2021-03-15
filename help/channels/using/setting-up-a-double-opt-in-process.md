@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 
+feature: Landing Pages
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Setting up a double opt-in process{#setting-up-a-double-opt-in-process}

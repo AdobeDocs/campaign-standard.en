@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 
+feature: Proofs
+role: Business Practitioner
+level: Beginner
 ---
 
 # Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}

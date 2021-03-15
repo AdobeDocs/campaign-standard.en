@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Message dashboard{#message-dashboard}

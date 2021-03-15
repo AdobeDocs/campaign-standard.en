@@ -7,6 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Release Planning {#release-planning}

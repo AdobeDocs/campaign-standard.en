@@ -7,6 +7,9 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # Monitoring guidelines {#monitoring-guidelines}

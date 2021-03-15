@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: API
+role: Data Engineer
+level: Experienced
 ---
 
 # Troubleshooting {#troubleshooting}

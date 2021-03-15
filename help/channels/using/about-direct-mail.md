@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About direct mail{#about-direct-mail}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Segmentation{#segmentation}

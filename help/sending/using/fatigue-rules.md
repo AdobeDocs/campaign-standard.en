@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 
+feature: Typology Rules
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Fatigue rules{#fatigue-rules}

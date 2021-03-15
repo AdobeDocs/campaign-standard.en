@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}

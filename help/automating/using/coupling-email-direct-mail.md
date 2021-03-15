@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Coupling email and direct mail deliveries {#coupling-email-direct-mail}

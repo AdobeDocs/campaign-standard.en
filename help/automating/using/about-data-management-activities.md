@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # About data management activities{#about-data-management-activities}

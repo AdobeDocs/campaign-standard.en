@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Mobile use cases supported in Adobe Campaign Standard {#mobile-use-cases}

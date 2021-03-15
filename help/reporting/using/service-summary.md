@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Service summary{#service-summary}

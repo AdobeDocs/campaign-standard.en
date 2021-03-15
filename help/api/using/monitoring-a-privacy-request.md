@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
 ---
 
 # Monitoring a privacy request {#monitoring-a-privacy-request}

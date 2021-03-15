@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
+feature: Typology Rules
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About typologies and typology rules{#about-typology-rules}

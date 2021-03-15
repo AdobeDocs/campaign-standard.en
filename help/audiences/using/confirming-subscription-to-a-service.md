@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Confirming subscription to a service{#confirming-subscription-to-a-service}

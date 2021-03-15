@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Experience Platform SDK integration FAQ {#aep-faq}

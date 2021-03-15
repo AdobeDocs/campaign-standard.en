@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Tracking indicators{#tracking-indicators}

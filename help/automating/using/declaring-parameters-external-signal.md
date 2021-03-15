@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}

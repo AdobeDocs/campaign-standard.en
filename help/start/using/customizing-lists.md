@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 
+feature: Campaigns
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Customizing lists{#customizing-lists}

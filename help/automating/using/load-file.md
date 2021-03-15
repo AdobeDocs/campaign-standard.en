@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Load file {#load-file}

@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Configuring a transactional event {#configuring-transactional-event}

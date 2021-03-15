@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Defining the parameters when calling the workflow {#defining-the-parameters-when-calling-the-workflow}

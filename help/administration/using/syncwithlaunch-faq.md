@@ -6,6 +6,9 @@ description: Common questions about Launch technical workflow.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Adobe Launch Synchronization FAQ {#syncwithlaunch-faq}

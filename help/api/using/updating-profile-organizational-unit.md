@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
 ---
 
 # Updating a profile's Organizational unit {#managing-organizational-units}

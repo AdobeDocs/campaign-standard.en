@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # About workflow execution {#about-workflow-execution}

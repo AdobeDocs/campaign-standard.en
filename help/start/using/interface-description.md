@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Interface description{#interface-description}

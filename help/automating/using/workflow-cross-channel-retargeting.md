@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}

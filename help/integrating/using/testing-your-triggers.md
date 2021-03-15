@@ -2,11 +2,13 @@
 solution: Campaign Standard
 product: campaign
 title: Testing your triggers
-description: 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # Testing your triggers{#testing-your-triggers}

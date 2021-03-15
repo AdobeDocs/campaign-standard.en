@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Using the Segment Builder {#using-the-segment-builder}

@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Resource statuses{#resource-statuses}

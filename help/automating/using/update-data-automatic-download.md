@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Updating data based on an automatic file download {#updating-data-automatic-file-download}
