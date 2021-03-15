@@ -11,21 +11,69 @@ topic-tags: about-communication-channels
 
 # Key steps to send a message{#key-steps-to-send-a-message}
 
+In this section, you will learn how to create and send personalized messages to a targeted audience using Adobe Campaign Standard.
+
+Specific information on how to create and configure each communication channel is available in these sections:
+
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Creating a SMS](../../channels/using/creating-an-sms-message.md)
+* [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md)
+* [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
+* [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
 To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
 
-The steps to create and send messages are as follows:
+## Create your message
 
-1. Create an **[!UICONTROL Email]**, a **[!UICONTROL SMS]**, a **[!UICONTROL direct mail]** or a **[!UICONTROL push notification]** marketing activity. Refer to [Creating an email](../../channels/using/creating-an-email.md), [Creating a SMS](../../channels/using/creating-an-sms-message.md), [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md) and [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
-1. Select the audiences of your message. Refer to [Creating audiences](../../audiences/using/creating-audiences.md).
-1. Define the message content and its personalization elements. Refer to the [content editor](../../designing/using/designing-content-in-adobe-campaign.md) for email or specific content for other channels.
-1. Start preparing the send to calculate the target population and generate the message contents. Refer to [Approving messages](../../sending/using/preparing-the-send.md).
+Leverage Campaign Standard [marketing activities](../../start/using/marketing-activities.md) to create an email, SMS, direct mail, push notification or In-App message.
 
-   >[!NOTE]
-   >
-   >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../sending/using/fatigue-rules.md).
+![](assets/marketing-activities.png)
 
-1. Send proofs. Refer to [Sending proofs](../../sending/using/sending-proofs.md).
-1. Send the message and check its delivery. Refer to [Sending messages](../../sending/using/confirming-the-send.md).
-1. Check the dedicated delivery reports. Refer to [Accessing reports](../../reporting/using/about-dynamic-reports.md).
+Messages can be created either from the marketing activties list or integrated within a workflow using [dedicated activities](../../automating/using/about-channel-activities.md).
 
-Advanced message parameters are detailed in the [Configuring channels](../../administration/using/about-channel-configuration.md) sections.
+![](assets/steps-channel.png)
+
+## Define the audience
+
+Define the recipients of your message. To do this, use the [query editor](../../automating/using/editing-queries.md) from the left pane to filter data contained in your database and build rules to target your audience.
+
+There are several types of audiences available:
+
+* **[!UICONTROL Target]** is the main target of your email,
+* **[!UICONTROL Test profiles]** are the profiles used to test and validate your email (see [Managing test profiles](../../audiences/using/managing-test-profiles.md)).
+
+![](assets/steps-audience.png)
+
+## Design and personalize content
+
+In the **[!UICONTROL Content]** block, design and personalize the content of your message using fields from your database. For more information on a specific channel, refer to the sections listed at the top of this page.
+
+For emails, Adobe Campaign integrates the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) that allows you to easily create and modify content in HTML format.
+
+![](assets/steps-content.png)
+
+## Prepare and test
+
+Start [preparing](../../sending/using/preparing-the-send.md) the message. This process calculates the target population and prepares the personalized message.
+
+![](assets/steps-prepare.png)
+
+**Check and test your message** before using Campaign Standard dedicated capabilities: preview, email rendering, proofing, etc. For more on how to prepare and send a message, refer to [this section](../../sending/using/previewing-messages.md).
+
+Use the **[!UICONTROL Schedule]** block to define when your messages will be sent (see [Scheduling messages](../../sending/using/about-scheduling-messages.md)).
+
+![](assets/steps-schedule.png)
+
+## Send and track 
+
+Once your message is ready, you can confirm the send. The **[!UICONTROL Deployment]** block displays the send progress and the result. 
+
+![](assets/steps-send.png)
+
+Several logs are available to help you monitor the delivery of your messages (see [monitoring a delivery](../../sending/using/monitoring-a-delivery.md)). You can also track the behavior of your delivery recipients thanks to Campaign Standard's [tracking functionalities](../../sending/using/tracking-messages.md).
+
+![](../../sending/using/assets/tracking_logs.png)
+
+Measure the effectiveness of your messages and the evolution of your sends and campaigns through various indicators and charts (see [Accessing reports](../../reporting/using/about-dynamic-reports.md)).
+
+![](assets/steps-reports.png)
