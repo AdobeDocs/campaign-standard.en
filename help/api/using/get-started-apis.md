@@ -44,3 +44,43 @@ The APIs we provide use **standard concepts** with a REST interface and JSON pay
 All the endpoints are described extensively in this documentation with the general notions you should know for manipulating the API, the complete API reference, code examples and quick start guides.
 
 If anything is missing or seems incorrect, please ask the [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
+
+
+
+
+<table>
+    <tr><td>Topics Q&A</td><td>Common issues</td><td>Best practices</td><td>How-to</td></tr>
+    <tr>
+    <td valign="top">
+        <li><a href="sending/using/monitor-deliverability.md">Deliverability</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp and Push notifications</a></li>
+        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
+    </td>
+    <td valign="top">
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Error management in workflows</a></li>
+    <li><a href="automating/using/best-practices-workflows.md">Workflow execution troubleshooting</a></li>
+    <li><a href="api/using/troubleshooting.md">API troubleshooting</a></li>
+    <li><a href="sending/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
+    </td>
+   <td valign="top">
+        <li><a href="automating/using/best-practices-workflows.md">Workflow best practices</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">Workflow monitoring</a></li>
+        <li><a href="sending/using/tracking-messages.md">Understand tracking management</a></li>
+        <li><a href="sending/using/about-deliverability.md">Deliverability best practices</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Import data with workflows</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Timezone management</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receive a notification when a failure happens</a></li>
+        <li><a href="designing/using/using-existing-content.md">Import or convert an email content</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Delivery best practices</a></li>
+    </td>
+    <td valign="top">
+        <li><a href="rn/using/release-planning.md">Upgrade to a new version</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Monitor a delivery</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
+        <li><a href="start/using/privacy-management.md">Privacy and consent management</a></li>
+        <li><a href="automating/using/query.md">Design a query</a></li>
+        <li><a href="automating/using/query-samples.md">Query Samples</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configure mobile channels</a></li>
+    </td>
+    </tr>
+</table>
