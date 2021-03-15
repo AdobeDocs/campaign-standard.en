@@ -7,6 +7,8 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 
+feature: Workflows
+role: Data Architect
 ---
 
 # About workflow use cases {#about-workflow-use-cases}

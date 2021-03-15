@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Implementing Push tracking {#push-tracking}

@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 
+feature: Email
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Creating a multilingual email{#creating-a-multilingual-email}

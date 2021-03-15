@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
+feature: Email
+role: Business Practitioner
+level: Beginner
 ---
 
 # Designing an A/B test email{#designing-an-a-b-test-email}

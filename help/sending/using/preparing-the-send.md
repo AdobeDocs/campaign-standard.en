@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Preparing the send{#preparing-the-send}

@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryHotClicksReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Hot clicks{#hot-clicks}

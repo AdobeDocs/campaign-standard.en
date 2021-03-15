@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
+feature: SMS
+role: Business Practitioner
+level: Beginner
 ---
 
 # About SMS messages{#about-sms-messages}

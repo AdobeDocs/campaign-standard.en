@@ -4,6 +4,9 @@ description: Campaign and Dynamics integration workflows
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Campaign - Microsoft Dynamics 365 integration workflows

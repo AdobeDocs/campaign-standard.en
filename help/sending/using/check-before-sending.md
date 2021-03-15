@@ -6,6 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: "Once your message is ready, learn how to perform all checks before sending"
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Perform all checks before sending {#perform-all-checks}

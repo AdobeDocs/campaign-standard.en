@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: Push
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Creating and updating profile information based on mobile application data

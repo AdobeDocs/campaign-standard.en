@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get Started with Campaign Standard {#about-campaign-standard}

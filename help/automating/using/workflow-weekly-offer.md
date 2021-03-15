@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities 
 context-tags: workflow,use-case,query,delivery,scheduler
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Creating an email delivery every Tuesday{#creating-email-every-tuesday}

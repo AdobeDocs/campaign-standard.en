@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Delivery throughput{#delivery-throughput}

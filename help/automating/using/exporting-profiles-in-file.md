@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Exporting profiles in an external file {#exporting-profiles-external-file}

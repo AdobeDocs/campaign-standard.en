@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}

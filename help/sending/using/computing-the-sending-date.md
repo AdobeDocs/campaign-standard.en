@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Computing the sending date{#computing-the-sending-date}

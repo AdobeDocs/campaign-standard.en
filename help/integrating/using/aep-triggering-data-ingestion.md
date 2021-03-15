@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Triggering data ingestion through APIs {#triggering-data-ingestion-apis}

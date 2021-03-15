@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 
+feature: Privacy
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Managing Privacy requests {#privacy-requests}

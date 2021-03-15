@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Using traps {#using-traps}

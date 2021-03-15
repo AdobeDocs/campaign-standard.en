@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
+feature: In App
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Customizing an In-App message{#customizing-an-in-app-message}

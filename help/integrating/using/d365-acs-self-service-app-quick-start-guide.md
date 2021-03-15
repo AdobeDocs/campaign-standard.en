@@ -5,6 +5,9 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Get started with the self-service integration app {#gs-self-service-app}

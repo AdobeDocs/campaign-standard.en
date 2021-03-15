@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # Troubleshooting{#troubleshooting}

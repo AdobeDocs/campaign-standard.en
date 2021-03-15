@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
+feature: Workflows
+role: Data Architect
+level: Beginner
 ---
 
 # Workflow interface{#workflow-interface}

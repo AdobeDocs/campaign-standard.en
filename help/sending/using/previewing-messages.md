@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Previewing deliveries {#previewing-messages}

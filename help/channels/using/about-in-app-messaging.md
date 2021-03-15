@@ -7,6 +7,8 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
+feature: In App
+role: Business Practitioner
 ---
 
 # About In-App messaging{#about-in-app-messaging}

@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
+feature: Campaigns
+role: Business Practitioner
+level: Beginner
 ---
 
 # Timeline{#timeline}

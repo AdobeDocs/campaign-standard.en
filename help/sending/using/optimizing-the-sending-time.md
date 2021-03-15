@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Optimizing the sending time{#optimizing-the-sending-time}

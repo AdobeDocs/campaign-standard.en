@@ -6,6 +6,9 @@ description: Learn how to use predictive send time and engagement scoring.
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Optimizing design and delivery with AI-powered emails{#journey-ai}

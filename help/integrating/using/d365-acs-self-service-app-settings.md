@@ -4,6 +4,9 @@ description: Learn how to configure Campaign-Dynamics integration app
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Connect systems with the integration app

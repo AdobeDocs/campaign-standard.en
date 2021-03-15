@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
+feature: SMS
+role: Business Practitioner
+level: Beginner
 ---
 
 # Creating an SMS message{#creating-an-sms-message}

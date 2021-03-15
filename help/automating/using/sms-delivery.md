@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # SMS delivery{#sms-delivery}

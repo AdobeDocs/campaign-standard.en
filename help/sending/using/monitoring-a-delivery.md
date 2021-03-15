@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
+feature: Performance Monitoring
+role: Business Practitioner
+level: Beginner
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}

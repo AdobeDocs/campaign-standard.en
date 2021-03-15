@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Identifying opt-out profiles for a delivery{#identifying-opt-out-profiles-for-a-delivery}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Workflows
+role: Data Architect
+level: Experienced
 ---
 
 # Advanced expression editing{#advanced-expression-editing}

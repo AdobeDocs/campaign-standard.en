@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Push
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About push notifications{#about-push-notifications}

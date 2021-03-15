@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # About Campaign-Experience Manager integration{#integrating-with-experience-manager}

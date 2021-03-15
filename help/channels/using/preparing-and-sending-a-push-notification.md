@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: Push
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Preparing and sending a push notification{#preparing-and-sending-a-push-notification}

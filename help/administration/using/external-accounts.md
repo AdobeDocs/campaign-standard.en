@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # External accounts{#external-accounts}

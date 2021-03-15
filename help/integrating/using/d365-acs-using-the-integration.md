@@ -4,6 +4,9 @@ description: Learn how to use the Microsoft Dynamics 365 with Campaign Standard 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Using the Microsoft Dynamics 365 integration

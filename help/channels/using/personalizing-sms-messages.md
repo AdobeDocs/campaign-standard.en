@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
+feature: SMS
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Personalizing SMS messages{#personalizing-sms-messages}

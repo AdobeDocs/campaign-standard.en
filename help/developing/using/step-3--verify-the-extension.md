@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Step 3: Verify the extension{#step-verify-the-extension}

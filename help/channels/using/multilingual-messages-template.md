@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 
+feature: Multilingual Messages
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Multilingual messages templates {#multilingual-messages-template}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Experienced
 ---
 
 # Creating workflow templates to import data {#import-workflow-template}

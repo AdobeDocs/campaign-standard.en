@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Key steps to add a resource{#key-steps-to-add-a-resource}

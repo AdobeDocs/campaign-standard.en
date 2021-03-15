@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}

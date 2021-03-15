@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Breakdown by domains{#breakdown-by-domains}
