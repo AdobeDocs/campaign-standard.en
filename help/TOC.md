@@ -39,6 +39,7 @@ breadcrumb-title: Help Center
        + [Privacy management](start/using/privacy-management.md)
        + [Privacy requests](start/using/privacy-requests.md)
        + [Privacy FAQ](start/using/privacy-faq.md)
+  + [Help & support options](support.md)
 + Profiles and audiences {#profiles-and-audiences}
   + [Get started with profiles and audiences](audiences/using/get-started-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}
