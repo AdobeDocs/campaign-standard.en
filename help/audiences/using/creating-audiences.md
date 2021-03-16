@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
+feature: Audiences
+role: Business Practitioner
+level: Beginner
 ---
 
 # Creating audiences{#creating-audiences}

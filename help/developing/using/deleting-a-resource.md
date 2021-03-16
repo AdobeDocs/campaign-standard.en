@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Deleting a resource{#deleting-a-resource}

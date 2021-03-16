@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # About Campaign-Analytics integration{#about-campaign-analytics-integration}

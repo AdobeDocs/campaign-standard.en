@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Updating the database structure{#updating-the-database-structure}

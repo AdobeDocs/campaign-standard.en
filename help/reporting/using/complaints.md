@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Complaints{#complaints}

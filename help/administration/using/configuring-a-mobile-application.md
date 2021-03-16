@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Configuring a mobile application{#configuring-a-mobile-application}

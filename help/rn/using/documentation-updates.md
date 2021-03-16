@@ -7,6 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Documentation Updates{#documentation-updates}

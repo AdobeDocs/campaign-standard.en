@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Troubleshooting{#troubleshooting}

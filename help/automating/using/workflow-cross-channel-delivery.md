@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Creating a cross-channel delivery{#cross-channel-delivery}

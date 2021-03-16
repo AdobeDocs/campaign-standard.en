@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Defining the direct mail audience{#defining-the-direct-mail-audience}

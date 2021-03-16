@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Follow-up messages {#follow-up-messages}

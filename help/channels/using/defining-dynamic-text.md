@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 
+feature: SMS
+role: Business Practitioner
+level: Beginner
 ---
 
 # Defining dynamic text{#defining-dynamic-text}

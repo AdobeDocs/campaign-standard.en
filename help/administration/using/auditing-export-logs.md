@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # Auditing export logs{#auditing-export-logs}

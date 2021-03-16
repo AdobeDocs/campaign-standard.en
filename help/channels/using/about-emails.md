@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
+feature: Email
+role: Business Practitioner
+level: Beginner
 ---
 
 # About emails{#about-emails}

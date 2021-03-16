@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 
+feature: Workflows
+role: Data Architect
+level: Experienced
 ---
 
 # Importing data with import templates{#importing-data-with-import-templates}

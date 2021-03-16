@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # About deliverability{#about-deliverability}

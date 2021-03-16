@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Personalizing campaigns using Adobe Experience Platform attributes {#personalizing-campaigns-using-aep-attributes}

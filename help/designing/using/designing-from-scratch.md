@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 ---
 
 # Designing emails from scratch {#designing-an-email-content-from-scratch}

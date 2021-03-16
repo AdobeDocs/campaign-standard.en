@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Creating or extending the resource{#creating-or-extending-the-resource}

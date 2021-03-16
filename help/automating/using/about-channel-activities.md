@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # About channel activities{#about-channel-activities}

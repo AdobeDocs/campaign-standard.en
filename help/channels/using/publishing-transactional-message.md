@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Transactional message lifecycle {#publishing-transactional-message}

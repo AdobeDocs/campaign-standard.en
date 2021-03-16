@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Managing test profiles {#managing-test-profiles}

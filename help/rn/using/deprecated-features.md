@@ -7,6 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Deprecated and Removed Features {#deprecated-and-removed-features}

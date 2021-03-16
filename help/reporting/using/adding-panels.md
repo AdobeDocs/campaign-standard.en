@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Adding panels{#adding-panels}

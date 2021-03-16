@@ -2,11 +2,13 @@
 solution: Campaign Standard
 product: campaign
 title: "Step 2: Publish the extension"
-description: 
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Step 2: Publish the extension{#step-publish-the-extension}

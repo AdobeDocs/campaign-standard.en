@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Sending internal notifications{#sending-internal-notifications}

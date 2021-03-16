@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 ---
 
 # Campaign Email Designer{#designing-content-in-adobe-campaign}

@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 
+feature: Landing Pages
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Testing and publishing a landing page{#testing-publishing--landing-page}

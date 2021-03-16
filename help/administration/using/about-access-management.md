@@ -6,6 +6,9 @@ description: Manage your Adobe Campaign operators using roles, groups and organi
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # About access management{#about-access-management}

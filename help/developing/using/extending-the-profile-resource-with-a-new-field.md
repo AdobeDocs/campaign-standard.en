@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Extending the profile resource with a new field{#extending-the-profile-resource-with-a-new-field}

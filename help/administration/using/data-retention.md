@@ -2,11 +2,13 @@
 solution: Campaign Standard
 product: campaign
 title: Data retention
-description: 
 audience: administration
 content-type: reference
 topic-tags: application-settings
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Data retention{#data-retention}

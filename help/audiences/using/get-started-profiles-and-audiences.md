@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started with profiles and audiences{#about-profiles-and-audiences}

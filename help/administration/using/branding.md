@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Branding{#branding}

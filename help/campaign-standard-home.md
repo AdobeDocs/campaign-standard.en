@@ -4,7 +4,9 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard product documentation
 description: Browse Campaign Standard product documentation
-topic: Premium
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Help Center {#campaign-standard-documentation}

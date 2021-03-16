@@ -6,6 +6,9 @@ description: This tutorial explains how export and import a package of custom re
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
+feature: Workflows
+role: Data Architect
+level: Experienced
 ---
 
 # Exporting / importing custom resources {#exporting-importing-custom-resources}

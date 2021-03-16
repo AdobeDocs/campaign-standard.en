@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Audiences
+role: Business Practitioner
+level: Beginner
 ---
 
 # About audiences{#about-audiences}

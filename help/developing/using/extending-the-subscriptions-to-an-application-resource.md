@@ -2,11 +2,14 @@
 solution: Campaign Standard
 product: campaign
 title: Extending the subscriptions to an application resource
-description: 
+description: Learn how to extend the subscription to an application resource
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}

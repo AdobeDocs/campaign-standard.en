@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Targeting Adobe Experience Platform audiences {#targeting-aep-audiences}

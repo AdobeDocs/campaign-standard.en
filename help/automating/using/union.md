@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Union{#union}

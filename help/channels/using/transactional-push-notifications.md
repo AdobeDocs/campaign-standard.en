@@ -8,6 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
 
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Transactional push notifications{#transactional-push-notifications}

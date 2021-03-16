@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Segmentation on location {#segmentation-on-location}

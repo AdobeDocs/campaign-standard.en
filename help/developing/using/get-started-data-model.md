@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 
+feature: Data Model
+role: Developer
+level: Intermediate
 ---
 
 # Get started with Campaign Standard data model {#get-started-data-model}
