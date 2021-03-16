@@ -55,7 +55,7 @@ level: Beginner
   </td>
   <td valign="top">
        <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="support.md">
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Get Support</strong></a>
     </div>
     <p><em>Access FAQs, best practices, help resources, and connect with the experts</em></p>

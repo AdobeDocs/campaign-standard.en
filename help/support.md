@@ -7,6 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: yes
+feature: Help and support options
+role: Business Practitioner
+level: Beginner
 ---
 
 # Help & support options for Campaign Standard {#help-support-options}
