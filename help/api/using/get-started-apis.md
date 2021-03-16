@@ -52,26 +52,26 @@ If anything is missing or seems incorrect, please ask the [community](https://ex
     <tr><td>Topics Q&A</td><td>Common issues</td><td>Best practices</td><td>How-to</td></tr>
     <tr>
     <td valign="top">
-        <li>Deliverability</li>
+        <ul><li>Deliverability</li>
         <li>InApp and Push notifications</li>
-        <li>Email Designer</li>
+        <li>Email Designer</li></ul>
     </td>
     <td valign="top">
-        <li>Error management in workflows</li>
+        <ul><li>Error management in workflows</li>
     <li>Workflow execution troubleshooting</li>
-        <li>Workflow execution troubleshooting</li>
+        <li>Workflow execution troubleshooting</li></ul>
     </td>
    <td valign="top">
-        <li>Workflow best practices</li>
-        <li>Workflow monitoring</li>
+        <ul><li>Workflow best practices</li>
+        <li>Workflow monitoring</li></ul>
     </td>
     <td valign="top">
-        <li>Upgrade to a new version</li>
+       <ul> <li>Upgrade to a new version</li>
         <li>Monitor a delivery</li>
         <li>Upgrade to a new version</li>
         <li>Monitor a delivery</li>        
         <li>Upgrade to a new version</li>
-        <li>Monitor a delivery</li>        
+        <li>Monitor a delivery</li>    </ul>    
     </td>
     </tr>
 </table>
