@@ -16,16 +16,16 @@ Campaign Standard APIs are aimed at letting you **create integrations** for Adob
 With the Adobe Campaign Standard APIs, you get access to the following functionalities:
 
 <table><tr>
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiles</a></p></td>
-<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Services & subscriptions</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Custom resources</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marketing history</a></p></td>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/><p><a href="../../api/using/retrieving-profiles.md">Profiles</p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/><p><a href="../../api/using/creating-a-service.md">Services & subscriptions</p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/><p><a href="../../api/using/interacting-with-custom-resources.md">Custom resources</p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/><p><a href="../../api/using/interacting-with-marketing-history.md">Marketing history</p></td>
 </tr>
 <tr>
-<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Privacy management</a></p></td>
-<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Transactional messages</a></p></td>
-<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Workflows</a></p></td>
-<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Organizational units</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/><p><a href="../../api/using/creating-a-privacy-request.md">Privacy management</p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/><p><a href="../../api/using/managing-transactional-messages.md">Transactional messages</p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/><p><a href="../../api/using/controlling-a-workflow.md">Workflows</p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/><p><a href="../../api/using/retrieving-an-organizational-unit.md">Organizational units</p></td>
 </tr></table>
 
 >[!NOTE]
@@ -52,35 +52,26 @@ If anything is missing or seems incorrect, please ask the [community](https://ex
     <tr><td>Topics Q&A</td><td>Common issues</td><td>Best practices</td><td>How-to</td></tr>
     <tr>
     <td valign="top">
-        <li><a href="sending/using/monitor-deliverability.md">Deliverability</a></li>
-        <li><a href="administration/using/aep-faq.md">InApp and Push notifications</a></li>
-        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
+        <li>Deliverability</li>
+        <li>InApp and Push notifications</li>
+        <li>Email Designer</li>
     </td>
     <td valign="top">
-        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Error management in workflows</a></li>
-    <li><a href="automating/using/best-practices-workflows.md">Workflow execution troubleshooting</a></li>
-    <li><a href="api/using/troubleshooting.md">API troubleshooting</a></li>
-    <li><a href="sending/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
+        <li>Error management in workflows</li>
+    <li>Workflow execution troubleshooting</li>
+        <li>Workflow execution troubleshooting</li>
     </td>
    <td valign="top">
-        <li><a href="automating/using/best-practices-workflows.md">Workflow best practices</a></li>
-        <li><a href="automating/using/about-workflow-execution.md">Workflow monitoring</a></li>
-        <li><a href="sending/using/tracking-messages.md">Understand tracking management</a></li>
-        <li><a href="sending/using/about-deliverability.md">Deliverability best practices</a></li>
-        <li><a href="automating/using/creating-import-workflow-templates.md">Import data with workflows</a></li>
-        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Timezone management</a></li>
-        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receive a notification when a failure happens</a></li>
-        <li><a href="designing/using/using-existing-content.md">Import or convert an email content</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Delivery best practices</a></li>
+        <li>Workflow best practices</li>
+        <li>Workflow monitoring</li>
     </td>
     <td valign="top">
-        <li><a href="rn/using/release-planning.md">Upgrade to a new version</a></li>
-        <li><a href="sending/using/monitoring-a-delivery.md">Monitor a delivery</a></li>
-        <li><a href="sending/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
-        <li><a href="start/using/privacy-management.md">Privacy and consent management</a></li>
-        <li><a href="automating/using/query.md">Design a query</a></li>
-        <li><a href="automating/using/query-samples.md">Query Samples</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configure mobile channels</a></li>
+        <li>Upgrade to a new version</li>
+        <li>Monitor a delivery</li>
+        <li>Upgrade to a new version</li>
+        <li>Monitor a delivery</li>        
+        <li>Upgrade to a new version</li>
+        <li>Monitor a delivery</li>        
     </td>
     </tr>
 </table>
