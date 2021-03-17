@@ -24,6 +24,10 @@ Information has been added to specify that, when selecting au audience in a quer
 
 Information related to the Audience Destinations Service and Adobe Experience Platform Data Connector has been regrouped into a new section. [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
 
+**Declared ID** data source can now also be used with People core service integration. Information has been added in the Campaign-Audience Manager or People core service integration documentation. [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Information has been added on how to implement local tracking for mobile application. [Read more](../../administration/using/local-tracking.md)
+
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **New capabilities included in the release**
