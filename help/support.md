@@ -54,7 +54,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="automating/using/about-workflow-execution.md">Workflow monitoring</a></li>
         <li><a href="sending/using/tracking-messages.md">Understand tracking management</a></li>
         <li><a href="sending/using/about-deliverability.md">Deliverability best practices</a></li>
-        <li><a href="automating/using/creating-import-workflow-temlates.md">Import data with workflows</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Import data with workflows</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Timezone management</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receive a notification when a failure happens</a></li>
         <li><a href="designing/using/using-existing-content.md">Import or convert an email content</a></li>
