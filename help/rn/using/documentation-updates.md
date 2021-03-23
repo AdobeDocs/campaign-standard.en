@@ -24,6 +24,12 @@ Information has been added to specify that, when selecting au audience in a quer
 
 Information related to the Audience Destinations Service and Adobe Experience Platform Data Connector has been regrouped into a new section. [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
 
+**Declared ID** data source can now also be used with People core service integration. Information has been added in the Campaign-Audience Manager or People core service integration documentation. [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Information has been added on how to implement local tracking for mobile application. [Read more](../../administration/using/local-tracking.md)
+
+The [Deliverability](../../sending/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
 **New capabilities included in the release**
@@ -268,7 +274,7 @@ The Exporting logs section has been updated to reflect the availability of the D
 
 ## January 2020 {#doc-updates-january-2020}
 
-The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
+The Deliverability documentation has been updated with a new section on IP Certification. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 A new section describing how to create a cross-channel delivery workflow is available. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
 

@@ -30,42 +30,50 @@ Get support using our FAQs, best practices, online resources and support portal.
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### Topics Q&A
-
-Read out a set of specific Q&A by topics:
-
-* [Deliverability](sending/using/monitor-deliverability.md)
-* [InApp and Push notifications](administration/using/aep-faq.md)
-* [Email Designer](designing/using/faq-email-designer.md)
-
-### Common issues
-
-* [Error management in workflows](automating/using/monitoring-workflow-execution.md#error-management)
-* [Workflow execution troubleshooting](automating/using/best-practices-workflows.md)
-* [API troubleshooting](api/using/troubleshooting.md)
-* [Understand delivery failures](sending/using/understanding-delivery-failures.md)
-
-### Best practices
-
-* [Workflow best practices](automating/using/best-practices-workflows.md)
-* [Workflow monitoring](automating/using/about-workflow-execution.md)
-* [Understand tracking management](sending/using/tracking-messages.md)
-* [Deliverability best practices](sending/using/about-deliverability.md)
-* [Import data with workflows](automating/using/creating-import-workflow-templates.md)
-* [Timezone management](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Receive a notification when a failure happens](sending/using/receiving-alerts-when-failures-happen.md)
-* [Import or convert an email content](designing/using/using-existing-content.md)
-* [Delivery best practices](sending/using/delivery-best-practices.md)
-
-### How-to
-
-* [Upgrade to a new version](rn/using/release-planning.md)
-* [Monitor a delivery](sending/using/monitoring-a-delivery.md)
-* [Understand quarantine management](sending/using/understanding-quarantine-management.md)
-* [Privacy and consent management](start/using/privacy-management.md)
-* [Design a query](automating/using/query.md)
-* [Query Samples](automating/using/query-samples.md)
-* [Configure mobile channels](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>Topics Q&A</strong></td><td><strong>Common issues</strong></td><td><strong>Best practices</strong></td><td><strong>How-to</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">Deliverability</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp and Push notifications</a></li>
+        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Error management in workflows</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Workflow execution troubleshootings</a></li>
+        <li><a href="api/using/troubleshooting.md">API troubleshootings</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Understand delivery failuress</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">Workflow best practices</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">Workflow monitoring</a></li>
+        <li><a href="sending/using/tracking-messages.md">Understand tracking management</a></li>
+        <li><a href="sending/using/about-deliverability.md">Deliverability best practices</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Import data with workflows</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Timezone management</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Receive a notification when a failure happens</a></li>
+        <li><a href="designing/using/using-existing-content.md">Import or convert an email content</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Delivery best practices</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">Upgrade to a new version</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Monitor a delivery</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
+        <li><a href="start/using/privacy-management.md">Privacy and consent management</a></li>
+        <li><a href="automating/using/query.md">Design a query</a></li>
+        <li><a href="automating/using/query-samples.md">Query Samples</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configure mobile channels</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Campaign Control Panel
 
@@ -100,7 +108,7 @@ You can monitor your subdomains and their certificates. Learn more:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-The new ticketing system has been though [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+The new ticketing system has been through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Ask the experts!
 
@@ -108,9 +116,7 @@ Join Campaign Classic Community: search for answers in existing question or ask 
 
 ### Create a ticket or start a chat
 
-Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products.
-
-To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
+Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
 To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
