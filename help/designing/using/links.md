@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Adding links {#links}

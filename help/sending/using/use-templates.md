@@ -6,6 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: "Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities."
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Use templates {#use-templates}

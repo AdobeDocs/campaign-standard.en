@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Subscription Services {#subscription-services}

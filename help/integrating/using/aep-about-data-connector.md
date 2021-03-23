@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # About Adobe Experience Platform Data Connector {#about-aep-data-connector}

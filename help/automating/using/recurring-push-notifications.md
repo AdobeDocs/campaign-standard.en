@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}

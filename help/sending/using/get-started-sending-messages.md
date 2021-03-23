@@ -7,6 +7,8 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Get started with testing and sending {#about-sending-messages-with-campaign}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Transfer file{#transfer-file}

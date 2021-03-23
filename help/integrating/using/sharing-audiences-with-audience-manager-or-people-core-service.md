@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 
+feature: People Core Service Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Sharing audiences with Audience Manager or People core service{#sharing-audiences-with-audience-manager-or-people-core-service}

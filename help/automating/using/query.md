@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Query{#query}
@@ -39,10 +42,15 @@ The **[!UICONTROL Query]** activity can be used for various types of uses:
 1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
 
    The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
-
+   
    For more on this, refer to [Targeting dimensions and resources](#targeting-dimensions-and-resources).
 
 1. In the **[!UICONTROL Target]** tab, run your query by defining and combining rules.
+
+   >[!NOTE]
+   >
+   >When targeting an audience, note that the audience's definition is not referenced but **copied** into the query. If you make any change to the audience after it has been targeted in a query, make sure you configure the query again to take the new definition into account.
+
 1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. This data is stored in additional columns and can only be used for the workflow in progress. In particular, you can add data from the Adobe Campaign database tables linked to the query's targeting dimension. Consult the [Enriching data](#enriching-data) section.
 
    >[!NOTE]

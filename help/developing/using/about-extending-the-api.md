@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # About extending the API{#about-extending-the-api}

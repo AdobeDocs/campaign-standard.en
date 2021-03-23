@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Configuring email channel{#configuring-email-channel}

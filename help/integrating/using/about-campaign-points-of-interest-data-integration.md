@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 
+feature: Audiences
+role: Data Architect
+level: Intermediate
 ---
 
 # About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}

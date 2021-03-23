@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Promoting a service{#promoting-a-service}

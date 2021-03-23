@@ -7,15 +7,22 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Documentation Updates{#documentation-updates}
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-## February 2021 {#doc-updates-february-2021}
+## March 2021 {#doc-updates-march-2021}
 
-Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
+The section listing the key steps to send a message has been enhanced with additional information and references. [Read more](../../channels/using/key-steps-to-send-a-message.md)
+
+Information has been added to specify that, when selecting au audience in a query, its definition is copied and not referenced. [Read more](../../audiences/using/selecting-an-audience-in-a-message.md) 
+
+Information related to the Audience Destinations Service and Adobe Experience Platform Data Connector has been regrouped into a new section. [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
@@ -36,6 +43,8 @@ Information has been added on the new GetOption function that allows you to retu
 Information has been added on the new **[!UICONTROL filesCount]** output variable available after using a **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/transfer-file.md#output-variables)
 
 The **Configuring email channel** section has been updated to clarify what the latest applicable email settings are. Some legacy parameters still in use for certain customers are listed at the bottom of the page. [Read more](../../administration/using/configuring-email-channel.md)
+
+Information has been added on how to make sure that a scheduled workflow is not rescheduled until one or more tasks from a previously execution is still pending. [Read more](../../automating/using/scheduled-workflows-execution.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
@@ -65,7 +74,7 @@ The **Privacy** section has been moved and enriched with two new pages: [Privacy
 
 The **Transactional messaging** section has been reorganized and gathered into one place for improved navigation. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
-Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
+Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../integrating/using/aep-mapping-activation.md)
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -127,7 +136,7 @@ Workflow use cases have been updated and reorganized into thematic sections. [Re
 
 Use cases have been added on how to [encrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) and [decrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
 
-References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html)
 
 Custom Litmus account configuration has been removed from Inbox rendering capability. [Read more](../../sending/using/email-rendering.md)
 
@@ -167,7 +176,7 @@ The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentatio
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
-Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../developing/using/aep-about-data-connector.md#key-concepts)
+Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 The Transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -233,9 +242,9 @@ Information has been added on the **[!UICONTROL History in days field]** availab
 
 **New capabilities included in the release**
 
-Adobe Experience Platform Data Connector (beta) - [Read more](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (beta) - [Read more](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations (beta) - [Read more](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations (beta) - [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **Other documentation updates coming with the release**
 

@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK {#sdkv4-migration}

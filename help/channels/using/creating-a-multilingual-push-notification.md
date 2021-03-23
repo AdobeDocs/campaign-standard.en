@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 
+feature: Push
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Creating a multilingual push notification{#creating-a-multilingual-push-notification}

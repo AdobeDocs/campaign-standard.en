@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Managing Adobe Experience Platform audiences {#about-audiences}
@@ -49,15 +52,15 @@ To create an Adobe Experience Platform audience directly in Campaign Standard, f
 
 1. Define the rules that will identify the profiles to be retrieved in your audience.
 
-    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create segment]** button to save the segment (see [Using the Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create segment]** button to save the segment (see [Using the Segment Builder](../../integrating/using/aep-using-segment-builder.md)).
 
     ![](assets/aep_audiences_creation_query.png)
 
-The audience is now ready to be activated, you can use it as a target for your campaigns (see [Targeting Adobe Experience Platform audiences](../../automating/using/aep-targeting-audiences.md)).
+The audience is now ready to be activated, you can use it as a target for your campaigns (see [Targeting Adobe Experience Platform audiences](../../integrating/using/aep-targeting-audiences.md)).
 
 ## Editing audiences
 
-To edit an audience, open it and modify the rules as needed within the Segment Builder interface (see [Using the Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+To edit an audience, open it and modify the rules as needed within the Segment Builder interface (see [Using the Segment Builder](../../integrating/using/aep-using-segment-builder.md)).
 
 Once the changes have been completed, click the **[!UICONTROL Save segment]** button to update your audience.
 

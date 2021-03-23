@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}

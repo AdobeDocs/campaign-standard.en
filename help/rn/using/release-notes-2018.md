@@ -6,6 +6,9 @@ description: This page lists all 2018 releases of Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Release Notes 2018{#release-notes}

@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Archiving with Email BCC{#archiving-emails}

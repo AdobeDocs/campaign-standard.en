@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Deduplicating the data from an imported file {#deduplicating-the-data-from-an-imported-file}

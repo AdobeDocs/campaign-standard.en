@@ -6,6 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Learn how to secure and optimize the sending process upstream.
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Optimize delivery {#optimize-delivery}

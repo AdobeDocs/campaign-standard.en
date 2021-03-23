@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Personalizing campaigns using Adobe Experience Platform attributes {#personalizing-campaigns-using-aep-attributes}
@@ -17,7 +20,7 @@ topic-tags: channel-activities
 >
 >**Push** and **In-App** channels are not available yet for personalization using contextual data from Adobe Experience Platform.
 
-Once your workflow is configured with an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md), you can personalize messages with profile attributes that exist exclusively in the Experience Data Model (XDM).
+Once your workflow is configured with an [Adobe Experience Platform audience](../../integrating/using/aep-about-audience-destinations-service.md), you can personalize messages with profile attributes that exist exclusively in the Experience Data Model (XDM).
 
 To do this, you must add these attributes into the **[!UICONTROL Read audience]** activity:
 

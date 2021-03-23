@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 
+feature: Push
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Generating a CSV file for Multilingual Push Notification{#generating-csv-multilingual-push}

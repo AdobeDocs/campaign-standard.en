@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 
+feature: Workflows
+role: Data Architect
+level: Experienced
 ---
 
 # Exporting lists{#exporting-lists}

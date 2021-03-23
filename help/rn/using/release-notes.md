@@ -7,6 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Latest Release{#latest-release}
@@ -57,6 +60,7 @@ topic-tags: campaign-standard-releases
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
@@ -80,6 +84,7 @@ topic-tags: campaign-standard-releases
 </tr> 
 </tbody> 
 </table>
+-->
 
 **Improvements**
 

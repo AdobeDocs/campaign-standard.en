@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Read audience{#read-audience}

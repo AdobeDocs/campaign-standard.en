@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Editing profiles{#editing-profiles}

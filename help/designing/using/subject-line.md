@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Beginner
 ---
 
 # Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}

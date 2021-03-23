@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Load file {#load-file}
@@ -96,9 +99,9 @@ The activity configuration involves two steps. First, you need to define the exp
 
       ![](assets/wkf_file_loading1.png)
 
-1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. This allows you to unzip the file before loading the data. This option is only available if the file comes from the activity's inbound transition.
+1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing stage]** field. This allows you to unzip the file before loading the data. This option is only available if the file comes from the activity's inbound transition.
 
-   The **[!UICONTROL Add a pre-processing step]** field also allows you to decrypt a file before importing it into the database. For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
+   The **[!UICONTROL Add a pre-processing stage]** field also allows you to decrypt a file before importing it into the database. For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
 
 1. The **[!UICONTROL Keep the rejects in a file]** option enables you to download a file containing errors that occurred during the import, and to apply to it a post-processing stage. When the option is activated, the outbound transition is renamed as "Rejects".
 

@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # Configuration guidelines {#about-configuration-guidelines}

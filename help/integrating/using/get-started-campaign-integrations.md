@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # About Campaign integrations{#get-started-campaign-integrations}

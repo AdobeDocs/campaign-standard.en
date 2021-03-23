@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # Managing groups and users{#managing-groups-and-users}

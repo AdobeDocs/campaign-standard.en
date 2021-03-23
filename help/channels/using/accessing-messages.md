@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
+feature: Overview
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Accessing messages{#accessing-messages}

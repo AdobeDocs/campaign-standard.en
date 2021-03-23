@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 
+feature: Campaigns
+role: Business Practitioner
+level: Beginner
 ---
 
 # Marketing activity templates {#marketing-activity-templates}

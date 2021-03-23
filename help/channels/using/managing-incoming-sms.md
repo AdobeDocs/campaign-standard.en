@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
+feature: SMS
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Managing incoming SMS{#managing-incoming-sms}

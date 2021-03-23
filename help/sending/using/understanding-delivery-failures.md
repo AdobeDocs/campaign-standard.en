@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}

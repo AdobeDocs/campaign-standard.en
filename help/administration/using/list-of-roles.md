@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # List of roles{#list-of-roles}

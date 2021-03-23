@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Delivery summary{#delivery-summary}

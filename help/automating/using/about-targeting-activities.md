@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # About targeting activities{#about-targeting-activities}

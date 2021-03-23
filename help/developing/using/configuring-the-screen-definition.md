@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Configuring the screen definition{#configuring-the-screen-definition}

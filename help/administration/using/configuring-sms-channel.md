@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Configuring SMS channel{#configuring-sms-channel}

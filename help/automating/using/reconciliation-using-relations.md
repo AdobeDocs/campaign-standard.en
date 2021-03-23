@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Data reconciliation using relations {#reconciliation-relations}

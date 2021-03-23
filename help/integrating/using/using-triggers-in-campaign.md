@@ -2,11 +2,13 @@
 solution: Campaign Standard
 product: campaign
 title: Using Triggers in Campaign
-description: 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # Using Triggers in Campaign{#using-triggers-in-campaign}

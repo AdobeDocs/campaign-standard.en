@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 ---
 
 # Get started with profiles and audiences{#about-profiles-and-audiences}
@@ -79,7 +82,7 @@ Privacy and Consent in Campaign and how to manage them are presented in [this se
 
 ## Additional resources
 
-* [Working with Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Working with Audience Destinations service](../../integrating/using/aep-about-audience-destinations-service.md)
 * [Working  with Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Using workflows to import profiles](../../automating/using/creating-import-workflow-templates.md)

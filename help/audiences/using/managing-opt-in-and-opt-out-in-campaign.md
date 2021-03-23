@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}

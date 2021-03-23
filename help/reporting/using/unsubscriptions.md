@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Unsubscriptions{#unsubscriptions}

@@ -6,6 +6,9 @@ description: Learn how to trigger a signal activity with APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Data Engineer
+level: Experienced
 ---
 
 # Triggering a signal activity {#triggering-a-signal-activity}

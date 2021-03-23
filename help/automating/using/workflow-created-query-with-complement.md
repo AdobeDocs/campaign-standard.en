@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Creating deliveries with a complement {#deliveries-with-complement}

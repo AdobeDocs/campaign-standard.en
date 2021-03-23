@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
+feature: Campaigns
+role: Business Practitioner
+level: Beginner
 ---
 
 # Programs and campaigns{#programs-and-campaigns}

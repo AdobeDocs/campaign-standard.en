@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 ---
 
 # Integrated customer profile{#integrated-customer-profile}

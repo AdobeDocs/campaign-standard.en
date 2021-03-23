@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Save audience{#save-audience}
