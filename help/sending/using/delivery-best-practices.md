@@ -26,7 +26,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalize content](optimize-delivery.md)** - Apply correct settings
+**[Personalize content](design-and-personalize.md)** - Apply correct settings
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
