@@ -265,22 +265,22 @@ breadcrumb-title: Help Center
           + [Map data between Microsoft Dynamics 365 and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
        + [Use the Microsoft Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
   + Campaign and Adobe Experience Platform {#adobe-experience-platform}
-       + Audience Destinations Service {#audience-destinations}
+       + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
+          + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)
+          + [Ingest Adobe Experience Platform data into Campaign](integrating/using/ingest-aep-data.md)
+          + [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
+       + Audience Destinations Service (beta) {#audience-destinations}
           + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
           + [Managing Adobe Experience Platform audiences](integrating/using/aep-managing-audiences.md)
           + [Using the Segment Builder](integrating/using/aep-using-segment-builder.md)
           + [Targeting Adobe Experience Platform audiences](integrating/using/aep-targeting-audiences.md)
           + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
-       + Adobe Experience Platform Data Connector {#data-connector}
+       + Adobe Experience Platform Data Connector (beta) {#data-connector}
           + [About Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
           + [Experience Platform Datamodel overview](integrating/using/aep-data-model-overview.md)
           + [Mapping definition](integrating/using/aep-mapping-definition.md)
           + [Mapping activation](integrating/using/aep-mapping-activation.md)
           + [Triggering data ingestion through APIs](integrating/using/aep-triggering-data-ingestion.md)
-  + Campaign and Adobe Real-time Customer Data Platform (RTCDP){#rtcdp}
-          + [Get started with Real-time Customer Data Platform](integrating/using/rtcdp.md)
-          + [Ingest Adobe Experience Platform data into Campaign](integrating/using/rtcdp-destinations.md)
-          + [Export data from Campaign to Adobe Experience Platform](integrating/using/rtcdp-sources.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
