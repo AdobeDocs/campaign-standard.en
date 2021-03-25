@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product campaign
 title: Get started with Sources and Destinations
-description: Learn more about Aodbe Experience Platform Sources and Destinations
+description: Learn more about Adobe Experience Platform Sources and Destinations.
 audience: integrating
 content-type: reference
 
@@ -11,14 +11,18 @@ role: Data Architect
 level: Intermediate
 ---
 
-# Get started with Sources and Destinations{#rtcdp}
+# Get started with Sources and Destinations {#rtcdp}
 
 ## About Sources and Destinations
 
-With Adobe Experience Platform, you can share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP).
+With Adobe Experience Platform, you can share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). This allows you to target Adobe Experience Platform segments in your Campaign workflows, then send back to Adobe Real-time Customer Data Platform data related to these segments like sends, opens, and clicks.
 
 * With **Sources**, export Campaign Standard data into Adobe Experience Platform. This allows you to centralize data you collect from disparate sources into one single place, and use the insights gained from it to do more,
-* With **Destinations**, ingest data from Adobe Experience PLatform into Campaign Classic. This allows you to activate your known and unknown data for your marketing campaigns. 
+* With **Destinations**, ingest segments from Adobe Experience Platform into Campaign Classic. This allows you to activate your known and unknown data for your marketing campaigns.
+
+>[IMPORTANT]
+>
+>Please keep in mind the SFTP storage limits, database storage limits, and active profile limits as per your Adobe Campaign contract while performing this integration.
 
 For a more detailed overview of Adobe Real-time Customer Data Platform, Destinations and Sources, refer to these pages:
 
@@ -32,9 +36,9 @@ To be able to share data between Adobe Experience Platform and Campaign Standard
 
 Once connections are configured, you can set up a data import or export into Campaign Standard using workflows.
 
-++ schema explicatif
+![](assets/rtcdp-schema.png) 
 
-For more details on how to setup import and export processes, refer to these sections:
+For more details on how to setup these import and export processes, refer to these sections:
 
-* [Ingest Adobe Experience Platform data into Campaign](integrating/using/ingest-aep-data.md)
+* [Ingest Adobe Experience Platform segments into Campaign](integrating/using/ingest-aep-data.md)
 * [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)

@@ -267,7 +267,7 @@ breadcrumb-title: Help Center
   + Campaign and Adobe Experience Platform {#adobe-experience-platform}
        + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
           + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)
-          + [Ingest Adobe Experience Platform data into Campaign](integrating/using/ingest-aep-data.md)
+          + [Ingest Adobe Experience Platform segments into Campaign](integrating/using/ingest-aep-data.md)
           + [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
        + Audience Destinations Service (beta) {#audience-destinations}
           + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
