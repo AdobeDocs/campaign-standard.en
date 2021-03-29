@@ -18,6 +18,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## March 2021 {#doc-updates-march-2021}
 
+The "Help & support options" page for Campaign Standard has been integrated into the core documentation. [Read more](../../support.md)
+
 The section listing the key steps to send a message has been enhanced with additional information and references. [Read more](../../channels/using/key-steps-to-send-a-message.md)
 
 Information has been added to specify that, when selecting au audience in a query, its definition is copied and not referenced. [Read more](../../audiences/using/selecting-an-audience-in-a-message.md) 
