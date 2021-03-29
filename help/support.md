@@ -84,9 +84,13 @@ Get support using our FAQs, best practices, online resources and support portal.
 The Control Panel helps you increase efficiency in your work as a product admin of Campaign Standard, by allowing you to manage settings and track usages for each of your instances.
 [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) for more information.
 
+>[!NOTE]
+>
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
 ### How to access Control Panel?
 
-The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) for more information.
+The Control Panel is available directly from Adobe Experience Cloud. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) for more information.
 
 ### Control Panel FAQ
 
