@@ -31,7 +31,7 @@ level: Beginner
 
 ## Top pages
 
- <table style="table-layout:fixed">
+<table style="table-layout:fixed">
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
