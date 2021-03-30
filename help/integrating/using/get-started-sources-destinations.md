@@ -39,5 +39,5 @@ Once the connectors have been configured, you can set up a data import or export
 
 For more details on how to setup these import and export processes, refer to these sections:
 
-* [Ingest Adobe Experience Platform segments into Campaign](integrating/using/ingest-aep-data.md)
-* [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
+* [Ingest Adobe Experience Platform segments into Campaign](../../integrating/using/ingest-aep-data.md)
+* [Export data from Campaign to Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
