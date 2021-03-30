@@ -5,7 +5,6 @@ title: Export data from Campaign to Adobe Experience Platform
 description: Learn how to export data from Campaign Standard to Adobe Experience Platform.
 audience: integrating
 content-type: reference
-
 feature: Triggers
 role: Data Architect
 level: Intermediate

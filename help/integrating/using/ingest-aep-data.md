@@ -5,7 +5,6 @@ title: Ingest Adobe Experience Platform segments into Campaign
 description: Learn how to ingest Adobe Experience Platform segments into Campaign Standard.
 audience: integrating
 content-type: reference
-
 feature: Triggers
 role: Data Architect
 level: Intermediate
