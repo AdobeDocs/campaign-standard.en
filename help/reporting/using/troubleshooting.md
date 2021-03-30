@@ -70,7 +70,6 @@ This will result in the following table:
    <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
-  <tr>
   <tr> 
    <td align="center"> Day 1<br /> </td> 
    <td align="center"> 3<br /> </td> 
