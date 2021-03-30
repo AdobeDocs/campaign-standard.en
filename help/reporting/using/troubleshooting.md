@@ -123,11 +123,11 @@ Reports should look like the following:
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
+   <td align="center"> <strong>R1</strong><br/> </td> 
+   <td align="center"> <strong>100</strong><br/> </td> 
+   <td align="center"> <strong>90</strong><br/> </td> 
+   <td align="center"> <strong>10</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 

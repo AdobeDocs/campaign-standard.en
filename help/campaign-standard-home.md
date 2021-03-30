@@ -31,7 +31,7 @@ level: Beginner
 
 ## Top pages
 
- <table>
+<table>
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
