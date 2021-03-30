@@ -1,6 +1,6 @@
 ---
 solution: Campaign Standard
-product campaign
+product: campaign
 title: Ingest Adobe Experience Platform segments into Campaign
 description: Learn how to ingest Adobe Experience Platform segments into Campaign Standard.
 audience: integrating

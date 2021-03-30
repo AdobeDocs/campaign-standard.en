@@ -1,6 +1,6 @@
 ---
 solution: Campaign Standard
-product campaign
+product: campaign
 title: Get started with Sources and Destinations
 description: Learn more about Adobe Experience Platform Sources and Destinations.
 audience: integrating
@@ -19,7 +19,7 @@ With Adobe Experience Platform, you can share data between Campaign Standard and
 * With **Sources**, export Campaign Standard data into Adobe Experience Platform. This allows you to centralize data you collect from disparate sources into one single place, and use the insights gained from it to do more,
 * With **Destinations**, ingest segments from Adobe Experience Platform into Campaign Classic. This allows you to activate your known and unknown data for your marketing campaigns.
 
->[IMPORTANT]
+>[!IMPORTANT]
 >
 >Please keep in mind the SFTP storage limits, database storage limits, and active profile limits as per your Adobe Campaign contract while performing this integration.
 

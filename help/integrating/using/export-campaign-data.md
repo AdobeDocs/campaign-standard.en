@@ -1,6 +1,6 @@
 ---
 solution: Campaign Standard
-product campaign
+product: campaign
 title: Export data from Campaign to Adobe Experience Platform
 description: Learn how to export data from Campaign Standard to Adobe Experience Platform.
 audience: integrating
