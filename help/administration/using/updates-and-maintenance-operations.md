@@ -2,11 +2,13 @@
 solution: Campaign Standard
 product: campaign
 title: Updates and maintenance operations
-description: 
 audience: administration
 content-type: reference
 topic-tags: application-settings
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Updates and maintenance operations{#updates-and-maintenance-operations}

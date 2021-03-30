@@ -7,6 +7,8 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Send Time Optimization
+role: Business Practitioner
 ---
 
 # About scheduling messages{#about-scheduling-messages}

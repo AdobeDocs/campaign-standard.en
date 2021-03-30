@@ -7,6 +7,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+feature: Landing Pages
+role: Business Practitioner
 ---
 
 # Getting started with landing pages {#getting-started-with-landing-pages}

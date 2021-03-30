@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # About execution activities{#about-execution-activities}

@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 
+feature: Campaigns
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Accessibility in Adobe Campaign Standard {#accessibility-acs}

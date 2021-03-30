@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery 
+feature: Control Groups
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Adding a control group {#adding-control-group}

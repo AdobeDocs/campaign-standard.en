@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Updating multiple subscription statuses from a file {#updating-multiple-subscription-statuses-from-a-file}

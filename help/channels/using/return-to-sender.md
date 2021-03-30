@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Return to sender{#return-to-sender}

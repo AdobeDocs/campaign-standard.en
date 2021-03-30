@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Birthday delivery {#birthday-delivery}

@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # About channel configuration{#about-channel-configuration}

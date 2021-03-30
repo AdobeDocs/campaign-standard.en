@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Data model best practices{#data-model-best-practices}

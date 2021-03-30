@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Union on two refined audiences {#example--union-on-two-refined-audiences}

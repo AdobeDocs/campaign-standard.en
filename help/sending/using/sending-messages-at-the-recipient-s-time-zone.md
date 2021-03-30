@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 
+feature: Proofs
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Sending messages at the recipient's time zone{#sending-messages-at-the-recipient-s-time-zone}

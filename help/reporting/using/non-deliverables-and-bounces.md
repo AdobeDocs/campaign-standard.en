@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
 ---
 
 # Non-deliverables and bounces{#non-deliverables-and-bounces}

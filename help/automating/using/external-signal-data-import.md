@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # External signal and data import {#external-signal-data-import}

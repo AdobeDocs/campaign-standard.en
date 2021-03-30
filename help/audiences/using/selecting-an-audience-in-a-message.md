@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Selecting an audience in a message{#selecting-an-audience-in-a-message}

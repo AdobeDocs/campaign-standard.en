@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities 
 context-tags: workflow,use-case,query
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Creating deliveries on profiles' creation date {#creation-date-query}

@@ -4,6 +4,9 @@ description: Learn how to configure Adobe IO for Microsoft Dynamics 365 integrat
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 ---
 
 # Adobe Campaign Standard and Adobe I/O Configuration for the Microsoft Dynamics 365 integration

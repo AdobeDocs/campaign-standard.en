@@ -4,9 +4,8 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 
-title: Adobe Campaign Standard Help Center
-breadcrumb-title: Help Center
 title: Campaign Standard Guide
+breadcrumb-title: Help Center
 ---
 
 # Adobe Campaign Standard Help {#using}
@@ -40,6 +39,7 @@ title: Campaign Standard Guide
        + [Privacy management](start/using/privacy-management.md)
        + [Privacy requests](start/using/privacy-requests.md)
        + [Privacy FAQ](start/using/privacy-faq.md)
+  + [Help & support options](support.md)
 + Profiles and audiences {#profiles-and-audiences}
   + [Get started with profiles and audiences](audiences/using/get-started-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}

@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: recipient,overview
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 ---
 
 # About profiles{#about-profiles}

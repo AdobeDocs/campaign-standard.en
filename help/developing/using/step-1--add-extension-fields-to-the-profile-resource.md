@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}

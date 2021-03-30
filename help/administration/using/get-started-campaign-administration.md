@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 
+feature: Access Management
+role: Administrator
+level: Experienced
 ---
 
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
@@ -24,7 +27,7 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
-Note that, if your instance is hosted on AWS, Admin users can also leverage Campaign Control Panel to manage settings and track usages for each of your instances. For more on this, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Note that Admin users can also leverage Campaign Control Panel to manage settings and track usages for each of your instances. For more on this, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
 
 ## Administration menu {#administration-menu}
 

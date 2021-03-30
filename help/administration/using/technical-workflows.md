@@ -7,6 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
 ---
 
 # Technical workflows{#technical-workflows}
@@ -68,11 +71,6 @@ Technical workflows are used to handle self-triggered background and technical p
    <td> <span class="uicontrol">KPIs reconciliation with Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> This workflow fetches the KPIs from Reporting service once a day and reconciles them with the data from Adobe Analytics. It then pushes the difference if needed. By default, it is started every day at 4.20am.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Managing NMAC opt-outs</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> This workflow updates unsubscriptions to notifications on mobile devices. By default, it is started every 6 hours between 1am and midnight.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Message Center local archiving</span> <br /> </td> 

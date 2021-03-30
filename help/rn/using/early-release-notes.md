@@ -9,6 +9,9 @@ topic-tags: campaign-standard-releases
 hide: yes
 hidefromtoc: yes
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
 ---
 
 # Early release notes {#new-release}

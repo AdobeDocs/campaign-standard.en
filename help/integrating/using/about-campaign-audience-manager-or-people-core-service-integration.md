@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # About Campaign-Audience Manager or People core service integration{#about-campaign-audience-manager-or-people-core-service-integration}
@@ -32,9 +35,12 @@ Integration supports two types of Adobe Experience Cloud IDs:
 * **Declared ID**: this type of ID allows you to reconcile any type of data with elements from the Adobe Campaign database. It is represented in Adobe Campaign as a predefined reconciliation key. When exchanging data, the Adobe Campaign database identifiers are hashed. These hashed IDs are then compared to the hashed IDs of the Adobe Marketing Cloud audience involved in the import or export.
 <br>This integration supports regular declared IDs, hashed declared IDs and encrypted declared IDs.
 
-  >[!CAUTION]
+  >[!NOTE]
   >
-  >Declared ID will only work with Adobe Audience Manager. Declared ID will not work without it.
+  >Declared ID data source can now also be used with People core service integration.
+  >
+  >If you are using the People core service integration and want to add the Audience Manager integration, you will need the help of an Adobe Audience Manager consultant’s to avoid losing all of the ID syncs collected when transitioning to using this Declared ID data source in an Adobe Audience Manager context.
+
 
   Encryption allows you to share encrypted data in data sources (for example PII) using the declared ID by specifying the encryption algorithm.
 

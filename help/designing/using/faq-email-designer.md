@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Email Designer Frequently Asked Questions 

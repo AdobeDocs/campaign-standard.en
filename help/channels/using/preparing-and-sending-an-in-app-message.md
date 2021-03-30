@@ -7,6 +7,8 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
+feature: In App
+role: Business Practitioner
 ---
 
 # Preparing and sending an In-App message{#preparing-and-sending-an-in-app-message}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}

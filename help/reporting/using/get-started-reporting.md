@@ -7,6 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 
+feature: Reporting
+role: Leader
+level: Beginner
 ---
 
 # Get started with dynamic reporting {#get-started-reporting}

@@ -7,6 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 ---
 
 # Managing Adobe Experience Platform audiences {#about-audiences}

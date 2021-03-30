@@ -7,6 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
+feature: Landing Pages
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Configuring a landing page {#configuring-landing-page}

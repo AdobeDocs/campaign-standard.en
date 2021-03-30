@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Proofs
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Sending proofs {#sending-proofs}

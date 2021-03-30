@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}

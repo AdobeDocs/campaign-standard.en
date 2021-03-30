@@ -7,6 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
+feature: SMS
+role: Business Practitioner
+level: Beginner
 ---
 
 # About SMS and push content design{#about-sms-and-push-content-design}

@@ -6,6 +6,9 @@ description: Learn about the Adobe Campaign data model.
 audience: developing
 content-type: reference
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Data Model
+role: Developer
+level: Experienced
 ---
 
 # Data model description{#data-model-introduction}

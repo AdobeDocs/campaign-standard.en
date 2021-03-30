@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Updating the database with external data {#update-database-file}

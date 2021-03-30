@@ -7,6 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
 ---
 
 # Interacting with marketing history {#interacting-with-marketing-history}

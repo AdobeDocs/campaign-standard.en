@@ -6,6 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Learn how Adobe Campaign enables you to keep track of the sent messages and discover how your recipients react to your delivery
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Track and monitor {#track-and-monitor}

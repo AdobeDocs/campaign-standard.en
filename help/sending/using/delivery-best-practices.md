@@ -6,6 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Learn best practices related to delivery design and sending with Adobe Campaign.
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Delivery best practices {#delivery-best-practices}

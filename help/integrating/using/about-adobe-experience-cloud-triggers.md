@@ -7,6 +7,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
+feature: Triggers
+role: Data Architect
+level: Intermediate
 ---
 
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}

@@ -7,6 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
 ---
 
 # Scheduler{#scheduler}

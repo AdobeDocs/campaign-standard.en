@@ -7,6 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Confirming the send{#confirming-the-send}

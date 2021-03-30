@@ -7,6 +7,9 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Enriching the database{#enriching-the-database}
