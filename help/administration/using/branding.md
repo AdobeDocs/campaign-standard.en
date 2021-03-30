@@ -87,6 +87,10 @@ You can add new entities of your organization in Campaign, or create a new type 
 
 1. **Configure a new subdomain** - For any new subdomain to be used by Adobe, the first step will be to configure it. You can perform this through [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html) or reach out to your Adobe technical contact. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
+   >[!NOTE]
+   >
+   >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
 1. **Create a ticket** - Once the subdomain is configured, Adobe will need to set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
 
    * Subject: ACS New brand set up
