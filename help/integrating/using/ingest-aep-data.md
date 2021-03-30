@@ -17,9 +17,9 @@ To ingest Adobe Experience Platform into Campaign and use them in your workflows
 
 Once the Destination has been configured, you need to build a dedicated workflow in Campaign Standard to ingest the segment.
 
-## Connect and configure Adobe Campaign as a Destination
+## Connect Adobe Campaign as a Destination
 
-The main steps to connect and configure a Destination to Adobe Campaign are listed below. Detailed information on each of these steps is available in the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+The main steps to connect and configure an Adobe Experience Platform Destination to Adobe Campaign are listed below. Detailed information on each of these steps is available in the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 1. In Adobe Experience platform **[!UICONTROL Destinations]** menu, configure a connection with Adobe Campaign by authenticating and selecting a storage location for the exported segments.
 
@@ -27,23 +27,26 @@ The main steps to connect and configure a Destination to Adobe Campaign are list
     >
     >The storage location can be Amazon S3, SFTP with Password, SFTP with SSH Key, or Azure Blob connections. The preferred method to send data to Adobe Campaign is through Amazon S3 or Azure Blob.
 
+
+   ![](assets/rtcdp-campaign.png)
+
 1. Activate the segments to export. This step allows you to select the segment to export and to specify additional XDM fields to include.
 
     >[!NOTE]
     >
     >When ingesting the segment, you are exporting all its members, together with the XDM schema fields specified when configuring the Destination.
 
-After the Destination has been configured, Adobe Experience Platform creates a tab-delimited .txt or .csv file in the storage location that you provided. This operation is scheudled and performed once per 24h.
+   ![](assets/rtcdp-segment.png)
+
+1. After the Destination has been configured, Adobe Experience Platform creates a tab-delimited .txt or .csv file in the storage location that you provided. This operation is scheduled and performed once per 24h.
 
 You can now configure a Campaign Standard workflow to ingest the segment into Campaign.
 
 ## Create an import workflow in Campaign Standard
 
-Once Campaign Standard has been configured as a Destination, you need to build a dedicated workflow to import from your storage location the file that has been exported.
+Once Campaign Standard has been configured as a Destination, you need to build a dedicated workflow to import from your storage location the file that has been exported by Adobe Experience Platform.
 
-To do this, you need to add and configure a **[!UICONTROL Transfer file]** activity to download the exported file from your storage location.
-
-For more on how to configure this activity, refer to [this section](../../automating/using/transfer-file.md).
+To do this, you need to add and configure a **[!UICONTROL Transfer file]** activity to download the exported file from your storage location. For more on how to configure this activity, refer to [this section](../../automating/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
