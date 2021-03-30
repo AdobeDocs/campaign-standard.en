@@ -18,6 +18,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## March 2021 {#doc-updates-march-2021}
 
+The "Help & support options" page for Campaign Standard has been integrated into the core documentation. [Read more](../../support.md)
+
 The section listing the key steps to send a message has been enhanced with additional information and references. [Read more](../../channels/using/key-steps-to-send-a-message.md)
 
 Information has been added to specify that, when selecting au audience in a query, its definition is copied and not referenced. [Read more](../../audiences/using/selecting-an-audience-in-a-message.md) 
@@ -27,6 +29,8 @@ Information related to the Audience Destinations Service and Adobe Experience Pl
 **Declared ID** data source can now also be used with People core service integration. Information has been added in the Campaign-Audience Manager or People core service integration documentation. [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Information has been added on how to implement local tracking for mobile application. [Read more](../../administration/using/local-tracking.md)
+
+The [Deliverability](../../sending/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
@@ -140,7 +144,7 @@ Workflow use cases have been updated and reorganized into thematic sections. [Re
 
 Use cases have been added on how to [encrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) and [decrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
 
-References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html)
+References to the legacy Support website have been replaced by the new URL. [Learn more](../../support.md)
 
 Custom Litmus account configuration has been removed from Inbox rendering capability. [Read more](../../sending/using/email-rendering.md)
 
@@ -272,7 +276,7 @@ The Exporting logs section has been updated to reflect the availability of the D
 
 ## January 2020 {#doc-updates-january-2020}
 
-The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
+The Deliverability documentation has been updated with a new section on IP Certification. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 A new section describing how to create a cross-channel delivery workflow is available. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
 
