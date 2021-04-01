@@ -14,7 +14,7 @@ level: Intermediate
 
 To ingest Adobe Experience Platform into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
 
-Once the Destination has been configured, data will will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Standard to ingest the data.
+Once the Destination has been configured, data will will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Standard to ingest it.
 
 ## Connect Adobe Campaign as a Destination
 
