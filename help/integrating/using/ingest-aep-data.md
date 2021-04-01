@@ -14,7 +14,7 @@ level: Intermediate
 
 To ingest Adobe Experience Platform into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
 
-Once the Destination has been configured, you need to build a dedicated workflow in Campaign Standard to ingest the segment.
+Once the Destination has been configured, data will will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Standard to ingest the data.
 
 ## Connect Adobe Campaign as a Destination
 
@@ -33,7 +33,7 @@ The main steps to connect and configure an Adobe Experience Platform Destination
 
     >[!NOTE]
     >
-    >When ingesting the segment, you are exporting all its members, together with the XDM schema fields specified when configuring the Destination.
+    >When ingesting the segment, you are exporting all its members, together with the selected additional XDM fields.
 
    ![](assets/rtcdp-segment.png)
 
@@ -43,9 +43,9 @@ You can now configure a Campaign Standard workflow to ingest the segment into Ca
 
 ## Create an import workflow in Campaign Standard
 
-Once Campaign Standard has been configured as a Destination, you need to build a dedicated workflow to import from your storage location the file that has been exported by Adobe Experience Platform.
+Once Campaign Standard has been configured as a Destination, you need to build a dedicated workflow to import the file that has been exported by Adobe Experience Platform.
 
-To do this, you need to add and configure a **[!UICONTROL Transfer file]** activity to download the exported file from your storage location. For more on how to configure this activity, refer to [this section](../../automating/using/transfer-file.md).
+To do this, you need to add and configure a **[!UICONTROL Transfer file]** activity. For more on how to configure this activity, refer to [this section](../../automating/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
