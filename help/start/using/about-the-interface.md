@@ -10,8 +10,8 @@ topic-tags: discovering-the-interface
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
 ---
-
 # About the interface{#about-the-interface}
 
 Adobe Campaign's user interface is based on concepts which are common to all the Adobe Experience Cloud solutions.

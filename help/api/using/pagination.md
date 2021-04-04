@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
 ---
-
 # Pagination
 
 By default, 25 resources are loaded in a list.

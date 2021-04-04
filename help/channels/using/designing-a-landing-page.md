@@ -10,8 +10,8 @@ context-tags: landingPage,main
 feature: Landing Pages
 role: Business Practitioner
 level: Intermediate
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 ---
-
 # Designing a landing page{#designing-a-landing-page}
 
 ## About landing page content design content design {#about-content-design}

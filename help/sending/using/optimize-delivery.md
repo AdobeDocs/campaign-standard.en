@@ -10,8 +10,8 @@ description: Learn how to secure and optimize the sending process upstream.
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 ---
-
 # Optimize delivery {#optimize-delivery}
 
 Before even starting creating deliveries, you can take several actions to secure and optimize the sending process upstream.

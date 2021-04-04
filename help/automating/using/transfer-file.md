@@ -10,8 +10,8 @@ context-tags: fileTransfer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 ---
-
 # Transfer file{#transfer-file}
 
 ## Description {#description}
@@ -169,5 +169,3 @@ Available output variables are:
 
 * **[!UICONTROL fileName]**: name of the transfered files.
 * **[!UICONTROL filesCount]**: number of transfered files.
-
-

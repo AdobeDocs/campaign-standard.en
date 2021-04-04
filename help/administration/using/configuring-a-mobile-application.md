@@ -10,8 +10,8 @@ topic-tags: configuring-channels
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 ---
-
 # Configuring a mobile application{#configuring-a-mobile-application}
 
 ## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}

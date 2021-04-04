@@ -10,8 +10,8 @@ topic-tags: use-case--extending-the-api
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 ---
-
 # Troubleshooting {#troubleshooting}
 
 * **When going to the Adobe.io Console you get the following error: "The Adobe I/O console is only available to select members of enterprise accounts. If you believe you should have access, please contact your System Administrator."**

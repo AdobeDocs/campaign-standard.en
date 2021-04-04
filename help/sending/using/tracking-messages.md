@@ -10,8 +10,8 @@ topic-tags: sending-and-tracking-messages
 feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
+exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 ---
-
 # Tracking messages{#tracking-messages}
 
 ## About tracking {#about-tracking}

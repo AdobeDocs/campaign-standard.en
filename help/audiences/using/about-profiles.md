@@ -10,8 +10,8 @@ context-tags: recipient,overview
 feature: Profiles
 role: Business Practitioner
 level: Beginner
+exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
 ---
-
 # About profiles{#about-profiles}
 
 Adobe Campaign lets you manage contacts throughout their entire life cycle: creation, import, targeting, action tracking, updates, etc. Contacts are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc.

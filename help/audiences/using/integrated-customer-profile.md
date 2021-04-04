@@ -10,8 +10,8 @@ context-tags: marketingHistory,main
 feature: Profiles
 role: Business Practitioner
 level: Beginner
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 ---
-
 # Integrated customer profile{#integrated-customer-profile}
 
 An integrated customer profile is available for each contact of your database. This marketing history combines all relevant marketing information concerning contact with a client into one single view. You can then access all digital behaviors, online and offline transactions in a central location: contact information, emails received, tracking logs, subscriptions and unsubscriptions, etc.

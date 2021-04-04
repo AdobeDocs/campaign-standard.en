@@ -10,8 +10,8 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 ---
-
 # Indicator calculation{#indicator-calculation}
 
 >[!NOTE]
@@ -369,4 +369,3 @@ The tables below give you the list of indicators used in the different reports a
   </tr> 
  </tbody> 
 </table>
-

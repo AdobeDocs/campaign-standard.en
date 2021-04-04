@@ -10,8 +10,8 @@ topic-tags: sheduling-messages
 feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 ---
-
 # Computing the sending date{#computing-the-sending-date}
 
 You can define a formula to send the message to each recipient at a specific date and time.
@@ -171,4 +171,3 @@ You can schedule this using a workflow.
 * The second segment will receive the message two hours later (May 25th at 10:00 AM).
 * The third segment will receive the message six hours later (May 25th at 2:00 PM).
 * The fourth segment will receive the message eight hours later (May 25th at 4:00 PM).
-

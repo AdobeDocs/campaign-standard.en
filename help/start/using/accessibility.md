@@ -10,8 +10,8 @@ topic-tags: accessibility
 feature: Campaigns
 role: Business Practitioner
 level: Intermediate
+exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 ---
-
 # Accessibility in Adobe Campaign Standard {#accessibility-acs}
 
 Learn about accessibility support in Adobe Campaign Standard Workspace.

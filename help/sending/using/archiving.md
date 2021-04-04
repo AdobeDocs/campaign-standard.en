@@ -10,8 +10,8 @@ topic-tags: sending-and-tracking-messages
 feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 ---
-
 # Archiving with Email BCC{#archiving-emails}
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform through Email BCC.

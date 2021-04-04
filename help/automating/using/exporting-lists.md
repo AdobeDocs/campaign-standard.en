@@ -10,8 +10,8 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 ---
-
 # Exporting lists{#exporting-lists}
 
 Adobe Campaign allows you to export your lists directly in a file for future use. Exporting a list in a file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.

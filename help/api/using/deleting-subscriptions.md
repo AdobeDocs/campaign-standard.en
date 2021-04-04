@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 ---
-
 # Deleting subscriptions {#mdeleting-subscriptions}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->

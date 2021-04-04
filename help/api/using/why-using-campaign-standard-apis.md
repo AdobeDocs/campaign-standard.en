@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 ---
-
 # Why using Campaign Standard APIs {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard provides APIs which allow existing systems to integrate with the Campaign platform to solve real-world problems in real-time.

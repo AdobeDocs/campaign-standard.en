@@ -10,8 +10,8 @@ topic-tags: filtering-data
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 ---
-
 # List of functions{#list-of-functions}
 
 ## About functions {#about-functions}
@@ -743,4 +743,3 @@ The representation functions are used to order values.
   </tr> 
  </tbody> 
 </table>
-

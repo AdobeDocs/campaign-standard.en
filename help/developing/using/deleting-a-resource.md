@@ -10,8 +10,8 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 ---
-
 # Deleting a resource{#deleting-a-resource}
 
 To delete a resource, the resource in question must be a **[!UICONTROL Draft]**. The resource is in **[!UICONTROL Draft]** status if:

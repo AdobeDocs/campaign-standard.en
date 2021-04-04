@@ -10,8 +10,8 @@ topic-tags: application-settings
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 ---
-
 # Technical workflows{#technical-workflows}
 
 Technical workflows are delivered out-of-the-box with Adobe Campaign. Technical workflows are operations or jobs scheduled to be executed on a regular basis on the server.
@@ -115,4 +115,3 @@ Technical workflows are used to handle self-triggered background and technical p
   </tr> 
  </tbody> 
 </table>
-

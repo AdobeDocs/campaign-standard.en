@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 ---
-
 # Using Triggers in Campaign{#using-triggers-in-campaign}
 
 ## Creating a mapped trigger in Campaign {#creating-a-mapped-trigger-in-campaign}
@@ -96,4 +96,3 @@ To view the dedicated trigger report in Adobe Campaign, open the trigger event t
 The report shows the number of processed events compared to the number of events sent by Analytics. It also displays a list of all the recent triggers. 
 
 ![](assets/trigger_uc_browse_14.png)
-

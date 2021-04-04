@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 ---
-
 # Monitoring deliverability{#monitor-deliverability}
 
 Below you will find details on the **[!UICONTROL Delivery throughput]** report as well as the different monitoring tools offered by Adobe Campaign. Here are some additional guidelines on deliverability monitoring:

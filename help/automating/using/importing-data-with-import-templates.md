@@ -10,8 +10,8 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
 ---
-
 # Importing data with import templates{#importing-data-with-import-templates}
 
 Importing data allows you to collect data to feed your Campaign's database.

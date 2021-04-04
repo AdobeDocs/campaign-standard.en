@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 ---
-
 # Converting Legacy editor email content {#converting-an-html-content}
 
 Start working with the Email Designer and build reusable templates and fragments from your email HTML created in the Legacy Editor.
@@ -122,4 +122,4 @@ You can now check the rendering of your email.
 
 For more on this, refer to [Manage the style of your email](#manage-the-style-of-your-email).
 
-Your legacy email is now available in the Email Designer. 
+Your legacy email is now available in the Email Designer.

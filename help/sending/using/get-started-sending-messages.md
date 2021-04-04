@@ -9,8 +9,8 @@ topic-tags: about-sending-messages-with-campaign
 
 role: Business Practitioner
 level: Intermediate
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 ---
-
 # Get started with testing and sending {#about-sending-messages-with-campaign}
 
 <table>

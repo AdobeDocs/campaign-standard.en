@@ -10,8 +10,8 @@ topic-tags: managing-subscriptions
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
+exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
 ---
-
 # Promoting a service{#promoting-a-service}
 
 You can offer subscriptions to a service in several ways, and give your visitors the ability to manage their subscription.

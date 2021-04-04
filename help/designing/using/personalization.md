@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 ---
-
 # Personalizing email content {#personalization}
 
 The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
@@ -424,4 +424,3 @@ The image has changed thanks to the dynamic content, and the slogan that appears
 
 * [Creating audiences](../../audiences/using/creating-audiences.md)
 * [Preparing the send](../../sending/using/preparing-the-send.md)
-

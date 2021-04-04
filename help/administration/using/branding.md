@@ -10,8 +10,8 @@ context-tags: branding,overview;branding,main
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 ---
-
 # Branding{#branding}
 
 ## About brand identity {#about-brand-identity}
@@ -193,4 +193,3 @@ To create an email linked to a brand, follow the steps below:
 1. Your email is already configured. You can check the information before testing it using the test profiles, then sending it to your audience.
 
    ![](assets/branding_16.png)
-

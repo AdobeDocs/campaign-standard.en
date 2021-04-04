@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 ---
-
 # Controlling email content{#control-email-content}
 
 <!--TO KEEP because specific to Campaign-->

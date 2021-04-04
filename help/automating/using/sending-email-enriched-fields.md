@@ -10,8 +10,8 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
 ---
-
 # Sending an email with enriched fields {#sending-email-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->

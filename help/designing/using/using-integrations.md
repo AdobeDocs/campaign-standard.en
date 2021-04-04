@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 ---
-
 # Multi-solution email design {#multi-solution-email-design}
 
 Adobe Campaign offers several email authoring options. You can use solutions such as Dreamweaver to edit your email content and create responsive messages in the Email Designer. You can also email content with Adobe Experience Manager and use it in your emails in Adobe Campaign Standard.

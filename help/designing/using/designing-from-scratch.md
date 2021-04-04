@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Beginner
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 ---
-
 # Designing emails from scratch {#designing-an-email-content-from-scratch}
 
 Learn how to master email content edition. With Email Designer, you can create emails and templates starting with or without your own predefined content. 

@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
 ---
-
 # Editing plain text, HTML and mobile email formats {#plain-text-and-html-modes}
 
 The Email Designer enables you to edit several rendering of your emails. You can generate a text version of your email, edit the HTML source of an email and design emails for mobile view.

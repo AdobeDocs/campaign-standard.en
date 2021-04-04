@@ -10,8 +10,8 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 ---
-
 # Configuring email channel{#configuring-email-channel}
 
 As a Campaign [administrator](../../administration/using/users-management.md#functional-administrators), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, you will learn how to edit the default values for the general email and sending parameters.

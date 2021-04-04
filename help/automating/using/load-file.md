@@ -10,8 +10,8 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 ---
-
 # Load file {#load-file}
 
 ## Description {#description}

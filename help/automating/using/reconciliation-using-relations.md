@@ -10,8 +10,8 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
 ---
-
 # Data reconciliation using relations {#reconciliation-relations}
 
 The following example demonstrates a workflow that updates the database using the purchasing data in a file. The purchasing data contains data referencing elements from other dimensions, such as the client emails and product codes.

@@ -10,8 +10,8 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
 ---
-
 # Birthday delivery {#birthday-delivery}
 
 ![](assets/wkf_delivery_example_1.png)

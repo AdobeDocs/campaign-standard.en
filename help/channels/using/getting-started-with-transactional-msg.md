@@ -10,8 +10,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Beginner
+exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 ---
-
 # Getting started with transactional messaging {#getting-started-with-transactional-messaging}
 
 ## Overview {#overview}

@@ -10,8 +10,8 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 feature: Audiences
 role: Business Practitioner
 level: Beginner
+exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
 ---
-
 # About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
 Opt-out results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.

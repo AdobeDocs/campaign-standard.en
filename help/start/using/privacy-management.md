@@ -10,8 +10,8 @@ topic-tags: discovering-the-interface
 feature: Privacy
 role: Business Practitioner
 level: Intermediate
+exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 ---
-
 # Privacy management {#privacy-management}
 
 Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).

@@ -10,8 +10,8 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 ---
-
 # Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
@@ -43,4 +43,3 @@ This resource can be extended to collect data you intend to send from the mobile
    ![](assets/in_app_personal_data_3.png)
 
 1. **[!UICONTROL Save]** and publish your custom resource. For more information on custom resource publication, refer to this [page](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-

@@ -10,8 +10,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 ---
-
 # Release Notes 2017{#release-notes}
 
 Looking for a specific 2017 release of Adobe Campaign Standard?
@@ -537,4 +537,3 @@ _Integrations_
 * Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the "Likelihood to Return in 30 Days" metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.
 * Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
 * Fixed an issue that may have caused the **[!UICONTROL Save audience]** activity of a workflow to fail when the option **[!UICONTROL Share in Adobe Marketing Cloud]** was checked.
-

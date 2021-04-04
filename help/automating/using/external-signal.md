@@ -10,8 +10,8 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
 ---
-
 # External signal{#external-signal}
 
 ## Description {#description}

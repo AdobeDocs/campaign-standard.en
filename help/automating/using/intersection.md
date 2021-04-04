@@ -10,8 +10,8 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
 ---
-
 # Intersection{#intersection}
 
 ## Description {#description}
@@ -44,4 +44,3 @@ The **[!UICONTROL Intersection]** activity is generally used to carry out additi
 The following example shows the intersection between two query activities. It is being used here to look into the Adobe Campaign database and retrieve profiles who are between 18 to 27 years old and profiles whose email address has been provided respectively.
 
 ![](assets/wkf_intersection_example.png)
-

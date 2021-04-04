@@ -10,8 +10,8 @@ topic-tags: managing-profiles
 feature: Profiles
 role: Business Practitioner
 level: Intermediate
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 ---
-
 # Active profiles{#active-profiles}
 
 Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. Only administrators can access this report, under **[!UICONTROL Administration > Customer metrics]**.

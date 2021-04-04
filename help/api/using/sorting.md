@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
 ---
-
 # Sorting
 
 Sorting is available in ascending or descending order. To do this, use the **%20desc** or **%20asc** parameter to your request.

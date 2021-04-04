@@ -10,8 +10,8 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 ---
-
 # Configuring the resource's data structure{#configuring-the-resource-s-data-structure}
 
 After creating a new custom resource, you must configure the data structure.

@@ -10,8 +10,8 @@ context-tags: saveAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 ---
-
 # Save audience{#save-audience}
 
 ## Description {#description}
@@ -86,4 +86,3 @@ The workflow defined in this example shows a regular audience update from target
 The **[!UICONTROL Save audience]** activity is configured as follows:
 
 ![](assets/save_audience_example_2.png)
-

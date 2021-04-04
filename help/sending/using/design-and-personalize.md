@@ -10,8 +10,8 @@ description: Learn how to design your message content and try to avoid common is
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 ---
-
 # Build personalized content {#build-personalized-content}
 
 When designing your message content, try to avoid common issues that could prevent you from executing your delivery. Most of the time, possible errors are related to [personalization](../../designing/using/personalization.md), formatting when [using an existing content](../../designing/using/using-existing-content.md) - and [converting an HTML content](../../designing/using/using-existing-content.md#converting-an-html-content) - and [images](../../designing/using/images.md).

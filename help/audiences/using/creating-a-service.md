@@ -10,8 +10,8 @@ context-tags: service,wizard;service,main
 feature: Audiences
 role: Business Practitioner
 level: Beginner
+exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 ---
-
 # Creating a service{#creating-a-service}
 
 In order to be able to manage subscriptions, you first need to create a service and configure it. Configuring a new service allows you to specify the email confirmations that the profiles will receive when they subscribe to or unsubscribe from the service. You will also define the subscription and unsubscription landing pages linked to the service. For example, a service subscription link inserted into an email will automatically direct the profile to the subscription landing page that is specified in the service.

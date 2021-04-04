@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
 ---
-
 # Creating a service {#creating-a-service}
 
 Services creation is performed with a **POST** request on the service resource.

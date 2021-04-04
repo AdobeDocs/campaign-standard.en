@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
 level: Intermediate
+exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
 ---
-
 # About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}
 
 In addition to tracking customers' online presence, you may also take advantage of their physical locations. Through integration with Adobe Analytics for Mobile, you can use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers.

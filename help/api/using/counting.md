@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
 ---
-
 # Counting
 
 The Adobe Campaign REST API can count the number of records in a request. To do this, use the URL that is returned in the **count** node.
@@ -76,4 +76,3 @@ It returns the number of records.
 }
 
 ```
-

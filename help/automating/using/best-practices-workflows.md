@@ -10,8 +10,8 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 ---
-
 # Workflow best practices{#workflow-best-practices}
 
 With Adobe Campaign, you can set up all types of workflow to perform a large scope of tasks. However, when designing and executing your workflows, you need to be very cautious as a bad implementation can lead to bad performances, errors,and platform issues. You can find below a list of best practices and troubleshooting tips.

@@ -9,8 +9,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Administrator
 level: Experienced
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 ---
-
 # About access management{#about-access-management}
 
 Adobe Campaign allows you to define and manage the permissions assigned to different users. Permissions are a set of rights and restrictions that authorize or deny access to certain functionalities or objects in the interface. These permissions are based on two concepts:
@@ -41,4 +41,3 @@ Users are managed in the Admin console (refer to the [Managing groups and users]
 * [Organizational units](../../administration/using/organizational-units.md)
 * [List of roles](../../administration/using/list-of-roles.md)
 * [Managing groups and users](../../administration/using/managing-groups-and-users.md)
-

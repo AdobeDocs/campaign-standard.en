@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 61683639-3f71-4652-a138-acfc0e91e868
 ---
-
 # Creating a Campaign form in Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
 You can create "forms" on your AEM sites and map the fields in a form to the fields in the Adobe Campaign database. This allows you to create and update profiles or manage the subscriptions to a service.

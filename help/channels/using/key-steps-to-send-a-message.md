@@ -10,8 +10,8 @@ topic-tags: about-communication-channels
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 ---
-
 # Key steps to send a message{#key-steps-to-send-a-message}
 
 In this section, you will learn how to create and send personalized messages to a targeted audience using Adobe Campaign Standard.

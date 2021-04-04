@@ -7,8 +7,8 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
+exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 ---
-
 # Adobe Campaign Standard and Adobe I/O Configuration for the Microsoft Dynamics 365 integration
 
 This article will explain how to configure Adobe Campaign Standard and Adobe I/O to give the integration application access to the data.

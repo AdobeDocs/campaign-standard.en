@@ -10,8 +10,8 @@ context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesB
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: c527e890-2b49-4422-a866-e55a6468c54b
 ---
-
 # Non-deliverables and bounces{#non-deliverables-and-bounces}
 
 The **[!UICONTROL Non-deliverables and bounces]** report provides details on all the errors encountered during a delivery.

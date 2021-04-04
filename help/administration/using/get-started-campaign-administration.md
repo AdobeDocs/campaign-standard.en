@@ -10,8 +10,8 @@ topic-tags: about-administrating-adobe-campaign
 feature: Access Management
 role: Administrator
 level: Experienced
+exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 ---
-
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
 
 <table>

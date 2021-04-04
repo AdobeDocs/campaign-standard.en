@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
 ---
-
 # Importing an Adobe Experience Manager content into an Adobe Campaign email {#creating-email-aem}
 
 Using this document, you will learn how to create and manage email contents in Adobe Experience Manager, then use them for your marketing campaigns by importing them in your emails into Adobe Campaign Standard.

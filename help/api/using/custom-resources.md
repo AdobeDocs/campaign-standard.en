@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
 ---
-
 # Custom resources {#custom-resources}
 
 Adobe Campaign comes with a pre-defined data model, where data is defined through different resources. You can enrich the data model that is provided by extending the resources to add your own custom fields or custom tables, such as purchase or product tables.

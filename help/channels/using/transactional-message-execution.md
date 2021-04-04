@@ -11,8 +11,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 ---
-
 # Transactional messaging execution and monitoring {#transactional-messaging-execution}
 
 ## Transactional message execution delivery {#transactional-message-execution-delivery}

@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
 ---
-
 # Triggering a signal activity {#triggering-a-signal-activity}
 
 In an Adobe Campaign Standard workflow, there can be one or more **External signal** activities. These activities are 'listeners' that wait to be triggered.

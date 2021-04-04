@@ -10,8 +10,8 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 feature: SMS
 role: Business Practitioner
 level: Beginner
+exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 ---
-
 # About SMS messages{#about-sms-messages}
 
 Adobe Campaign allows you to deliver SMS (Short Message Service) messages.

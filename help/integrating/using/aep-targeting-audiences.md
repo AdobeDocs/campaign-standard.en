@@ -10,8 +10,8 @@ topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
+exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 ---
-
 # Targeting Adobe Experience Platform audiences {#targeting-aep-audiences}
 
 >[!IMPORTANT]

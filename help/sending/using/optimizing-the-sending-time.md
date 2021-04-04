@@ -10,8 +10,8 @@ topic-tags: sheduling-messages
 feature: Send Time Optimization
 role: Business Practitioner
 level: Intermediate
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
 ---
-
 # Optimizing the sending time{#optimizing-the-sending-time}
 
 To improve the open rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible.
@@ -40,4 +40,3 @@ Several options are available:
 * **[!UICONTROL Send at a custom date defined by a formula]**: Each recipient will receive the message at the date and time configured by the specified formula.
 
   See [Computing the sending date](../../sending/using/computing-the-sending-date.md).
-

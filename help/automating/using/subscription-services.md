@@ -10,8 +10,8 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 ---
-
 # Subscription Services {#subscription-services}
 
 ## Description {#description}
@@ -154,4 +154,3 @@ The workflow is presented as follows:
   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 
   ![](assets/subscription_activity_example_from_file.png)
-

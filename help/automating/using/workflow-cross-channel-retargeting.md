@@ -10,8 +10,8 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 ---
-
 # Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}
 
 You can send an email to customers and then an sms to those who did not open the mail.

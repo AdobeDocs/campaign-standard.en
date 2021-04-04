@@ -10,8 +10,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 ---
-
 # Testing a transactional message {#testing-a-transactional-message}
 
 Before publishing your transactional message, you can create a specific test profile that will allow you to properly check the message.

@@ -10,8 +10,8 @@ topic-tags: application-settings
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
 ---
-
 # Sending internal notifications{#sending-internal-notifications}
 
 Adobe Campaign gives you the possibility to receive notifications regarding important system activities directly within the application. Real-time notifications keep relevant stakeholders informed and provide users with the ability to immediately and directly act on activity notifications from within the application. The result for teams is advanced agility, efficiency and smoother execution of campaigns.

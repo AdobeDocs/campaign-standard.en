@@ -10,8 +10,8 @@ description: Learn best practices related to delivery design and sending with Ad
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 ---
-
 # Delivery best practices {#delivery-best-practices}
 
 Learn best practices related to delivery design and sending with Adobe Campaign. Use the links below to navigate topics and find guidance.

@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-target
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
 ---
-
 # Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}
 
 The integration between Adobe Campaign and Adobe Target lets you insert dynamic content in your delivery.

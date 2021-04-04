@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
 ---
-
 # Metadata mechanism {#metadata-mechanism}
 
 You can retrieve the resources metadata using **resourceType** in a GET request:

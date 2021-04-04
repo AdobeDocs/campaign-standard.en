@@ -10,8 +10,8 @@ context-tags: delivery,main
 feature: Performance Monitoring
 role: Business Practitioner
 level: Beginner
+exl-id: ddc92077-df73-411d-a161-3263581e6945
 ---
-
 # Monitoring a delivery{#monitoring-a-delivery}
 
 There are several ways to monitor a delivery and to measure its impact. As a functional administrator, you can access message logs and delivery logs.

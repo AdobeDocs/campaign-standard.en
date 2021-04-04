@@ -10,8 +10,8 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 feature: Typology Rules
 role: Business Practitioner
 level: Intermediate
+exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
 ---
-
 # Managing typology rules {#managing-typology-rules}
 
 ## About typology rules {#about-typology-rules}

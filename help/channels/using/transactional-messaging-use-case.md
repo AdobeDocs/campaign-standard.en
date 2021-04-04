@@ -11,8 +11,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 ---
-
 # Transactional messaging use case {#transactional-messaging-use-case}
 
 In this example, you want to use the Adobe Campaign transactional messaging functionality to send a confirmation email after each purchase on your website, identifying your customers via their CRM ID.

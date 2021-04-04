@@ -8,8 +8,8 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
+exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 ---
-
 # Get started with the self-service integration app {#gs-self-service-app}
 
 The Adobe Campaign Standard integration with Microsoft Dynamics 365 self-service integration application gives you the ability to configure data flows, control whether or not they are running, and in which environment. You must, however, complete some prerequisites before you begin using the self-service integration application.

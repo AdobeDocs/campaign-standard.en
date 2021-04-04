@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
 level: Intermediate
+exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
 ---
-
 # Personalizing Campaign messages with Point of Interest data{#personalizing-campaign-messages-with-point-of-interest-data}
 
 In Adobe Campaign, you can use the Points of Interest data collected from your mobile application's subscribers to send them personalized marketing messages, such as an email.
@@ -61,4 +61,3 @@ The email with the 10% discount offer will be sent to subscribers who:
 * [Creating an email](../../channels/using/creating-an-email.md)
 * [Defining content](../../designing/using/personalization.md#example-email-personalization)
 * [Sending messages](../../sending/using/confirming-the-send.md)
-

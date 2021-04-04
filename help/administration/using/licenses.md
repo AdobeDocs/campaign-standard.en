@@ -10,8 +10,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Administrator
 level: Experienced
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 ---
-
 # Licenses{#licenses}
 
 The **[!UICONTROL Licenses]** window allows you to view the installed licenses on your instance and different information about it such as the build number, release version or if the terms of agreement have been accepted and by whom.
@@ -31,4 +31,3 @@ An administrator has to read and confirm the new terms of agreement in the follo
 Passed these 30 days if the agreement is not accepted, no users will be able to use this instance. The standard users will not be able to access Adobe Campaign functionalities and will only see the following message until a functional administrator accepts the terms of agreement.
 
 ![](assets/license_4.png)
-

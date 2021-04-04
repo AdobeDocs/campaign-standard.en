@@ -10,8 +10,8 @@ topic-tags: email-messages
 feature: Email
 role: Business Practitioner
 level: Beginner
+exl-id: 4483e469-0a2b-494d-b768-950168759727
 ---
-
 # Creating an email{#creating-an-email}
 
 You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). You can also create single-send and recurring emails from a workflow.

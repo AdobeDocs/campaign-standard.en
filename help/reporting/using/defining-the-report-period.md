@@ -10,8 +10,8 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
 ---
-
 # Defining the report period{#defining-the-report-period}
 
 Before starting or accessing a report, you must apply a time period. The given period can be accessed on the top right of the report.

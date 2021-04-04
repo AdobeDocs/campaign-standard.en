@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: d1714101-bad0-40c1-8d60-90469d033197
 ---
-
 # Adding links {#links}
 
 ## Inserting a link {#inserting-a-link}

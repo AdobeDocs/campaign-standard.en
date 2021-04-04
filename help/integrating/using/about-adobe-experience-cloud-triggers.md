@@ -10,8 +10,8 @@ context-tags: trigger,overview;trigger,main
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 ---
-
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
 
 Integration between the Experience Cloud Activation core service **[!UICONTROL Triggers]** and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).
@@ -58,4 +58,3 @@ Here are some important notes to take into account before using the Triggers - C
 >[!NOTE]
 >
 >For more on best practices and technical limitations, refer to [Triggers best practices and limitations](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
-

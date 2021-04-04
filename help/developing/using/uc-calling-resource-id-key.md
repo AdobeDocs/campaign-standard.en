@@ -6,8 +6,8 @@ description: Learn how to call a resource using a composite identification key
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 ---
-
 # Calling a resource using a composite identification key{#calling-a-resource-using-a-composite-identification-key}
 
 In some cases, you may need to define for a resource an identification key that is made up of two fields. Once the identification key is configured, you need to configure a filter definition in order to be able to call the resource with this identification key, either from Campaign Standard interface or APIs.

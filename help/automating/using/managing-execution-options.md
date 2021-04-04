@@ -10,8 +10,8 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
+exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 ---
-
 # Managing execution options {#managing-execution-options}
 
 To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.

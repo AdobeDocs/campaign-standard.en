@@ -10,8 +10,8 @@ context-tags: delivery,deployment,back
 feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
+exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 ---
-
 # Confirming the send{#confirming-the-send}
 
 Once you have finished preparing your messages and the approval steps have been carried out, you can send them. For more on messages preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).

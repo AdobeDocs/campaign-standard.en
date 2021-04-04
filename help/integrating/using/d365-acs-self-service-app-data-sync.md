@@ -8,8 +8,8 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
+exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 ---
-
 # Synchronize data 
 
 You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign marketing metrics to Microsoft Dynamics 365. Synchronization is executed through three dedicated technical workflows: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Refer to this section to [learn more](../../integrating/using/d365-acs-self-service-app-workflows.md).

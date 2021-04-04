@@ -10,8 +10,8 @@ context-tags: deploy,main;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 ---
-
 # Updating the database structure{#updating-the-database-structure}
 
 To make your modifications to the data model effective and to be able to use them, the database structure needs to be updated.

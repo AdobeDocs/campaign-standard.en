@@ -11,8 +11,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 ---
-
 # Transactional messaging best practices and limitations {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">

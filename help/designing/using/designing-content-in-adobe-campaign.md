@@ -10,8 +10,8 @@ topic-tags: about-content-design
 feature: Email Design
 role: Business Practitioner
 level: Beginner
+exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 ---
-
 # Campaign Email Designer{#designing-content-in-adobe-campaign}
 
 Once you have created an email in Adobe Campaign, you need to define its content.

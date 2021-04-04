@@ -7,8 +7,8 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
+exl-id: 184bc656-2107-4380-9b35-148cb4380547
 ---
-
 # Connect systems with the integration app
 
 ## Add credentials to the integration app
@@ -84,4 +84,4 @@ Discover SFTP management with [Campaign Control Panel](https://experienceleague.
 
 Once configuration is done, log into the SFTP server with the private key and create the directory "d365_loads/exports".
 
-[Visit this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server. 
+[Visit this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server.

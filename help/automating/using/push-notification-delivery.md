@@ -10,8 +10,8 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
 ---
-
 # Push notification delivery{#push-notification-delivery}
 
 ## Description {#description}

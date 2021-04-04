@@ -10,8 +10,8 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
 ---
-
 # Complaints{#complaints}
 
 The **[!UICONTROL Complaints]** report identifies the deliveries that have received the most declarations as spam.
