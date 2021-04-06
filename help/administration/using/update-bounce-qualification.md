@@ -7,8 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: yes
+exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 ---
-
 # Update bounce qualification after an ISP outage {#update-bounce-qualification.md}
 
 If you are NOT running the latest version of Campaign, this section may apply to you. Check with your Adobe Campaign representative.
@@ -51,4 +51,3 @@ Once you have the list of affected recipients, you can either set them to a stat
 **Related topics:**
 * [Understand Delivery Failures](../../sending/using/understanding-delivery-failures.md)
 * [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
