@@ -49,6 +49,6 @@ For Campaign instances with SMTP bounce response information in the **[!UICONTRO
 Once you have the list of affected recipients, you can either set them to a status of **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow, or just delete them from the table.
 
 **Related topics:**
-* [Understand Delivery Failures](../../delivery/using/understanding-delivery-failures.md)
-* [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [Understand Delivery Failures](../../sending/using/understanding-delivery-failures.md)
+* [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
 
