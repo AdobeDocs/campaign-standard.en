@@ -1,5 +1,5 @@
 ---
-solution: Campaign Classic
+solution: Campaign Standard
 product: campaign
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage.
@@ -10,6 +10,8 @@ hidefromtoc: yes
 ---
 
 # Update bounce qualification after an ISP outage {#update-bounce-qualification.md}
+
+If you are NOT running the latest version of Campaign, this section may apply to you. Check with your Adobe Campaign representative.
 
 ## Context
 
@@ -38,7 +40,7 @@ Based on the timeframe of the incident, below are the recommended guidelines for
 >
 >These dates/times are based on the Eastern Standard time zone (EST). Please adjust for your instance’s time zone.
 
-* For Campaign instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
+For Campaign instances with SMTP bounce response information in the **[!UICONTROL Error text]** field of the quarantine list:
 
 * **Error text (quarantine text)** contains “550-5.1.1 The email account that you tried to reach does not exist” AND **Error text (quarantine text)** contains “support.google.com” **
 * **Update status (@lastModified)** on or after 12/14/2020 6:55:00 AM  

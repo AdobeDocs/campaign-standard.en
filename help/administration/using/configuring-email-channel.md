@@ -304,7 +304,7 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
 
 ## Legacy settings {#legacy-settings}
 
-If you are **not** running the latest version of Campaign, the parameters and UI sections described below still apply to you.
+If you are **NOT** running the latest version of Campaign, the parameters and UI sections described below still apply to you.
 
 ### Retries {#legacy-retries}
 
