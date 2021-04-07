@@ -18,7 +18,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## April 2021 {#doc-updates-april-2021}
 
-A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../..//integrating/using/get-started-sources-destinations.md)
+A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
 
 ## March 2021 {#doc-updates-march-2021}
 
