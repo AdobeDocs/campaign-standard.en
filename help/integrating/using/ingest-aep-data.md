@@ -14,30 +14,15 @@ level: Intermediate
 
 To ingest Adobe Experience Platform into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
 
-Once the Destination has been configured, data will will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Standard to ingest it.
+Once the Destination has been configured, data will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Standard to ingest it.
 
 ## Connect Adobe Campaign as a Destination
 
-The main steps to connect and configure an Adobe Experience Platform Destination to Adobe Campaign are listed below. Detailed information on each of these steps is available in the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+In Adobe Experience platform, configure a connection with Adobe Campaign by selecting a storage location for the exported segments. This steps also allows you to select the segments to export and specify additional XDM fields to include.
 
-1. In Adobe Experience platform **[!UICONTROL Destinations]** menu, configure a connection with Adobe Campaign by authenticating and selecting a storage location for the exported segments.
+For more on this, refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
-    >[!NOTE]
-    >
-    >The storage location can be Amazon S3, SFTP with Password, SFTP with SSH Key, or Azure Blob connections. The preferred method to send data to Adobe Campaign is through Amazon S3 or Azure Blob.
-
-
-   ![](assets/rtcdp-campaign.png)
-
-1. Activate the segments to export. This step allows you to select the segment to export and to specify additional XDM fields to include.
-
-    >[!NOTE]
-    >
-    >When ingesting the segment, you are exporting all its members, together with the selected additional XDM fields.
-
-   ![](assets/rtcdp-segment.png)
-
-1. After the Destination has been configured, Adobe Experience Platform creates a tab-delimited .txt or .csv file in the storage location that you provided. This operation is scheduled and performed once per 24h.
+After the Destination has been configured, Adobe Experience Platform creates a tab-delimited .txt or .csv file in the storage location that you provided. This operation is scheduled and performed once per 24h.
 
 You can now configure a Campaign Standard workflow to ingest the segment into Campaign.
 
@@ -51,7 +36,7 @@ To do this, you need to add and configure a **[!UICONTROL Transfer file]** activ
 
 You can then build your workflow according to your needs (update the database using the segment data, send a cross-channel deliveries to the segment, etc.)
 
-As an example, the workflow below downloads the file from your storage location on a regular basis. It updates Campaign database with the segment data, then transfer the emptied file back to the storage location.
+As an example, the workflow below downloads the file from your storage location on a daily basis, then updates Campaign database with the segment data.
 
    ![](assets/rtcdp-workflow.png)
 

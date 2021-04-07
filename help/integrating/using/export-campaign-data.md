@@ -16,6 +16,11 @@ To export Campaign Standard data to Adobe Real-time Customer Data Platform (RTCD
 
 Once the workflow has been configured and data sent to your storage location, you need to connect your S3 or Azure blob storage location as a **Source** in Adobe experience Platform.
 
+>[!NOTE]
+>
+>
+Please note that we recommend exporting Campaign generated data only (e.g. sends, opens, clicks etc.) to Adobe Experience Platform. Data that is ingested from a 3rd party source (like your CRM) should be imported directly into Adobe Experience Platform.
+
 ## Create an export workflow in Campaign Standard
 
 To export data from Campaign Standard to your S3 or Azure Blob storage location, you need to build a workflow to target the data you want to export and send it to your storage location.
@@ -63,4 +68,6 @@ The main steps to connect your S3 or Azure blob storage location as a **Source**
 
    ![](assets/rtcdp-map-xdm.png)
 
-1. After the Source has been configured, Adobe Experience Platform will import the file from the storage location that you provided. This operation is scheduled and performed up to 6 times a day.
+1. After the Source has been configured, Adobe Experience Platform will import the file from the storage location that you provided.
+
+   This operation can be scheduled according to your needs. We recommend performing the export up to 6 times a day, depending on the load already present on the instance.
