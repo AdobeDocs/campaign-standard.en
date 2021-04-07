@@ -1,18 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Ingest Adobe Experience Platform segments into Campaign
-description: Learn how to ingest Adobe Experience Platform segments into Campaign Standard.
+title: Ingest Adobe Experience Platform audiences into Campaign
+description: Learn how to ingest Adobe Experience Platform audiences into Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Triggers
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 ---
 
-# Ingest Adobe Experience Platform segments into Campaign {#destinations}
+# Ingest Adobe Experience Platform audiences into Campaign {#destinations}
 
-To ingest Adobe Experience Platform into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
+To ingest Adobe Experience Platform audiences into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
 
 Once the Destination has been configured, data will be exported to your storage location, and you will need to build a dedicated workflow in Campaign Standard to ingest it.
 
