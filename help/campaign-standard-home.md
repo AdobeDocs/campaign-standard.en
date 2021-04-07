@@ -31,7 +31,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 ## Top pages
 
-<table style="table-layout:fixed">
+<table>
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">

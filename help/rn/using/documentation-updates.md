@@ -16,6 +16,10 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## April 2021 {#doc-updates-april-2021}
+
+A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
+
 ## March 2021 {#doc-updates-march-2021}
 
 The "Help & support options" page for Campaign Standard has been integrated into the core documentation. [Read more](../../support.md)
