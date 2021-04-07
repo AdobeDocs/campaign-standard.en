@@ -60,5 +60,5 @@ With Campaign Standard APIs, create integrations for Adobe Campaign Standard and
 
 ## Additional resources
 
-* [About Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [Exporting / importing custom resources](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Export data from Campaign to Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
