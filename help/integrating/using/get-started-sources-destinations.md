@@ -27,8 +27,8 @@ With Adobe Experience Platform, you can share data between Campaign Standard and
 For a more detailed overview of Adobe Real-time Customer Data Platform, Destinations and Sources, refer to these pages:
 
 * [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
-* [Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)
-* [Sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)
+* [Sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ## Connect Campaign Standard with Adobe Experience Platform
 
