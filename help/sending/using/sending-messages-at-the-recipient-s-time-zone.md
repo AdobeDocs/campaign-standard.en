@@ -10,8 +10,8 @@ topic-tags: sheduling-messages
 feature: Proofs
 role: Business Practitioner
 level: Intermediate
+exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
 ---
-
 # Sending messages at the recipient's time zone{#sending-messages-at-the-recipient-s-time-zone}
 
 When managing a campaign in which the date and time are important, you can schedule a delivery that takes each recipient's local time into account: they will receive email, SMS or push noftfications at the time you scheduled, in their own time zone.

@@ -10,8 +10,8 @@ topic-tags: monitoring-messages
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 ---
-
 # Understanding delivery failures{#understanding-delivery-failures}
 
 ## About delivery failures {#about-delivery-failures}

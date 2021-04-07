@@ -10,8 +10,8 @@ topic-tags: managing-subscriptions
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 ---
-
 # Monitoring subscriptions{#monitoring-subscriptions}
 
 Use the Adobe Campaign interface to track your subscribers and measure the success of your services.
@@ -62,4 +62,3 @@ To display a report detailing the evolution of subscriptions and unsubscriptions
 To consult the list of services to which a contact has subscribed, you can consult its marketing history. For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-

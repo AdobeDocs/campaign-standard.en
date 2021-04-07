@@ -10,8 +10,8 @@ topic-tags: configuring-channels
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 ---
-
 # Experience Platform SDK integration FAQ {#aep-faq}
 
 To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform SDK and configured in Adobe Campaign.

@@ -10,8 +10,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Administrator
 level: Experienced
+exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
 ---
-
 # Auditing export logs{#auditing-export-logs}
 
 From **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:

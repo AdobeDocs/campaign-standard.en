@@ -10,8 +10,8 @@ context-tags: delivery,directMailContent,back
 feature: Direct Mail
 role: Business Practitioner
 level: Intermediate
+exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 ---
-
 # Defining the direct mail audience{#defining-the-direct-mail-audience}
 
 You can either define the audience in the creation wizard or by clicking on the **Audience** section of the delivery dashboard.

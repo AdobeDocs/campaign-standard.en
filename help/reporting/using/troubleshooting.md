@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 ---
-
 # Troubleshooting{#troubleshooting}
 
 You can find in this section common questions related to Dynamic reporting.

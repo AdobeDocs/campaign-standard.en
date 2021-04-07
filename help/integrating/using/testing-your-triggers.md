@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 ---
-
 # Testing your triggers{#testing-your-triggers}
 
 The following troubleshooting tips will help you solve the most common problems you may encounter when using Triggers with Adobe Campaign:
@@ -78,4 +78,3 @@ If the message is not valid, check the following items:
 
 * For trigger enrichment personalization fields marked as invalid, validate the transactional template from the associated eventCusResource collections.
 * Validate the message format
-

@@ -10,8 +10,8 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 ---
-
 # Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 Once the workflow has been triggered, the parameters are ingested into the events variables and can be used to customize the workflow's activities.

@@ -9,8 +9,8 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 ---
-
 # Exporting / importing custom resources {#exporting-importing-custom-resources}
 
 This tutorial explains how to export and import a package of custom resources from a development environment to a production environment.

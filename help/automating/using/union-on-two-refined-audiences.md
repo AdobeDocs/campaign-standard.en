@@ -10,8 +10,8 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
 ---
-
 # Union on two refined audiences {#example--union-on-two-refined-audiences}
 
 The workflow defined in this example shows the union of two **[!UICONTROL Read audience]** activities. The goal of this workflow is to send an email to Gold or Silver members that are between 18 and 30 years old. Specific audiences are already created in the system to keep track of Gold and Silver members.

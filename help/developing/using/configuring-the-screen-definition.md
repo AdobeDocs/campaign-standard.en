@@ -10,8 +10,8 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 ---
-
 # Configuring the screen definition{#configuring-the-screen-definition}
 
 When creating a resource or when adding new fields to an existing resource, you can define how you want them to appear in the interface.

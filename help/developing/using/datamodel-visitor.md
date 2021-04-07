@@ -8,8 +8,8 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 ---
-
 # Visitor (nms:visitor)
 
 ## Object description

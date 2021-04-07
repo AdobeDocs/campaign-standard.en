@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: 5e523519-7192-4031-9d96-559af23074d9
 ---
-
 # What is deliverability{#about-deliverability}
 
 Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. [Learn why deliverability matters](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).

@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 ---
-
 # Abandonment Triggers use cases{#abandonment-triggers-use-cases}
 
 This section presents different use cases that can be implemented using the integration between Adobe Campaign and Experience Cloud Triggers. You will find two examples of use cases:
@@ -158,4 +158,3 @@ The **[!UICONTROL Include Meta Data]** section allows you to pass any data colle
 1. A few moments later, the same visitor/recipient receives a remarketing message. The message includes the recently searched destination.
 
    ![](assets/trigger_uc_search_7.png)
-

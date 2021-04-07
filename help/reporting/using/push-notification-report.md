@@ -10,8 +10,8 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
 ---
-
 # Push notification report{#push-notification-report}
 
 >[!CAUTION]
@@ -45,4 +45,3 @@ The second table **Push notification Clicks & opens** is split into three catego
 * **[!UICONTROL Unique clicks]**: Number of times a unique user interacts with the push notification, e.g. clicks on the notification or button.
 * **[!UICONTROL Open]**: Total number of push notifications delivered to the device and clicked on by users thus opening the app. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
 * **[!UICONTROL Unique Opens]**: Number of recipients who opened the delivery.
-

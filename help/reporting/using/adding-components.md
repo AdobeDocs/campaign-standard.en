@@ -10,8 +10,8 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
 ---
-
 # Adding components{#adding-components}
 
 Components help you customize your reports with different dimensions, metrics, and time periods.
@@ -40,4 +40,3 @@ You can drag and drop as many components as needed and compare them to one anoth
 
 * [List of components](../../reporting/using/list-of-components-.md)
 * [List of reports](../../reporting/using/defining-the-report-period.md)
-

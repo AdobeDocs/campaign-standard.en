@@ -8,8 +8,8 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
+exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 ---
-
 # Get Started with Microsoft Dynamics 365 integration
 
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.

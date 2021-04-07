@@ -10,8 +10,8 @@ context-tags: seedMember,overview
 feature: Profiles
 role: Business Practitioner
 level: Intermediate
+exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 ---
-
 # Managing test profiles {#managing-test-profiles}
 
 ## About test profiles {#about-test-profiles}

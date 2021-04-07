@@ -10,8 +10,8 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 ---
-
 # Extract file{#extract-file}
 
 ## Description {#description}

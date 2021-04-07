@@ -10,8 +10,8 @@ topic-tags: working-with-typology-rules
 feature: Typology Rules
 role: Business Practitioner
 level: Intermediate
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 ---
-
 # Filtering rules {#filtering-rules}
 
 Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.

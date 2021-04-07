@@ -10,8 +10,8 @@ description: Learn how Adobe Campaign enables you to keep track of the sent mess
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 ---
-
 # Track and monitor {#track-and-monitor}
 
 You clicked the Send button? Let's see what happens. Once the delivery is sent, Adobe Campaign enables you to keep track of the sent messages and discover how your recipients react to your delivery. This will help you improve future sending and optimize your next campaigns.

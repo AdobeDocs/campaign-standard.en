@@ -10,8 +10,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 ---
-
 # Configuring a transactional event {#configuring-transactional-event}
 
 To send a transactional message with Adobe Campaign, you first need to describe the structure of the event data by creating and configuring an event.

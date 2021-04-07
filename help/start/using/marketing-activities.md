@@ -10,8 +10,8 @@ context-tags: activity,overview
 feature: Campaigns
 role: Business Practitioner
 level: Beginner
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
 ---
-
 # Marketing activities{#marketing-activities}
 
 ## About marketing activities {#about-marketing-activities}
@@ -89,4 +89,3 @@ According to the context, you can:
 >[!NOTE]
 >
 >You can also create a marketing activity from the marketing activity list. In this case, you can create any type of activity, and choose to link the marketing activity to a parent campaign (or to a parent program if you create a program) via the activity's properties.
-

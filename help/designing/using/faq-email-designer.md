@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-analytics
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 ---
-
 # Email Designer Frequently Asked Questions 
 
 ## What is the difference between Content blocks and content fragments? 

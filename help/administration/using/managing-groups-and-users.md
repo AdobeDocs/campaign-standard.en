@@ -10,8 +10,8 @@ context-tags: user,overview;user,main;security,overview;security,main
 feature: Access Management
 role: Administrator
 level: Experienced
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 ---
-
 # Managing groups and users{#managing-groups-and-users}
 
 ## About security groups {#about-security-groups}
@@ -143,4 +143,3 @@ Your users are now assigned to a security group and can connect to Adobe Campaig
 >[!IMPORTANT]
 >
 >If users are removed from a security group in the Admin console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information.
-

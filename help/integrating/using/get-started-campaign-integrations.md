@@ -10,8 +10,8 @@ topic-tags: get-started-campaign-integrations
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 ---
-
 # About Campaign integrations{#get-started-campaign-integrations}
 
 This section details the functional integrations available between the current version of Adobe Campaign and other solutions and services.
@@ -99,4 +99,3 @@ If you would like to integrate data flows from other systems with Adobe Campaign
   </tr> 
  </tbody> 
 </table>
-

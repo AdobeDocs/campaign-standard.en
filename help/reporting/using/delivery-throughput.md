@@ -10,8 +10,8 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
 ---
-
 # Delivery throughput{#delivery-throughput}
 
 This report contains data relating to the delivery throughput of a send, or several sends. It provides:

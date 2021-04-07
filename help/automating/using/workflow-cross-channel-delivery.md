@@ -10,8 +10,8 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 ---
-
 # Creating a cross-channel delivery{#cross-channel-delivery}
 
 This document allows you to discover the following Adobe Campaign functionality via a standard use case: creating a cross-channel delivery workflow.

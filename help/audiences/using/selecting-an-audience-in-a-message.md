@@ -10,8 +10,8 @@ context-tags: deliveryCreation,wizard;delivery,audience,back
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 ---
-
 # Selecting an audience in a message{#selecting-an-audience-in-a-message}
 
 Adobe Campaign lets you configure several profile types within a message's audience.
@@ -56,4 +56,3 @@ Audiences can be defined when creating the message via the creation wizard or fr
 The audiences block is then updated and shows that a target and test profiles have been selected for the email in question.
 
 ![](assets/delivery_audience_definition_3.png)
-

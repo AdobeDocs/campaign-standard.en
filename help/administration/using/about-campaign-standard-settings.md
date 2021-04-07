@@ -10,8 +10,8 @@ context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
 ---
-
 # About Campaign Standard settings{#about-campaign-standard-settings}
 
 [!DNL Campaign] Standard comes with different application elements that can be configured to match your needs. You can, for example:

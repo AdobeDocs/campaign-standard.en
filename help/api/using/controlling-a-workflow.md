@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
 ---
-
 # Controlling a workflow {#controlling-a-workflow}
 
 You can control a workflow directly from the REST API, through a POST request containing the workflow ID and the required execution command:

@@ -10,8 +10,8 @@ context-tags: union,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
 ---
-
 # Union{#union}
 
 ## Description {#description}

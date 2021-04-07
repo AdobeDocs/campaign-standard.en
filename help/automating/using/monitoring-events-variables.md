@@ -10,8 +10,8 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
 ---
-
 # Monitoring the events variables {#monitoring-the-events-variables}
 
 It is possible to monitor the events variables that are available in the workflow, including the declared external parameters. To do this, follow the steps below:

@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 ---
-
 # Configuring the Campaign-Experience Manager integration {#configuration-aem}
 
 This integration between Adobe Campaign Standard and Adobe Experience Manager allows you to use content created in Adobe Experience Manager in your Adobe Campaign emails.
@@ -68,4 +68,3 @@ To configure Adobe Experience Manager with Adobe Campaign Standard, you must fol
 1. Then, connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **[!UICONTROL Cloud Service]**. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
 1. You now need to configure the externalizer in Adobe Experience Manager on your author instance. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
-

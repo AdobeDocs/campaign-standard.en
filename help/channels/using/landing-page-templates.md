@@ -10,8 +10,8 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: Business Practitioner
 level: Intermediate
+exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
 ---
-
 # About landing page templates {#landing-page-templates}
 
 Campaign comes with a set of built-in landing page templates:
@@ -40,4 +40,3 @@ When building a template, we recommend adding a **'type'** attribute to tags. Th
   ```
 
   The official list of 'type' attributes is available at the following address: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
-  

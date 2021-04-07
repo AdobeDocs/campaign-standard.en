@@ -9,8 +9,8 @@ topic-tags: application-settings
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
 ---
-
 # Updates and maintenance operations{#updates-and-maintenance-operations}
 
 For maintenance purposes, the Adobe Campaign server is restarted every day at 6 AM (server time zone). Contact Adobe to know the server time. This operation is automatic and transparent. However, we recommend that you do not perform any data processing operations right before the restart. For example, avoid starting workflows before the restart, schedule them to start one minute after.

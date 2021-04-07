@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
 ---
-
 # Endpoints {#endpoints}
 
 The available endpoints for Adobe Campaign REST API:

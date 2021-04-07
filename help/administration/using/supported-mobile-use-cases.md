@@ -10,8 +10,8 @@ context-tags: mobileApp,overview
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 ---
-
 # Mobile use cases supported in Adobe Campaign Standard {#mobile-use-cases}
 
 In this page, you will find the list of every mobile use cases supported in [!DNL Adobe Campaign Standard] using the [!DNL Adobe Experience Platform SDKs]. Note that supporting these use cases involve installing and configuring the [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch], and [!DNL Adobe Campaign Standard]. For more information on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).

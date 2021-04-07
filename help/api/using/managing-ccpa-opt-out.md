@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
 ---
-
 # Managing CCPA opt-out {#managing-ccpa-optout}
 
 A profile's CCPA opt-out status can be monitored and managed using the **ccpaOptOut** profile attribute and the "true" or "false" values:

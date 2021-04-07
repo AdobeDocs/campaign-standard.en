@@ -10,8 +10,8 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
 ---
-
 # Identifying duplicates before a delivery {#identifying-duplicates-before-a-delivery}
 
 The following example illustrates a deduplication that lets you exclude the duplicates of a target before sending an email. This means you avoid sending a communication several times to the same profile.

@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
+exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 ---
-
 # Sharing audiences with Audience Manager or People core service{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Importing an audience {#importing-an-audience}
@@ -78,4 +78,3 @@ Synchronization between Adobe Campaign and People core service takes 24-36 hours
 
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Audiences](../../audiences/using/about-audiences.md)
-

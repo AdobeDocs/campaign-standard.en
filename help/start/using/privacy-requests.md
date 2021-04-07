@@ -10,8 +10,8 @@ topic-tags: discovering-the-interface
 feature: Privacy
 role: Business Practitioner
 level: Intermediate
+exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 ---
-
 # Managing Privacy requests {#privacy-requests}
 
 For a general presentation on Privacy Management, refer to [this section](../../start/using/privacy-management.md).

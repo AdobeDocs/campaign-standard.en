@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 ---
-
 # Release Notes 2018{#release-notes}
 
 Looking for a specific 2018 release of Adobe Campaign Standard?
@@ -519,4 +519,3 @@ _Profiles and audiences_
 * Added a tooltip displaying the exact result number after counting the population of a query.
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
-

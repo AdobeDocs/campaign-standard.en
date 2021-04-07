@@ -10,8 +10,8 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
 ---
-
 # External signal and data import {#external-signal-data-import}
 
 The following example illustrates the **[!UICONTROL External signal]** activity in a typical use case. A data import is performed in a source workflow. Once the import is done and the database updated, a second workflow is triggered. This second workflow is used to update an aggregate on the imported data.

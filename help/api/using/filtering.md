@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
 ---
-
 # Filtering {#filtering}
 
 ## Retrieving filters metadata

@@ -10,8 +10,8 @@ context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 ---
-
 # Managing packages{#managing-packages}
 
 Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files. These can be configuration parameters or data.

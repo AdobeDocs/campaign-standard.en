@@ -11,8 +11,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 ---
-
 # Transactional push notifications{#transactional-push-notifications}
 
 You can use Adobe Campaign to send transactional push notifications on iOS and Android mobile devices. These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK.

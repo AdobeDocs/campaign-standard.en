@@ -10,8 +10,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 ---
-
 # Release Notes 2020{#release-notes-2020}
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)

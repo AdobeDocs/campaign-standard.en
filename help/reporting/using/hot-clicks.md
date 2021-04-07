@@ -10,8 +10,8 @@ context-tags: deliveryHotClicksReport,main
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
 ---
-
 # Hot clicks{#hot-clicks}
 
 This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.

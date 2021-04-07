@@ -10,8 +10,8 @@ context-tags:
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 ---
-
 # Transactional message lifecycle {#publishing-transactional-message}
 
 When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published.

@@ -10,8 +10,8 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 ---
-
 # Get started with dynamic reports {#about-dynamic-reports}
 
 Dynamic Reporting provides fully customizable and real-time reports. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. With the drag-and-drop interface, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients.

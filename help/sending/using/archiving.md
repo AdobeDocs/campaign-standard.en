@@ -10,8 +10,8 @@ topic-tags: sending-and-tracking-messages
 feature: Performance Monitoring
 role: Business Practitioner
 level: Intermediate
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 ---
-
 # Archiving with Email BCC{#archiving-emails}
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform through Email BCC.
@@ -35,7 +35,7 @@ Once enabled, you need to activate Email BCC from the **[!UICONTROL Archive emai
 
 >[!NOTE]
 >
->Currently the archived emails cannot be sent with the Adobe Campaign Enhanced MTA.
+>Currently the archived emails are still sent by the legacy archiving module which uses a simple SMTP relay.
 
 ## Activating email archiving {#activating-email-archiving}
 

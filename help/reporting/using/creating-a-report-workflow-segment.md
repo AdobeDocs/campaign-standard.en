@@ -10,8 +10,8 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 ---
-
 # Creating a report based on workflow segments{#creating-a-report-workflow-segment}
 
 After creating a workflow and filtering your population into different targeted audience, you can measure the efficiency of your marketing campaigns based on segments defined in this targeting workflow.

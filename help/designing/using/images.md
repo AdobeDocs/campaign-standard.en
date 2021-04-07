@@ -10,8 +10,8 @@ topic-tags: editing-email-content
 feature: Email Design
 role: Business Practitioner
 level: Intermediate
+exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
 ---
-
 # Working with images {#images} 
 
 ## Inserting images{#inserting-images}

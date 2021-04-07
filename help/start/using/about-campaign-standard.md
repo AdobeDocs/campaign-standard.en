@@ -10,8 +10,8 @@ topic-tags: about-adobe-campaign
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 ---
-
 # Get Started with Campaign Standard {#about-campaign-standard}
 
 Adobe Campaign Standard is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.

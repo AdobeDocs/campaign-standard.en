@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 ---
-
 # Campaign dimensions and metrics in Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
 Adobe Campaign and Adobe Analytics integration lets you track the success of your email deliveries directly in Adobe Analytics.
@@ -97,4 +97,3 @@ Campaign **[!UICONTROL metrics]** found in Analytics are listed below:
   </tr> 
  </tbody> 
 </table>
-

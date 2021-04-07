@@ -10,8 +10,8 @@ topic-tags: defining-conditional-content
 feature: SMS
 role: Business Practitioner
 level: Beginner
+exl-id: 649e3428-a3bf-470f-923c-04d9a57a208f
 ---
-
 # Defining dynamic text{#defining-dynamic-text}
 
 Dynamic text is defined in the same way as dynamic content. Refer to the [Defining dynamic content](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.

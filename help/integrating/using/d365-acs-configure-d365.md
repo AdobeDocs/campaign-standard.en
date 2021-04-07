@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
+exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 ---
-
 # Configure Microsoft Dynamics 365 for the integration with Adobe Campaign Standard
 
 Learn how to configure Microsoft Dynamics 365 integration and activate your CRM data on cross-channel communication with Adobe Campaign Standard.

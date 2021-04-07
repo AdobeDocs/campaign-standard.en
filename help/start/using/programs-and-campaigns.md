@@ -10,8 +10,8 @@ context-tags: campaign,overview;campaignExplorer,main
 feature: Campaigns
 role: Business Practitioner
 level: Beginner
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 ---
-
 # Programs and campaigns{#programs-and-campaigns}
 
 ## About plans, programs and campaigns {#about-plans--programs-and-campaigns}
@@ -96,4 +96,3 @@ Each program and each campaign in the list has a visual symbol and an icon whose
 * Green: the program/campaign has finished - **[!UICONTROL Finished]** status. By default, the current date is automatically shown as the validity start date and the end date is calculated according to the start date (**D+186 days**). You can change these dates in the program or campaign properties.
 
 ![](assets/programs_and_campaigns.png)
-

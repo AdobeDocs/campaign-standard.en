@@ -10,8 +10,8 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 feature: Email
 role: Business Practitioner
 level: Beginner
+exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 ---
-
 # Designing an A/B test email{#designing-an-a-b-test-email}
 
 The A/B test functionality in Adobe Campaign allows you to define two to three email variants. Each variant is sent to population samples in order to determine which has the best result. Once determined, the winning variant is then sent to the remaining population.

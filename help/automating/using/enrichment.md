@@ -10,8 +10,8 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
 ---
-
 # Enrichment{#enrichment}
 
 ## Description {#description}

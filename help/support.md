@@ -10,8 +10,8 @@ hidefromtoc: yes
 feature: Help and support options
 role: Business Practitioner
 level: Beginner
+exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 ---
-
 # Help & support options for Campaign Standard {#help-support-options}
 
 Need Support for Campaign Standard? You are at the right place!

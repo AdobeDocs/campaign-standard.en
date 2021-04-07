@@ -10,8 +10,8 @@ topic-tags: campaign-standard-release-planning
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 ---
-
 # Release Planning {#release-planning}
 
 Adobe continuously improves its solutions by adding new capabilities, enhancements and fixes.

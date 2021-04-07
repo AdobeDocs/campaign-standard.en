@@ -10,8 +10,8 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 ---
-
 # Exclusion{#exclusion}
 
 ## Description {#description}
@@ -44,4 +44,3 @@ A primary set is defined amongst inbound transitions. Members of other inbound t
 The following example shows two query activities configured to filter profiles from the Adobe Campaign database who are between 18 and 27 years old and have an invalid email address. The profiles with invalid email addresses are then excluded from the first set. This allows you to then send an email for example.
 
 ![](assets/wkf_exclusion_example.png)
-

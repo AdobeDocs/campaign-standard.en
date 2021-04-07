@@ -10,8 +10,8 @@ topic-tags: monitoring-messages
 feature: Proofs
 role: Business Practitioner
 level: Beginner
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 ---
-
 # Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}
 
 ## About delivery alerting {#about-delivery-alerting}
@@ -275,4 +275,3 @@ Here are a few possible reasons for receiving alerting notifications according t
 * [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
 * [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-

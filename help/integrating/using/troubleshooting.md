@@ -10,8 +10,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
 role: Data Architect
 level: Intermediate
+exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
 ---
-
 # Troubleshooting{#troubleshooting}
 
 Errors may be encountered while using the integration with Audience Manager or People core service.

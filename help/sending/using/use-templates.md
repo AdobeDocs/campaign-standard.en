@@ -10,8 +10,8 @@ description: "Delivery templates allow for increased efficiency by providing rea
 feature: Deliverability
 role: Business Practitioner
 level: Intermediate
+exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 ---
-
 # Use templates {#use-templates}
 
 Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities. With templates, marketers can deploy new campaigns with minimal customization in a shorter amount of time.

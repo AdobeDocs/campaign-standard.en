@@ -10,8 +10,8 @@ topic-tags: transactional-messaging
 feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
+exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
 ---
-
 # Follow-up messages {#follow-up-messages}
 
 A follow-up message is a predefined marketing delivery template that can be used in a workflow to send another communication to the recipients of a specific transactional message.

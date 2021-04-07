@@ -9,8 +9,8 @@ topic-tags: users-and-security
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 ---
-
 # Adobe Launch Synchronization FAQ {#syncwithlaunch-faq}
 
 You can import Adobe Launch mobile properties into Adobe Campaign Standard through the **[!UICONTROL Sync with Launch]** dedicated technical workflow. For more information, refer to this [page](../../administration/using/technical-workflows.md)

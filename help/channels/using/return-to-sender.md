@@ -10,8 +10,8 @@ topic-tags: direct-mail
 feature: Direct Mail
 role: Business Practitioner
 level: Intermediate
+exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
 ---
-
 # Return to sender{#return-to-sender}
 
 Flat file exchanges with Direct Mail providers incorporating Return to Sender information are supported. This allows corresponding postal addresses to be excluded from future communications. This also allows you to be notified of an incorrect address and engage with the customer through other channels or to encourage him to update his postal address.

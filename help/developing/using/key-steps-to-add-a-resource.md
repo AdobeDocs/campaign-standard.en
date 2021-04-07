@@ -10,8 +10,8 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
 ---
-
 # Key steps to add a resource{#key-steps-to-add-a-resource}
 
 To create a new resource or to extend an existing resource with new fields, several steps are required:

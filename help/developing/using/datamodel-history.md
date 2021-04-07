@@ -8,8 +8,8 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 ---
-
 # Marketing History (nms:history)
 
 ## Object description

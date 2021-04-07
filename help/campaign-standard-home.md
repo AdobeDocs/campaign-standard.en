@@ -7,8 +7,8 @@ description: Browse Campaign Standard product documentation
 feature: Overview
 role: Business Practitioner
 level: Beginner
+exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 ---
-
 # Help Center {#campaign-standard-documentation}
 
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg) 

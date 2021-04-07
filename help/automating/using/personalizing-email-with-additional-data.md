@@ -10,8 +10,8 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
 ---
-
 # Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
 
 The following example illustrates adding different types of additional data to a query and its use as a personalization field in an email. For more on how to enrich the data targeted by a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md#enriching-data).

@@ -10,8 +10,8 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
 ---
-
 # Breakdown by domains{#breakdown-by-domains}
 
 This report contains the performance data for each domain represented in the audience for an email delivery. If it is a campaign or program report, the performance data is available for multiple audiences. This data allows you to analyze the behavior of each domain in reaction to specific events. For example, link display, URL on denylist, etc.
@@ -34,4 +34,3 @@ The second table, **Tracking statistics**, contains the available data for recip
 * **Unsubscribed**: The number of clicks on the subscription link.
 * **Mirror Page**: The number of clicks on the mirror page link.
 * **On denylist**: The number of recipients who have declared an email as spam or junk. [Learn more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-

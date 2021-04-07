@@ -8,8 +8,8 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
 ---
-
 # Tracking Logs (nms:remoteTracking)
 
 ## Object description

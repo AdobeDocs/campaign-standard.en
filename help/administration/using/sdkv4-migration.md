@@ -10,8 +10,8 @@ context-tags: mobileApp,overview
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 ---
-
 # How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK {#sdkv4-migration}
 
 >[!IMPORTANT]

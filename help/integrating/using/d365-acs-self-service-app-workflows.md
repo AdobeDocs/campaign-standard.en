@@ -7,8 +7,8 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
+exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
 ---
-
 # Campaign - Microsoft Dynamics 365 integration workflows
 
 The **[!UICONTROL Workflows]** page lists the technical workflows and their status. 

@@ -10,8 +10,8 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 ---
-
 # Wait{#wait}
 
 ## Description {#description}
@@ -49,4 +49,3 @@ The workflow is presented as follows:
 * A **[!UICONTROL Wait]** activity of 24h places a pause between when the invitation was sent and the rest of the workflow.
 * A second **[!UICONTROL Query]** targets the profiles that received the first email but did not click on the subscription link inside.
 * A second **[!UICONTROL Email delivery]** sends a reminder of the invitation to the people selected.
-

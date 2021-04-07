@@ -10,8 +10,8 @@ topic-tags: managing-profiles
 feature: Profiles
 role: Business Practitioner
 level: Beginner
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 ---
-
 # Creating profiles{#creating-profiles}
 
 In Adobe Campaign, profiles are used by default to define the main target of messages.

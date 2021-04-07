@@ -10,8 +10,8 @@ topic-tags: about-profiles-and-audiences
 feature: Profiles
 role: Business Practitioner
 level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 ---
-
 # Get started with profiles and audiences{#about-profiles-and-audiences}
 
 <table>

@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
 ---
-
 # Updating profiles {#updating-profiles}
 
 Updating profiles is performed with a **PATCH** request.

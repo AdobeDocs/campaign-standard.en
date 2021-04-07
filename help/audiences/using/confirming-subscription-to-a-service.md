@@ -10,8 +10,8 @@ topic-tags: managing-subscriptions
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 ---
-
 # Confirming subscription to a service{#confirming-subscription-to-a-service}
 
 ## About sending subscription confirmation {#sending-subscription-confirmation}

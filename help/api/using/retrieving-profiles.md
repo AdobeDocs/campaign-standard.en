@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 ---
-
 # Retrieving profiles {#retrieving-profiles}
 
 Retrieving profiles is performed with a **GET** request.

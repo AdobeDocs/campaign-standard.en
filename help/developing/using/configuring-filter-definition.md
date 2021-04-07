@@ -10,8 +10,8 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 ---
-
 # Configuring filter definition{#configuring-filter-definition}
 
 In the **[!UICONTROL Filter definition]** tab, you can create advanced filters that users can directly access when creating complex queries, such as when defining an audience.

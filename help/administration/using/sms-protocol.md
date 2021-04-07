@@ -9,8 +9,8 @@ topic-tags: configuring-channels
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: ea936128-1c51-483d-914c-6d06708456d6
 ---
-
 # SMS connector protocol and settings {#sms-connector-protocol}
 
 >[!NOTE]

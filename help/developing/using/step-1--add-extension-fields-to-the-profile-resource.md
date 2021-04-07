@@ -10,8 +10,8 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
+exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
 ---
-
 # Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}
 
 1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
@@ -20,4 +20,3 @@ level: Experienced
 1. Select the **[!UICONTROL Profile]** resource.
 1. Click **[!UICONTROL Create]**.
 1. Add the **[!UICONTROL Text]** type **[!UICONTROL Promo code]** field with the **[!UICONTROL Brand]** ID in the resource fields.
-

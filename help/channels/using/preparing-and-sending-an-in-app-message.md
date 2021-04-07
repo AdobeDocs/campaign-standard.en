@@ -9,8 +9,8 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: Business Practitioner
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 ---
-
 # Preparing and sending an In-App message{#preparing-and-sending-an-in-app-message}
 
 >[!NOTE]

@@ -10,8 +10,8 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
+exl-id: de97a194-d497-4665-906e-53178fd3b119
 ---
-
 # GET / POST / PATCH / DELETE verbs {#verbs}
 
 Available verbs to perform operations on the resources are:

@@ -10,8 +10,8 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Control Groups
 role: Business Practitioner
 level: Intermediate
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
 ---
-
 # Adding a control group {#adding-control-group}
 
 You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.

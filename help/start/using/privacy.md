@@ -13,8 +13,8 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Privacy
 role: Business Practitioner
 level: Intermediate
+exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 ---
-
 # Privacy and Consent{#privacy-and-consent}
 
 ## General recommendations {#general-recommendations}

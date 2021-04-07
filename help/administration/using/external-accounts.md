@@ -10,8 +10,8 @@ context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Administrator
 level: Experienced
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 ---
-
 # External accounts{#external-accounts}
 
 An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign.
