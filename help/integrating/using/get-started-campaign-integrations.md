@@ -68,6 +68,11 @@ If you would like to integrate data flows from other systems with Adobe Campaign
    <td> Allow you to exchange audiences with the different Adobe Experience Cloud applications that you use.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People Core Service (Profiles &amp; Audiences)</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> The integration between Adobe Campaign and Adobe Real-time Customer Data Platform (RTCDP) allows you to share segments data and import audiences to Adobe Campaign.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Get started with Sources and Destinations</a></td>
+  </tr> 
   <tr> 
    <td> Asset core service and Assets On Demand<br /> </td> 
    <td> Allows you to insert assets from your Adobe Experience Cloud library into emails and landing pages created in Adobe Campaign.<br /> </td> 
