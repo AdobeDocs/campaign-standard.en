@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
+feature: SMS
+role: Business Practitioner
+level: Intermediate
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 ---
-
 # Managing incoming SMS{#managing-incoming-sms}
 
 ## Managing STOP SMS {#managing-stop-sms}

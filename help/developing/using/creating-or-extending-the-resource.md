@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: b8731088-a675-4070-9036-bf2b5254e4e8
 ---
-
 # Creating or extending the resource{#creating-or-extending-the-resource}
 
 Administrators can create a new resource from scratch or create an extension of an existing resource if you need work on data that are not part of the built-in data model.

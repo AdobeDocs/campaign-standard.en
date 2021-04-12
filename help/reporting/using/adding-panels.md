@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
 ---
-
 # Adding panels{#adding-panels}
 
 ## Adding a blank panel {#adding-a-blank-panel}

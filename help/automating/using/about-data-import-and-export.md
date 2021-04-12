@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 
+feature: Workflows
+role: Data Architect
+level: Experienced
+exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
 ---
-
 # About data import and export{#about-data-import-and-export}
 
 Depending on your business needs, you have several ways to import and export data with Adobe Campaign:

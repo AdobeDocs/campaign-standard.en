@@ -7,8 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+feature: Landing Pages
+role: Business Practitioner
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
 ---
-
 # Getting started with landing pages {#getting-started-with-landing-pages}
 
 The main steps when setting up landing pages are as follows:

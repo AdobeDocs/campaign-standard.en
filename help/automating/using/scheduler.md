@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
 ---
-
 # Scheduler{#scheduler}
 
 ## Description {#description}
@@ -72,4 +75,3 @@ When designing a scheduled workflow which includes multiple activities, you need
 In the following example, the activity is configured so that it will start the workflow on a weekly basis, every other Monday at 7am, for an undetermined duration.
 
 ![](assets/wkf_scheduler_example.png)
-

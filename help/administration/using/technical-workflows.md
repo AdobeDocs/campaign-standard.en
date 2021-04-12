@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 ---
-
 # Technical workflows{#technical-workflows}
 
 Technical workflows are delivered out-of-the-box with Adobe Campaign. Technical workflows are operations or jobs scheduled to be executed on a regular basis on the server.
@@ -70,11 +73,6 @@ Technical workflows are used to handle self-triggered background and technical p
    <td> This workflow fetches the KPIs from Reporting service once a day and reconciles them with the data from Adobe Analytics. It then pushes the difference if needed. By default, it is started every day at 4.20am.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Managing NMAC opt-outs</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> This workflow updates unsubscriptions to notifications on mobile devices. By default, it is started every 6 hours between 1am and midnight.<br /> </td> 
-  </tr> 
-  <tr> 
    <td> <span class="uicontrol">Message Center local archiving</span> <br /> </td> 
    <td> <span class="uicontrol">mcSynch_local</span> <br /> </td> 
    <td> This workflow archives real-time events into a historical table. By default, it is started every hour.<br /> </td> 
@@ -117,4 +115,3 @@ Technical workflows are used to handle self-triggered background and technical p
   </tr> 
  </tbody> 
 </table>
-

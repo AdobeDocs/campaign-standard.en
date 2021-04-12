@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities 
 context-tags: workflow,use-case,query
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 ---
-
 # Creating deliveries on profiles' creation date {#creation-date-query}
 
 You can send an offer via email on the anniversary of the customer's profile creation.

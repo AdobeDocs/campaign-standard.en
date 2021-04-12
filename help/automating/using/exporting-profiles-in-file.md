@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
 ---
-
 # Exporting profiles in an external file {#exporting-profiles-external-file}
 
 The following example illustrates how to configure an **[!UICONTROL Extract file]** activity after a **[!UICONTROL Query]** activity.

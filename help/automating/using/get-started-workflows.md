@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 
+feature: Workflows
+role: Data Architect
+level: Beginner
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
 ---
-
 # Get started with processes and data management {#get-started-processes-data-management}
 
 <table>

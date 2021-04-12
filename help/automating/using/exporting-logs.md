@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 
+feature: Workflows
+role: Data Architect
+level: Experienced
+exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
 ---
-
 # Exporting logs{#exporting-logs}
 
 Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow. It enables you to analyze the results of your campaigns in your own reporting or BI tool.

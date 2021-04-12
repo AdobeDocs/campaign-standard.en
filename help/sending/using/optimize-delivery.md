@@ -6,8 +6,12 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Learn how to secure and optimize the sending process upstream.
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 ---
-
 # Optimize delivery {#optimize-delivery}
 
 Before even starting creating deliveries, you can take several actions to secure and optimize the sending process upstream.
@@ -44,7 +48,7 @@ To reach your recipients' inbox without bouncing or being marked as spam, you ne
 
     * When checking your email for deliverability, you want to focus on four main categories: data quality, message and content, sending infrastructure, and reputation. For a deeper dive on this topic, refer to [this section](../../sending/using/about-deliverability.md).
 
-* When starting a new platform, apply the recommendations detailed [in this page](../../sending/using/starting-new-platform.md).
+* When starting a new platform, apply the recommendations detailed on [this page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Contact your Adobe representative for assistance.
 

@@ -4,9 +4,8 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 
-title: Adobe Campaign Standard Help Center
-breadcrumb-title: Help Center
 title: Campaign Standard Guide
+breadcrumb-title: Help Center
 ---
 
 # Adobe Campaign Standard Help {#using}
@@ -40,6 +39,7 @@ title: Campaign Standard Guide
        + [Privacy management](start/using/privacy-management.md)
        + [Privacy requests](start/using/privacy-requests.md)
        + [Privacy FAQ](start/using/privacy-faq.md)
+  + [Help & support options](support.md)
 + Profiles and audiences {#profiles-and-audiences}
   + [Get started with profiles and audiences](audiences/using/get-started-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}
@@ -64,10 +64,6 @@ title: Campaign Standard Guide
        + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
        + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
        + [Identifying opt-out profiles for a delivery](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-  + Working wih Adobe Experience Platform {#working-with-adobe-experience-platform}
-       + [About the Audience Destinations service](audiences/using/aep-about-audience-destinations-service.md)
-       + [Managing Adobe Experience Platform audiences](audiences/using/aep-managing-audiences.md)
-       + [Using the Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
   + [Get started with communication channels](channels/using/get-started-communication-channels.md)
   + About communication channels {#about-communication-channels}
@@ -179,11 +175,7 @@ title: Campaign Standard Guide
        + [Understanding quarantine management](sending/using/understanding-quarantine-management.md)
   + Managing deliverability {#managing-deliverability}
        + [About deliverability](sending/using/about-deliverability.md)
-       + [Starting a new platform](sending/using/starting-new-platform.md)
        + [Controlling email content](sending/using/control-email-content.md)
-       + [Improving your reputation](sending/using/improving-reputation.md)
-       + [IP Certification](sending/using/ip-certification.md)
-       + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
   + Working with typology rules {#working-with-typology-rules}
@@ -268,6 +260,19 @@ title: Campaign Standard Guide
           + [Manage synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
           + [Map data between Microsoft Dynamics 365 and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
        + [Use the Microsoft Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
+  + Campaign and Adobe Experience Platform {#adobe-experience-platform}
+       + Audience Destinations Service {#audience-destinations}
+          + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
+          + [Managing Adobe Experience Platform audiences](integrating/using/aep-managing-audiences.md)
+          + [Using the Segment Builder](integrating/using/aep-using-segment-builder.md)
+          + [Targeting Adobe Experience Platform audiences](integrating/using/aep-targeting-audiences.md)
+          + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
+       + Adobe Experience Platform Data Connector {#data-connector}
+          + [About Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+          + [Experience Platform Datamodel overview](integrating/using/aep-data-model-overview.md)
+          + [Mapping definition](integrating/using/aep-mapping-definition.md)
+          + [Mapping activation](integrating/using/aep-mapping-activation.md)
+          + [Triggering data ingestion through APIs](integrating/using/aep-triggering-data-ingestion.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
@@ -373,9 +378,6 @@ title: Campaign Standard Guide
           + [Exporting profiles in an external file](automating/using/exporting-profiles-in-file.md)
           + [Updating multiple subscription statuses from a file](automating/using/updating-subscriptions-from-file.md)
           + [Subscribing profiles from a file to a specific service](automating/using/subscribing-profiles-from-file.md)
-  + Working with Adobe Experience Platform audiences {#working-with-aep-audiences}
-       + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
-       + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
 + Developing {#developing}
   + [Get started with Campaign Standard data model](developing/using/get-started-data-model.md)
   + About custom resources {#about-custom-resources}
@@ -415,12 +417,6 @@ title: Campaign Standard Guide
        + [Tracking Logs](developing/using/datamodel-tracking.md)
        + [Unsubscription Event](developing/using/datamodel-unsubscription.md)
        + [Visitor](developing/using/datamodel-visitor.md)
-  + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-       + [About Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-       + [Experience Platform Datamodel overview](developing/using/aep-data-model-overview.md)
-       + [Mapping definition](developing/using/aep-mapping-definition.md)
-       + [Mapping activation](developing/using/aep-mapping-activation.md)
-       + [Triggering data ingestion through APIs](developing/using/aep-triggering-data-ingestion.md)
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
   + [Monitoring guidelines](administration/using/monitoring-guidelines.md)
@@ -436,6 +432,7 @@ title: Campaign Standard Guide
   + Configuring channels {#configuring-channels}
        + [About channel configuration](administration/using/about-channel-configuration.md)
        + [Configuring email channel](administration/using/configuring-email-channel.md)
+       + [Update bounce qualification after an ISP outage](administration/using/update-bounce-qualification.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
   + Configuring mobile channels {#configuring-mobile}
        + [Implementing Push tracking](administration/using/push-tracking.md)

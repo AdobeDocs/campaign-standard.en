@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 ---
-
 # Understanding quarantine management{#understanding-quarantine-management}
 
 ## About quarantines {#about-quarantines}
@@ -86,4 +89,3 @@ If a user qualifies an email as a spam (**Feedback loop**), the message is autom
 In the list of quarantined addresses (see [Identifying quarantined addresses for the entire platform](#identifying-quarantined-addresses-for-the-entire-platform)), the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine.
 
 ![](assets/quarantines2.png)
-

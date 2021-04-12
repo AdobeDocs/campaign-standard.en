@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
 ---
-
 # Deduplicating the data from an imported file {#deduplicating-the-data-from-an-imported-file}
 
 This example shows how to deduplicate data from a file imported before loading the data into the database. This procedure improves the quality of the data loaded in the database.

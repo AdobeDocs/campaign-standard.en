@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 ---
-
 # Message dashboard{#message-dashboard}
 
 The message dashboard is a workspace made up of different icons - regrouped into an action bar - and various functional blocks that allow you to establish your message's parameters and send it. These elements are presented hereafter.

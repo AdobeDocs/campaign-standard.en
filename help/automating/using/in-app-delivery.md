@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 ---
-
 # In-App delivery{#in-app-delivery}
 
 ## Description {#description}

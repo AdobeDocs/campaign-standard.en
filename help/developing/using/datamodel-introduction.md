@@ -6,8 +6,11 @@ description: Learn about the Adobe Campaign data model.
 audience: developing
 content-type: reference
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
 ---
-
 # Data model description{#data-model-introduction}
 
 Adobe Campaign comes with a pre-defined data model. 

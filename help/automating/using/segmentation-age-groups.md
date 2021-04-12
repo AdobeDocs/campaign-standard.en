@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 ---
-
 # Segmentation according to age groups {#segmentation-age-groups}
 
 The following example shows a segmentation of database profiles according to their age group.

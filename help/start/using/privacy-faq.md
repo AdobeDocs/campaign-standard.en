@@ -10,8 +10,11 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 
+feature: Privacy
+role: Business Practitioner
+level: Intermediate
+exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 ---
-
 # Privacy FAQ {#privacy-faq}
 
 Here are some of the Frequently Asked Questions about Privacy and Consent when using Adobe Campaign.

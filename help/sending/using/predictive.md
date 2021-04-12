@@ -6,8 +6,11 @@ description: Learn how to use predictive send time and engagement scoring.
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 ---
-
 # Optimizing design and delivery with AI-powered emails{#journey-ai}
 
 ## Get started with AI-powered emails{#journey-ai-ovv}
@@ -143,26 +146,3 @@ By using a query activity in a workflow, you can use the score to optimize your 
 For example, with the **Retention level** criteria:
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

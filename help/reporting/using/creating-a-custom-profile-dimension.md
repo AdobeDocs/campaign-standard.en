@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
 ---
-
 # Creating a custom profile dimension{#creating-a-custom-profile-dimension}
 
 Reports can also be created and managed based on custom profile data created during the profile custom resource extension.

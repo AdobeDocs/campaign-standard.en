@@ -7,8 +7,11 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 
+feature: Multilingual Messages
+role: Business Practitioner
+level: Intermediate
+exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
 ---
-
 # Multilingual messages templates {#multilingual-messages-template}
 
 A multilingual template is a specific template to manage multilingual messages. This kind of template is available for **Email** and **SMS messages**  and useable in standalone mode, within a workflow or in a recurring delivery.

@@ -7,8 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
+exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 ---
-
 # Managing email styles {#managing-styles}
 
 

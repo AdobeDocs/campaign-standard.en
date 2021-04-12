@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
 ---
-
 # Tracking indicators{#tracking-indicators}
 
 The **[!UICONTROL Tracking indicators]** report contains the key indicators for tracking behavior after email messages are received.
@@ -27,4 +30,3 @@ The **[!UICONTROL Tracking indicators]** table and **Top 5 deliveries** graph co
 * **Unsubscribed**: The number of clicks on the subscription link.
 * **Spam:** The number of recipients who have declared an email as spam.
 * **Mirror Page**: The number of clicks on the mirror page link.
-

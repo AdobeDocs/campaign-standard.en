@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
+feature: Access Management
+role: Administrator
+level: Experienced
+exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 ---
-
 # Organizational units{#organizational-units}
 
 ## About units {#about-units}
@@ -115,4 +118,3 @@ The organizational unit field is added to your profiles in the **[!UICONTROL Acc
 
 * [About units](../../administration/using/organizational-units.md#about-units)
 * [About access management](../../administration/using/about-access-management.md)
-

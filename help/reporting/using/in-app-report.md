@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
 ---
-
 # In-App report{#in-app-report}
 
 >[!CAUTION]
@@ -38,4 +41,3 @@ The second table **In-App Clicks & Dismissals** is split into three categories: 
 * **[!UICONTROL Unique In-App clicks]**: Number of times recipients clicked on Button 1 or Button 2.
 * **[!UICONTROL In-App dismissal]**: Total number of messages that recipients dismissed either by clicking the close button or auto-dismiss.
 * **[!UICONTROL Unique In-App dismissal]**: Number of time recipients dismissed an In-App message.
-

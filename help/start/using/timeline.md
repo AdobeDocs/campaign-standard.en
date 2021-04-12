@@ -7,8 +7,11 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
+feature: Campaigns
+role: Business Practitioner
+level: Beginner
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 ---
-
 # Timeline{#timeline}
 
 The **[!UICONTROL Timeline]** allows you to visualize programs that are in progress and their content.

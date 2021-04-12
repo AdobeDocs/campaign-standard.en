@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 
+feature: Landing Pages
+role: Business Practitioner
+level: Intermediate
+exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 ---
-
 # Setting up a double opt-in process{#setting-up-a-double-opt-in-process}
 
 ## About double opt-in {#about-double-opt-in}

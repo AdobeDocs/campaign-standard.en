@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
 ---
-
 # Incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
 
 The following example shows the configuration of an **[!UICONTROL Incremental query]** activity which filters the profiles in the Adobe Campaign database that are subscribed to the **Running Newsletter** service, to send them a welcome email containing a promo code.

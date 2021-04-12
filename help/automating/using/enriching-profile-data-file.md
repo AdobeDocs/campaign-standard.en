@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 ---
-
 # Enriching profile data with data contained in a file {#enriching-profile-data-with-data-contained-in-a-file}
 
 This example shows how to enrich profile data with purchase data contained in a file.We consider here that the purchase data are stored in a third-party system. Each profile can have several purchases stored in the file. The final goal of the workflow is to send an email to the target profiles who have purchased at least two items to thank them for their loyalty.

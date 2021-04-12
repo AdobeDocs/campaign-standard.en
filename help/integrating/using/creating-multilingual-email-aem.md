@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
+exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 ---
-
 # Creating a multilingual email with the Adobe Experience Manager integration {#creating-multilingual-email-aem}
 
 Using this document, you will learn how to create a multilingual email using Adobe Experience Manager content and language copies.

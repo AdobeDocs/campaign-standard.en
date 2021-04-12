@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
 ---
-
 # Defining the parameters when calling the workflow {#defining-the-parameters-when-calling-the-workflow}
 
 This section details how to define parameters when calling a workflow. For more on how to perform this operation from an API call, refer to the [REST APIs documentation](../../api/using/triggering-a-signal-activity.md).

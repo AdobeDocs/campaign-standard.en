@@ -7,8 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 ---
-
 # Release Notes 2019{#release-notes-2019}
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
@@ -612,4 +615,3 @@ Several improvements have been added to the Transactional messaging channel in o
 * The sending throughput has been improved and stabilized for SMS messages.
 * Fixed an issue which prevented the "~" character from being used in an SMS message. (CAMP-29172)
 * Fixed an issue in deliveries with the Send time optimization option. (CAMP-29231)
-

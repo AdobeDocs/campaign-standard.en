@@ -6,8 +6,12 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: "When you have your content ready, learn how you carefully define who will receive your message."
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 ---
-
 # Define the right audience {#define-the-right-audience}
 
 Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle.

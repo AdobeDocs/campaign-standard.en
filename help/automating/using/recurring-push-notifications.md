@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
 ---
-
 # Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)

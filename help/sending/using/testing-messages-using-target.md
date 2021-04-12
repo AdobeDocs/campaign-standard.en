@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Control Groups
+role: Business Practitioner
+level: Intermediate
+exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 ---
-
 # Testing email messages using targeted profiles {#testing-message-profiles}
 
 ## Overview {#overview}

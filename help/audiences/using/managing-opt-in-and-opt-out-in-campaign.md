@@ -7,8 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 ---
-
 # Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
 ## Managing opt-in and opt-out from a profile {#managing-opt-in-and-opt-out-from-a-profile}
@@ -50,4 +53,3 @@ To give users the ability to opt out from all deliveries, you have to create and
 Once a user clicks on the landing page link, the **[!UICONTROL No longer contact (by any channel)]** option in the profile is automatically selected.
 
 ![](assets/blocklisting_allchannels.png)
-

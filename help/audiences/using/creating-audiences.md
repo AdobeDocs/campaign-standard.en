@@ -7,8 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
+feature: Audiences
+role: Business Practitioner
+level: Beginner
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 ---
-
 # Creating audiences{#creating-audiences}
 
 ## Creating query audiences {#creating-query-audiences}
@@ -137,4 +140,3 @@ Your expiration date is now configured. As soon as this date is reached, your au
 Or if you need to delete an audience, you can simply select one or several audiences then click the **[!UICONTROL Delete element]** button.
 
 ![](assets/audience_delete_1.png)
-

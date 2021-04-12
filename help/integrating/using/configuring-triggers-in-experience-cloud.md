@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 ---
-
 # Configuring Triggers in Experience Cloud{#configuring-triggers-in-experience-cloud}
 
 ## Activating the functionality {#activating-the-functionality}
@@ -106,4 +109,3 @@ Here is a list of best practices and limitations for the use of the Campaign - T
 >[!CAUTION]
 >
 >Your website must be running on the same domain as the Adobe Campaign server. If not, you cannot use visitor id to reconcile and reach out to users visiting the website anonymously.
-

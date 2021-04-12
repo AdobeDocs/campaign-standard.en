@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 ---
-
 # Updating the database with external data {#update-database-file}
 
 The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. The aim of this workflow is to add or update profiles to the Adobe Campaign database with the data recovered from the file.

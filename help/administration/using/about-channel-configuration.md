@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
 ---
-
 # About channel configuration{#about-channel-configuration}
 
 All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.

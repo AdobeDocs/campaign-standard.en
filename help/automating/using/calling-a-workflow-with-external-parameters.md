@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 538056e6-b5c0-4258-a34b-524fe6e3cbbe
 ---
-
 # Overview {#calling-a-workflow-with-external-parameters}
 
 Campaign Standard lets you call a workflow with parameters (an audience name to target, a file name to import, a part of message content, etc.). This way, you can easily integrate your Campaign automations with your external system.

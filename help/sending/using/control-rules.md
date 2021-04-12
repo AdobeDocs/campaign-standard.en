@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 
+feature: Typology Rules
+role: Business Practitioner
+level: Intermediate
+exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 ---
-
 # Control rules {#control-rules}
 
 Control rules allow you to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.

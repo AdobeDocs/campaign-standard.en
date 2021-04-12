@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 ---
-
 # Use case {#use-case}
 
 The use case below shows how to call workflow with parameters within your workflows.

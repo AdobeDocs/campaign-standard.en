@@ -7,8 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 ---
-
 # Deprecated and Removed Features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.

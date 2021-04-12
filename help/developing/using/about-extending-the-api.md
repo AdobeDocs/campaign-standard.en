@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
 ---
-
 # About extending the API{#about-extending-the-api}
 
 This use case details the exposition of extended fields for the custom resource Profiles in the public Profiles API. For example, to instantly update a customer's profile with a promo code generated from a billing system.

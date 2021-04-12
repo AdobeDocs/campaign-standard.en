@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 ---
-
 # Creating deliveries with a complement {#deliveries-with-complement}
 
 You can send an email to customers: one for clients created less than a year ago, one for clients created more than a year ago.

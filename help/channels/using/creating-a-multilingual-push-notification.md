@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 
+feature: Push
+role: Business Practitioner
+level: Intermediate
+exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 ---
-
 # Creating a multilingual push notification{#creating-a-multilingual-push-notification}
 
 ## About multilingual push notification {#about-multilingual-push-notification}

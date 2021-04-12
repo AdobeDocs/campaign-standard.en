@@ -2,13 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: "Step 2: Publish the extension"
-description: 
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
 ---
-
 # Step 2: Publish the extension{#step-publish-the-extension}
 
 1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Publication]**.
@@ -30,4 +32,3 @@ topic-tags: use-case--extending-the-api
    ![](assets/extendpandsapi_diff.png)
 
 1. Click the **[!UICONTROL Publish]** button.
-

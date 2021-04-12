@@ -7,8 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 ---
-
 # Release Notes 2017{#release-notes}
 
 Looking for a specific 2017 release of Adobe Campaign Standard?
@@ -35,7 +38,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Content creation: Import from a URL<br /> </td> 
-   <td> Import from a URL enables you to quickly retrieve your creative content from a website to build emails for any delivery. Additionally, you can streamline your creative process by enabling third parties to share content directly through a URL. Imported content can be flexibly used as part of a single delivery or at the template level ensuring brand consistency for all related campaigns whether they be workflow-based or transactional messages, and include A/B or multivariate testing. Import from a URL automatically converts and tracks all links to monitor email performance through Dynamic Reporting.<br /> For more information, refer to the <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">detailed documentation</a>.<br /> </td> 
+   <td> Import from a URL enables you to quickly retrieve your creative content from a website to build emails for any delivery. Additionally, you can streamline your creative process by enabling third parties to share content directly through a URL. Imported content can be flexibly used as part of a single delivery or at the template level ensuring brand consistency for all related campaigns whether they be workflow-based or transactional messages, and include A/B or multivariate testing. Import from a URL automatically converts and tracks all links to monitor email performance through Dynamic Reporting.<br /> For more information, refer to the <a href="../../designing/using/using-existing-content.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -534,4 +537,3 @@ _Integrations_
 * Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the "Likelihood to Return in 30 Days" metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.
 * Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
 * Fixed an issue that may have caused the **[!UICONTROL Save audience]** activity of a workflow to fail when the option **[!UICONTROL Share in Adobe Marketing Cloud]** was checked.
-

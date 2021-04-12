@@ -5,8 +5,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
+exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 ---
-
 # Access the Adobe Campaign Standard Integration with Microsoft Dynamics 365 Self-Service App
 
 This configuration will require you to work with an Experience Cloud (EC) Administrator for you organization. These are the initial steps required to give you access to the self-service integration application interface. Once you have access to the tool, you will set up connections to your data and configure the flow of data between Adobe Campaign and Microsoft Dynamics 365.

@@ -6,8 +6,12 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: "Once your message is ready, learn how to perform all checks before sending"
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 ---
-
 # Perform all checks before sending {#perform-all-checks}
 
 Once your message is ready, make sure its content is displayed correctly, on all devices, and does not contain any errors such as wrong personalization or broken links.
@@ -53,4 +57,3 @@ If you have several contents for an email delivery, you can use A/B testing to f
 * Select the one with the highest success rate and send it to the rest of your target
 
 Learn more [in this section](../../channels/using/designing-an-a-b-test-email.md).
-

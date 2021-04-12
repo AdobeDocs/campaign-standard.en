@@ -7,6 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Beginner
+exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 ---
 # Get started with the Email Designer {#quick-start}
 

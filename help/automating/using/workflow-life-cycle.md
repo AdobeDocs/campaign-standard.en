@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Workflows
+role: Data Architect
+level: Beginner
+exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
 ---
-
 # Workflow life cycle {#life-cycle}
 
 A workflow's life cycle includes three main steps and each step is linked to a status and a color:

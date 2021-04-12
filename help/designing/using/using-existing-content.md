@@ -7,6 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 ---
 # Designing using existing content {#designing-using-existing-content}
 

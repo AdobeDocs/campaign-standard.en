@@ -7,8 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 ---
-
 # landingPage (nms:landingPage)
 
 ## Object description 

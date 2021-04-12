@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 ---
-
 # Adding images and videos iOS {#image-push}
 
 >[!NOTE]
@@ -150,4 +153,3 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 You can now test building your application and the delivery you created in step 2 above. For more information on preparing and sending your push notification, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)
-

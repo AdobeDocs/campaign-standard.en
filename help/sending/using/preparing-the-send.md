@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
+exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
 ---
-
 # Preparing the send{#preparing-the-send}
 
 Preparation corresponds to the step of calculating the target population and generating the message contents for each profile included in the target. Once preparation is finished, the messages are ready to be sent, either immediately or at [the scheduled date and time](../../sending/using/about-scheduling-messages.md).

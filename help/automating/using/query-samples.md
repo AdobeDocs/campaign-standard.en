@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 ---
-
 # Query samples {#query-samples}
 
 This section presents use case when using a **[!UICONTROL Query]** activity. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).

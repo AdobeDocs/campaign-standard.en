@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
+exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
 ---
-
 # Updating a Geographical unit attributes {#managing-geographical-units}
 
 1. Perform a GET request on the **geoUnitBase** resource to retrieve the Geographical unit PKey.

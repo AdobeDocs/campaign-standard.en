@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
+exl-id: e0d281f7-d522-425c-9854-894e84a0a422
 ---
-
 # About Campaign-Target integration{#about-campaign-target-integration}
 
 Integration between Adobe Campaign and Adobe Target (Classic and Standard) within Adobe Experience Cloud allows you to insert a dynamic image from Adobe Target into an Adobe Campaign email delivery.

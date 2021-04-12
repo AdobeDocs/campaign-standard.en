@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 ---
-
 # Configuring Launch rules to support Adobe Campaign Standard use cases {#configuring-rules-launch}
 
 In [!DNL Adobe Experience Platform Launch], you need to create data elements and rules to send PII and other data from mobile applications to [!DNL Adobe Campaign Standard].

@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
+feature: Email
+role: Business Practitioner
+level: Beginner
+exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
 ---
-
 # About emails{#about-emails}
 
 The email channel is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.

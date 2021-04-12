@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
+exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
 ---
-
 # Defining the direct mail content{#defining-the-direct-mail-content}
 
 You can either define the content in the last screen of the creation wizard or by clicking on the **Content** section of the delivery dashboard.

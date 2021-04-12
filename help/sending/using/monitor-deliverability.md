@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 ---
-
 # Monitoring deliverability{#monitor-deliverability}
 
 Below you will find details on the **[!UICONTROL Delivery throughput]** report as well as the different monitoring tools offered by Adobe Campaign. Here are some additional guidelines on deliverability monitoring:
@@ -16,7 +19,6 @@ Below you will find details on the **[!UICONTROL Delivery throughput]** report a
 * Check that retries are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the bounce mailbox is accessible and that the account is not about to expire.
 * Check each delivery throughput to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
-* When using waves, verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new quarantines are consistent with other deliveries.
 * Carefully consult the delivery logs in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc…).
 
@@ -46,7 +48,9 @@ The **[!UICONTROL Delivery alerting]** feature is an alert management system tha
 
 For more on this, see [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md).
 
-## Signal Spam {#signal-spam}
+<!--## External tools (#external-tools)
+
+### Signal Spam {#signal-spam}
 
 Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
@@ -54,8 +58,8 @@ This service allows you to follow the reputation of the French ISPs and track cu
 
 Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-## 250ok {#solution-250ok}
+### 250ok {#solution-250ok}
 
 250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
-The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->

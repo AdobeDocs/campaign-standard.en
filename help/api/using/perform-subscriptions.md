@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
+exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
 ---
-
 # Performing subscriptions {#performing-subscriptions}
 
 ## Method 1: Subscribing a profile to a service

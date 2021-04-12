@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
+exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 ---
-
 # Mapping definition {#mapping-definition}
 
 >[!IMPORTANT]

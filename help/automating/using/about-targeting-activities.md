@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 ---
-
 # About targeting activities{#about-targeting-activities}
 
 From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Targeting]** section.

@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 ---
-
 # Reconciliation{#reconciliation}
 
 ## Description {#description}

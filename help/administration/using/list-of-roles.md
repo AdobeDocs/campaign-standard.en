@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
+feature: Access Management
+role: Administrator
+level: Experienced
+exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 ---
-
 # List of roles{#list-of-roles}
 
 By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups.

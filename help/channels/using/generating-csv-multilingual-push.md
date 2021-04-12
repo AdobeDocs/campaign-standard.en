@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 
+feature: Push
+role: Business Practitioner
+level: Intermediate
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 ---
-
 # Generating a CSV file for Multilingual Push Notification{#generating-csv-multilingual-push}
 
 Uploading a CSV file to generate content for delivery is a feature used to support multilingual Push notifications. The format of the CSV file needs to adhere to certain guidelines for the file upload to be successful and consequently to be able to create a delivery. The following sections describe the file format and the considerations thereof.

@@ -7,8 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 ---
-
 # Personalizing email content {#personalization}
 
 The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
@@ -23,9 +26,9 @@ The content and display of messages delivered by Adobe Campaign can be personali
 
 To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon). For more on this, see [Defining the sender of an email](../../designing/using/subject-line.md#email-sender).
 
-  You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
+You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
 
-  This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
+This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
 
 >[!NOTE]
 >
@@ -421,4 +424,3 @@ The image has changed thanks to the dynamic content, and the slogan that appears
 
 * [Creating audiences](../../audiences/using/creating-audiences.md)
 * [Preparing the send](../../sending/using/preparing-the-send.md)
-

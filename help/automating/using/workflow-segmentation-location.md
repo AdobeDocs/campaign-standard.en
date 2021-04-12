@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 ---
-
 # Segmentation on location {#segmentation-on-location}
 
 You can send a targeting email to customers with offers on their local shops.
@@ -56,4 +59,3 @@ Note: To reach all the people that entered boston, unregarding of the case unche
 1. Click **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
-

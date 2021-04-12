@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 7290ebc5-8a58-4b7f-99bf-d942e37c944e
 ---
-
 # Resource statuses{#resource-statuses}
 
 Depending on to their publication or activation status, resources can have different statuses.

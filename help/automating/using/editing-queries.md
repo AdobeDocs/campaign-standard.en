@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Workflows
+role: Data Architect
+level: Experienced
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 ---
-
 # Editing queries{#editing-queries}
 
 ## About query editor {#about-query-editor}

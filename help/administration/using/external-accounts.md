@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 ---
-
 # External accounts{#external-accounts}
 
 An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign.
@@ -81,9 +84,7 @@ SFTP servers can be managed from the Control Panel. For more information, refer 
 
 >[!NOTE]
 >
->Control Panel is available only to Admin users of customers hosted on AWS.
->
->Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 
 ## OAuth 2.0 account {#oauth-account}
 

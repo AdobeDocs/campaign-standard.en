@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 9c47ef72-59af-4b55-8e65-d8f687fb5fbe
 ---
-
 # Managing activities' properties {#activity-properties}
 
 ## Global properties of an activity {#global-properties-of-an-activity}

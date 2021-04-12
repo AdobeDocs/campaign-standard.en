@@ -5,8 +5,11 @@ title: DataModel
 description: Learn about the datamodel
 audience: developing
 content-type: reference
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 ---
-
 # Audience (nms:audience)
 
 ## Object description

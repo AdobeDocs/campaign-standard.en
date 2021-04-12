@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: a6bf2393-ebb8-49c8-bdc9-d243c227bee9
 ---
-
 # Adding visualizations{#adding-visualizations}
 
 The **Visualizations** tab lets you drag and drop visualization items, such as area, donut and graph. Visualizations give you graphical representations of your data.

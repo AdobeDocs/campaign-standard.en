@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
+exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
 ---
-
 # Configure Campaign-Analytics integration{#configure-campaign-analytics-integration}
 
 This integration allows you to share your Key Performance Indicator data directly from Adobe Campaign to Adobe Analytics Standard or Premium.
@@ -46,4 +49,3 @@ Your data are now available in Adobe Analytics.
 * [External accounts](../../administration/using/external-accounts.md)
 * [Technical workflows](../../administration/using/technical-workflows.md)
 * [Share KPIs for integrated Campaign reporting](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
-

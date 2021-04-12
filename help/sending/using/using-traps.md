@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
+exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
 ---
-
 # Using traps {#using-traps}
 
 When using traps, the message is sent to the [test profile](../../audiences/using/managing-test-profiles.md) just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.

@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
+feature: Overview
+role: Business Practitioner
+level: Intermediate
+exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
 ---
-
 # Accessing messages{#accessing-messages}
 
 You can access a set of advanced functionalities, from targeting, creating and personalizing messages, executing communications, to associated operational reports.

@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
 ---
-
 # Updating multiple subscription statuses from a file {#updating-multiple-subscription-statuses-from-a-file}
 
 This example illustrates how to import a file containing profiles and update their subscription to several services specified in the file. After importing the file, a reconciliation needs to be carried out so that the data imported can be identified as being profiles with a link to services. To ensure that the file does not contain any duplicates, a deduplication activity will be executed on the data.

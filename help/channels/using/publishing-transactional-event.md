@@ -8,8 +8,11 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
 
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
+exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
 ---
-
 # Publishing a transactional event {#publishing-transactional-event}
 
 Once [configuration](../../channels/using/configuring-transactional-event.md) is done, the event is ready to be published. The steps to preview, publish, unpublish and delete an event are described below.

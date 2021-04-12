@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Experienced
+exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 ---
-
 # Managing encrypted data {#managing-encrypted-data}
 
 ## About pre-processing stages {#about-preprocessing-stages}

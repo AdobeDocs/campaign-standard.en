@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
+feature: Workflows
+role: Data Architect
+level: Beginner
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 ---
-
 # Workflow interface{#workflow-interface}
 
 You can create workflows to manage entire processes in your campaigns and programs.
@@ -147,4 +150,3 @@ It is also possible to copy-paste multiple activites, enabling you to duplicate 
 To do this, select the activities by drawing a zone around them. then click the **[!UICONTROL Copy selection]** button from the action bar (or press **Ctrl + C**). You can then paste them into the desired location.
 
 ![](assets/wkf_copypaste3.png)
-

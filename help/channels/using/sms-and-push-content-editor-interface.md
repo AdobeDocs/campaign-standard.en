@@ -7,8 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
+feature: SMS
+role: Business Practitioner
+level: Intermediate
+exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 ---
-
 # SMS and push content editor interface{#sms-and-push-content-editor-interface}
 
 The SMS and push content editor is organized into two different sections that allow you to view and edit the message.

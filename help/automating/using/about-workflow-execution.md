@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
 ---
-
 # About workflow execution {#about-workflow-execution}
 
 A workflow is always started manually. However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.

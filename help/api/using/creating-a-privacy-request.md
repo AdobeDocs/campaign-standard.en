@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
 ---
-
 # Creating a privacy request {#creating-a-privacy-request}
 
 >[!CAUTION]

@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 ---
-
 # Get started with Campaign Standard APIs {#get-started-apis}
 
 Campaign Standard APIs are aimed at letting you **create integrations** for Adobe Campaign Standard and **build your own ecosystem** by interfacing Adobe Campaign Standard with the panel of technologies that you use.

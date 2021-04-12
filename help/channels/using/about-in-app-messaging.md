@@ -7,8 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
+feature: In App
+role: Business Practitioner
+exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 ---
-
 # About In-App messaging{#about-in-app-messaging}
 
 In-App messaging is a messaging channel that allows you to display a message when the user is active within the mobile application. This message type is complimentary to push notifications which are delivered to the notification center of users' phone. For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).

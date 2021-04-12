@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: d6ddc022-16ad-438b-8c6e-fc6abc704f09
 ---
-
 # Delivery summary{#delivery-summary}
 
 The **[!UICONTROL Delivery summary]** report details the main information relative to an email, or several emails.

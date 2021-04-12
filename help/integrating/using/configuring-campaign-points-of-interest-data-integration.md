@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 
+feature: Audiences
+role: Data Architect
+level: Intermediate
+exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 ---
-
 # Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
 
 ## Configuring Campaign-Points of Interest data integration with Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}

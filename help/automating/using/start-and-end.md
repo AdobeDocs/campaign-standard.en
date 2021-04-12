@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 ---
-
 # Start and end{#start-and-end}
 
 ## Description {#description}
@@ -42,4 +45,3 @@ Using the **[!UICONTROL External signal]** tab of an **[!UICONTROL End]** activi
 The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. The **[!UICONTROL Stop all tasks in progress]** box has been checked for the first **[!UICONTROL End]** activity. Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
 
 ![](assets/wkf_start_end_example.png)
-

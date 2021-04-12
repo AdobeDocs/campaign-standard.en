@@ -4,8 +4,11 @@ description: Learn how to use the Microsoft Dynamics 365 with Campaign Standard 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
+exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
 ---
-
 # Using the Microsoft Dynamics 365 integration
 
 There are several data flows that the Adobe Campaign Standard Integration with Microsoft Dynamics 365 performs. These flows are detailed in [this page](../../integrating/using/d365-acs-self-service-app-workflows.md). 

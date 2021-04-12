@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
 ---
-
 # Data model concepts{#data-model-concepts}
 
 Adobe Campaign comes with a pre-defined data model. This data model can be modified by [administrators](../../administration/using/users-management.md#functional-administrators) who are able to add new resources or extensions to existing resources.

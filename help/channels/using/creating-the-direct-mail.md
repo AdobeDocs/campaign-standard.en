@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
+exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 ---
-
 # Creating the direct mail{#creating-the-direct-mail}
 
 Creating a direct mail delivery is very similar to creating a regular email. The following steps describe the configuration that is specific to this channel. Refer to [Creating an email](../../channels/using/creating-an-email.md) for more information on other options.

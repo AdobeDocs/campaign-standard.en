@@ -7,8 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 
+role: Business Practitioner
+level: Intermediate
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 ---
-
 # Get started with testing and sending {#about-sending-messages-with-campaign}
 
 <table>
@@ -78,9 +80,8 @@ Read more:
 
 * [About deliverability](../../sending/using/about-deliverability.md)
 * [Monitoring deliverability](../../sending/using/monitor-deliverability.md)
-* [Improving your reputation](../../sending/using/improving-reputation.md)
-* [Technical recommendations](../../sending/using/technical-recommendations.md)
-* [Controling Delivery throughput](../../reporting/using/delivery-throughput.md)
+* [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Controlling Delivery throughput](../../reporting/using/delivery-throughput.md)
 
 ## Additional resources
 

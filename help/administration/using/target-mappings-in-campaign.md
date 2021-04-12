@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
 ---
-
 # Target mappings in Campaign{#target-mappings-in-campaign}
 
 Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries (addresses, phone numbers, opt-in indicators, additional identifiers...).

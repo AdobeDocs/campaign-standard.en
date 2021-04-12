@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 ---
-
 # Troubleshooting{#troubleshooting}
 
 You can find in this section common questions related to Dynamic reporting.
@@ -56,21 +59,27 @@ This will result in the following table:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
+   <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>Opens</strong> <br /> </th> 
    <th align="center"> <strong>Unique opens</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
+   <td align="center"> <strong> 2</strong><br /> </td>
+  </tr> 
+  <tr>
+  <tr> 
    <td align="center"> Day 1<br /> </td> 
-   <td align="center"> 6<br /> </td> 
+   <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
    <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
   </tr> 
  </tbody> 
 </table>

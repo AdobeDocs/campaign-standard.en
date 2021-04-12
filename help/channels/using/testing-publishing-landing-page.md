@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 
+feature: Landing Pages
+role: Business Practitioner
+level: Intermediate
+exl-id: af849377-686f-45b3-bf6e-5069a8966987
 ---
-
 # Testing and publishing a landing page{#testing-publishing--landing-page}
 
 ## About landing page publication {#about-landing-page-publication}

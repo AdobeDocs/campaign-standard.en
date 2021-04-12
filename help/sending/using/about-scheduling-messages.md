@@ -7,8 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Send Time Optimization
+role: Business Practitioner
+exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 ---
-
 # About scheduling messages{#about-scheduling-messages}
 
 >[!IMPORTANT]
@@ -44,4 +46,3 @@ The **[!UICONTROL Schedule]** properties let you set sending options for your em
 * [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
 * [Sending messages at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 * [Computing the sending date](../../sending/using/computing-the-sending-date.md)
-

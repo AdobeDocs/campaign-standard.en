@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
 ---
-
 # Service summary{#service-summary}
 
 The **[!UICONTROL Service summary]** details the evolution of subscriptions and unsubscriptions of your service. 

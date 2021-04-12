@@ -6,8 +6,11 @@ description: SMS troubleshooting
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 ---
-
 # SMS troubleshooting {#sms-troubleshooting}
 
 ## Conflict between different external accounts {#external-account-conflict}

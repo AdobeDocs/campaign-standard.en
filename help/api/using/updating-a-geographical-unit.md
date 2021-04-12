@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 
+feature: API
+role: Data Engineer
+level: Experienced
+exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
 ---
-
 # Updating a profile's Geographical unit {#updating-a-geographical-unit}
 
 1. Perform a GET request on the **geoUnitBase** resource to retrieve the Geographical unit PKey.

@@ -7,8 +7,11 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
+exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
 ---
-
 # Enriching the database{#enriching-the-database}
 
 Campaign Standard offers several tools to help you grow your marketing database. This section details the different methods that you can use to inject data into Campaign, with references to the dedicated documentations.

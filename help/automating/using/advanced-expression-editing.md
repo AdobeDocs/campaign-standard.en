@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Workflows
+role: Data Architect
+level: Experienced
+exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 ---
-
 # Advanced expression editing{#advanced-expression-editing}
 
 ## About advanced expression editing {#about-advanced-expression-editing}
@@ -204,4 +207,3 @@ Conditions must be linked to values by using one of the following operators.
   </tr> 
  </tbody> 
 </table>
-

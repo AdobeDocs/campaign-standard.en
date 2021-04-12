@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
+exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 ---
-
 # Editing a transactional message {#editing-transactional-message}
 
 Once you have created and published an event<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, the corresponding transactional message is automatically created.

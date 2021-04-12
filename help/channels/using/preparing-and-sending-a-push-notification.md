@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: Push
+role: Business Practitioner
+level: Intermediate
+exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 ---
-
 # Preparing and sending a push notification{#preparing-and-sending-a-push-notification}
 
 ## Preparing the notification {#preparing-the-notification}

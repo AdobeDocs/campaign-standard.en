@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 ---
-
 # About direct mail{#about-direct-mail}
 
 Direct mail is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.

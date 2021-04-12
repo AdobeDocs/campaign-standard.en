@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 ---
-
 # Best practices and limitations {#acs-msdyn-best-practices}
 
 ## Manage data {#acs-msdyn-manage-data}

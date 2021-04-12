@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
+feature: In App
+role: Business Practitioner
+level: Intermediate
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 ---
-
 # Customizing an In-App message{#customizing-an-in-app-message}
 
 To fine-tune your In-App message, Adobe Campaign allows you to access a set of advanced options while designing an In-App.

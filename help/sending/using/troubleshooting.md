@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
 ---
-
 # Troubleshooting{#troubleshooting}
 
 Are you experiencing a deliverability problem? You may find the solution here.
@@ -28,7 +31,7 @@ If the problem persists, contact the commercial or deliverability services, or A
 
 * **What is the difference between an email address on denylist and a quarantined email address?**
 
-    * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL On denylist]** is a result of a [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (when a person reports a message as spam).
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     

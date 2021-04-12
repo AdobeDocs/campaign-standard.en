@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities 
 context-tags: workflow,use-case,query,delivery,scheduler
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 ---
-
 # Creating an email delivery every Tuesday{#creating-email-every-tuesday}
 
 You can send an email every Tuesday to all the customers for Special Offers.

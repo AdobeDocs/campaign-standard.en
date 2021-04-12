@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 
+feature: Workflows
+role: Data Architect
+level: Experienced
+exl-id: 5974a52c-8721-4575-b452-2982d6497235
 ---
-
 # Creating workflow templates to import data {#import-workflow-template}
 
 Using an import template is a best practice if you need to regularly import files with the same structure.

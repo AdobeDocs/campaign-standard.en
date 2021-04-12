@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 
+feature: Data Model
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 ---
-
 # Get started with Campaign Standard data model {#get-started-data-model}
 
 <table>
@@ -57,5 +60,5 @@ With Campaign Standard APIs, create integrations for Adobe Campaign Standard and
 
 ## Additional resources
 
-* [About Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
+* [About Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [Exporting / importing custom resources](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)

@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Workflows
+role: Data Architect
+level: Beginner
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 ---
-
 # Workflow best practices{#workflow-best-practices}
 
 With Adobe Campaign, you can set up all types of workflow to perform a large scope of tasks. However, when designing and executing your workflows, you need to be very cautious as a bad implementation can lead to bad performances, errors,and platform issues. You can find below a list of best practices and troubleshooting tips.
@@ -40,7 +43,7 @@ You can duplicate workflows. In the **[!UICONTROL Marketing Activities]**, hover
 
 ### Number of workflows
 
-By default, we recommend not to run more than 20 active workflows executions simultaneously. After hitting that limit, workflows will be queued in order not to affect performances. Similarly, Adobe recommends you to spread out your workflow exection over time.
+By default, we recommend not to run more than 20 active workflows executions simultaneously. After hitting that limit, workflows will be queued in order not to affect performances. Similarly, Adobe recommends you to spread out your workflow execution over time.
 In specific contexts, you may need to run more than 20 workflows. It does not apply to workflows waiting for a scheduled execution.  If so, you need to check the use cases with a Campaign expert and contact Adobe Customer Care to increase the limit.
 
 >[!NOTE]

@@ -7,8 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
+feature: Instance Settings
+role: Administrator
+level: Experienced
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 ---
-
 # Configuring email channel{#configuring-email-channel}
 
 As a Campaign [administrator](../../administration/using/users-management.md#functional-administrators), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, you will learn how to edit the default values for the general email and sending parameters.
@@ -301,7 +304,7 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
 
 ## Legacy settings {#legacy-settings}
 
-If you are **not** running the latest version of Campaign, the parameters and UI sections described below still apply to you.
+If you are **NOT** running the latest version of Campaign, the parameters and UI sections described below still apply to you.
 
 ### Retries {#legacy-retries}
 
@@ -330,6 +333,10 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
+
+>[!NOTE]
+>
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 

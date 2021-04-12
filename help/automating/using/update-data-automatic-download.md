@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 ---
-
 # Updating data based on an automatic file download {#updating-data-automatic-file-download}
 
 The load file activity mainly structures the data from a transfer file activity in order to integrate it into the existing data.

@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
+feature: Reporting
+role: Leader
+level: Intermediate
+exl-id: 02c24d66-f379-476d-9536-e652dc74bcf8
 ---
-
 # Unsubscriptions{#unsubscriptions}
 
 The **[!UICONTROL Unsubscriptions]** report identifies the deliveries with the most unsubscriptions.

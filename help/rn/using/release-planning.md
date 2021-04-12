@@ -7,8 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 ---
-
 # Release Planning {#release-planning}
 
 Adobe continuously improves its solutions by adding new capabilities, enhancements and fixes.
@@ -19,9 +22,7 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: we recommend you visit this page on a regular basis to check for updates.
 
-**NEW!** Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
-
-## Release 21.1 - February Release {#release-21-1-release}
+## Release 21.2 - May Release {#release-21-2-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
@@ -37,16 +38,18 @@ Detailed information about this release are available in the [Release Notes](../
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Feb 1 - 22, 2021<br /> </td>
+   <td>April 19 - 20, 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>Feb 8 - Mar 1, 2021<br /> </td>
+   <td>April 26 - May 3, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
 
 If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+
+Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
 
 ## Questions & Answers {#questions-and-answers}
 

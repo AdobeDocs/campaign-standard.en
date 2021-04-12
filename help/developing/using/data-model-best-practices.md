@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 ---
-
 # Data model best practices{#data-model-best-practices}
 
 This document outlines key recommendations while designing your Adobe Campaign data model.

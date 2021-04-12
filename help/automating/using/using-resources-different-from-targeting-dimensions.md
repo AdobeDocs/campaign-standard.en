@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
 ---
-
 # Using resources different from targeting dimensions {#using-resources-different-from-targeting-dimensions}
 
 This use cases presents how to use a resource that is different from the targeting dimension, for example, to look up for a specific record in a distant table.

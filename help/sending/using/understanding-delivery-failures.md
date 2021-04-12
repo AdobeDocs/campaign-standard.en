@@ -7,8 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 ---
-
 # Understanding delivery failures{#understanding-delivery-failures}
 
 ## About delivery failures {#about-delivery-failures}
@@ -29,6 +32,7 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
 * [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identifying delivery failures for a message {#identifying-delivery-failures-for-a-message}
 
@@ -66,6 +70,11 @@ Error label | Error type | Description
  **[!UICONTROL Text too long]** | Ignored | The number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
  **[!UICONTROL Character not supported by encoding]** | Ignored | The SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
+
+**Related topics:**
+* [Hard bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Soft bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
 If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
@@ -82,13 +91,12 @@ To modify the duration of a delivery, go to the advanced parameters of the deliv
 
 For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the messages in the retry queue will be removed after one day.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated<!--from **[!UICONTROL Sent]**--> to **[!UICONTROL Failed]** in the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
@@ -105,9 +113,13 @@ For synchronous delivery failure error messages, the Adobe Campaign Enhanced MTA
 >
 >The bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, see [this section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-<!--Bounces can have the following qualification statuses:
+For more on bounces and the different kinds of bounces, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
@@ -123,4 +135,4 @@ Double opt-in mechanism is a best practice when sending emails. It protects the 
 
 The principle is to send an email to confirm the visitor's agreement before storing them as ‘profiles' into your Campaign database: the visitor fills out an online landing page, then receives an email and has to click in the confirmation link to finalize its subscription.
 
-For more on this, refer to [this section](../../channels/using/setting-up-a-double-opt-in-process.md).
+For more on this, see [this section](../../channels/using/setting-up-a-double-opt-in-process.md).

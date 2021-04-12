@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 ---
-
 # Extending the profile resource with a new field{#extending-the-profile-resource-with-a-new-field}
 
 ## About extending profiles {#about-extending-profiles}

@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: andjoin,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 ---
-
 # AND-join{#and-join}
 
 ## Description {#description}
@@ -35,4 +38,3 @@ The **[!UICONTROL AND-join]** activity only triggers its outbound transition onc
 The following example shows two workflow branches before they are joined with the **[!UICONTROL AND-join]** activity. File extraction can only take place when the three inbound transitions of the **[!UICONTROL AND-join]** activity are enabled.
 
 ![](assets/wkf_and-join_example.png)
-

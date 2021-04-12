@@ -7,8 +7,11 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 
+feature: Reporting
+role: Leader
+level: Beginner
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 ---
-
 # List of components {#list-of-components}
 
 To learn more on compatibility between dimensions and metrics, refer to this [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
@@ -459,4 +462,3 @@ The table below gives you the list of segments used in reports and their definit
   </tr> 
  </tbody> 
 </table>
-

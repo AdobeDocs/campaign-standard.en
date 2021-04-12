@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
+exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 ---
-
 # Adding Target dynamic content{#adding-target-dynamic-content}
 
 With Adobe Target integration, dynamic images can be added into a delivery to personalize your content depending of experiences.
@@ -48,4 +51,3 @@ Your delivery containing the dynamic image can now be sent. Its results can be f
 * [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [About email content design](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalize Email Images in Real-Time](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
-

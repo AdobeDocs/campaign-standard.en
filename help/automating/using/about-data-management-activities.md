@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: b780704c-210b-4cab-9016-91726a86de6d
 ---
-
 # About data management activities{#about-data-management-activities}
 
 From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Data management (ETL)]** section.

@@ -7,8 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 
+feature: Data Model
+role: Developer
+level: Experienced
+exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
 ---
-
 # Step 3: Verify the extension{#step-verify-the-extension}
 
 1. Make a GET operation on the metadata of the Profiles & Services Extension API to check if the field added in the Profiles custom resource is now available.
@@ -22,4 +25,3 @@ topic-tags: use-case--extending-the-api
    ![](assets/extendpandsapiview.png)
 
    The field is now available for further developments and integrations.
-

@@ -7,8 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: 
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
+exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 ---
-
 # Using product listings in a transactional message {#using-product-listings}
 
 >[!IMPORTANT]

@@ -5,8 +5,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
+exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 ---
-
 # Get started with the self-service integration app {#gs-self-service-app}
 
 The Adobe Campaign Standard integration with Microsoft Dynamics 365 self-service integration application gives you the ability to configure data flows, control whether or not they are running, and in which environment. You must, however, complete some prerequisites before you begin using the self-service integration application.
@@ -45,9 +48,9 @@ You can then start with the integration tool. Follow the steps blow:
 
 Open a browser and browse to the connector associated with your region:
 
-* [Asia Pacific](http://d365-acs-ap.ea.adobe.com/)
-* [Europe, Middle East, or Africa (EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [Americas](http://d365-acs-na.ea.adobe.com/)
+* [Asia Pacific](https://d365-acs-ap.ea.adobe.com/)
+* [Europe, Middle East, or Africa (EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [Americas](https://d365-acs-am.ea.adobe.com/)
 
 ## Privacy request acknowledgement {#self-service-app-acknowledgement}
 

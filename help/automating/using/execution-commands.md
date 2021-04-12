@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Workflows
+role: Data Architect
+level: Beginner
+exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 ---
-
 # Execution commands {#execution-commands}
 
 The icons in the action bar allow you to start, track, and modify a workflow's execution. See [Action bar](../../automating/using/workflow-interface.md#action-bar).

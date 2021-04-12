@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 
+feature: People Core Service Integration
+role: Data Architect
+level: Intermediate
+exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 ---
-
 # Working with Campaign and Assets core service{#working-with-campaign-and-assets-core-service}
 
 Integrating Assets core service or Assets on Demand (depending on the configuration of your Adobe Experience Cloud environment) with Adobe Campaign allows you to use any assets that are shared within Adobe Experience Cloud in your Adobe Campaign emails and landing pages.
@@ -29,4 +32,3 @@ The image is then inserted. The delivery can now be personalized as needed and s
 
 * [Assets and Sharing](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html) 
 * [Content editor](../../designing/using/personalization.md#example-email-personalization)
-

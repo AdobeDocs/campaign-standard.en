@@ -7,8 +7,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 
+feature: Triggers
+role: Data Architect
+level: Intermediate
+exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
 ---
-
 # About Campaign-Experience Manager integration{#integrating-with-experience-manager}
 
 This integration between Adobe Campaign Standard and Adobe Experience Manager allows you to use content created in Adobe Experience Manager in your Adobe Campaign emails.

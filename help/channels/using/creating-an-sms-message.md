@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
+feature: SMS
+role: Business Practitioner
+level: Beginner
+exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 ---
-
 # Creating an SMS message{#creating-an-sms-message}
 
 Creating an SMS delivery is very similar to creating a regular email. The following steps describe the configuration that is specific to this channel. Refer to [Creating an email](../../channels/using/creating-an-email.md) for more information on other options.

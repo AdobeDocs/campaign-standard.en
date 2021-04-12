@@ -7,8 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 
+feature: Overview
+role: Business Practitioner
+level: Beginner
+exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 ---
-
 # Latest Release{#latest-release}
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
@@ -32,7 +35,7 @@ topic-tags: campaign-standard-releases
 <li>Calculation of the <b>Delivered</b> indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.</li>
 <li>EFS solves the problem of delays with synchronous soft bounces reporting.</li>
 </ul>
-<p>For more information refer to the <a href="../../sending/using/confirming-the-send.md#message-indicators">detailed documentation</a>.
+<p>For more information refer to the <a href="../../sending/using/confirming-the-send.md">detailed documentation</a>.
 </p>
 </td> 
 </tr> 

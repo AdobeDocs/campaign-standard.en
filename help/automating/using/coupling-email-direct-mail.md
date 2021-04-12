@@ -7,8 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
 ---
-
 # Coupling email and direct mail deliveries {#coupling-email-direct-mail}
 
 As a marketer, you may want to send out catalogs via direct mail. In the paper catalog, certain pages offer a 10% discount using a promotion code and link to buy the product on the website.

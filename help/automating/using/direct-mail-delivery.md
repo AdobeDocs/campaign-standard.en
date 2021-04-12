@@ -7,8 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
+feature: Workflows
+role: Data Architect
+level: Intermediate
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 ---
-
 # Direct mail delivery{#direct-mail-delivery}
 
 ## Description {#description}
