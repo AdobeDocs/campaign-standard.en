@@ -19,12 +19,13 @@ The /customResources endpoint has exactly the same behavior as /profileAndServic
 
 The custom resources that are exposed within this API are:
 
-* all the entities linked to the profile entity
-* all the entities linked to the profile entity's children
+* all the entites that are not exposed under /profileAndServicesExt 
 * all the entities that are not linked to profile and, for these entities, their children and grandchildren.
+* by default, all entities that are not linked to anything, and their children and grandchildren.
 
 >[!NOTE]
 >The custom resources that are available under /profileAndServicesExt are not exposed in the /customResources API.
+
 
 Here is an example to retrieve the metadata from a custom resource:
 
