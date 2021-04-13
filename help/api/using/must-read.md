@@ -20,6 +20,12 @@ exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 * Please always check with your Adobe technical contact if the use case you want to implement is aligned with the scale allowed by Adobe Campaign APIs.
 * Setting up an AdobeIO access requires specific permissions, contact the Adobe Support for any trouble.
 
+## Rights and access
+
+* By default, Adobe Campaign APIs use the administrator context and thus the organisation units and roles do not apply.
+* The Adobe Campaign APIs are excluded from the role context.
+* If you want to configure the APIs with an organisation unit or roles, please check with your to Adobe technical contact first.
+
 ## Resources representation
 
 All API resources are available in **JSON** with an URL extension or inside an HTTP Accept Header:
