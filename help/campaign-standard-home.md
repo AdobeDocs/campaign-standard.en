@@ -15,7 +15,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 ## What's New
 
-* **[Campaign 21.1 February Release is live!](rn/using/release-notes.md)**<br/> Discover new features, latest updates and fixes
+* **[Campaign - RTCDP integration](integrating/using/get-started-sources-destinations.md)**<br/> Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP)
 
 * **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
 
