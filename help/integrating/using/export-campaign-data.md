@@ -27,7 +27,7 @@ To export data from Campaign Standard to your S3 or Azure Blob storage location,
 
 To do this, add and configure:
 
-* An **[!UICONTROL Extract file]** activity to extract the targeted data into a CSV file. For more on how to configure this activity, refer to [this section](../../automating/using/extract-file.md).
+* A **[!UICONTROL Extract file]** activity to extract the targeted data into a CSV file. For more on how to configure this activity, refer to [this section](../../automating/using/extract-file.md).
 
    ![](assets/rtcdp-extract-file.png)
 
