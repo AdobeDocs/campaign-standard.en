@@ -8,8 +8,8 @@ content-type: reference
 feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
+exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
 ---
-
 # Get started with Sources and Destinations {#rtcdp}
 
 ## About Sources and Destinations

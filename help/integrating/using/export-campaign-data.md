@@ -8,8 +8,8 @@ content-type: reference
 feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 ---
-
 # Export data from Campaign to Adobe Experience Platform {#sources}
 
 To export Campaign Standard data to Adobe Real-time Customer Data Platform (RTCDP), you first need to build a workflow in Campaign Standard to export to your S3 or Azure blob storage location the data that you want to share.

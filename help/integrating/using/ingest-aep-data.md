@@ -8,8 +8,8 @@ content-type: reference
 feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
+exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 ---
-
 # Ingest Adobe Experience Platform audiences into Campaign {#destinations}
 
 To ingest Adobe Experience Platform audiences into Campaign and use them in your workflows, you first need to connect Adobe Campaign as an Adobe Experience Platform **Destination** and configure it with the segment to export.
