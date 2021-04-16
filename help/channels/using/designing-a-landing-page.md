@@ -20,19 +20,19 @@ Landing pages are created as any [marketing activity](../../start/using/marketin
 
 When designing a landing page, you need to define the content of the page itself, the confirmation page, and the error page. Use the switcher under the action bar to display and configure each of these pages.
 
-The content of landing pages is designed through Campaign content editor.
+The content of landing pages is designed through the Campaign content editor.
 
 >[!NOTE]
 >
->If your instance was installed before the Adobe Campaign Standard 19.0 release, you still have access to the legacy email content editor. The interface, principles of use and configuration are mostly the same as described below for landing pages. However, all features may not be available or maintained in the legacy email content editor, which is deprecated starting 19.0 release. To quickly edit your email content through a drag and drop interface with extended functionalities, use the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+>For email designing, if your instance was installed before the Adobe Campaign Standard 19.0 release, you still have access to the legacy email content editor. The interface, principles of use and configuration are mostly the same as described below for landing pages. However, all features may not be available or maintained in the legacy email content editor, which is deprecated starting 19.0 release. To quickly edit your email content through a drag and drop interface with extended functionalities, use the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 This page describes the specificities of the landing page content editor. For more on the actions that are common to one or more marketing activities, refer to these sections form the **Designing email content** guide:
 
 * [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
-* [Inserting a link](../../designing/using/links.md#inserting-a-link).
-* [Inserting images](../../designing/using/images.md).
-* [General best practices for content design](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Inserting a link](../../designing/using/links.md#inserting-a-link)
+* [Inserting images](../../designing/using/images.md)
+* [General best practices for content design](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >If you have a landing page that is already predefined in HTML format, you can import it directly using the **[!UICONTROL Change content]** button.
