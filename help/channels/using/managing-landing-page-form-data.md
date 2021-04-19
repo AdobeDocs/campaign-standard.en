@@ -59,7 +59,7 @@ To do this:
 
 ## Agreement checkbox {#agreement-checkbox}
 
-It is now possible to add a mandatory checkbox that the profile needs to check before submitting the landing page.
+It is now possible to add a checkbox that the profile is required to check before submitting the landing page.
 
 This is particularly useful in the following case:
 
