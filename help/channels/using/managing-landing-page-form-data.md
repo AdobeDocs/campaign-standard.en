@@ -59,33 +59,32 @@ To do this:
 
 ## Agreement checkbox {#agreement-checkbox}
 
-It is now possible to add a checkbox that the profile is required to check before submitting the landing page.
+You can add a checkbox that the profile is required to check before submitting the landing page.
 
-This is particularly useful in the following case:
+This allows you to request users' consent for privacy policy, or to make them accept your terms and conditions, before they submit the form.
+
+<!--This is particularly useful in the following case:
 
 When a profile opens the landing page from an Outlook.com mailbox, Outlook checks whether the links on the landing page are suspicious. However, this Outlook security feature (called safelinks) has an unwanted effect: it automatically activates the buttons included on the landing page. Consequently, profiles are automatically subscribed or unsubscribed without confirmation when the landing page is displayed after clicking the email link, even if they do not submit the form.
 
 ![](assets/lp_submit_button.png)
 
-To avoid this, Adobe recommends you always add to your landing page a checkbox which enables the profile to agree before proceeding with subscription or unsubscription.
+To avoid this, Adobe recommends you always add to your landing page a checkbox which enables the profile to agree before proceeding with subscription or unsubscription.-->
 
 >[!NOTE]
 >
->Selecting this checkbox is mandatory for the user. If not selected, the profile will not be able to submit the form.
+>Selecting this checkbox is mandatory for the user. If not selected, the profile will not be able to submit the landing page.
 
-To do this:
+To insert and configure this checkbox, do the following:
 
-1. When designing the landing page, click **[!UICONTROL Show source]**.
+1. When designing the landing page, manually insert a checkbox by clicking **[!UICONTROL Show source]**, such as in the example below:
 
-   ![](assets/lp_show_source.png)
-
-1. Copy-paste the following code at the desired position in your content:
-
+   <!--![](assets/lp_show_source.png)-->
    ![](assets/lp_checkbox_code.png)
 
-   ````
+   <!--
    <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="Please tick the box to confirm" />I agree</div>
-   ```
+   -->
 
 1. Click **[!UICONTROL Hide source]**.
 
@@ -93,7 +92,7 @@ To do this:
 
    ![](assets/lp_select_checkbox.png)
 
-1. The corresponding drop-down list is displayed in the **[!UICONTROL Form data]** section of the palette. Select the default value: **[!UICONTROL Agreement]**.
+1. The corresponding drop-down list is displayed in the **[!UICONTROL Form data]** section of the palette. Select **[!UICONTROL Agreement]** from the list.
 
    ![](assets/lp_form_data_drop-down.png)
 
@@ -101,7 +100,9 @@ To do this:
    >
    >This element from the list is not mapped to a field of the Campaign database.
 
-1. Click the three dots next to **[!UICONTROL Form data]** and edit the message if needed. This text will display if the user does not select the checkbox before submitting the form.
+1. Click the three dots next to **[!UICONTROL Form data]** to access the checkbox advanced properties.
+
+1. Edit the default message if needed. This text will display as a warning if the user does not select the checkbox before submitting the form.
 
    ![](assets/lp_agreement_message.png)
 
