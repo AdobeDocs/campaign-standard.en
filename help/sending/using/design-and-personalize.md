@@ -72,20 +72,6 @@ Learn how to insert an opt-out link [in this section](../../designing/using/pers
 
 To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**.
 
-In Adobe Campaign, the default maximum size of an email is set to **100MB**. This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.
-
-This setting can be edited from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu by advanced users only. If you set this value to zero, no limit will be applied.
-
->[!NOTE]
->
->Adobe recommmends keeping the maximum message size default value.
-
-If the limit is reached, the specific email that exceeds the limit will fail and an error message will be displayed in the delivery system logs. The other messages of the same delivery will not be impacted.
-
-If such error occurs, you should try to troubleshot the dynamic part of the email template and the content fragments used by the delivery.
-
-If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.
-
 To keep your email under the limit, consider the following:
 
 * Remove redundant or unused styles
@@ -95,6 +81,16 @@ To keep your email under the limit, consider the following:
 * Minify your code
 
 Make sure to test any changes before the final sending.
+
+In Adobe Campaign, the default maximum size of an email is set to **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+If the limit is reached, the message that exceeds the limit will fail and an error message will be displayed in the delivery logs. The other messages of the same delivery will not be impacted. In that case, you must adapt the dynamic part of the email template or the content fragments used by the delivery. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Adobe recommmends keeping the maximum message size default value. However, this value can be changed in the **[!UICONTROL Maximum message size]** option, through the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu, by [functional administrators](../../administration/using/users-management.md#functional-administrators) only.
+
+>[!CAUTION]
+>
+>If you set this value to zero, no limit will be applied.
 
 ### SMS length
 
