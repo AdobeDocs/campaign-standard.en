@@ -102,7 +102,7 @@ To insert and configure this checkbox, do the following:
 
 1. Click the three dots next to **[!UICONTROL Form data]** to access the checkbox advanced properties.
 
-1. Edit the default message if needed. This text will display as a warning if the user does not select the checkbox before submitting the form.
+1. You can edit the message if needed. This text will display as a warning if the user does not select the checkbox before submitting the form.
 
    ![](assets/lp_agreement_message.png)
 
