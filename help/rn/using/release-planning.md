@@ -38,11 +38,11 @@ Detailed information about this release are available in the [Release Notes](../
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>June 7-8<br /> </td>
+   <td>June 7-8, 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>June 14-21<br /> </td>
+   <td>June 14-21, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
