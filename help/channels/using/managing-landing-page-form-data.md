@@ -61,7 +61,7 @@ To do this:
 
 You can add a checkbox that the profile is required to check before submitting the landing page.
 
-This allows you to request users' consent for privacy policy, or to make them accept your terms and conditions, before they submit the form.
+For example, this allows you to request users' consent for privacy policy, or to make them accept your terms and conditions, before they submit the form.
 
 <!--This is particularly useful in the following case:
 
@@ -71,19 +71,22 @@ When a profile opens the landing page from an Outlook.com mailbox, Outlook check
 
 To avoid this, Adobe recommends you always add to your landing page a checkbox which enables the profile to agree before proceeding with subscription or unsubscription.-->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Selecting this checkbox is mandatory for the user. If not selected, the profile will not be able to submit the landing page.
+>Selecting this checkbox is mandatory for your users. If not selected, they will not be able to submit the landing page.
 
 To insert and configure this checkbox, do the following:
 
-1. When designing the landing page, manually insert a checkbox by clicking **[!UICONTROL Show source]**, such as in the example below:
+1. When designing the landing page, click **[!UICONTROL Show source]**.
 
-   <!--![](assets/lp_show_source.png)-->
+   ![](assets/lp_show_source.png)
+
+1. Manually insert a checkbox, such as in the example below:
+
    ![](assets/lp_checkbox_code.png)
 
    <!--
-   <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="Please tick the box to confirm" />I agree</div>
+   <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
    -->
 
 1. Click **[!UICONTROL Hide source]**.
@@ -98,13 +101,15 @@ To insert and configure this checkbox, do the following:
 
    >[!NOTE]
    >
-   >This element from the list is not mapped to a field of the Campaign database.
+   >The **[!UICONTROL Agreement]** element is not mapped to a field of the Campaign database.
 
-1. Click the three dots next to **[!UICONTROL Form data]** to access the checkbox advanced properties.
+1. Click the ![](assets/lp-properties-icon.png) icon next to **[!UICONTROL Form data]** to access the checkbox advanced properties.
 
-1. You can edit the message if needed. This text will display as a warning if the user does not select the checkbox before submitting the form.
+1. You can edit the message if needed.
 
    ![](assets/lp_agreement_message.png)
+
+   This text will display as a warning if the user does not select the checkbox before submitting the form.
 
    >[!NOTE]
    >
@@ -112,4 +117,4 @@ To insert and configure this checkbox, do the following:
 
 1. Click **[!UICONTROL Confirm]**.
 
-Now, each time a landing page is displayed, the profile will have to select this checkbox before submitting the form. If not, the designed message will display and the user will not be able to submit the form until the checkbox is activated.
+Now, each time the landing page is displayed, the user will have to select this checkbox before submitting the form. If not, the warning will display and the user will not be able to submit the form until the checkbox is activated.

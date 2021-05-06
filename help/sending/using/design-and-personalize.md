@@ -88,7 +88,7 @@ If the limit is reached, the message that exceeds the limit will fail and an err
 
 Adobe recommmends keeping the maximum message size default value. However, this value can be changed in the **[!UICONTROL Maximum message size]** option, through the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu, by [functional administrators](../../administration/using/users-management.md#functional-administrators) only.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you set this value to zero, no limit will be applied.
 
