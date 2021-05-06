@@ -63,12 +63,11 @@ In the case of identified visitors, you can preload their data in the landing pa
 
    If a visitor to the page corresponds to a profile in the database, their data is displayed in the form's fields that are mapped with the database data and the landing page's personalization elements are taken into account.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-You can also:
+You can also authorize any visitor to access the landing page, using the **[!UICONTROL Authorize unidentified visitors]** option.
 
-* Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.
-* Authorize any visitor to access the landing page, using the **[!UICONTROL Authorize unidentified visitors]** option.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Landing pages can also be linked to an organizational unit. This will define the users' access to the different landing pages. To assign an organizational unit:
 
