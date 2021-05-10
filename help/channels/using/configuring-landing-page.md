@@ -103,7 +103,7 @@ Once your Google reCAPTCHA V3 external account has been set up, you can add it t
 1. Check the **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** option.
 1. Select your previously created Google reCAPTCHA external account.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Click **[!UICONTROL Confirm]**.
 
