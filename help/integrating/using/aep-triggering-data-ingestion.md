@@ -163,6 +163,7 @@ Possible responses to the GET operation are:
     ```
 
 * Ingest request in progress (when request uploaded the data in a batch or when batch is getting prepared for the request):
+
     ```
     {
     "batchId": "",
