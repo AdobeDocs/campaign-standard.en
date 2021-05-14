@@ -26,7 +26,7 @@ To access the marketing activity list, choose the **[!UICONTROL Marketing activi
 >
 >The marketing activities can also be accessed by selecting the **[!UICONTROL Marketing activities]** card from the home page.
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 The **[!UICONTROL Search]** pane allows you to filter elements according to different criteria: name (label and ID), date, status, or activity type. By default, all of the activity types are selected, except programs.
 
