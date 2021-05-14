@@ -17,7 +17,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 * **[Campaign - RTCDP integration](integrating/using/get-started-sources-destinations.md)**<br/> Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP)
 
-* **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
+* **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after an email outage
 
 * **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
 

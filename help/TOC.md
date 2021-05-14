@@ -48,7 +48,7 @@ breadcrumb-title: Help Center
        + [Creating profiles](audiences/using/creating-profiles.md)
        + [Editing profiles](audiences/using/editing-profiles.md)
        + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-       + [Metrics and active profiles](audiences/using/active-profiles.md)
+       + [Active profiles](audiences/using/active-profiles.md)
        + [Managing test profiles](audiences/using/managing-test-profiles.md)
        + [Enriching Campaign database](audiences/using/enriching-campaign-database.md)
   + Managing audiences {#managing-audiences}
