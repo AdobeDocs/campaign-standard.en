@@ -3,10 +3,6 @@ solution: Campaign Standard
 product: campaign
 title: About subscriptions
 description: Learn more about services and subscriptions in Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
@@ -14,7 +10,7 @@ exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 ---
 # About subscriptions{#about-subscriptions}
 
-Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of **services**: messages can only be sent to profiles who subscribed to the service (opt-in). These profiles are identified using a dedicated filter when creating a message.
+Use Adobe Campaign to create and manage newsletters and cross-channel communications, through a set of **services**: messages are only sent to profiles who subscribed to the service (opt-in). These profiles are identified using a dedicated filter when creating a message.
 
 Subscription mechanisms can be set up to offer your customers a chance to subscribe to these services, notably though **emails** and **landing pages**.
 

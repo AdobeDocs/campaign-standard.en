@@ -22,6 +22,7 @@ breadcrumb-title: Help Center
     + [Release Notes 2017](rn/using/release-notes-2017.md)
   + [Release Planning](rn/using/release-planning.md)
   + [Deprecated Features](rn/using/deprecated-features.md)
+  + [Tracked URLs Signature Issue](rn/using/tracked-urls.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
   + Discovering the interface {#discovering-the-interface}
