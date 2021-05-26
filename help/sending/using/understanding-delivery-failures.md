@@ -72,8 +72,8 @@ Error label | Error type | Description
 
 
 **Related topics:**
-* [Hard bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Soft bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Soft bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 

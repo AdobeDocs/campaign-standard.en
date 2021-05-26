@@ -16,9 +16,20 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## May 2021 {#doc-updates-may-2021}
+
+The **Active profiles** report section has been updated. [Read more](../../audiences/using/active-profiles.md)
+
+The **Release planning** page has been updated with new dates. [Read more](../../rn/using/release-planning.md)
+
+
+## April 2021 {#doc-updates-april-2021}
+
+A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
+
 ## March 2021 {#doc-updates-march-2021}
 
-The "Help & support options" page for Campaign Standard has been integrated into the core documentation. [Read more](../../support.md)
+New **Help & support options** page. [Read more](../../support.md)
 
 The section listing the key steps to send a message has been enhanced with additional information and references. [Read more](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -30,7 +41,7 @@ Information related to the Audience Destinations Service and Adobe Experience Pl
 
 Information has been added on how to implement local tracking for mobile application. [Read more](../../administration/using/local-tracking.md)
 
-The [Deliverability](../../sending/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+The [Deliverability](../../sending/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Release 21.1 - February 2021 {#release-21-1---february-2021}
 
