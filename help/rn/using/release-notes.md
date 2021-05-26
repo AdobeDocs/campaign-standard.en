@@ -60,32 +60,6 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 </tbody> 
 </table>
 
-<!--
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
-<ul>
-<li>Easier switching between your organizations or to a different application.</li>
-<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
-<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
-</ul>
-<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>
-<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
--->
-
 **Improvements**
 
 * **Microsoft Dynamics 365 integration** has been enhanced with a dedicated self-service integration app and an improved implementation process. [Learn more](../../integrating/using/d365-acs-get-started.md)
