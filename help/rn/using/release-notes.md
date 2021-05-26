@@ -129,3 +129,5 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 * Fixed an issue in the Email Designer where the Asset Core Service integration kept failing when trying to select an asset. (CAMP-47446)
 
 * Fixed an issue that blocked some Journey Orchestration deliveries due to Campaign not supporting timestamps with an exact value (i.e. ending with 00) sent by events from Journey Orchestration.
+
+* The updateDeliveryIndicators technical workflow has been optimized. Delivery IDs which have the same broadlog/trackinglog schema are now grouped together. This limits the number of queries thus improving performance.
