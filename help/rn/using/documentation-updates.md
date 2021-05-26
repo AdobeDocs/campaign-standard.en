@@ -16,6 +16,18 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 21.2 - May 2021 {#release-21-2---may-2021}
+
+**New capabilities included in the release**
+
+xxx
+
+**Other documentation updates coming with the release**
+
+The new ability to add a mandatory checkbox that profiles are required to select before submitting a landing page has been documented in a dedicated section. [Read more](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+
+The **Email size** section has been updated with information on the maximum size of an email, which is now set to 100 MB by default. [Read more](../../sending/using/design-and-personalize.md#email-size)
+
 ## May 2021 {#doc-updates-may-2021}
 
 The **Active profiles** report section has been updated. [Read more](../../audiences/using/active-profiles.md)
