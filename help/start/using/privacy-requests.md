@@ -150,7 +150,7 @@ Here are the different statuses for Privacy requests:
 * **[!UICONTROL Complete]**: the processing of the request has finished without an error.
 * **[!UICONTROL Error]**: the workflow has encountered an error. The reason is displayed in the list of Privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
 
-### Disabling the 2-step process {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
 The Core Privacy Service does not support the 2-step process.
 
@@ -164,7 +164,7 @@ By default, the 2-step process is activated.
 
 To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information-ccpa}
 
