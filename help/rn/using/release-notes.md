@@ -23,7 +23,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Unified shell</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
