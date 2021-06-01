@@ -99,9 +99,9 @@ Technical workflows are used to handle self-triggered background and technical p
    <td> This workflow synchronizes the Adobe Launch mobile properties imported in Adobe Campaign Standard. It is started every 15 minutes.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Update delivery execution</span> <br /> </td> 
+   <td> <span class="uicontrol">Recover Tracking Logs</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> This workflow restores lost tracking logs for Dynamic Reporting.<br /> </td> 
+   <td> This workflow restores lost tracking logs. Note that this technical workflow is for Adobe internal only. By default, it is started every 10 minutes.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update delivery indicators</span> <br /> </td> 
