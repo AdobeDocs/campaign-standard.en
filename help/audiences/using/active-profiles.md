@@ -22,7 +22,17 @@ According to your contract, each of your Campaign instances is provisioned with 
 
 ![](assets/audience_active_profiles_list.png)
 
-The profiles that were excluded during delivery preparation (by typology rules or quarantine mechanism for example) are not taken into account. A profile that has been targeted by several deliveries will only be counted once. This report is only informative, it doesn't have a direct impact on billing. 
+
+
+* The profiles that were excluded during delivery preparation (by typology rules or quarantine mechanism for example) are not taken into account. 
+
+* Transactional Messages recipients are counted towards Active Profiles.
+
+* A profile that has been targeted by several deliveries will only be counted once. 
+
+* This report is only informative, it doesn't have a direct impact on billing. 
+
+At the bottom of the page, the targeting dimensions are listed with the number of profiles for each. Recipients of Transactional messages are associated to the **Anonymous** dimension.
 
 >[!NOTE]
 >
