@@ -194,3 +194,53 @@ The corresponding user receives a transactional push notification including the 
    >[!NOTE]
    >
    >There is no registration token, application and push platform fields. In this example, the reconciliation is performed with the email field.
+
+### New target mapping for profile-based transactional push notifications {#new-target-mapping}
+
+Profile-based transactional push notifications use a specific [target mapping](../../administration/using/target-mappings-in-campaign.md) which contains the technical settings required to send this type of deliveries.
+
+Starting Adobe Campaign 21.1, a new target mapping was introduced: **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]**. This new target mapping aims at preventing some delivery preparation and profile-related issues which caused the delivery analysis to fail when sending a transactional push notification targeting profiles.
+
+<!--The delivery, exclusion and tracking logs for [transactional push notifications targeting a profile](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) are now stored in the *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp* tables.-->
+
+<!--
+IMPORTANT
+Due to this change, you need to update all existing profile-based transactional push notifications with the new target mapping **Profile - Real-time event for Push** and publish them again.
+-->
+
+Consequently, if you are using Adobe Campaign 21.1 or above:
+
+* When creating a new profile-based push transactional notification (based on a new event configuration), the target mapping is automatically updated with the new one. No action is required.
+
+* If you are using an existing profile-based push transactional notification (created before upgrading to Adobe Campaign 21.1), you need to change the target mapping to the new one. See the steps detailed below.
+
+>[!NOTE]
+>
+>Using the previous target mapping (**[!UICONTROL Profile - Real-time event (mapRtEventRcp)]**) may result in longer delivery preparation times and performance degradation.
+
+To change the target mapping in an existing profile-based push transactional notification, follow the steps below:
+
+1. From the transactional message list, select a profile-based push transactional notification that you created before upgrading to Adobe Campaign 21.1.
+
+1. In the message dashboard, click the **[!UICONTROL Edit properties]** button.
+
+   ![](assets/message-center_push_edit.png)
+
+1. Expand the **[!UICONTROL Advanced parameters]** section.
+
+1. Click **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Change the target mapping to **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]**.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Confirm your change and publish the message again. See [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!CAUTION]
+   >
+   >You must publish the message again for the change to be effective, otherwise the previous target mapping will still be used.
+
+The new mapping will now be used when sending this push transactional notification. Repeat the steps above for each profile-based push transactional notification created before upgrading to Adobe Campaign 21.1.
+

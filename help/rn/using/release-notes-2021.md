@@ -146,7 +146,12 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 
 * Fixed an issue in workflows that could occur when copy-pasting a **Deduplication** activity that had been executed once and that leveraged a temporary resource. Once duplicated, the activity's resource was automatically set to empty, leading to issues in other activities of the workflow. Once pasted, the activity's resource will now remain the same, in order for the error to be triggered as soon as possible rather than later in the workflow. (CAMP-46903)
 
-* Fixed an issue which caused delivery analysis to fail when sending a transactional push message targeting profiles, by introducing a new [target mapping](../../administration/using/target-mappings-in-campaign.md): **Profile - Real-time event for Push** (*mapRtEventAppSubRcp*). The delivery, exclusion and tracking logs for [transactional push notifications targeting a profile](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) will now be stored in the *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp* tables.
+* Fixed issues which caused the delivery analysis to fail when sending a transactional push notification targeting profiles, by introducing a new [target mapping](../../administration/using/target-mappings-in-campaign.md): **Profile - Real-time event for Push** (*mapRtEventAppSubRcp*). The delivery, exclusion and tracking logs for [profile-based transactional push notifications](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) will now be stored in the *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp* tables.
+
+   >[!IMPORTANT]
+   >
+   >Due to this change, you need to update all existing profile-based transactional push notifications with the new target mapping **Profile - Real-time event for Push** and publish them again. [Learn more](../../channels/using/transactional-push-notifications.md#new-target-mapping)
+
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
 * Fixed an issue with A/B testing which prevented content of variant B from being updated after the delivery template had been modified. (CAMP-45235)
 * Fixed an issue that caused the Transactional messaging process to get stuck, preventing messages from being sent.
