@@ -62,7 +62,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * The maximum size of an email is now set to 100 MB by default. This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash. (CAMP-47445) [Learn more](../../sending/using/design-and-personalize.md#email-size) 
 
-* The Asset Core Service integration with the Email designer can no longer be used by Standard Users.  
+* The Asset Core Service integration with the Email designer can now be used by Standard Users.  
 
 * A new message has been added to confirm a successful migration from a v4 push application to a v5 push application.
 
