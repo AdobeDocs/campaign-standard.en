@@ -52,8 +52,6 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * In multi-valiant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
 
-* Security has been optimized to protect against XSS attacks. 
-
 * The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
 
 * A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077) [Learn more](../../automating/using/list-of-functions.md#aggregates) 
