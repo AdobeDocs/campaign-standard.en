@@ -16,6 +16,16 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 21.2 - June 2021 {#release-21-2---june-2021}
+
+**New capabilities included in the release**
+
+Adobe Unified Shell - Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. [Read more](../../start/using/interface-description.md#top-bar)
+
+Landing pages validation - You can now add a mandatory agreement option to your landing pages. [Read more](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+
+The **Email size** section has been updated with information on the maximum size of an email, which is now set to 100 MB by default. [Read more](../../sending/using/design-and-personalize.md#email-size)
+
 ## May 2021 {#doc-updates-may-2021}
 
 The **Active profiles** report section has been updated. [Read more](../../audiences/using/active-profiles.md)

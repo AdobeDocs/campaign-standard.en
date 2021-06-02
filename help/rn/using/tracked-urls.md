@@ -3,6 +3,8 @@ solution: Campaign Standard
 product: campaign
 title: Tracked URLs signature issue
 description: Tracked URLs signature issue
+hidefromtoc: yes
+hide: yes
 ---
 
 # Tracked URLs signature issue {#tracked-urls}

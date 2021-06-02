@@ -14,8 +14,6 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 ---
 # Latest Release{#latest-release}
 
-[Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2021.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
-
 ## Release 21.2 - June 2021 {#release-21-2---june-2021}
 
 **What's new?**
@@ -46,17 +44,17 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * When designing a landing page, you can now add a mandatory checkbox that profiles are required to select before submitting the form. For more information refer to the [detailed documentation](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
-* The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
-
 * For the Triggers integration, the error message displayed when there is no reconciliation data coming in the trigger payload has been improved: "Alias data missing from payload".
 
-**Other changes**
-
 * Performance to pull push notifications from the queue has been improved.
+
+**Other changes**
 
 * In multi-valiant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation: "Unable to create variants. No default variant to create." (CAMP-48235)
 
 * Security has been optimized to protect against XSS attacks. 
+
+* The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
 
 * A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077) [Learn more](../../automating/using/list-of-functions.md#aggregates) 
 
@@ -72,15 +70,15 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 **Patches**
 
-* Fixed an issue which prevented the expiry option for the xtkjoblog table from being applied. This prevented the table from being correctly purged.
+* Fixed an issue which prevented the expiry option for the batch process log table (**xtkjoblog**) table from being applied. This prevented the table from being correctly purged.
 
-* Fixed an issue which prevented you from changing the order of filters in a Segmentation workflow activity. (CAMP-48357)
+* Fixed an issue which prevented you from changing the order of filters in a **Segmentation** workflow activity. (CAMP-48357)
 
 * Fixed a regression from 20.4 that could lead to deliveries failing with a null value error. (CAMP-48591)
 
 * Fixed an issue which prevented you from sending a report through the **Share** > **Send Report Now** or **Send Report on Schedule** menu. (CAMP-47798)
 
-* Fixed a regression introduced in Campaign 20.4 which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
+* Fixed a regression which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
 
 * Fixed an issue which prevented the **KPIs Reconciliation with Adobe Analytics workflow** from fetching metrics as expected. (CAMP-47671)
 
@@ -90,7 +88,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * Fixed an issue causing the APIs calls to fail when creating a new custom resource and enabling the **Do not synchronize** option. (CAMP-48014)
 
-* Fixed an issue where custom resources with the **Do not synchronize** option enabled could reference a schema that had been redrafted or deleted causing an error when publishing the custom resources.
+* Fixed an issue where custom resources with the **Do not synchronize** option enabled could reference a schema that had been redrafted or deleted. This issue was causing an error when publishing the custom resources.
 
 * Fixed an SMS opt-out issue when using multiple short codes on the same external account.
 
@@ -98,7 +96,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * Fixed an issue causing data discrepancy between reports in Adobe Campaign Standard and reports in Adobe Analytics. (CAMP-47296)
 
-* Fixed an issue where tracking logs were missing in some instances with Dynamic reporting. A new technical workflow has been added (trackingLogRecovery) to restore these lost tracking logs.
+* Fixed an issue where tracking logs were missing in some instances. A new technical workflow has been added (**trackingLogRecovery**) to restore these lost tracking logs and should be used by Adobe internal only.
 
 * Fixed an issue where no delivery data was displayed in Dynamic reports. Reports were set to 0. (CAMP-47480)
 
