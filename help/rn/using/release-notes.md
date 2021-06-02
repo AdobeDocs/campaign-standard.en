@@ -50,7 +50,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 **Other changes**
 
-* In multi-valiant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation: "Unable to create variants. No default variant to create." (CAMP-48235)
+* In multi-valiant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
 
 * Security has been optimized to protect against XSS attacks. 
 
