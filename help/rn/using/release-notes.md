@@ -40,6 +40,10 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 </tbody> 
 </table>
 
+>[!NOTE]
+>
+>This feature will be progressively deployed. There will be no downtime.
+
 **Improvements**
 
 * When designing a landing page, you can now add a mandatory checkbox that profiles are required to select before submitting the form. For more information refer to the [detailed documentation](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
@@ -50,7 +54,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 **Other changes**
 
-* In multi-valiant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
+* In multi-variant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
 
 * The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
 
@@ -120,7 +124,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * Fixed an issue which prevented every available Experience Manager template from being displayed when creating a delivery. (CAMP-48132)
 
-* Fixed an error which prevented the Campaign link in the Summary page of a sent delivery from redirecting the users to the related campaign. ()
+* Fixed an error which prevented the Campaign link in the Summary page of a sent delivery from redirecting the users to the related campaign. (CAMP-48012)
 
 * Fixed an issue in the Email Designer where the Asset Core Service integration kept failing when trying to select an asset. (CAMP-47446)
 
