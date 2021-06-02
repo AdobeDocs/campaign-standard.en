@@ -112,11 +112,9 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * Fixed an error with the Transactional Messaging API which sometimes prevented realtime messages from being sent.
 
-* Fixed an issue where reports were not received after using the **Send report on schedule** option. (CAMP-48583)
+* Fixed an issue where reports were not received after using the **Send report on schedule** option. (CAMP-48583, CAMP-47786)
 
 * Fixed an issue where reports received after using the **Send report now option** were incomplete and missing data. (CAMP-48583)
-
-* Fixed an issue with the **Send report on schedule** option in Dynamics report where the built-in **Instant Report Sharing** (reportSendingNow) workflow was failing to generate reports. (CAMP-47786)
 
 * Fixed an issue with the Email Designer where an image's dimensions were narrowed down when uploading an image. (CAMP-47017)
 
