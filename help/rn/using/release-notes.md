@@ -82,7 +82,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * Fixed a regression which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
 
-* Fixed an issue which prevented the **KPIs Reconciliation with Adobe Analytics workflow** from fetching metrics as expected. (CAMP-47671)
+* Fixed various issues causing data discrepancy between reports in Adobe Campaign Standard and reports in Adobe Analytics. (CAMP-47671, CAMP-47296)
 
 * Fixed an issue that prevented you from accessing the delivery logs after preparation had failed. (CAMP-48296)
 
@@ -95,8 +95,6 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 * Fixed an SMS opt-out issue when using multiple short codes on the same external account.
 
 * Fixed an issue which prevented you from accessing a new delivery alerting criterion ("the resource you are trying to access is unreachable") after publishing the database. (CAMP-48221)
-
-* Fixed an issue causing data discrepancy between reports in Adobe Campaign Standard and reports in Adobe Analytics. (CAMP-47296)
 
 * Fixed an issue where tracking logs were missing in some instances. A new technical workflow has been added (**trackingLogRecovery**) to restore these lost tracking logs and should be used by Adobe internal only.
 
