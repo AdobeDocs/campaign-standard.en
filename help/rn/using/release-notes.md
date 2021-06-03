@@ -16,33 +16,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 ## Release 21.2 - June 2021 {#release-21-2---june-2021}
 
-**What's new?**
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
-<ul>
-<li>Easier switching between your organizations or to a different application.</li>
-<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We’ve also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
-<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
-</ul>
-<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
->[!NOTE]
->
->This feature will be progressively deployed. There will be no downtime.
+[Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
 **Improvements**
 
@@ -50,9 +24,11 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * For the Triggers integration, the error message displayed when there is no reconciliation data coming in the trigger payload has been improved: "Alias data missing from payload".
 
-* Performance to pull push notifications from the queue has been improved.
+* Performance to retrieve push notifications from the queue has been improved.
 
 **Other changes**
+
+* The URL signature mechanism for tracking links has been disabled to prevent an issue that was causing some valid, signed tracking links to be incorrectly blocked after being modified by third-party security tools.
 
 * In multi-variant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
 
@@ -125,5 +101,3 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 * Fixed an issue in the Email Designer where the Asset Core Service integration kept failing when trying to select an asset. (CAMP-47446)
 
 * Fixed an issue that blocked some Journey Orchestration deliveries due to Campaign not supporting timestamps with an exact value (i.e. ending with 00) sent by events from Journey Orchestration.
-
-* The updateDeliveryIndicators technical workflow has been optimized. Delivery IDs which have the same broadlog/trackinglog schema are now grouped together. This limits the number of queries thus improving performance.

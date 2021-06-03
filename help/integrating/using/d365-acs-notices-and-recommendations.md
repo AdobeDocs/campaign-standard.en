@@ -164,19 +164,19 @@ The following guardrails should be taken into consideration when planning to use
 
     When estimating overall Campaign engine call volume, it is important to factor in other sources of engine calls, including landing pages, WebApps, JSSP, APIs, mobile app registrations, etc.
     
-    View Campaign package information here: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+    View Adobe Campaign Standard package information here: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+    
+* The integration supports a maximum of 15 million total records for the initial sync to resources in Campaign. Incremental sync is limited by the Adobe Campaign Standard package.
 
-* The integration supports a maximum of 30 million contacts.
-
-* The standard integration offering includes support for up to five custom entities, each with a max of 50 columns in size.
+* The standard integration offering includes support for up to twenty custom entities, each with a max of 50 columns in size.
 
 * You will need to create and publish your custom resources before implementing the integration.
 
 * The maximum table depth when linking tables is two (i.e., table1->table2->table3)
 
-* There is limited support for Microsoft Dynamic 365 data types. If your data model contains a data type other than simple data types (e.g., strings, integers, decimals, etc.), you may need to update your data model before using the integration.
+* The integration supports up to 5 linked columns per custom resource. Linking multiple columns between custom resources can have dramatic performance impacts. **0 or 1 cardinality simple link** is preferred over **1 cardinality simple link**.
 
-* If you chose to preserve existing data in Campaign custom entities, you will need to prepare the data for the integration.
+* The integration supports transformation between primitive Microsoft Dynamics 365 data types (Boolean, Integer, Decimal, Double, String, DateTime, Date) and Adobe Campaign Standard data types (integer, boolean, float, double, date, datetime, string). More advanced data types are interpreted as strings and are synced as is.
 
 * Onboarding maintenance windows may need to be established between Adobe and the customer.
 

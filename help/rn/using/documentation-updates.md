@@ -26,6 +26,10 @@ Landing pages validation - You can now add a mandatory agreement option to your 
 
 The **Email size** section has been updated with information on the maximum size of an email, which is now set to 100 MB by default. [Read more](../../sending/using/design-and-personalize.md#email-size)
 
+**Other documentation updates coming with the release**
+
+Information has been added on how to change the target mapping in a transactional push notification. [Read more](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+
 ## May 2021 {#doc-updates-may-2021}
 
 The **Active profiles** report section has been updated. [Read more](../../audiences/using/active-profiles.md)

@@ -53,6 +53,10 @@ To do so:
 
    ![](assets/sms_mo.png)
 
+1. Click **[!UICONTROL Save]**. 
+
+1. From the **[!UICONTROL Advanced parameters]** of your SMS delivery **[!UICONTROL Properties]**, you can set a specific **[!UICONTROL Short code]** to automatically exclude recipients who opted-out. For more information on this, refer to [this section](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+
 Your recipients can now be automatically unsubscribed to your messages and sent to quarantine with this automatic reply. The quarantined recipients are listed in the **[!UICONTROL Addresses]** table available through the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** menu. For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
 
 These incoming SMS can be stored if needed. For more information on this, refer to this [section](#storing-incoming-sms).

@@ -326,15 +326,11 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
 
 From the **[!UICONTROL Advanced parameters]** section:
 
-* The **[!UICONTROL From]** option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
+* The **[!UICONTROL Short code]** allows you to add a specific short-code to your delivery. Recipients who opted-out of this specific short code will be automatically excluded during the message preparation. For more information on how to configure short code, refer to [this section](../../channels/using/managing-incoming-sms.md).
 
-  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [Defining an SMS routing](#defining-an-sms-routing) section.
-
-  ![](assets/sms_smpp_2.png)
-
-  >[!IMPORTANT]
+  >[!NOTE]
   >
-  >Please check the legislation in your country regarding modifying the sender address. You should also check with your SMS service provider to see whether they offer this functionality.
+  >If the **[!UICONTROL Short code]** field is left empty, the value of the **[!UICONTROL Short code]** field set in the external account will be used.
 
 From the **[!UICONTROL Send]** section of an SMS template:
 

@@ -194,3 +194,37 @@ The corresponding user receives a transactional push notification including the 
    >[!NOTE]
    >
    >There is no registration token, application and push platform fields. In this example, the reconciliation is performed with the email field.
+
+## Changing the target mapping in a transactional push notification {#change-target-mapping}
+
+Transactional push notifications use a specific [target mapping](../../administration/using/target-mappings-in-campaign.md) which contains the technical settings required to send this type of deliveries.
+
+To change this target mapping, follow the steps below:
+
+1. From the transactional message list, select a profile-based push transactional notification.
+
+1. In the message dashboard, click the **[!UICONTROL Edit properties]** button.
+
+   ![](assets/message-center_push_edit.png)
+
+1. Expand the **[!UICONTROL Advanced parameters]** section.
+
+1. Click **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Select a target mapping from the list.
+
+   >[!NOTE]
+   >
+   >For optimal delivery preparation time and performance when sending **profile-based** transactional push notifications, use the **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** target mapping.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Confirm your change and publish the message. See [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >You must publish the message again for the change to be effective, otherwise the previous target mapping will still be used.
+
+
