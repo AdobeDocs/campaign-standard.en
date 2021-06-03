@@ -48,6 +48,9 @@ This page describes new features, improvements and fixes included in the next Ca
 
 * A new message has been added to confirm a successful migration from a v4 push application to a v5 push application.
 
+* During JSONWeb Tokens creation to authenticate to the Campaign Standard API, the product profiles are now **considered**. This means that the organizational units and roles allocated to the security group (that matches the product profile on AdobeIO) will be applied to the IMS technical account needed for Campaign Standard Rest API calls. (CAMP-47479)
+
+
 **Patches**
 
 * Fixed an issue which prevented the expiry option for the batch process log table (**xtkjoblog**) table from being applied. This prevented the table from being correctly purged.
@@ -105,5 +108,3 @@ This page describes new features, improvements and fixes included in the next Ca
 * Fixed an issue in the Email Designer where the Asset Core Service integration kept failing when trying to select an asset. (CAMP-47446)
 
 * Fixed an issue that blocked some Journey Orchestration deliveries due to Campaign not supporting timestamps with an exact value (i.e. ending with 00) sent by events from Journey Orchestration.
-
-* The updateDeliveryIndicators technical workflow has been optimized. Delivery IDs which have the same broadlog/trackinglog schema are now grouped together. This limits the number of queries thus improving performance.
