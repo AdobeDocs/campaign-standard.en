@@ -26,7 +26,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md) when Stage environment upgrades start. 
+Detailed information about this release are available in the [Early Release Notes](../../rn/using/e-release-notes.md). 
 
 <table>
  <thead>
