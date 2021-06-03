@@ -201,7 +201,7 @@ Transactional push notifications use a specific [target mapping](../../administr
 
 To change this target mapping, follow the steps below:
 
-1. From the transactional message list, select a profile-based push transactional notification.
+1. From the transactional message list, select a push notification.
 
 1. In the message dashboard, click the **[!UICONTROL Edit properties]** button.
 
