@@ -46,6 +46,8 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * A new message has been added to confirm a successful migration from a v4 push application to a v5 push application.
 
+* During JSONWeb Tokens creation to authenticate to the Campaign Standard API, the product profiles are now **considered**. This means that the organizational units and roles allocated to the security group (that matches the product profile on AdobeIO) will be applied to the IMS technical account needed for Campaign Standard Rest API calls. (CAMP-47479)
+
 **Patches**
 
 * Fixed an issue which prevented the expiry option for the batch process log table (**xtkjoblog**) table from being applied. This prevented the table from being correctly purged.
