@@ -24,9 +24,11 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * For the Triggers integration, the error message displayed when there is no reconciliation data coming in the trigger payload has been improved: "Alias data missing from payload".
 
-* Performance to pull push notifications from the queue has been improved.
+* Performance to retrieve push notifications from the queue has been improved.
 
 **Other changes**
+
+* The URL signature mechanism for tracking links has been disabled to prevent an issue that was causing some valid, signed tracking links to be incorrectly blocked after being modified by third-party security tools.
 
 * In multi-variant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
 
