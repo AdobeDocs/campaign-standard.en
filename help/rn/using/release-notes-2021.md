@@ -150,7 +150,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 
    >[!IMPORTANT]
    >
-   >Due to this change, you need to update all existing profile-based transactional push notifications with the new target mapping **Profile - Real-time event for Push** and publish them again. [Learn more](../../channels/using/transactional-push-notifications.md#new-target-mapping)
+   >Due to this change, if you are using an existing profile-based push transactional notification (created before upgrading to Adobe Campaign 21.1), it is highly recommended you update the target mapping to the new one and publish the message again. See the steps detailed [here](../../channels/using/transactional-push-notifications.md#change-target-mapping). Using the previous target mapping **Profile - Real-time event** (*mapRtEventRcp*) may result in longer delivery preparation times and performance degradation.
 
 * Fixed an issue which prevented delivery reports from running when 5000 rows were displayed.
 * Fixed an issue with A/B testing which prevented content of variant B from being updated after the delivery template had been modified. (CAMP-45235)
