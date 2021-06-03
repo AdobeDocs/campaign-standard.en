@@ -15,6 +15,8 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 # Latest Release{#latest-release}
 
 ## Release 21.2 - June 2021 {#release-21-2---june-2021}
+=======
+[Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
 **Improvements**
 
