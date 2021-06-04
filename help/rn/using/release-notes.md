@@ -74,7 +74,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * Fixed an issue which prevented you from accessing a new delivery alerting criterion ("the resource you are trying to access is unreachable") after publishing the database. (CAMP-48221)
 
-* Fixed an issue where tracking logs were missing in some instances. A new technical workflow has been added (**trackingLogRecovery**) to restore these lost tracking logs and should be used by Adobe internal only.
+* Fixed an issue where tracking logs were missing in some Campaign instances with Dynamic reporting. A new [technical workflow](../../administration/using/technical-workflows.md) has been added to restore these tracking logs. (CAMP-47885)
 
 * Fixed an issue where no delivery data was displayed in Dynamic reports. Reports were set to 0. (CAMP-47480)
 

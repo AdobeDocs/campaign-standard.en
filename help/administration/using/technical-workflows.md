@@ -101,7 +101,7 @@ Technical workflows are used to handle self-triggered background and technical p
   <tr> 
    <td> <span class="uicontrol">Recover Tracking Logs</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> This workflow restores lost tracking logs. Note that this technical workflow is for Adobe internal only. By default, it is started every 10 minutes.<br /> </td> 
+   <td> This workflow restores lost tracking logs. Note that this technical workflow is used in specific contexts and restricted to Adobe internal use only. <br> By default, it is started every 10 minutes.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update delivery indicators</span> <br /> </td> 
