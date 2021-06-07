@@ -24,4 +24,4 @@ Several types of data can be used by Adobe Target:
 * Segments linked to the visitor ID in Adobe Target, if the data used is not subject to legal limitations
 * Adobe Target data: user agent, IP address, geolocalization data
 
-For more information on the integration between Adobe Campaign and Adobe Target, you can also refer to the [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html).
+For more information on the integration between Adobe Campaign and Adobe Target, you can also refer to the [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
