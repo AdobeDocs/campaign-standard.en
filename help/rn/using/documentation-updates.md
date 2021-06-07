@@ -20,8 +20,6 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 **New capabilities included in the release**
 
-Adobe Unified Shell - Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. [Read more](../../start/using/interface-description.md#top-bar)
-
 Landing pages validation - You can now add a mandatory agreement option to your landing pages. [Read more](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
 The **Email size** section has been updated with information on the maximum size of an email, which is now set to 100 MB by default. [Read more](../../sending/using/design-and-personalize.md#email-size)
