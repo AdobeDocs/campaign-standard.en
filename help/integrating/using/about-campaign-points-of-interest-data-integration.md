@@ -16,7 +16,7 @@ exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
 
 In addition to tracking customers' online presence, you may also take advantage of their physical locations. Through integration with Adobe Analytics for Mobile, you can use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers.
 
-Points of Interest consist of a latitude, a longitude and a radius associated with a label. They are defined in the [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) interface.
+Points of Interest consist of a latitude, a longitude and a radius associated with a label. They are defined in the [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) interface.
 
 When a subscriber opens your mobile application, if the location matches a Point of Interest, Adobe Campaign captures the data via the Experience Cloud Mobile SDK. You can use this information to send personalized messages based on the user's location (such as emails, push notifications, SMS messages).
 
