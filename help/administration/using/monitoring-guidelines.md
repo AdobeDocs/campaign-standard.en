@@ -37,7 +37,7 @@ Technical workflows are operations or jobs scheduled to be executed on a regular
 
 **Control Panel**
 
-The Control Panel allows you to manage several settings of your instance: URL permissions, check your instance details like your servers' build versions, monitor active profiles usage, etc. It also allows you to monitor the available space on the SFTP servers that are connected to your instance. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
+The Control Panel allows you to manage several settings of your instance: URL permissions, check your instance details like your servers' build versions, monitor active profiles usage, etc. It also allows you to monitor the available space on the SFTP servers that are connected to your instance. [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
 
 >[!NOTE]
 >
