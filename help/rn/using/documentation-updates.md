@@ -12,7 +12,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 ---
-# Documentation Updates{#documentation-updates}
+# Documentation Updates{#documentation-updates} 
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
