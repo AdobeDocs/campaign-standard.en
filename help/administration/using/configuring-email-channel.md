@@ -27,7 +27,7 @@ The email configuration screen allows to define the parameters for the email cha
   The **[!UICONTROL Header parameters of sent emails]** section lists the authorized email addresses that you can use to send emails to your recipients (sender address) and to enable them to send back automated replies like asynchronous bounces, out-of-office replies, etc. (error address).  Adobe Campaign checks that the addresses entered are valid during the message preparation stage. This operating mode ensures that no addresses are used that could trigger deliverability issues.
     * Both sender and error addresses are set up by Adobe. Those fields cannot be empty.
     * You cannot edit those fields. To update an address, contact the Adobe Customer Care team.
-    * To add another address, you can use the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they will be separated by commas.
+    * To add another address, you can use the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they will be separated by commas.
     * It is a good practice to set addresses using a star such as *@yourdomain.com: it enables you to use any address ending with your subdomain name.
 
 * **Deliverability**
