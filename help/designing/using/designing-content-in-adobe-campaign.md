@@ -165,4 +165,4 @@ This video provides an overview of the Email Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-To get started with the Email Designer, watch this [set of videos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates
+To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates
