@@ -170,8 +170,11 @@ For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONT
 
 ![](assets/troubleshooting_3.png)
 
-The value **N/A** can sometimes appear in your dynamic reports. This can be displayed for two reasons:
+The value **N/A** can sometimes appear in your dynamic reports. This can be displayed for three reasons:
 
 * The delivery has been deleted and is shown here as **N/A** to not cause discrepancy in the results.
-* When drag and dropping the **[!UICONTROL Transactional Delivery]** dimension to your reports, the value **N/A** might appear as a result. This happens because Dynamic report fetches every delivery even if they are not transactional.
-  This can also happen when drag and dropping the **[!UICONTROL Delivery]** dimension to your report but in this case, the **N/A** value will represent transactional deliveries.
+* When drag and dropping the **[!UICONTROL Transactional Delivery]** dimension to your reports, the value **N/A** might appear as a result. This happens because Dynamic report fetches every delivery even if they are not transactional. This can also happen when drag and dropping the **[!UICONTROL Delivery]** dimension to your report but in this case, the **N/A** value will represent transactional deliveries.
+* When a dimension is used with a metric that is not related to the dimension. In the example below, a breakdown is added with the **[!UICONTROL Tracking URL]** dimension even though the **[!UICONTROL Click]** count is set to 0 in this delivery. 
+
+  ![](assets/troubleshooting_4.png)
+

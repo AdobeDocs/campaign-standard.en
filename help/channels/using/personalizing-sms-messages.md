@@ -32,4 +32,15 @@ Here we take a sample SMS message containing personalization fields which, depen
 
 ## SMS sender {#sms-sender}
 
-You can personalize the name of the SMS sender. For more on this, refer to the [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) section.
+>[!IMPORTANT]
+>
+>Please check the legislation in your country regarding modifying the sender address. You should also check with your SMS service provider to see whether they offer this functionality.
+
+The **[!UICONTROL From]** option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
+
+If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [Defining an SMS routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+
+  ![](assets/sms_creation_8.png)
+
+
+

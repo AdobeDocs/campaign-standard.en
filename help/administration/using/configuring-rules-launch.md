@@ -140,6 +140,10 @@ Your user data is now configured to be sent to Campaign.
 
 ### In-App tracking postback {#inapp-tracking-postback}
 
+>[!NOTE]
+>
+>If you are using Android ACPCore v1.4.0 or later/ iOS ACPCore v2.3.0 or later, configuring tracking postbacks is not required.
+
 To send tracking data to [!DNL Adobe Campaign Standard] for reporting on how your users interact with In-App messages in your mobile application, create the following rule in [!DNL Experience Platform Launch]:
 
 1. In [!DNL Experience Platform Launch], from your mobile application dashboard, select the **[!UICONTROL Rules]** tab and click **[!UICONTROL Add Rule]**.
@@ -173,6 +177,10 @@ To send tracking data to [!DNL Adobe Campaign Standard] for reporting on how you
     ![](assets/do-not-localize/rules_3.png)
 
 ### Push notifications tracking postback {#push-tracking-postback}
+
+>[!NOTE]
+>
+>If you are using Android ACPCore v1.4.0 or later/ iOS ACPCore v2.3.0 or later, configuring tracking postbacks is not required.
 
 To send tracking data to [!DNL Adobe Campaign Standard], which helps track your Push notification deliveries and your users’ interaction with your mobile application, you need to create a rule in [!DNL Experience Platform Launch].
 

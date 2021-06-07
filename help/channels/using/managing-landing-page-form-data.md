@@ -16,7 +16,7 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 
 ## Changing a landing page form data properties{#changing-a-landing-page-form-data-properties}
 
-You can link database fields to input zone, radio button or checkbox type blocks. To do this, select the block and enter the **[!UICONTROL Form data]** in the palette.
+You can link database fields to input zone, radio button or checkbox type blocks. To do this, select the block and access the **[!UICONTROL Form data]** in the palette.
 
 ![](assets/delivery_content_9.png)
 
@@ -56,3 +56,65 @@ To do this:
 1. Select the **[!UICONTROL Reconciliation key]**: these database fields (for example: email, first name, last name) are used to determine whether the visitor has a profile that is already known in the Adobe Campaign database. This allows you to update or create a profile, according to the update strategy parameters defined.
 1. Define the **[!UICONTROL Form parameter mapping]**: this section allows you to map the landing page field parameters and those used in the reconciliation key.
 1. Select the **[!UICONTROL Update strategy]**: if the reconciliation key recovers an existing database profile, you can choose for this profile to be updated with the data entered in the form or instead prevent this update.
+
+## Agreement checkbox {#agreement-checkbox}
+
+You can add a checkbox that the profile is required to check before submitting the landing page.
+
+For example, this allows you to request users' consent for privacy policy, or to make them accept your terms and conditions, before they submit the form.
+
+<!--This is particularly useful in the following case:
+
+When a profile opens the landing page from an Outlook.com mailbox, Outlook checks whether the links on the landing page are suspicious. However, this Outlook security feature (called safelinks) has an unwanted effect: it automatically activates the buttons included on the landing page. Consequently, profiles are automatically subscribed or unsubscribed without confirmation when the landing page is displayed after clicking the email link, even if they do not submit the form.
+
+![](assets/lp_submit_button.png)
+
+To avoid this, Adobe recommends you always add to your landing page a checkbox which enables the profile to agree before proceeding with subscription or unsubscription.-->
+
+>[!IMPORTANT]
+>
+>Selecting this checkbox is mandatory for your users. If not selected, they will not be able to submit the landing page.
+
+To insert and configure this checkbox, do the following:
+
+1. When designing the landing page, click **[!UICONTROL Show source]**.
+
+   ![](assets/lp_show_source.png)
+
+1. Manually insert a checkbox, such as in the example below:
+
+   ![](assets/lp_checkbox_code.png)
+
+   <!--
+   <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
+   -->
+
+1. Click **[!UICONTROL Hide source]**.
+
+1. The new checkbox is displayed. Select it.
+
+   ![](assets/lp_select_checkbox.png)
+
+1. The corresponding drop-down list is displayed in the **[!UICONTROL Form data]** section of the palette. Select **[!UICONTROL Agreement]** from the list.
+
+   ![](assets/lp_form_data_drop-down.png)
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Agreement]** element is not mapped to a field of the Campaign database.
+
+1. Click the ![](assets/lp-properties-icon.png) icon next to **[!UICONTROL Form data]** to access the checkbox advanced properties.
+
+1. You can edit the message if needed.
+
+   ![](assets/lp_agreement_message.png)
+
+   This text will display as a warning if the user does not select the checkbox before submitting the form.
+
+   >[!NOTE]
+   >
+   >This action is mandatory by default and cannot be changed.
+
+1. Click **[!UICONTROL Confirm]**.
+
+Now, each time the landing page is displayed, the user will have to select this checkbox before submitting the form. If not, the warning will display and the user will not be able to submit the form until the checkbox is activated.
