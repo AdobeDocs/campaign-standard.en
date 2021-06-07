@@ -37,22 +37,6 @@ Customers are advised to review if they make use of the feature/capability in th
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Predictive Subject Line</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Starting December 15 2020, Predictive Subject Line capability is deprecated.</p><br/>
-   <p>We suggest you leverage AI-powered email capabilities to analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Learn more</a></p></br>
-     <p>
-     <em>Target removal: April 2021</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Push Notifications with SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,22 +49,6 @@ Customers are advised to review if they make use of the feature/capability in th
      <p>
      <em>Target removal date: August 31, 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Privacy requests - Campaign API and interface</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Starting Campaign 19.4 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use  <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>See also <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Managing Privacy requests</a>.</p>
-  <p> 
-  <em>Target removal date: April 2021</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,6 +87,37 @@ Customers are advised to review if they make use of the feature/capability in th
 ## Removed Features {#removed-features}
 
 This section lists features and capabilities that have been removed from Campaign Standard.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Privacy requests - Campaign API and interface</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Starting Campaign 21.2 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use  <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <p>See also <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Managing Privacy requests</a>.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Predictive Subject Line</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Starting April 2021, Predictive Subject Line capability is decommissioned.</p><br/>
+   <p>We suggest you leverage AI-powered email capabilities to analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Learn more</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
