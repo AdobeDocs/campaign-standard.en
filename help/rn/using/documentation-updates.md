@@ -313,7 +313,7 @@ A new use case has been added describing how to build a control gro
 
 Information related to landing pages’ properties have been moved into a dedicated section. [Read more](../../channels/using/configuring-landing-page.md)
 
-The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
@@ -439,7 +439,7 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 **New capabilities included in the release**
 
-Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Control Panel - [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Local notifications - [Read more](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
