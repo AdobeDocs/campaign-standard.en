@@ -14,7 +14,7 @@ exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 ---
 # Release Notes 2019{#release-notes-2019}
 
-[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
@@ -35,7 +35,7 @@ exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
     <li><p>When creating a Privacy request, the regulation type (GDPR or CCPA) has been added in the Privacy Core Service. This method is the one you should use for all access and delete requests. The use of the Campaign API and interface for access and delete requests is deprecated.  See the <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Deprecated and Removed Features article</a>.</p></li>
     <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>.</li>
   </ul>
-    <p>Refer to the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to video</a>.</p>
+    <p>Refer to the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to video</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -156,11 +156,11 @@ exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>For deeper personalization, External API Activity allows you to bring data from external systems into a workflow via a REST API call. The REST endpoints can be a customer management system, Adobe I/O Runtime or Adobe Experience Cloud REST endpoint (e.g. Data Platform, Target, Analytics, Campaign).</p><p>This capability is currently in public beta.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
+   <td> <p>For deeper personalization, External API Activity allows you to bring data from external systems into a workflow via a REST API call. The REST endpoints can be a customer management system, Adobe I/O Runtime or Adobe Experience Cloud REST endpoint (e.g. Data Platform, Target, Analytics, Campaign).</p><p>This capability is currently in public beta.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
+   <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -301,7 +301,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">how-to video</a>.</p></td> 
+   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Local notifications<br /> </td> 
@@ -309,7 +309,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
   </tr> 
   <tr> 
    <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
-   <td> <p>Start a workflow with a payload when defined conditions are successfully met from another workflow or a REST API call to integrate with your external systems. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.</p><p>For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">how-to video</a>.</p></td> 
+   <td> <p>Start a workflow with a payload when defined conditions are successfully met from another workflow or a REST API call to integrate with your external systems. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.</p><p>For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Landing Pages enhancement - Google reCAPTCHA<br /> </td> 
@@ -427,7 +427,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Mobile In-App Messaging<br /> </td> 
-   <td> <p>This release contains the GA version of In-App channel in Campaign. From a functional standpoint, the most notable additions to the Beta release are Dynamic reports for In-App channel and secure handshake between Mobile SDK and MCIAS (Marketing Cloud In-App Messaging Service that serves the In-App rules to the SDK). Secure handshake ensures that your users' PII data does not fall into malicious hands as well as enables you to maintain users' privacy on a shared device by clearing out message cache every time the user logs out.</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App tutorial</a>.</p> </td> 
+   <td> <p>This release contains the GA version of In-App channel in Campaign. From a functional standpoint, the most notable additions to the Beta release are Dynamic reports for In-App channel and secure handshake between Mobile SDK and MCIAS (Marketing Cloud In-App Messaging Service that serves the In-App rules to the SDK). Secure handshake ensures that your users' PII data does not fall into malicious hands as well as enables you to maintain users' privacy on a shared device by clearing out message cache every time the user logs out.</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Workflow enhancements<br /> </td> 
@@ -532,11 +532,11 @@ Several improvements have been added to the Transactional messaging channel in o
      <li> The ability to <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
      <li> Fully compliant <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box content templates</a>. </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/designing-content-in-adobe-campaign.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
+    <p>For more information, refer to the <a href="../../designing/using/designing-content-in-adobe-campaign.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../designing/using/using-product-listings.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
+   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../designing/using/using-product-listings.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
