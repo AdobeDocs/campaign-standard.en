@@ -26,7 +26,7 @@ The following diagram details how this integration works.
 
 **Related topics:**
 
-* Learn about the different types of triggers: [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html).
+* Learn about the different types of triggers: [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
 * Watch the [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) video.
 * Discover our two [Abandonment Triggers use cases](../../integrating/using/abandonment-triggers-use-cases.md).
 

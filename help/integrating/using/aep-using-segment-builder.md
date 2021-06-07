@@ -18,9 +18,9 @@ exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
-This section presents global concepts when building a segment. For detailed information on the Segment Builder itself, refer to the [Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+This section presents global concepts when building a segment. For detailed information on the Segment Builder itself, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 The Segment Builder interface is composed as follows:
 
@@ -42,7 +42,7 @@ To build a segment, follow these steps:
 
 1. Make sure that the desired merge policy is selected in the settings pane.
 
-    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
     ![](assets/aep_audiences_mergepolicy.png)
 
@@ -60,7 +60,7 @@ To build a segment, follow these steps:
 
 The left pane lists all attributes, events and audiences that are available for use to construct rules.
 
-The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 Fields are organized into tabs:
 
@@ -76,7 +76,7 @@ Fields are organized into tabs:
 >
 >**Multi-entity segmentation** allows you to extend Profile data with additional data based on products, stores, or other non-profile classes. Once connected, data from additional classes becomes available as if they were native to the Profile schema.
 >
->For more on this, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
+>For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 By default, the Segment Builder displays fields in which data is already present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
 
@@ -90,7 +90,7 @@ The symbol at the end of each field provides additional information about the at
 
 >[!NOTE]
 >
->The section below provides global information on rules definition. For more on this, refer to the [Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>The section below provides global information on rules definition. For more on this, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 To build a rule, follow these steps:
 

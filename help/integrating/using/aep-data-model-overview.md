@@ -28,7 +28,7 @@ XDM Workspace affords the ability to view, create, and extend data schemas.
 
 To access the XDM user interface, open Adobe Experience Platform. Navigate to the Data Model window to create or extend an XDM schema.
 
-Consult the full [XDM Workspace documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Consult the full [XDM Workspace documentation](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -43,4 +43,4 @@ You can perform the following actions via the XDM Schema API:
 * View schema descriptors
 * Create, update, and delete schema descriptors
 
-All the details to manipulate API calls are available in the [Developer Guide](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+All the details to manipulate API calls are available in the [Developer Guide](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).

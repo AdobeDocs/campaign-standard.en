@@ -38,7 +38,7 @@ To perform this task, the prerequisites are:
 
 >[!NOTE]
 >
->For a batch to be ingested into Real-time Customer Profile or Identity Service, the dataset has to be [enabled for Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>For a batch to be ingested into Real-time Customer Profile or Identity Service, the dataset has to be [enabled for Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html).
 >
 >If the dataset you select is already being used in an existing data mapping, a warning appears to inform you that your data may be overwritten on Adobe Experience Platform. This may happen when there are some common recipients in datamappings using a same dataset.
 
@@ -58,7 +58,7 @@ The extended resources defined in Campaign Standard are mapped liked all native 
 
 You can customize the XDM extension via the API and define your own extension allowing you a better control on mapping.
 
-See [Schema Registry API tutorial](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) for more details on XDM API.
+See [Schema Registry API tutorial](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) for more details on XDM API.
 
 To map an enumeration field, you need to use the expression editor to define each enumeration value corresponding to the XDM value. For example, the postalAdressfield needs to be defined as:
 

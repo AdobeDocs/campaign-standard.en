@@ -24,14 +24,14 @@ The mobile applications used to collect location data must be configured by an *
 
 To be able to use Adobe Experience Platform Location Services with mobile applications configured with Adobe Experience Platform SDK, you need to:
 
-1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Set up your mobile application in Adobe Campaign. See [Install the Places extension in Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Set up your mobile application in Adobe Campaign. See [Install the Places extension in Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. Once your extensions are set up, create data elements within **[!UICONTROL Adobe Experience Platform Launch]** to retrieve data from these extensions. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) to create your data elements.
 
 1. Then, in **[!UICONTROL Adobe Experience Platform Launch]**, you need to create rules to support mobile use cases between Point of Interests and Adobe Campaign.  
 This rule will be triggered when a user enters a geo-fenced **[!UICONTROL Point of Interest]**. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) to create your rule.
 
-1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
+1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](#accessing-collected-location-data).
 
@@ -163,7 +163,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 
 >[!NOTE]
 >
->For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
 
@@ -178,11 +178,11 @@ To define the Points of Interest that are used to collect location data:
 1. Go to the Adobe Mobile Services interface.
 1. Add your application.
 
-   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
+   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Define the Points of Interest.
 
-   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
+   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Collecting subscribers' Points of interest data {#collecting-subscribers--points-of-interest-data}
 
