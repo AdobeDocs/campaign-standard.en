@@ -133,7 +133,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
 ## Tracking capabilities {#tracking-capabilities}
 
