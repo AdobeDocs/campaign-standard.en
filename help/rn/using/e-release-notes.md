@@ -1,30 +1,28 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Latest Release
-description: This page details content of the latest Campaign Standard release
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
-
+title: Early Release Notes
+description: Early Release Notes
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
+hide: yes
+hidefromtoc: yes
 ---
-# Latest Release{#latest-release}
+# Early release notes {#new-release}
+
+This page describes new features, improvements and fixes included in the next Campaign Standard release.
+
+>[!CAUTION]
+>
+> This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
+>
 
 ## Release 21.2 - June 2021 {#release-21-2---june-2021}
 
-[Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
-
-## Release 21.2 - June 2021 {#release-21-2}
-
-New features, improvements and fixes included in the next Campaign Standard release are listed in the [Early Release Notes](e-release-notes.md).
-
 **Improvements**
 
-* When designing a landing page, you can now add a mandatory checkbox that profiles are required to select before submitting the form. For more information refer to the [detailed documentation](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* When designing a landing page, you can now add a mandatory checkbox that profiles are required to select before submitting the form. 
 
 * For the Triggers integration, the error message displayed when there is no reconciliation data coming in the trigger payload has been improved: "Alias data missing from payload".
 
@@ -38,19 +36,20 @@ New features, improvements and fixes included in the next Campaign Standard rele
 
 * The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
 
-* A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077) [Learn more](../../automating/using/list-of-functions.md#aggregates) 
+* A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077)
 
 * In Dynamic reports, the **Exclude Proof** segment has been removed. (CAMP-46161)
 
 * A new warning message has been added to inform the user when an iOS certificate is uploaded without the platformPrincipal value in the Campaign application.
 
-* The maximum size of an email is now set to 100 MB by default. This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash. (CAMP-47445) [Learn more](../../sending/using/design-and-personalize.md#email-size) 
+* The maximum size of an email is now set to 100 MB by default. This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash. (CAMP-47445)
 
 * The Asset Core Service integration with the Email designer can now be used by Standard Users.  
 
 * A new message has been added to confirm a successful migration from a v4 push application to a v5 push application.
 
 * During JSONWeb Tokens creation to authenticate to the Campaign Standard API, the product profiles are now **considered**. This means that the organizational units and roles allocated to the security group (that matches the product profile on AdobeIO) will be applied to the IMS technical account needed for Campaign Standard Rest API calls. (CAMP-47479)
+
 
 **Patches**
 
@@ -78,7 +77,7 @@ New features, improvements and fixes included in the next Campaign Standard rele
 
 * Fixed an issue which prevented you from accessing a new delivery alerting criterion ("the resource you are trying to access is unreachable") after publishing the database. (CAMP-48221)
 
-* Fixed an issue where tracking logs were missing in some Campaign instances with Dynamic reporting. A new [technical workflow](../../administration/using/technical-workflows.md) has been added to restore these tracking logs. (CAMP-47885)
+* Fixed an issue where tracking logs were missing in some instances. A new technical workflow has been added (**trackingLogRecovery**) to restore these lost tracking logs and should be used by Adobe internal only.
 
 * Fixed an issue where no delivery data was displayed in Dynamic reports. Reports were set to 0. (CAMP-47480)
 
@@ -94,9 +93,11 @@ New features, improvements and fixes included in the next Campaign Standard rele
 
 * Fixed an error with the Transactional Messaging API which sometimes prevented realtime messages from being sent.
 
-* Fixed an issue where reports were not received after using the **Send report on schedule** option. (CAMP-48583, CAMP-47786)
+* Fixed an issue where reports were not received after using the **Send report on schedule** option. (CAMP-48583)
 
 * Fixed an issue where reports received after using the **Send report now option** were incomplete and missing data. (CAMP-48583)
+
+* Fixed an issue with the **Send report on schedule** option in Dynamics report where the built-in **Instant Report Sharing** (reportSendingNow) workflow was failing to generate reports. (CAMP-47786)
 
 * Fixed an issue with the Email Designer where an image's dimensions were narrowed down when uploading an image. (CAMP-47017)
 
