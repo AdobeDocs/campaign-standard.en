@@ -313,7 +313,7 @@ A new use case has been added describing how to build a control gro
 
 Information related to landing pages’ properties have been moved into a dedicated section. [Read more](../../channels/using/configuring-landing-page.md)
 
-The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
@@ -377,7 +377,7 @@ A new section with use cases on workflows focusing on queries has been added. [R
 
 A procedure was added in the workflow troubleshooting section on how to display SQL queries in the Log tab. [Read more](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 The section describing the content templates and fragments has been updated. [Read more](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -439,7 +439,7 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 **New capabilities included in the release**
 
-Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Control Panel - [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Local notifications - [Read more](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -455,7 +455,7 @@ A new Release Planning article has been published to share upcoming release date
 
 The contextual help links available directly from Adobe Campaign have been updated.
 
-The following [page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) becomes the official Videos page for Adobe Campaign Standard.
+The following [page](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) becomes the official Videos page for Adobe Campaign Standard.
 
 Added a section on data retention including the default retention values for standard tables. [Read more](../../administration/using/data-retention.md)
 
@@ -595,7 +595,7 @@ The Configuring a mobile application using SDK V4 section has been moved [here](
 
 The Configuring a mobile application using Adobe Experience Platform SDKs section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Videos have been updated and moved [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+Videos have been updated and moved [here](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Updated the Type of users section. [Read more](../../administration/using/users-management.md)
 
@@ -943,7 +943,7 @@ Recurring push notifications - [Read more](../../automating/using/push-notificat
 
 Amazon Simple Storage Service (S3) connector - [Read more](../../administration/using/external-accounts.md)
 
-Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver integration live - [Read more](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Other documentation updates coming with the release**
 
@@ -967,7 +967,7 @@ Integration with Adobe Analytics for Mobile (Point of Interest) updated, includi
 
 Dynamic reporting - [Read more](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver integration (Labs) - [Read more](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver integration (Labs) - [Read more](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Manual send time optimization - [Read more](../../sending/using/optimizing-the-sending-time.md)
 

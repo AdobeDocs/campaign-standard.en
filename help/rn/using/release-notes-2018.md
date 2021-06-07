@@ -121,7 +121,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 **Improvements**
 
-* The Adobe Campaign and Adobe Target integration now allows you to leverage Target’s [Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) feature. When including a dynamic image from Adobe Target in an email, you can now specify a Target Property (at_property code).
+* The Adobe Campaign and Adobe Target integration now allows you to leverage Target’s [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) feature. When including a dynamic image from Adobe Target in an email, you can now specify a Target Property (at_property code).
 * Custom resources that have an owncopy link to the profiles resource are now taken into account by GDPR Privacy access/delete requests. For 1 cardinality simple links and N cardinality collection links, you need to select "Deleting/Duplicating the target record implies deleting/duplicating the records referenced by the link" in the custom resource. For 0 or 1 cardinality simple links, select "Deleting/Duplicating the record implies deleting/duplicating the target record referenced by the link”.
 
 **Other changes**
