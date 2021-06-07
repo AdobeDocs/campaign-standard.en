@@ -86,6 +86,6 @@ Read more:
 
 ## Additional resources
 
-* [Processes and data management tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Processes and data management tutorial videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Technical workflows](../../administration/using/technical-workflows.md)
 * [Get started with Campaign Standard data model](../../developing/using/get-started-data-model.md)
