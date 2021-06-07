@@ -92,7 +92,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
     
     * **[!UICONTROL Life Cycle events]**: Out-of-the-box life cycle events supported by Adobe Mobile SDK.
 
-      For more on life cycle events, refer to this [page](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
+      For more on life cycle events, refer to this [page](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
     
     * **[!UICONTROL Analytics Events]**: The following three categories are supported depending on what is instrumented in your mobile app: Adobe Analytics, Context data or View state.
 
@@ -112,7 +112,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
 1. If you use a **[!UICONTROL Places]** trigger, Places context data, Places custom metadata or Places event type will be automatically populated based on all the Libraries and their Points of Interest created in Adobe Places.
 
-   Please note that this trigger will be applied on the device only for the Points of Interest from the Libraries selected in the Places extension in Experience Platform Launch. For more information on the Places extension and how to install it, refer to this [documentation](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Please note that this trigger will be applied on the device only for the Points of Interest from the Libraries selected in the Places extension in Experience Platform Launch. For more information on the Places extension and how to install it, refer to this [documentation](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. In the **[!UICONTROL Frequency & duration]** tab, choose the frequency for your trigger, the start and end date, day of the week and time of the day when your In-App message will be active.
 

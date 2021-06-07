@@ -78,7 +78,7 @@ Before sending your push notifications, you should:
 
 Check out the resources below:
 
-* [Video Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Video Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Product Documentation](../../channels/using/about-push-notifications.md)
 * Configure using AEP SDK [documentation](../../administration/using/configuring-a-mobile-application.md)
 * [Community Page](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
