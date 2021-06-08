@@ -16,7 +16,11 @@ exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 
 Integrating Assets core service or Assets on Demand (depending on the configuration of your Adobe Experience Cloud environment) with Adobe Campaign allows you to use any assets that are shared within Adobe Experience Cloud in your Adobe Campaign emails and landing pages.
 
-Resources shared from Adobe Experience Cloud can be used in your emails and landing pages.
+>[!CAUTION]
+>
+> Integration with Assets Core Service is restricted to [Functional administrators](../../administration/using/users-management.md#functional-administrators).
+
+Resources shared from Adobe Experience Cloud can be used in your emails and landing pages, as follow:
 
 1. When editing the content of an email or landing page, go to an image block, then select **[!UICONTROL Image shared from Adobe Experience Cloud]** via the contextual menu.
 

@@ -12,9 +12,21 @@ role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 ---
-# Documentation Updates{#documentation-updates}
+# Documentation Updates{#documentation-updates} 
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## Release 21.2 - June 2021 {#release-21-2---june-2021}
+
+**New capabilities included in the release**
+
+Landing pages validation - You can now add a mandatory agreement option to your landing pages. [Read more](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+
+The **Email size** section has been updated with information on the maximum size of an email, which is now set to 100 MB by default. [Read more](../../sending/using/design-and-personalize.md#email-size)
+
+**Other documentation updates coming with the release**
+
+Information has been added on how to change the target mapping in a transactional push notification. [Read more](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## May 2021 {#doc-updates-may-2021}
 
