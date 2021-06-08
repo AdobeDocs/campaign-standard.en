@@ -99,5 +99,5 @@ Read more:
 * [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md)
 * [Sending messages with workflows](../../automating/using/about-channel-activities.md)
-* [Communication channels tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Communication channels tutorial videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Use case: Creating a cross-channel delivery](../../automating/using/workflow-cross-channel-delivery.md)

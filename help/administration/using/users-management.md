@@ -32,7 +32,7 @@ To access the user management interface from Adobe Campaign, click **[!UICONTROL
 
 **Related topics:**
 
-* [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html) video
+* [Managing user permissions](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) video
 * [List of roles](../../administration/using/list-of-roles.md)
 * [List of authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 

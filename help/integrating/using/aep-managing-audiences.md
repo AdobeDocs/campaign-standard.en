@@ -46,7 +46,7 @@ To create an Adobe Experience Platform audience directly in Campaign Standard, f
 
 1. In order to successfully create a segment, you must select a **merge policy** that matches your marketing purpose for this segment.
 
-    In the settings pane, a Platform default merge policy is selected. For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+    In the settings pane, a Platform default merge policy is selected. For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
     ![](assets/aep_audiences_mergepolicy.png)
 
