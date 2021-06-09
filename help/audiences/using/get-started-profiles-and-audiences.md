@@ -86,4 +86,4 @@ Privacy and Consent in Campaign and how to manage them are presented in [this se
 * [Working with Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Using workflows to import profiles](../../automating/using/creating-import-workflow-templates.md)
-* [Profiles and audiences videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Profiles and audiences videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

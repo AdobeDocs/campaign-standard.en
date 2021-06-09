@@ -220,7 +220,7 @@ If you want to use a custom filter, you have to create and customize it in the A
 For more on this, refer to the Campaign Standard documentation:
   
 * [Configuring filter definition](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Use case: Calling a resource using a composite identification key](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Use case: Calling a resource using a composite identification key](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

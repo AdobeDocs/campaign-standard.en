@@ -80,7 +80,7 @@ To avoid such problems, Adobe recommends to follow the best practices below:
 
 Also, note that the public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
-SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >

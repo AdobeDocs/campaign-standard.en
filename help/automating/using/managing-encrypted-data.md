@@ -18,7 +18,7 @@ exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 
 In some cases, the data that you want to import Campaign Servers may need to be encrypted, for example if it contains PII data.
 
-To be able to encrypt outgoing data or decrypt incoming data, you need to manage GPG keys using the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
+To be able to encrypt outgoing data or decrypt incoming data, you need to manage GPG keys using the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ In this use case, we will build a workflow in order to import data that has been
 
 The steps to perform this use case are as follows:
 
-1. Use the Control Panel to generate a key pair (public/private). Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Use the Control Panel to generate a key pair (public/private). Detailed steps are available in [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
     * The public key will be shared with the external system, which will use it to  encrypt the data to send to Campaign.
     * The private key will be used by Campaign to decrypt the incoming encrypted data.
@@ -90,7 +90,7 @@ In this use case, we will build a workflow in order to encrypt and export data u
 
 The steps to perform this use case are as follows:
 
-1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
     ![](assets/gpg_install.png)
 
