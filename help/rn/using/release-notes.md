@@ -12,6 +12,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 ---
+
 # Latest Release{#latest-release}
 
 ## Release 21.2 - June 2021 {#release-21-2---june-2021}
