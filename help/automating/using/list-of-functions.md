@@ -702,11 +702,7 @@ The aggregate functions are used to perform calculations on a set of values.
    <td> Returns the minimum value in a numerical, string, or date column.<br /> </td> 
    <td> Min(&lt;value&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, String aggregate<br /> </td> 
-   <td> Returns the concatenation of the values of a string type column, separated by the character in the second argument (default separator is comma).<br /> </td> 
-   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
-  </tr> 
+  
 
 
 

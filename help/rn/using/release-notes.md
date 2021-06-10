@@ -35,8 +35,6 @@ New features, improvements and fixes included in the next Campaign Standard rele
 
 * The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
 
-* A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077) [Learn more](../../automating/using/list-of-functions.md#aggregates) 
-
 * In Dynamic reports, the **Exclude Proof** segment has been removed. (CAMP-46161)
 
 * A new warning message has been added to inform the user when an iOS certificate is uploaded without the platformPrincipal value in the Campaign application.
