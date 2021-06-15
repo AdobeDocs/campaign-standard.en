@@ -10,7 +10,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
 
 # Adobe Campaign Standard Help {#using}
 
-+ [Product documentation](campaign-standard-home.md)
++ [Campaign Standard documentation](campaign-standard-home.md)
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
