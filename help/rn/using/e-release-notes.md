@@ -8,6 +8,7 @@ role: Business Practitioner
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 ---
 # Early release notes {#new-release}
 

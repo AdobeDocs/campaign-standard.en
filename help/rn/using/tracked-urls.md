@@ -5,8 +5,8 @@ title: Tracked URLs signature issue
 description: Tracked URLs signature issue
 hidefromtoc: yes
 hide: yes
+exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 ---
-
 # Tracked URLs signature issue {#tracked-urls}
 
 Following recent changes, tracked URLs sent by Campaign can fail. Some mailboxes can be more impacted than others, as some companies have specific security tools which can impact links and alter the URL signature mechanism.
