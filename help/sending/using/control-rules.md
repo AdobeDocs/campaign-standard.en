@@ -25,7 +25,7 @@ Control rules allow you to check the validity and quality of the messages before
 A set of default rules ensures the standard controls. The table below provides information about these rules, as well as their related channel and [execution phases](#control-rules-execution-phases).
 
 | Label | Channel | Execution phase | Description|
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extracts the test population for a delivery with an A/B test.|
 | **[!UICONTROL Check delivery size]** | All | After targeting | Checks the size of the messages.|
 | **[!UICONTROL Check email content is not empty]** | Email | After targeting | Generates an error if the content of the message is empty.|
