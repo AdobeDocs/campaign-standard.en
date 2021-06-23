@@ -13,10 +13,6 @@ exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 ---
 # Preparing and sending an In-App message{#preparing-and-sending-an-in-app-message}
 
->[!NOTE]
->
->In-App personalization relies on a linkage field which is typically a CRM ID and/or Mobile App Login ID. You are solely responsible for securing this linkage field when used in connection with Adobe Campaign. If you fail to keep your linkage field(s) secure, your personalized message may be vulnerable. Adobe will not be liable for damages arising out of unauthorized access or use of any profile data if you fail to follow secure linkage field composition, management, and protection practices.
-
 Three types of In-App message are available in Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: This message type enables you to target Adobe Campaign profiles (CRM profiles) who have subscribed to your mobile application. This message type can be personalized with all available profile attributes in Adobe Campaign but requires a secure handshake between Mobile SDK and Campaign's In-App messaging service to ensure that messages with personal and sensitive information are used by authorized users only.
@@ -26,29 +22,15 @@ Three types of In-App message are available in Adobe Campaign:
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: This message type enables you to send messages to all users (current or future) of your mobile application even if they don't have an existing profile in Adobe Campaign. Personalization is thus not possible when customizing the messages as the user profile may not even exist in Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: This message type enables you to target all known or anonymous users of a mobile app that have a mobile profile in Adobe Campaign. This messages type can be personalized using only non-personal and non-sensitive attributes and does not require secure handshake between Mobile SDK and Adobe Campaign's In-App messaging service.
 
-  For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+  For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
-## Handling mobile profile fields with personal and sensitive data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
-
-This resource needs to be extended to collect data you intend to send from the mobile device to Adobe Campaign. To do so, refer to this [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) for the detailed steps.
-
-To enable personalization of your In-App messages more securely, mobile profile fields from this resource need to be configured accordingly. In your **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, when creating your new mobile profiles fields, check **[!UICONTROL Personal and Sensitive]** to make them unavailable during In-App messages personalization.
-
->[!NOTE]
->
->If you have an existing implementation with custom resource extension on this table, we advise you to label the fields appropriately before leveraging them for personalization of In-App messages.
-
-![](assets/in_app_personal_data_2.png)
-
-Once your **[!UICONTROL Subscriptions to an application]** custom resource is configured and published, you can start preparing your In-App delivery using the **[!UICONTROL Target users based on their Mobile profile (inApp)]** template. Only non-personal and non-sensitive fields will be available from **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource for personalization.
-
-If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users' PII data remains secure.
-
 ## Preparing your In-App message {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>In-App personalization relies on a linkage field which is typically a CRM ID and/or Mobile App Login ID. You are solely responsible for securing this linkage field when used in connection with Adobe Campaign. If you fail to keep your linkage field(s) secure, your personalized message may be vulnerable. Adobe will not be liable for damages arising out of unauthorized access or use of any profile data if you fail to follow secure linkage field composition, management, and protection practices.
 
 The steps for creating a standalone In-App message with Adobe Campaign are:
 
@@ -131,6 +113,21 @@ Your In-App message is now ready to be sent to your targeted audience.
 * [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
 * [In-App report](../../reporting/using/in-app-report.md)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
+
+## Previewing the In-App message {#previewing-the-in-app-message}
+
+Before sending your In-App message, you can test with your test profiles to check what your targeted audience will see when they receive your delivery.
+
+1. Click the **[!UICONTROL Preview]** button.
+
+   ![](assets/inapp_sending_2.png)
+
+1. Click the **[!UICONTROL Select a test profile]** button and select one of your test profiles to start previewing your delivery. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
+1. Check your message on different devices such as Android, iPhone phones or even tablets. You can also check if your personalization fields are retrieving the right data.
+
+   ![](assets/inapp_sending_3.png)
+
+1. You can now send your message and measure its impact with delivery reports.
 
 ## Sending your In-App message {#sending-your-in-app-message}
 

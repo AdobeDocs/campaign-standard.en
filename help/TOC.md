@@ -105,6 +105,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [About In-App messaging](channels/using/about-in-app-messaging.md)
        + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
        + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
+       + [In-App FAQ](channels/using/in-app-faq.md)
   + Direct mail {#direct-mail}
        + [About direct mail](channels/using/about-direct-mail.md)
        + [Return to sender](channels/using/return-to-sender.md)
