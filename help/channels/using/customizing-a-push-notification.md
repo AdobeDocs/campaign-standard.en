@@ -38,7 +38,9 @@ A sound will alert users of a push notification, giving it more visibility. To i
 
    ![](assets/push_notif_advanced_7.png)
 
-1. The sound file plays when delivering the notification if the file is defined in the mobile application's package. Otherwise, the device's default sound is played.
+1. The sound file plays when delivering the notification if the file is defined in the mobile application's package. You can set it to **default** to play the device's default sound. 
+
+   If the **[!UICONTROL Play a sound]** field is left empty, no sound will be played.
 
 The user will then receive the push notification and the sound only if his phone is not muted.
 
