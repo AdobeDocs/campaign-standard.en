@@ -51,18 +51,18 @@ When using a variable in an activity, the interface provides help to call it.
   
   Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [this section](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-  Name | Description | Syntax
-  ---------|----------|---------
-  EndWith | Indicates if a string (1st parameter) ends with a specific string (2nd parameter). | EndWith(&lt;String&gt;,&lt;String&gt;)
-  startWith | Indicates if a string (1st parameter) starts with a specific string (2nd parameter). | startWith(&lt;String&gt;,&lt;String>)
-  Extract | Returns the first characters of a string using a separator. | Extract(&lt;String&gt;,&lt;Separator&gt;)
-  ExtractRight | Returns the last characters of a string using a separator. | ExtractRight(&lt;String&gt;,&lt;Separator&gt;)
-  DateFormat | Formats a date using the format specified in the 2nd parameter (example:  '%4Y%2M%2D') | DateFormat(&lt;Date&gt;,&lt;Format&gt;)
-  FileName | Returns the name of a file path. | FileName(&lt;String&gt;)
-  FileExt | Returns the extension of a file path. | FileExt(&lt;String&gt;)
-  GetOption | Returns the value of the specified function. | GetOption(&lt;optionName&gt;)
-  IsNull | Indicates if a string or a date is null. | IsNull(&lt;String/date&gt;)
-  UrlUtf8Encode | Encodes an URL in UTF8. | UrlUtf8Encode(&lt;String&gt;)
+  | Name | Description | Syntax|
+  | ---------|----------|---------|
+  | EndWith | Indicates if a string (1st parameter) ends with a specific string (2nd parameter). | EndWith(&lt;String&gt;,&lt;String&gt;)|
+  | startWith | Indicates if a string (1st parameter) starts with a specific string (2nd parameter). | startWith(&lt;String&gt;,&lt;String>)|
+  | Extract | Returns the first characters of a string using a separator. | Extract(&lt;String&gt;,&lt;Separator&gt;)|
+  | ExtractRight | Returns the last characters of a string using a separator. | ExtractRight(&lt;String&gt;,&lt;Separator&gt;)|
+  | DateFormat | Formats a date using the format specified in the 2nd parameter (example:  '%4Y%2M%2D') | DateFormat(&lt;Date&gt;,&lt;Format&gt;)|
+  | FileName | Returns the name of a file path. | FileName(&lt;String&gt;)|
+  | FileExt | Returns the extension of a file path. | FileExt(&lt;String&gt;)|
+  | GetOption | Returns the value of the specified function. | GetOption(&lt;optionName&gt;)|
+  | IsNull | Indicates if a string or a date is null. | IsNull(&lt;String/date&gt;)|
+  | UrlUtf8Encode | Encodes an URL in UTF8. | UrlUtf8Encode(&lt;String&gt;)|
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
