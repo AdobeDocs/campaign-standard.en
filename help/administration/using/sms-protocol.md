@@ -15,7 +15,7 @@ exl-id: ea936128-1c51-483d-914c-6d06708456d6
 
 >[!NOTE]
 >
->The **SMS connector protocol and settings** for Adobe Campaign Classic can be found in this [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>The **SMS connector protocol and settings** for Adobe Campaign Classic can be found in this [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
