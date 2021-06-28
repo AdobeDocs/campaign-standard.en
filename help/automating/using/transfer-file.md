@@ -99,6 +99,12 @@ The Amazon S3 protocol allows you to start downloading a file from a URL or an e
 
     ![](assets/wkf_file_transfer_08.png)
 
+    >[!CAUTION]
+    >
+    > Wildcards are not supported with Amazon S3.
+    >
+    > To target multiple files such as `my_file_02` and `my _file_3433`, you can use the following syntax: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+
 4. If you want to delete your source files when transfer is completed, check **[!UICONTROL Delete the source files after transfer]**.
 
 ### Configuration with Microsoft Azure Blob storage {#azure-blob-configuration-wf}
