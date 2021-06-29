@@ -20,17 +20,17 @@ Filtering rules allow you to exclude one part of the message target according to
 
 The table below provides information about out-of-the-box filtering rules, as well as their related channels.
 
-Label | Channel | Description
----------|----------|---------
- **[!UICONTROL Address not specified]** | All | Excludes the target population with no specified address (email, postal address, etc. according to the selected channel).
- **[!UICONTROL Address on denylist]** | All | Excludes addresses that are on the denylist.
- **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.
- **[!UICONTROL Exclude mobile applications]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message.
- **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App template).
- **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App broadcast template)
- **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message (for Push)
- **[!UICONTROL Quarantined address]** | All | Excludes quarantined addresses.
- **[!UICONTROL Target limited in size]** | All | Checks if the maximum delivery size was reached for the target. Applies to direct mail deliveries with the "delivery limit" option activated.
+| Label | Channel | Description|
+| ---------|----------|---------|
+| **[!UICONTROL Address not specified]** | All | Excludes the target population with no specified address (email, postal address, etc. according to the selected channel).|
+| **[!UICONTROL Address on denylist]** | All | Excludes addresses that are on the denylist.|
+| **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.|
+| **[!UICONTROL Exclude mobile applications]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message.|
+| **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App template).|
+| **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App broadcast template)|
+| **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message (for Push)|
+| **[!UICONTROL Quarantined address]** | All | Excludes quarantined addresses.|
+| **[!UICONTROL Target limited in size]** | All | Checks if the maximum delivery size was reached for the target. Applies to direct mail deliveries with the "delivery limit" option activated.|
 
 Additionally to these default filtering rules, two exclusion rules are available:
 

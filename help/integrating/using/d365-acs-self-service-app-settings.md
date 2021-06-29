@@ -27,7 +27,7 @@ The Microsoft Dynamics 365 Credentials give the integration application permissi
    
 * **[!UICONTROL Tenant]**: Learn how to find your Tenant ID in [this section](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/` 
 
 ### Adobe API Credentials
 

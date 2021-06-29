@@ -15,9 +15,9 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 ## What's New
 
-* **[Campaign - RTCDP integration](integrating/using/get-started-sources-destinations.md)**<br/> Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP)
+* **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
 
-* **[Update incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after an email outage
+* **[Campaign - RTCDP integration](integrating/using/get-started-sources-destinations.md)**<br/> Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP)
 
 * **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
 

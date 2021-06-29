@@ -24,20 +24,20 @@ Control rules allow you to check the validity and quality of the messages before
 
 A set of default rules ensures the standard controls. The table below provides information about these rules, as well as their related channel and [execution phases](#control-rules-execution-phases).
 
-Label | Channel | Execution phase | Description
----------|----------|---------|---------
- **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extracts the test population for a delivery with an A/B test.
- **[!UICONTROL Check delivery size]** | All | After targeting | Checks the size of the messages.
- **[!UICONTROL Check email content is not empty]** | Email | After targeting | Generates an error if the content of the message is empty.
- **[!UICONTROL Check In-App content for broadcast template]** | In-App | At the start personalization | Checks that In-App content / triggers are not empty for broadcast template.
- **[!UICONTROL Check In-App content for profile template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for profile template.
- **[!UICONTROL Check In-App content for subscriber template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for subscriber template.
- **[!UICONTROL Check proof size]**| All | After targeting | Generates an error message if the proof target population exceeds 100 recipients.
- **[!UICONTROL Check social network sharing link]** | Email | At the start of personalization | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
- **[!UICONTROL Check subject]** | Email | At the start of personalization | Checks that the subject and sender address do not contain special characters which may cause problems on certain mail transfer agents, and checks that the message subject has been completed.
- **[!UICONTROL Check unsubscription link]** | Email | At the start of personalization | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
- **[!UICONTROL Check URL labels]** | Email | At the start of personalization | Checks that each tracking URL has a label.
- **[!UICONTROL Check URLs]** | Email | At the start of personalization | Checks the tracking URLs (presence of the "&" character).
+| Label | Channel | Execution phase | Description|
+|---------|----------|---------|---------|
+| **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extracts the test population for a delivery with an A/B test.|
+| **[!UICONTROL Check delivery size]** | All | After targeting | Checks the size of the messages.|
+| **[!UICONTROL Check email content is not empty]** | Email | After targeting | Generates an error if the content of the message is empty.|
+| **[!UICONTROL Check In-App content for broadcast template]** | In-App | At the start personalization | Checks that In-App content / triggers are not empty for broadcast template.|
+| **[!UICONTROL Check In-App content for profile template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for profile template.|
+| **[!UICONTROL Check In-App content for subscriber template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for subscriber template.|
+| **[!UICONTROL Check proof size]**| All | After targeting | Generates an error message if the proof target population exceeds 100 recipients.|
+| **[!UICONTROL Check social network sharing link]** | Email | At the start of personalization | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.|
+| **[!UICONTROL Check subject]** | Email | At the start of personalization | Checks that the subject and sender address do not contain special characters which may cause problems on certain mail transfer agents, and checks that the message subject has been completed.|
+| **[!UICONTROL Check unsubscription link]** | Email | At the start of personalization | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).|
+| **[!UICONTROL Check URL labels]** | Email | At the start of personalization | Checks that each tracking URL has a label.|
+| **[!UICONTROL Check URLs]** | Email | At the start of personalization | Checks the tracking URLs (presence of the "&" character).|
 
 ## Control rules execution phases {#control-rules-execution-phases}
 
