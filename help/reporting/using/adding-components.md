@@ -34,6 +34,16 @@ Components help you customize your reports with different dimensions, metrics, a
 
 1. Drag and drop components in a panel to start filtering your data.
 
+   ![](assets/dynamic_report_components_2.png)
+
+1. After drag and dropping your component, you can further configure your table with the **[!UICONTROL Row settings]** option.
+
+   ![](assets/dynamic_report_components_3.png)
+
+1. You can also further filter your table by clicking the **Search** icon. With this search, you can look for specific results such as a specific delivery or browser for example.
+
+   ![](assets/dynamic_report_components_4.png)
+
 You can drag and drop as many components as needed and compare them to one another.
 
 **Related topics:**

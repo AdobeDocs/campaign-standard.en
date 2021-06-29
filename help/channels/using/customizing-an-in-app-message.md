@@ -121,7 +121,7 @@ You can add up to two buttons to your In-App message.
 1. Enter your web URL or deeplink in the **[!UICONTROL Destination URL]** field, if you chose the **[!UICONTROL Redirect]** action, 
 1. Check your message content in the preview window or by clicking the Preview button.
 
-   Refer to the [Previewing the In-App message](#previewing-the-in-app-message) page.
+   Refer to the [Previewing the In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message) page.
 
    ![](assets/inapp_customize_11.png)
 
@@ -183,18 +183,3 @@ You can also find a list of custom HTML requirements for a successful import in 
 ![](assets/inapp_customize_3.png)
 
 Once your HTML has been imported, you can find a preview of your file on different devices in the preview window.
-
-## Previewing the In-App message {#previewing-the-in-app-message}
-
-Before sending your In-App message, you can test with your test profiles to check what your targeted audience will see when they receive your delivery.
-
-1. Click the **[!UICONTROL Preview]** button.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Click the **[!UICONTROL Select a test profile]** button and select one of your test profiles to start previewing your delivery. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
-1. Check your message on different devices such as Android, iPhone phones or even tablets. You can also check if your personalization fields are retrieving the right data.
-
-   ![](assets/inapp_sending_3.png)
-
-1. You can now send your message and measure its impact with delivery reports. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).

@@ -14,6 +14,9 @@ exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 ---
 # Creating a report based on workflow segments{#creating-a-report-workflow-segment}
 
+>[!CAUTION]
+> **[!UICONTROL Segment code]** can only target email and SMS deliveries.
+
 After creating a workflow and filtering your population into different targeted audience, you can measure the efficiency of your marketing campaigns based on segments defined in this targeting workflow.
 To target these segments in your reports:
 
@@ -23,6 +26,7 @@ To target these segments in your reports:
 
 >[!CAUTION]
 >The Dynamic reporting usage agreement must be accepted to start collecting these data.
+>
 >For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Step 1: Update Profiles custom resource with segments{#step-1--update-profiles-custom-resource-segments}
