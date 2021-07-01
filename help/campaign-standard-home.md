@@ -70,7 +70,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 |---|---|
 | [Release notes](rn/using/release-notes.md) | [Experience Cloud triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Campaign APIs](api/using/get-started-apis.md) |
-| [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |  [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Release planning](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
 | [Deprecated and removed features](rn/using/deprecated-features.md) | [Multi-solution guide](integrating/using/get-started-campaign-integrations.md) |
 | [Get started with Campaign Standard](start/using/about-campaign-standard.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
