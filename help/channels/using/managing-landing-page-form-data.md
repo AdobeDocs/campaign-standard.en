@@ -25,14 +25,19 @@ You can link database fields to input zone, radio button or checkbox type blocks
 
 ## Mapping form fields {#mapping-form-fields}
 
-Input fields are used to store or update data in Campaign database. For this, you need to link database fields with input zone, radio button, or checkbox type blocks. To do this:
+Input fields are used to store or update data in the Campaign database. For this, you need to link database fields with input zone, radio button, or checkbox type blocks. To do this:
 
 1. Select a block in the landing page.
 1. Complete the **[!UICONTROL Form data]** part in the palette.
 
    ![](assets/editing_lp_content_4.png)
 
-1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone. Landing pages can only be mapped with **Profiles**.
+1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone.
+
+   >[!NOTE]
+   >
+   >Landing pages can only be mapped with **Profiles**.
+
 
 1. Check the **[!UICONTROL Mandatory]** option if needed. The page can only be submitted if the user has completed this field. If a mandatory field is not completed, an error message will appear when the user validates the page.
 
@@ -118,3 +123,35 @@ To insert and configure this checkbox, do the following:
 1. Click **[!UICONTROL Confirm]**.
 
 Now, each time the landing page is displayed, the user will have to select this checkbox before submitting the form. If not, the warning will display and the user will not be able to submit the form until the checkbox is activated.
+
+## Update multiple service subscriptions {#multiple-subscriptions}
+
+You can use several checkboxes to allow users to subscribe or unsubscribe from multiple services.
+
+To do this, follow the steps below:
+
+1. When designing the landing page, select a block.
+
+1. From the **[!UICONTROL Form data]** palette, select **[!UICONTROL Checkbox]** as the field type.
+
+   ![](assets/lp_field-type-checkbox.png)
+
+1. From the **[!UICONTROL Type]** drop-down list, select **[!UICONTROL Service and subscription]**.
+
+   ![](assets/lp_service-and-subscription.png)
+
+1. Choose an option from the **[!UICONTROL Behavior]** drop-down list.
+
+   ![](assets/lp_checkbox-behavior.png)
+
+1. Select a service from the corresponding list.
+
+   ![](assets/lp_checkbox-service.png)
+
+1. Make sure the **[!UICONTROL Mandatory]** option is unchecked.
+
+   ![](assets/lp_uncheck-mandatory.png)
+
+1. To add more checkboxes enabling to subscribe to other services, repeat the steps above as many times as needed.
+
+Once the landing page is published, the user can select several checkboxes. This enables users to subscribe or unsubscribe to several services from a single landing page.
