@@ -38,6 +38,22 @@ Customers are advised to review if they make use of the feature/capability in th
 <table> 
  <thead> 
   <tr> 
+   <th> <strong>Experience Cloud Assets integration</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Starting July 2021, Assets is now a legacy core service, under sustenance. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Learn more</a>.</p>
+   <p>For new implementation, you can no longer integrate Experience Cloud Assets with Adobe Campaign Standard.</p>
+     <em>Target removal date: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
    <th> <strong>Push Notifications with SDK v4</strong><br /> </th> 
   </tr> 
  </thead> 
