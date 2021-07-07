@@ -87,7 +87,7 @@ Please note that language is set up at installation, and cannot be changed after
 |  Action | Windows shortcut | macOS shortcut |
 | --- | --- | ---|
 | Navigate through individual elements of the user interface| Tab | Tab |
-| Activate the selected item | Enter or Space | Enter or Space |
+| Activate the selected item | Enter or Spacebar | Enter or Spacebar |
 
 ### Email designer {#email-designer-shortcuts}
 
