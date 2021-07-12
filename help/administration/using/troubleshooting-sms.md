@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Instance Settings
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 ---

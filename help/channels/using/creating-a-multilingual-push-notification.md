@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: push-notifications
 
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 ---

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-profiles
 
 feature: Profiles
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 ---

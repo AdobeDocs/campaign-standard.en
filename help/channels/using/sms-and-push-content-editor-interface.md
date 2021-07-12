@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 ---

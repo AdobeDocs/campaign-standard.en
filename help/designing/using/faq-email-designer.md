@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics
 
 feature: Email Design
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 ---

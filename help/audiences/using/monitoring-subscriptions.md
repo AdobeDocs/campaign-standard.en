@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-subscriptions
 
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 ---

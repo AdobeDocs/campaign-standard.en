@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: defining-conditional-content
 
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 649e3428-a3bf-470f-923c-04d9a57a208f
 ---

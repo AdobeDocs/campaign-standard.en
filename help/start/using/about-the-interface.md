@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
 ---

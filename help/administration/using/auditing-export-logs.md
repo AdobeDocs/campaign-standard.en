@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: users-and-security
 
 feature: Access Management
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
 ---

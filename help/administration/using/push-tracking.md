@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instance Settings
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 ---

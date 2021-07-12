@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: configuring-channels
 
 feature: Instance Settings
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 ---

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 
 feature: Send Time Optimization
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
 ---

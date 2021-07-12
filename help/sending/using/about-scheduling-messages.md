@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Send Time Optimization
-role: Business Practitioner
+role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 ---
 # About scheduling messages{#about-scheduling-messages}

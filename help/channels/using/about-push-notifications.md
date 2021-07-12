@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 ---

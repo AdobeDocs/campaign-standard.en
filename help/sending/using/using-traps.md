@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 feature: Seed Address
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
 ---

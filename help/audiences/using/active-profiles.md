@@ -4,7 +4,7 @@ product: campaign
 title: Campaign Active profiles
 description: Learn how to access customer metrics and  active profiles
 feature: Profiles
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 ---

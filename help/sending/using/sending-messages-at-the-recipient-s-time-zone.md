@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 
 feature: Proofs
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
 ---

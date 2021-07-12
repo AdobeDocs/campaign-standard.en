@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
 ---

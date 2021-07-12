@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: working-with-typology-rules
 
 feature: Typology Rules
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 ---

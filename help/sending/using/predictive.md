@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 feature: Send Time Optimization
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 ---

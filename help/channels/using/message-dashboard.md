@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 ---

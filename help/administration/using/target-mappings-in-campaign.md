@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: application-settings
 
 feature: Instance Settings
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
 ---

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 ---

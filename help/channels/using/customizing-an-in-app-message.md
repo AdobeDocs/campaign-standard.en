@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
 feature: In App
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 ---

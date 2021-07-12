@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 ---

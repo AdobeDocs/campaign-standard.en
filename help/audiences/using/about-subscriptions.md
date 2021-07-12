@@ -4,7 +4,7 @@ product: campaign
 title: About subscriptions
 description: Learn more about services and subscriptions in Campaign Standard.
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 ---

@@ -4,7 +4,7 @@ product: campaign
 title: Early Release Notes
 description: Early Release Notes
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes

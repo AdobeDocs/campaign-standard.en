@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-content-design
 
 feature: Email Design
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 ---

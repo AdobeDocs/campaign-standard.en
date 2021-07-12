@@ -8,7 +8,7 @@ topic-tags: deliveries-best-practices
 index: y
 description: "Once your message is ready, learn how to perform all checks before sending"
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 ---

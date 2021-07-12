@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-templates
 
 feature: Multilingual Messages
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
 ---

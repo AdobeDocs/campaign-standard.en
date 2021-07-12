@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: campaign-standard-deprecated-features
 
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 ---

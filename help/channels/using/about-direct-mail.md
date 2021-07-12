@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 feature: Direct Mail
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 ---

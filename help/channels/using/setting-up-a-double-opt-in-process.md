@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 
 feature: Landing Pages
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 ---
