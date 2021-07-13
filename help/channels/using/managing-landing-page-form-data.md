@@ -106,7 +106,7 @@ To do this, follow the steps below:
 
       This allows you to insert the checkbox wherever convenient on the page.
 
-      ![](assets/lp-manual-checkbox.png)
+      ![](assets/lp_manual-checkbox.png)
 
 1. Make sure the checkbox is selected in your content. The **[!UICONTROL Type]** drop-down list is displayed in the **[!UICONTROL Form data]** section of the left palette. Select **[!UICONTROL Service and subscription]** from the list.
 
