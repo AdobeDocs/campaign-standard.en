@@ -154,8 +154,6 @@ To insert and configure this checkbox, do the following:
 
       <!--Manually insert a checkbox, such as in the example below:
 
-      ![](assets/lp_checkbox_code.png)
-
       <!--Click **[!UICONTROL Hide source]**.-->
 
 1. Make sure the checkbox is selected.
