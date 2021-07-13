@@ -16,6 +16,12 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## July 2021 {#doc-updates-july-2021}
+
+A new section has been added to describe how to allow users to subscribe or unsubscribe from multiple services from a single landing page. [Read more](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+The **Managing landing page form data** section has been updated and clarified. [Read more](../../channels/using/managing-landing-page-form-data.md)
+
 ## Release 21.2 - June 2021 {#release-21-2---june-2021}
 
 **New capabilities included in the release**

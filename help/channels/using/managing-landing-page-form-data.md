@@ -14,59 +14,81 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 ---
 # Managing landing page form data{#managing-landing-page-form-data}
 
-## Changing a landing page form data properties{#changing-a-landing-page-form-data-properties}
+In the landing page content, input fields are used to store or update data from the Campaign database.
 
-You can link database fields to input zone, radio button or checkbox type blocks. To do this, select the block and access the **[!UICONTROL Form data]** in the palette.
+To do this, these fields must be mapped to database fields.
 
-![](assets/delivery_content_9.png)
+You can define and manage their mapping through the **[!UICONTROL Form data]** section on the left palette.
 
-* The **Field** input zone lets you select a database field to link with the form field.
-* The **Mandatory** option lets you only authorize the page's submission if the user has filled in the field. If a mandatory field is not filled in, an error message will appear.
-
->[!NOTE]
->
->For more on using checkboxes in a landing page, see the [Update multiple service subscriptions](#multiple-subscriptions) and [Agreement checkbox](#agreement-checkbox) sections.
+![](assets/lp_form-data.png)
 
 ## Mapping form fields {#mapping-form-fields}
 
-Input fields are used to store or update data in the Campaign database. For this, you need to link database fields with input zone, radio button, or checkbox type blocks. To do this:
+To update the Campaign database according to your needs, link relevant database fields to input zone, radio button or checkbox type blocks of your landing page.
 
-1. Select a block in the landing page.
-1. Complete the **[!UICONTROL Form data]** part in the palette.
+To do this, follow the steps below:
 
-   ![](assets/editing_lp_content_4.png)
-
-1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone.
+1. Select a block in the landing page content.
 
    >[!NOTE]
    >
-   >Landing pages can only be mapped with **Profiles**.
+   >The default fields of the built-in landing pages are preconfigured. You can modify them as needed.
 
+1. Access the **[!UICONTROL Form data]** section on the left palette.
 
-1. Check the **[!UICONTROL Mandatory]** option if needed. The page can only be submitted if the user has completed this field. If a mandatory field is not completed, an error message will appear when the user validates the page.
+1. To change the field type, select a value from the **[!UICONTROL HTML type of the field]** drop-down list.
 
-1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**, or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
-   If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.
+   ![](assets/lp_html-field-type.png)
 
->[!NOTE]
->
->The default fields of the built-in landing pages are preconfigured. You can modify them as needed.
+   >[!NOTE]
+   >
+   >For more on using the checkbox type in a landing page, see the [Update multiple service subscriptions](#multiple-subscriptions) and [Agreement checkbox](#agreement-checkbox) sections.
+
+1. If you select a field type that is not compatible with the database field currently selected in the **[!UICONTROL Field]** zone, a warning message will display. For optimal mapping, select an appropriate value.
+
+   ![](assets/lp_field-type-warning.png)
+
+1. Use the **[!UICONTROL Field]** zone to select a database field that will be linked to the form field.
+
+   ![](assets/lp_select-database-field.png)
+
+   >[!NOTE]
+   >
+   >Landing pages can only be mapped with the **[!UICONTROL Profiles]** or **[!UICONTROL Service]** resources.
+
+   In this example, map the **Name** field of your landing page to the **[!UICONTROL Last name]** field of the **[!UICONTROL Profiles]** resource.
+
+   ![](assets/lp_database-field-example.png)
+
+1. Check the **[!UICONTROL Mandatory]** option if needed. In that case, the landing page can only be submitted if the user has filled in this field.
+
+   ![](assets/lp_mandatory-option.png)
+
+   If a mandatory field is not filled in, an error message will display when the user submits the page.
+
+1. Click **[!UICONTROL Confirm]** to save your changes.
+
+<!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
 ## Data storage and reconciliation{#data-storage-and-reconciliation}
 
 Data reconciliation parameters allow you to define how the data entered in the landing page is managed once it has been submitted by a user.
-
+ 
 To do this:
 
 1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Job]** parameters.
 
-   ![](assets/lp_parameters_4.png)
+   ![](assets/lp_parameters_job.png)
 
-1. Select the **[!UICONTROL Reconciliation key]**: these database fields (for example: email, first name, last name) are used to determine whether the visitor has a profile that is already known in the Adobe Campaign database. This allows you to update or create a profile, according to the update strategy parameters defined.
+1. Select the **[!UICONTROL Reconciliation key]**: this database field is used to determine whether the visitor has a profile that is already known in the Adobe Campaign database. It can be for example email, first name, last name. The reconciliation key allows you to update or create a profile, according to the **[!UICONTROL Update strategy]** parameter defined below.
+
 1. Define the **[!UICONTROL Form parameter mapping]**: this section allows you to map the landing page field parameters and those used in the reconciliation key.
-1. Select the **[!UICONTROL Update strategy]**: if the reconciliation key recovers an existing database profile, you can choose for this profile to be updated with the data entered in the form or instead prevent this update.
 
-## Update multiple service subscriptions {#multiple-subscriptions}
+1. Select the **[!UICONTROL Update strategy]**: if the reconciliation key recovers an existing database profile, you can choose for this profile to be updated with the data entered in the form, or instead prevent this update.
+
+   ![](assets/lp_parameters_update-strategy.png)
+
+## Multiple service subscriptions {#multiple-subscriptions}
 
 You can use several checkboxes on a single landing page to allow users to subscribe or unsubscribe from multiple services.
 
@@ -74,7 +96,7 @@ To do this, follow the steps below:
 
 1. When designing the landing page:
 
-   * Select a block, and from the **[!UICONTROL Form data]** palette, choose **[!UICONTROL Checkbox]** as the field type.
+   * Select a block, and from the **[!UICONTROL Form data]** section, choose **[!UICONTROL Checkbox]** as the field type.
 
       ![](assets/lp_field-type-checkbox.png)
 
@@ -82,11 +104,11 @@ To do this, follow the steps below:
 
       ![](assets/lp_show_source.png)
 
-      This will allow you to insert the checkbox where convenient.
+      This allows you to insert the checkbox wherever convenient on the page.
 
       ![](assets/lp-manual-checkbox.png)
 
-1. Make sure the checkbox is selected. From the **[!UICONTROL Type]** drop-down list, select **[!UICONTROL Service and subscription]**.
+1. Make sure the checkbox is selected in your content. The **[!UICONTROL Type]** drop-down list is displayed in the **[!UICONTROL Form data]** section of the left palette. Select **[!UICONTROL Service and subscription]** from the list.
 
    ![](assets/lp_service-and-subscription.png)
 
@@ -94,11 +116,11 @@ To do this, follow the steps below:
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Select a service from the corresponding list.
+1. Select a [service](../../audiences/using/creating-a-service.md) from the corresponding list.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Make sure the **[!UICONTROL Mandatory]** option is unchecked.
+1. Make sure the **[!UICONTROL Mandatory]** option is unchecked. Otherwise, your users will not have a choice.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -106,7 +128,7 @@ To do this, follow the steps below:
 
    ![](assets/lp_multiple-checkboxes.png)
 
-Once the landing page is published, the user can select multiple checkboxes to subscribe to several newsletters from the same page.
+Once the landing page is published, the users can select multiple checkboxes to subscribe to several newsletters from the same page.
 
 ## Agreement checkbox {#agreement-checkbox}
 
@@ -122,13 +144,15 @@ To insert and configure this checkbox, do the following:
 
 1. When designing the landing page:
 
-   * Select a block, and from the **[!UICONTROL Form data]** palette, choose **[!UICONTROL Checkbox]** as the field type.
+   * Select a block, and from the **[!UICONTROL Form data]** section, choose **[!UICONTROL Checkbox]** as the field type.
+
+      ![](assets/lp_field-type-checkbox.png)
 
    * If you are familiar with HTML, you can also manually insert a checkbox using the **[!UICONTROL Show source]** button.
 
       ![](assets/lp_show_source.png)
 
-      Manually insert a checkbox, such as in the example below:
+      <!--Manually insert a checkbox, such as in the example below:
 
       ![](assets/lp_checkbox_code.png)
 
@@ -138,7 +162,7 @@ To insert and configure this checkbox, do the following:
 
    ![](assets/lp_select_checkbox.png)
 
-1. The corresponding drop-down list is displayed in the **[!UICONTROL Form data]** section of the palette. Select **[!UICONTROL Agreement]** from the list.
+1. The **[!UICONTROL Type]** drop-down list is displayed in the **[!UICONTROL Form data]** section of the left palette. Select **[!UICONTROL Agreement]** from the list.
 
    ![](assets/lp_form_data_drop-down.png)
 
