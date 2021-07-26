@@ -84,10 +84,10 @@ Please note that language is set up at installation, and cannot be changed after
 
 ### Homepage {#homepage-shortcuts}
 
-|  Action | Windows shortcut | macOS shortcut |
-| --- | --- | ---|
-| Navigate through individual elements of the user interface| Tab | Tab |
-| Activate the selected item | Enter or Spacebar | Enter or Spacebar |
+|  Action | Shortcut |
+| --- | --- |
+| Navigate through individual elements of the user interface| Tab |
+| Activate the selected item | Enter or Spacebar |
 
 ### Email designer {#email-designer-shortcuts}
 
@@ -104,7 +104,7 @@ Please note that language is set up at installation, and cannot be changed after
 | Save | Ctrl + S  | Command + S |
 | Save as | Shift + Ctrl + S | Shift + Command + S |
 | Refresh project | Alt + R  | Command + R |
-| Download CSV | Shift + Ctrl + V | Shift + Command + V |
+| Download CSV file | Shift + Ctrl + V | Shift + Command + V |
 | Print | Alt + P | Command + P |
 | Undo  | Ctrl + Z | Command + Z |
 | Redo | Ctrl + Y  | Shift + Command + Z |
@@ -115,7 +115,7 @@ Please note that language is set up at installation, and cannot be changed after
 | New bar | Alt + 3 | Option + 3 |
 | Send report now | Alt + S | Option + S |
 | Send report on schedule | Shift + Alt + S | Shift + Option + S |
-| Scheduled reports | Shift + Alt + L |<!-- Should be 'Shift + Option + L ' but does not work on Mac -->| 
+| Scheduled reports | Shift + Alt + L |<!-- Should be 'Shift + Option + L ' but does not work on Mac -->|
 
 ## Further Reading {#further-reading}
 
