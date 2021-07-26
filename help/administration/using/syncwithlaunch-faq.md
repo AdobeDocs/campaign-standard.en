@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 feature: Instance Settings
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 ---

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-templates
 
 feature: Campaigns
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 ---

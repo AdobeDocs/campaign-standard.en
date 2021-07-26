@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: email-messages
 
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 ---

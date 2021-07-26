@@ -8,7 +8,7 @@ topic-tags: deliveries-best-practices
 index: y
 description: "Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities."
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 ---

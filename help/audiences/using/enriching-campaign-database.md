@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-adobe-campaign
 
 feature: Profiles
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
 ---

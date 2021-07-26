@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
 ---

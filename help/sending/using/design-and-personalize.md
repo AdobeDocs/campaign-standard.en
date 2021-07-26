@@ -8,7 +8,7 @@ topic-tags: deliveries-best-practices
 index: y
 description: Learn how to design your message content and try to avoid common issues that could prevent you from executing your delivery. 
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 ---

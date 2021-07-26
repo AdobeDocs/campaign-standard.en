@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
 ---

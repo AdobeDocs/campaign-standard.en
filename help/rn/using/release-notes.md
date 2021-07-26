@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: campaign-standard-releases
 
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 ---

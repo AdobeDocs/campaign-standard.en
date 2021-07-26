@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 feature: Email
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 ---

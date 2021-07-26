@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery 
 feature: Control Groups
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 ---

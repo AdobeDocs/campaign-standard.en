@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: editing-email-content
 
 feature: Email Design
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 ---

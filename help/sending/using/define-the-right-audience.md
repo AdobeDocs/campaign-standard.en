@@ -8,7 +8,7 @@ topic-tags: deliveries-best-practices
 index: y
 description: "When you have your content ready, learn how you carefully define who will receive your message."
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 ---

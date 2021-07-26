@@ -5,7 +5,7 @@ product: campaign
 title: Adobe Campaign Standard product documentation
 description: Browse Campaign Standard product documentation
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 ---

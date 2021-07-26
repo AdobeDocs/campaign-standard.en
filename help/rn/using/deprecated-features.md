@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: campaign-standard-deprecated-features
 
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 ---
@@ -34,6 +34,22 @@ This section lists features and capabilities that have been marked as deprecated
 Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Standard customers, or should not be used for any new implementation. They are also removed from product documentation.
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal version to plan your environment and project updates accordingly.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Experience Cloud Assets integration</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Starting July 2021, Assets is now a legacy core service, under sustenance. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Learn more</a>.</p>
+   <p>For new implementation, you can no longer integrate Experience Cloud Assets with Adobe Campaign Standard.</p>
+     <em>Target removal date: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 

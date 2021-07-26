@@ -8,7 +8,7 @@ topic-tags: deliveries-best-practices
 index: y
 description: Learn how to secure and optimize the sending process upstream.
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 ---

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
 feature: Email
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
 ---

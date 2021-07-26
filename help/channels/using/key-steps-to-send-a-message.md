@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-communication-channels
 
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 ---

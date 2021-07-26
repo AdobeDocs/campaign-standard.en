@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 ---

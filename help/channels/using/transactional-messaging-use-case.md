@@ -9,7 +9,7 @@ topic-tags: transactional-messaging
 context-tags:
 
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 ---

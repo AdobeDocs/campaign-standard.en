@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
 ---

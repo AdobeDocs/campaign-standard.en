@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 70f6038d-9c5e-4e30-a958-913b454e6d61
 ---

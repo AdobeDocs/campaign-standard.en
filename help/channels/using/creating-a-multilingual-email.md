@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: email-messages
 
 feature: Email
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
 ---

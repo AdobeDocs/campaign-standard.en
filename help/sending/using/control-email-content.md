@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 ---

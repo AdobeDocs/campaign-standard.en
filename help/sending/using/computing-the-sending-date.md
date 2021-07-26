@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 
 feature: Performance Monitoring
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 ---

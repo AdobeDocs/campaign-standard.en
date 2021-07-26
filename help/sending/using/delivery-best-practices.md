@@ -8,7 +8,7 @@ topic-tags: deliveries-best-practices
 index: y
 description: Learn best practices related to delivery design and sending with Adobe Campaign.
 feature: Deliverability
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 ---

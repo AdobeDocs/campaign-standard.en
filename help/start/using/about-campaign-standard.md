@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-adobe-campaign
 
 feature: Overview
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 ---

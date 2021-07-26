@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 
 feature: Campaigns
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
 ---

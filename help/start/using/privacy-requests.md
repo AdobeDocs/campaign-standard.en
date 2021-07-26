@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 
 feature: Privacy
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 ---

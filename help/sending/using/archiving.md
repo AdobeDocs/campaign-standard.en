@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 
 feature: Performance Monitoring
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 ---

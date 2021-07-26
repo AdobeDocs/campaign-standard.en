@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 ---
