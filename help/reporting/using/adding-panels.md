@@ -36,25 +36,25 @@ Freeform tables allow you to create a table to analyze your data using the diffe
 
 Each table and visualization is resizable and can be moved to better customize your report.
 
-1. Click the **Panels** icon.
+1. Click the **[!UICONTROL Panels]** icon.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Freeform** item into your dashboard.
+1. Drag and drop the **[!UICONTROL Freeform]** item into your dashboard.
 
-   You can also add a table by clicking the **Insert** tab and selecting **New Freeform** or by clicking **Add a freeform table** in an empty panel. 
+   You can also add a table by clicking the **[!UICONTROL Insert]** tab and selecting **[!UICONTROL New Freeform]** or by clicking **[!UICONTROL Add a freeform table]** in an empty panel. 
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. The **[!UICONTROL Exclude proof]** segment is already selected by default. If needed, you can change it by drag and dropping one of the **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar.
+1. In the **[!UICONTROL Drop a segment here]** field, add a **[!UICONTROL Segment]** from the **[!UICONTROL Components]** tab into the top bar.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Drag and drop items from the **Components** tab into the columns and rows to build your table.
+1. Drag and drop items from the **[!UICONTROL Components]** tab into the columns and rows to build your table.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Click the **Settings** icon to change how the data is displayed in your columns.
+1. Click the **[!UICONTROL Settings]** icon to change how the data is displayed in your columns.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -66,7 +66,7 @@ Each table and visualization is resizable and can be moved to better customize y
     * **[!UICONTROL Background]**: lets you show or hide the horizontal progress bar in cells.
     * **[!UICONTROL Include retries]**: lets you include retries in the result. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
 
-1. Select one or multiple rows and click the **Visualize** icon. A visualization is added to reflect the rows you have selected.
+1. Select one or multiple rows and click the **[!UICONTROL Visualize]** icon. A visualization is added to reflect the rows you have selected.
 
    ![](assets/dynamic_report_freeform_5.png)
 
