@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Calling a workflow with external parameters
-description: This section details thow to call a workflow with external parameters.
+description: This section details how to call a workflow with external parameters.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -16,7 +16,7 @@ exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 
 The use case below shows how to call workflow with parameters within your workflows.
 
-The objective is to trigger a workflow from an API call with external parameters. This workflow will load data into your database from a file and create an associated audience. Once the audience has been created, a second workflow will be triggered to send a message personnalized with the external parameters defined in the API call.
+The objective is to trigger a workflow from an API call with external parameters. This workflow will load data into your database from a file and create an associated audience. Once the audience has been created, a second workflow will be triggered to send a message personalized with the external parameters defined in the API call.
 
 To perform this use case, you need to perform the actions below:
 

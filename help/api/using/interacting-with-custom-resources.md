@@ -19,7 +19,7 @@ The /customResources endpoint has exactly the same behavior as /profileAndServic
 
 The custom resources that are exposed within this API are:
 
-* all the entites that are not exposed under /profileAndServicesExt 
+* all the entities that are not exposed under /profileAndServicesExt 
 * all the entities that are not linked to profile and, for these entities, their children and grandchildren.
 * by default, all entities that are not linked to anything, and their children and grandchildren.
 

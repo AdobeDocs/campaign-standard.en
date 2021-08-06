@@ -149,4 +149,4 @@ In the response, the "status" field allows you to know whether the event has bee
 * **deliveryFailed**: a delivery error occurred while the event was being processed.
 * **routingFailed**: the routing phase failed - this may occur for example when the type of event specified cannot be found.
 * **tooOld**: the event expired before it was able to be processed - this can happen for various reasons, for example, when a send fails several times (this results in the event no longer being up to date) or when the server can no longer process events after becoming overloaded.
-* **targetingFailed**: Campaign Standard failed to enrich a link that is besing used for message targeting.
+* **targetingFailed**: Campaign Standard failed to enrich a link that is being used for message targeting.

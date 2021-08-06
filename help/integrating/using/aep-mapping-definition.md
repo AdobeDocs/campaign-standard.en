@@ -74,4 +74,4 @@ To edit a XDM mapping, open it, modify the desired information then save it.
 
 >[!IMPORTANT]
 >
->For now, if you edit a value in the **[!UICONTROL Field mappings]** section then click outside of the field, your change does not display in the interface until you click the **[!UICONTROL Save]** button. This behaviour occurs only once, when the edit on **[!UICONTROL Field Mappings]** is the first edit on the page.
+>For now, if you edit a value in the **[!UICONTROL Field mappings]** section then click outside of the field, your change does not display in the interface until you click the **[!UICONTROL Save]** button. This behavior occurs only once, when the edit on **[!UICONTROL Field Mappings]** is the first edit on the page.

@@ -16,11 +16,11 @@ exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 
 ## What is the difference between Content blocks and content fragments? 
 
- Content blocks and content fragments are pieces of reusable contents that are common across multiple emails. These are used to ensure consistency across emails and also to optimize/standardize email creation. The differences between content blocks and content fragments are the level of customisation possible.
+ Content blocks and content fragments are pieces of reusable contents that are common across multiple emails. These are used to ensure consistency across emails and also to optimize/standardize email creation. The differences between content blocks and content fragments are the level of customization possible.
 
 * Content blocks are pure HTML where HTML code is inserted manually (not user-friendly UI, it is direct source code). Although it’s really oriented to people with HTML knowledge, it allows level of personalization not available in content fragments.
 
-* Content Fragments are visual piece of content created via the Email Designer, using its userfriendly UI. However, it is not possible to personalize the content. If personalisation is required, it can only be done via content blocks.
+* Content Fragments are visual piece of content created via the Email Designer, using its user-friendly UI. However, it is not possible to personalize the content. If personalization is required, it can only be done via content blocks.
 
 ## How can I add padding to an element from the HTML structure?
 
@@ -30,7 +30,7 @@ You can add padding by using the HTML breadcrumb.
 
    ![](assets/do-not-localize/breadcrumb.png)
 
-1. Click on the element you want to add a padding. 
+1. Click on the element you want to add a padding.
 1. Click on the parent tag in the HTML breadcrumb.
 You can now add a padding to this element.
 

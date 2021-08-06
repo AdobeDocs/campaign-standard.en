@@ -81,7 +81,7 @@ Personalized messages are key to send relevant content, offer personalized exper
 
 * Discover email personalization through a [end-to-end sample](../../designing/using/personalization.md#example-email-personalization)
 * [Personalizing URLs](../../designing/using/personalization.md#personalizing-urls)
-* [Settin up personalization of an image](../../designing/using/personalization.md#personalizing-an-image-source)
+* [Setting up personalization of an image](../../designing/using/personalization.md#personalizing-an-image-source)
 
 ## Track and monitor your deliveries
 

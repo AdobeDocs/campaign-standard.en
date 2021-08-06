@@ -380,7 +380,7 @@ The tables below give you the list of metrics used in reports and their definiti
 
 >[!NOTE]
 >
->By default, the **[!UICONTROL Exclude proof]** segment is alredy selected to filter your reports but can be changed if needed.
+>By default, the **[!UICONTROL Exclude proof]** segment is already selected to filter your reports but can be changed if needed.
 
 The table below gives you the list of segments used in reports and their definitions.
 

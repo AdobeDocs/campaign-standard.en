@@ -26,7 +26,7 @@ Subscriptions can also be managed using the Adobe Campaign Standard API. For mor
 
 Follow the steps below to create a subscription mechanism:
 
-1. **Create a service** - follow the steps decribed [in this section](../../audiences/using/creating-a-service.md) to create a subscription service
+1. **Create a service** - follow the steps described [in this section](../../audiences/using/creating-a-service.md) to create a subscription service
 1. **Share the link** - learn how to promote and share your service [in this page](../../audiences/using/promoting-a-service.md)
 1. **Monitor subscriptions** - discover several ways to monitor subscriptions to your service [in this section](../../audiences/using/monitoring-subscriptions.md)
 1. **Confirm subscriptions** - follow [this tutorial](../../audiences/using/confirming-subscription-to-a-service.md) to send a subscription confirmation message

@@ -45,7 +45,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Error management in workflows</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Workflow execution troubleshootings</a></li>
         <li><a href="api/using/troubleshooting.md">API troubleshootings</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Understand delivery failuress</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -124,4 +124,4 @@ Creating a case allows you to contact the Adobe Customer Support Team about any 
 
 To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Follow the detailled procedure described in [this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

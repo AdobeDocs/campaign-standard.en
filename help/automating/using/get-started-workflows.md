@@ -75,7 +75,7 @@ With [Import templates](../../automating/using/importing-data-with-import-templa
 
 [Exporting logs](../../automating/using/exporting-logs.md) let you export log data through a simple workflow, allowing you to analyse the resultats of your marketing campaigns in your own reporting or BI tools.
 
-Leverage [Packages](../../automating/using/managing-packages.md) to exchange resources between different campaign instances, for example, to replicate the configuation of an instance, or to transfer data from a server to another including custom resources.
+Leverage [Packages](../../automating/using/managing-packages.md) to exchange resources between different campaign instances, for example, to replicate the configuration of an instance, or to transfer data from a server to another including custom resources.
 
 Finally, [Exporting lists](../../automating/using/exporting-lists.md) allow you to export any list from Campaign Standard like, for example, the list of test profiles, the list of quarantines email addresses, etc.
 

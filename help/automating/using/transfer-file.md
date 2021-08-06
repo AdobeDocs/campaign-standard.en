@@ -68,7 +68,8 @@ You can use this activity to recover data that will then be structured with the 
 
 The HTTP protocol allows you to start downloading a file from an external account or from a URL.
 
-With this procotol, you can choose to **[!UICONTROL Use connection parameters defined in an external account]** option. In this case select the account you would like and specify the path of the file to download.
+With this protocol, you can choose to **[!UICONTROL Use connection parameters defined in an external account]** option. In this case select the account you would like and specify the path of the file to download.
+
  ![](assets/wkf_file_transfer_03.png)
 
 You can also choose the **[!UICONTROL Quick configuration]** option. You only need to enter the URL in the URL field.
@@ -78,7 +79,7 @@ You can also choose the **[!UICONTROL Quick configuration]** option. You only ne
 
 The SFTP protocol allows you to start downloading a file from a URL or an external account.
 
-With this procotol, you can choose to **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
+With this protocol, you can choose to **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -173,5 +174,5 @@ Note that event variables can also be passed to another workflow using an extern
 
 Available output variables are:
 
-* **[!UICONTROL fileName]**: name of the transfered files.
-* **[!UICONTROL filesCount]**: number of transfered files.
+* **[!UICONTROL fileName]**: name of the transferred files.
+* **[!UICONTROL filesCount]**: number of transferred files.
