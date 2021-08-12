@@ -33,7 +33,7 @@ Tracking with the Adobe Campaign Standard allows you to access to the following 
         <a href="../../administration/using/configuring-email-channel.md#tracking-parameters"><img width="60px" alt="conditions" src="assets/icon_email_parameters.png"/></a>
     </td>
     <td valign="top">
-        <a href="https://helpx.adobe.com/campaign/kb/push-tracking.html"><img width="60px" alt="conditions" src="assets/icon_push_parameters.png"/></a>
+        <a href="../../administration/using/push-tracking.md"><img width="60px" alt="conditions" src="assets/icon_push_parameters.png"/></a>
     </td>
     <td valign="top">
         <a href="../../designing/using/links.md#about-tracked-urls"><img width="60px" alt="conditions" src="assets/icon_url.png"/></a>
