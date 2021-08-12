@@ -553,9 +553,9 @@ A use case was added on how to extend the profiles custom resource. [Read more](
 
 Added information on how to link custom resources. [Read more](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-A new technote has been added on how to display an image from an Adobe Campaign Standard push notification. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+A new technote has been added on how to display an image from an Adobe Campaign Standard push notification. [Read more](../../administration/using/image-push-notification.md)
 
-A new technote on push tracking implementation has been added. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
+A new technote on push tracking implementation has been added. [Read more](../../administration/using/push-tracking.md)
 
 The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -843,7 +843,7 @@ The 'Custom resources' section has been clarified with a more detailed procedure
 
 Updated and clarified the [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) on how to integrate the Adobe Marketing Cloud Mobile SDK with a mobile app to receive Adobe Campaign Standard push notifications.
 
-Added a technote explaining the structure of the payload received in a mobile app. [Read more.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Added a technote explaining the structure of the payload received in a mobile app. [Read more.](../../administration/using/push-payload.md)
 
 The Push channel configuration [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) has been updated with new payload data on OS version to add when defining postbacks in the Adobe Mobile Services interface.
 

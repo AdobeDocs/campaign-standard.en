@@ -116,7 +116,7 @@ The new ticketing system has been through [Adobe Admin Console](https://admincon
 
 ### Ask the experts!
 
-Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Create a ticket or start a chat
 

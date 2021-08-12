@@ -16,7 +16,7 @@ exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 
 To fine-tune your push notification, Adobe Campaign allows you to access a set of advanced options while designing a push notification.
 
-As an expert user, to configure mobile applications in Adobe Campaign, refer to the following technote [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+As an expert user, to configure mobile applications in Adobe Campaign, refer to the following technote [Understanding Campaign Standard Push Notifications Payload Structure](../../administration/using/push-payload.md).
 
 ![](assets/push_notif_advanced.png)
 
@@ -146,7 +146,7 @@ To include rich media in the push notification:
 1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
 1. Enter the URL of your file in the **[!UICONTROL Rich media content URL]** field for each format: iOS and Android.
 
-   For iOS 10 or higher, you can insert image, gif, audio and video files. For earlier iOS versions, the push notification will be displayed without rich content. For detailed steps on how to display an image from an Adobe Campaign push notification on an iOS device, refer to this [page](https://helpx.adobe.com/campaign/kb/display-image-push.html).
+   For iOS 10 or higher, you can insert image, gif, audio and video files. For earlier iOS versions, the push notification will be displayed without rich content. For detailed steps on how to display an image from an Adobe Campaign push notification on an iOS device, refer to this [page](../../administration/using/image-push-notification.md).
 
    For Android, you can only include images.
 
