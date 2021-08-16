@@ -2,10 +2,10 @@
 solution: Campaign Standard
 product: campaign
 title: Data retention
+description: Standard log tables in Campaign have pre-set retention periods on them, generally limiting their data storage to 6 months or less. Learn about the default retention values for standard tables.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-
 feature: Instance Settings
 role: Admin
 level: Experienced
