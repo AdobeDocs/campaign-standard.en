@@ -40,8 +40,8 @@ This page describes new features, improvements and fixes included in the next Ca
 <li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
 <li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>
+<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
+</p>-->
 </td> 
 </tr> 
 </tbody> 
@@ -63,8 +63,8 @@ This page describes new features, improvements and fixes included in the next Ca
 <li>What was the previous state?</li>
 </ul>
 <p>Adobe Campaign now audits creation, edition and deletion actions for: workflows, options, custom resources. Modifications of those items are also tracked.</p>
-<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
 </td> 
 </tr> 
 </tbody> 
