@@ -71,9 +71,25 @@ This page describes new features, improvements and fixes included in the next Ca
 </table>
 
 
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Workflow diagnostic mode</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>You can now run Campaign workflows in diagnostic mode. This mode logs information to help troubleshooting execution issues. The whole execution plan is logged if a workflow query takes, by default, more than one minute.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
 **Improvements**
 
-* You can now run Campaign workflows in diagnostic mode. This mode logs information to help troubelshooting execution issues. The whole execution plan is logged if a workflow query takes more than 1 minute.
 * When creating a recurring delivery in a workflow, linked to an Adobe Experience Manager content, content approval status is now checked before sending.
 * Database connection limit is now aligned with the Campaign package to avoid connection errors.
 * Added a consistency check while creating indexes in custom resources and improved error message.
