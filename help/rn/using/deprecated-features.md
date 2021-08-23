@@ -38,7 +38,39 @@ Customers are advised to review if they make use of the feature/capability in th
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Experience Cloud Assets integration</strong><br /> </th> 
+   <th> <strong>Integration with Audience Destinations service</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Starting Campaign Standard 21.3 release, integration with Audience Destinations service is deprecated. </p>
+   <p>For new implementation, you can no longer integrate Audience Destinations service with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Learn more</a>.</p>
+     <em>Target removal date: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integration with Adobe Experience Platform Data Connector</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Starting Campaign Standard 21.3 release, integration with Adobe Experience Platform Data Connector is deprecated. </p>
+   <p>For new implementation, you can no longer integrate Adobe Experience Platform Data Connector with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Learn more</a>.</p>
+     <em>Target removal date: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Adobe Experience Cloud Assets integration</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
