@@ -94,6 +94,12 @@ This page describes new features, improvements and fixes included in the next Ca
 * Database connection limit is now aligned with the Campaign package to avoid connection errors.
 * Added a consistency check while creating indexes in custom resources and improved the error messages.
 
+**Other changes**
+
+* Adobe Experience Platform Data Connector and Audience Destinations service are now deprecated with Campaign Standard. If you are using these capabilities, you need to move to Adobe Sources and Destinations and adapt your implementation. [Learn more](../../integrating/using/get-started-sources-destinations.md)
+
+    Deprecated and removed features are listed in [this page](deprecated-features.md).
+
 **Patches**
 
 * Fixed a timeout error when importing email content from a URL. (CAMP-49054)
