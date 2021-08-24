@@ -5,7 +5,6 @@ title: Get started with Sources and Destinations
 description: Learn more about Adobe Experience Platform Sources and Destinations.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68

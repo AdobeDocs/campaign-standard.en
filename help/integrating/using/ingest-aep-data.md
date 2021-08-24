@@ -5,7 +5,6 @@ title: Ingest Adobe Experience Platform audiences into Campaign
 description: Learn how to ingest Adobe Experience Platform audiences into Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
