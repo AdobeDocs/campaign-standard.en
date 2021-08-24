@@ -92,7 +92,7 @@ This page describes new features, improvements and fixes included in the next Ca
 
 * When creating a recurring delivery in a workflow, linked to an Adobe Experience Manager content, content approval status is now checked before sending.
 * Database connection limit is now aligned with the Campaign package to avoid connection errors.
-* Added a consistency check while creating indexes in custom resources and improved error message.
+* Added a consistency check while creating indexes in custom resources and improved the error messages.
 
 **Other changes**
 
