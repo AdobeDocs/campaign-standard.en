@@ -80,15 +80,6 @@ To access your instance's Audit trail:
     * **[!UICONTROL Changed date]**: Date of the last action performed on this entity.
     * **[!UICONTROL Content]**: Code block which gives you more information on what was changed exactly in your entity.
 
+    In this example, we can see that the workflow WKF110 has been started on August 26th by the Business administrator of this instance.
+
     ![](assets/audit-trail_3.png)
-
-
-
-
-
-
-
-
-
-
-
