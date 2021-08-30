@@ -10,8 +10,6 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-hide: yes
-hidefromtoc: yes
 ---
 # Audit trail {#audit}
 
@@ -23,11 +21,11 @@ The **[!UICONTROL Audit trail]** gives you access to the complete history of cha
 
 **[!UICONTROL Audit trail]** consists of three components:
 
-* **Custom Resources Audit trail**: check the activity & last modification done to custom resources.
+* **Custom Resources Audit trail**: check the activity and last modification done to custom resources.
 
     For more information on **[!UICONTROL Custom resources]**, refer to this [page](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Workflow Audit trail**: check the activity & last modification done to workflows, and additionally, the state of your workflows such as:
+* **Workflow Audit trail**: check the activity and last modification done to workflows, and additionally, the state of your workflows such as:
 
   * Created
   * Modified
@@ -45,7 +43,7 @@ The **[!UICONTROL Audit trail]** gives you access to the complete history of cha
 
   For more information on **[!UICONTROL Workflows]**, refer to this [page](../../automating/using/get-started-workflow.md).
 
-* **Option Audit trail**: check the activity & last modification done to options.
+* **Option Audit trail**: check the activity and last modification done to options.
 
     For more information on **[!UICONTROL Options]**, refer to this [page](../../administration/using/about-campaign-standard-settings.md).
 
