@@ -49,7 +49,7 @@ The **[!UICONTROL Audit trail]** gives you access to the complete history of cha
 
 Note that, by default, retention period is 30 days.
 
-# Accessing Audit trail {#audit-access}
+## Accessing Audit trail {#audit-access}
 
 To access your instance's Audit trail:
 
@@ -81,3 +81,22 @@ To access your instance's Audit trail:
     In this example, we can see that the workflow WKF110 has been started on August 26th by the Business administrator of this instance.
 
     ![](assets/audit-trail_3.png)
+
+## Enable/disable Audit trail {#enable-disable-audit}
+
+Audit trail can be easily activated or deactivated for a specific activity.
+
+To do so:
+
+1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+
+1. Select one of the following option depending on the entity you want to disable:
+
+    * **[!UICONTROL XtkAudit_Workflows]** option to manage the Audit trail for Workflows.
+    * **[!UICONTROL XtkAudit_ Option]** option to manage the Audit trail for Options.
+    * **[!UICONTROL XtkAudit_CusResource]** option to manage the Audit trail for Custom resources.
+    * **[!UICONTROL XtkAudit_Enable_All]** option to manage the Audit trail for every entity.
+
+1. From your Option page, set the **[!UICONTROL Value (integer)]** to 0 if you want to disable the **[!UICONTROL Audit trail]** or to 1 to enable it.
+
+1. Click **[!UICONTROL Save]**.
