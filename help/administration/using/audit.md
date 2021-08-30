@@ -93,7 +93,7 @@ To do so:
 1. Select one of the following option depending on the entity you want to disable:
 
     * **[!UICONTROL XtkAudit_Workflows]** option to manage the Audit trail for Workflows.
-    * **[!UICONTROL XtkAudit_ Option]** option to manage the Audit trail for Options.
+    * **[!UICONTROL XtkAudit_Option]** option to manage the Audit trail for Options.
     * **[!UICONTROL XtkAudit_CusResource]** option to manage the Audit trail for Custom resources.
     * **[!UICONTROL XtkAudit_Enable_All]** option to manage the Audit trail for every entity.
 
