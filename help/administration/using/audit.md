@@ -80,6 +80,9 @@ To access your instance's Audit trail:
     * **[!UICONTROL Changed date]**: Date of the last action performed on this entity.
     * **[!UICONTROL Content]**: Code block which gives you more information on what was changed exactly in your entity.
 
+    ![](assets/audit-trail_3.png)
+
+
 
 
 
