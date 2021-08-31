@@ -32,9 +32,9 @@ Possible options are:
 
 * **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
 
-* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: check this options if you want the whole execution plan to be logged if the query takes more than one minute. It is disabled by default. 
+* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: check this options if you want the whole execution plan to be logged. It is disabled by default. 
 
-  For more information on this option, refer to this section. 
+  For more information on this option, refer to this [section](#diagnostic-mode). 
 
 * **[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions.
   
@@ -50,11 +50,23 @@ The **[!UICONTROL Error management]** section provides additional options that a
 
 ## Diagnostic mode {#diagnostic-mode}
 
-When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** option in the **[!UICONTROL Execution]** section of the workflow properties loggs the whole execution plan if a query takes more than one minute.
+When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** option in the **[!UICONTROL Execution]** section of the workflow properties logs the whole execution plan if a query takes more than one minute.
 
 ![](assets/wkf_diagnostic.png)
 
 After enabling this option and launching your workflow, if your query takes more than one minute, the execution plan will be logged.
+
+First one is to get the execution plan when the query ran by using EXPLAIN ANALYZE [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
+
+In addition, there will recommendation to create an index with the help of a filter expression. The logic for the recommendation is as follows(the intersection of all conditions will be taken)
+
+* The query takes more than 1 minute to execute
+* There is a sequence scan in the query
+* The sequence take more than 40 percent time of the query
+* The Actual rows that we get after the sequence scan are less than 1 percent of the total rows present in the table(This is to eliminate the cases where most of the table is queried for intentionally)
+
+![](assets/wkf_diagnostic_4.png)
+
 
 You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
