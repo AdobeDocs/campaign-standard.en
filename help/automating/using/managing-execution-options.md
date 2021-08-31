@@ -54,8 +54,14 @@ When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long runn
 
 ![](assets/wkf_diagnostic.png)
 
+After enabling this option and launching your workflow, if your query takes more than one minute, the execution plan will be logged.
+
 You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
- * **[!UICONTROL DiagnosticModeQueryTime]**: To control the time after the execution plan of the query will be logged and be considered for analysis of sequence scans
+ * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: To control the time after the execution plan of the query will be logged and be considered for analysis of sequence scans
 
- * **[!UICONTROL DiagnosticModeSeqScanPercentage]**: Percentage of query time the sequence scan has to take for the recommendation to be generated
+    ![](assets/wkf_diagnostic_2.png)
+
+ * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Percentage of query time the sequence scan has to take for the recommendation to be generated.
+
+      ![](assets/wkf_diagnostic_3.png)
