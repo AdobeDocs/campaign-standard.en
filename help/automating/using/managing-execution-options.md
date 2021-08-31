@@ -32,6 +32,10 @@ Possible options are:
 
 * **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
 
+* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: check this options if you want the whole execution plan to be logged if the query takes more than one minute. It is disabled by default. 
+
+  For more information on this option, refer to this section. 
+
 * **[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions.
   
   >[!CAUTION]
@@ -43,3 +47,15 @@ Possible options are:
 * **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. This field is used by Adobe teams only for monitoring purposes.
 
 The **[!UICONTROL Error management]** section provides additional options that allow you to manage how workflows behave in case of errors. These options are detailed in the [Error management](../../automating/using/monitoring-workflow-execution.md#error-management) section.
+
+## Diagnostic mode {#diagnostic-mode}
+
+When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** option in the **[!UICONTROL Execution]** section of the workflow properties loggs the whole execution plan if a query takes more than one minute.
+
+![](assets/wkf_diagnostic.png)
+
+You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
+
+ * **[!UICONTROL DiagnosticModeQueryTime]**: To control the time after the execution plan of the query will be logged and be considered for analysis of sequence scans
+
+ * **[!UICONTROL DiagnosticModeSeqScanPercentage]**: Percentage of query time the sequence scan has to take for the recommendation to be generated
