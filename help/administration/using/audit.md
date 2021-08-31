@@ -90,6 +90,8 @@ To do so:
 
 1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
+    ![](assets/audit-trail_4.png)
+
 1. Select one of the following option depending on the entity you want to disable:
 
     * **[!UICONTROL XtkAudit_Workflows]** option to manage the Audit trail for Workflows.
@@ -97,6 +99,10 @@ To do so:
     * **[!UICONTROL XtkAudit_CusResource]** option to manage the Audit trail for Custom resources.
     * **[!UICONTROL XtkAudit_Enable_All]** option to manage the Audit trail for every entity.
 
-1. From your Option page, set the **[!UICONTROL Value (integer)]** to 0 if you want to disable the **[!UICONTROL Audit trail]** or to 1 to enable it.
+    ![](assets/audit-trail_5.png)
+
+1. From your **[!UICONTROL Options]** page, set the **[!UICONTROL Value (integer)]** to 0 if you want to disable the **[!UICONTROL Audit trail]** or to 1 to enable it.
+
+    ![](assets/audit-trail_6.png)
 
 1. Click **[!UICONTROL Save]**.
