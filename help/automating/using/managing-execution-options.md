@@ -56,24 +56,23 @@ When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long runn
 
 After enabling this option and launching your workflow, if your query takes more than one minute, the execution plan will be logged.
 
-First one is to get the execution plan when the query ran by using EXPLAIN ANALYZE [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
+You can then retrieve your execution plan by using an EXPLAIN ANALYZE. For more information on this, refer to [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-In addition, there will recommendation to create an index with the help of a filter expression. The logic for the recommendation is as follows(the intersection of all conditions will be taken)
+The **[!UICONTROL Diagnostic mode]** will also provide recommendation on how to create an index with the help of a filter expression if the following happens during your workflow execution:
 
-* The query takes more than 1 minute to execute
-* There is a sequence scan in the query
-* The sequence take more than 40 percent time of the query
-* The Actual rows that we get after the sequence scan are less than 1 percent of the total rows present in the table(This is to eliminate the cases where most of the table is queried for intentionally)
+* The query takes more than 1 minute to execute.
+* You have a sequence scan in the query.
+* The sequence take more than 40% time of the query.
+* The resulting rows after the sequence scan are less than 1 % of the total rows present in the table.
 
 ![](assets/wkf_diagnostic_4.png)
 
-
 You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
- * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: To control the time after the execution plan of the query will be logged and be considered for analysis of sequence scans
+ * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: From the **[!UICONTROL Value]** field, you can change the time after which the execution plan will be logged.
 
     ![](assets/wkf_diagnostic_2.png)
 
- * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Percentage of query time the sequence scan has to take for the recommendation to be generated.
+ * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: From the **[!UICONTROL Value]** field, you can change the percentage of Query time the sequence scan has to take for the recommendation to be generated.
 
       ![](assets/wkf_diagnostic_3.png)
