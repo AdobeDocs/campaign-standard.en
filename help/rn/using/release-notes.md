@@ -112,14 +112,14 @@ New features, improvements and fixes included in the latest Campaign Standard re
 **Patches**
 
 * Fixed a timeout error when importing email content from a URL. (CAMP-49054)
-* Fixed an error (-69) caused by end of session, when accessing a bookmarked URL or refreshing a page from the browser. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Fixed an error (-69) caused by an end of session, when accessing a bookmarked URL or refreshing a page from the browser. (CAMP-49003, CAMP-48930, CAMP-48894)
 * Fixed an issue when synchronizing rules from the legacy deliverability server to the new deliverability server. (CAMP-48923)
 * Fixed an issue when loading an email template with HTML tags in the Email Designer. (CAMP-48243)
 * Fixed an error where Adobe Experience Manager content was not loading when creating transactional messages with the Email designer. (CAMP-49075)
 * Fixed an issue in the interface where too much padding was added between the top bar and the content.
 * Fixed an issue with transactional messages which could lead to a publication error when using Campaign content blocks in Adobe Experience Manager content. (CAMP-49233)
 * Fixed an issue which could lead to an error message when the authentication failed. The user is now redirected to the login page.
-* Fixed an token display issue which could prevent users from editing or sharing a report.
+* Fixed a token display issue which could prevent users from editing or sharing a report.
 * Fixed an issue during the publication of a custom resource using a filter expression with 1-n table relationships. (CAMP-48740)
 * Fixed a date formatting issue that prevented delivery contact dates from being retrieved in workflow transitions. (CAMP-48871)
 * Fixed an issue that prevented the extension of sending logs during the creation of a custom profile dimension.
@@ -128,7 +128,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 * Fixed an issue that caused the last execution date of the incremental query activity field to be missing from the **Processed Data** tab after running the incremental query workflow. (CAMP-48879)
 * Fixed an issue that prevented you from properly defining a dynamic segment code in the **Segmentation** workflow activity. (CAMP-48727)
 * Fixed an error that randomly occurred when trying to save a workflow after editing it. (CAMP-48695)
-* Fixed an issue that prevented you from publishing custom resources due to a trigger's data schema remaining even after the trigger's deletion. (CAMP-48588, CAMP-48523)
+* Fixed an issue that prevented you from publishing custom resources due to a trigger's data schema remaining even after the trigger's deletion. (CAMP-48523)
 * Fixed an issue that prevented the feedback loop requests from being honored, because the InMail process was not able to retrieve the delivery logs to update. (CAMP-48705)
 * Fixed an issue that prevented you from properly defining the exclusion options in the **Exclusion** workflow activity.(CAMP-48355)
 * Fixed an issue that occurred when enrichment activities in workflows involved subscriptions to or unsubscriptions from a service. This issue led to crashing. 
