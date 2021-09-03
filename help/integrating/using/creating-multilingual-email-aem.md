@@ -122,4 +122,8 @@ Your language copies are now created, you can now edit your content depending on
 
 1. Your email is now ready to be send. For more information on this, refer to this [page](../../sending/using/get-started-sending-messages.md).
 
+    >[!NOTE]
+    >
+    >You will not be able to send an email in Adobe Campaign if it uses an AEM content that has not been approved.
+
 Your audience will receive your email depending on the **[!UICONTROL Preferred languages]** set in their **[!UICONTROL Profiles]**. To learn more on how to edit profiles and preferred languages, refer to this [page](../../audiences/using/editing-profiles.md).
