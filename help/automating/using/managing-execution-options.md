@@ -58,11 +58,10 @@ After enabling this option and launching your workflow, if your query takes more
 
 You can then retrieve your execution plan by using an EXPLAIN ANALYZE. For more information on this, refer to [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-The **[!UICONTROL Diagnostic mode]** will also provide recommendation on how to create an index with the help of a filter expression if the following happens during your workflow execution:
+If you have a sequence scan in this query, the **[!UICONTROL Diagnostic mode]** will also provide recommendations on how to create an index with the help of a filter expression. The following two conditions must be met during your workflow execution to trigger recommendations:
 
-* The query takes more than 1 minute to execute.
-* You have a sequence scan in the query.
 * The sequence takes more than 40% time of the query.
+
 * The resulting rows after the sequence scan are less than 1 % of the total rows present in the table.
 
 ![](assets/wkf_diagnostic_4.png)
