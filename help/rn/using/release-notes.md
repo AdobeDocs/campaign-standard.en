@@ -15,90 +15,124 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 # Latest Release{#latest-release}
 
-## Release 21.2 - June 2021 {#release-21-2---june-2021}
+## Release 21.3 - September 2021 {#release-21-3---sept-2021}
 
-New features, improvements and fixes included in the next Campaign Standard release are listed below. New features, improvements and fixes included in this Campaign Standard release are listed below.
+New features, improvements and fixes included in the latest Campaign Standard release are listed below. 
+
+**What's new?**
+
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
+<ul>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
+</ul>
+<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Audit Trail</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>The new Audit Trail capability captures, in real-time, a comprehensive list of actions and events occurring within Adobe Campaign. It includes a self-serve way to access a history of data to help answer questions such as:</p>
+<ul>
+<li>What happened to this workflow, and who last updated it?</li>
+<li>Who did the last changes?</li>
+<li>What was the previous state?</li>
+</ul>
+<p>Adobe Campaign now audits creation, edition and deletion actions for: workflows, options, custom resources. Modifications of those items are also tracked.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Workflow diagnostic mode</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>You can now run Campaign workflows in diagnostic mode. This mode logs information to help troubleshooting execution issues. The whole execution plan is logged if a workflow query takes, by default, more than one minute.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Security improvements**
+
+* Security has been enhanced for protection against SSRF attacks. (CAMP-47836)
+* The list of users is now restricted to administrators only. (CAMP-47260)
+* Environment variables can no longer be used as part of parameter expansion in a URL. (CAMP-47268)
 
 **Improvements**
 
-* When designing a landing page, you can now add a mandatory checkbox that profiles are required to select before submitting the form. For more information refer to the [detailed documentation](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
-
-* For the Triggers integration, the error message displayed when there is no reconciliation data coming in the trigger payload has been improved: "Alias data missing from payload".
-
-* Performance to retrieve push notifications from the queue has been improved.
+* When creating a recurring delivery in a workflow, linked to an Adobe Experience Manager content, content approval status is now checked before sending.
+* Database connection limit is now aligned with the Campaign package to avoid connection errors.
+* Added a consistency check while creating indexes in custom resources and improved the error messages.
 
 **Other changes**
 
-* The URL signature mechanism for tracking links has been disabled to prevent an issue that was causing some valid, signed tracking links to be incorrectly blocked after being modified by third-party security tools.
-
-* In multi-variant deliveries, users can no longer create language copies if the default variant has been deleted. A message is now displayed during language copy creation. (CAMP-48235)
-
-* The 2-step profile deletion process (deprecated starting Campaign 19.4 release) is now disabled by default. Previously it had to be manually disabled from the Campaign interface before using the Privacy Core Service. Not doing so would cause Delete requests to remain in pending state without completing.
-
-* In Dynamic reports, the **Exclude Proof** segment has been removed. (CAMP-46161)
-
-* A new warning message has been added to inform the user when an iOS certificate is uploaded without the platformPrincipal value in the Campaign application.
-
-* The maximum size of an email is now set to 100 MB by default. This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash. (CAMP-47445) [Learn more](../../sending/using/design-and-personalize.md#email-size) 
-
-* The Asset Core Service integration with the Email designer can now be used by Standard Users.  
-
-* A new message has been added to confirm a successful migration from a v4 push application to a v5 push application.
-
-* During JSONWeb Tokens creation to authenticate to the Campaign Standard API, the product profiles are now **considered**. This means that the organizational units and roles allocated to the security group (that matches the product profile on AdobeIO) will be applied to the IMS technical account needed for Campaign Standard Rest API calls. (CAMP-47479)
+* Adobe Experience Platform Data Connector and Audience Destinations service are now deprecated with Campaign Standard. If you are using these capabilities, you need to move to Adobe Sources and Destinations and adapt your implementation. [Learn more](../../integrating/using/get-started-sources-destinations.md)
+* Deprecated and removed features are listed in [this page](deprecated-features.md).
+* A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077)
+* The **Update delivery indicators** (updateDeliveryIndicators) technical workflow has been improved for better performance.
+* In-App messaging templates are now available for all languages supported in Campaign Standard.
+* Delivery preparation time has been optimized for transactional messages by reducing the number of calls to the tracking server during delivery analysis.
+* A new alert message informs users of a high bounce rate.
+* Improved log error messages and warnings to make debugging easier when the tracking logs failed to be correctly retrieved. (CAMP-48939, CAMP-47360)
+* You can now fully personalize URLs, including the domain name.
 
 **Patches**
 
-* Fixed an issue which prevented the expiry option for the batch process log table (**xtkjoblog**) table from being applied. This prevented the table from being correctly purged.
-
-* Fixed an issue which prevented you from changing the order of filters in a **Segmentation** workflow activity. (CAMP-48357)
-
-* Fixed a regression from 20.4 that could lead to deliveries failing with a null value error. (CAMP-48591)
-
-* Fixed an issue which prevented you from sending a report through the **Share** > **Send Report Now** or **Send Report on Schedule** menu. (CAMP-47798)
-
-* Fixed a regression which could lead to incorrect open rates for Gmail due to the filtering of tracking events received from Gmail accounts. (CAMP-46504)
-
-* Fixed various issues causing data discrepancy between reports in Adobe Campaign Standard and reports in Adobe Analytics. (CAMP-47671, CAMP-47296)
-
-* Fixed an issue that prevented you from accessing the delivery logs after preparation had failed. (CAMP-48296)
-
-* Fixed an issue which could display an error message when trying to edit, delete or send a custom report. (CAMP-47789, CAMP-47798)
-
-* Fixed an issue causing the APIs calls to fail when creating a new custom resource and enabling the **Do not synchronize** option. (CAMP-48014)
-
-* Fixed an issue where custom resources with the **Do not synchronize** option enabled could reference a schema that had been redrafted or deleted. This issue was causing an error when publishing the custom resources.
-
-* Fixed an SMS opt-out issue when using multiple short codes on the same external account.
-
-* Fixed an issue which prevented you from accessing a new delivery alerting criterion ("the resource you are trying to access is unreachable") after publishing the database. (CAMP-48221)
-
-* Fixed an issue where tracking logs were missing in some Campaign instances with Dynamic reporting. A new [technical workflow](../../administration/using/technical-workflows.md) has been added to restore these tracking logs. (CAMP-47885)
-
-* Fixed an issue where no delivery data was displayed in Dynamic reports. Reports were set to 0. (CAMP-47480)
-
-* Fixed an issue which prevented the Server JavaScript HTTP Client from connecting to external URL.
-
-* Fixed an issue which reset an **Incremental query** activity after changing the internal name of the workflow. This occurred when a date field was used as incremental mode. (CAMP-47674)
-
-* Fixed an issue which prevented the preview thumbnail from displaying in the delivery summary, when creating a multilingual email with the Adobe Experience Manager integration. This issue occurred when using the **Language copy creation** button to create the email variants. (CAMP-47810)
-
-* Fixed an issue which prevented users from accessing the parent delivery from the Email or SMS child delivery. (CAMP-47986)
-
-* Fixed an issue which could cause excess CPU and memory consumption when sending transactional messages via the REST API with a missing custom event. (CAMP-47147)
-
-* Fixed an error with the Transactional Messaging API which sometimes prevented realtime messages from being sent.
-
-* Fixed an issue where reports were not received after using the **Send report on schedule** option. (CAMP-48583, CAMP-47786)
-
-* Fixed an issue where reports received after using the **Send report now option** were incomplete and missing data. (CAMP-48583)
-
-* Fixed an issue with the Email Designer where an image's dimensions were narrowed down when uploading an image. (CAMP-47017)
-
-* Fixed an issue which prevented every available Experience Manager template from being displayed when creating a delivery. (CAMP-48132)
-
-* Fixed an error which prevented the Campaign link in the Summary page of a sent delivery from redirecting the users to the related campaign. (CAMP-48012)
-
-* Fixed an issue in the Email Designer where the Asset Core Service integration kept failing when trying to select an asset. (CAMP-47446)
-
-* Fixed an issue that blocked some Journey Orchestration deliveries due to Campaign not supporting timestamps with an exact value (i.e. ending with 00) sent by events from Journey Orchestration.
+* Fixed a timeout error when importing email content from a URL. (CAMP-49054)
+* Fixed an error (-69) caused by an end of session, when accessing a bookmarked URL or refreshing a page from the browser. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Fixed an issue when synchronizing rules from the legacy deliverability server to the new deliverability server. (CAMP-48923)
+* Fixed an issue when loading an email template with HTML tags in the Email Designer. (CAMP-48243)
+* Fixed an error where Adobe Experience Manager content was not loading when creating transactional messages with the Email designer. (CAMP-49075)
+* Fixed an issue in the interface where too much padding was added between the top bar and the content.
+* Fixed an issue with transactional messages which could lead to a publication error when using Campaign content blocks in Adobe Experience Manager content. (CAMP-49233)
+* Fixed an issue which could lead to an error message when the authentication failed. The user is now redirected to the login page.
+* Fixed a token display issue which could prevent users from editing or sharing a report.
+* Fixed an issue during the publication of a custom resource using a filter expression with 1-n table relationships. (CAMP-48740)
+* Fixed a date formatting issue that prevented delivery contact dates from being retrieved in workflow transitions. (CAMP-48871)
+* Fixed an issue that prevented the extension of sending logs during the creation of a custom profile dimension.
+* Fixed an issue that could cause deliveries with multiple language variants to fail. From now on, if a user deletes the default language variant, another language variant must be set as the default one before creating languages copies. (CAMP-48235)
+* Fixed an issue that caused email messages to show extra white spaces in Outlook if the user had selected the **Only show on mobile devices** option when designing the message. (CAMP-48902)
+* Fixed an issue that caused the last execution date of the incremental query activity field to be missing from the **Processed Data** tab after running the incremental query workflow. (CAMP-48879)
+* Fixed an issue that prevented you from properly defining a dynamic segment code in the **Segmentation** workflow activity. (CAMP-48727)
+* Fixed an error that randomly occurred when trying to save a workflow after editing it. (CAMP-48695)
+* Fixed an issue that prevented you from publishing custom resources due to a trigger's data schema remaining even after the trigger's deletion. (CAMP-48523)
+* Fixed an issue that prevented the feedback loop requests from being honored, because the InMail process was not able to retrieve the delivery logs to update. (CAMP-48705)
+* Fixed an issue that prevented you from properly defining the exclusion options in the **Exclusion** workflow activity.(CAMP-48355)
+* Fixed an issue that occurred when enrichment activities in workflows involved subscriptions to or unsubscriptions from a service. This issue led to crashing. 
+* Fixed an issue that could prevent workflows from running.
+* Fixed an issue that could prevent users from renaming or deleting out-of-the box security groups from the user interface.
+* Fixed an issue that could prevent users from deleting an incomplete event publication job.
+* Fixed an issue where the database cleanup workflow which was failing with an error. (CAMP-49097)
