@@ -22,7 +22,7 @@ Possible options are:
 
 * **[!UICONTROL Default affinity]**: this field allows you to force a workflow or a workflow activity to execute on a particular machine.
 
-* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history contains elements related to the workflow : logs, tasks, events (technical objects linked to the workflow operation), as well as files downloaded by the **[!UICONTROL Transfer file]** activity. Default value is 30 days for out-of-the-box workflow templates.
+* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history contains elements related to the workflow: logs, tasks, events (technical objects linked to the workflow operation), as well as files downloaded by the **[!UICONTROL Transfer file]** activity. Default value is 30 days for out-of-the-box workflow templates.
 
   Purge of the history is performed by the Database cleanup technical workflow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
 
@@ -32,7 +32,7 @@ Possible options are:
 
 * **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
 
-* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: check this options if you want the whole execution plan to be logged. It is disabled by default. 
+* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: check this option if you want the whole execution plan to be logged. It is disabled by default. 
 
   For more information on this option, refer to this [section](#diagnostic-mode). 
 
