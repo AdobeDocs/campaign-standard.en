@@ -151,7 +151,7 @@ You can then check if your user has been correctly synced to Adobe Campaign:
 
 Your user is now ready to use Adobe Campaign Standard.
 
-## Tutorial video (#video)
+## Tutorial video {#video}
 
 This video shows ow to manage user access rights.
 
