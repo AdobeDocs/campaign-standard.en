@@ -75,4 +75,4 @@ You can manage the option from the advanced menu by selecting **[!UICONTROL Admi
 
 * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: From the **[!UICONTROL Value]** field, you can change the percentage of Query time the sequence scan has to take for the recommendation to be generated.
 
-      ![](assets/wkf_diagnostic_3.png)
+    ![](assets/wkf_diagnostic_3.png)
