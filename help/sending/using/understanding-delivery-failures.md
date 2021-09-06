@@ -77,7 +77,7 @@ The possible reasons for a delivery failure are:
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
-If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
+If a message fails due to a temporary error, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
 The number of retries (how many retries should be performed the day after the send is started) and the minimum delay between retries are now<!--managed by the Adobe Campaign Enhanced MTA,--> based on how well an IP is performing both historically and currently at a given domain. The **Retries** settings in Campaign are ignored.
 
