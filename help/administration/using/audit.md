@@ -41,7 +41,7 @@ The **[!UICONTROL Audit trail]** gives you access to the complete history of cha
   * Workflow Restart with same user
   * Workflow Restart Unknown command
 
-  For more information on **[!UICONTROL Workflows]**, refer to this [page](../../automating/using/get-started-workflow.md).
+  For more information on **[!UICONTROL Workflows]**, refer to this [page](../../automating/using/get-started-workflows.md).
 
 * **Option Audit trail**: check the activity and last modification done to options.
 
