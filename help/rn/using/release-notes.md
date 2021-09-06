@@ -77,7 +77,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 <tr> 
 <td>
 <p>You can now run Campaign workflows in diagnostic mode. This mode logs information to help troubleshooting execution issues. The whole execution plan is logged if a workflow query takes, by default, more than one minute.</p>
-<p>For more information refer to the <a href="../../automating/using/managing-execution-options.md"></p>
+<p>For more information refer to the <a href="../../automating/using/managing-execution-options.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
