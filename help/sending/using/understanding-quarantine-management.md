@@ -42,16 +42,14 @@ Quarantine and denylist do not apply to the same object:
 >
 >Quarantine includes an **On denylist** status, which applies when recipients report your message as spam or reply to an SMS message with a keyword such as "STOP". In that case, the profile's involved address or phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. For more on managing STOP SMS messages, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
  
-<!--When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
 Quarantined addresses can be listed for a specific delivery or for the entire platform.
 
-<!-->
->[!NOTE]
->
->If you need to remove an address from quarantine, contact your technical administrator.
+<!--
+If you need to remove an address from quarantine, contact your technical administrator.
 -->
 
 ### Identifying quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
@@ -64,10 +62,8 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 
 Administrators can access the detailed list of the email addresses in quarantine for the entire platform from the **[!UICONTROL Administration > Channels > Quarantines > Addresses]** menu.
 
-<!-->
->[!NOTE]
->
->This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
+<!--
+This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
 -->
 
 ![](assets/quarantines1.png)
