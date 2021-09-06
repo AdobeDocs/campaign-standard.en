@@ -58,20 +58,27 @@ After enabling this option and launching your workflow, if your query takes more
 
 You can then retrieve your execution plan by using an EXPLAIN ANALYZE. For more information on this, refer to [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-If you have a sequence scan in this query, the **[!UICONTROL Diagnostic mode]** will also provide recommendations on how to create an index with the help of a filter expression. The following two conditions must be met during your workflow execution to trigger recommendations:
-
-* The sequence takes more than 40% time of the query.
-
-* The resulting rows after the sequence scan are less than 1 % of the total rows present in the table.
+If you have a sequence scan in this query, the **[!UICONTROL Diagnostic mode]** will also provide recommendations to create an index with the help of a filter expression. 
 
 ![](assets/wkf_diagnostic_4.png)
 
+The following two conditions must be met during your workflow execution to trigger recommendations:
+
+* The sequence scan takes more than 40% time of the query.
+
+* The resulting rows after the sequence scan are less than 1 % of the total rows present in the table.
+
+>[!NOTE]
+>
+> These recommendations are meant for reference purposes only.
+
+
 You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
-* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: From the **[!UICONTROL Value]** field, you can change the time after which the execution plan will be logged.
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: From the **[!UICONTROL Value]** field, you can set a new time for your query execution. If your query execution exceeds this value, the execution plan will be logged.
 
     ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: From the **[!UICONTROL Value]** field, you can change the percentage of Query time the sequence scan has to take for the recommendation to be generated.
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: From the **[!UICONTROL Value]** field, you can change the percentage of query time the sequence scan has to take for the recommendation to be generated.
 
     ![](assets/wkf_diagnostic_3.png)
