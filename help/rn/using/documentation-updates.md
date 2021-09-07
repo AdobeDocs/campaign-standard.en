@@ -16,6 +16,14 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 21.3 - September 2021 {#release-21-3---september-2021}
+
+**New capabilities included in the release**
+
+**Other documentation updates coming with the release**
+
+A new section has been added on how to remove an address from the quarantine list. [Read more](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
 ## July 2021 {#doc-updates-july-2021}
 
 A new section has been added to describe how to allow users to subscribe or unsubscribe from multiple services from a single landing page. [Read more](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
@@ -43,7 +51,7 @@ The **Release planning** page has been updated with new dates. [Read more](../..
 
 ## April 2021 {#doc-updates-april-2021}
 
-A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
+A new section has been added on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
 
 ## March 2021 {#doc-updates-march-2021}
 
