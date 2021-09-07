@@ -57,7 +57,7 @@ To use the Point of Interest data feature with mobile applications configured wi
 
 To be able to collect Points of interest data with Adobe Campaign, you must configure the mobile application which Adobe Campaign will be receiving data from.
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Click **[!UICONTROL Create]** to set up an application.
 1. Enter a name in the **[!UICONTROL Application name]** field and click **[!UICONTROL Create]**.
 
@@ -195,7 +195,7 @@ This step is described in the [Configuring a mobile application using SDK V4](ht
 
 To access the successfully created applications in Adobe Campaign:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Click the **Adobe** logo, in the top left corner.
 1. Select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** or **[!UICONTROL Mobile app (AEP SDK)]** depending on the SDK.
 1. Select a mobile application from the list to display its properties.
 

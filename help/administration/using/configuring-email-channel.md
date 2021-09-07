@@ -326,7 +326,7 @@ The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONT
 
 ### Bounce mail qualification {#legacy-bounce-mail-qualification}
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Bounces can have the following qualification statuses:
 
