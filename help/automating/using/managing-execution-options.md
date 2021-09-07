@@ -50,15 +50,23 @@ The **[!UICONTROL Error management]** section provides additional options that a
 
 ## Diagnostic mode {#diagnostic-mode}
 
+>[!CAUTION]
+>
+>This option can impact your workflow performance significantly and should be used sparingly.
+
 When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** option in the **[!UICONTROL Execution]** section of the workflow properties logs the whole execution plan if a query takes more than one minute.
 
 ![](assets/wkf_diagnostic.png)
 
-After enabling this option and launching your workflow, if your query takes more than one minute, the execution plan will be logged.
+After enabling this option and launching your workflow, if your query takes more than one minute, the execution plan will be logged. You can then retrieve your execution plan by using an EXPLAIN ANALYZE. 
 
-You can then retrieve your execution plan by using an EXPLAIN ANALYZE. For more information on this, refer to [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
+For more information on this, refer to [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
 
 If you have a sequence scan in this query, the **[!UICONTROL Diagnostic mode]** will also provide recommendations to create an index with the help of a filter expression. 
+
+  >[!NOTE]
+  >
+  > These recommendations are meant for reference purposes only and should be used carefully depending on your use case.
 
 ![](assets/wkf_diagnostic_4.png)
 
@@ -67,11 +75,6 @@ The following two conditions must be met during your workflow execution to trigg
 * The sequence scan takes more than 40% time of the query.
 
 * The resulting rows after the sequence scan are less than 1 % of the total rows present in the table.
-
->[!NOTE]
->
-> These recommendations are meant for reference purposes only.
-
 
 You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
