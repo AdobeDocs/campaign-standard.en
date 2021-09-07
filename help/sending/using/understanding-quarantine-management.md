@@ -36,7 +36,11 @@ Quarantine and denylist do not apply to the same object:
 
 * **Quarantine** applies only to an **address** (or phone number, etc.), not to the profile itself. For example, a profile whose email address is quarantined could update his profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined.
 
-* Being on the **denylist**, on the other hand, will result in the **profile** no longer being targeted by any delivery, for example after an unsubscription (opt-out), for a given channel. For example, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. For more on the denylist process, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+  The quarantined addresses or phone numbers are displayed in the [exclusion logs](identifying-quarantined-addresses-for-a-delivery) (for a delivery) or in the [quarantine list](#identifying-quarantined-addresses-for-the-entire-platform) (for the entire platform).
+
+* Being on the **denylist**, on the other hand, will result in the **profile** no longer being targeted by the delivery, such as after an unsubscription (opt-out), for a given channel. For example, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. For more on the denylist process, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+  You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact (on denylist)]** section of the profile's **[!UICONTROL General]** tab. See [this section](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
@@ -46,7 +50,7 @@ Quarantine and denylist do not apply to the same object:
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
-Quarantined addresses can be listed for a specific delivery or for the entire platform.
+Quarantined addresses can be displayed for a specific delivery or for the entire platform.
 
 <!--
 If you need to remove an address from quarantine, contact your technical administrator.
@@ -72,13 +76,27 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 >
 >The increase in the number of quarantines is a normal effect, related to the "wear and tear" of the database. For example, if the lifetime of an email address is considered to be three years and the recipient table increases by 50% each year, the increase in quarantines can be calculated as follows: End of Year 1: (1&#42;0.33)/(1+0.5)=22%. End of Year 2: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
-Filters are available to help you browse through the list. You can filter on the address, status and channel.
+Filters are available to help you browse through the list. You can filter on the address, the status, and/or the channel.
 
-You can edit or [delete](#removing-a-quarantined-address) each address, as well as create new ones.
+![](assets/quarantines-filters.png)
+
+You can edit or [delete](#removing-a-quarantined-address) each entry, as well as create new ones.
+
+To edit an entry, click the corresponding row and modify the fields as needed.
+
+![](assets/quarantines-edit.png)
+
+To manually add a new entry, use the **[!UICONTROL Create]** button.
+
+![](assets/quarantines-create-button.png)
+
+Define the address (or phone number, etc.) and channel type. You can set a status for being in the quarantine list and an error reason. You can also indicate the date when the error occurred, the number of errors, and enter the error text. If needed, select the last delivery that was sent to the address from the drop-down list.
+
+![](assets/quarantines-create-last-delivery.png)
 
 ### Removing a quarantined address {#removing-a-quarantined-address}
 
-If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. For more on the technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. (For more on technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
 To manually remove an address from the quarantine list, perform one of the actions below.
 
@@ -137,8 +155,9 @@ In the list of quarantined addresses (see [Identifying quarantined addresses for
 
 As opposed to hard errors, soft errors do not send immediately an address to quarantine, but instead they increment an error counter.
 
-* When the error counter reaches the limit threshold, then the address goes into quarantine.
-* In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-* The error counter threshold can be modified. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Retries will be performed during the [delivery duration](../../administration/using/configuring-email-channel.md#validity-period-parameters). When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
+<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.-->
+
+The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow. (For more on technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

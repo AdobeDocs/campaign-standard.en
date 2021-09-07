@@ -24,6 +24,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 A new section has been added on how to remove an address from the quarantine list. [Read more](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
+The **Quarantine vs Denylist** section has been clarified. [Read more](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
 ## July 2021 {#doc-updates-july-2021}
 
 A new section has been added to describe how to allow users to subscribe or unsubscribe from multiple services from a single landing page. [Read more](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
