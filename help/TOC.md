@@ -14,7 +14,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
-  + [Early Release Notes](rn/using/early-release-notes.md)
+  + [Early Release Notes](rn/using/e-release-notes.md)
   + Previous Releases {#previous-releases}
     + [Release Notes 2021](rn/using/release-notes-2021.md)
     + [Release Notes 2020](rn/using/release-notes-2020.md)
@@ -427,6 +427,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
   + [Monitoring guidelines](administration/using/monitoring-guidelines.md)
+  + [Audit Trail](administration/using/audit.md)
   + [Configuration guidelines](administration/using/about-configuration-guidelines.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)

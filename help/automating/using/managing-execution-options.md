@@ -22,7 +22,7 @@ Possible options are:
 
 * **[!UICONTROL Default affinity]**: this field allows you to force a workflow or a workflow activity to execute on a particular machine.
 
-* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history contains elements related to the workflow : logs, tasks, events (technical objects linked to the workflow operation), as well as files downloaded by the **[!UICONTROL Transfer file]** activity. Default value is 30 days for out-of-the-box workflow templates.
+* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history contains elements related to the workflow: logs, tasks, events (technical objects linked to the workflow operation), as well as files downloaded by the **[!UICONTROL Transfer file]** activity. Default value is 30 days for out-of-the-box workflow templates.
 
   Purge of the history is performed by the Database cleanup technical workflow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
 
@@ -31,6 +31,10 @@ Possible options are:
   >If the **[!UICONTROL History in days]** field is left blank, its value will be considered as "1", meaning that the history will purged after 1 day.
 
 * **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
+
+* **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: check this option if you want the whole execution plan to be logged. It is disabled by default. 
+
+  For more information on this option, refer to this [section](#diagnostic-mode). 
 
 * **[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions.
   
@@ -43,3 +47,41 @@ Possible options are:
 * **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. This field is used by Adobe teams only for monitoring purposes.
 
 The **[!UICONTROL Error management]** section provides additional options that allow you to manage how workflows behave in case of errors. These options are detailed in the [Error management](../../automating/using/monitoring-workflow-execution.md#error-management) section.
+
+## Diagnostic mode {#diagnostic-mode}
+
+>[!CAUTION]
+>
+>This option can impact your workflow performance significantly and should be used sparingly.
+
+When enabled, the **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** option in the **[!UICONTROL Execution]** section of the workflow properties logs the whole execution plan if a query takes more than one minute.
+
+![](assets/wkf_diagnostic.png)
+
+After enabling this option and launching your workflow, if your query takes more than one minute, the execution plan will be logged. You can then retrieve your execution plan by using an EXPLAIN ANALYZE. 
+
+For more information on this, refer to [PostgreSQL documentation](https://www.postgresql.org/docs/9.4/using-explain.html).
+
+If you have a sequence scan in this query, the **[!UICONTROL Diagnostic mode]** will also provide recommendations to create an index with the help of a filter expression. 
+
+  >[!NOTE]
+  >
+  > These recommendations are meant for reference purposes only and should be used carefully depending on your use case.
+
+![](assets/wkf_diagnostic_4.png)
+
+The following two conditions must be met during your workflow execution to trigger recommendations:
+
+* The sequence scan takes more than 40% time of the query.
+
+* The resulting rows after the sequence scan are less than 1 % of the total rows present in the table.
+
+You can manage the option from the advanced menu by selecting **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
+
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: From the **[!UICONTROL Value]** field, you can set a new time for your query execution. If your query execution exceeds this value, the execution plan will be logged.
+
+    ![](assets/wkf_diagnostic_2.png)
+
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: From the **[!UICONTROL Value]** field, you can change the percentage of query time the sequence scan has to take for the recommendation to be generated.
+
+    ![](assets/wkf_diagnostic_3.png)

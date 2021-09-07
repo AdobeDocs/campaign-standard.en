@@ -1,23 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Latest Release
-description: This page details content of the latest Campaign Standard release
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
-
+title: Early Release Notes
+description: Early Release Notes
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
+hide: yes
+hidefromtoc: yes
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 ---
+# Early release notes {#new-release}
 
-# Latest Release{#latest-release}
+This page describes new features, improvements and fixes included in the next Campaign Standard release.
+
+>[!CAUTION]
+>
+> This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 
 ## Release 21.3 - September 2021 {#release-21-3---sept-2021}
-
-New features, improvements and fixes included in the latest Campaign Standard release are listed below. 
 
 **What's new?**
 
@@ -93,7 +94,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 
 * When creating a recurring delivery in a workflow, linked to an Adobe Experience Manager content, content approval status is now checked before sending.
 * Database connection limit is now aligned with the Campaign package to avoid connection errors.
-* A new consistency check in custom resources publication prevents users from creating duplicate indexes, which causes publication to fail. An improved error message asks the user to rename the index if needed.
+* Added a consistency check while creating indexes in custom resources and improved the error messages.
 
 **Other changes**
 
