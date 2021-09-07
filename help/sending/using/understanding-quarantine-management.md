@@ -36,7 +36,7 @@ Quarantine and denylist do not apply to the same object:
 
 * **Quarantine** applies only to an **address** (or phone number, etc.), not to the profile itself. For example, a profile whose email address is quarantined could update his profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined.
 
-  The quarantined addresses or phone numbers are displayed in the [exclusion logs](identifying-quarantined-addresses-for-a-delivery) (for a delivery) or in the [quarantine list](#identifying-quarantined-addresses-for-the-entire-platform) (for the entire platform).
+  The quarantined addresses or phone numbers are displayed in the [exclusion logs](#identifying-quarantined-addresses-for-a-delivery) (for a delivery) or in the [quarantine list](#identifying-quarantined-addresses-for-the-entire-platform) (for the entire platform).
 
 * Being on the **denylist**, on the other hand, will result in the **profile** no longer being targeted by the delivery, such as after an unsubscription (opt-out), for a given channel. For example, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. For more on the denylist process, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
