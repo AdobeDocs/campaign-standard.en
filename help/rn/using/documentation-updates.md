@@ -20,6 +20,12 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 **New capabilities included in the release**
 
+Improved unified Experience Cloud interface - [Read more](../../start/using/interface-description.md#top-bar)
+
+New Audit Trail capability - [Read more](../../administration/using/audit.md)
+
+Workflow diagnostic mode - [Read more](../../automating/using/managing-execution-options.md)
+
 **Other documentation updates coming with the release**
 
 A new section has been added on how to remove an address from the quarantine list. [Read more](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
