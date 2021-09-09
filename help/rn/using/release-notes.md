@@ -99,7 +99,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 
 * Adobe Experience Platform Data Connector and Audience Destinations service are now deprecated with Campaign Standard. If you are using these capabilities, you need to move to Adobe Sources and Destinations and adapt your implementation. [Learn more](../../integrating/using/get-started-sources-destinations.md)
 * Deprecated and removed features are listed in [this page](deprecated-features.md).
-* A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077)
+* A new 'StringAgg' aggregate function has been introduced to concatenate the values of a string type column. (CAMP-47077) [Learn more](../../automating/using/list-of-functions.md#aggregates)
 * The **Update delivery indicators** (updateDeliveryIndicators) technical workflow has been improved for better performance.
 * In-App messaging templates are now available for all languages supported in Campaign Standard.
 * Delivery preparation time has been optimized for transactional messages by reducing the number of calls to the tracking server during delivery analysis.
