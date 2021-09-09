@@ -1,5 +1,5 @@
 ---
-solution: Campaign Standard
+solution: Campaign, Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
