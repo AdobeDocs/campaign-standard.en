@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About the interface
 description: Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions..
 audience: start

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating deliveries on the creation date of the profile
 description: This use case shows how to create deliveries on the creation date of the profile.
 audience: automating

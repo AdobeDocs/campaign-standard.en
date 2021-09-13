@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About extending the API
 description: Learn how to expose extended fields for the custom resource Profiles in the public Profiles API.
 audience: developing

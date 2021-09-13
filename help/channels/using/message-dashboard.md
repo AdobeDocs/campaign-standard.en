@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Message dashboard
 description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
 audience: channels

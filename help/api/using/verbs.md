@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: GET / POST / PATCH / DELETE verbs
 description: Learn more about the verbs used in Campaign Standard APIs.
 audience: developing

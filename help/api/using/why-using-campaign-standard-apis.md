@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Why use Campaign Standard APIs?
 description: Learn more on Campaign Standard APIs and why using them.
 audience: developing

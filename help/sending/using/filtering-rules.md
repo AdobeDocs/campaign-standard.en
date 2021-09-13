@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Filtering rules
 description: Use filtering rules to refine the audience of your messages.
 audience: administration

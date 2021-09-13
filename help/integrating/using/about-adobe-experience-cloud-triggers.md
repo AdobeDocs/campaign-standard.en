@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About Adobe Experience Cloud Triggers
 description: By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign.
 audience: integrating

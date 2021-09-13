@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About data import and export
 description: Learn about the different ways to import and export data with Adobe Campaign.
 audience: automating

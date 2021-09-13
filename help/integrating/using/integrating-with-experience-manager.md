@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About Campaign-Experience Manager integration
 description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
 audience: integrating

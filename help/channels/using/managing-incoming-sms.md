@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing incoming SMS
 description: Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign.
 audience: channels

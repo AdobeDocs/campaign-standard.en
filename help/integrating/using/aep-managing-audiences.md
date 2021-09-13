@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing Adobe Experience Platform audiences
 description: Learn how to manage Adobe Experience Platform within Campaign Standard.
 audience: audiences

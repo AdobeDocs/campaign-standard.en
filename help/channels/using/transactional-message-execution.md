@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transactional messaging execution and monitoring
 description: Learn about transactional messaging execution and discover how to monitor transactional messages.
 audience: channels

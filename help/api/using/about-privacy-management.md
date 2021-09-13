@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About privacy management
 description: Learn more about privacy management with APIs
 audience: developing

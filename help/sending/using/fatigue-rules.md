@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Fatigue rules
 description: Create fatigue rules to manage over-communication with profiles.
 audience: administration

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizing campaigns using Adobe Experience Platform attributes
 description: Learn how to personalize your campaigns using Adobe Eperience Platform attributes.
 audience: automating

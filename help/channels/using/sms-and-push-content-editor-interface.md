@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS and push content editor interface
 description: Learn how to use the different sections of the editor to modify your SMS and push content.
 audience: designing

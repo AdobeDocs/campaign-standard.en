@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: List of roles
 description: Find out the list of roles that you can assign to your users.
 audience: administration

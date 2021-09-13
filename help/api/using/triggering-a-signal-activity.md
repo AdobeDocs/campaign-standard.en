@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Triggering a signal activity
 description: Learn how to trigger a signal activity with APIs.
 audience: developing

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing typologies
 description: Discover how to use typologies.
 audience: administration

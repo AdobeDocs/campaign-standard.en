@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bounce summary
 description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
 audience: reporting

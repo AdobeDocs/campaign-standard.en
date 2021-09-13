@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Converting Legacy Editor Email to the Email Designer 
 description: Discover how to use emails created in the Legacy Editor Email to the Email Designer.
 audience: designing

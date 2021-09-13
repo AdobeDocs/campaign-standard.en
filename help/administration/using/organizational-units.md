@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Organizational units
 description: Define your users' access levels using organizational units.
 audience: administration

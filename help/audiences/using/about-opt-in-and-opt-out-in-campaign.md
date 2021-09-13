@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About opt-in and opt-out in Campaign
 description: Opt-out results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
 audience: audiences

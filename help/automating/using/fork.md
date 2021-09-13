@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Fork
 description: The Fork activity allows you to create outbound transitions to start several activities at the same time.
 audience: automating

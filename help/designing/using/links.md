@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adding Links
 description: Discover how to manage links with the Email Designer.
 audience: designing

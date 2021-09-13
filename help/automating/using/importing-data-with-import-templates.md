@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Importing data with import templates
 description: Learn how to collect data to feed your Campaign database.
 audience: automating

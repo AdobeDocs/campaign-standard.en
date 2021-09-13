@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Tracking messages
 description: Learn how to track the behavior of your delivery recipients.
 audience: sending

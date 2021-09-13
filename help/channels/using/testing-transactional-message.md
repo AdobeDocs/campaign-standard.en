@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Testing a transactional message
 description: Learn how to test a transactional message in Adobe Campaign.
 audience: channels

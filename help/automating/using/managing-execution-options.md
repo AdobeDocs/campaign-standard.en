@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing execution options
 description: Learn how to manage workflows execution options.
 audience: automating

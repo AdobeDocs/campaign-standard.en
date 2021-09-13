@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentation
 description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
 audience: automating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Test
 description: The Test activity enables a transition based on a test result.
 audience: automating

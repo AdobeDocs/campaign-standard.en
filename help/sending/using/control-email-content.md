@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Controlling email content in Adobe Campaign Standard
 description: Learn how to improve deliverability in Adobe Campaign Standard when editing your email content.
 audience: sending

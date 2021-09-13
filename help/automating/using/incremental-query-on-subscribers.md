@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Incremental query on subscribers to a service
 description: The following example presents how to configure an Incremental query activity to filter subscribers to a service.
 audience: automating

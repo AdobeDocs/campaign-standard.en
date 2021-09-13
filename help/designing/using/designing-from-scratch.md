@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Designing emails from scratch 
 description: Discover how to design emails from scratch email content in the Email Designer.
 audience: designing

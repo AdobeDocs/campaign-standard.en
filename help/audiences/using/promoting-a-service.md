@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Promoting a service
 description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
 audience: audiences

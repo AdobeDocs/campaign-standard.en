@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring filter definition
 description: Discover the filter feature to manage large data set.
 audience: developing

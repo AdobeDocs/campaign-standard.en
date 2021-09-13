@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: In-App delivery
 description: The In-App delivery activity allows you to configure sending an In-App message within a workflow.
 audience: automating

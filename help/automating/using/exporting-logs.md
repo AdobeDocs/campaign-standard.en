@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exporting logs
 description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
 audience: automating

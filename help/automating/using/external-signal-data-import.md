@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: External signal and data import
 description: The following example illustrates the External signal activity used with data import.
 audience: automating

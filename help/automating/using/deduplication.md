@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Deduplication
 description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
 audience: automating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Endpoints
 description: Learn more about the APIs endpoints.
 audience: developing

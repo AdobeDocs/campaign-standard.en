@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About SMS messages
 description: Discover the main specificities of the SMS channel in Adobe Campaign.
 audience: channels

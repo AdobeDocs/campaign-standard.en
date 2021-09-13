@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Receiving alerts when failures happen
 description: Learn how to use the alert management system.
 audience: sending

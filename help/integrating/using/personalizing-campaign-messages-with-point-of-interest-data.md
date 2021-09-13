@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizing Campaign messages with Point of Interest data
 description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
 audience: integrating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating and updating profile information based on mobile application data
 description: Learn how to create and update profile information based on mobile application data.
 audience: channels

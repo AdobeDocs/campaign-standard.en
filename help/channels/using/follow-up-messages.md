@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Follow-up messages
 description: Learn how to create, manage and send a follow-up message.
 audience: channels

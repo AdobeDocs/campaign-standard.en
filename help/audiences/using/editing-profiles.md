@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Editing profiles
 description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
 audience: audiences

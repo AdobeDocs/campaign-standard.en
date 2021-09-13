@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data update using reconciliation
 description: The following example demonstrates a workflow that creates an audience of profiles directly from an imported file containing new clients.
 audience: automating

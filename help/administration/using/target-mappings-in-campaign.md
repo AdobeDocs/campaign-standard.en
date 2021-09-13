@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Target mappings in Campaign
 description: Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries.
 audience: administration

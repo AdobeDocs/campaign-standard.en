@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating the database structure
 description: Discover how to update the Adobe Campaign database.
 audience: developing

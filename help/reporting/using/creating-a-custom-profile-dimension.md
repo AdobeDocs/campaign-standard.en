@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a custom profile dimension
 description: Learn how to create a custom profile dimension based on custom profile data.
 audience: reporting

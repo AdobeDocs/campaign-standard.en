@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Landing page templates
 description: Learn more on landing page templates.
 audience: channels

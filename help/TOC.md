@@ -1,6 +1,4 @@
 ---
-solution: Campaign, Campaign Standard
-product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 

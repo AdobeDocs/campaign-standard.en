@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Email Designer Frequently Asked Questions 
 description: Frequently asked questions about Email Designer.
 audience: designing

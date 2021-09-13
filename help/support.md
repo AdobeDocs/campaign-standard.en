@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Help & support options for Campaign Standard 
 description: Need Support for Campaign Standard? You are at the right place!
 audience: rns

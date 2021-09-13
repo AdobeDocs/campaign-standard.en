@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About subscriptions
 description: Learn more about services and subscriptions in Campaign Standard.
 feature: Audiences

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Latest Release
 description: This page details content of the latest Campaign Standard release
 audience: rn

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Complaints
 description: With the Complaints out-of-the-box report, learn how many time delivery was declared as spam.
 audience: reporting

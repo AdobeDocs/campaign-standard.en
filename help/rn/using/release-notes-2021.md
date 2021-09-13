@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Release Notes 2021
 description: This page lists all 2021 releases of Adobe Campaign Standard.
 audience: rn

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Users management
 description: Adobe Campaign users hold specific roles. Discover the main user types. 
 audience: administration

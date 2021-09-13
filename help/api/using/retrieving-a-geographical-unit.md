@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title:  Retrieving a profile's Geographical unit
 description: Learn how to retrieve a profile's Geographical unit with APIs.
 audience: developing

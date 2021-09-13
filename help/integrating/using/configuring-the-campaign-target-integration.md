@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring the Campaign-Target integration
 description: Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign.
 audience: integrating

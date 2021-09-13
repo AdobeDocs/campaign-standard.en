@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Release Notes 2020
 description: This page lists all 2020 releases of Adobe Campaign Standard.
 audience: rn

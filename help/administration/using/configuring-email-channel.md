@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring email channel in Adobe Campaign Standard
 description: Learn how to configure the email channel in Adobe Campaign Standard.
 audience: administration

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adding visualizations
 description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
 audience: reporting

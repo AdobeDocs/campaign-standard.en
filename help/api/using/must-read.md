@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Must-read
 description: Must-read before using APIs.
 audience: developing

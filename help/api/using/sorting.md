@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sorting
 description: Learn more how to perform sorting operations
 audience: developing

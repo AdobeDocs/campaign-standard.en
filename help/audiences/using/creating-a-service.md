@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a service
 description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
 audience: audiences

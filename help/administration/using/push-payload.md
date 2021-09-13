@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Understanding Campaign Standard Push Notifications Payload Structure
 description: This document is intended to describe the structure of the payload received in mobile applications.
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retrieving privacy data files
 description: Learn how to retrieve privacy data files with APIs
 audience: developing

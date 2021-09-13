@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating an SMS message
 description: Follow these steps to create a single-send SMS message in Adobe Campaign.
 audience: channels

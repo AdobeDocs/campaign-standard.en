@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Archiving messages in Adobe Campaign Standard
 description: Learn how to archive emails with Adobe Campaign Standard using a BCC email address.
 audience: sending

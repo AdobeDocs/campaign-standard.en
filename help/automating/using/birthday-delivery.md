@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Birthday delivery
 description: This example is a birthday workflow. Every day an email is sent to profiles whose birthday it is on that day.
 audience: automating

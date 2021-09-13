@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Working with Campaign and Assets core service
 description: Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration.
 audience: integrating

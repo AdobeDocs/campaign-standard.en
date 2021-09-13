@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Subscription Services
 description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
 audience: automating

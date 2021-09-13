@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Using Triggers in Campaign
 description: Create a trigger event in Adobe Campaign based on an existing Adobe Experience Cloud trigger.
 audience: integrating

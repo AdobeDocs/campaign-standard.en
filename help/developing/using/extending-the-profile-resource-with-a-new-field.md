@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extending the profile resource with a new field
 description: Learn how to extend the profile resource.
 audience: developing

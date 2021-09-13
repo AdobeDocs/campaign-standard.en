@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Testing your triggers
 description: Learn troubleshooting tips to help you solve the most common problems you may encounter when using Triggers with Adobe Campaign.
 audience: integrating

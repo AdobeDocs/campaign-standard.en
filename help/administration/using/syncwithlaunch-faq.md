@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sync with Launch technical workflow FAQ
 description: Common questions about Launch technical workflow.
 audience: administration

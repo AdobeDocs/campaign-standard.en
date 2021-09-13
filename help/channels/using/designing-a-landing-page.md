@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Designing a landing page
 description: Learn how to design the content of a landing page.
 audience: channels

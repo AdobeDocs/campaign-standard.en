@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Subscribing profiles from a file to a specific service
 description: This use case shows how to import a file containing profiles and subscribe them to an existing service.
 audience: automating

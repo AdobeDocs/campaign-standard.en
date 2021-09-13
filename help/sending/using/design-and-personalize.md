@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Build personalized content
 audience: delivery
 content-type: reference

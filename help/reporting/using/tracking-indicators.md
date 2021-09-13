@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Tracking indicators
 description: With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages.
 audience: reporting

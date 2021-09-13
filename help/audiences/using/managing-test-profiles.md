@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing test profiles
 description: Learn how to manage test profiles.
 audience: sending

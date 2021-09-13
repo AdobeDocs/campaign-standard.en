@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About data management activities
 description: Data management activities are available from the left-hand side of the screen.
 audience: automating

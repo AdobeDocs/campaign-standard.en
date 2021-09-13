@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Release Notes 2018
 description: This page lists all 2018 releases of Adobe Campaign Standard.
 audience: rn

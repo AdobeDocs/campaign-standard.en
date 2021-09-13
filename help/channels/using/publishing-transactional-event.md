@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Publishing a transactional event
 description: Learn how to preview, publish, unpublish and delete a transactional event configuration.
 audience: channels
