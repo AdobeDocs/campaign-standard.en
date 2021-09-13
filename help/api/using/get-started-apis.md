@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with Campaign Standard APIs
 description: Create integrations and build your own ecosystem by interfacing Campaign with a panel of technologies.
 audience: developing

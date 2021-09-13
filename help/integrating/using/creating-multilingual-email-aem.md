@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a multilingual email with the Adobe Experience Manager integration.
 description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
 audience: integrating

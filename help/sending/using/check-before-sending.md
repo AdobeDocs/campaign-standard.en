@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Check before sending
 audience: delivery
 content-type: reference

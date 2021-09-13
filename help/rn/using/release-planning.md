@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard Release Planning
 description: This page lists upcoming releases of Adobe Campaign Standard.
 audience: rn

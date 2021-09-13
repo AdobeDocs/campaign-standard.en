@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Setting up a double opt-in process
 description: Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign.
 audience: channels

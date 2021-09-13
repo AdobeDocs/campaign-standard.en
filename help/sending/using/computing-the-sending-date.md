@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Computing the sending date
 description: Discover how to send a message at a specific date and time.
 audience: sending

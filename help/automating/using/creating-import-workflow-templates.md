@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating workflow templates to import data
 description: Learn how to create workflow templates to import data.
 audience: automating

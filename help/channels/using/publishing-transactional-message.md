@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transactional message lifecycle
 description: Learn how to publish, pause, unpublish and delete a transactional message.
 audience: channels

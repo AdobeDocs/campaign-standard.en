@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign dimensions and metrics in Analytics
 description: Learn the different dimensions that you can find in Adobe Analytics to start tracking your email deliveries from Adobe Campaign.
 audience: integrating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring a privacy request
 description: Learn how to monitor a privacy request with APIs
 audience: developing

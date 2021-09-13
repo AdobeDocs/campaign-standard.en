@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Defining import templates
 description: Import templates allow to reduce the settings needed and to import data faster.
 audience: automating

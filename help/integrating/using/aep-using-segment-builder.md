@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Using the Segment Builder
 description: Learn how to use the Segment Builder to create audiences.
 audience: audiences

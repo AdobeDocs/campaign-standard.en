@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Defining the subject line and the sender of an email
 description: Discover how to define the subject line and the sender of an email in the Email Designer.
 audience: designing

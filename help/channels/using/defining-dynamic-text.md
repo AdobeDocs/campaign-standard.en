@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Defining dynamic text
 description: Learn how to display different texts dynamically to the user according to the conditions defined in Adobe Campaign.
 audience: designing

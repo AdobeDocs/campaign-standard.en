@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs
 description: This document provides information about how to support mobile use cases.
 audience: channels

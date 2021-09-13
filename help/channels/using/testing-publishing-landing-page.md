@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sharing a landing page
 description: Learn how to test and publish a landing page in Adobe Campaign.
 audience: channels

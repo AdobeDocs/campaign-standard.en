@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Editing a transactional message
 description: Learn how to access, edit and personalize a transactional message.
 audience: channels

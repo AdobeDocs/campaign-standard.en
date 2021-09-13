@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abandonment Triggers use cases
 description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
 audience: integrating

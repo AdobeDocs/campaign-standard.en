@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Editing plain text, HTML and mobile email formats
 description: Discover the Plain text and HTML modes
 audience: designing

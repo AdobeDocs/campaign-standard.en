@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Deleting a resource
 description: Learn how to delete a resource 
 audience: developing

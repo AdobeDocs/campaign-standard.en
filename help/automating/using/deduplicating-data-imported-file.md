@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Deduplicating the data from an imported file
 description: This example shows how to deduplicate data from a file imported before loading the data into the database.
 audience: automating

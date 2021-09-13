@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Confirming subscription to a service
 description: Follow these steps to set up a confirmation message for profiles subscribing to a service in Adobe Campaign.
 audience: audiences

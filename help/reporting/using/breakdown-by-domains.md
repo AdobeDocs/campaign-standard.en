@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Breakdown by domains
 description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
 audience: reporting

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring deliverability in Adobe Campaign Standard
 description: Use the tools offered by Adobe Campaign Standard to monitor your platform's deliverability.
 audience: sending

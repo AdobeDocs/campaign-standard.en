@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating a profile's Geographical unit
 description: Learn how to manage geographical units with APIs.
 audience: developing

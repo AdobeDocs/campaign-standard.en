@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extending the subscriptions to an application resource
 description: Learn how to extend the subscription to an application resource
 audience: developing

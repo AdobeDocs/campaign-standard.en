@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Marketing activities
 description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
 audience: start

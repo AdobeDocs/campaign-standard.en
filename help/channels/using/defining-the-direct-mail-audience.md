@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Defining the direct mail audience
 description: Learn how to define the target for your direct mail delivery.
 audience: channels

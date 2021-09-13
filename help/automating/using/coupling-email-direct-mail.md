@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Coupling email and direct mail deliveries
 description: This use case presents an example of email and direct mail sending from a workflow.
 audience: channels

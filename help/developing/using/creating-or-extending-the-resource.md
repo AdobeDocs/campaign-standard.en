@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating or extending the resource
 description: Discover how to define a resource from scratch.
 audience: developing

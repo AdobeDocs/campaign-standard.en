@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Intersection
 description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
 audience: automating

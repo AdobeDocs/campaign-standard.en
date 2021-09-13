@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing groups and users
 description: Learn how to create security groups and manage users.
 audience: administration

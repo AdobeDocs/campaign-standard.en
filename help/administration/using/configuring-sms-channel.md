@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring SMS channel
 description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
 audience: administration

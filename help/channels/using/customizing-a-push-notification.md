@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Customizing a push notification
 description: Learn how to customize your push notifications with various advanced options.
 audience: channels

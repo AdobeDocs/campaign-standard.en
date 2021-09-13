@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configure Campaign-Analytics integration
 description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
 audience: integrating

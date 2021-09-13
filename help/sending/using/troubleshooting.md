@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Troubleshooting deliverability issues in Adobe Campaign Standard
 description: Learn what to do when experiencing deliverability issues with Adobe Campaign Standard.
 audience: sending

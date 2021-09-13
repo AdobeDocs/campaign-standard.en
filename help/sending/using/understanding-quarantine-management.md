@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Understanding quarantine management
 description: Learn how to optimize your deliverability with quarantine management.
 audience: sending

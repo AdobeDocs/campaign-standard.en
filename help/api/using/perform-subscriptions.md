@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Performing subscriptions
 description: Learn how to perform subscriptions with APIs.
 audience: developing

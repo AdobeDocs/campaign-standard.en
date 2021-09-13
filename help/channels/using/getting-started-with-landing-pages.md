@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Main steps to set up a landing page
 description: Learn the main steps to set up a landing page
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Privacy management in Adobe Campaign Standard
 description: Learn more about the Adobe Campaign Standard features to manage Privacy.
 audience: start

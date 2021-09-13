@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sending proofs
 description: Learn how to send proofs.
 audience: sending

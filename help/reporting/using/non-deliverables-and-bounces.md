@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Non-deliverables and bounces
 description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
 audience: reporting

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Optimize message delivery
 audience: delivery
 content-type: reference

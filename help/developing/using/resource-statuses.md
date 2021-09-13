@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Resource statuses
 description: Discover the different resource statuses according to their publication state.
 audience: developing

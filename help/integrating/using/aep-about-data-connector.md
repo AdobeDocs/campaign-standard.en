@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About Adobe Experience Platform Data Connector
 description: Manage XDM schemas to make your Campaign Standard data available on Adobe Experience Platform.
 audience: administration

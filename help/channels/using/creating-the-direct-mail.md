@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating the direct mail
 description: Follow these steps to create a direct mail delivery in Adobe Campaign.
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Save audience
 description: The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
 audience: automating

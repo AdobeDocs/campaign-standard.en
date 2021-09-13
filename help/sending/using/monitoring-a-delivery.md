@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring a delivery in Adobe Campaign Standard
 description: Discover how to monitor a delivery in Adobe Campaign Standard.
 audience: sending

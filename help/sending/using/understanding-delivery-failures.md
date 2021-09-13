@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Understanding delivery failures
 description: Learn how to manage delivery failures with Campaign.
 audience: sending

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a report based on workflow segments
 description: Learn how to check the success of your delivery depending on your workflows' segments in your reports.
 audience: reporting

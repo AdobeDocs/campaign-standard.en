@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About channel activities
 description: Channel activities are available from the left-hand side of the screen.
 audience: automating

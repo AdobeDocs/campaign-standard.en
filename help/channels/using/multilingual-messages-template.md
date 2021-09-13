@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Multilingual messages templates
 description: Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels.
 audience: start

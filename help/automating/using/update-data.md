@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Update data
 description: The Update data activity allows you to perform a mass update on fields in the database.
 audience: automating

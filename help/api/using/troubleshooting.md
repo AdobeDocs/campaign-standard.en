@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Troubleshooting
 description: Learn more about  common issues related Campaign Standard APIs.
 audience: developing

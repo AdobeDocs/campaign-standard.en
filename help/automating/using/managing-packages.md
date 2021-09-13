@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing packages
 description: Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files.
 audience: automating

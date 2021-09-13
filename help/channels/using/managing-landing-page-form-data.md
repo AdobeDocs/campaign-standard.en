@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing landing page form data
 description: Learn how to manage landing page form data.
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring a transactional event
 description: Learn how to configure transactional events in Adobe Campaign.
 audience: channels

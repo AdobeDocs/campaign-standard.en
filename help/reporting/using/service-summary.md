@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Service summary
 description: With the Service summary out-of-the-box report, learn about the evolution of subscriptions and unsubscriptions.
 audience: reporting

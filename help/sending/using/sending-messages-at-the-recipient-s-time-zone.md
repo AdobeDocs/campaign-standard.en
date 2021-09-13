@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sending messages at the recipient's time zone
 description: Learn how to send messages at the recipient's time zone.
 audience: sending

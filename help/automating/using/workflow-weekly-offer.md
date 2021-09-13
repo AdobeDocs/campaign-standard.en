@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a weekly delivery
 description: This use case shows how to create a weekly delivery.
 audience: automating

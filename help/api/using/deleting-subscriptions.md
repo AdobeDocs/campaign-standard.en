@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Deleting subscriptions
 description: Learn how to delete subscriptions with APIs.
 audience: developing

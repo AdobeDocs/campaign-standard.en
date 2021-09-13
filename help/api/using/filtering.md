@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Filtering
 description: Learn how to perform filtering operations.
 audience: developing

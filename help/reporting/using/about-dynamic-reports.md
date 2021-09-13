@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with dynamic reports
 description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
 audience: reporting

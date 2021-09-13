@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Unsubscriptions
 description: With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries.
 audience: reporting

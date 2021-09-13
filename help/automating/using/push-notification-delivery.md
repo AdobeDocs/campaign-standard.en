@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Push notification delivery
 description: The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow.
 audience: automating

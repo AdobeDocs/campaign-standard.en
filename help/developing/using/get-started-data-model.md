@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with Campaign Standard data model
 description: Enrich Campaign Standard data model with custom fields and resources, and extend REST APIs to expose extended fields.
 audience: automating

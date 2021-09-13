@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard Deprecated and Removed Features
 description: This page lists deprecated and removed features of Adobe Campaign Standard.
 audience: rn

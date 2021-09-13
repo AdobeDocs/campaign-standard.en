@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Using resources different from targeting dimensions
 description: Learn how to use a resource that is different from the targeting dimension.
 audience: automating

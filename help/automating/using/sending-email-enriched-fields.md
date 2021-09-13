@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sending an email with enriched fields
 description: The example below shows how to send an email using additional data retrieved from an external file through the load file activity.
 audience: automating

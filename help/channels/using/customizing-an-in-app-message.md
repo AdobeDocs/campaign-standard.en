@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Customizing an In-App message
 description: Learn how to customize your In-App messages with various options.
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Early Release Notes
 description: Early Release Notes
 feature: Overview

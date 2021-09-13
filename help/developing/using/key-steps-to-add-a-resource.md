@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Key steps of adding a resource
 description: Learn here the key steps of adding a resource in the Adobe Campaign data model.
 audience: developing

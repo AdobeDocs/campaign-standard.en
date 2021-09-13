@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: "Step 2: Publish the extension"
 description: Learn how to publish the extension in Campaign Standard. Part 2 of a series.
 audience: developing

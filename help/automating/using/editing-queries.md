@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Editing queries
 description: Build a population thanks to the predefined filters and rules.
 audience: automating

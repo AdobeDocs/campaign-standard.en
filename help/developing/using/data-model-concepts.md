@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data model concepts
 description: Learn about the Adobe Campaign data model and how to modify it.
 audience: developing

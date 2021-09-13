@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sharing audiences with Audience Manager or People core service
 description: Learn how to import or export your audience within the different Adobe Experience Cloud solutions.
 audience: integrating

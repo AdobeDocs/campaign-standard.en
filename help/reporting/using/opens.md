@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Opens
 description: With the Opens report, learn which delivery was the most viewed according to various criteria.
 audience: reporting

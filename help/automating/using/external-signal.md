@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: External signal
 description: The External signal activity triggers a workflow when some conditions are successfully met in another workflow.
 audience: automating

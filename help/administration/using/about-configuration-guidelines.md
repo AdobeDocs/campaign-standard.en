@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration guidelines
 description: Learn about Campaign Standard configuration guidelines.
 audience: administration

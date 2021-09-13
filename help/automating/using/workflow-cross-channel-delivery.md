@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Cross-channel delivery
 description: This use case shows how to create a cross-channel delivery
 audience: automating

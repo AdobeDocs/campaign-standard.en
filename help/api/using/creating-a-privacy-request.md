@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a privacy request
 description: Learn how to create a privacy request with APIs
 audience: developing

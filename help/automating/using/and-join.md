@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-join
 description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
 audience: automating

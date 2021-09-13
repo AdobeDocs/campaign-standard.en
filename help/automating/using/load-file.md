@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Load file
 description: The Load file activity allows you to import data in one structured form to use this data in Adobe Campaign.
 audience: automating

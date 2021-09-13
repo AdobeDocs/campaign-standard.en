@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retrieving a profile's Organizational unit
 description: Learn how to a profile's Organizational unit with APIs.
 audience: developing

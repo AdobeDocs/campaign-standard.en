@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Advanced expression editing
 description: The query edition wizard allows you to define advanced expressions.
 audience: automating

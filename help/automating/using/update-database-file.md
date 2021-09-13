@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating the database with external data
 description: This use case presents how to add or update profiles to the Adobe Campaign database with the data recovered from the file.
 audience: automating

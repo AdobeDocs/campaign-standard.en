@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About the Audience Destinations service
 description: Learn more about the Audience Destinations service.
 audience: audiences

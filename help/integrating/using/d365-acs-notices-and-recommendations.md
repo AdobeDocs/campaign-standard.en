@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign and Microsoft Dynamics 365 data management
 description: Learn how Campaign Standard and Microsoft Dynamics 365 manage common data
 audience: integrating

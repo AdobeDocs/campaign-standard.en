@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About organizational units
 description: Learn more about organizational units and APIs.
 audience: developing

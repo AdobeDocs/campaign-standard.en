@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About audiences
 description: Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud.
 audience: audiences

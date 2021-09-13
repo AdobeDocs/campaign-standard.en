@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage.
 audience: delivery

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interface description
 description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
 audience: start

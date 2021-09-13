@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating an email content in Adobe Experience Manager.
 description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
 audience: integrating

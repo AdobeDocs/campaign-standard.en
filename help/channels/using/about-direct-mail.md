@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About direct mail
 description: Discover the main specificities of the direct mail channel in Adobe Campaign.
 audience: channels

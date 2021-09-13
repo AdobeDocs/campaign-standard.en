@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Control rules
 description: Learn how to reinforce the quality check of your messages with control rules.
 audience: administration

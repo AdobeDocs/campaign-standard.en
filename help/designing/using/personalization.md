@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizing email content
 description: Discover how to personalize an email in the Email Designer.
 audience: designing

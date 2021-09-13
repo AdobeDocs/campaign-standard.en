@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About typologies and typology rules
 description: Discover how typologies and typology rules work in Adobe Campaign.
 audience: administration

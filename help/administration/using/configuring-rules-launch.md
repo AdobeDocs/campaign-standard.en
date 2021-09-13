@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
 description: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
 audience: channels

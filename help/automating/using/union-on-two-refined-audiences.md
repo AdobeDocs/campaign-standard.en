@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Union on two refined audiences
 description: This use case shows the union of two Read audience activities.
 audience: automating

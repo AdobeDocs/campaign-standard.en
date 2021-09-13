@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: List of functions
 description: The query editing tool allows you to use advanced functions to carry out complex filtering.
 audience: automating

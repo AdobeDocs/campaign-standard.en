@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Documentation Updates
 description: Learn about all the latest updates for Adobe Campaign Standard documentation.
 audience: rn

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with Campaign Standard administration
 description: Discover users and permissions management, monitoring guidelines, channel-specific configurations and application settings guidelines.
 audience: administration
