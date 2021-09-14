@@ -103,6 +103,8 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
     {
     "marketingCloudId":
     "{%%mcid%%}",
+    "pushPlatform":
+    "{%contextdata.pushPlatform%}",
     "cusEmail":
     "{%contextdata.email%}",
     "cusFirstName":
@@ -120,6 +122,7 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
     ```
     {
     "marketingCloudId":"{%%mcid%%}",
+    "pushPlatform":"{%contextdata.pushPlatform%}",
     "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
     "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
     "cusLaunches": "{%%Launches%%}"
