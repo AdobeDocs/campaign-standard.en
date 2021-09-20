@@ -66,7 +66,7 @@ Get support using our FAQs, best practices, online resources and support portal.
         <li><a href="start/using/privacy-management.md">Privacy and consent management</a></li>
         <li><a href="automating/using/query.md">Design a query</a></li>
         <li><a href="automating/using/query-samples.md">Query Samples</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configure mobile channels</a></li>
+        <li><a href="administration/using/push-tracking.md">Configure mobile channels</a></li>
         </ul>
     </td>
     </tr>
@@ -113,7 +113,7 @@ The new ticketing system has been through [Adobe Admin Console](https://admincon
 
 ### Ask the experts!
 
-Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Create a ticket or start a chat
 
