@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Define the right audience
 audience: delivery
 content-type: reference

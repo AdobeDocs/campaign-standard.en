@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exporting / importing custom resources
 description: This tutorial explains how export and import a package of custom resources.
 audience: automating

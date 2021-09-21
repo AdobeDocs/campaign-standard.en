@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Generating a CSV file for Multilingual Push Notification with Campaign Standard
 description: Uploading a CSV file to generate content for delivery is a feature used to support Multilingual Push notifications.
 audience: channels

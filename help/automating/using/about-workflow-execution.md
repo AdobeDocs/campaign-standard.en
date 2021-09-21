@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About workflow execution
 description: Learn more about workflow execution.
 audience: automating

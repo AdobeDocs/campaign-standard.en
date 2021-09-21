@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Accessibility in Adobe Campaign Standard
 description: Learn about accessibility support in Adobe Campaign Standard Workspace.
 audience: designing

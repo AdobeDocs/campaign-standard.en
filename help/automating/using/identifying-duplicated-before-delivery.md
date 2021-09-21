@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Identifying duplicates before a delivery
 description: The following example illustrates a deduplication that lets you exclude the duplicates of a target before sending an email. This means you avoid sending a communication several times to the same profile.
 audience: automating

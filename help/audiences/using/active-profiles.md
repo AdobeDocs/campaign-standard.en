@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Active profiles
 description: Learn how to access customer metrics and  active profiles
 feature: Profiles

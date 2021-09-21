@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing transactional messages
 description: Learn how to manage transactional messages with APIs.
 audience: developing

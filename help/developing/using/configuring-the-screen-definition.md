@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring the screen definition
 description: Learn how to define new Adobe Campaign screens based on the resource data structure.
 audience: developing

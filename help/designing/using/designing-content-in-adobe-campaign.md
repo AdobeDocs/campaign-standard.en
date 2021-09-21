@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Designing content in Adobe Campaign
 description: Create email content starting from scratch, importing HTML or leveraging existing templates.
 audience: designing

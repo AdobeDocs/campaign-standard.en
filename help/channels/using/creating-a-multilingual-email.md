@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a multilingual email
 description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
 audience: channels

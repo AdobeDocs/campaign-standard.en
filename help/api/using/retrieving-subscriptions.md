@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retrieving subscriptions
 description: Learn how to retrieve subscriptions with APIs.
 audience: developing

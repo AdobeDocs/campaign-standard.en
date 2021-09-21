@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Help & support options for Campaign Standard 
 description: Need Support for Campaign Standard? You are at the right place!
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: yes
-feature: Help and support options
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing CCPA opt-out
 description: Learn how to manage CCPA opt-out with APIs
 audience: developing

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Triggering data ingestion through APIs
 description: Learn how to trigger data ingestion through APIs.
 audience: administration

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Pagination
 description: Learn how to perform pagination operations.
 audience: developing

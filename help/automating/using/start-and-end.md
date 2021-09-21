@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Start and end
 description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
 audience: automating

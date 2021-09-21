@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Building a workflow
 description: This section details the main principles and best practices for creating a new workflow.
 audience: automating

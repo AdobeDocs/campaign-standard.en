@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Working with Campaign and Assets core service
 description: Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration.
 audience: integrating
@@ -13,10 +11,6 @@ level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 ---
 # Working with Campaign and Assets core service{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> Experience Cloud Assets is now decommissioned. For new implementation, you can no longer integrate Experience Cloud Assets with Adobe Campaign Standard.
 
 Integrating Assets core service or Assets on Demand (depending on the configuration of your Adobe Experience Cloud environment) with Adobe Campaign allows you to use any assets that are shared within Adobe Experience Cloud in your Adobe Campaign emails and landing pages.
 

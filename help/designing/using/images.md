@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Working with Images
 description: Discover how to manage images in emails with the Email Designer.
 audience: designing

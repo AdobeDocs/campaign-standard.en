@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About targeting activities
 description: Targeting activities can be accessed from the left-hand side of the screen.
 audience: automating

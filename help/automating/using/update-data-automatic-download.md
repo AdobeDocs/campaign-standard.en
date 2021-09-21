@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating data based on an automatic file download
 description: The following example shows the result of an automatically downloaded load file activity via a transfer file activity, followed by an update data activity. 
 audience: automating

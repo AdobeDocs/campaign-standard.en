@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Designing emails using existing content 
 description: Discover how to design emails using existing content email content in the Email Designer.
 audience: designing

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reconcile a File audience with the database
 description: This example shows how to use the Read audience activity to reconcile an audience directly created from a file import.
 audience: automating

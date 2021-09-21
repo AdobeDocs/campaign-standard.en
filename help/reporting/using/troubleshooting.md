@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Troubleshooting
 description: Find here common questions related to Dynamic reporting.
 audience: reporting

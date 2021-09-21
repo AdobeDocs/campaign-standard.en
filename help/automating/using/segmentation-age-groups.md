@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentation according to age groups
 description: This page presents a segmentation of database profiles according to their age group. The aim of the workflow is to send a specific email for each age group.
 audience: automating

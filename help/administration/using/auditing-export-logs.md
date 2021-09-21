@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Auditing export logs
 description: Administrators can track the exports that were made from Adobe Campaign.
 audience: administration

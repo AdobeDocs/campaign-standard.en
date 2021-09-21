@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title:  Updating an Organizational unit attributes
 description: Learn how to update an Organizational unit attributes
 audience: developing

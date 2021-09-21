@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs
 description: This document provides information about how to support mobile use cases.
 audience: channels
@@ -152,7 +150,7 @@ In iOS, the following [!DNL Experience Platform API] is required:
 Here is a sample implementation of this use case with iOS:
 
 ```
-ACPCore.collectPii(["email":email, "firstName":firstName, "lastName":lastName])
+ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName, "lastName":lastName])
 ```
 
 ### With Android {#enrich-mobile-profile-custom-android}
@@ -165,9 +163,10 @@ Here is a sample implementation for this use case with Android:
 
 ```
 HashMap<String, String> data = new HashMap<>();
-data.put("firstName", firstNameText);
-data.put("lastName", lastNameText);
-data.put("email", emailText);
+data.put("pushPlatform", "gcm");
+data.put("firstName", firstNameText); 
+data.put("lastName", lastNameText); 
+data.put("email", emailText); 
 MobileCore.collectPii(data);
 ```
 

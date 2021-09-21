@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Designing an A/B test email
 description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
 audience: channels

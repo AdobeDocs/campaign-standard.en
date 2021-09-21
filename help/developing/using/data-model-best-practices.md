@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data model best practices in Adobe Campaign Standard
 description: Learn about the best practices when designing your Adobe Campaign Standard data model.
 audience: developing

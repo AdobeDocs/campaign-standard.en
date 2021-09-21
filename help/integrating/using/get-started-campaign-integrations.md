@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with Campaign integrations
 description: Use other Adobe solutions and combine their different capabilities with Campaign.
 audience: integrating

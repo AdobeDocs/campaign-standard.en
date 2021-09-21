@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating and using reusable content 
 description: Start building reusable email content with the Email Designer.
 audience: designing

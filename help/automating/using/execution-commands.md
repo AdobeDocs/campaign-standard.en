@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Execution commands
 description: Learn how to use workflows execution commands.
 audience: automating

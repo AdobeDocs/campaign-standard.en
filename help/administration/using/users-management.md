@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Users management
 description: Adobe Campaign users hold specific roles. Discover the main user types. 
 audience: administration
@@ -24,7 +22,7 @@ Administrators can manage users from the Admin console. Users are then automatic
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
+To view the users in Adobe Campaign, click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
 
 To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**.
 
@@ -151,7 +149,7 @@ You can then check if your user has been correctly synced to Adobe Campaign:
 
 Your user is now ready to use Adobe Campaign Standard.
 
-## Tutorial video (#video)
+## Tutorial video {#video}
 
 This video shows ow to manage user access rights.
 

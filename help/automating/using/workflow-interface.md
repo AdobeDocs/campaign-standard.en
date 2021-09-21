@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Workflow interface
 description: Learn the interface and options to create, edit and execute a workflow.
 audience: automating

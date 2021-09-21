@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About Campaign-Points of Interest data integration
 description: By collecting the Points of Interest data from your mobile application's subscribers, send location-based marketing messages to your subscribers through the integration in Adobe Campaign.
 audience: integrating

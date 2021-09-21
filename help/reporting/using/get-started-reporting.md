@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with dynamic reporting
 description: Analyze the success of your campaigns in build-in or customized dynamic reports.
 audience: reporting

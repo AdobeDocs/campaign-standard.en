@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: External accounts
 description: Configure external accounts to set up connections with external systems such as SFTP servers.
 audience: administration

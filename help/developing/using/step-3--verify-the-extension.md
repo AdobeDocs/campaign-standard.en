@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: "Step 3: Verify the extension"
 description: Learn how to access to the extended field with the Rest API.
 audience: developing

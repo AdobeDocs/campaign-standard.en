@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Query samples
 description: This section presents use case when using a Query activity.
 audience: automating

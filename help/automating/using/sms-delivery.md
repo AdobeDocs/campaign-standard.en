@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS delivery
 description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
 audience: automating

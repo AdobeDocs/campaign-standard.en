@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating a profile's Organizational unit
 description: Learn how to update a profile's Organizational unit with APIs.
 audience: developing

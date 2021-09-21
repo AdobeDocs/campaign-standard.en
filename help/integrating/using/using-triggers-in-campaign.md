@@ -1,11 +1,9 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Using Triggers in Campaign
+description: Create a trigger event in Adobe Campaign based on an existing Adobe Experience Cloud trigger.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-
 feature: Triggers
 role: Data Architect
 level: Intermediate
@@ -27,7 +25,7 @@ You can watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-
 
 The steps for putting this into place are:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**. 
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**. 
 
    ![](assets/remarketing_1.png)
 

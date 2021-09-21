@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Previewing messages
 description: Learn how to preview a message in the content editor or in the Email Designer.
 audience: sending

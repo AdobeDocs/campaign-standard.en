@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with communication channels
 description: Create personalized messages on various channels, use templates, create landing pages and check best practices.
 audience: channels

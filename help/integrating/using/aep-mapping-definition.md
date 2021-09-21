@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mapping definition
 description: Learn how to map a Campaign Standard field with an Experience Data Model (XDM) field.
 audience: administration

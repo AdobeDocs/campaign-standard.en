@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interface description
 description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
 audience: start
@@ -48,7 +46,7 @@ The top bar is visible on every screen and allows you to navigate through Adobe 
 
 The navigation principles are:
 
-* The **[!UICONTROL Adobe Campaign]** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. Menus depend on your profile and permissions.
+* The **Adobe** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. Menus depend on your profile and permissions.
 
   The advanced menu is presented in the [Advanced menu](#advanced-menu) section.
 
@@ -61,23 +59,21 @@ The navigation principles are:
 
 ### Help {#help}
 
-The top bar is visible on every screen and allows you to navigate through Adobe Campaign functionalities as well as access the Adobe profile connected, notifications, other Adobe Experience Cloud services and solutions, and the documentation.
-
-The navigation principles are:
-
-* The **[!UICONTROL Adobe Campaign]** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. Menus depend on your profile and permissions.
-
-  The advanced menu is presented in the [Advanced menu](#advanced-menu) section.
-
-* The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
-* The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 
-* The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
+On the top-right corner, the **Help** icon brings Adobe Experience League into the product.
 
   ![](assets/ux_help.png)
 
-* The **Select solution** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
-* The **Notifications** icon displays the latest alerts or information.
-* The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
+Use the **[!UICONTROL Search]** field to find guidance. Search results include documentation and help articles, results from community forums and video content, giving you easier access to more content to help get the most out of the application.
+
+Three tabs help you to find help and assistance:
+
+1. The **[!UICONTROL Help]** tab contains:
+    * a quick access to Adobe Campaign Standard documentation with contextual links.
+    * a **[!UICONTROL Learning]** link which allows you to access Adobe Campaign courses library.  
+    * a **[!UICONTROL Community]** link to access the forum dedicated to your questions on Campaign.
+    * a direct access to: Help Center, Customer Care, Experience Cloud product status, Developers connection, Release Notes, Release Planning and the **[!UICONTROL About]** screen.
+1. The **[!UICONTROL Support]** tab allows you to open a support case and contact us by phone or Twitter.
+1. The **[!UICONTROL Feedback]**  tab makes it easier to report issues or share your ideas.
 
 ## Advanced menu {#advanced-menu}
 

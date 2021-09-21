@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Integrated customer profile
 description: "Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle."
 audience: audiences

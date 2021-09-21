@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring workflow execution
 description: Learn how to monitor the execution of a workflow.
 audience: automating

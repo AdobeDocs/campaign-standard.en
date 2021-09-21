@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retrieving profiles
 description: Learn more how to retrieve profiles with APIs.
 audience: developing

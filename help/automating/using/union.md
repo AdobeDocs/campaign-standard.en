@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Union
 description: The Union activity allows you to regroup the result of multiple activities into a single target.
 audience: automating

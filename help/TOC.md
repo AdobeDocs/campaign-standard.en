@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 
@@ -427,6 +425,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
   + [Monitoring guidelines](administration/using/monitoring-guidelines.md)
+  + [Audit Trail](administration/using/audit.md)
   + [Configuration guidelines](administration/using/about-configuration-guidelines.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)

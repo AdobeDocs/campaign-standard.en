@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Overview
 description: This section details how to call a workflow with external parameters.
 audience: automating

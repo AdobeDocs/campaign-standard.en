@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Understanding delivery failures
 description: Learn how to manage delivery failures with Campaign.
 audience: sending
@@ -77,7 +75,7 @@ The possible reasons for a delivery failure are:
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
-If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
+If a message fails due to a temporary error, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
 The number of retries (how many retries should be performed the day after the send is started) and the minimum delay between retries are now<!--managed by the Adobe Campaign Enhanced MTA,--> based on how well an IP is performing both historically and currently at a given domain. The **Retries** settings in Campaign are ignored.
 
@@ -113,7 +111,7 @@ For synchronous delivery failure error messages, the Adobe Campaign Enhanced MTA
 >
 >The bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, see [this section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **Adobe** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, see [this section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 For more on bounces and the different kinds of bounces, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
@@ -125,7 +123,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

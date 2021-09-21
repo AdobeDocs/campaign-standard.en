@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating audiences
 description: Learn how to create audiences in Adobe Campaign.
 audience: audiences

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: In-App FAQ
 description: Frequently asked questions about In-App messaging
 audience: channels

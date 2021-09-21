@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Custom resources
 description: Learn more about custom resources management with APIs/
 audience: developing

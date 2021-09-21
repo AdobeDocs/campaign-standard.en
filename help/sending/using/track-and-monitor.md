@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Track and monitor messages
 audience: delivery
 content-type: reference

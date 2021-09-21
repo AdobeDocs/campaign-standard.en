@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentation on location"
 description: This use case shows how to perform segmentation on location.
 audience: automating

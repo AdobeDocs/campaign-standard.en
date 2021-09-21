@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Direct mail delivery
 description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
 audience: automating

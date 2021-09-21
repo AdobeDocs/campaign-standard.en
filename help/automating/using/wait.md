@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Wait
 description: The Wait activity momentarily suspends executing a part of a workflow.
 audience: automating

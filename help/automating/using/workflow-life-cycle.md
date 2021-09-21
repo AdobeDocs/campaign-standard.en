@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Workflow life cycle
 description: Learn more about workflow life cycle
 audience: automating

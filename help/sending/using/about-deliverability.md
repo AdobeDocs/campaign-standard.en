@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About deliverability in Adobe Campaign Standard
 description: Learn about the concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign Standard to optimize sending your deliveries.
 audience: sending

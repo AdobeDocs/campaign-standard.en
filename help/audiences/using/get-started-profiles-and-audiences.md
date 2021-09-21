@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with profiles and audiences
 description: Define targeted populations, select audiences, filter recipients, collect data and update profiles.
 audience: audiences

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring a mobile application
 description: Discover how to configure Adobe Campaign to send push notifications or In-App messages using SDK V4 or Experience Platform SDK.
 audience: administration

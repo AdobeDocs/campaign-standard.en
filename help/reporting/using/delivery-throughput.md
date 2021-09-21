@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Delivery throughput
 description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
 audience: reporting

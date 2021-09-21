@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Selecting an audience in a message
 description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
 audience: audiences

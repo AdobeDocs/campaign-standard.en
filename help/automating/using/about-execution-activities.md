@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About execution activities
 description: Execution activities are available from the left-hand side of the screen.
 audience: automating

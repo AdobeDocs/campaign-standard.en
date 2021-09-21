@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About emails
 description: Discover the different types of emails that you can send with Adobe Campaign.
 audience: channels

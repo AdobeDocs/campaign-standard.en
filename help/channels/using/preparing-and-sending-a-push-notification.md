@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Create and send a push notification
 description: Follow these steps to create a single-send push notification in Adobe Campaign.
 audience: channels

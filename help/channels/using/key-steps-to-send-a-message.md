@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Key steps to send a message
 description: Follow these steps to create and send messages with Adobe Campaign.
 audience: channels

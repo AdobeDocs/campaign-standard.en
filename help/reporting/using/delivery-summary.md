@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Delivery summary
 description: With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens.
 audience: reporting

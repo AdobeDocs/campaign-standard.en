@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating multiple subscription statuses from a file
 description: This use case shows how to import a file containing profiles and update their subscription to several services specified in the file.
 audience: automating

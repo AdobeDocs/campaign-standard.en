@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard Release Planning
 description: This page lists upcoming releases of Adobe Campaign Standard.
 audience: rn
@@ -22,11 +20,11 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: we recommend you visit this page on a regular basis to check for updates.
 
-## Release 21.3 - June 2021 Release {#release-21-3-release}
+## Release 21.3 - September 2021 Release {#release-21-3-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). 
+Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md).
 
 <table>
  <thead>
@@ -48,8 +46,6 @@ Detailed information about this release are available in the [Release Notes](../
 </table>
 
 If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
-
-Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
 
 ## Questions & Answers {#questions-and-answers}
 

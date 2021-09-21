@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Metadata mechanism
 description: Learn more about metadata mechanism.
 audience: developing

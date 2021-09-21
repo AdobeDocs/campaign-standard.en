@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing email styles
 description: Discover how to manage email styles in the Email Designer.
 audience: designing

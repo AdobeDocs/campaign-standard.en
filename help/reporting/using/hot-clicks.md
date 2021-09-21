@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hot clicks
 description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
 audience: reporting

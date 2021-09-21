@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizing email content
 description: Discover how to personalize an email in the Email Designer.
 audience: designing
@@ -48,7 +46,9 @@ Adobe Campaign allows you to personalize one or several URLs in your message by 
 
 >[!NOTE]
 >
->Personalizing URLs cannot be applied to the domain name, nor to the URL extension. An error message will be displayed during message analysis if personalization is incorrect. When selecting a content block, you are not allowed to select elements such as **Link to mirror page**. This type of blocks is forbidden inside a link.
+>When the URL signature mechanism for tracking links is disabled, personalizing URLs cannot be applied to the domain name, nor to the URL extension. An error message will be displayed during message analysis if personalization is incorrect.
+>
+>When selecting a content block, you are not allowed to select elements such as **Link to mirror page**. This type of blocks is forbidden inside a link.
 
 ## Inserting a personalization field{#inserting-a-personalization-field}
 

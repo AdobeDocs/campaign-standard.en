@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a Campaign form in Experience Manager 
 description: With the Adobe Experience Manager integration, you can create forms directly in AEM to create and update profiles or manage subscriptions.
 audience: integrating

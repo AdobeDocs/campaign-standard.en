@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing opt-in and opt-out in Campaign
 description: Understand how opt-in and opt-out are managed in Adobe Campaign.
 audience: audiences

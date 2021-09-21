@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About templates
 description: "Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users."
 audience: start

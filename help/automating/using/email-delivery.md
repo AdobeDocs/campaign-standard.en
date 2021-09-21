@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Email delivery
 description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
 audience: automating

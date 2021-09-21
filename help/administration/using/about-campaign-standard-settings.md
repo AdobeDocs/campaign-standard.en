@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About Campaign Standard settings
 description: About Campaign Standard settings
 audience: administration

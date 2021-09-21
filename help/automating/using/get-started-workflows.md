@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with processes and data management
 description: Automate processes with workflows, manage data and audiences, send messages, and more.
 audience: automating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Using traps
 description: Learn how to use traps in messages.
 audience: sending

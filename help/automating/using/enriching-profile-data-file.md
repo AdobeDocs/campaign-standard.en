@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Enriching profile data with data contained in a file
 description: This example shows how to enrich profile data with purchase data contained in a file.
 audience: automating

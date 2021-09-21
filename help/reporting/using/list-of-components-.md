@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: List of components 
 description: Find here the list of every components available in     Dynamic reports as well as their definitions.
 audience: reporting
@@ -378,10 +376,6 @@ The tables below give you the list of metrics used in reports and their definiti
 
 ## Segments {#segments}
 
->[!NOTE]
->
->By default, the **[!UICONTROL Exclude proof]** segment is already selected to filter your reports but can be changed if needed.
-
 The table below gives you the list of segments used in reports and their definitions.
 
 <table> 
@@ -455,10 +449,6 @@ The table below gives you the list of segments used in reports and their definit
   <tr> 
    <td> All visits<br /> </td> 
    <td> Every recipient<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Exclude proof<br /> </td> 
-   <td> Exclude proofs from your reports<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>

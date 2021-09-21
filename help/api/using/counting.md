@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Counting
 description: Learn how to perform count operations.
 audience: developing

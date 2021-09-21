@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transactional message lifecycle
 description: Learn how to publish, pause, unpublish and delete a transactional message.
 audience: channels
@@ -60,7 +58,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
 You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
 1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
@@ -131,7 +129,7 @@ The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is 
 
 Once a transactional message has been unpublished, or if a transactional message has  not been published yet, you can delete it from the transactional message list. To do this:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Hover the mouse over the message of your choice.
 1. Click the **[!UICONTROL Delete element]** button.
 

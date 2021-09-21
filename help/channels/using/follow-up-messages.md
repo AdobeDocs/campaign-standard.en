@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Follow-up messages
 description: Learn how to create, manage and send a follow-up message.
 audience: channels
@@ -39,7 +37,7 @@ To handle an event in a workflow, a delivery template is required. However, when
 
 To access this template:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Click the **Adobe** logo, in the top left corner.
 1. Select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Check the **[!UICONTROL Follow-up messages]** box in the left pane.
 

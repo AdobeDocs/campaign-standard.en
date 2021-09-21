@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating profiles
 description: Learn more how to update profiles with APIs.
 audience: developing

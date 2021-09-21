@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Enriching the database
 description: Learn about the various methods to enrich the database.
 audience: start

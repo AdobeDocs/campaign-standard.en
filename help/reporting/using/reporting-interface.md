@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reporting interface
 description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
 audience: reporting
