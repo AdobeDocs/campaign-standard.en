@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a service
 description: Learn how to create a service with APIs.
 audience: developing

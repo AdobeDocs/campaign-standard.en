@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring guidelines
 description: This section presents general guidelines for monitoring Campaign Standard.
 audience: production

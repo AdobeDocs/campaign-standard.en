@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Workflows best practices
 description: Learn how to best practices to apply to your workflows.
 audience: automating

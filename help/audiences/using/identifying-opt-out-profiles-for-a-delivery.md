@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Identifying opt-out profiles for a delivery
 description: Discover how to identify opt-out profiles for a delivery.
 audience: audiences

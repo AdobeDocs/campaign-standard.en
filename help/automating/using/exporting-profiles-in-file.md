@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exporting profiles in an external file
 description: This use case shows how to export a list of profiles in the form of an external file so that the data can be used outside of Adobe Campaign.
 audience: automating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Testing email messages using targeted profiles
 description: Learn how to test messages using targeted profiles and substitution addresses.
 audience: sending

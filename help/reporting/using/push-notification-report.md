@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Push notification report
 description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
 audience: reporting

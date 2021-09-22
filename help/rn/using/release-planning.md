@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard Release Planning
 description: This page lists upcoming releases of Adobe Campaign Standard.
 audience: rn
@@ -26,7 +24,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release are available in the [Early Release Notes](../../rn/using/early-release-notes.md). 
+Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md).
 
 <table>
  <thead>

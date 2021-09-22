@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Import best practices
 description: Learn more about the best practices to follow when importing data into the database.
 audience: automating

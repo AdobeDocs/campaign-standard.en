@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating deliveries with a complement
 description: This use case shows how to creae deliveries with a complement.
 audience: automating

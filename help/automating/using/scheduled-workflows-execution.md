@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Scheduled workflows' overlapping execution
 description: Learn how to prevent overlapping execution of scheduled workflows.
 audience: automating

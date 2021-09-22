@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign delivery best practices
 audience: delivery
 content-type: reference

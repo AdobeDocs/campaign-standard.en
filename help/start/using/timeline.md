@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Timeline
 description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
 audience: start

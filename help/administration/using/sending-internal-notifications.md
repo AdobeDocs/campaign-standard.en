@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sending internal notifications
 description: Learn how to send real-time system notifications to your Adobe Campaign users.
 audience: administration

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizing an email with additional data
 description: This use case presents how to add different types of additional data to a query and use it as a personalization field in an email.
 audience: automating

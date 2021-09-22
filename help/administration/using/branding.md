@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Branding
 description: Discover all the tools available to manage your branding identities.
 audience: administration

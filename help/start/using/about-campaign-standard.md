@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with Campaign Standard
 description: Discover key capabilities, user interface and global guidelines.
 audience: start

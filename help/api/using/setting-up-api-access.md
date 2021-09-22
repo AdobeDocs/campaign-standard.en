@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Setting-up API access
 description: Learn how to set up access to Campaign Standard APIs.
 audience: developing

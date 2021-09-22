@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interacting with marketing history
 description: Learn how to interact with profiles' marketing history.
 audience: developing

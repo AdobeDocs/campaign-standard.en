@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adding Target dynamic content
 description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
 audience: integrating

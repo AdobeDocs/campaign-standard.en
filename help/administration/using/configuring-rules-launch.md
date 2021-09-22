@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
 description: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
 audience: channels
@@ -105,6 +103,8 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
     {
     "marketingCloudId":
     "{%%mcid%%}",
+    "pushPlatform":
+    "{%contextdata.pushPlatform%}",
     "cusEmail":
     "{%contextdata.email%}",
     "cusFirstName":
@@ -122,6 +122,7 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
     ```
     {
     "marketingCloudId":"{%%mcid%%}",
+    "pushPlatform":"{%contextdata.pushPlatform%}",
     "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
     "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
     "cusLaunches": "{%%Launches%%}"

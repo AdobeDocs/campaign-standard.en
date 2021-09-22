@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Predictive user engagement capabilities
 description: Learn how to use predictive send time and engagement scoring.
 audience: sending

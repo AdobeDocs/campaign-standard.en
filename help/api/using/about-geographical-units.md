@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About geographical units
 description: Learn more about geographical units and APIs.
 audience: developing

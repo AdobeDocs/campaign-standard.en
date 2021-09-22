@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Optimizing the sending time
 description: Learn how to set up sending time and improve the open rate of your messages.
 audience: sending

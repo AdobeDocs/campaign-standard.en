@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Experience Data Model overview
 description: Experience Data Model (XDM) is a standard set of data schemas into which data might be ingested for use with Adobe Experience Platform solutions and products.
 audience: administration

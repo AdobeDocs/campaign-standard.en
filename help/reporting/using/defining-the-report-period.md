@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Defining the report period
 description: The time period of your report allows you to filter your data depending on the chosen dates.
 audience: reporting

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: "Step 1: Add extension fields to the profile resource"
 description: Discover how to extend the profile resource.
 audience: developing

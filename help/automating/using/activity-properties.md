@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing activities' properties
 description: Learn how to manage workflow activities' properties.
 audience: automating

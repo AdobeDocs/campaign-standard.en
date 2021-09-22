@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Calling a resource using a composite identification key
 description: Learn how to call a resource using a composite identification key
 feature: Data Model

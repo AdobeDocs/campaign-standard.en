@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updating a Geographical unit attributes
 description: Learn how to update a Geographical unit attributes with APIs
 audience: developing

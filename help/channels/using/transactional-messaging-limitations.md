@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transactional messaging limitations
 description: Learn about the main recommendations and limitations regarding transactional messages in Adobe Campaign Standard.
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Licenses
 description: Learn more on licenses installed on your instance.
 audience: administration

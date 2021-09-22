@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing groups and users
 description: Learn how to create security groups and manage users.
 audience: administration
@@ -120,7 +118,7 @@ The newly created security groups are now created in the Admin console. For them
 
 The Administrator user has to create the set of security groups that are used to assign organizational units: Geometrixx and Geometrixx Clothes. To learn how to create organizational units, see [Creating and managing units](../../administration/using/organizational-units.md#creating-and-managing-units) .
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Create your new security group and specify its **[!UICONTROL Label]** and **[!UICONTROL ID]**.
 
    The ID needs to be the same as the one chosen in the Admin console.

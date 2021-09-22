@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring a landing page
 description: Learn how to configure a landing page's properties.
 audience: channels

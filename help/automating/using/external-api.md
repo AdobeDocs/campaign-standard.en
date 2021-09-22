@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: External API
 description: The External API activity brings data into the Campaign Standard workflow from an external system via an HTTP API call.
 audience: automating

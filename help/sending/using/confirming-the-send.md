@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Confirming the send
 description: Learn how to finalize the message preparation.
 audience: sending

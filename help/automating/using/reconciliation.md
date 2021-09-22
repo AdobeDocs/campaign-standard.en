@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reconciliation
 description: The Reconciliation activity allows you to link unidentified data to existing resources.
 audience: automating

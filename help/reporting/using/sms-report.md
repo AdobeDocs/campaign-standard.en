@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS report
 description: With the SMS out-of-the-box report, learn about the success of your SMS deliveries. 
 audience: reporting

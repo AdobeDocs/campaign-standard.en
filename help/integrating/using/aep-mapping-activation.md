@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mapping activation
 description: Learn how to activate your data mapping
 audience: administration

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Using product listings in a transactional message
 description: Learn how to use product listings in a transactional message content.
 audience: designing

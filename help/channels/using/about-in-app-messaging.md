@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About In-App messaging
 description: Display message or alert within the mobile application with In-App messaging.
 audience: channels

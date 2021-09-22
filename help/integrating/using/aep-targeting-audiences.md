@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Targeting Adobe Experience Platform audiences
 description: Learn how to target Adobe Experience PLatform audiences within workflows.
 audience: automating

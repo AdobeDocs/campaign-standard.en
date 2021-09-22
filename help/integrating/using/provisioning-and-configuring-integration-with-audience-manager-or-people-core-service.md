@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Provisioning and configuring integration with Audience Manager or People core service
 description: Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. 
 audience: integrating

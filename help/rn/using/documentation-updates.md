@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Documentation Updates
 description: Learn about all the latest updates for Adobe Campaign Standard documentation.
 audience: rn
@@ -15,6 +13,22 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 # Documentation Updates{#documentation-updates} 
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## Release 21.3 - September 2021 {#release-21-3---september-2021}
+
+**New capabilities included in the release**
+
+Improved unified Experience Cloud interface - [Read more](../../start/using/interface-description.md#top-bar)
+
+New Audit Trail capability - [Read more](../../administration/using/audit.md)
+
+Workflow diagnostic mode - [Read more](../../automating/using/managing-execution-options.md)
+
+**Other documentation updates coming with the release**
+
+A new section has been added on how to remove an address from the quarantine list. [Read more](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
+The **Quarantine vs Denylist** section has been clarified. [Read more](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## July 2021 {#doc-updates-july-2021}
 
@@ -43,7 +57,7 @@ The **Release planning** page has been updated with new dates. [Read more](../..
 
 ## April 2021 {#doc-updates-april-2021}
 
-A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
+A new section has been added on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Standard and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrating/using/get-started-sources-destinations.md)
 
 ## March 2021 {#doc-updates-march-2021}
 

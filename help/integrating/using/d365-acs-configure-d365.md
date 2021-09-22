@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configure Microsoft Dynamics 365 for Campaign integration
 description: Learn how to configure Microsoft Dynamics 365 for Campaign integration.
 audience: integrating

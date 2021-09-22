@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transactional messaging use case
 description: Discover an end-to-end example of the Adobe Campaign transactional messaging functionality.
 audience: channels

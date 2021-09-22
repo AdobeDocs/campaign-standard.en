@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Managing encrypted data
 description: Learn how to manage encrypted data.
 audience: automating

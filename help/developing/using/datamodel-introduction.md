@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data model introduction
 description: Learn about the Adobe Campaign data model.
 audience: developing

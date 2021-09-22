@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuring the resource's data structure
 description: Learn how to configure the data structure.
 audience: developing

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with testing and sending
 description: Prepare, test, schedule, send and monitor your messages.
 audience: sending

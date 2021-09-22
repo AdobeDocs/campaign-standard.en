@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Accessing messages
 description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
 audience: channels

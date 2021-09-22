@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Return to sender
 description: Learn how to be notified of an incorrect address and exclude it from future communications.
 audience: channels

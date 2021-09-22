@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring subscriptions
 description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
 audience: audiences

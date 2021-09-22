@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About SMS and push content design
 description: Learn about the editor used to modify the content of your SMS messages and push notifications in Adobe Campaign.
 audience: designing

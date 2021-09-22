@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adding components
 description: Drag and drog components to your freeform table to start filtering your data and building your report.
 audience: reporting

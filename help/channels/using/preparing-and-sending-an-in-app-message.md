@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Preparing and sending an In-App message
 description: Create In-App message to target your application subscribers with specific content.
 audience: channels

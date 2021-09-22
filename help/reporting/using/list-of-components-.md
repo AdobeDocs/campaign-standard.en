@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: List of components 
 description: Find here the list of every components available in     Dynamic reports as well as their definitions.
 audience: reporting

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizing SMS messages
 description: Discover the specificity of the transliteration options when personalizing SMS messages.
 audience: channels

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Updates and maintenance operations
 description: Information about update and maintenance operations for the Adobe Campaign server.
 audience: administration

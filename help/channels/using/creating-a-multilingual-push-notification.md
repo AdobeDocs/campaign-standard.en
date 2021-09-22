@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creating a multilingual push notification
 description: Create multilingual push notifications to target your users in their preferred languages and regions.
 audience: channels

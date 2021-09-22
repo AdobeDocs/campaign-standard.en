@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: In-App report
 description: With the In-App out-of-the-box report, learn about the success of your In-App messages.
 audience: reporting

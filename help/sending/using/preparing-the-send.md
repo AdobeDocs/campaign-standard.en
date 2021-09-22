@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Preparing the send
 description: Learn how to define preparation before the send.
 audience: sending

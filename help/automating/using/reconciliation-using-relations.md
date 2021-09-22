@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data reconciliation using relations
 description: The following example demonstrates a workflow that updates the database using the purchasing data in a file.
 audience: automating

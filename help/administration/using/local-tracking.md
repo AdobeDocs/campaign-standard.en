@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Implementing Push tracking
 description: This document allows you to ensure that push notification tracking has been implemented correctly on iOS and Android.
 audience: channels

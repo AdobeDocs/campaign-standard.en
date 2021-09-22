@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Designing emails through Adobe Campaign integrations 
 description: Discover how to design emails through Adobe Campaign integrations in the Email Designer.
 audience: designing

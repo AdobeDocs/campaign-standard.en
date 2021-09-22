@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About channel configuration
 description: "Each channel needs to be configured: technical configuration, message properties and templates."
 audience: administration

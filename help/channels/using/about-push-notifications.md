@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About push notifications
 description: Discover the main specificities of the push notification channel in Adobe Campaign.
 audience: channels

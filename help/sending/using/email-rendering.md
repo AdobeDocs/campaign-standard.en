@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Email rendering
 description: Discover the email rendering feature.
 audience: sending

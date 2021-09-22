@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About profiles
 description: Contacts are stored as profiles in Campaign database, and updated through their entire life cycle.
 audience: audiences

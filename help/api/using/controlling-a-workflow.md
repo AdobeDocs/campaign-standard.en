@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Controlling a workflow
 description: Learn how to control a workflow with APIs.
 audience: developing

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoring data model changes
 description: Learn how to diagnose the Adobe Campaign data model.
 audience: developing

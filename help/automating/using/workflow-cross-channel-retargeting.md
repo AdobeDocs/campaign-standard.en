@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Retargeting non-openers
 description: This use case shows how to retargeting non-openers.
 audience: automating

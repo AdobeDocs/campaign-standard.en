@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Scheduler
 description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
 audience: automating

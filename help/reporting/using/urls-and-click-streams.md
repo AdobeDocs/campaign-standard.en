@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: URLs and click streams
 description: With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries.
 audience: reporting

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About access management
 description: Manage your Adobe Campaign operators using roles, groups and organizational units.
 audience: administration

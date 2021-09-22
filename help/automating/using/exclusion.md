@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exclusion
 description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
 audience: automating

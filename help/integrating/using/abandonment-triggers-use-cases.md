@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abandonment Triggers use cases
 description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
 audience: integrating
@@ -61,7 +59,7 @@ Now that we've created an Experience Cloud Trigger, let's use it in Adobe Campai
 
 In Adobe Campaign, you need to create a Trigger linked to the one you created in the Experience Cloud.
 
-1. To create the Trigger in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. To create the Trigger in Adobe Campaign, click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 

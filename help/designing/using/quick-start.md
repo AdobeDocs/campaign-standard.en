@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Get started with the Email Designer
 description: Start building email content with the Email Designer.
 audience: designing

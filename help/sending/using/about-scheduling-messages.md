@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: About scheduling messages
 description: Learn how to schedule your messages.
 audience: sending

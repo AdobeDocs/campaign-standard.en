@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Troubleshooting
 description: Learn how to troubleshoot issues when sharing resources.
 audience: integrating

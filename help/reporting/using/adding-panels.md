@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adding panels
 description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
 audience: reporting

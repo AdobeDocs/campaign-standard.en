@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Read audience
 description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
 audience: automating

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS troubleshooting
 description: SMS troubleshooting
 audience: administration

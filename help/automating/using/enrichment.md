@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Enrichment
 description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
 audience: automating
