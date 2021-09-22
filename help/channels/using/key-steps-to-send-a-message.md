@@ -30,7 +30,7 @@ Leverage Campaign Standard [marketing activities](../../start/using/marketing-ac
 
 ![](assets/marketing-activities.png)
 
-Messages can be created either from the marketing activties list or from a workflow using [dedicated activities](../../automating/using/about-channel-activities.md).
+Messages can be created either from the marketing activities list or from a workflow using [dedicated activities](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 

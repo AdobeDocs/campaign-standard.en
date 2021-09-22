@@ -63,7 +63,7 @@ The steps below describe a step-by-step use case to import and use the collectio
 
     ![alt text](assets/postman_uc2.png)
 
-1. Once an object created, a primary key (PKey) is associated to it. It is visible in the resquest response, as well as other attributes.
+1. Once an object created, a primary key (PKey) is associated to it. It is visible in the request response, as well as other attributes.
 
     ![alt text](assets/postman_uc3.png)
 

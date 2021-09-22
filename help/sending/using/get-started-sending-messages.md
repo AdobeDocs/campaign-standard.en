@@ -22,7 +22,7 @@ Once you have defined the target and created the content of a message, you need 
 
 Once marketing campaigns have been executed and the different messages have been sent, monitor them using logs to check the success of your campaign, and retrieve tracking information on the recipients.
 
-Finally, leverage deliverability guidelines and tools available in Campaign Standard to improve the number of delivered messages and ensure successfull marketing campaigns.
+Finally, leverage deliverability guidelines and tools available in Campaign Standard to improve the number of delivered messages and ensure successful marketing campaigns.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover how to send a test email, prepare and send an email delivery in video](#video)
 
@@ -72,7 +72,7 @@ Read more:
 
 Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 
-Campaign Standard provides several **deliverability tools** to help you improve the number of successfully delivered messages: delivery thoughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
+Campaign Standard provides several **deliverability tools** to help you improve the number of successfully delivered messages: delivery throughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
 
 Read more:
 

@@ -330,7 +330,7 @@ The email is created as follows:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Managing dynamic images"
->abstract="Personnalize your email with dynamic images according to conditions that you will define."
+>abstract="Personalize your email with dynamic images according to conditions that you will define."
 
 In this example, the dynamic contents applied to the images are configured as follows:
 

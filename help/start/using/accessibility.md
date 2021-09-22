@@ -82,38 +82,38 @@ Please note that language is set up at installation, and cannot be changed after
 
 ### Homepage {#homepage-shortcuts}
 
-| Shortcut  |  Action |
-|:-:|:-:|
-| Tab | Navigate through individual elements of the user interface|
-| Enter or Space | Activate the selected item |
+|  Action | Shortcut |
+| --- | --- |
+| Navigate through individual elements of the user interface| Tab |
+| Activate the selected item | Enter or Spacebar |
 
 ### Email designer {#email-designer-shortcuts}
 
-| Shortcut  |  Action |
-|:-:|:-:|
-| CTRL + Z  | Undo  |
-| CTRL + Y  |  Redo |
+|  Action | Windows shortcut | macOS shortcut |
+| --- | --- | --- |
+| Undo  | Ctrl + Z | Command + Z |
+| Redo | Ctrl + Y  | Shift + Command + Z |
 
 ### Dynamic reports {#report-shortcuts}
 
-| Shortcut  |  Action |
-|:-:|:-:|
-| CTRL + O | Open project |
-| CTRL + S  |  Save |
-| Shift + CTRL + S | Save as |
-| Alt + R  | Refresh project |
-| Shift + CTRL + V | Download CSV |
-| Alt + P | Print |
-| CTRL + Z | Undo |
-|  CTRL + Shift + Z | Redo |
-| Alt + B | New blank panel |
-| Alt + A | New freeform |
-| Alt + 1 | New freeform table |
-| Alt + 2 | New line |
-| Alt + 3 | New bar |
-| Alt + S | Send report now |
-| Shift + Alt + S | Send report on schedule |
-| Shift = Alt + L | Scheduled reports |
+|  Action | Windows shortcut | macOS shortcut |
+| --- | --- | --- |
+| Open a project | Ctrl + O | Command + O |
+| Save | Ctrl + S  | Command + S |
+| Save as | Shift + Ctrl + S | Shift + Command + S |
+| Refresh project | Alt + R  | Command + R |
+| Download CSV file | Shift + Ctrl + V | Shift + Command + V |
+| Print | Alt + P | Command + P |
+| Undo  | Ctrl + Z | Command + Z |
+| Redo | Ctrl + Y  | Shift + Command + Z |
+| New blank panel | Alt + B | Option + B |
+| New freeform | Alt + A | Option + A |
+| New freeform table | Alt + 1 | Option + 1 |
+| New line | Alt + 2 | Option + 2 |
+| New bar | Alt + 3 | Option + 3 |
+| Send report now | Alt + S | Option + S |
+| Send report on schedule | Shift + Alt + S | Shift + Option + S |
+| Scheduled reports | Shift + Alt + L |<!-- Should be 'Shift + Option + L ' but does not work on Mac -->|
 
 ## Further Reading {#further-reading}
 
