@@ -91,7 +91,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 
 * When creating a recurring delivery in a workflow, linked to an Adobe Experience Manager content, content approval status is now checked before sending.
 * Database connection limit is now aligned with the Campaign package to avoid connection errors.
-* A new consistency check in custom resources publication prevents users from creating duplicate indexes, which causes publication to fail. An improved error message asks the user to rename the index if needed.
+* A new consistency check in custom resources publication prevents users from creating duplicate indexes, which causes publication to fail. An improved error message asks the user to rename the index if needed. [Learn more](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Other changes**
 

@@ -71,6 +71,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Accessing messages](channels/using/accessing-messages.md)
        + [Message dashboard](channels/using/message-dashboard.md)
        + [Multilingual messages templates](channels/using/multilingual-messages-template.md)
+       + [Get started with Mobile channels](channels/using/mobile-guide.md)
   + Delivery best practices {#delivery-bestpractices}
        + [Learn good practices](sending/using/delivery-best-practices.md)
        + [Optimize delivery](sending/using/optimize-delivery.md)

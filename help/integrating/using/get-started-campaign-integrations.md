@@ -44,7 +44,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
    <td> Adobe Experience Manager<br /> </td> 
    <td> Allows you to create email contents or forms mapped to the Adobe Campaign database directly in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Work with Campaign and Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrate Experience Manager and Campaign Standard</a>, <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Create an email with Experience Manager and Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Work with Campaign and Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrate Experience Manager and Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Create an email with Experience Manager and Campaign</a> 
     </td> 
   </tr> 
   <tr> 

@@ -1,6 +1,6 @@
 ---
 title: Adding components
-description: Drag and drog components to your freeform table to start filtering your data and building your report.
+description: Drag and drop components to your freeform table to start filtering your data and building your report.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
