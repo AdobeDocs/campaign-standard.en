@@ -7,6 +7,7 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
+exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 ---
 # Get started with Mobile channels {#mobile-guide}
 
@@ -242,5 +243,3 @@ The following pages will help you solve the most common problems happening when 
   </td>
 </tr>
 </table>
-
- 
