@@ -7,7 +7,6 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: yes
 ---
 # Get started with Mobile channels {#mobile-guide}
 
