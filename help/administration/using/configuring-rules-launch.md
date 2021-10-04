@@ -12,7 +12,7 @@ exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 ---
 # Configuring Launch rules to support Adobe Campaign Standard use cases {#configuring-rules-launch}
 
-In [!DNL Adobe Experience Platform Launch], you need to create data elements and rules to send PII and other data from mobile applications to [!DNL Adobe Campaign Standard].
+In [!DNL Adobe Experience Platform Launch], create data elements and rules to send PII and other data from mobile applications to [!DNL Adobe Campaign Standard].
 
 To ensure that all configuration changes in [!DNL Adobe Experience Platform Launch] take effect, you must publish these changes. For more information, see [Publishing](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
@@ -60,7 +60,7 @@ To create these data elements:
 
 ## Creating rules {#creating-rules}
 
-You need to create rules for the following:
+You must create rules for the following:
 
 * [PII postback](../../administration/using/configuring-rules-launch.md#pii-postback)
 * [In-App tracking postback](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
@@ -71,7 +71,7 @@ You need to create rules for the following:
 
 >[!NOTE]
 >
->To send PII information from a mobile app to Adobe Campaign, you need to implement an SDK API. For more information, go to [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>To send PII information from a mobile app to Adobe Campaign, you must implement an SDK API. For more information, go to [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
 To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Experience Platform Launch]:
 
@@ -183,7 +183,7 @@ To send tracking data to [!DNL Adobe Campaign Standard] for reporting on how you
 >
 >If you are using Android ACPCore v1.4.0 or later/ iOS ACPCore v2.3.0 or later, configuring tracking postbacks is not required.
 
-To send tracking data to [!DNL Adobe Campaign Standard], which helps track your Push notification deliveries and your users’ interaction with your mobile application, you need to create a rule in [!DNL Experience Platform Launch].
+To send tracking data to [!DNL Adobe Campaign Standard], which helps track your Push notification deliveries and your users’ interaction with your mobile application, you must create a rule in [!DNL Experience Platform Launch].
 
 For more information about push tracking, see [Push Tracking](../../administration/using/push-tracking.md).
 
@@ -258,7 +258,7 @@ To track app actions, use the trackAction API. For more information, see [Track 
 
     >[!NOTE]
     >
-    >In the example above, the data elements on the right-hand side need to be configured in [!DNL Experience Platform Launch] by leveraging the steps in [Creating data elements](../../administration/using/configuring-rules-launch.md#create-data-elements). The data elements on the left-hand side are supported in [!DNL Adobe Campaign Standard] and do not need any configuration. If you require additional data, you need to carry out custom resource extensions in [!DNL Adobe Campaign Standard].
+    >In the example above, the data elements on the right-hand side must be configured in [!DNL Experience Platform Launch] by leveraging the steps in [Creating data elements](../../administration/using/configuring-rules-launch.md#create-data-elements). The data elements on the left-hand side are supported in [!DNL Adobe Campaign Standard] and do not need any configuration. If you require additional data, you must carry out custom resource extensions in [!DNL Adobe Campaign Standard].
 
 1. In **[!UICONTROL Content Type]**, type **application/json**.
 

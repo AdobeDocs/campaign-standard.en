@@ -111,7 +111,7 @@ For synchronous delivery failure error messages, the Adobe Campaign Enhanced MTA
 >
 >The bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **Adobe** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, see [this section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **Adobe** logo, at the top-left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, see [this section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 For more on bounces and the different kinds of bounces, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
@@ -123,7 +123,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

@@ -26,7 +26,7 @@ Local notification tracking can be split into three types:
 
 To implement tracking for Adobe Campaign Standard, the mobile application needs to include Mobile SDK in the application. These SDKs are available in [!DNL Adobe Mobile Services].
 
-To send tracking information, there are three variables that need to be sent: two are part of the data received from Adobe Campaign and the other is an action variable that dictates whether it is an impression, click or open.
+To send tracking information, there are three variables that must be sent: two are part of the data received from Adobe Campaign and the other is an action variable that dictates whether it is an impression, click or open.
 
 | Variable | Value |
 | :-: | :-: |
@@ -40,11 +40,11 @@ The Adobe Experience Platform Mobile SDK will automatically send the impression 
 
 ## Implement click tracking {#implementing-click-tracking}
 
-For click tracking, you need to send value "2" for action when calling `collectMessageInfo()` or `trackAction()` functions.
+For click tracking, you must send value "2" for action when calling `collectMessageInfo()` or `trackAction()` functions.
 
 ### For Android {#implement-click-tracking-android}
 
-To track click, two scenarios need to be handled:
+To track clicks, two scenarios must be implemented:
 
 * The user sees the notification but clears it.
     
@@ -62,7 +62,7 @@ To track click, two scenarios need to be handled:
 
 ### For iOS {#implement-click-tracking-ios}
 
-To send the click tracking information, you need to add the following:
+To send the click tracking information, you must add the following:
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -95,13 +95,13 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 ## Implement open tracking {#implement-open-tracking}
 
-You need to send "1" and "2" since user must click on the notification to open the application. If the application is not launched/opened through local notification, then no tracking events occur.
+You must send "1" and "2" since user must click on the notification to open the application. If the application is not launched/opened through local notification, then no tracking events occur.
 
 ### For Android {#implement-open-tracking-android}
 
-To track open, we need to create intent. Intent objects allow Android OS to call your method when certain actions are done, in this case clicking the notification to open the app.
+To track open, we must create intent. Intent objects allow Android OS to call your method when certain actions are done, in this case clicking the notification to open the app.
 
-This code is based on the implementation of the click impression tracking. With intent set, you now need to send tracking information back to Adobe Campaign. In this case, Android View([!DNL Activity]) which triggered the notification will be opened or brought to foreground as a result of the click by user. The intent object in [!DNL Activity] contains the notification data which can be used to track open.
+This code is based on the implementation of the click impression tracking. With intent set, you now must send tracking information back to Adobe Campaign. In this case, Android View([!DNL Activity]) which triggered the notification will be opened or brought to foreground as a result of the click by user. The intent object in [!DNL Activity] contains the notification data which can be used to track open.
 
 MainActivity.java (extends [!DNL Activity])
 
@@ -123,7 +123,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

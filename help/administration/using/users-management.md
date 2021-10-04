@@ -18,11 +18,11 @@ Adobe Campaign allows you to assign a set of roles to your users to define which
 
 The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
-Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign. For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
+Administrators can manage users from the Admin Console. Users are then automatically synchronized with Adobe Campaign. For more on this, refer to the [Admin Console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-To view the users in Adobe Campaign, click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
+To view the users in Adobe Campaign, click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
 
 To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**.
 
@@ -38,12 +38,12 @@ To access the user management interface from Adobe Campaign, click **[!UICONTROL
 
 This user segmentation is not mandatory, it is only a representation of the most common usage of Adobe Campaign.
 
-This section will help you understand the main types of Adobe Campaign users. Here, we will not go into all the specific roles that a user can hold (start deliveries, export, prepare deliveries, etc.). For more information on roles, refer to [List of roles](../../administration/using/list-of-roles.md) and [Managing groups and users](../../administration/using/managing-groups-and-users.md) pages.
+This section helps you understand the main types of Adobe Campaign users. For more information on specific roles that a user can hold (start deliveries, export, prepare deliveries, etc.), refer to [List of roles](../../administration/using/list-of-roles.md) and [Managing groups and users](../../administration/using/managing-groups-and-users.md) pages.
 
 We will rather focus on how the different tasks in Adobe Campaign are split between three main user types:
 
 * [Functional administrators](#functional-administrators): among all your organization's users, they are the most technical.
-* [Advanced users](#advanced-users): they setup all the elements that marketers need to send and monitor their deliveries. 
+* [Advanced users](#advanced-users): they set up all the elements that marketers need to send and monitor their deliveries. 
 * [Basic users](#basic-users): they are the marketers who personalize, deliver and monitor their campaigns.
 
 >[!NOTE]
@@ -99,7 +99,7 @@ Here are the main tasks they can perform:
 
 ## Creating a user {#creating-a-user}
 
-To add a user to your instance, you must first create it in the Admin console before managing it in Adobe Campaign Standard.
+To add a user to your instance, you must first create it in the Admin Console before managing it in Adobe Campaign Standard.
 
 1. From the advanced menu, select **[!UICONTROL Administration > Users & Security > Users]** and click **[!UICONTROL User administration]** to access the admin console.
 
@@ -115,7 +115,7 @@ To add a user to your instance, you must first create it in the Admin console be
 
     ![](assets/create_user_3.png)
 
-1. From the **[!UICONTROL Assign products]** tab, assign one or multiple security group to your user. For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
+1. From the **[!UICONTROL Assign products]** tab, assign one or multiple security groups to your user. For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
 
     Click **[!UICONTROL Save]** when done configuring.
 
@@ -125,7 +125,7 @@ Your user is now created and should receive an email redirecting to the followin
 
 ![](assets/create_user_5.png)
 
-Your user will be synced to Adobe Campaign Standard as soon as he signs in to your instance.
+When signing to your instance, this user will be synced to Adobe Campaign Standard.
 
 You can then check if your user has been correctly synced to Adobe Campaign:
 

@@ -81,7 +81,7 @@ A **Brand** is defined by the following characteristics:
 
 ## Creating a new brand {#creating-a-brand}
 
-You can add new entities of your organization in Campaign, or create a new type of email which you need to send under a different subdomain. To perform this, follow the steps below:
+You can add new entities of your organization in Campaign, or create a new type of email which you must send under a different subdomain. To perform this, follow the steps below:
 
 1. **Configure a new subdomain** - For any new subdomain to be used by Adobe, the first step will be to configure it. You can perform this through [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html) or reach out to your Adobe technical contact. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
@@ -89,7 +89,7 @@ You can add new entities of your organization in Campaign, or create a new type 
    >
    >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 
-1. **Create a ticket** - Once the subdomain is configured, Adobe will need to set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
+1. **Create a ticket** - Once the subdomain is configured, Adobe will set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
 
    * Subject: ACS New brand set up
    
@@ -139,13 +139,13 @@ Your template is linked to the brand. In the email editor, the elements such as 
 
 In this example, we are going to create a new travel-related brand, and use it in an email.
 
-#### Configure a new brand {#configure-a-new-brand}
+#### Step 1: Configure a new brand {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >Brand configuration is managed by Adobe only as it requires specific permissions and technical settings.
 
-1. The Adobe Campaign administrator creates the brand in **[!UICONTROL Administration > Instance settings > Brand configuration]**. He adds the **Vacations in the Tropics** element from the advanced menu and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
+1. The Adobe Campaign administrator first creates the brand from the **[!UICONTROL Administration > Instance settings > Brand configuration]** menu, and adds the **Vacations in the Tropics** element, and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
 
    ![](assets/branding_07.png)
 
@@ -157,7 +157,7 @@ In this example, we are going to create a new travel-related brand, and use it i
 
 The brand is correctly created and configured. It can now be used by the marketing teams.
 
-#### Implement a new brand {#implement-a-new-brand}
+#### Step 2: Implement a new brand {#implement-a-new-brand}
 
 As a delivery manager, you are in charge of creating the delivery templates to use the new brand. To achieve this, follow the steps below:
 
@@ -176,7 +176,7 @@ As a delivery manager, you are in charge of creating the delivery templates to u
 
    The delivery template can now be used to create emails that will be sent to an audience.
 
-#### Use the new brand in a delivery {#use-the-new-brand-in-a-delivery}
+#### Step 3: Use the new brand in a delivery {#use-the-new-brand-in-a-delivery}
 
 To create an email linked to a brand, follow the steps below:
 

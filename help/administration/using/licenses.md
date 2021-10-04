@@ -16,7 +16,7 @@ The **[!UICONTROL Licenses]** window allows you to view the installed licenses o
 
 ![](assets/license_1.png)
 
-With a new build or a new feature, license terms may change and need to be accepted by a functional administrator of the instance.
+With a new build or a new feature, license terms may change and must be accepted by a functional administrator of the instance.
 
 The following window will appear for standard users after logging in, no action is required on their part. They can still work on Adobe Campaign by clicking the **[!UICONTROL OK]** button.
 

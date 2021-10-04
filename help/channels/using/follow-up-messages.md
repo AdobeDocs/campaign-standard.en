@@ -37,7 +37,7 @@ To handle an event in a workflow, a delivery template is required. However, when
 
 To access this template:
 
-1. Click the **Adobe** logo, in the top left corner.
+1. Click the **Adobe** logo, in the top-left corner.
 1. Select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Check the **[!UICONTROL Follow-up messages]** box in the left pane.
 

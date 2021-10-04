@@ -31,7 +31,7 @@ Note that Admin users can also leverage Campaign Control Panel to manage setting
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu accessible when clicking the Adobe Campaign logo in the top left-hand corner. This part of the interface can only be accessed by functional administrators of the platform.
+The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu accessible when clicking the Adobe Campaign logo in the top-left-hand corner. This part of the interface can only be accessed by functional administrators of the platform.
 
 The different menus available are:
 

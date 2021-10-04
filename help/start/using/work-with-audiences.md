@@ -52,7 +52,7 @@ Campaign Standard offers several tools to help you grow your marketing database.
 
 Workflows allow you to collect data and import it into Campaign database through the use of [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activities. Generic information and best practices when importing data through workflows are presented in [this section](../../automating/using/about-data-import-and-export.md).
 
-Additionally, you can set up templates to import data. Using import templates is a best practice if you need to import files with the same structure on a regular basis. You can set up two types of templates:
+Additionally, you can set up templates to import data. Using import templates is a best practice to import files with the same structure on a regular basis. You can set up two types of templates:
 
 * **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data and udpate the database. An example of workflow template to import data is detailed in [this section](../../automating/using/creating-import-workflow-templates.md).
 

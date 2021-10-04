@@ -22,6 +22,6 @@ Opt-out profiles are automatically excluded during the delivery analysis in orde
 
 >[!NOTE]
 >
->Opt-out applies to **Profiles**, as opposed to quarantine which is linked to an **email address** or **phone number**. Opting out a profile will therefore exclude from deliveries all the addresses linked to it. However, if a user has two profiles in the database, he will still be targeted by deliveries as only one of his profiles is opted out. To make sure all his adresses are excluded, add them to the quarantined addresses. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>Opt-out applies to **Profiles**, as opposed to quarantine which is linked to an **email address** or **phone number**. Opting out a profile will therefore exclude from deliveries all the addresses linked to it. However, if a user has two profiles in the database, this user will still be targeted by deliveries as only one of his profiles is opted out. To make sure all his addresses are excluded, add them to the quarantined addresses. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).

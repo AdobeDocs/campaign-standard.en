@@ -138,7 +138,7 @@ To create and configure this landing page, you need to:
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Customize the confirmation page to inform the new subscriber that he needs to validate his subscription.
+1. Customize the confirmation page to inform new subscribers that they need to validate his subscription.
 
    ![](assets/optin_acquisition_page2.png)
 

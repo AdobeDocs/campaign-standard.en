@@ -16,7 +16,7 @@ exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
 >
 >Please note that you have to drag and drop the **[!UICONTROL Message type]** metrics to your tables to split your data depending on your delivery types, in this case push notification deliveries.
 
-The **Push notification** report provides details of marketing performance of push notifications in Adobe Campaign. This out-of-the-box report will help you understand how users interact with push notifications, mobile applications and deliveries.
+The **Push notification** report provides details of marketing performance of push notifications in Adobe Campaign. This out-of-the-box report helps you understand how users interact with push notifications, mobile applications and deliveries.
 
 Some configuration is required in the mobile application to implement push tracking, refer to this [page](../../administration/using/push-tracking.md) for the detailed steps.
 
