@@ -24,4 +24,4 @@ The privacy API endpoint is **/privacy/privacyTool**. PrivacyTool resource descr
 
 CCPA opt-out is managed using the **ccpaOptOut** profile attribute.
 
-For more on Adobe Campaign Standard and privacy compliance, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html).
+For more on Adobe Campaign Standard and privacy compliance, refer to the [dedicated documentation](../../start/using/privacy-requests.md).
