@@ -52,7 +52,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
     * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 
     * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field. Please note that if you did not configure your mobile app with Adobe Campaign Standard, it will not appear in the list. For more information on mobile application configuration, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field. Please note that if you did not configure your mobile app with Adobe Campaign Standard, it will not appear in the list. For more information on mobile application configuration, refer to this [page](../../administration/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -68,7 +68,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
     * **[!UICONTROL Mobile Application events]**: Custom events implemented in your mobile application.
 
-      For more on events creations, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+      For more on events creations, refer to this [page](../../administration/configuring-a-mobile-application.md).
     
     * **[!UICONTROL Life Cycle events]**: Out-of-the-box life cycle events supported by Adobe Mobile SDK.
 
@@ -80,7 +80,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
     
     * **[!UICONTROL Places]**: The following three categories leverage real-time location data to deliver contextually relevant mobile experiences: Places context data, Places custom metadata or Places event type.
 
-      For more information on Adobe Places, refer to the [Places documentation](https://placesdocs.com/).
+      For more information on Adobe Places, refer to the [Places documentation](https://experienceleague.adobe.com/docs/places/using/home.html).
 
    ![](assets/inapp_creating_4.png)
 
@@ -98,7 +98,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    ![](assets/inapp_creating_5.png)
 
-1. Edit the content of your message and define the advanced options. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
+1. Edit the content of your message and define the advanced options. See [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.html).
 
    ![](assets/inapp_creating_6.png)
 

@@ -85,7 +85,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 **Related topics**:
 
-* [Creating a personalized email](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) step-by-step guide
+* [Creating a personalized email](../../channels/using/key-steps-to-send-a-message.md) step-by-step guide
 * [Adobe Campaign and Dreamweaver integration](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrating with Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 

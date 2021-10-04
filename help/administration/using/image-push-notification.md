@@ -24,9 +24,9 @@ Push notification is supported by Experience Platform SDKs.
 
 The mobile applications receiving push notifications must be configured by an administrator in the Adobe Campaign interface.
 
-By configuring both Adobe Campaign and Adobe Mobile Services, you will be able to use your mobile application's data for your campaigns. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+By configuring both Adobe Campaign and Adobe Mobile Services, you will be able to use your mobile application's data for your campaigns. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
-To send push notifications with an Experience Cloud SDK application, a mobile app has to be set up in Adobe Experience Platform Launch and be configured in Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+To send push notifications with an Experience Cloud SDK application, a mobile app has to be set up in Adobe Experience Platform Launch and be configured in Adobe Campaign. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Step 2: Customize your push notification in Adobe Campaign {#customize-push}
 

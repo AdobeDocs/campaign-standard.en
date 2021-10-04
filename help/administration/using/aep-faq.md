@@ -71,7 +71,7 @@ To do so, follow the steps below:
 
 ## What do I have to do in order to enrich a Mobile Profile in Campaign? {#enrich-mobile-profile}
 
-You must configure a CollectPII postback (refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) and implement CollectPII API from SDK (refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+You must configure a CollectPII postback (refer to this [page](../../administration/using/configuring-rules-launch.md#pii-postback)) and implement CollectPII API from SDK (refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## How frequently should a CollectPII call be fired? {#collect-pii}
 

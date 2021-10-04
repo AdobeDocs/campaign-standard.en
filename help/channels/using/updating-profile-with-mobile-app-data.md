@@ -26,8 +26,8 @@ The goal of this use case is to create or update a Campaign Standard profile, if
 There are several configuration steps to follow to enable push notifications in Campaign Standard, before Profiles can be created or updated based on Mobile App Subscription data:
 
 1. [Create a Mobile Application](../../administration/using/configuring-a-mobile-application.md)
-1. [Integrate the Adobe Mobile SDK with your mobile application](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configure Adobe Campaign to send push notifications](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+1. [Integrate the Adobe Mobile SDK with your mobile application](../../administration/using/supported-mobile-use-cases.md).
+1. [Configure Adobe Campaign to send push notifications](../../administration/using/configuring-a-mobile-application.md).
 
 ## Step 1 - Extend the Profile resource for Push Notifications/Subscriptions
 
