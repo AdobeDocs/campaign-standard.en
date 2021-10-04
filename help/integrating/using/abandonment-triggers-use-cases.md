@@ -98,7 +98,7 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. He clicks on a link that brings him to your website. In this example, the banner brings the recipient to the home page of the trip booking website.
+1. The recipient clicks on a link that brings him to your website. In this example, the banner brings the recipient to the home page of the trip booking website.
 
    ![](assets/trigger_uc_browse_11.png)
 

@@ -24,7 +24,7 @@ Each object and user of the platform is linked to an organizational unit. This u
 >
 >By default, the **[!UICONTROL All (all)]** organizational unit is assigned to the **[!UICONTROL Administrators]** security group. It is read-only and cannot be modified.
 
-A user has read-only access to all of the objects in the parent units. He has read and write access to all objects of his unit and child units. A user does not have access to objects in parallel branches.
+A user has read-only access to all of the objects in the parent units. Such user has read and write access to all objects of his unit and child units. A user does not have access to objects in parallel branches.
 
 By default, only the **[!UICONTROL All]** units are available.
 
@@ -75,17 +75,17 @@ To see the impact of assigning different units to different security group, the 
 
 1. Follow the same procedures to create the second template assigned to the previously created Geometrixx Clothes organizational unit.
 
-The user assigned to the Standard User and Geometrixx Clothes groups will be able to see both templates. Because of the hierarchical structure of the organizational units, he will have read and write access to the template linked to the Geometrixx Clothes unit and only read-only access to the template linked to the Geometrixx unit.
+Users assigned to the **Standard User** and **Geometrixx Clothes** groups will be able to see both templates. Because of the hierarchical structure of the organizational units, they will have read and write access to the template linked to the Geometrixx Clothes unit and only read-only access to the template linked to the Geometrixx unit.
 
 ![](assets/manage_units_7.png)
 
-Since the Geometrixx Clothes unit is a child unit of Geometrixx, the following message appears when the user tries to modify the Geometrixx template: 
+Since the Geometrixx Clothes unit is a child unit of Geometrixx, the following message appears when users try to modify the Geometrixx template: 
 
 ![](assets/manage_units_8.png)
 
-Organizational units can restrict the access to different features such as profiles. For example, if our Geometrixx Clothes user access the **[!UICONTROL Profiles]** tab, he will be able to fully access and modify the profiles with the Geometrixx Clothes organizational unit.
+Organizational units can restrict the access to different features such as profiles. For example, if our Geometrixx Clothes users access the **[!UICONTROL Profiles]** tab, they will be able to fully access and modify the profiles with the Geometrixx Clothes organizational unit.
 
-Whereas the profiles with the Geometrixx organizational unit will be read only, the following error will appear if our user tries to modify one profile: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Whereas the profiles with the Geometrixx organizational unit will be read only, the following error will appear if users try to modify one profile: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 

@@ -127,7 +127,7 @@ Your user is now created and should receive an email redirecting to the followin
 
 ![](assets/create_user_5.png)
 
-Your user will be synced to Adobe Campaign Standard as soon as he signs in to your instance.
+When signing to your instance, this user will be synced to Adobe Campaign Standard.
 
 You can then check if your user has been correctly synced to Adobe Campaign:
 

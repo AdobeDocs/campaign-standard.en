@@ -14,18 +14,16 @@ exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 ---
 # Managing transactional messages {#managing-transactional-messages}
 
-## About transactional messaging
-
 Once you have created and published a transactional event, you need to integrate the triggering of this event into your website.
 
 >[!NOTE]
 >
->Configuring an event is presented in [this section](../../channels/using/configuring-transactional-event.md).
+>Event configuration is detailed in [this section](../../channels/using/configuring-transactional-event.md).
 
-For example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your web developer must use the REST Transactional Messages API.
+For example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, as a web developer, you must use the REST Transactional Messages API.
 
-1. The developer sends a request according to the POST method, which triggers the [sending of the transactional event](#sending-a-transactional-event).
-1. The response to the POST request contains a Primary Key, which allows the developer to  send one or multiple requests through a GET request. This way he is able to obtain the [event status](#transactional-event-status).
+1. Send a request according to the POST method, which triggers the [sending of the transactional event](#sending-a-transactional-event).
+1. The response to the POST request contains a Primary Key, which allows you to  send one or multiple requests through a GET request. You are then able to obtain the [event status](#transactional-event-status).
 
 ## Sending a transactional event {#sending-a-transactional-event}
 
@@ -45,7 +43,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-  (Note that the transactional messages API endpoint is also visible during the API preview)
+  Note that the transactional messages API endpoint is also visible during the API preview.
 
 * **&lt;eventID&gt;**: the type of event you want to send. This ID is generated when creating the event configuration (refer to [this section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
