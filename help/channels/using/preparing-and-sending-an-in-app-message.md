@@ -52,7 +52,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
     * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 
     * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field. Please note that if you did not configure your mobile app with Adobe Campaign Standard, it will not appear in the list. For more information on mobile application configuration, refer to this [page](../../administration/configuring-a-mobile-application.md#channel-specific-config).
+1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field. Please note that if you did not configure your mobile app with Adobe Campaign Standard, it will not appear in the list. For more information on mobile application configuration, refer to this [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -68,7 +68,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
     * **[!UICONTROL Mobile Application events]**: Custom events implemented in your mobile application.
 
-      For more on events creations, refer to this [page](../../administration/configuring-a-mobile-application.md).
+      For more on events creations, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
     
     * **[!UICONTROL Life Cycle events]**: Out-of-the-box life cycle events supported by Adobe Mobile SDK.
 
@@ -98,7 +98,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    ![](assets/inapp_creating_5.png)
 
-1. Edit the content of your message and define the advanced options. See [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.html).
+1. Edit the content of your message and define the advanced options. See [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md).
 
    ![](assets/inapp_creating_6.png)
 
