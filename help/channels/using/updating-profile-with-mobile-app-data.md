@@ -102,7 +102,7 @@ In the **[!UICONTROL General]** tab, set the **[!UICONTROL Execution frequency]*
 
     ![](assets/update_profile_createelement.png)
 
-1. In the **[!UICONTROL Source]** field, select a field from the appSubscrsiptionRcp table as a reconciliation field. It can be the profile's email, crmId, marketingCloudId, etc. In this example case, we will use the "Email (cusEmail)" field.
+1. In the **[!UICONTROL Source]** field, select a field from the appSubscrsiptionRcp table as a reconciliation field. It can be the profile's email, crmId, marketingCloudId, etc. In this example, use the "Email (cusEmail)" field.
 
 1. In the **[!UICONTROL Destination]** field, select a field from the profile table to reconcile the data from the appSubscriptionRcp table. It can be the profile's email, or any extended field such as crmId, marketingCloudId, etc. In this example, we need to select the "Email (email)" field to map it with the "Email (cusEmail)" field from the appSubscriptionRcp table.
 

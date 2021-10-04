@@ -45,9 +45,9 @@ To restrict a user's access, do not add the user to the Campaign Standard users 
 
 >[!IMPORTANT]
 >
->Please note that in the Admin console, security groups are referred as profiles.
+>Please note that in the Admin Console, security groups are referred as profiles.
 
-You can create your own security groups if the out-of-the-box groups are not enough to manage your users. They can be managed by Administrators that have access to both Adobe Campaign administration menus and the Admin console. For more information on the Admin console, refer to this [documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+You can create your own security groups if the out-of-the-box groups are not enough to manage your users. They can be managed by Administrators that have access to both Adobe Campaign administration menus and the Admin Console. For more information on the Admin Console, refer to this [documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 Here, we first need to assign the two out-of-the-box groups Standard user and Administrator to our users. These security groups will restrict some functionalities of Adobe Campaign: the Standard User has basics access to Adobe Campaign whereas the Administrator can access the administration menus for example.
 
@@ -59,7 +59,7 @@ Then, we want to create a set of security groups Geometrixx and Geometrixx Cloth
 
 You first need to assign one of the out-of-the-box security group to your users:
 
-1. In the Admin console, select your instance then the **Users** tab.
+1. In the Admin Console, select your instance then the **Users** tab.
 
    ![](assets/manage_security_group_2.png)
 
@@ -74,7 +74,7 @@ You first need to assign one of the out-of-the-box security group to your users:
 
 Once your two users are attached to the **[!UICONTROL Administrators]** and **[!UICONTROL Standard users]** out-of-the-box security groups which assign roles to our users, the Administrator user can now create the two security groups **Geometrixx** and **Geometrixx Clothes** that will assign organizational units to our users in addition to the out-of-the-box security groups.
 
-1. In the Admin console, select your instance then the **Products** tab.
+1. In the Admin Console, select your instance then the **Products** tab.
 1. Click the **New Profile** button to create the **Geometrixx** security group.
 
    ![](assets/create_security_1.png)
@@ -116,14 +116,14 @@ Once your two users are attached to the **[!UICONTROL Administrators]** and **[!
 
    ![](assets/manage_security_group_9.png)
 
-The newly created security groups are now created in the Admin console. For them to be completely synced, you also need to create them in Adobe Campaign.
+The newly created security groups are now created in the Admin Console. For them to be completely synced, you also need to create them in Adobe Campaign.
 
 The Administrator user has to create the set of security groups that are used to assign organizational units: Geometrixx and Geometrixx Clothes. To learn how to create organizational units, see [Creating and managing units](../../administration/using/organizational-units.md#creating-and-managing-units) .
 
-1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Create your new security group and specify its **[!UICONTROL Label]** and **[!UICONTROL ID]**.
 
-   The ID needs to be the same as the one chosen in the Admin console.
+   The ID needs to be the same as the one chosen in the Admin Console.
 
 1. In the **[!UICONTROL User access]** field, assign organizational unit. Here, the Geometrixx security group is assigned the **[!UICONTROL All]** organizational unit.
 
@@ -142,4 +142,4 @@ Your users are now assigned to a security group and can connect to Adobe Campaig
 
 >[!IMPORTANT]
 >
->If users are removed from a security group in the Admin console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information.
+>If users are removed from a security group in the Admin Console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information.

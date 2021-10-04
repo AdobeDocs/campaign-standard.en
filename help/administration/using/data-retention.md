@@ -30,4 +30,4 @@ The following are the default retention values for standard tables. Be aware tha
 
 Using standard workflow functionality, it is possible to set up retention periods for any custom table.
 
-Reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
+Reach out to the Adobe consultants or technical administrators to learn more about retention or to set retention for custom tables.

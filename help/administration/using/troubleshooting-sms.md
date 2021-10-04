@@ -231,7 +231,7 @@ Whenever you seek assistance on a SMS issue, whether it's opening a support tick
 
 ### Network capture {#network-capture}
 
-A network capture is not always needed, usually verbose SMPP messages are enough. Here are some guidelines that will help you determine if a network capture is needed:
+A network capture is not always needed, usually verbose SMPP messages are enough. Here are some guidelines that helps you determine if a network capture is needed:
 
 * Connection issues, but the verbose messages don't show any `BIND_RESP PDU`.
 

@@ -33,7 +33,7 @@ The workflow is configured as follows:
   aze128;04/03/2017;clara.smith@example.com;Phone;149
   ```
 
-  With this example file, we will use the email address to reconcile the data with the database profiles. You can also enable unique IDs as described in [this document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+  With this example file, use the email address to reconcile the data with the database profiles. You can also enable unique IDs as described in [this document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
 * An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. The link is defined in the **[!UICONTROL Advanced relations]** tab of the activity. The link is based on the transition coming from the **[!UICONTROL Load file]** activity. It uses the "email" field of the profile resource and the "customer" column of the imported file as reconciliation criteria. 
 

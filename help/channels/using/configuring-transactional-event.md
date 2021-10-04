@@ -28,7 +28,7 @@ Once configuration is done, the event must be published. See [Publishing a trans
 
 To get started, create the event corresponding to your needs.
 
-1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
 1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL ID]** for the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**. 
 
@@ -145,7 +145,7 @@ Once the event and the message are published, this link will allow you to enrich
 
 To access and search the transactional events already created, follow the steps below.
 
-1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Show search]** button.
 
    ![](assets/message-center_search-events.png)

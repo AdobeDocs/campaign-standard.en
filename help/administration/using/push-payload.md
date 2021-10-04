@@ -216,7 +216,7 @@ To understand aspects of an android payload refer to [Messaging Concepts and Opt
 
 ### How to retrieve payload information in mobile app code {#payload-information}
 
-The payload information that is sent by the app server is received by the mobile app code in an event handler that indicates that a push notification was received. This event would vary based on the mobile platform being worked upon and also based on whether the app is running in foreground or background. The following documentation will help you identify the event handler you wish to handle based on your use case.
+The payload information that is sent by the app server is received by the mobile app code in an event handler that indicates that a push notification was received. This event would vary based on the mobile platform being worked upon and also based on whether the app is running in foreground or background. The following documentation helps you identify the event handler you wish to handle based on your use case.
 
 * iOS applications: **Handling Remote Notifications** section in [Remote Notifications](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Android applications: [Receiving Messages on an Android Client App](https://firebase.google.com/docs/cloud-messaging/android/receive)

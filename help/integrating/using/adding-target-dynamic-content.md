@@ -38,7 +38,7 @@ Before accessing the image in Adobe Campaign, the following tasks must first be 
 1. If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). This field is optional and not required if you don't use Enterprise permissions in Target.
 1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
 
-   The Adobe Campaign fields used must have been specified in the rawbox. Here, we will define different experiences depending of the recipient's gender.
+   The Adobe Campaign fields used must have been specified in the rawbox. In this example, define different experiences depending of the recipient's gender.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

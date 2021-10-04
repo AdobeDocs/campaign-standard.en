@@ -24,7 +24,7 @@ The following elements are needed for this procedure:
 * An Adobe Target tenant
 * An Adobe Target rawbox specified to establish the connection with Adobe Campaign
 
-1. From the advanced menu, via the Adobe Campaign logo in the top left corner, select **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. From the advanced menu, via the Adobe Campaign logo in the top-left corner, select **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. To configure the server and tenant options for Adobe Target, fill in the following fields accordingly:
 
     * **[!UICONTROL TNT_TenantName]**: name of the Adobe Target tenant. This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.

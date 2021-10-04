@@ -61,7 +61,7 @@ Now that we've created an Experience Cloud Trigger, let's use it in Adobe Campai
 
 In Adobe Campaign, you need to create a Trigger linked to the one you created in the Experience Cloud.
 
-1. To create the Trigger in Adobe Campaign, click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. To create the Trigger in Adobe Campaign, click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 

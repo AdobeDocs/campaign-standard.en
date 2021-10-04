@@ -451,7 +451,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
   For more information, refer to the [detailed documentation](../../designing/using/using-reusable-content.md#content-templates).
 
-* Our new on-boarding experience will help you start email creation faster and give you easier access to documentation and tutorials.
+* Our new on-boarding experience helps you start email creation faster and give you easier access to documentation and tutorials.
 
   For more information, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 

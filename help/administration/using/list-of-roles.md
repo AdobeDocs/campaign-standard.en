@@ -26,10 +26,10 @@ Default rights are:
 
     >[!NOTE]
     >
-    >If you need to work with Experience Cloud Triggers, you will need the **[!UICONTROL Administration]** right to be able to access the Experience Cloud Triggers menu. For more information on Experience Cloud Triggers, refer to this [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+    >If you work with Experience Cloud Triggers, you need the **[!UICONTROL Administration]** right to be able to access the Experience Cloud Triggers menu. For more information on Experience Cloud Triggers, refer to this [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
-* **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
+* **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you must link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
 * **[!UICONTROL Prepare deliveries]**: Right to create, modify, prepare and delete deliveries. Users with this role can prepare the delivery but not send it.
 * **[!UICONTROL Start deliveries]**: Right to create, modify, prepare, send, and delete deliveries.
 * **[!UICONTROL Workflow]**: Right to manage the execution of workflows (start, stop, pause etc.). Users with this role can not send a delivery even in a workflow.

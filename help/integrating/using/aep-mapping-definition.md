@@ -60,7 +60,7 @@ You can customize the XDM extension via the API and define your own extension al
 
 See [Schema Registry API tutorial](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) for more details on XDM API.
 
-To map an enumeration field, you need to use the expression editor to define each enumeration value corresponding to the XDM value. For example, the postalAdressfield needs to be defined as:
+To map an enumeration field, you need to use the expression editor to define each enumeration value corresponding to the XDM value. For example, the postaladdressfield needs to be defined as:
 
 ![](assets/aep_enummapping.png)
 

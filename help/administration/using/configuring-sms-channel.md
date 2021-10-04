@@ -52,9 +52,9 @@ If you want to use the SMPP protocol, you can also create a new external account
 
    You can specify the maximum throughput of outbound messages ("MT", Mobile Terminated) in MT per second. If you enter "0" in the corresponding field, the throughput will be unlimited.
 
-   The values of all of the fields corresponding to durations need to be completed in seconds.
+   The values of all of the fields corresponding to durations must be completed in seconds.
 
-1. Define the SMS-C specific parameters in case you need to define a specific encoding mapping. For more information, refer to the [SMSC specifics](#smsc-specifics) section.
+1. Define the SMS-C specific parameters in case you must define a specific encoding mapping. For more information, refer to the [SMSC specifics](#smsc-specifics) section.
 
    Enable the **[!UICONTROL Send full phone number (send characters other than digits)]** option if you don't want to respect the SMPP protocol and transfer the **[!UICONTROL +]** prefix to the server of the SMS provider (SMS-C).
 

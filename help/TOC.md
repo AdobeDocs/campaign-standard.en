@@ -276,7 +276,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
           + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
        + Adobe Experience Platform Data Connector (beta) {#data-connector}
           + [About Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-          + [Experience Platform Datamodel overview](integrating/using/aep-data-model-overview.md)
+          + [Experience Platform Data model overview](integrating/using/aep-data-model-overview.md)
           + [Mapping definition](integrating/using/aep-mapping-definition.md)
           + [Mapping activation](integrating/using/aep-mapping-activation.md)
           + [Triggering data ingestion through APIs](integrating/using/aep-triggering-data-ingestion.md)

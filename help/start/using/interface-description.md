@@ -48,7 +48,7 @@ The top bar is visible on every screen and allows you to navigate through Adobe 
 
 The navigation principles are:
 
-* The **Adobe** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. Menus depend on your profile and permissions.
+* The **Adobe** logo in the top-left-hand corner of the page gives you access to the advanced capabilities and configurations. Menus depend on your profile and permissions.
 
   The advanced menu is presented in the [Advanced menu](#advanced-menu) section.
 
@@ -79,7 +79,7 @@ Three tabs help you to find help and assistance:
 
 ## Advanced menu {#advanced-menu}
 
-The advanced menu is displayed by clicking the **Adobe Campaign** icon, in the top left corner of each screen. The advanced menu may vary depending your contract and user permissions.
+The advanced menu is displayed by clicking the **Adobe Campaign** icon, in the top-left corner of each screen. The advanced menu may vary depending your contract and user permissions.
 
 This menu allows you to navigate to specific functionalities and settings.
 

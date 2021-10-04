@@ -42,15 +42,15 @@ It is therefore your responsibility as a Data Controller to confirm the identity
 
 ### Namespaces {#namesspaces}
 
-Before creating Privacy requests, you need to define the namespace you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database. Out-of-the-box, two namespaces are available: email and mobile phone. If you need a different namespace (a profile custom field, for example), follow these steps.
+Before creating Privacy requests, define the namespace you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database. Out-of-the-box, two namespaces are available: email and mobile phone. If you need a different namespace (a profile custom field, for example), follow these steps.
 
 Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=en#privacy) on how to create a namespace.
 
 >[!NOTE]
 >
->If you use several namespaces, you will need to create one Privacy request per namespace.
+>If you use several namespaces, create one Privacy request per namespace.
 
-1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+1. Click the Adobe Campaign logo in the top-left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
     ![](assets/privacy-namespaces.png)
 
@@ -72,9 +72,9 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
     To learn more about identity namespaces, see the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en) documentation.
 
-1. One Identity Service Namespace is mapped to one namespace in Campaign. You need to specify how the namespace will be reconciled in Campaign.
+1. One Identity Service Namespace is mapped to one namespace in Campaign. You must specify how the namespace will be reconciled in Campaign.
 
-    Select a target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** or **[!UICONTROL Subscriptions to an application]**). If you want to use several target mappings, you need to create one namespace per target mapping.
+    Select a target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** or **[!UICONTROL Subscriptions to an application]**). If you want to use several target mappings, create one namespace per target mapping.
 
     ![](assets/privacy-namespace-target-mapping.png)
 
@@ -82,7 +82,7 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
     ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. Click **[!UICONTROL Create]**. You can now create Privacy requests based on your new namespace. If you use several namespaces, you will need to create one Privacy request per namespace.
+1. Click **[!UICONTROL Create]**. You can now create Privacy requests based on your new namespace. If you use several namespaces, create one Privacy request per namespace.
 
 ### Creating a Privacy request {#create-privacy-request}
 
@@ -124,9 +124,9 @@ If you created custom resources that have a link to the profiles resource (own t
 
 Also refer to [this tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=en#privacy) on how to modify custom resources.
 
-For this to work, you need to select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option in the custom resource:
+For this to work, you must select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option in the custom resource:
 
-1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+1. Click the Adobe Campaign logo in the top-left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
 1. Select a custom resource that has a link to the profiles resource (own type).
 
@@ -188,7 +188,7 @@ When users decide, through your system, that they do not allow their personal in
 
 Starting 19.4, the **[!UICONTROL CCPA Opt-Out]** field is provided out-of-the-box in the Campaign interface and API. By default, the field is available for the standard **[!UICONTROL Profile]** resource.
 
-If you use a custom profile resource, you need to extend the resource and add the field. We recommend that you use a different name than the out-of-the-box field, for example:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). When a new field is created, it is automatically supported by the Campaign API.
+If you use a custom profile resource, you must extend the resource and add the field. We recommend that you use a different name than the out-of-the-box field, for example:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). When a new field is created, it is automatically supported by the Campaign API.
 
 For more detailed information on how to extend the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 

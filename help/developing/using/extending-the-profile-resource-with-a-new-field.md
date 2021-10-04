@@ -68,7 +68,7 @@ To create the new **Interest** field for our profiles, you first need to extend 
 
 1. Click **[!UICONTROL Add an element]** then add as many value as needed by adding a **[!UICONTROL Label]** and an **[!UICONTROL ID]** and clicking **[!UICONTROL Add]**.
 
-   Here, we will create the Books, Exhibitions, Movies and N/A values for profiles to choose between these options.
+   In this example, create the Books, Exhibitions, Movies and N/A values for profiles to choose between these options.
 
    ![](assets/schema_extension_uc11.png)
 

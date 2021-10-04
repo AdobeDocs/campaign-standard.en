@@ -186,7 +186,7 @@ The main steps for this use case are as follows:
 1. Build the workflow to create an audience from the file. To do this, add and configure the activities below:
 
     * **[!UICONTROL Load file]** activity: Imports the CSV file (for more on this activity, refer to [this section](../../automating/using/load-file.md)).
-    * **[!UICONTROL Reconciliation]** activity: Links information from the file to information from the database. In this example, we will use the profile's email address as reconciliation field  (for more on this activity, refer to [this section](../../automating/using/reconciliation.md)).
+    * **[!UICONTROL Reconciliation]** activity: Links information from the file to information from the database. In this example, use the profile's email address as reconciliation field  (for more on this activity, refer to [this section](../../automating/using/reconciliation.md)).
     * **[!UICONTROL Save audience]** activity: Creates an audience based on the imported file (for more on this activity, refer to [this section](../../automating/using/save-audience.md)).
 
     ![](assets/substitution_uc2.png)

@@ -139,7 +139,7 @@ Adobe Experience Manager external accounts are used when integrating Campaign wi
 
 Process and requirements related to this integration are available in [this document](../../integrating/using/get-started-campaign-integrations.md).
 
-As you are setting up this new external account, you need to provide the following details:
+As you are setting up this new external account, you must provide the following details:
 
 * Server: enter the URL of the Adobe Experience Manager server. For example:
 
@@ -155,9 +155,9 @@ As you are setting up this new external account, you need to provide the followi
 >
 >Google reCAPTCHA configuration requires a Google account.
 
-The Google reCAPTCHA mechanism allows you to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. To register your site, refer to this [page](https://www.google.com/recaptcha/admin/create). You need to choose the V3 reCAPTCHA type.
+The Google reCAPTCHA mechanism allows you to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. To register your site, refer to this [page](https://www.google.com/recaptcha/admin/create). You must choose the V3 reCAPTCHA type.
 
-To add the Google reCAPTCHA V3 to you landing page, you first need to configure it in your external account. For more information on how to add it to your landing page, refer to this [section](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+To add the Google reCAPTCHA V3 to you landing page, configure it in your external account. For more information on how to add it to your landing page, refer to this [section](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 For a Google reCAPTCHA V3 external account, provide the following details:
 
@@ -184,7 +184,7 @@ For a Microsoft Azure Blob storage external account, provide the following detai
 * **[!UICONTROL Type]**: Microsoft Azure Blob storage
 * Your **[!UICONTROL Account name]** and **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Your **[!UICONTROL Endpoint suffix]**. It can be found within your **[!UICONTROL Connection string]** of the **[!UICONTROL Access keys]** menu in the Azure Portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Your **[!UICONTROL Container]** name. If you are planning to use more than one container you need to create as many external accounts as containers.
+* Your **[!UICONTROL Container]** name. If you are planning to use more than one container, create as many external accounts as containers.
 * The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
 
 ![](assets/external_accounts_4.png)

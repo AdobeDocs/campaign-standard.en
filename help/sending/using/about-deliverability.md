@@ -53,7 +53,7 @@ Adobe Campaign provides a number of tools to track and improve the deliverabilit
 
 ### Carefully build your message
 
-When configuring, designing and testing your message, make sure you follow the best practices mentioned in the sections listed below. Leveraging all the features provided by Adobe Campaign will help you improve deliverability.
+When configuring, designing and testing your message, make sure you follow the best practices mentioned in the sections listed below. Leveraging all the features provided by Adobe Campaign helps you improve deliverability.
 
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Controlling email content](../../sending/using/control-email-content.md)

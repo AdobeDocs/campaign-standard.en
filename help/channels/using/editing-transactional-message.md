@@ -30,7 +30,7 @@ Once your message is ready, it can be tested and published. See [Testing a trans
 
 To access the transactional message that you created:
 
-1. Click the **Adobe** logo, in the top left corner.
+1. Click the **Adobe** logo, in the top-left corner.
 1. Select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)

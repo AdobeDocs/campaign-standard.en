@@ -45,7 +45,7 @@ These default templates are read-only and are not visible to standard users. To 
 
 1. Go to the **[!UICONTROL Workflow]** tab. From here you can enrich the workflow offered by default by adding new activities according to your needs.
 
-   For more on how to configure the workflow activities, refer to the use case describe in this section: [Example: Import workflow template](../../automating/using/creating-import-workflow-templates.md). This use case will help you setting up a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database.
+   For more on how to configure the workflow activities, refer to the use case describe in this section: [Example: Import workflow template](../../automating/using/creating-import-workflow-templates.md). This use case helps you setting up a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database.
 
 1. Save your template so that the workflow's configuration is correctly taken into account.
 1. Upload a sample file from the **[!UICONTROL Properties]** tab. The file uploaded can only have columns necessary for future imports or sample data. Data in the sample file allows you to test the simplified import once the workflow has been defined.
