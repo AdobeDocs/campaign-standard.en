@@ -20,7 +20,7 @@ The steps for creating and modifying an external account are detailed in the [Ex
 
 The external account **[!UICONTROL SMS routing via SMPP]** is provided by default, but it can be useful to add other accounts.
 
-If you want to use the SMPP protocol, you can also create a new external account. For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+If you want to use the SMPP protocol, you can also create a new external account. For more information on SMS protocol and settings, refer to this [technical note](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 
 1. Create a new external account from **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Define the account type as **[!UICONTROL Routing]**, the channel as **[!UICONTROL Mobile (SMS)]** and the delivery mode as **[!UICONTROL Bulk delivery]**.

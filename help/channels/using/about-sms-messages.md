@@ -34,7 +34,7 @@ To deliver SMS messages to a mobile telephone you need:
 * [Managing templates](../../start/using/marketing-activity-templates.md)
 * [SMS configuration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS report](../../reporting/using/sms-report.md)
-* [Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standard Mobile guide](../../channels/using/get-started-communication-channels.md)
 
 ## SMS delivery template {#sms-delivery-template}
 

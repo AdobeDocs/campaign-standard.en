@@ -21,7 +21,7 @@ To start sending In-App messages on mobile applications leveraging Experience Pl
 
 1. In Adobe Campaign, make sure you can access the **[!UICONTROL In-App]** channel. If you cannot access these channels, contact your account team.
 
-1. To leverage mobile use cases in Adobe Campaign Standard with an Experience Cloud SDK application, a mobile app has to be created in Adobe Experience Platform Launch and be configured in Adobe Campaign Standard. For the step-by-step guide, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. To leverage mobile use cases in Adobe Campaign Standard with an Experience Cloud SDK application, a mobile app has to be created in Adobe Experience Platform Launch and be configured in Adobe Campaign Standard. For the step-by-step guide, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 1. Once configured, you can now prepare your In-App message. For more on this, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -32,8 +32,8 @@ To start sending In-App messages on mobile applications leveraging Experience Pl
 **Related content:**
 
 * [In-App report](../../reporting/using/in-app-report.md)
-* [Mobile use cases supported in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Mobile use cases supported in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
+* [Campaign Standard Mobile guide](../../channels/using/get-started-communication-channels.md)
 
 ## Handling mobile profile fields with personal and sensitive data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

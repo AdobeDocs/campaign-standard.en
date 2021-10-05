@@ -20,11 +20,9 @@ exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 
 To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform Experience Platform Experience Platform Launch and configured in Adobe Campaign.
 
-For more information on the deprecated feature Mobile version 4 SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html).
-
 Once a mobile application is set up, you can retrieve the PII data it collected to create or update profiles from your database. For more on this, refer to this section: [Creating and updating profile information based on mobile application data](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](../../administration/using/supported-mobile-use-cases.md).
 
 To complete the configuration, complete the following steps:
 
