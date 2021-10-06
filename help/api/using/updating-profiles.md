@@ -18,7 +18,7 @@ Updating profiles is performed with a **PATCH** request.
 
 1. The first step is to **retrieve the profile**.
 
-1. In a second request, we will perform a **PATCH request** on the profile with the completed information in the payload.
+1. In a second request, perform a **PATCH request** on the profile with the completed information in the payload.
 
 1. To check if the PATCH request has updated the profile, we can perform a final GET request.
 

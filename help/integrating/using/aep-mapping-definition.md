@@ -58,7 +58,7 @@ You can customize the XDM extension via the API and define your own extension al
 
 See [Schema Registry API tutorial](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) for more details on XDM API.
 
-To map an enumeration field, you need to use the expression editor to define each enumeration value corresponding to the XDM value. For example, the postalAdressfield needs to be defined as:
+To map an enumeration field, you need to use the expression editor to define each enumeration value corresponding to the XDM value. For example, the postaladdressfield needs to be defined as:
 
 ![](assets/aep_enummapping.png)
 
@@ -72,4 +72,4 @@ To edit a XDM mapping, open it, modify the desired information then save it.
 
 >[!IMPORTANT]
 >
->For now, if you edit a value in the **[!UICONTROL Field mappings]** section then click outside of the field, your change does not display in the interface until you click the **[!UICONTROL Save]** button. This behaviour occurs only once, when the edit on **[!UICONTROL Field Mappings]** is the first edit on the page.
+>For now, if you edit a value in the **[!UICONTROL Field mappings]** section then click outside of the field, your change does not display in the interface until you click the **[!UICONTROL Save]** button. This behavior occurs only once, when the edit on **[!UICONTROL Field Mappings]** is the first edit on the page.

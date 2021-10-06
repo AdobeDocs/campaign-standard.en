@@ -381,7 +381,7 @@ The numerical value functions are used to convert text to numbers.
 
 ## Others {#others}
 
-This table contains the remaining functions avalaible. 
+This table contains the remaining functions available. 
 
 <table> 
  <tbody> 
@@ -531,12 +531,12 @@ The string functions are used to manipulate a set of strings.
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Concates the two strings passed as parameters. A space is added between each string in the returned value.<br /> </td> 
+   <td> Concatenates the two strings passed as parameters. A space is added between each string in the returned value.<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concates the three strings passed as parameters. A space is added between each string in the returned value.<br /> </td> 
+   <td> Concatenates the three strings passed as parameters. A space is added between each string in the returned value.<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 

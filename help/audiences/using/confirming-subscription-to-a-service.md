@@ -111,11 +111,11 @@ The confirmation email is a transactional message based on the event that you ju
 
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-Now each time a profile subscribes to this service, he receives the transactional message that you defined, with personalized fields mapped to the selected service.
+Now when profiles subscribe to this service, they receive the transactional message that you defined, with personalized fields mapped to the selected service.
 
 >[!NOTE]
 >
->A message will be sent only the first time the user subscribes.
+>A message is sent only the first time the user subscribes.
 
 ## Configuring confirmation message from a landing page {#configuring-confirmation-message-from-landing-page}
 
@@ -185,8 +185,8 @@ To create and configure this landing page, follow the steps below:
 
 1. [Test and publish](../../channels/using/testing-publishing-landing-page.md) the landing page.
 
-Now each time a profile subscribes to your newsletter by submitting the landing page, he receives the confirmation message that you defined with personalized fields mapped to the service.
+Now when profiles subscribe to your newsletter by submitting the landing page, they receive the confirmation message that you defined with personalized fields mapped to the service.
 
 >[!NOTE]
 >
->A message will be sent each time the landing page is submitted, even if the profile is already subscribed.
+>A message is sent each time the landing page is submitted, even if the profile is already subscribed.

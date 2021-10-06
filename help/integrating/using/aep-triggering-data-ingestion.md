@@ -22,7 +22,7 @@ This page describes how to trigger and retrieve the ingestion status of your dat
 
 ## Prerequisites {#prerequisites}
 
-Before using the APIs, the data mapping must first have been configured and published within Campaign Standard interface. For more on thisn refer to these sections:
+Before using the APIs, the data mapping must first have been configured and published within Campaign Standard interface. For more on this, refer to these sections:
 
 * [Mapping definition](../../integrating/using/aep-mapping-definition.md)
 * [Mapping activation](../../integrating/using/aep-mapping-activation.md)

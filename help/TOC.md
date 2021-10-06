@@ -71,6 +71,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Accessing messages](channels/using/accessing-messages.md)
        + [Message dashboard](channels/using/message-dashboard.md)
        + [Multilingual messages templates](channels/using/multilingual-messages-template.md)
+       + [Get started with Mobile channels](channels/using/mobile-guide.md)
   + Delivery best practices {#delivery-bestpractices}
        + [Learn good practices](sending/using/delivery-best-practices.md)
        + [Optimize delivery](sending/using/optimize-delivery.md)
@@ -274,7 +275,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
           + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
        + Adobe Experience Platform Data Connector (beta) {#data-connector}
           + [About Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-          + [Experience Platform Datamodel overview](integrating/using/aep-data-model-overview.md)
+          + [Experience Platform Data model overview](integrating/using/aep-data-model-overview.md)
           + [Mapping definition](integrating/using/aep-mapping-definition.md)
           + [Mapping activation](integrating/using/aep-mapping-activation.md)
           + [Triggering data ingestion through APIs](integrating/using/aep-triggering-data-ingestion.md)

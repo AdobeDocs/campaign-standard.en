@@ -1,6 +1,6 @@
 ---
 title: Editing profiles
-description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
+description: Learn how to edit existing profiles and access contact information, preferred channels, tracking logs, subscriptions, etc.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles

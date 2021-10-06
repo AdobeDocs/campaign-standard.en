@@ -28,7 +28,7 @@ If the delete request is successful, the response status is 204 No Content.
 
 ***Sample request***
 
-The sample payloads below show how to unsubscribe a profil from a service. First perform a GET request to retrieve the profile.
+The sample payloads below show how to unsubscribe a profile from a service. First perform a GET request to retrieve the profile.
 
 ```
 

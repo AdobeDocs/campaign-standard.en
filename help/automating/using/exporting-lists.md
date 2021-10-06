@@ -26,7 +26,7 @@ Export list is available in all the screens that have a **List** mode view, for 
    ![](assets/export_list_mode_switch.png)
 
 1. Organize the columns in the list in the order that you want to export them using the **[!UICONTROL Configure list]** button, in the top right corner. In addition to configured columns, the primary key of the resource will also be exported.
-1. If you like, you can apply a filter. To do this, click the button in the top left corner to show the search pane.
+1. If you like, you can apply a filter. To do this, click the button in the top-left corner to show the search pane.
 
    If you carry out an export from a list containing different resources, you must apply your filters so that only one type of resource is displayed in the list.
 

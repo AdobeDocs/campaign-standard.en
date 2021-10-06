@@ -95,7 +95,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 Once an event has been unpublished, or if an event has  not been published yet, you can delete it from the event configuration list. To do this:
 
-1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Hover the mouse over the event configuration of your choice and select the **[!UICONTROL Delete element]** button.
 
    ![](assets/message-center_delete-button.png)

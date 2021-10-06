@@ -20,7 +20,7 @@ The steps for creating and modifying an external account are detailed in the [Ex
 
 The external account **[!UICONTROL SMS routing via SMPP]** is provided by default, but it can be useful to add other accounts.
 
-If you want to use the SMPP protocol, you can also create a new external account. For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+If you want to use the SMPP protocol, you can also create a new external account. For more information on SMS protocol and settings, refer to this [technical note](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 
 1. Create a new external account from **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Define the account type as **[!UICONTROL Routing]**, the channel as **[!UICONTROL Mobile (SMS)]** and the delivery mode as **[!UICONTROL Bulk delivery]**.
@@ -50,9 +50,9 @@ If you want to use the SMPP protocol, you can also create a new external account
 
    You can specify the maximum throughput of outbound messages ("MT", Mobile Terminated) in MT per second. If you enter "0" in the corresponding field, the throughput will be unlimited.
 
-   The values of all of the fields corresponding to durations need to be completed in seconds.
+   The values of all of the fields corresponding to durations must be completed in seconds.
 
-1. Define the SMS-C specific parameters in case you need to define a specific encoding mapping. For more information, refer to the [SMSC specifics](#smsc-specifics) section.
+1. Define the SMS-C specific parameters in case you must define a specific encoding mapping. For more information, refer to the [SMSC specifics](#smsc-specifics) section.
 
    Enable the **[!UICONTROL Send full phone number (send characters other than digits)]** option if you don't want to respect the SMPP protocol and transfer the **[!UICONTROL +]** prefix to the server of the SMS provider (SMS-C).
 

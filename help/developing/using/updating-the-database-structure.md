@@ -41,6 +41,10 @@ To apply the changes carried out on the resources, you must perform a database u
 
    ![](assets/schema_extension_13.png)
 
+   >[!NOTE]
+   >
+   >As duplicate indexes cause publication to fail, the preparation step checks whether the index defined for the resource already exists with the same name for another resource. If this happens, an error message is displayed, asking you to rename the index. See [Defining indexes](configuring-the-resource-s-data-structure.md#defining-indexes).
+
 1. Once the publication has been carried out, click the **[!UICONTROL Publish]** button to apply your new configurations.
 1. Once published, the **[!UICONTROL Summary]** pane of each resource indicates that the status is now **[!UICONTROL Published]** and specifies the date of the last publication.
 

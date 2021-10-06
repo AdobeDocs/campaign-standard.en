@@ -54,7 +54,7 @@ Before personalizing your multilingual push notification, we first need to uploa
 
 1. In the **[!UICONTROL Manage Content Variants]** window, drag and drop your file or select a file from your computer.
 
-   The file has to be UTF8 encoded and must have a specific layout which can be found by clicking the **[!UICONTROL Download the sample file]** option. You should also use the proper syntax for locale values. For more information regarding the file format and the supported locales, refer to this [technote](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   The file has to be UTF8 encoded and must have a specific layout which can be found by clicking the **[!UICONTROL Download the sample file]** option. You should also use the proper syntax for locale values. For more information regarding the file format and the supported locales, refer to this [page](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
@@ -127,4 +127,3 @@ You can now measure the impact of your multilingual push notification delivery o
 
 * [Push notification report](../../reporting/using/push-notification-report.md)
 * [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
-* [Reaching multilingual audiences using one workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

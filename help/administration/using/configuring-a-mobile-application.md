@@ -16,15 +16,13 @@ exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 
 >[!IMPORTANT]
 >
->Push notification and In-App implementations have to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner.
+>Push notification and In-App implementations have to be performed by expert users. For assistance, contact your Adobe Account executive or Professional services partner.
 
 To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform Experience Platform Experience Platform Launch and configured in Adobe Campaign.
 
-For more information on the deprecated feature Mobile version 4 SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html).
-
 Once a mobile application is set up, you can retrieve the PII data it collected to create or update profiles from your database. For more on this, refer to this section: [Creating and updating profile information based on mobile application data](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](../../administration/using/supported-mobile-use-cases.md).
 
 To complete the configuration, complete the following steps:
 
@@ -80,9 +78,9 @@ Your workflow will now restart and synchronize the Adobe Launch mobile propertie
 
 ## Setting up your Adobe Experience Platform Launch application in Adobe Campaign {#set-up-campaign}
 
-To use an Experience Platform Launch mobile property in Campaign, you also need to configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
+To use an Experience Platform Launch mobile property in Campaign, you must also configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
 
-You will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
+You must to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
 
 For more information on Sync Mobile app AEPSDK from Launch technical workflow, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 

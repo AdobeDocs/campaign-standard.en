@@ -27,13 +27,13 @@ Since In-App messages are pulled by the SDK from Campaign, we want to provide a 
 * Customers mark mobile profile fields (appSubscriberRcp table) fields as Personal and Sensitive if they want to ensure that this particular information gets delivered securely.
 * Fields marked as such can only be used in Profile template (not in appSubscriber template or Broadcast template) which has additional security mechanism built in.
 * Messages built using Profile template can only get served when the user has logged in the App. 
-* In order to facilitate this secure handshake, mobile app developers should pass additional authentification details using the setLinkageField API. Please note that the linkage field are the ones that are identified as the link between Mobile Profile and CRM Profile while extending appSubscriberRcp table.
+* In order to facilitate this secure handshake, mobile app developers should pass additional authentication details using the setLinkageField API. Please note that the linkage field are the ones that are identified as the link between Mobile Profile and CRM Profile while extending appSubscriberRcp table.
 * They should flush the In-App messages stored on the device and resetLinkagefields when the user logs out of the App using resetLinkageField. This ensures that if a different user logs into the App, they do not see the messages meant for previous user.
 * Refer to [Mobile SDK APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) to implement this security mechanism client side.
 
 ## What do I have to do to enable In-App reporting in Campaign? {#enable-inapp-reporting}
 
-You need to configure In-App tracking postback. Instructions can be found [here](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+You need to configure In-App tracking postback. Instructions can be found [here](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 To implement local notification tracking, refer to this [page](../../administration/using/local-tracking.md).
 

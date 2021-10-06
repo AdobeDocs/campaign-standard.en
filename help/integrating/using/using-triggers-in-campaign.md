@@ -25,7 +25,7 @@ You can watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-
 
 The steps for putting this into place are:
 
-1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**. 
+1. Click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**. 
 
    ![](assets/remarketing_1.png)
 

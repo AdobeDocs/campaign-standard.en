@@ -26,8 +26,8 @@ The goal of this use case is to create or update a Campaign Standard profile, if
 There are several configuration steps to follow to enable push notifications in Campaign Standard, before Profiles can be created or updated based on Mobile App Subscription data:
 
 1. [Create a Mobile Application](../../administration/using/configuring-a-mobile-application.md)
-1. [Integrate the Adobe Mobile SDK with your mobile application](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configure Adobe Campaign to send push notifications](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+1. [Integrate the Adobe Mobile SDK with your mobile application](../../administration/using/supported-mobile-use-cases.md).
+1. [Configure Adobe Campaign to send push notifications](../../administration/using/configuring-a-mobile-application.md).
 
 ## Step 1 - Extend the Profile resource for Push Notifications/Subscriptions
 
@@ -100,7 +100,7 @@ In the **[!UICONTROL General]** tab, set the **[!UICONTROL Execution frequency]*
 
     ![](assets/update_profile_createelement.png)
 
-1. In the **[!UICONTROL Source]** field, select a field from the appSubscrsiptionRcp table as a reconciliation field. It can be the profile's email, crmId, marketingCloudId, etc. In this example case, we will use the "Email (cusEmail)" field.
+1. In the **[!UICONTROL Source]** field, select a field from the appSubscrsiptionRcp table as a reconciliation field. It can be the profile's email, crmId, marketingCloudId, etc. In this example, use the "Email (cusEmail)" field.
 
 1. In the **[!UICONTROL Destination]** field, select a field from the profile table to reconcile the data from the appSubscriptionRcp table. It can be the profile's email, or any extended field such as crmId, marketingCloudId, etc. In this example, we need to select the "Email (email)" field to map it with the "Email (cusEmail)" field from the appSubscriptionRcp table.
 

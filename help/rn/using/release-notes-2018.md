@@ -243,8 +243,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue where some raw reporting events did not have associated tracking events because the eventDate field was not properly populated.
 * Fixed an issue that prevented personalized fields to show in the preview window of a push notification delivery.
 * Fixed an issue that prevented the text from word-wrapping the message body of a push notification in the preview window.
-* Fixed an issue when sending a reccuring delivery from a workflow when the main target is empty.
-* Fixed an issue which prevented from accessing a target mapping if it is linked to an unexisting schema.
+* Fixed an issue when sending a recurring delivery from a workflow when the main target is empty.
+* Fixed an issue which prevented from accessing a target mapping if it is linked to an inexistent schema.
 * Fixed an issue that could occur when importing a zip file via a File load activity. (CAMP-24309) 
 * Fixed an issue which led to a PostgreSQL error when sending a recurring delivery. (CAMP-23613) 
 * Fixed an issue which displayed an error message when sending a REST API request with an empty JSON attribute. (CAMP-23506) 
@@ -463,7 +463,7 @@ Some issues might occur when using contextual help links from Campaign interface
      <li> download images or other media files and add them as attachments to a notification </li> 
      <li> change the body or title text of a notification </li> 
      <li> add a thread identifier to a notification </li> 
-    </ul> For more information on Content Available and Mutable Content, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detailed documentation</a>.<br /> <strong>Warning:</strong> these updates on push notifications require customers to upgrade their mobile applications. Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
+    </ul> For more information on Content Available and Mutable Content, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detailed documentation</a>.<br /> <strong>Warning:</strong> these updates on push notifications require customers to upgrade their mobile applications. Refer to <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Time-zone optimized deliveries<br /> </td> 

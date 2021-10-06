@@ -110,11 +110,11 @@ If the **parsing is validated**, a message appears and invites you to customize 
 
 This tab lets you define the connection endpoint. The **[!UICONTROL URL]** field allows you to define the **HTTPS Endpoint** that Campaign Standard will communicate with.
 
-If needed by the endpoint, two types of authentification method are available:
+If needed by the endpoint, two types of authentication method are available:
 
-* Basic authentification: enter your username/password information in the **[!UICONTROL Request Header(s)]** section. 
+* Basic authentication: enter your username/password information in the **[!UICONTROL Request Header(s)]** section. 
 
-* OAuth authentification: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]** in an external account, you can select an external account where the OAuth authentification is defined. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth authentication: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]** in an external account, you can select an external account where the OAuth authentication is defined. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
 
 ![](assets/externalAPI-execution.png)
 
@@ -319,7 +319,7 @@ The workflow is presented as follows:
 ![](assets/externalAPI_activity_example1.png)
 
 1. Drag and drop an **External API** activity
-    1. Parse the JSON sample responsa as {"data":[{"code":"value"}]}.
+    1. Parse the JSON sample response as {"data":[{"code":"value"}]}.
     1. Add the **Rest endpoint URL** and define authentication setting if needed
     ![](assets/externalAPI_activity_example2.png)
     1. In the **column definition** tab, add a new column called **code** that will store the code value.
@@ -345,6 +345,6 @@ The workflow is presented as follows:
     1. The transition **Data Structure** will contain:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
-    You can modify your email template by adding the **code** personnalized field.
+    You can modify your email template by adding the **code** personalized field.
 
 -->

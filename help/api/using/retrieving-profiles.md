@@ -89,7 +89,7 @@ Additionally, Campaign Standard APIs allow you to search for profiles based on o
 
     ```
 
-## Seaching for profiles based on a field {#searching-field}
+## Searching for profiles based on a field {#searching-field}
 
 The **[!UICONTROL filterType]** parameter allows you to retrieve profiles based on one of these fields: email, first name, last name or any custom field that has been added in Advanced filtering when extending the profile resource.
 

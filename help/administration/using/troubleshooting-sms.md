@@ -153,7 +153,7 @@ If the `DELIVER_SM PDU` is not successfully acknowledged, then you should check 
 
 If you fixed everything but some invalid SR are still in the provider's buffers, you can skip them by using the **Invalid ID acknowledge count** option. This should be used with care and reset to 0 as quickly as possible after the buffers are clean.
 
-## Issue when processing MO (and blacklisting/auto reply){#issue-process-MO}
+## Issue when processing MO (and denylist/auto reply){#issue-process-MO}
 
 * Enable SMPP traces during tests. If you don't enable TLS, you should do a network capture when troubleshooting MO to check that PDUs contain the correct information and are properly formatted.
 
@@ -229,7 +229,7 @@ Whenever you seek assistance on a SMS issue, whether it's opening a support tick
 
 ### Network capture {#network-capture}
 
-A network capture is not always needed, usually verbose SMPP messages are enough. Here are some guidelines that will help you determine if a network capture is needed:
+A network capture is not always needed, usually verbose SMPP messages are enough. Here are some guidelines that helps you determine if a network capture is needed:
 
 * Connection issues, but the verbose messages don't show any `BIND_RESP PDU`.
 

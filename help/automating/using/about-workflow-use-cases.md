@@ -13,7 +13,7 @@ exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 
 In this section, you will find various use cases leveraging Campaign workflows capabilities.
 
-They will help you discover the different contexts in which workflows can be used and respond to your needs.
+They help you discover the different contexts in which workflows can be used and respond to your needs.
 
 ## Deliveries {#deliveries}
 

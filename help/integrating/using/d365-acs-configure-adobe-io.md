@@ -77,7 +77,7 @@ Once downloaded, you can unzip the file to reveal the public and private keys. A
 
     ![](assets/adobeIO6.png)
 
-1. On the next screen you will see the details of your new Adobe IO project. Click **[!UICONTROL Add to Project]** at the top left of the screen and select **API** from the drop down.
+1. On the next screen you will see the details of your new Adobe IO project. Click **[!UICONTROL Add to Project]** at the top-left of the screen and select **API** from the drop down.
 
     ![](assets/adobeIO7.png)
 
@@ -85,7 +85,7 @@ Once downloaded, you can unzip the file to reveal the public and private keys. A
 
 1. On the next screen click **[!UICONTROL Save the configured API]**.  You will be brought back to the project details screen.
 
-1. Now click **[!UICONTROL Add to Project]** at the top left of the screen and select **API** from the drop down, as you did previously.
+1. Now click **[!UICONTROL Add to Project]** at the top-left of the screen and select **API** from the drop down, as you did previously.
 
 1. On the next screen you will need to select the I/O Management API and click **[!UICONTROL Next]**.
 

@@ -141,7 +141,7 @@ It is possible to combine multiple filters in a single request:
     ```
 
 * Sample GET request to retrieve the "profile" resources containing "Doe" in
-the email or last name fields (the byText filter searchs into both the email and last name fields).
+the email or last name fields (the byText filter searches into both the email and last name fields).
 
     ```
 

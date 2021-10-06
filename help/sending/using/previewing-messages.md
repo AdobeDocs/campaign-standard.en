@@ -36,7 +36,7 @@ To preview a message using test profiles, follow these steps:
 
     ![](assets/sending_test-profile.png)
 
-1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
+1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top-left of the screen.
 
    ![](assets/sending_preview_edit.png)
 

@@ -27,11 +27,11 @@ For more information on Push or In-App, refer to the following FAQs:
 Check out the resources below for more information on the Adobe Experience Platform SDK and Campaign Standard integration:
 
 * Launch/Mobile [Overview Video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Launch/Mobile [Tips & Tricks Guide](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* Launch/Mobile [Tips & Tricks Guide](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Is Adobe Experience Platform SDK integration available for both Adobe Campaign Standard and Adobe Campaign Classic? {#aep-validity}
 
-Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You need to install the corresponding **[!UICONTROL Extension]** via [!DNL Adobe Launch] to enable the integration.
+Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You must install the corresponding **[!UICONTROL Extension]** via [!DNL Adobe Launch] to enable the integration.
 
 For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
@@ -71,7 +71,7 @@ To do so, follow the steps below:
 
 ## What do I have to do in order to enrich a Mobile Profile in Campaign? {#enrich-mobile-profile}
 
-You need to configure a CollectPII postback (refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) and implement CollectPII API from SDK (refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+You must configure a CollectPII postback (refer to this [page](../../administration/using/configuring-rules-launch.md#pii-postback)) and implement CollectPII API from SDK (refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## How frequently should a CollectPII call be fired? {#collect-pii}
 
