@@ -7,7 +7,6 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 ---
 
 # In-App FAQ {#in-app-faq}
