@@ -136,7 +136,17 @@ It is possible to personalize the remote URL from which the content will be retr
 
    >[!NOTE]
    >
-   >The available personalization fields are linked to **Delivery** attributes only (email creation date, status, campaign label...).
+   >The available personalization fields are linked to **Delivery** attributes only (email creation date, status, campaign label…).
+
+If content download fails at the first try, it can be retried twice:
+
+1. The second try starts 50&nbsp;ms after the first try.
+1. The third try starts 100&nbsp;ms after the second try.
+
+These retries are helpful in these cases:
+
+* A short-time service failure on a distant server
+* A server failure on a cluster, in which case the retries are more likely to succeed thanks to load balancing to a working server
 
 ### Compatibility mode {#compatibility-mode}
 
