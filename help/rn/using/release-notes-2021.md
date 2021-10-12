@@ -4,11 +4,9 @@ description: This page lists all 2021 releases of Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-
 feature: Overview
 role: User
 level: Beginner
-exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 ---
 # Release Notes 2021{#release-notes-2021}
 

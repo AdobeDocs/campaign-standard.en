@@ -4,7 +4,6 @@ description: This page lists all 2020 releases of Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-
 feature: Overview
 role: User
 level: Beginner
