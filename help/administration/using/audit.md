@@ -99,7 +99,7 @@ To do so:
         >[!NOTE]
         >
         >If the **[!UICONTROL XtkAudit_Enable_All]** option is set to 0, the **[!UICONTROL Audit trail]** feature will be completely disabled, regardless of other individual option values.
-    
+
     ![](assets/audit-trail_5.png)
 
 1. From your **[!UICONTROL Options]** page, set the **[!UICONTROL Value (integer)]** to 0 if you want to disable the **[!UICONTROL Audit trail]** or to 1 to enable it.
