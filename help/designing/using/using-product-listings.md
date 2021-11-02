@@ -121,7 +121,7 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_fallback.png)
 
-   The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
+   The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in their cart.
 
 1. From the Settings pane, edit the styles for the product listing. For more on this, see [Managing email styles](../../designing/using/styles.md).
 1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:

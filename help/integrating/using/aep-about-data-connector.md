@@ -36,7 +36,7 @@ The following sections describe the key-steps to perform a data mapping between 
 
 ## Key concepts {#key-concepts}
 
-* Out of the Box Mapping is only available for fields which are provided in Campaign Standard by default. For ingesting all custom fields and resources, each customer needs to define his own mapping.
+* Out of the Box Mapping is only available for fields which are provided in Campaign Standard by default. For ingesting all custom fields and resources, each customer needs to define their own mapping.
 
 * Adobe Experience Platform Data Connector will push profile data through the platform at regular intervals.​ The interval duration is 15 minutes. This value can be modified using [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 

@@ -40,7 +40,7 @@ A sound will alert users of a push notification, giving it more visibility. To i
 
    If the **[!UICONTROL Play a sound]** field is left empty, no sound will be played.
 
-The user will then receive the push notification and the sound only if his phone is not muted.
+The user will then receive the push notification and the sound only if their phone is not muted.
 
 ## Refresh the badge value {#refresh-the-badge-value}
 

@@ -204,7 +204,7 @@ With Adobe Campaign Standard, you can send mobile deliveries through three diffe
     <div>
     <p><strong>Managing incoming SMS</strong></p>
     </div>
-    <p>When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to him as well as the action to perform.Customizing a local notification message type</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Click here for more information.</p>
+    <p>When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to them as well as the action to perform.Customizing a local notification message type</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Click here for more information.</p>
     <br>
   </td>
   <td>

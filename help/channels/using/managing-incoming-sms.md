@@ -14,7 +14,7 @@ exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 
 ## Managing STOP SMS {#managing-stop-sms}
 
-When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to him as well as the action to perform.
+When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to them as well as the action to perform.
 
 This configuration is defined in the **[!UICONTROL Automatic reply sent to the MO]** section of the [SMS Routing external account](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO stands for 'Mobile Originated', which means that you can configure an auto-reply to the mobile who sent the SMS.
 

@@ -95,7 +95,7 @@ The **[!UICONTROL filterType]** parameter allows you to retrieve profiles based 
 
 >[!NOTE]
 >
->Searches are case-sensitive and performed on prefixes only. For example, you will not be able to look up for a profile using his last name's last letters.
+>Searches are case-sensitive and performed on prefixes only. For example, you will not be able to look up for a profile using their last name's last letters.
 
 ***Sample requests***
 
