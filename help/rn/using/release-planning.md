@@ -20,11 +20,11 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: we recommend you visit this page on a regular basis to check for updates.
 
-## Release 21.3 - September 2021 Release {#release-21-3-release}
+## Release 22.1 - February 2022 Release {#release-22-1-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md).
+Detailed information about this release will be available in the [Release Notes](../../rn/using/release-notes.md) at the Stage environment upgrade date.
 
 <table>
  <thead>
@@ -36,11 +36,11 @@ Detailed information about this release are available in the [Release Notes](../
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>September 7-8, 2021<br /> </td>
+   <td>Feb 8-9, 2022<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>September 14-21, 2021<br /> </td>
+   <td>Feb 15-22, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
