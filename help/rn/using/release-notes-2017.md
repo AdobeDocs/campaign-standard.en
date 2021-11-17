@@ -203,7 +203,7 @@ _Profiles and audiences_
   </tr> 
   <tr> 
    <td> Direct Mail Channel - Return To Sender<br /> </td> 
-   <td> Flat file exchanges with Direct Mail providers incorporating Return to Sender information are now supported. This enhancement to the Direct Mail channel allows corresponding postal addresses to be excluded from future communications.<br /> This enables marketers to be notified of an incorrect address and engage with the customer through other channels or to encourage him to update his postal address. This also reduces the number of wasted marketing dollars as marketers avoid sending mail to incorrect addresses. <br /> Direct Mail is available as an add-on channel. For more information, refer to the <a href="../../channels/using/return-to-sender.md">detailed documentation</a>.<br /> </td> 
+   <td> Flat file exchanges with Direct Mail providers incorporating Return to Sender information are now supported. This enhancement to the Direct Mail channel allows corresponding postal addresses to be excluded from future communications.<br /> This enables marketers to be notified of an incorrect address and engage with the customer through other channels or to encourage them to update their postal address. This also reduces the number of wasted marketing dollars as marketers avoid sending mail to incorrect addresses. <br /> Direct Mail is available as an add-on channel. For more information, refer to the <a href="../../channels/using/return-to-sender.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -309,7 +309,7 @@ You can only define one order of priority per dynamic content.
 
 ## Example: Email personalization{#example-email-personalization}
 
-In this example, a member of the marketing service team has created an email to inform some of his clients that there is a special offer just for them. The team member decided to personalize the email according to the clients' respective ages. Clients aged between 18 and 27 years old will receive an email containing a different image and slogan to those that the clients older than 27 will receive.
+In this example, a member of the marketing service team has created an email to inform some of their clients that there is a special offer just for them. The team member decided to personalize the email according to the clients' respective ages. Clients aged between 18 and 27 years old will receive an email containing a different image and slogan to those that the clients older than 27 will receive.
 
 The email is created as follows:
 

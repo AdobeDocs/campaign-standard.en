@@ -36,7 +36,7 @@ You can also set up a **[!UICONTROL Denylist]** landing page that will enable us
    ![](assets/optin_landingpage_1.png)
 
 1. Save the landing page and publish it.
-1. In the landing page, the checkboxes are already selected according to the profile **[!UICONTROL General]** tab. The user can select or unselect the channels according to his needs and submit the form.
+1. In the landing page, the checkboxes are already selected according to the profile **[!UICONTROL General]** tab. The user can select or unselect the channels according to their needs and submit the form.
 
    ![](assets/optin_landingpage_2.png)
 

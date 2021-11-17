@@ -12,7 +12,7 @@ exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
 ---
 # Creating a multilingual email{#creating-a-multilingual-email}
 
-You can send a multilingual email to profiles with different preferred languages: each profile will receive a variant of the email in his preferred language.
+You can send a multilingual email to profiles with different preferred languages: each profile will receive a variant of the email in their preferred language.
 
 To do this, check that you have a multilingual email template available. If not, learn how to create one in [this section](../../channels/using/multilingual-messages-template.md).
 

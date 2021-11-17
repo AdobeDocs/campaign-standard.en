@@ -310,7 +310,7 @@ The **[!UICONTROL Define a specific mapping of encodings]** functionality allows
 
 ### Automatic reply sent to the MO {#automatic-reply-sent-to-the-mo}
 
-When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to him as well as the action to perform.
+When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to them as well as the action to perform.
 
 For more information, refer to [this section](../../channels/using/managing-incoming-sms.md).
 
