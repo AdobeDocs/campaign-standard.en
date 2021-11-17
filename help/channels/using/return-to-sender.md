@@ -12,9 +12,9 @@ exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
 ---
 # Return to sender{#return-to-sender}
 
-Flat file exchanges with Direct Mail providers incorporating Return to Sender information are supported. This allows corresponding postal addresses to be excluded from future communications. This also allows you to be notified of an incorrect address and engage with the customer through other channels or to encourage him to update his postal address.
+Flat file exchanges with Direct Mail providers incorporating Return to Sender information are supported. This allows corresponding postal addresses to be excluded from future communications. This also allows you to be notified of an incorrect address and engage with the customer through other channels or to encourage them to update their postal address.
 
-For example, a contact has moved to a new place and did not provide you with his new postal address. The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically denylists the erroneous addresses.
+For example, a contact has moved to a new place and did not provide you with their new postal address. The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically denylists the erroneous addresses.
 
 In order for this functionality to work, the direct mail default delivery template includes, in the content, the delivery log ID. Thus, Adobe Campaign will be able to synchronize the profile and delivery data with the information returned by the provider.
 

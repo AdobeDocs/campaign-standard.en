@@ -22,7 +22,7 @@ Each object and user of the platform is linked to an organizational unit. This u
 >
 >By default, the **[!UICONTROL All (all)]** organizational unit is assigned to the **[!UICONTROL Administrators]** security group. It is read-only and cannot be modified.
 
-A user has read-only access to all of the objects in the parent units. Such user has read and write access to all objects of his unit and child units. A user does not have access to objects in parallel branches.
+A user has read-only access to all of the objects in the parent units. Such user has read and write access to all objects of their unit and child units. A user does not have access to objects in parallel branches.
 
 By default, only the **[!UICONTROL All]** units are available.
 

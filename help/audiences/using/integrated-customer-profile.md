@@ -29,7 +29,7 @@ To access the integrated customer profile, steps are as follows:
       >
       >Note that searches can be performed based on the email, first name and last name fields as well as custom fields that have been added when extending the resource.
       >
-      >Searches are case-sensitive and performed on prefixes only. For example, you will not be able to look up for a profile using his last name's last letters.
+      >Searches are case-sensitive and performed on prefixes only. For example, you will not be able to look up for a profile using their last name's last letters.
 
 1. Select a contact to open its profile.
 
