@@ -7,8 +7,8 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
 ---
-
 # In-App FAQ {#in-app-faq}
 
 ## What would be some useful resources recommendations to learn more about In-App channel in Adobe Campaign Standard? {#resources-inapp}

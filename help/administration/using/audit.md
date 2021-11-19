@@ -7,6 +7,7 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
+exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 ---
 # Audit trail {#audit}
 

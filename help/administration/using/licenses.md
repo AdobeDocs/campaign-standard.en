@@ -7,6 +7,7 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 ---
 # Licenses{#licenses}
 
