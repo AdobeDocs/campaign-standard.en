@@ -36,7 +36,7 @@ External accounts and technical workflows can only be managed by the functional 
 
    ![](assets/analytics.png)
 
-The **[!UICONTROL Share KPIs with Adobe Analytics]** technical workflow will now automatically launch and can be viewed from the advanced menu by selecting **[!UICONTROL Administration > Application settings > Workflow]**. This technical workflow will automatically execute every 15 minutes and will push up to 6 months old data in Adobe Analytics.
+The **[!UICONTROL Share KPIs with Adobe Analytics]** technical workflow will now automatically launch and can be viewed from the advanced menu by selecting **[!UICONTROL Administration > Application settings > Workflow]**. This technical workflow can retain up to 6 months old broadlogs. Note that this workflow is incremental and will push data from the previous day.
 
 ![](assets/analytics_3.png)
 
