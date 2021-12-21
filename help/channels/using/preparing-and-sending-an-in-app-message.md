@@ -52,7 +52,9 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
     * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 
     * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field. Please note that if you did not configure your mobile app with Adobe Campaign Standard, it will not appear in the list. For more information on mobile application configuration, refer to this [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field. 
+
+   If you don't see any applications in the drop-down list, make sure that your mobile applications are in a **Configured** state. Applications in a **Ready to be configured** state will not appear in the list. For more information on mobile application configuration, refer to this [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 

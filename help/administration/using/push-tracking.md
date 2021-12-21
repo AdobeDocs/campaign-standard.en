@@ -227,13 +227,11 @@ To understand how iOS notifications works, the three states of an app needs to b
 * **Background**: when the is app is not on screen but the process is not closed. When you double-click the home button, it will usually showcase all the apps that are in the background.
 * **Off/closed**: an app whose process has been killed.
 
-If an app is closed, Apple will not call the app until the app has been relaunched. This means that you will not be able to know when the notification has been received on iOS.
-
 In order to still have **[!UICONTROL Impression]** tracking working while the app is in the background we need to send **[!UICONTROL Content-Available]** to let the app know a tracking has to be done.
 
 >[!CAUTION]
 >
->iOS impression tracking is not accurate and should not be seen as reliable.
+> If an app is closed, Apple will not call the app until the app has been relaunched. This means that you will not be able to know when the notification has been received on iOS. </br> Due to this reason, iOS impression tracking might not be accurate and should not be seen as reliable.
 
 For deliveries created before 21.1 release or deliveries with custom template, refer to this [section](../../administration/using/push-tracking.md#about-push-tracking).
 
