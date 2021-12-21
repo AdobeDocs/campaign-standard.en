@@ -231,8 +231,7 @@ In order to still have **[!UICONTROL Impression]** tracking working while the ap
 
 >[!CAUTION]
 >
-> If an app is closed, Apple will not call the app until the app has been relaunched. This means that you will not be able to know when the notification has been received on iOS.
-Due to this reason, iOS impression tracking might not be accurate and should not be seen as reliable.
+> If an app is closed, Apple will not call the app until the app has been relaunched. This means that you will not be able to know when the notification has been received on iOS. </br> Due to this reason, iOS impression tracking might not be accurate and should not be seen as reliable.
 
 For deliveries created before 21.1 release or deliveries with custom template, refer to this [section](../../administration/using/push-tracking.md#about-push-tracking).
 
