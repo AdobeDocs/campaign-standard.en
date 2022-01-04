@@ -423,7 +423,6 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Tracking Logs](developing/using/datamodel-tracking.md)
        + [Unsubscription Event](developing/using/datamodel-unsubscription.md)
        + [Visitor](developing/using/datamodel-visitor.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
   + [Monitoring guidelines](administration/using/monitoring-guidelines.md)
@@ -510,3 +509,4 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Updating a profile's Geographical unit](api/using/updating-a-geographical-unit.md)
        + [Updating a Geographical unit attributes](api/using/updating-geographical-unit-attributes.md)  
   + [Troubleshooting](api/using/troubleshooting.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
