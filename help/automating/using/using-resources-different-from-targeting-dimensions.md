@@ -19,7 +19,7 @@ For more on targeting dimensions and resources, refer to [this section](../../au
 **Example 1: identifying profiles targeted by the delivery with the label ”Welcome back !”**.
 
 * In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* We want to filter the selected profiles according to the delivery label. We will therefore set the resource to **[!UICONTROL Delivery logs]**. This way, we are filtering directly in the delivery log table, which will offers better performances.
+* We want to filter the selected profiles according to the delivery label. We will therefore set the resource to **[!UICONTROL Delivery logs]**. This way, we are filtering directly in the delivery log table, which will offer better performance.
 
 ![](assets/targeting_dimension6.png)
 
