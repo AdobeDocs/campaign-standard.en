@@ -423,6 +423,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Tracking Logs](developing/using/datamodel-tracking.md)
        + [Unsubscription Event](developing/using/datamodel-unsubscription.md)
        + [Visitor](developing/using/datamodel-visitor.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
   + [Monitoring guidelines](administration/using/monitoring-guidelines.md)
