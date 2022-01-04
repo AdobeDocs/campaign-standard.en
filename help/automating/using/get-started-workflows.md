@@ -29,6 +29,10 @@ Workflows can be used in different contexts, as for example:
 * Importing data into Campaign database.
 * Technical processes such as database cleanup, recovering tracking information, etc.
 
+>[!IMPORTANT]
+>
+> Adobe recommends customers not to run more than 20 active workflows executions simultaneously, and to prioritize and spread out your workflow execution over time. For more on this, refer to the best practices provided in [this page](../../automating/using/best-practices-workflows.md).
+
 ## Workflow activities {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
