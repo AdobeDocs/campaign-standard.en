@@ -14,9 +14,9 @@ exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
 
 A workflow is always started manually. However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe recommends customers prioritize workflow executions and run up to twenty concurrent workflow executions to consistently achieve maximum performance across your instance. More than twenty concurrent workflow executions may be planned and will execute sequentially by default. You may adjust the default settings for maximum number of concurrent workflow executions by submitting a ticket to Customer Care.
+> Adobe recommends customers not to run more than 20 active workflows executions simultaneously, and to prioritize and spread out your workflow execution over time. For more on this, refer to the best practices provided in [this page](../../automating/using/best-practices-workflows.md).
 
 Execution related actions (start, stop, pause, etc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 

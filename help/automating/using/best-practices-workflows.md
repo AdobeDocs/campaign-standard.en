@@ -45,7 +45,7 @@ By default, we recommend **not to run more than 20 active workflows executions s
 
 In specific contexts, you may need to run more than 20 workflows. If so, you need to check the use cases with a Campaign expert and contact Adobe Customer Care to increase the limit.
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >Even if you are not reaching the 20 workflows threshold, Adobe recommends you to **spread out your workflow execution over time**. Staggering the execution of your workflows will ensure better performance of your instance.
 
