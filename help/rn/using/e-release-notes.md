@@ -65,7 +65,7 @@ This page describes new features, improvements and fixes included in the next Ca
 * Fixed an issue which occurred after creating a new filter in a custom resource, then using it as a reconciliation key in a landing page. If the custom resource was published again, the filter was removed from the list of available reconciliation keys for the landing page. (CAMP-49516)
 * Fixed an issue in landing pages when using dynamic conditions with checkboxes. (CAMP-48604)
 * Fixed an issue that occurred in a **Query** activity when using the “On or before October” filter condition. When working from an instance set to a European timezone, the selected month for the filter showed September instead of October, due to an issue when converting the timezone. (CAMP-48602)
-* To optimize deliverability, emails are now sent using 7-bit encoding instead of 8-bit. This prevents relays from invalidating the DKIM signature when converting from 8 to 7-bits. (CAMP-49016)
+* To optimize deliverability, Adobe Campaign now sends emails using 7-bit encoding instead of 8-bit. This prevents intermediate relays from invalidating the DKIM signature which could affect the authenticity of the messages. (CAMP-49016)
 * Performances when duplicating audiences have been enhanced in order to avoid any issue when working with large audiences. (CAMP-49639)
 * Fixed an issue which could prevent a custom filter from displaying the correct results when used into a **Query** activity. (CAMP-49417)
 * Fixed an error that displayed an error message when trying to use a fragment in a delivery with a comma in its name. The issue has been resolved, commas can now be used in fragments’ names. (CAMP-49216)
