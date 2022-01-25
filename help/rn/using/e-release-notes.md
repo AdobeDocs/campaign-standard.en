@@ -32,7 +32,7 @@ This page describes new features, improvements and fixes included in the next Ca
 <tbody> 
 <tr> 
 <td>
-<p>Following the update to Apache log4j v2.17.0 release in December 2021, to ensure our customers are not impacted by possible unintended effects of introducing further change to the system outside of our normal release schedule, we have made the update internally and are getting it ready for deployment with this release.</p>
+<p>Apache log4j has fixed the reported vulnerabilities in Apache log4j v2.17.1 release. Adobe Campaign Standard uses Apache log4j and in this release is including this latest Apache log4j v2.17.1 </p>
 </td> 
 </tr> 
 </tbody> 
@@ -41,7 +41,6 @@ This page describes new features, improvements and fixes included in the next Ca
 **Security fixes**
 
 * New URL signature mechanism for tracking included in this release. The previous mechanism had been disabled to prevent an issue that was causing some valid, signed tracking links to be incorrectly blocked after being modified by third-party security tools. (CAMP-48983)
-* Reinforce security to access application and server configuration files: JavaScript file access APIs security are now restricted to sandbox directories. (CAMP-49411)
 
 **Improvements**
 
