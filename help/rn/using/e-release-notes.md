@@ -47,6 +47,7 @@ This page describes new features, improvements and fixes included in the next Ca
 * Improved processing of reporting data to avoid over loading the system. (CAMP-47578)
 * After sending your In-App messages, you can now choose to deactivate your delivery. This allows you to delete your delivery without losing any reporting data. (CAMP-48469)
 * To prevent any issue, users can no longer use the same name for a custom table column as the one used for the automatic Primary Key in the database, `"<dataType><resourceName>Id"`. (CAMP-49358)
+* You can now monitor your delivery and track job logs with the new **Job history** drop-down from your messages' dashboard. (CAMP-49840)
 
 **Patches**
 
