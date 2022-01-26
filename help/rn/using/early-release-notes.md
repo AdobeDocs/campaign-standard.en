@@ -48,6 +48,9 @@ This page describes new features, improvements and fixes included in the next Ca
 * After sending your In-App messages, you can now choose to deactivate your delivery. This allows you to delete your delivery without losing any reporting data. (CAMP-48469)
 * To prevent any issue, users can no longer use the same name for a custom table column as the one used for the automatic Primary Key in the database, `"<dataType><resourceName>Id"`. (CAMP-49358)
 * You can now monitor your delivery and track job logs with the new **Job history** drop-down from your messages' dashboard. (CAMP-49840)
+* Improved stability and database health, by reducing dead tuples, when large number of messages are sent across all channels over the time. (CAMP-49755, CAMP-49792, CAMP-49849)
+* To ensure database connections are refreshed automatically in case of database crash or restart, improvements have been implemented in Campaign Mail Transfer Agent (MTA). (CAMP-48063)
+
 
 **Patches**
 
