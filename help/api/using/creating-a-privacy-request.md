@@ -18,7 +18,7 @@ exl-id: 06ad2e13-922b-4f35-8726-007427125c63
 
 Privacy requests are created using a **POST** request.
 
-Before creating requests, you need to define the namespace you will use. For more on this, refer the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Before creating requests, you need to define the namespace you will use. For more on this, refer the [Privacy management documentation](../../start/using/privacy-requests.md).
 
 The payload must contain the following parameters:
 
