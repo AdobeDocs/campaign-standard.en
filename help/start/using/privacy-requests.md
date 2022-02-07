@@ -18,9 +18,7 @@ This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regula
 
 The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [this section](#sale-of-personal-information-ccpa).
 
->[!IMPORTANT]
->
->Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## About Privacy requests {#about-privacy-requests}
 
@@ -84,9 +82,7 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 ### Creating a Privacy request {#create-privacy-request}
 
->[!IMPORTANT]
->
->Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 The Privacy Core Service Integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
 
@@ -188,7 +184,7 @@ When users decide, through your system, that they do not allow their personal in
 
 ### Prerequisite for custom tables {#ccpa-prerequisite}
 
-Starting 19.4, the **[!UICONTROL CCPA Opt-Out]** field is provided out-of-the-box in the Campaign interface and API. By default, the field is available for the standard **[!UICONTROL Profile]** resource.
+The **[!UICONTROL CCPA Opt-Out]** field is provided out-of-the-box in the Campaign interface and API. By default, the field is available for the standard **[!UICONTROL Profile]** resource.
 
 If you use a custom profile resource, you must extend the resource and add the field. We recommend that you use a different name than the out-of-the-box field, for example:  **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). When a new field is created, it is automatically supported by the Campaign API.
 
