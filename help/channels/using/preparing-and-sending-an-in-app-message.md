@@ -155,6 +155,18 @@ Once you have finished preparing your delivery and the approval steps have been 
 
 1. Measure the impact of your In-App messages with delivery reports. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
 
+1. After sending your In-App messages, you can choose to deactivate your delivery. This can be useful if you want to stop a particular delivery or if you want to run a new delivery with the same trigger for example.
+
+   Click **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** to start the deactivation request.
+
+   ![](assets/inapp_sending_8.png)
+
+1. Once the request has been sent, your delivery will be deactivated and no other message will be sent.
+
+   Note that your reports for this delivery will still be accessible.
+
+   ![](assets/inapp_sending_9.png)
+
 **Related topics:**
 
 * [In-App report](../../reporting/using/in-app-report.md)

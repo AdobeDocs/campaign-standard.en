@@ -64,7 +64,7 @@ This page describes new features, improvements and fixes included in the next Ca
 * Fixed an error with push notification reports that displayed dismissed push notifications as **Open** instead of **Impression**. (CAMP-45980)
 * Fixed an issue which could lead to errors when opening a report. (CAMP-49222)
 * Fixed an issue which could lead to the email preparation failing after deleting a link to AEM content. (CAMP-49877)
-* To solve various issues, the retry mechanism has been improved for deliveries including content imported from a URL. (CAMP-48888)
+* To solve various issues, the retry mechanism has been improved for deliveries including content imported from a URL. [Learn more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Fixed an issue which occurred after creating a new filter in a custom resource, then using it as a reconciliation key in a landing page. If the custom resource was published again, the filter was removed from the list of available reconciliation keys for the landing page. (CAMP-49516)
 * Fixed an issue in landing pages when using dynamic conditions with checkboxes. (CAMP-48604)
 * Fixed an issue that occurred in a **Query** activity when using the “On or before October” filter condition. When working from an instance set to a European timezone, the selected month for the filter showed September instead of October, due to an issue when converting the timezone. (CAMP-48602)
