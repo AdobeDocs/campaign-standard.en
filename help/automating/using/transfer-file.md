@@ -48,11 +48,13 @@ You can use this activity to recover data that will then be structured with the 
     * [Microsoft Azure Blob storage](#azure-blob-configuration-wf)
     * [File(s) present on the Adobe Campaign server](#files-server-configuration-wf)
 
-1. The **[!UICONTROL Additional options]** section, available depending on the protocol selected, allows you to add parameters to your protocol. You can:
+1. The **[!UICONTROL Additional options]** section, available depending on the protocol selected, allows you to add parameters to your protocol.
+       
+    You can:
 
-    * **[!UICONTROL Delete the source files after transfer]** 
-    * **[!UICONTROL Disable passive mode]** 
-    * **[!UICONTROL List all files]**: this option is available when selecting the **[!UICONTROL File listing]** action.in the **[!UICONTROL General]** tab. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
+    * **[!UICONTROL Delete the source files after transfer]**: erases the files on the remote server. If you leave this option unchecked, make sure you manually monitor the size of your archived content in the SFTP directory.
+    * **[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.
+    * **[!UICONTROL List all files]**: this option is available when selecting the **[!UICONTROL File listing]** action in the **[!UICONTROL General]** tab. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
 
