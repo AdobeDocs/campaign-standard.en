@@ -14,7 +14,7 @@ exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
 
 You can monitor information about a created privacy request using a **GET** request.
 
-The status list description is available in the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+The status list description is available in the [Privacy management documentation](../../start/using/privacy-requests.md).
 
 <br/>
 
