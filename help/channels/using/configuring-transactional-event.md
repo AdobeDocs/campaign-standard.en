@@ -117,6 +117,10 @@ For more on creating and publishing resources, see [this section](../../developi
 
    ![](assets/message-center_enrichment-join.png)
 
+   >[!NOTE]
+   >
+   >If you define a condition that could enable to select several recipients (such as a field that can have the same value for several profiles), no more than one profile will be targeted.
+
 1. In this example, we reconcile the **[!UICONTROL Last name]** and the **[!UICONTROL First name]** fields with the corresponding fields in the **[!UICONTROL Profile]** resource.
 
    ![](assets/message-center_enrichment-join-fields.png)
