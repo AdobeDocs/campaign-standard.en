@@ -1,10 +1,6 @@
 ---
 title: Documentation Updates
-description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
-
+description: Learn about all the latest updates for Adobe Campaign Standard documentation
 feature: Overview
 role: User
 level: Beginner
@@ -13,6 +9,20 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 # Documentation Updates{#documentation-updates} 
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## February 2022 {#doc-updates-feb-2022}
+
+Improved retry mechanism for deliveries including content imported from a URL. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+Added a warning note about keywords that trigger automatic SMS replies: they must contain only alphanumerical characters. [Read more](../../channels/using/managing-incoming-sms.md)
+
+Updated access level of the options which control Audit: earlier options for enabling/disabling [Audit trail](../../administration/using/audit.md) were not accessible to [functional administrators](../../administration/using/users-management.md#functional-administrators). With this change, access level of audit is modified to provide control to functional administrators. [Read more](../../administration/using/audit.md#enable-disable-audit)
+
+Added a note to the A/B test email section: if the total population is less than 50k, each variant needs to represent at least 10% of the total population. Otherwise the logs will display a warning. [Read more](../../channels/using/designing-an-a-b-test-email.md)
+
+Updated the description of the **[!UICONTROL Delete the source files after transfer]** option in the **Transfer file** activity, including a reminder to manually monitor the size of the archived content in the SFTP directory in case the option is not selected. [Read more](../../automating/using/transfer-file.md)
+
+Updated all obsolete links in the **Privacy** sections. [Read more](../../start/using/privacy.md)
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 

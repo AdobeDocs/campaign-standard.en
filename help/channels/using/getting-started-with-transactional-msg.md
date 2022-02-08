@@ -85,7 +85,7 @@ Each of these steps is further detailed below.
 
 ### Step 1 - Create and publish the event configuration {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | User | Action | Result |
 |--- |--- |--- |
@@ -95,7 +95,7 @@ Creating and publishing an event are presented in the [Configuring a transaction
 
 ### Step 2 - Edit and publish the transactional message {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | User | Action | Result |
 |--- |--- |--- |
@@ -105,7 +105,7 @@ For more on editing and publishing a transactional message, see [Editing transac
 
 ### Step 3 - Integrate the event triggering {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -119,7 +119,7 @@ For more on using the Campaign REST API to manage transactional messages, see th
 
 ### Step 4 - Message delivery {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 Once all of these steps have been carried out, the message can be delivered.
 
