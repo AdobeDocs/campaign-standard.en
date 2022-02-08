@@ -1,10 +1,6 @@
 ---
 title: Documentation Updates
-description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
-
+description: Learn about all the latest updates for Adobe Campaign Standard documentation
 feature: Overview
 role: User
 level: Beginner
@@ -13,6 +9,11 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 # Documentation Updates{#documentation-updates} 
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+
+## February 2022 {#doc-updates-feb-2022}
+
+Improved retry mechanism for deliveries including content imported from a URL. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 
