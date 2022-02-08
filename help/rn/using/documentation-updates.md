@@ -18,6 +18,8 @@ Added a warning note about keywords that trigger automatic SMS replies: they mus
 
 Updated access level of the options which control Audit: earlier options for enabling/disabling [Audit trail](../../administration/using/audit.md) were not accessible to [functional administrators](../../administration/using/users-management.md#functional-administrators). With this change, access level of audit is modified to provide control to functional administrators. [Read more](../../administration/using/audit.md#enable-disable-audit)
 
+Added a note to the A/B test email section: if the total population is less than 50k, each variant needs to represent at least 10% of the total population. Otherwise the logs will display a warning. [Read more](../../channels/using/designing-an-a-b-test-email.md)
+
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 
