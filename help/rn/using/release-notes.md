@@ -1,9 +1,6 @@
 ---
 title: Latest Release
 description: This page details content of the latest Campaign Standard release
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
