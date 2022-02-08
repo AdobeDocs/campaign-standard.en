@@ -22,6 +22,8 @@ Added a note to the A/B test email section: if the total population is less than
 
 Updated the description of the **[!UICONTROL Delete the source files after transfer]** option in the **Transfer file** activity, including a reminder to manually monitor the size of the archived content in the SFTP directory in case the option is not selected. [Read more](../../automating/using/transfer-file.md)
 
+Updated all obsolete links in the **Privacy** sections. [Read more](../../start/using/privacy.md)
+
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 
 **New capabilities included in the release**
