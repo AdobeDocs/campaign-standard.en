@@ -53,7 +53,11 @@ You can use this activity to recover data that will then be structured with the 
     You can:
 
     * **[!UICONTROL Delete the source files after transfer]**: erases the files on the remote server. If you leave this option unchecked, make sure you manually monitor the size of your archived content in the SFTP directory.
-    * **[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.
+
+    * **[!UICONTROL Sorting files]**: enables you to sort files alphanumerically. This option is disabled by default.
+
+        <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
     * **[!UICONTROL List all files]**: this option is available when selecting the **[!UICONTROL File listing]** action in the **[!UICONTROL General]** tab. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
@@ -74,6 +78,8 @@ With this protocol, you can choose to **[!UICONTROL Use connection parameters de
 
 You can also choose the **[!UICONTROL Quick configuration]** option. You only need to enter the URL in the URL field.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, and **[!UICONTROL Add received HTTP headers to the file]** are the additional options available when you select the HTTP protocol.
 
 ### Configuration with SFTP {#SFTP-configuration-wf}
 

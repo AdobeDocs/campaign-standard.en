@@ -20,6 +20,7 @@ Updated access level of the options which control Audit: earlier options for ena
 
 Added a note to the A/B test email section: if the total population is less than 50k, each variant needs to represent at least 10% of the total population. Otherwise the logs will display a warning. [Read more](../../channels/using/designing-an-a-b-test-email.md)
 
+Updated the description of the **[!UICONTROL Delete the source files after transfer]** option in the **Transfer file** activity, including a reminder to manually monitor the size of the archived content in the SFTP directory in case the option is not selected. [Read more](../../automating/using/transfer-file.md)
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 
