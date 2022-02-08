@@ -82,6 +82,10 @@ To access your instance's Audit trail:
 
 ## Enable/disable Audit trail {#enable-disable-audit}
 
+>[!NOTE]
+>
+> Only Functional administrators can enable or disable Audit trail. For more on this, refer to this [page](../../administration/using/users-management.md#functional-administrators).
+
 Audit trail can be easily activated or deactivated for a specific activity.
 
 To do so:

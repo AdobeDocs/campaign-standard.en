@@ -14,9 +14,13 @@ exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 
 ## About security groups {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents (mcExec)]** security groups are Adobe internal only and should not be assigned to any user.
+
 Security groups are sets of users that share the same roles and rights within your organization.
 
-Users must always be linked to a security group. This will allow you to assign them specific roles and organizational units.
+Users must always be linked to a security group. This will allow you to assign them specific roles and organizational units. To restrict a user's access, do not add the user to the Campaign **[!UICONTROL Standard Users]** group as this is linked to **[!UICONTROL All]** organizational unit.
 
 For more information on roles, the table in the following page presents possible operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
@@ -27,17 +31,7 @@ Default security groups are:
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
->[!IMPORTANT]
->
->The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents (mcExec)]** security groups are Adobe internal only and should not be assigned to any user.
-
-To be able to access Adobe Campaign, each user must be assigned to a security group.
-
-To restrict a user's access, do not add the user to the Campaign Standard users group as this is linked to **[!UICONTROL All]** organizational unit.
-
->[!NOTE]
->
->By default, the **[!UICONTROL All (all)]** organizational unit is assigned to the **[!UICONTROL Administrators]** security group. It is read-only and cannot be modified.
+Note that these built-in security groups are read-only and cannot be modified. To create your own security group with a set of specific roles, refer to the section below.
 
 ## Creating a security group and assigning users {#creating-a-security-group-and-assigning-users}
 

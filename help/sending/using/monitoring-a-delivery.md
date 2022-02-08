@@ -32,6 +32,12 @@ There are several ways to monitor a delivery and to measure its impact. As a fun
 
   ![](assets/sending_delivery2.png)
 
+* **Job logs**: A list of the batch jobs triggered by the delivery can be accessed from the message dashboard by selecting **[!UICONTROL Job history]** from the **[!UICONTROL Summary]** drop-down list. 
+
+  Select any job from the list to see the details of the selected **[!UICONTROL Batch job]**. 
+
+  ![](assets/sending_delivery8.png)
+
 * **Delivery alerts**: To keep track of delivery successes or failures, Adobe Campaign provides an email alerting system that sends notifications to inform users of important system activities.
 * **Reports**: From the message dashboard, you can access several reports for this specific message. You also have a **[!UICONTROL Reports]** menu that allows you to access a complete list of built-in or custom reports that you can use to outline specific metrics related to your message or campaign.
 * An administrator can also export logs in a separate file that can be processed in your own reporting or BI tools. For more on this, see [Exporting logs](../../automating/using/exporting-logs.md).

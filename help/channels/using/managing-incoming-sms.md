@@ -29,6 +29,10 @@ To do so:
 
    Leave this column empty if you want to send the same reply no matter what the keyword is.
 
+   >[!IMPORTANT]
+   >
+   >Only alphanumeric characters are authorized.
+
    ![](assets/sms_mo_2.png)
 
 1. In the **[!UICONTROL Short code]** field, specify a number that is usually used to send deliveries and will serve as a sender name. You can also decide to leave the **[!UICONTROL Short code]** column empty, to send the same reply no matter what the short code.

@@ -84,7 +84,7 @@ Read more:
 ## Additional resources
 
 * [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md)
-* [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [Getting started with messages](../../channels/using/key-steps-to-send-a-message.md)
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Adding a control group](../../sending/using/control-group.md)
 
