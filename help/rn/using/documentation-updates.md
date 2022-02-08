@@ -16,6 +16,7 @@ Improved retry mechanism for deliveries including content imported from a URL. [
 
 Added a warning note about keywords that trigger automatic SMS replies: they must contain only alphanumerical characters. [Read more](../../channels/using/managing-incoming-sms.md)
 
+Updated access level of the options which control Audit: earlier options for enabling/disabling [Audit trail](../../administration/using/audit.md) were not accessible to [functional administrators](../../administration/using/users-management.md#functional-administrators). With this change, access level of audit is modified to provide control to functional administrators. [Read more](../../administration/using/audit.md#enable-disable-audit)
 
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
