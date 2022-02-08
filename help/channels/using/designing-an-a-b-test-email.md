@@ -44,6 +44,11 @@ In the specific context of an A/B test:
     * **[!UICONTROL Number of variants]**: You can choose to use two or three variants. If you choose three variants, this choice cannot be modified after this step has been confirmed in the wizard.
     * **[!UICONTROL Winning strategy]**: Select the criterion to be used to determine the winning variant.
     * **[!UICONTROL Target breakdown]**: Choose which percentage of the target will receive each variant. The remaining percentage will receive the winning variant once it has been determined. The targeted profiles are selected randomly.
+
+      >[!NOTE]
+      >
+      >If the total population is less than 50k, each variant needs to represent at least 10% of the total population.
+
     * **[!UICONTROL Winner sending method]**: Choose whether you would like the winning variant to be automatically sent once it has been determined or whether you would like to manually confirm sending to the remaining population.
     * **[!UICONTROL Test duration]**: Specify the duration of the test. The winning variant is determined automatically after this duration. You can manually choose the winning variant before the end of the test from the email dashboard.
 
@@ -83,4 +88,4 @@ Your email is now defined and sent. You can access its logs and reports to measu
 
 In the email dashboard, several indicators are available to help you measure your A/B test: number of clicks, opens, bounces, and so on.
 
-Note that the **[!UICONTROL Estimated recipient reactivity]** indicator is a rate comparing the number of recipients who clicked against the number of recipients who opened the email. For example, if 10 recipients opened the email and 5 recipients clicked on it. The reactivity rate is 50%.
+Note that the **[!UICONTROL Estimated recipient reactivity]** indicator is a rate comparing the number of recipients who clicked against the number of recipients who opened the email. For example, if 10 recipients opened the email and 5 recipients clicked on it, the reactivity rate is 50%.
