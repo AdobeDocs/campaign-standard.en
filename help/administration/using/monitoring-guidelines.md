@@ -1,10 +1,7 @@
 ---
 title: Monitoring guidelines
-description: This section presents general guidelines for monitoring Campaign Standard.
+description: This page presents general guidelines for monitoring Campaign Standard
 audience: production
-content-type: reference
-topic-tags: introduction
-index: y
 feature: Access Management
 role: Admin
 level: Experienced

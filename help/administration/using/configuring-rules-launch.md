@@ -1,6 +1,6 @@
 ---
 title: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
-description: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
+description: Learn how to configure Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
 audience: channels
 content-type: reference
 topic-tags: push-notifications

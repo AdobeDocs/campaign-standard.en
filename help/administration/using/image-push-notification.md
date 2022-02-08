@@ -1,10 +1,7 @@
 ---
 title: Display an image from an Adobe Campaign Standard push notification
-description: Learn here how to display an image from an Adobe Campaign push notification on an iOS device.
+description: Learn here how to display an image from an Adobe Campaign push notification on an iOS device
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced

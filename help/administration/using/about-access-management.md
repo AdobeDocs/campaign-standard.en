@@ -1,9 +1,7 @@
 ---
 title: About access management
-description: Manage your Adobe Campaign operators using roles, groups and organizational units.
+description: Learn how to manage your Adobe Campaign operators using roles, groups and organizational units
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced

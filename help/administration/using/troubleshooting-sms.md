@@ -2,8 +2,6 @@
 title: SMS troubleshooting
 description: SMS troubleshooting
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced

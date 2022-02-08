@@ -1,10 +1,7 @@
 ---
 title: Auditing export logs
-description: Administrators can track the exports that were made from Adobe Campaign.
+description: Learn how Administrators can track the exports that were made from Adobe Campaign
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-
 feature: Access Management
 role: Admin
 level: Experienced

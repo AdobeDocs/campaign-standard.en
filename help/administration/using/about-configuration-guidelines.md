@@ -1,10 +1,7 @@
 ---
 title: Configuration guidelines
-description: Learn about Campaign Standard configuration guidelines.
+description: Learn about Campaign Standard configuration guidelines
 audience: administration
-content-type: reference
-topic-tags: about-administrating-adobe-campaign
-
 feature: Access Management
 role: Admin
 level: Experienced

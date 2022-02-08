@@ -1,10 +1,7 @@
 ---
 title: External accounts
-description: Configure external accounts to set up connections with external systems such as SFTP servers.
+description: Learn how to configure external accounts to set up connections with external systems such as SFTP servers
 audience: administration
-content-type: reference
-topic-tags: application-settings
-context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Admin
 level: Experienced

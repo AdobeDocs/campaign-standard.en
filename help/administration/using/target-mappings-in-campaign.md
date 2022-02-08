@@ -1,6 +1,6 @@
 ---
 title: Target mappings in Campaign
-description: Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries.
+description: Learn more about target mapping in Campaign Standard
 audience: administration
 content-type: reference
 topic-tags: application-settings

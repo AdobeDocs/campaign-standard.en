@@ -1,10 +1,7 @@
 ---
 title: Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs
-description: This document provides information about how to support mobile use cases.
+description: Learn how to support mobile use cases
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced

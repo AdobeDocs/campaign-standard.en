@@ -1,11 +1,7 @@
 ---
 title: Sending internal notifications
-description: Learn how to send real-time system notifications to your Adobe Campaign users.
+description: Learn how to send real-time system notifications to your Adobe Campaign users
 audience: administration
-content-type: reference
-topic-tags: application-settings
-
-feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5

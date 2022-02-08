@@ -1,9 +1,7 @@
 ---
 title: About Campaign Standard settings
-description: About Campaign Standard settings
+description: Learn about Campaign Standard basic settings
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Admin

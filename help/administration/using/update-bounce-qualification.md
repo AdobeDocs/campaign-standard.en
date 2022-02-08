@@ -2,8 +2,6 @@
 title: Update bounce qualification after an ISP outage
 description: Learn how to update bounce qualification after an ISP outage.
 audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
 hidefromtoc: yes
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 ---

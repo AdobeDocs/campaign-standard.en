@@ -2,8 +2,6 @@
 title: Updates and maintenance operations
 description: Information about update and maintenance operations for the Adobe Campaign server.
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
