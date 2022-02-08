@@ -1,9 +1,7 @@
 ---
 title: Sync with Launch technical workflow FAQ
-description: Common questions about Launch technical workflow.
+description: Common questions about Adobe Launch technical workflow
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Instance Settings
 role: Admin
 level: Experienced

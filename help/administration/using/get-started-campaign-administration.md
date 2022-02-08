@@ -1,10 +1,7 @@
 ---
 title: Get started with Campaign Standard administration
-description: Discover users and permissions management, monitoring guidelines, channel-specific configurations and application settings guidelines.
+description: Learn about users and permissions management, monitoring guidelines, channel-specific configurations and application settings guidelines
 audience: administration
-content-type: reference
-topic-tags: about-administrating-adobe-campaign
-
 feature: Access Management
 role: Admin
 level: Experienced

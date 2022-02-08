@@ -1,10 +1,7 @@
 ---
 title: Implementing Push tracking
-description: This document allows you to ensure that push notification tracking has been implemented correctly on iOS and Android.
+description: Learn how to ensure that push notification tracking has been implemented correctly on iOS and Android
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced

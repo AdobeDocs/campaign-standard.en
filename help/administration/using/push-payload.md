@@ -1,10 +1,7 @@
 ---
 title: Understanding Campaign Standard Push Notifications Payload Structure
-description: This document is intended to describe the structure of the payload received in mobile applications.
+description: Learn about the structure of the payload received in mobile applications
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced

@@ -1,9 +1,7 @@
 ---
 title: Licenses
-description: Learn more on licenses installed on your instance.
+description: Learn more on licenses installed on your instance
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced

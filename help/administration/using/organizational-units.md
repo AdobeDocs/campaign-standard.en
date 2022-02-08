@@ -1,10 +1,7 @@
 ---
 title: Organizational units
-description: Define your users' access levels using organizational units.
+description: Define your users' access levels using organizational units
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 feature: Access Management
 role: Admin
 level: Experienced

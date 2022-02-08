@@ -2,8 +2,6 @@
 title: Audit Trail
 description: Monitor actions and events with Campaign Audit Trail
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced

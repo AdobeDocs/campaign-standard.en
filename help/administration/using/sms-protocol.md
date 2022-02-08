@@ -1,9 +1,7 @@
 ---
 title: SMS connector protocol and settings
-description: Learn more on the SMS connector and how to configure it.
+description: Learn more on the SMS connector and how to configure it
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced

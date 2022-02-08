@@ -1,10 +1,7 @@
 ---
 title: List of roles
-description: Find out the list of roles that you can assign to your users.
+description: Find out the list of roles that you can assign to your users
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-context-tags: role,overview;role,main
 feature: Access Management
 role: Admin
 level: Experienced

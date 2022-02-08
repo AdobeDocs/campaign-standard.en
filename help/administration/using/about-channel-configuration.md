@@ -1,10 +1,7 @@
 ---
 title: About channel configuration
-description: "Each channel needs to be configured: technical configuration, message properties and templates."
+description: Learn how to configure channels, including technical configuration, message properties and templates
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-
 feature: Instance Settings
 role: Admin
 level: Experienced

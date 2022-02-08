@@ -2,9 +2,6 @@
 title: Adobe Experience Platform SDK and Adobe Campaign integration FAQ
 description: Adobe Experience Platform SDK and Adobe Campaign integration FAQ
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-
 feature: Instance Settings
 role: Admin
 level: Experienced

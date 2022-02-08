@@ -1,9 +1,7 @@
 ---
 title: Branding
-description: Discover all the tools available to manage your branding identities.
+description: Discover all the tools available to manage your branding identities
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instance Settings
 role: Admin

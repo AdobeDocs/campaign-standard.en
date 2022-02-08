@@ -2,9 +2,6 @@
 title: Users management
 description: Adobe Campaign users hold specific roles. Discover the main user types. 
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-
 feature: Access Management
 role: Admin
 level: Experienced

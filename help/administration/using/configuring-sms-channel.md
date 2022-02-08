@@ -1,10 +1,7 @@
 ---
 title: Configuring SMS channel
-description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
+description: Learn SMS configuration steps, including routing, encoding, formats and advanced properties
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instance Settings
 role: Admin
 level: Experienced

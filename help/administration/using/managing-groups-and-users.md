@@ -1,10 +1,7 @@
 ---
 title: Managing groups and users
-description: Learn how to create security groups and manage users.
+description: Learn how to create security groups and manage users
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-context-tags: user,overview;user,main;security,overview;security,main
 feature: Access Management
 role: Admin
 level: Experienced
