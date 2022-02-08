@@ -10,10 +10,13 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-
 ## February 2022 {#doc-updates-feb-2022}
 
 Improved retry mechanism for deliveries including content imported from a URL. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+Added a warning note about keywords that trigger automatic SMS replies: they must contain only alphanumerical characters. [Read more](../../channels/using/managing-incoming-sms.md)
+
+
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 
