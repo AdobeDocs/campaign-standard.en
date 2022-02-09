@@ -10,7 +10,9 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-## February 2022 {#doc-updates-feb-2022}
+## Release 22.1 - February 2022 {#release-22-1}
+
+**Improvements included in the release**
 
 Improved retry mechanism for deliveries including content imported from a URL. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
