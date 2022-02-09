@@ -12,17 +12,27 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## February 2022 {#doc-updates-feb-2022}
 
+## Release 22.1 - February 2022 {#release-22-1}
+
+**Improvements included in the release**
+
 Improved retry mechanism for deliveries including content imported from a URL. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Added a warning note about keywords that trigger automatic SMS replies: they must contain only alphanumerical characters. [Read more](../../channels/using/managing-incoming-sms.md)
-
 Updated access level of the options which control Audit: earlier options for enabling/disabling [Audit trail](../../administration/using/audit.md) were not accessible to [functional administrators](../../administration/using/users-management.md#functional-administrators). With this change, access level of audit is modified to provide control to functional administrators. [Read more](../../administration/using/audit.md#enable-disable-audit)
+
+The new **Job history** drop-down has been added to the message dashboard. [Read more](../../sending/using/monitoring-a-delivery.md)
+
+**Other changes**
+
+Added a warning note about keywords that trigger automatic SMS replies: they must contain only alphanumerical characters. [Read more](../../channels/using/managing-incoming-sms.md)
 
 Added a note to the A/B test email section: if the total population is less than 50k, each variant needs to represent at least 10% of the total population. Otherwise the logs will display a warning. [Read more](../../channels/using/designing-an-a-b-test-email.md)
 
 Updated the description of the **[!UICONTROL Delete the source files after transfer]** option in the **Transfer file** activity, including a reminder to manually monitor the size of the archived content in the SFTP directory in case the option is not selected. [Read more](../../automating/using/transfer-file.md)
 
 Updated all obsolete links in the **Privacy** sections. [Read more](../../start/using/privacy.md)
+
+Added a direct link to Campaign Control Panel documentation in Campaign Standard documentation table of content.
 
 ## Release 21.3 - September 2021 {#release-21-3---september-2021}
 
