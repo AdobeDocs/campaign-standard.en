@@ -14,10 +14,6 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 **Improvements included in the release**
 
-## Release 22.1 - February 2022 {#release-22-1}
-
-**Improvements included in the release**
-
 Improved retry mechanism for deliveries including content imported from a URL. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
 Updated access level of the options which control Audit: earlier options for enabling/disabling [Audit trail](../../administration/using/audit.md) were not accessible to [functional administrators](../../administration/using/users-management.md#functional-administrators). With this change, access level of audit is modified to provide control to functional administrators. [Read more](../../administration/using/audit.md#enable-disable-audit)
