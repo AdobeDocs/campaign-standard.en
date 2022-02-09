@@ -1,16 +1,12 @@
 ---
 title: Interacting with marketing history
-description: Learn how to interact with profiles' marketing history.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
-
+description: Learn how to interact with profiles' marketing history
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 ---
-# Interacting with marketing history {#interacting-with-marketing-history}
+# Interacting with marketing history{#interacting-with-marketing-history}
 
 The **history** endpoint lets you interact with a profile's marketing history.
 This way, you can, for example, easily retrieve the mirror page for a delivery that was sent to a profile. To do this, follow the steps below:

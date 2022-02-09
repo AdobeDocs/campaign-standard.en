@@ -484,7 +484,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
   + Managing profiles {#managing-profiles}
        + [Retrieving profiles](api/using/retrieving-profiles.md)
        + [Updating profiles](api/using/updating-profiles.md)
-       + [Creating profiles](api/using/creating-profiles.md)
+       + [Creating profiles](api/using/creating-profiles-api.md)
   + Managing services and subscriptions {#managing-services-and-subscriptiopns}
        + [Creating a service](api/using/creating-a-service.md)
        + [Retrieving subscriptions](api/using/retrieving-subscriptions.md)

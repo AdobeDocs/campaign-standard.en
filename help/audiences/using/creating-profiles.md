@@ -4,7 +4,6 @@ description: Learn how to create profiles and collect data on your contacts, usi
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-
 feature: Profiles
 role: User
 level: Beginner
@@ -16,7 +15,7 @@ In Adobe Campaign, profiles are used by default to define the main target of mes
 
 >[!NOTE]
 >
->Profiles creation is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/creating-profiles.md).
+>Profiles creation is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/creating-profiles-api.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Discover how to import profiles using a workflow in video](#video)
 
@@ -26,7 +25,7 @@ To create or update a profile in Campaign, you can:
 * Collect data online, via [landing pages](../../channels/using/getting-started-with-landing-pages.md)
 * Create bulk via [REST API](../../api/using/get-started-apis.md)
 * Synchronize profiles from [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
-* Enter data using the graphical interface screens, as explained below
+* Enter data using the user interface, as explained below
 
 As an example, to create a new profile directly in the user interface, follow the steps below:
 

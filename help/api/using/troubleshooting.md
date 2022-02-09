@@ -1,16 +1,12 @@
 ---
 title: Troubleshooting
-description: Learn more about  common issues related Campaign Standard APIs.
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
-
+description: Learn more about common issues related Campaign Standard APIs
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 ---
-# Troubleshooting {#troubleshooting}
+# API troubleshooting {#troubleshooting}
 
 * **When going to the Adobe.io Console you get the following error: "The Adobe I/O console is only available to select members of enterprise accounts. If you believe you should have access, please contact your System Administrator."**
 
@@ -90,7 +86,7 @@ Either your token is invalid (improper IMS call used to generate a token) or you
 
 * **I don't see my profile after creation**
 
-Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](../../api/using/creating-profiles.md).
+Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

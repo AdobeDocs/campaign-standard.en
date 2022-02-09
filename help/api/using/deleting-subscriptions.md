@@ -1,16 +1,12 @@
 ---
 title: Deleting subscriptions
-description: Learn how to delete subscriptions with APIs.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
-
+description: Learn how to delete subscriptions with APIs
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 ---
-# Deleting subscriptions {#mdeleting-subscriptions}
+# Deleting subscriptions with APIs {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 

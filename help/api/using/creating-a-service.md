@@ -1,16 +1,12 @@
 ---
 title: Creating a service
-description: Learn how to create a service with APIs.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
-
+description: Learn how to create a service with APIs
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
 ---
-# Creating a service {#creating-a-service}
+# Creating a service with APIs{#creating-a-service-api}
 
 Services creation is performed with a **POST** request on the service resource.
 
