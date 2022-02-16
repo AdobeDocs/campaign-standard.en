@@ -39,7 +39,7 @@ To send tracking information there are three variables that need to be sent. Two
 
 ### How to implement push impression tracking {#push-impression-tracking-android}
 
-For impression tracking, you will have to send value "7" for action when calling **[!UICONTROL trackAction()]** function.
+For impression tracking, you will have to send value "7" for action when calling `collectMessageInfo()` or `trackAction()` functions.
 
 For deliveries created before 21.1 release or deliveries with custom template, refer to this [section](../../administration/using/push-tracking.md#about-push-tracking).
 
@@ -63,10 +63,14 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
  
     HashMap<String, String> contextData = new HashMap<>();
     if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
-                contextData.put("deliveryId", deliveryId);
-                contextData.put("broadlogId", messageId);
-                contextData.put("action", "7");
-                MobileCore.trackAction("tracking", contextData);
+
+    //If you are using ACPCore v1.4.0 or later, use the next line.
+
+        MobileCore.collectMessageInfo(contextData);
+
+    //Else comment out the above line and uncomment the line below
+        
+        MobileCore.trackAction("tracking", contextData);
     }
   }
 }
@@ -74,8 +78,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### How to implement click tracking {#push-click-tracking-android}
 
-For click tracking, you will have to send value "2" for action when calling **[!UICONTROL trackAction()]** function.
-
+For click tracking, you will have to send value "2" for action when calling `collectMessageInfo()` or `trackAction()` functions.
 To track click, two scenarios need to be handled:
 
 * The user sees the notification but clears it.
@@ -149,10 +152,14 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
  
         //We only send the click tracking since the user dismissed the notification
         if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
-            contextData.put("deliveryId", deliveryId);
-            contextData.put("broadlogId", messageId);
-            contextData.put("action", "2");
-            MobileCore.trackAction("tracking", contextData);
+
+        //If you are using ACPCore v1.4.0 or later, use the next line.
+
+        MobileCore.collectMessageInfo(contextData);
+
+        //Else comment out the above line and uncomment the line below
+        
+        MobileCore.trackAction("tracking", contextData);
         }
     }
 }
@@ -201,12 +208,24 @@ private void handleTracking() {
             contextData.put("broadlogId", messageId);
  
             //Send Click Tracking since the user did click on the notification
-            contextData.put("action", "2");
-            MobileCore.trackAction("tracking", contextData);
+
+                //If you are using ACPCore v1.4.0 or later, use the next line.
+
+                MobileCore.collectMessageInfo(contextData);
+
+                //Else comment out the above line and uncomment the line below
+        
+                MobileCore.trackAction("tracking", contextData);
  
             //Send Open Tracking since the user opened the app
-            contextData.put("action", "1");
-            MobileCore.trackAction("tracking", contextData);
+
+                //If you are using ACPCore v1.4.0 or later, use the next line.
+
+                MobileCore.collectMessageInfo(contextData);
+
+                //Else comment out the above line and uncomment the line below
+        
+                MobileCore.trackAction("tracking", contextData);
         }
     }
 }
@@ -216,7 +235,7 @@ private void handleTracking() {
 
 ### How to implement push impression tracking {#push-impression-tracking-iOS}
 
-For impression tracking, you will have to send value "7" for action when calling **[!UICONTROL trackAction()]** function.
+For impression tracking, you will have to send value "7" for action when calling `collectMessageInfo()` or `trackAction()` functions.
 
 To understand how iOS notifications works, the three states of an app needs to be detailed:
 
@@ -252,7 +271,14 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-               ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
             }
         }
         completionHandler(UIBackgroundFetchResult.noData)
@@ -279,15 +305,22 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
             acsDeliveryTracking = "on";
         }
         if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-             ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
-        }
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])        
+            }
         completionHandler([.alert,.sound])
     }
 ```
 
 ### How to implement click tracking {#push-click-tracking-iOS}
 
-For click tracking, you will have to send value "2" for action when calling **[!UICONTROL trackAction()]** function.
+For click tracking, you will have to send value "2" for action when calling `collectMessageInfo()` or `trackAction()` functions.
 For deliveries created before 21.1 release or deliveries with custom template, refer to this [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
@@ -348,7 +381,14 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])   
             }
         default:
             ////MORE CODE
@@ -388,7 +428,15 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
             }
         default:
             //This is to handle the tracking when the app opens
@@ -402,8 +450,22 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 acsDeliveryTracking = "on";
             }
             if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])                
+                
+            //If you are using ACPCore v2.3.0 or later, use the next line.
+
+                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+                
+            //Else comment out the above line and uncomment the line below
+        
+                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+                
             }
         }
         completionHandler()
