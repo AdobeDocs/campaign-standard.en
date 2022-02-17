@@ -33,7 +33,7 @@ To send tracking information there are three variables that need to be sent. Two
 |:-:|:-:|
 | broadlogId  |  _mId from data |
 | deliveryId | _dId from data  |
-|  action |  1 for Open, 2 for Click and 7 for Impression |
+|  action |  "1" for Open, "2" for Click and "7" for Impression |
 
 ## Implementation for Android {#implementation-android}
 
@@ -66,11 +66,13 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
     //If you are using ACPCore v1.4.0 or later, use the next line.
 
-        MobileCore.collectMessageInfo(contextData);
+        contextData.put("deliveryId", deliveryId);
+        contextData.put("broadlogId", messageId);
+        contextData.put("action", "7");
 
     //Else comment out the above line and uncomment the line below
         
-        MobileCore.trackAction("tracking", contextData);
+        //MobileCore.trackAction("tracking", contextData) ;
     }
   }
 }
@@ -155,11 +157,13 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
         //If you are using ACPCore v1.4.0 or later, use the next line.
 
-        MobileCore.collectMessageInfo(contextData);
+            contextData.put("deliveryId", deliveryId);
+            contextData.put("broadlogId", messageId);
+            contextData.put("action", "2");
 
         //Else comment out the above line and uncomment the line below
         
-        MobileCore.trackAction("tracking", contextData);
+            //MobileCore.trackAction("tracking", contextData);
         }
     }
 }
@@ -208,24 +212,24 @@ private void handleTracking() {
             contextData.put("broadlogId", messageId);
  
             //Send Click Tracking since the user did click on the notification
-
+              
                 //If you are using ACPCore v1.4.0 or later, use the next line.
 
-                MobileCore.collectMessageInfo(contextData);
+                contextData.put("action", "2");
 
                 //Else comment out the above line and uncomment the line below
         
-                MobileCore.trackAction("tracking", contextData);
+                //MobileCore.trackAction("tracking", contextData);
  
             //Send Open Tracking since the user opened the app
 
                 //If you are using ACPCore v1.4.0 or later, use the next line.
 
-                MobileCore.collectMessageInfo(contextData);
-
+                contextData.put("action", "1");
+                
                 //Else comment out the above line and uncomment the line below
         
-                MobileCore.trackAction("tracking", contextData);
+                //MobileCore.trackAction("tracking", contextData);
         }
     }
 }
@@ -312,7 +316,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
                 
             //Else comment out the above line and uncomment the line below
         
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])        
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])        
             }
         completionHandler([.alert,.sound])
     }
@@ -388,7 +392,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
                 
             //Else comment out the above line and uncomment the line below
         
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])   
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])   
             }
         default:
             ////MORE CODE
@@ -435,7 +439,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 
             //Else comment out the above line and uncomment the line below
         
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
 
             }
         default:
@@ -456,7 +460,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 
             //Else comment out the above line and uncomment the line below
         
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])                
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])                
                 
             //If you are using ACPCore v2.3.0 or later, use the next line.
 
@@ -464,7 +468,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
                 
             //Else comment out the above line and uncomment the line below
         
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
                 
             }
         }
