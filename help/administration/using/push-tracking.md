@@ -25,7 +25,7 @@ Push Tracking is separated into three types:
 
 * **Push Open** - When a push notification has been delivered to the device and the user has clicked on the notification causing the app to open.  This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
 
-To implement tracking for Campaign Standard, the mobile app needs to include Mobile SDK. These SDK are available on Adobe Mobile Services. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+To implement tracking for Campaign Standard, the mobile app needs to include the Adobe Experience Platform SDKs. These SDKs are available in the [Adobe Experience Platform SDKs documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 To send tracking information there are three variables that need to be sent. Two that are part of the data received from Campaign Standard and an action variable that dictates whether it is an **Impression**, **Click** or **Open**.
 
@@ -62,17 +62,18 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
     }
  
     HashMap<String, String> contextData = new HashMap<>();
-    if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
+    if( deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
+      contextData.put("deliveryId", deliveryId);
+      contextData.put("broadlogId", messageId);
+      contextData.put("action", "7");
 
     //If you are using ACPCore v1.4.0 or later, use the next line.
-
-        contextData.put("deliveryId", deliveryId);
-        contextData.put("broadlogId", messageId);
-        contextData.put("action", "7");
-
+      
+      MobileCore.collectMessageInfo(contextData);
+      
     //Else comment out the above line and uncomment the line below
         
-        //MobileCore.trackAction("tracking", contextData) ;
+    //MobileCore.trackAction("tracking", contextData) ;
     }
   }
 }
@@ -154,13 +155,14 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
  
         //We only send the click tracking since the user dismissed the notification
         if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
-
-        //If you are using ACPCore v1.4.0 or later, use the next line.
-
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
             contextData.put("action", "2");
-
+            
+        //If you are using ACPCore v1.4.0 or later, use the next line.
+        
+            MobileCore.collectMessageInfo(contextData);
+            
         //Else comment out the above line and uncomment the line below
         
             //MobileCore.trackAction("tracking", contextData);
@@ -210,23 +212,25 @@ private void handleTracking() {
         if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
- 
+            contextData.put("action", "2");
+            
             //Send Click Tracking since the user did click on the notification
               
                 //If you are using ACPCore v1.4.0 or later, use the next line.
 
-                contextData.put("action", "2");
-
+                MobileCore.collectMessageInfo(contextData);
+                  
                 //Else comment out the above line and uncomment the line below
         
                 //MobileCore.trackAction("tracking", contextData);
  
-            //Send Open Tracking since the user opened the app
-
-                //If you are using ACPCore v1.4.0 or later, use the next line.
-
+                //Send Open Tracking since the user opened the app
+            
                 contextData.put("action", "1");
                 
+                //If you are using ACPCore v1.4.0 or later, use the next line.
+
+                MobileCore.collectMessageInfo(contextData);
                 //Else comment out the above line and uncomment the line below
         
                 //MobileCore.trackAction("tracking", contextData);
@@ -282,7 +286,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
                 
             //Else comment out the above line and uncomment the line below
         
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+                //ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
             }
         }
         completionHandler(UIBackgroundFetchResult.noData)
