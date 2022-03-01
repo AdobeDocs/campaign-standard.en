@@ -42,7 +42,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 * You can now monitor your delivery and track job logs with the new **Job history** drop-down from your messages' dashboard. [Learn more](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Improved stability and database health, by reducing dead tuples, when large number of messages are sent across all channels over the time. (CAMP-49755, CAMP-49792, CAMP-49849)
 * To ensure database connections are refreshed automatically in case of database crash or restart, improvements have been implemented in Campaign Mail Transfer Agent (MTA). (CAMP-48063)
-
+* A new tracking Option **Use Tracking pixel at the top of the email** has been added to email properties allowing you to move the tracking pixel at the top of the email instead of at the bottom. (CAMP-49672)
 
 **Patches**
 
