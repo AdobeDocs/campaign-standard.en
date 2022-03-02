@@ -267,13 +267,13 @@ breadcrumb-title: Adobe Campaign Standard Documentation
           + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)
           + [Ingest Adobe Experience Platform audiences into Campaign](integrating/using/ingest-aep-data.md)
           + [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
-       + Audience Destinations Service {#audience-destinations}
+       + Audience Destinations Service (beta) {#audience-destinations}
           + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
           + [Managing Adobe Experience Platform audiences](integrating/using/aep-managing-audiences.md)
           + [Using the Segment Builder](integrating/using/aep-using-segment-builder.md)
           + [Targeting Adobe Experience Platform audiences](integrating/using/aep-targeting-audiences.md)
           + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
-       + Adobe Experience Platform Data Connector {#data-connector}
+       + Adobe Experience Platform Data Connector (beta) {#data-connector}
           + [About Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
           + [Experience Platform Data model overview](integrating/using/aep-data-model-overview.md)
           + [Mapping definition](integrating/using/aep-mapping-definition.md)
