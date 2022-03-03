@@ -104,6 +104,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 * A new alert message informs users of a high bounce rate.
 * Improved log error messages and warnings to make debugging easier when the tracking logs failed to be correctly retrieved. (CAMP-48939, CAMP-47360)
 * You can now fully personalize URLs, including the domain name. [Learn more](../../designing/using/personalization.md#personalizing-urls)
+* Proof and trap profiles have now been excluded from delivery performance calculation in Dynamic Reports. (CAMP-47338)
 
 **Patches**
 
