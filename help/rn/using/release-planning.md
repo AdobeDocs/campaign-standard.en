@@ -20,11 +20,11 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: visit this page regularly to check for updates.
 
-## Release 22.1 - February 2022 Release {#release-22-1-release}
+## Release 22.2 - June 2022 Release {#release-22-2-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release are available in the [Early Release Notes](../../rn/using/e-release-notes.md) at the Stage upgrade date.
+Detailed information about this release are available in the Early Release Notes at the Stage upgrade date.
 
 <table>
  <thead>
@@ -36,11 +36,11 @@ Detailed information about this release are available in the [Early Release Note
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Feb 8-9, 2022<br /> </td>
+   <td>June 7-8, 2022<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>Feb 15-22, 2022<br /> </td>
+   <td>June 14-21, 2022<br /> </td>
   </tr>
  </tbody>
 </table>

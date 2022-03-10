@@ -22,11 +22,11 @@ Adobe Campaign allows you to define and manage the permissions assigned to diffe
 
 Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the **[!UICONTROL Administration > Users & Security]** menu. 
 
-![](assets/user_management_1.png)
+![User Management menu](assets/user_management_1.png)
 
-Users are managed in the Admin Console (refer to the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section or the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+Users are managed in the Admin Console. Learn more in the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section and in the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-![](assets/user_management_6.png)
+![Access Product Profiles](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

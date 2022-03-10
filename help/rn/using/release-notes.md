@@ -9,7 +9,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 # Latest Release{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **New Control Panel January release** with throughputs and latency monitoring. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel releases** with throughputs, latency and workflow monitoring. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
 
 ## Release 22.1 - February 2022 {#feb-2022}
 

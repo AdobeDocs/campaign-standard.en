@@ -228,7 +228,7 @@ The **[!UICONTROL Tracking]** section contains the following parameters:
 * **[!UICONTROL Activate tracking]**: allows you to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: allows you to define the duration for which the tracking will be activated on the URLs.
 * **[!UICONTROL Substitution URL for expired URLs]**: you can enter a URL to a web page that will be displayed once the tracking has expired.
-* **[!UICONTROL Use tracking pixel at the top of email]**: allows you to move the tracking pixel at the top of the email instead of at the bottom.
+* **[!UICONTROL Use tracking pixel at the top of email]**: allows you to move the tracking pixel at the top of the email instead of at the bottom. By default, this pixel is located at the bottom of your emails. If you send large messages, consider moving this pixel at the top of your emails instead of the bottom to improve open tracking - otherwise the tracking pixel could be cut by some email providers.
 
 ### Advanced parameters {#advanced-parameters}
 
