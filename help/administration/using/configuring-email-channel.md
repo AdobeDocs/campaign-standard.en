@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 ---
 # Configuring email channel{#configuring-email-channel}
 
-As a Campaign [administrator](../../administration/using/users-management.md#functional-administrators), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, you will learn how to edit the default values for the general email and sending parameters.
+As a Campaign [administrator](../../administration/using/users-management.md#functional-administrators), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, learn how to edit the default values for the general email and sending parameters.
 
 ## Email channel parameters {#email-channel-parameters}
 
@@ -22,7 +22,7 @@ The email configuration screen allows to define the parameters for the email cha
   The **[!UICONTROL Header parameters of sent emails]** section lists the authorized email addresses that you can use to send emails to your recipients (sender address) and to enable them to send back automated replies like asynchronous bounces, out-of-office replies, etc. (error address).  Adobe Campaign checks that the addresses entered are valid during the message preparation stage. This operating mode ensures that no addresses are used that could trigger deliverability issues.
     * Both sender and error addresses are set up by Adobe. Those fields cannot be empty.
     * You cannot edit those fields. To update an address, contact the Adobe Customer Care team.
-    * To add another address, you can use the [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they will be separated by commas.
+    * To add another address, you can use [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they are separated by commas.
     * It is a good practice to set addresses using a star such as *@yourdomain.com: it enables you to use any address ending with your subdomain name.
 
 * **Deliverability**
@@ -34,7 +34,7 @@ The email configuration screen allows to define the parameters for the email cha
 
   Adobe Campaign sends the messages beginning on the start date.
   
-  The **[!UICONTROL Message delivery duration]** field allows you to specify the time frame in which any message in the delivery that encounters a temporary error or soft bounce will be retried.
+  When a message in a delivery is rejected due to a temporary error or a soft bounce, Campaign retries to send this message each day. Use the **[!UICONTROL Message delivery duration]** field to specify the timeframe during retries can happen. 
 
   >[!IMPORTANT]
   >
@@ -56,7 +56,7 @@ The email configuration screen allows to define the parameters for the email cha
 
   In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of a soft-bounced failure. The default value is **"1d"**, for 1 day.
 
-  When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. The default value is **"5"**: the address will be quarantined on the fifth error. This means that the contact will be automatically excluded from subsequent deliveries.
+  When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. The default value is **"5"**: the address is quarantined on the fifth error. This means that the contact will be automatically excluded from subsequent deliveries.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
@@ -136,9 +136,9 @@ On the top of the email parameter screen, identify the email using the **[!UICON
 >
 >The ID must be unique.
 
-The **[!UICONTROL Brand]** field allows you to select the brand linked to the delivery. For more information on using and configuring brands, refer to the [Branding](../../administration/using/branding.md) section.
+Use the **[!UICONTROL Brand]** field to select the brand linked to the delivery. For more information on using and configuring brands, refer to the [Branding](../../administration/using/branding.md) section.
 
-The **[!UICONTROL Campaign]** field allows you to enter the campaign linked to the email.
+In the **[!UICONTROL Campaign]** field, enter the campaign associated to the email.
 
 You can also add a **[!UICONTROL Description]** in the corresponding field and edit the image displayed on the email thumbnail in the lists.
 
@@ -171,7 +171,8 @@ You can configure the format of emails to be sent. There are three options avail
 
 #### SMTP test mode {#smtp-test-mode}
 
-The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+Use the **[!UICONTROL Enable SMTP test mode]** option to test sending emails via an SMTP connection without actually sending messages.
+
 The messages are processed until connection with the SMTP server is achieved, but they are not sent.
 
 ![](assets/smtp-test-mode.png)
@@ -199,36 +200,36 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
   ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign sends the messages beginning on the start date. Use this field to specify the period during which the messages can be sent.
 
   >[!IMPORTANT]
   >
   >**You must define a value up to 3.5 days.** If you set a value higher than 3.5 days, it will not be taken into account.
+  >
+  >The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
-* **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
-
-  >[!IMPORTANT]
-  >
-  >HTML content must have been defined for the email for the mirror page to be created.
+* **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. Use this field to modify how this page is generated:
 
     * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (default mode): the mirror page is generated if the link is inserted in the mail content. 
     * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
     * **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages. 
     * **Generate a mirror page accessible using only the message ID**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
+    
+  >[!IMPORTANT]
+  >
+  >The mirror page is generated only if an HTML content has been defined for the email.
+  >
 
->[!NOTE]
->
->The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Tracking parameters {#tracking-parameters}
 
 The **[!UICONTROL Tracking]** section contains the following parameters:
 
-* **[!UICONTROL Activate tracking]**: allows you to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Tracking validity limit]**: allows you to define the duration for which the tracking will be activated on the URLs.
-* **[!UICONTROL Substitution URL for expired URLs]**: you can enter a URL to a web page that will be displayed once the tracking has expired.
-* **[!UICONTROL Use tracking pixel at the top of email]**: allows you to move the tracking pixel at the top of the email instead of at the bottom. By default, this pixel is located at the bottom of your emails. If you send large messages, consider moving this pixel at the top of your emails instead of the bottom to improve open tracking - otherwise the tracking pixel could be cut by some email providers.
+* **[!UICONTROL Activate tracking]**: use this option to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Tracking validity limit]**: use this option to define the duration for which the tracking will be activated on the URLs.
+* **[!UICONTROL Substitution URL for expired URLs]**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
+* **[!UICONTROL Use tracking pixel at the top of email]**: use this option to move the tracking pixel at the top of the email instead of at the bottom. By default, this pixel is located at the bottom of your emails. If you send large messages, consider moving this pixel at the top of your emails instead of the bottom to improve open tracking - otherwise the tracking pixel could be cut by some email providers.
 
 ### Advanced parameters {#advanced-parameters}
 
@@ -244,7 +245,7 @@ Inserting and using the personalization content is detailed in the [Personalizin
 
 #### Target context {#target-context}
 
-The targeting context allows you to define a set of tables that will be used for email targeting (in the audience definition screen) and personalization (defining personalization fields in the HTML content editor).
+Use the targeting context to define a set of tables that will be used for email targeting (in the audience definition screen) and personalization (defining personalization fields in the HTML content editor).
 
 #### Routing {#routing}
 
@@ -264,15 +265,15 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
   >
   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in [this section](../../sending/using/about-typology-rules.md).
 
-* **[!UICONTROL Compute the label during delivery preparation]**: allows you to calculate the label value of the email during the message preparation phase using personalization fields, content blocks, and dynamic text.
+* **[!UICONTROL Compute the label during delivery preparation]**: use this option to calculate the label value of the email during the message preparation phase using personalization fields, content blocks, and dynamic text.
 
   It is also possible to personalize the delivery label with events variables that have been declared into the workflow's external signal activity. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
+* **[!UICONTROL Save SQL queries in the log]**: use this option to add SQL query logs in the journal during the preparation phase.
 
 #### Proof settings {#proof-settings}
 
-This section allows you to configure the default prefix to use in proof's subject line. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+In this section, you can configure the default prefix to use in the subject line of the proof messages. Learn more about proofs in [this section](../../sending/using/sending-proofs.md).
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
 
@@ -290,7 +291,7 @@ The **[!UICONTROL SMTP]** section contains the following parameters:
 
 The **[!UICONTROL Access authorization]** section contains the following parameters:
 
-* The **[!UICONTROL Organizational unit]** field allows you to restrict access to this email to certain users. The users associated with the specified unit or parent units will have read and write access to this email. Users associated with child units will only have read access to this email.
+* The **[!UICONTROL Organizational unit]** field is used to restrict access to this email to certain users. The users associated with the specified unit or parent units will have read and write access to this email. Users associated with child units will only have read access to this email.
 
   >[!NOTE]
   >
@@ -312,17 +313,17 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 ### Delivery duration {#legacy-delivery-duration}
 
-The **[!UICONTROL Message delivery duration]** parameter in the [Configuration menu](#email-channel-parameters) allows you to specify the time frame in which any message in the delivery that encounters a temporary error or soft bounce will be retried.
+Use the **[!UICONTROL Message delivery duration]** parameter in the [Configuration menu](#email-channel-parameters) to specify the time frame in which any message in the delivery that encounters a temporary error or soft bounce will be retried.
 
-The **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the [Validity period parameters](#validity-period-parameters) section allows you to specify the duration during which the messages can be sent.
+Use the **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the [Validity period parameters](#validity-period-parameters) section to specify the duration during which the messages can be sent.
 
 ### Email processing rules {#legacy-email-processing-rules}
 
-The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONTROL Domain management]** rules can be accessed and modified by administrators through the **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
+The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONTROL Domain management]** rules can be accessed and modified by administrators through the **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Learn more](#email-processing-rules).
 
 ### Bounce mail qualification {#legacy-bounce-mail-qualification}
 
-To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces, and their associated error types and reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Bounces can have the following qualification statuses:
 
@@ -332,12 +333,12 @@ Bounces can have the following qualification statuses:
 
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. For more on this, see [this page](../../administration/using/update-bounce-qualification.md).
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. [Learn more](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### Delivered indicator reporting {#legacy-delivered-status-report}
 
-In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage will progressively go up throughout the validity period of the delivery, as the soft and hard bounces get reported back.
+In the **[!UICONTROL Summary]** view of each message, the **[!UICONTROL Delivered]** percentage progressively goes up throughout the validity period of the delivery, as the soft and hard bounces get reported back.
 
-Soft-bouncing messages will show as **[!UICONTROL Failed]** after day one of the delivery, and they will be retried on each additional day of the validity period for the delivery.
+Soft-bouncing messages show as **[!UICONTROL Failed]** on the first day after the delivery. These messages are retried each day, until the validity period of the delivery ends.
