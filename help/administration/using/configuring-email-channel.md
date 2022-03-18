@@ -171,9 +171,7 @@ You can configure the format of emails to be sent. There are three options avail
 
 #### SMTP test mode {#smtp-test-mode}
 
-Use the **[!UICONTROL Enable SMTP test mode]** option to test sending emails via an SMTP connection without actually sending messages.
-
-The messages are processed until connection with the SMTP server is achieved, but they are not sent.
+Use the **[!UICONTROL Enable SMTP test mode]** option to test sending emails via an SMTP connection without actually sending messages. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
 
 ![](assets/smtp-test-mode.png)
 
