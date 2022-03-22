@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel Campaign
 description: Learn about the datamodel
 audience: developing
 content-type: reference
