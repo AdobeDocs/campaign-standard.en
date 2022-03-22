@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel Delivery
 description: Learn about the datamodel
 audience: developing
 content-type: reference

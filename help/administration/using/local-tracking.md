@@ -1,5 +1,5 @@
 ---
-title: Implementing Push tracking
+title: Implementing local tracking
 description: Learn how to ensure that push notification tracking has been implemented correctly on iOS and Android
 audience: channels
 feature: Instance Settings

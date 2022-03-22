@@ -1,10 +1,9 @@
 ---
-title: Troubleshooting
+title: Troubleshooting integration issues
 description: Learn how to troubleshoot issues when sharing resources.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-
 feature: Triggers
 role: Data Architect
 level: Intermediate

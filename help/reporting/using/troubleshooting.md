@@ -1,10 +1,9 @@
 ---
-title: Troubleshooting
+title: Troubleshooting Dynamic reporting
 description: Find here common questions related to Dynamic reporting.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-
 feature: Reporting
 role: Leader
 level: Intermediate

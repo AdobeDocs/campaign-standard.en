@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel landingPage
 description: Learn about the datamodel
 audience: designing
 content-type: reference
