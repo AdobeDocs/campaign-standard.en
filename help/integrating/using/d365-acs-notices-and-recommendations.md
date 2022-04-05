@@ -28,7 +28,7 @@ The integration does not issue any data subject privacy (e.g., GDPR) deletes or 
 
 If you have configured the integration to issue regular profile delete calls to Campaign when a contact is deleted in Dynamics 365, the steps below should be followed. Ensure no updates are made to the record in question during this process.
 
-1. Issue privacy delete request to [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Issue privacy delete request to [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. Monitor request until it has completed successfully
 
