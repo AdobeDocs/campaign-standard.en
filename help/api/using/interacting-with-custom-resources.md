@@ -1,5 +1,5 @@
 ---
-title: Custom resources
+title: Interacting with custom resources
 description: Learn more about custom resources management with APIs/
 audience: developing
 content-type: reference

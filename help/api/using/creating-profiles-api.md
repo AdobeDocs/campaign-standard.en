@@ -1,5 +1,5 @@
 ---
-title: Creating profiles
+title: Creating profiles with APIs
 description: Learn more how to create profiles with APIs.
 audience: developing
 content-type: reference

@@ -1,10 +1,9 @@
 ---
-title: Calling a workflow with external parameters
+title: Defining the parameters when calling the workflow
 description: This section details how to call a workflow with external parameters.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-
 feature: Workflows
 role: Data Architect
 level: Intermediate

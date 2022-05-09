@@ -40,7 +40,7 @@ To establish a secure service-to-service Adobe I/O API session, every request to
     * &lt;ORGANIZATION&gt; : your production instance,
     * &lt;ORGANIZATION-mkt-stage&gt;: your stage instance.
 
-    To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe IO documentation</a>).
+    To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe IO documentation</a>).
 
 * **<ACCESS_TOKEN>**: Your personal access token, that was retrieved when exchanging your JSON Web Token through a POST request.
 

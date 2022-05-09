@@ -128,7 +128,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Starting Campaign 21.2 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>Starting Campaign 21.2 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
    <p>See also <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Managing Privacy requests</a>.</p>
   </td> 
   </tr> 

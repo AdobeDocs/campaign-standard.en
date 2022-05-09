@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel Unsubscription Event
 description: Learn about the datamodel
 audience: developing
 content-type: reference
