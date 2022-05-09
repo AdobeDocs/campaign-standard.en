@@ -43,7 +43,7 @@ You will need to create a new Adobe IO project and configure it for the integrat
 
 To achieve this, follow the procedure below:
 
-1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the top right of the screen.
+1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe Organization ID from the drop-down menu at the top right of the screen.
 
 1. Then click **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 

@@ -10,7 +10,7 @@ exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 
 * **When going to the Adobe.io Console you get the following error: "The Adobe I/O console is only available to select members of enterprise accounts. If you believe you should have access, please contact your System Administrator."**
 
-You can only create API Keys for the IMS organizations you are admin of. If this message is displayed and you want to create API Keys and you want to ask one of the administrator of the IMS organization.
+You can only create API Keys for the organizations you are admin of. If this message is displayed and you want to create API Keys and you want to ask one of the administrator of the organization.
 
 * **When doing a request to Adobe.io you get {"error_code":"403023","message":"Profile is not valid"}**
 

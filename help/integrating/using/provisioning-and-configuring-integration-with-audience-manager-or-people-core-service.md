@@ -32,7 +32,7 @@ This integration must first be configured. To request provisioning of this integ
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> Your IMS Organization ID. <br> You can find your IMS Organization ID on the Experience Cloud, in the Administration menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
+   <td> Your Organization ID. <br> To find your organization ID, refer to <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html">this page</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Environment:</strong><br /> </td> 
