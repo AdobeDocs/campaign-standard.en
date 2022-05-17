@@ -10,6 +10,10 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## March 2022 {#doc-updates-march-2022}
+
+A note has been to specify that sending proofs using profile substitution will add records to the logs of the selected profiles. [Read more](../../sending/using/testing-messages-using-target.md)
+
 ## Release 22.1 - February 2022 {#release-22-1}
 
 **Improvements included in the release**

@@ -16,9 +16,9 @@ exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 
 Additionally to [test profiles](../../audiences/using/managing-test-profiles.md), you can test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive (custom fields, dynamic and personalized information, including additional data from workflows...).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> This feature is available with email messages only.
+>This feature allows you to send profile personal information to external email addresses. Keep in mind that executing privacy requests (GDPR & CCPA) in Campaign Standard WILL NOT execute that request externally.
 
 The main steps are as follows:
 
@@ -29,9 +29,9 @@ The main steps are as follows:
 1. **Preview** in the Email Designer how the message will display for the profiles.
 1. Send the proofs.
 
->[!IMPORTANT]
->
->This feature allows you to send profile personal information to external email addresses. Keep in mind that executing privacy requests (GDPR & CCPA) in Campaign Standard WILL NOT execute that request externally.
+    >[!IMPORTANT]
+    >
+    >Proofs are processed by [!DNL Campaign Standard] as standard deliveries. As a result, sending proofs using profile substitution will add records to the delivery and tracking logs of the selected profiles.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
