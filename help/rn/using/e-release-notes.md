@@ -26,7 +26,7 @@ This page describes new features, improvements and fixes included in the next Ca
 * **Workflow delayed start** - You can now delay the execution of your workflows to avoid overloading. Enabled by Adobe through a dedicated option, this guardrail ensures that there is a delay in start between workflows. The feature options set the number of workflows which can run simultaneously and the delay (in seconds) between them.
 
 
-**Security fixes**
+**Security upgrade**
 
 * This version comes with a security upgrade activity to mitigate the Apache vulnerability and make your instance environment more secure. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target="_blank"}
 
