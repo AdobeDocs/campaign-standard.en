@@ -21,7 +21,7 @@ This page describes new features, improvements and fixes included in the next Ca
 
 **Security fixes**
 
-* This version comes with a security upgrade activity to mitigate the Apache vulnerability and make your instance environment more secure.
+* This version comes with a security upgrade activity to mitigate the Apache vulnerability and make your instance environment more secure. [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target="_blank"}
 
 
 **Improvements**
