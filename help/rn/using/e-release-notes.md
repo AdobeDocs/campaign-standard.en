@@ -21,7 +21,8 @@ This page describes new features, improvements and fixes included in the next Ca
 
 **Security fixes**
 
-* This version comes with a security upgrade activity to mitigate the Apache vulnerability and make your instance environment more secure.	
+* This version comes with a security upgrade activity to mitigate the Apache vulnerability and make your instance environment more secure.
+
 
 **Improvements**
 
