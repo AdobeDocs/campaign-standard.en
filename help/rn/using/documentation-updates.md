@@ -849,7 +849,7 @@ Added information about retrieving incoming SMS messages with a workflow. [Read 
 
 Added information about Historization settings of the Transfer file activity. [Read more](../../automating/using/transfer-file.md)
 
-Instructions to configure the integration with Audience Manager or People core service have been updated. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure the integration with Audience Manager or People core service have been updated. [Read more](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
 ## Release 17.10 - October 2017 {#release-17-10---october-2017}
 
@@ -979,7 +979,7 @@ Numerous screenshots have been updated to reflect interface changes.
 
 A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". [Read more](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
 Authorizations table revised to make certain roles’ function clearer. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 

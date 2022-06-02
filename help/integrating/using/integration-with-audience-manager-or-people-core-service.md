@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 ---
-# Provisioning and configuring integration with Audience Manager or People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Provisioning and configuring integration with Audience Manager or People core service{#integration-with-audience-manager-or-people-core-service}
 
 The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 

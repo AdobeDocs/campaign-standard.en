@@ -236,7 +236,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Campaign dimensions and metrics in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
        + [About Campaign-Audience Manager or People core service integration](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-       + [Provisioning and configuring integration with Audience Manager or People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+       + [Provisioning and configuring integration with Audience Manager or People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
        + [Troubleshooting](integrating/using/troubleshooting.md)
        + [Sharing audiences with Audience Manager or People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
        + [Working with Campaign and Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)

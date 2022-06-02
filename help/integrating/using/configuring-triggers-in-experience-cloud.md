@@ -82,7 +82,7 @@ The alias previously referenced in DTM needs to be created in the Experience Clo
 
    >[!NOTE]
    >
-   >You can reconcile your triggers for both anonymous and logged in users. For anonymous users, the profile should exist in Adobe Campaign and an email has been sent to the user before. For this, Visitor ID configuration is sufficient. However, if you want to reconcile triggers for logged in users, you need to setup Declared ID Data Source. For more on this, refer to [Data Source configuration](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >You can reconcile your triggers for both anonymous and logged in users. For anonymous users, the profile should exist in Adobe Campaign and an email has been sent to the user before. For this, Visitor ID configuration is sufficient. However, if you want to reconcile triggers for logged in users, you need to setup Declared ID Data Source. For more on this, refer to [Data Source configuration](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Creating a trigger in the Experience Cloud interface {#creating-a-trigger-in-the-experience-cloud-interface}
 
