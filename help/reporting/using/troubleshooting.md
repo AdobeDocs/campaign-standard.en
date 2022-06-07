@@ -175,3 +175,12 @@ The value **N/A** can sometimes appear in your dynamic reports. This can be disp
 
   ![](assets/troubleshooting_4.png)
 
+## Deliveries' reports show incomplete data when using custom Target mapping
+
+If you are using imported custom Target mappings in deliveries and no data is displayed in the different reports, this could mean that the Reporting enrichments were not created for those Target mappings.
+
+To resolve this:
+
+* After importing your Target mapping from an XML, you will also need to import the Reporting enrichment.
+
+* Instead of importing your Target mapping, you can create it directly in Adobe Campaign Standard which will automatically create the Reporting enrichment. 

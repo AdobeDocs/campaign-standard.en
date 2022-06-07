@@ -61,7 +61,7 @@ To create a filtering typology rule, follow these steps:
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Select the **[!UICONTROL Age]** field and define the filtering conditions so that the age of the subscribers is 18 or above.
+1. Select the **[!UICONTROL Age]** field and define the filtering conditions so that the age of the subscribers is less than 18.
 
    ![](assets/typology_create-rule-age.png)
 

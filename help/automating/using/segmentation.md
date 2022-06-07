@@ -89,8 +89,10 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 1. Add as many segments as necessary by repeating steps 6 to 10 of this procedure.
 1. If necessary, edit the parameters in the **[!UICONTROL Advanced options]** tab:
 
-    * Check the **[!UICONTROL Enable overlapping of outbound populations]** option if you want a member of the inbound population to belong to several segments at the same time. The activity's outbound population may exceed the inbound population.
-    * Check the **[!UICONTROL Concatenate the code of each segment]** option if the inbound population has already been assigned a segment code that you want to keep. The segment code specified in the activity will be added to the initial segment code.
-    * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+    * The **[!UICONTROL Enable overlapping of outbound populations]** option defines how to manage profiles belonging to several segments:
+        * When the option is not enabled, the **[!UICONTROL Segmentation]** activity checks a profile is not present in several output transitions, even if this profile meets the criteria of several subsets.
+        * When the option is enabled, the profiles can be found in several subsets if they meet their filter criteria.
+    * If the inbound population has already been assigned a segment code that you want to keep, check the **[!UICONTROL Concatenate the code of each segment]** option. The segment code specified in the activity will be added to the initial segment code.
+    * If you need to exploit the remaining population, check the **[!UICONTROL Generate complement]** option. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirm the configuration of your activity and save your workflow.

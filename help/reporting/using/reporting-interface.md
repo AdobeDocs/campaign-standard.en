@@ -110,14 +110,14 @@ The **[!UICONTROL Share]** tab allows you to send your reports with Adobe Campai
     
        ![](assets/tab_share_4.png)
 
-    1. Select the recipients to your email by clicking the field and selecting them in the drop-down or by typing their email addresses.
+    1. Select the recipients from the drop-down. Note that you cannot select users outside your organization.
     1. Check **[!UICONTROL Show scheduling options]** if you want to send recurring emails. This can also be done by selecting **[!UICONTROL Send Report on schedule]** in the **[!UICONTROL Share]** tab.
     1. Click **[!UICONTROL Send now]**. Your recipients will then receive an email with your report attached.
 
 * **[!UICONTROL Send report on schedule]**: Schedule your report and send recurring emails to your recipients.
 
     1. In the **[!UICONTROL Send report]** window, add a description if needed.
-    1. Select the recipients to your email by clicking the field and selecting them in the drop-down or by typing their email addresses.
+    1. Select the recipients from the drop-down. Note that you cannot select users outside your organization.
     
        ![](assets/tab_share_5.png)
 

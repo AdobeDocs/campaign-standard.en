@@ -24,7 +24,7 @@ Typology rules are business rules that allow you to perform checks and filtering
 
 Typology rules are available under the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** menu.
 
-By default, several out-of-the-box **filtering** and **control** typology rules are available. They are detailed in the [Filtering rules](../../sending/using/fatigue-rules.md) and [Control rules](../../sending/using/control-rules.md) sections.
+By default, several out-of-the-box **filtering** and **control** typology rules are available. They are detailed in the [Filtering rules](../../sending/using/filtering-rules.md) and [Control rules](../../sending/using/control-rules.md) sections.
 
 According to your needs, you can modify existing typology rules or create new ones, excepted for **[!UICONTROL Control]** rules, which are read-only and cannot be modified.
 

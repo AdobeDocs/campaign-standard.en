@@ -36,6 +36,7 @@ This page describes new features, improvements and fixes included in the next Ca
 
 * Apache Tomcat has been upgraded from version 7 to version 8.5.
 
+
 **Patches**
 
 * Fixed an issue on the Billing technical workflow due to a duplicate key error. (CAMP-51029)

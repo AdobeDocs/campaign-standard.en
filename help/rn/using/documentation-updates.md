@@ -10,6 +10,18 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 22.2 - June 2022 {#release-22-2}
+
+**Improvement included in the release**
+
+* **Adobe Notification Service** - Campaign comes with Adobe Notification Service that allows Experience Cloud solutions to alert users across Experience Cloud on activities that are important for them to know. [Read more](../../administration/using/sending-internal-notifications.md).
+
+**Other changes**
+
+The integrations with Adobe Experience Platform Data Connector and with Audience Destinations service are now deprecated. [Read more](deprecated-features.md)
+
+The usage of SMTP test mode has been detailed. [Read more](../../administration/using/configuring-email-channel.md#smtp-test-mode)
+
 ## March 2022 {#doc-updates-march-2022}
 
 A note has been to specify that sending proofs using profile substitution will add records to the logs of the selected profiles. [Read more](../../sending/using/testing-messages-using-target.md)

@@ -446,9 +446,9 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Adding images and videos iOS](administration/using/image-push-notification.md)
        + [Understanding push notifications payload structure](administration/using/push-payload.md)
        + [Implementing local notification tracking](administration/using/local-tracking.md)
-       + [Adobe Launch Synchronization FAQ](administration/using/syncwithlaunch-faq.md)
+       + [Tags in Adobe Experience Platform synchronization FAQ](administration/using/syncwithlaunch-faq.md)
        + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
-       + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
+       + [Configuring tag rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
        + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
        + [How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
   + Configuring SMS channel {#configuring-sms}

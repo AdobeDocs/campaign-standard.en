@@ -56,17 +56,17 @@ Before sending your push notifications, you should:
 
 1. In Adobe Campaign, make sure you can access the **[!UICONTROL Push notification]** channel. If you cannot access these channels, contact your account team.
 
-1. Verify that your user has the necessary permissions in Adobe Campaign Standard and Experience Platform Launch.
+1. Verify that your user has the necessary permissions in Adobe Campaign Standard and tags in Adobe Experience Platform.
 
-1. In Experience Platform Launch, create a mobile property. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. In the Data Collection UI , create a mobile property. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. In Experience Platform Launch, install the **[!UICONTROL Adobe Campaign Standard]** extension.
+1. In the Data Collection UI , install the **[!UICONTROL Adobe Campaign Standard]** extension.
 
-1. In Adobe Campaign Standard, configure the mobile property that you created in Experience Platform Launch. For more information, see [Setting up your Experience Platform Launch application in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. In Adobe Campaign Standard, configure the mobile property that you created in the Data Collection UI. For more information, see [Setting up your tag application in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Add the channel-specific configuration to your mobile application set up. For more information, see [Channel-specific application configuration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. To support mobile use case implementations, see the detailed instructions about extensions, Experience Platform Launch rules, and the SDK implementation in [Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs](../../administration/using/configuring-rules-launch.md).
+1. To support mobile use case implementations, see the detailed instructions about extensions, tag rules, and the SDK implementation in [Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs](../../administration/using/configuring-rules-launch.md).
 
 ## Push notification FAQ {#push-faq}
 

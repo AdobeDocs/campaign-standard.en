@@ -9,7 +9,7 @@ exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 ---
 # Mobile use cases supported in Adobe Campaign Standard {#mobile-use-cases}
 
-In this page, you will find the list of every mobile use cases supported in [!DNL Adobe Campaign Standard] using the [!DNL Adobe Experience Platform SDKs]. Note that supporting these use cases involve installing and configuring the [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch], and [!DNL Adobe Campaign Standard]. For more information on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+In this page, you will find the list of every mobile use cases supported in [!DNL Adobe Campaign Standard] using the [!DNL Adobe Experience Platform SDKs]. Note that supporting these use cases involve installing and configuring the [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform], and [!DNL Adobe Campaign Standard]. For more information on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard supports the following use cases:
 
@@ -21,9 +21,9 @@ Adobe Campaign Standard supports the following use cases:
 * [Implement a custom event in your mobile app to trigger In-App messages](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Set linkage fields for additional authentication for the profile template that is based In-App messages](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-To configure these use cases, you need the following extensions from [!DNL Experience Platform Launch]:
+To configure these use cases, you need the following extensions:
 
-* **[!DNL Adobe Campaign Standard]** <br>To install and configure the Campaign Standard extension, see [Configure the Campaign Standard extension in Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>To install and configure the Campaign Standard extension, see [Configure the Campaign Standard extension in the Data Collection UI](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, which is automatically installed. <br>For more information about the Mobile Core extension, see [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, which is automatically installed. <br>For more information about the Profile extension, see [Profile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

@@ -90,9 +90,9 @@ With Adobe Campaign Standard, you can send mobile deliveries through three diffe
 <tr>
   <td>
     <div>
-    <p><strong>Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases</strong></p>
+    <p><strong>Configuring tag rules to support Adobe Campaign Standard use cases</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Click here</strong></a> to start creating data elements and rules in Adobe Experience Platform Launch to send PII and other data from mobile applications to Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Click here</strong></a> to start creating data elements and rules in the Data Collection UI  to send PII and other data from mobile applications to Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>

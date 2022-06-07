@@ -13,9 +13,11 @@ exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 
 >[!IMPORTANT]
 >
->Push notification and In-App implementations have to be performed by expert users. For assistance, contact your Adobe Account executive or Professional services partner.
+> Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Adobe Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the [following document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) for a consolidated reference of the terminology changes.
 
-To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform Experience Platform Experience Platform Launch and configured in Adobe Campaign.
+Note that Push notification and In-App implementations have to be performed by expert users. For assistance, contact your Adobe Account executive or Professional services partner.
+
+To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in the Data Collection UI and configured in Adobe Campaign.
 
 Once a mobile application is set up, you can retrieve the PII data it collected to create or update profiles from your database. For more on this, refer to this section: [Creating and updating profile information based on mobile application data](../../channels/using/updating-profile-with-mobile-app-data.md).
 
@@ -30,33 +32,33 @@ To complete the configuration, complete the following steps:
 
    If not, contact your account team.
 
-1. Check that your user has the necessary permissions in Adobe Campaign Standard and Experience Platform Launch.
-   * In Adobe Campaign Standard, ensure that the IMS user is part of the Standard User and Administrator Product Profiles. This step allows the user to log in to Adobe Campaign Standard, navigate to the Experience Platform SDK mobile app page, and view the mobile app properties that you created in Experience Platform Launch.
+1. Check that your user has the necessary permissions in Adobe Campaign Standard and tags in Adobe Experience Platform.
+   * In Adobe Campaign Standard, ensure that the IMS user is part of the Standard User and Administrator Product Profiles. This step allows the user to log in to Adobe Campaign Standard, navigate to the Experience Platform SDK mobile app page, and view the mobile app properties that you created in the Data Collection UI.
 
-   * In Experience Platform Launch, ensure that your IMS user is part of a Experience Platform Launch product profile.
-   This step allows the user to log in to Experience Platform Launch to create and view the properties. For more information about product profiles in Experience Platform Launch, see Create your product profile. In the product profile, there should be no permissions set on the company or the properties, but the user should be able to still log in.
+   * In the Data Collection UI, ensure that your IMS user is part of a Experience Platform Launch product profile.
+   This step allows the user to log in to the Data Collection UI to create and view the properties. For more information about product profiles in the Data Collection UI, see [Create your product profile](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile). In the product profile, there should be no permissions set on the company or the properties, but the user should be able to still log in.
 
    To complete additional tasks like installing an extension, publishing an app, configuring environments, and so on, you need to set permissions in the product profile.
 
-1. In Experience Platform Launch, create a **[!UICONTROL Mobile property]**. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. In the Data Collection UI, create a **[!UICONTROL Mobile property]**. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab, go to **[!UICONTROL Catalog]**, and search for the **[!UICONTROL Adobe Campaign Standard]** extension. For more information, see [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. In the Data Collection UI, click the **[!UICONTROL Extensions]** tab, go to **[!UICONTROL Catalog]**, and search for the **[!UICONTROL Adobe Campaign Standard]** extension. For more information, see [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. To support location use cases in Campaign Standard, install the **[!UICONTROL Places]** extension and the **[!UICONTROL Places Monitor]** extension.
-   * Install the **[!UICONTROL Places]** extension in Experience Platform Launch. Refer to this [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Install the **[!UICONTROL Places Monitor]** extension in Experience Platform Launch. Refer to this [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Install the **[!UICONTROL Places]** extension in the Data Collection UI. Refer to this [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Install the **[!UICONTROL Places Monitor]** extension in the Data Collection UI. Refer to this [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. In Adobe Campaign Standard, configure the mobile property that you created in Experience Platform Launch. Refer to [Setting up your Adobe Experience Platform Launch application in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. In Adobe Campaign Standard, configure the mobile property that you created in the Data Collection UI. Refer to [Setting up your Adobe Experience Platform Launch application in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Add the channel-specific configuration to your mobile application set up.
    For more information, see [Channel-specific application configuration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. If required, you can delete your Experience Platform Launch property.
-   For more information, see [Deleting your Experience Platform Launch application](../../administration/using/configuring-a-mobile-application.md#delete-app).
+1. If required, you can delete your tag property.
+   For more information, see [Deleting your application](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Sync Mobile app AEPSDK from Launch technical workflow {#aepsdk-workflow}
 
-After creating and configuring your mobile property in Experience Platform Launch, the **[!UICONTROL Sync Mobile app AEPSDK from Launch]** technical workflow will now synchronize the Adobe Launch mobile properties imported in Adobe Campaign Standard.
+After creating and configuring your mobile property in the Data Collection UI, the **[!UICONTROL Sync Mobile app AEPSDK from Launch]** technical workflow will now synchronize the tag mobile properties imported in Adobe Campaign Standard.
 
 By default, the technical worflow starts every 15 minutes. If needed, it can be manually restarted:
 
@@ -71,13 +73,13 @@ By default, the technical worflow starts every 15 minutes. If needed, it can be 
 
    ![](assets/launch_11.png)
 
-Your workflow will now restart and synchronize the Adobe Launch mobile properties imported in Adobe Campaign Standard.
+Your workflow will now restart and synchronize the tag mobile properties imported in Adobe Campaign Standard.
 
-## Setting up your Adobe Experience Platform Launch application in Adobe Campaign {#set-up-campaign}
+## Setting up your application in Adobe Campaign {#set-up-campaign}
 
-To use an Experience Platform Launch mobile property in Campaign, you must also configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
+To use a tag mobile property in Campaign, you must also configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
 
-You must to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
+You must wait for the technical workflow to run and sync the tag mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
 
 For more information on Sync Mobile app AEPSDK from Launch technical workflow, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
@@ -89,14 +91,14 @@ For more information on Sync Mobile app AEPSDK from Launch technical workflow, r
 
    ![](assets/launch.png)
 
-1. Select the mobile application that you created in Experience Platform Launch.
+1. Select the mobile application that you created in the Data Collection UI.
    Its **[!UICONTROL Property Status]** should be **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
-   >By default, to retrieve the list of mobile applications created in Adobe Launch, Campaign Standard uses the value defined in the NmsServer_URL option to look for matching properties.
+   >By default, to retrieve the list of mobile applications created in the Data Collection UI, Campaign Standard uses the value defined in the NmsServer_URL option to look for matching properties.
    >
-   >In some cases, the Campaign endpoint for a mobile application may be different from the one defined in NmsServer_URL. In that case, define the endpoint in the Launch_URL_Campaign option. Campaign will use the value from this option to look for matching properties in Adobe Launch.
+   >In some cases, the Campaign endpoint for a mobile application may be different from the one defined in NmsServer_URL. In that case, define the endpoint in the `Launch_URL_Campaign` option. Campaign will use the value from this option to look for matching properties in the Data Collection UI.
 
    ![](assets/launch_4.png)
 
@@ -106,15 +108,15 @@ For more information on Sync Mobile app AEPSDK from Launch technical workflow, r
 
       ![](assets/launch_12.png)
 
-1. To make the connection between Campaign and Experience Platform Launch, click **[!UICONTROL Save]**.
+1. To make the connection between Campaign and tags in Adobe Experience Platform, click **[!UICONTROL Save]**.
 
 1. Verify that the status of the mobile app has changed from **[!UICONTROL Ready to Configure]** to **[!UICONTROL Configured]**.
 
-   When the Experience Platform Launch Campaign extension shows that the pkey has been set up successfully, you can also verify that the property has been set up successfully in Campaign.
+   When the Campaign extension shows that the pkey has been set up successfully, you can also verify that the property has been set up successfully in Campaign.
 
       ![](assets/launch_5.png)
 
-1. For this configuration to take effect, the changes need to be published in Experience Platform Launch.
+1. For this configuration to take effect, the changes need to be published in the Data Collection UI.
 
    For more information, see [Publish configuration](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
@@ -124,7 +126,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. From the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
-1. Select the mobile application you created and configured in Experience Platform Launch.
+1. Select the mobile application you created and configured in the Data Collection UI.
 
 1. On the **[!UICONTROL Mobile application properties]** tab, you can start adding events that are available in your mobile application for your In-App messages.
 
@@ -152,15 +154,13 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. Click the **[!UICONTROL Mobile application subscribers]** tab to see a list of subscribers and other information about these subscribers, for example, whether they opted out of your notifications.
 
-## Deleting your Adobe Experience Platform Launch application {#delete-app}
-
-Deleting your Experience Platform Launch application cannot be reversed.
+## Deleting your application {#delete-app}
 
 >[!CAUTION]
 >
->Deleting your Experience Platform Launch application cannot be reversed.
+>Deleting your application cannot be reversed.
 
-To delete your Experience Platform Launch application, complete the steps in [Deleting mobile properties](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+To delete your application, complete the steps in [Deleting mobile properties](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
 
 After your application is deleted, in Adobe Campaign, verify whether your application's Property status has been correctly updated to Deleted in Launch.
 

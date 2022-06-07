@@ -13,7 +13,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 
 In-App messaging is a messaging channel that allows you to display a message when the user is active within the mobile application. This message type is complimentary to push notifications which are delivered to the notification center of users' phone. For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).
 
-This channel requires mobile applications to be integrated with Adobe Experience Platform SDK. These apps have to be activated in Adobe Experience Platform Launch before being available in Adobe Campaign for In-App deliveries.
+This channel requires mobile applications to be integrated with Adobe Experience Platform SDK. These apps have to be activated in the Data Collection UI before being available in Adobe Campaign for In-App deliveries.
 
 ![](assets/launch_campaign.png)
 
@@ -21,7 +21,7 @@ To start sending In-App messages on mobile applications leveraging Experience Pl
 
 1. In Adobe Campaign, make sure you can access the **[!UICONTROL In-App]** channel. If you cannot access these channels, contact your account team.
 
-1. To leverage mobile use cases in Adobe Campaign Standard with an Experience Cloud SDK application, a mobile app has to be created in Adobe Experience Platform Launch and be configured in Adobe Campaign Standard. For the step-by-step guide, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+1. To leverage mobile use cases in Adobe Campaign Standard with an Experience Cloud SDK application, a mobile app has to be created in the Data Collection UI and be configured in Adobe Campaign Standard. For the step-by-step guide, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 1. Once configured, you can now prepare your In-App message. For more on this, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
