@@ -14,7 +14,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 **Improvement included in the release**
 
-* **Adobe Notification Service** - Campaign comes with Adobe Notification Service that allows Experience Cloud solutions to alert users across Experience Cloud on activities that are important for them to know. [Read more](../../administration/using/sending-internal-notifications.md).
+**Adobe Notification Service** - Campaign comes with Adobe Notification Service that allows Experience Cloud solutions to alert users across Experience Cloud on activities that are important for them to know. [Read more](../../administration/using/sending-internal-notifications.md).
 
 **Other changes**
 
