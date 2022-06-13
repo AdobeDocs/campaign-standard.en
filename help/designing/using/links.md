@@ -30,7 +30,7 @@ You can insert a link into any page element: image, word, group of words, block 
 
     * **External link**: insert a link to an external URL.
 
-      You can define personalization for your URLs. See [Personalizing URLs](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      You can define personalization for your URLs. See [Personalizing URLs](personalization.md#personalizing-urls).
     
     * **Landing page**: give access to an Adobe Campaign landing page.
     * **Subscription link**: insert a link to subscribe to an Adobe Campaign service.
