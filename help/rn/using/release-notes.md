@@ -27,9 +27,6 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
     * Adding the name, role, value, and state for many controls
     * Correcting issues encountered with dynamic focus order on main screens
 
-**Security upgrade**
-
-* Apache Tomcat has been upgraded from version 7 to version 8.5.
 
 **Patches**
 
