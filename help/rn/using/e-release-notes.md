@@ -32,10 +32,6 @@ This page describes new features, improvements and fixes included in the next Ca
     * Adding the name, role, value, and state for many controls
     * Correcting issues encountered with dynamic focus order on main screens
 
-**Security upgrade**
-
-* Apache Tomcat has been upgraded from version 7 to version 8.5.
-
 
 **Patches**
 
