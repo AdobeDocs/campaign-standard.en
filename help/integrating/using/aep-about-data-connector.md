@@ -4,11 +4,12 @@ description: Manage XDM schemas to make your Campaign Standard data available on
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
+hide: yes
+hidefromtoc: yes
 ---
 # About Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
