@@ -14,6 +14,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
   + [Latest Release](rn/using/release-notes.md)
   + [Early Release Notes](rn/using/e-release-notes.md)
   + Previous Releases {#previous-releases}
+    + [Release Notes 2022](rn/using/release-notes-2022.md)
     + [Release Notes 2021](rn/using/release-notes-2021.md)
     + [Release Notes 2020](rn/using/release-notes-2020.md)
     + [Release Notes 2019](rn/using/release-notes-2019.md)
