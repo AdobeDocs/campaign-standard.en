@@ -8,9 +8,10 @@ hide: yes
 hidefromtoc: yes
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 ---
-# Early release notes {#new-release}
 
-This page describes new features, improvements and fixes included in the next Campaign Standard release.
+# Early release notes {#early-release}
+
+This page describes improvements and fixes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
@@ -18,6 +19,10 @@ This page describes new features, improvements and fixes included in the next Ca
 >
 
 ## Release 22.3 - September 2022 {#rn-2022}
+
+**Improvement**
+
+Tomcat upgrade from version 7 to version 8. 
 
 **Patches**
 
