@@ -19,11 +19,6 @@ This page describes new features, improvements and fixes included in the next Ca
 
 ## Release 22.3 - September 2022 {#rn-2022}
 
-**Improvements**
-
-* **Reporting changes** - 
-
-
 **Patches**
 
 * Fixed an issue with scheduled reports, which were triggered an our proir to the scheduled timing. (CAMP-51502)
