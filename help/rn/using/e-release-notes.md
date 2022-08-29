@@ -9,7 +9,7 @@ hidefromtoc: yes
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 ---
 
-# Early release notes {#early-release}
+# Early release notes {#e-new-release}
 
 This page describes improvements and fixes included in the next Campaign Standard release.
 
@@ -18,11 +18,11 @@ This page describes improvements and fixes included in the next Campaign Standar
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 >
 
-## Release 22.3 - September 2022 {#rn-2022}
+## Release 22.3 - September 2022 {#e-rn-2022}
 
-**Improvement**
+**Security update**
 
-Tomcat upgrade from version 7 to version 8. 
+This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
 
 **Patches**
 

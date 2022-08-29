@@ -20,9 +20,9 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ## Release 22.3 - September 2022 {#e-rn-2022}
 
-**Improvement**
+**Security update**
 
-Tomcat upgrade from version 7 to version 8. 
+This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
 
 **Patches**
 
