@@ -8,38 +8,39 @@ hide: yes
 hidefromtoc: yes
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 ---
-# Early release notes {#new-release}
 
-This page describes new features, improvements and fixes included in the next Campaign Standard release.
+# Early release notes {#e-new-release}
+
+This page describes improvements and fixes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 >
 
-## Release 22.2 - June 2022 {#rn-2022}
+## Release 22.3 - September 2022 {#e-rn-2022}
 
 **Improvements**
 
-* **Adobe Notification Service** - Campaign comes with Adobe Notification Service that allows Experience Cloud solutions to alert users across Experience Cloud on activities that are important for them to know. Starting 22.2 version, the user experience has been improved: notifications are prioritized and product-generated notifications are separated from Adobe status announcements. In addition, when the notification refers to a specific workflow, you can now access the corresponding workflow directly from the email or in-product notification.  For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+**Accessibility**
 
-* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
 
-* **Accessibility** - Adobe has made many accessibility fixes for improving the application’s overall ease of use. These features are currently enabled for a set of early adopters only, and they will be rolled out to all customers in the ACS 22.3 release. Examples of accessibility improvements include:
+These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
 
-    * Ensuring that there is a visible focus indicator for focusable elements on each screen
-    * Creating page landmarks for easier navigation
-    * Adding the name, role, value, and state for many controls
-    * Correcting issues encountered with dynamic focus order on main screens
+<!--
+* **Data retention**
 
+    Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
+-->
 
-**Patches**
+**Security update**
 
-* Fixed an issue on the Billing technical workflow due to a duplicate key error. (CAMP-51029)
-* Added the missing Microsoft Edge browser category in tracking Reports. They were previously categorized with Microsoft Chrome opens. (CAMP-51165)
-* Fixed an issue with GDPR requests which were not deleting data from child tables. (CAMP-48276)
-* Fixed an issue in the Email Designer which caused the visibility condition of a fragment not to be saved, in a transactional message template. (CAMP-50338)
-* Fixed an issue in Campaign Reports which caused the date range not to be taken into account. (CAMP-50991)
-* Fixed an error which caused scheduled emails to fail: the delivery analysis could not start as the delivery was still in the 'Retry pending' status. (CAMP-50302)
-* Fixed an issue in the Email Designer when previewing an email with a profile substitution. (CAMP-49312)
-* Fixed an issue with empty value in custom enumerations: when creating a custom resource with a field which is a text enumeration and contains only one value, this value is set now by default, so that you can create a query on this field as a simple request. (CAMP-50606)
+This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
+
+**Fixes**
+
+* Fixed an issue with scheduled reports, which were triggered an hour prior to the scheduled timing. (CAMP-51502)
+* Fixed an issue on the Delivery indicators in the Delivery dashboard which did not match Sending Logs (nms:broadLogRcp). (CAMP-51127)
+* Fixed an issue which prevented custom resources extension with ACS Connector (Prime Offering). (CAMP-51033)
+* Improved the publication process for Privacy requests responses to avoid delay. (CAMP-50613)

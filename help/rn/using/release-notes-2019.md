@@ -1,13 +1,10 @@
 ---
 title: Release Notes 2019
 description: This page lists all 2019 releases of Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
-
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: yes
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 ---
 # Release Notes 2019{#release-notes-2019}
