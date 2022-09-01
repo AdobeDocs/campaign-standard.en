@@ -20,7 +20,7 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ## Release 22.3 - September 2022 {#e-rn-2022}
 
-<!--
+
 ### Improvement{#e-rn-improvements}
 
 **Accessibility**
@@ -29,7 +29,7 @@ Campaign Standard 22.3 comes with accessibility fixes and improvements which fac
 
 These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
 
-
+<!--
 * **Data retention**
 
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
