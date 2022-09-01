@@ -20,7 +20,7 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ## Release 22.3 - September 2022 {#e-rn-2022}
 
-**Improvements**
+### Improvement{#e-rn-improvements}
 
 **Accessibility**
 
@@ -34,11 +34,11 @@ These capabilities are released in Limited Availability and rolled out to a set 
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
 -->
 
-**Security update**
+### Security update{#e-rn-security}
 
 This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
 
-**Fixes**
+### Fixes{#e-rn-fixes}
 
 * Fixed an issue with scheduled reports, which were triggered an hour prior to the scheduled timing. (CAMP-51502)
 * Fixed an issue on the Delivery indicators in the Delivery dashboard which did not match Sending Logs (nms:broadLogRcp). (CAMP-51127)
