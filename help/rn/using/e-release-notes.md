@@ -20,7 +20,6 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ## Release 22.3 - September 2022 {#e-rn-2022}
 
-
 ### Improvement{#e-rn-improvements}
 
 **Accessibility**

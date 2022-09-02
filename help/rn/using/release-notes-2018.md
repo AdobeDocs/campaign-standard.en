@@ -9,12 +9,6 @@ exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 ---
 # Release Notes 2018{#release-notes}
 
-Looking for a specific 2018 release of Adobe Campaign Standard?
-
-Each release comes with new features and patches. Click on a release to view its content.
-
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
-
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
 **What's new?**
