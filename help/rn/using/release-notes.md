@@ -12,30 +12,30 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
 
 
-## Release 22.3 - Fall/Winter 2022 {#sept-22}
+## Release 22.2 - June 2022 {#june-2022}
 
-### Improvement{#rn-improvements}
+**Improvements**
 
-**Accessibility**
+* **Adobe Notification Service** - Campaign comes with Adobe Notification Service that allows Experience Cloud solutions to alert users across Experience Cloud on activities that are important for them to know. Starting 22.2 version, the user experience has been improved: notifications are prioritized and product-generated notifications are separated from Adobe status announcements. In addition, when the notification refers to a specific workflow, you can now access the corresponding workflow directly from the email or in-product notification.  For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
+* **Accessibility** - Adobe has made many accessibility fixes for improving the application’s overall ease of use. These features are currently enabled for a set of early adopters only, and they will be rolled out to all customers in the ACS 22.3 release. Examples of accessibility improvements include:
 
-<!--
-* **Data retention**
+    * Ensuring that there is a visible focus indicator for focusable elements on each screen
+    * Creating page landmarks for easier navigation
+    * Adding the name, role, value, and state for many controls
+    * Correcting issues encountered with dynamic focus order on main screens
 
-    Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
--->
 
-### Security update{#rn-security}
+**Patches**
 
-This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
-
-### Fixes{#e-rn-fixes}
-
-* Fixed an issue with scheduled reports, which were triggered an hour prior to the scheduled timing. (CAMP-51502)
-* Fixed an issue on the Delivery indicators in the Delivery dashboard which did not match Sending Logs (nms:broadLogRcp). (CAMP-51127)
-* Fixed an issue which prevented custom resources extension with ACS Connector (Prime Offering). (CAMP-51033)
-* Improved the publication process for Privacy requests responses to avoid delay. (CAMP-50613)
+* Fixed an issue on the Billing technical workflow due to a duplicate key error. (CAMP-51029)
+* Added the missing Microsoft Edge browser category in tracking Reports. They were previously categorized with Microsoft Chrome opens. (CAMP-51165)
+* Fixed an issue with GDPR requests which were not deleting data from child tables. (CAMP-48276)
+* Fixed an issue in the Email Designer which caused the visibility condition of a fragment not to be saved, in a transactional message template. (CAMP-50338)
+* Fixed an issue in Campaign Reports which caused the date range not to be taken into account. (CAMP-50991)
+* Fixed an error which caused scheduled emails to fail: the delivery analysis could not start as the delivery was still in the 'Retry pending' status. (CAMP-50302)
+* Fixed an issue in the Email Designer when previewing an email with a profile substitution. (CAMP-49312)
+* Fixed an issue with empty value in custom enumerations: when creating a custom resource with a field which is a text enumeration and contains only one value, this value is set now by default, so that you can create a query on this field as a simple request. (CAMP-50606)
 
