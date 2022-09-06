@@ -18,8 +18,7 @@ This page describes improvements and fixes included in the next Campaign Standar
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 >
 
-## Release 22.3 - September 2022 {#e-rn-2022}
-
+## Release 22.3 - Fall/Winter 2022 {#e-rn-2022}
 
 ### Improvement{#e-rn-improvements}
 
