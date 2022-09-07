@@ -76,7 +76,7 @@ Tutorials on Privacy management in Campaign Standard are also available [here](h
 In addition to the most recent **Right to Access** and **Right to be Forgotten** capabilities, Adobe Campaign offers other important features that are essential to Privacy:
 
 * [Consent management](#consent-management): subscription functionality for preference management
-* [Data retention](#data-retention): data retention periods on all standard log tables, additional retention periods can be set up with workflows
+* [Data retention](../../administration/using/data-retention.md): data retention periods on all standard log tables, additional retention periods can be set up with workflows
 * [Rights management](#rights-management): data access managed by named right
 
 ### Consent management {#consent-management}
@@ -90,27 +90,6 @@ The features to help manage some aspects of consent have been core to Adobe Camp
 For more on Consent management, see [About subscriptions](../../audiences/using/about-subscriptions.md) and [Get started with landing pages](../../channels/using/getting-started-with-landing-pages.md).
 
 In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. See [this section](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Data retention {#data-retention}
-
-Regarding retention, built-in log tables in Campaign have pre-set retention periods on them, generally limiting their data storage to six months or less.
-
-The following are the default retention values for built-in tables. Be aware that the retention configuration is set by Adobe technical administrators during implementation and values may vary for each implementation, based on customer requirements.
-
-* **Consolidated tracking**: 6 months
-* **Delivery logs**: 6 months
-* **Tracking logs**: 6 months
-* **Events**: 1 month
-* **Statistics of event processing**: 6 months
-* **Archived events**: 6 months
-* **Temporary entities**: 7 days
-* **Ignored pipeline events**: 1 month
-* **Delivery alerts**: 1 month
-* **Export audit**: 6 months
-
-And similar to delete, using standard workflow functionality, it is possible to set up retention periods for any custom table.
-
-Reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
 
 ### Rights management {#rights-management}
 
