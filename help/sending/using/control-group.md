@@ -149,7 +149,7 @@ You can extract the **sending logs** to compare how the control group that did n
 
 >[!IMPORTANT]
 >
->You need to have an [Administrator role](../../administration/using/users-management.md#functional-administrators) and to be part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) to be able to connect to Adobe Campaign. If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units to be able to access delivery logs.
+>To access delivery logs, you need to have an [Administrator role](../../administration/using/users-management.md#functional-administrators) and to be part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Checking the delivery logs {#checking-logs}
 
