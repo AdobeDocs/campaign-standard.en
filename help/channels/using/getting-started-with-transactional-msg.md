@@ -12,10 +12,6 @@ exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 ---
 # Getting started with transactional messaging {#getting-started-with-transactional-messaging}
 
-## Overview {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
 A transactional message is an individual and unique communication, sent in real-time by a provider such as a website. It is particularly expected, because it contains important information that the recipient wants to check or confirm.
 
 * **When is it due?** Because this message contains important information, the user expects it to be sent in real time. Consequently, the delay between the event being triggered and the message arriving has to be very short.
@@ -87,9 +83,9 @@ Each of these steps is further detailed below.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| User | Action | Result |
-|--- |--- |--- |
-| This step must be performed by an administrator holding [administration rights](../../administration/using/users-management.md#functional-administrators). | Configure an event that will be named "Cart abandonment" and publish this event configuration. | The API that will be used by your website developer is deployed and a transactional message is automatically created. |
+| Create an event | User | Action | Result |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | This step must be performed by an administrator holding [administration rights](../../administration/using/users-management.md#functional-administrators). | Configure an event that will be named "Cart abandonment" and publish this event configuration. | The API that will be used by your website developer is deployed and a transactional message is automatically created. |
 
 Creating and publishing an event are presented in the [Configuring a transactional event](../../channels/using/configuring-transactional-event.md) and [Publishing a transactional event](../../channels/using/publishing-transactional-event.md) sections.
 
@@ -97,9 +93,9 @@ Creating and publishing an event are presented in the [Configuring a transaction
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| User | Action | Result |
-|--- |--- |--- |
-| This step can be performed by a marketing user holding [administration rights](../../administration/using/users-management.md#functional-administrators). | Edit and personalize the transactional message, test it, and then publish it. | The transactional message is then be ready to be sent. |
+| Edit the message | User | Action | Result |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | This step can be performed by a marketing user holding [administration rights](../../administration/using/users-management.md#functional-administrators). | Edit and personalize the transactional message, test it, and then publish it. | The transactional message is then be ready to be sent. |
 
 For more on editing and publishing a transactional message, see [Editing transactional messages](../../channels/using/editing-transactional-message.md) and [Transactional message lifecycle](../../channels/using/publishing-transactional-message.md).
 
@@ -107,13 +103,11 @@ For more on editing and publishing a transactional message, see [Editing transac
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| User | Action | Result |
-|--- |--- |--- |
-| This step is performed by the developer of your website. | Use the REST Transactional Messages API to integrate the event into your website. | The event will be triggered when a client abandons their cart. |
-
 Once you have created an event, you need to integrate the triggering of this event into your website.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> To do this, your website web developer must use the **Adobe Campaign Standard REST API**.
+
+| Implement the trigger | User | Action | Result |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | This step is performed by the developer of your website. | Use the REST Transactional Messages API to integrate the event into your website. | The event will be triggered when a client abandons their cart. |
 
 For more on using the Campaign REST API to manage transactional messages, see the [REST API documentation](../../api/using/managing-transactional-messages.md).
 
@@ -121,9 +115,11 @@ For more on using the Campaign REST API to manage transactional messages, see th
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-Once all of these steps have been carried out, the message can be delivered.
+Once all of the steps above have been carried out, the message can be delivered. 
 
-As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered. The user automatically receives a notification email.
+| Deliver the message | User | Action | Result |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | This step is performed by customers who visit your website. | As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered. | The user automatically receives a notification email. |
 
 ## Related topics
 

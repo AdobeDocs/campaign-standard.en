@@ -11,9 +11,6 @@ exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 ---
 # Release Notes 2021{#release-notes-2021}
 
-[Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
-
-
 ## Release 21.3 - September 2021 {#release-21-3---sept-2021}
 
 New features, improvements and fixes included in the latest Campaign Standard release are listed below. 

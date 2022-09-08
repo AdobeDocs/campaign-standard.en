@@ -1,10 +1,6 @@
 ---
 title: Campaign Standard Deprecated and Removed Features
 description: This page lists deprecated and removed features of Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-deprecated-features
-
 feature: Overview
 role: User
 level: Beginner
@@ -43,7 +39,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr> 
    <td> <p> Starting Campaign Standard 21.3 release, integration with Audience Destinations service is deprecated. </p>
    <p>For new implementation, you can no longer integrate Audience Destinations service with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Learn more</a>.</p>
-     <em>Target removal date: September 2022</em></p>
+     <em>Target removal date: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -59,7 +55,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr> 
    <td> <p> Starting Campaign Standard 21.3 release, integration with Adobe Experience Platform Data Connector is deprecated. </p>
    <p>For new implementation, you can no longer integrate Adobe Experience Platform Data Connector with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Learn more</a>.</p>
-     <em>Target removal date: September 2022</em></p>
+     <em>Target removal date: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -76,9 +72,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr> 
    <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> to create and personalize your email content. </p></br>
    <p>Read out <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this section</a> to learn how to adapt your email templates for the new editor.</p></br>
-  <p> 
-  <em>Target removal date: End of 2022</em></p>
-   </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>

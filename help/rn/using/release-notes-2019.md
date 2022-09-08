@@ -9,8 +9,6 @@ exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 ---
 # Release Notes 2019{#release-notes-2019}
 
-[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
-
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
 **What's new?**
