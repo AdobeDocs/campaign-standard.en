@@ -13,9 +13,11 @@ level: Beginner
 
 * **Adobe Notification Service** - Campaign comes with Adobe Notification Service that allows Experience Cloud solutions to alert users across Experience Cloud on activities that are important for them to know. Starting 22.2 version, the user experience has been improved: notifications are prioritized and product-generated notifications are separated from Adobe status announcements. In addition, when the notification refers to a specific workflow, you can now access the corresponding workflow directly from the email or in-product notification.  For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
 
+<!--
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
 
-* **Accessibility** - Adobe has made many accessibility fixes for improving the application’s overall ease of use. These features are currently enabled for a set of early adopters only, and they will be rolled out to all customers in the ACS 22.3 release. Examples of accessibility improvements include:
+* **Accessibility** - Adobe has made many accessibility fixes for improving the application’s overall ease of use. These features are currently enabled for a set of early adopters only, and they will be rolled out to all customers in future releases. Examples of accessibility improvements include:
 
     * Ensuring that there is a visible focus indicator for focusable elements on each screen
     * Creating page landmarks for easier navigation
