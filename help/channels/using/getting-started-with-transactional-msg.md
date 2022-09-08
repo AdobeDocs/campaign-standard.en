@@ -12,10 +12,6 @@ exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 ---
 # Getting started with transactional messaging {#getting-started-with-transactional-messaging}
 
-## Overview {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
 A transactional message is an individual and unique communication, sent in real-time by a provider such as a website. It is particularly expected, because it contains important information that the recipient wants to check or confirm.
 
 * **When is it due?** Because this message contains important information, the user expects it to be sent in real time. Consequently, the delay between the event being triggered and the message arriving has to be very short.
