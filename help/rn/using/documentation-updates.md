@@ -10,6 +10,13 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 22.3 - Fall/Winter 2022 {#release-22-3}
+
+Release notes for Campaign Standard 22.3 Fall/Winter release have been published.
+
+Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)
+
+
 ## Release 22.2 - June 2022 {#release-22-2}
 
 **Improvement included in the release**
