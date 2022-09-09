@@ -13,7 +13,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 ## What's New
 
-* **[Campaign 22.2 Release notes are live](rn/using/release-notes.md)**<br/> Discover new features, improvements and fixes coming with Campaign Standard 22.2 release
+* **[Campaign 22.3 Release notes are live](rn/using/release-notes.md)**<br/> Discover new features, improvements and fixes coming with Campaign Standard 22.2 release
 
 * **[Apple Mail Privacy Protection FAQs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Find initial guidance in response to Apple’s announcement regarding iOS 15
 
