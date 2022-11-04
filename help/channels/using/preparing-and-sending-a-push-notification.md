@@ -40,6 +40,8 @@ The steps for creating a push notification with Adobe Campaign are:
 
    Please note that the drop-down will display both SDK V4 and Experience Platform SDK applications.
 
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+
    ![](assets/push_notif_properties.png)
 
    You can link the push notification to a campaign. To do this, select it from the campaigns that have already been created.

@@ -56,6 +56,8 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    If you don't see any applications in the drop-down list, make sure that your mobile applications are in a **Configured** state. Applications in a **Ready to be configured** state will not appear in the list. For more information on mobile application configuration, refer to this [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+
    ![](assets/inapp_creating_3.png)
 
 1. Select the audience you want to target for you In-App message. Your audience is prefiltered depending on the mobile application associated to this delivery.

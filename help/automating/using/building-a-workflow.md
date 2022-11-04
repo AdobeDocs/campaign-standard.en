@@ -50,8 +50,8 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    ![](assets/workflow_creation_2.png)
 
-   You can enter a name in the **Label** field and modify the ID. The activity name and its ID appear in the interface, but these are not visible by the message recipients.
-
+   You can enter a name in the **Label** field and modify the ID.
+   
    >[!NOTE]
    >
    >You can create your workflow within a parent campaign from the list of marketing activities. You can link this workflow to a campaign by selecting one that has already been created.
