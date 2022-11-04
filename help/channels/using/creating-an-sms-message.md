@@ -37,9 +37,9 @@ To create and send SMS messages to a mobile phone, you need:
 
 1. Enter the general properties of the SMS.
 
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
-
    ![](assets/sms_creation_2.png)
+
+   Both the activity label and its ID appear in the interface, but they are not visible to the message recipients.
 
 1. Specify the audience that you want to target. You can select an existing audience or directly target a population by defining and combining rules.
 

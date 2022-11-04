@@ -26,9 +26,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >Follow-up and A/B test templates are hidden by default. Check the boxes on the left side ( **[!UICONTROL Filter]** lateral panel) if you want to display them.
 
-1. Enter the email's general properties. You can enter a name in the **Label** field and edit the ID.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+1. Enter the email's general properties. You can enter a name in the **Label** field and edit the ID. Both the activity name and its ID appear in the interface, but they are not visible to the message recipients.
 
    You can add a description that the user can see in the campaign content.
 
