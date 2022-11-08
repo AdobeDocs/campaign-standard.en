@@ -4,6 +4,7 @@ description: This page lists all 2022 releases of Adobe Campaign Standard.
 feature: Overview
 role: User
 level: Beginner
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 ---
 # Release Notes 2022{#release-notes-2022}
 
@@ -90,4 +91,3 @@ level: Beginner
 * Performances when duplicating audiences have been enhanced in order to avoid any issue when working with large audiences. (CAMP-49639)
 * Fixed an issue which could prevent a custom filter from displaying the correct results when used into a **Query** activity. (CAMP-49417)
 * Fixed an error that displayed an error message when trying to use a fragment in a delivery with a comma in its name. The issue has been resolved, commas can now be used in fragments’ names. (CAMP-49216)
-
