@@ -39,7 +39,11 @@ To create and send SMS messages to a mobile phone, you need:
 
    ![](assets/sms_creation_2.png)
 
-   Both the activity label and its ID appear in the interface, but they are not visible to the message recipients.
+   >[!NOTE]
+   >
+   >Both the activity name and its ID appear in the interface, but they are not visible to the message recipients.
+   >
+   >Make sure that the ID field does not contain any blank space to avoid any discrepencies, for example when integrating with Adobe Analytics.
 
 1. Specify the audience that you want to target. You can select an existing audience or directly target a population by defining and combining rules.
 
