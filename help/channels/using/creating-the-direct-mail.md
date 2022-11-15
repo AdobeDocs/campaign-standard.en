@@ -30,6 +30,12 @@ Creating a direct mail delivery is very similar to creating a regular email. The
 
    ![](assets/direct_mail_3.png)
 
+   >[!NOTE]
+   >
+   >Both the activity name and its ID appear in the interface, but they are not visible to the message recipients.
+   >
+   >Make sure that the ID field does not contain any blank space to avoid any discrepencies, for example when integrating with Adobe Analytics.
+   
 1. Define the audience you wish to include in the extraction file as well as the test and trap profiles. See [Defining the direct mail audience](../../channels/using/defining-the-direct-mail-audience.md). 
 
    ![](assets/direct_mail_4.png)

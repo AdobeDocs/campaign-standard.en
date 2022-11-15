@@ -23,6 +23,7 @@ The audience is based on profiles with a completed preferred language informatio
    ![](assets/multi_create1.png)
 
 1. Define the general properties and the target audience of the email, just as for a standard email. Refer to the [Creating audiences](../../audiences/using/creating-audiences.md) section.
+
 1. At the fourth step in the creation wizard, define the variant options. If the [multilingual template](../../channels/using/multilingual-messages-template.md) already contains all the right parameters, you can directly click on the **[!UICONTROL Create]** button.
 
    ![](assets/multi_create4.png)

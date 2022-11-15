@@ -10,6 +10,10 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## November 2022 {#doc-updates-november-2022}
+
+A note has been added to recommend avoiding blank spaces in the ID field of deliveries. [Read more](../../channels/using/creating-an-email.md)
+
 ## Release 22.3 - Fall/Winter 2022 {#release-22-3}
 
 Release notes for Campaign Standard 22.3 Fall/Winter release have been published. [Read more](release-notes.md)
