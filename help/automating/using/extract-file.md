@@ -66,7 +66,13 @@ The way in which the data will be extracted is defined when configuring the acti
 
 1. Click the **[!UICONTROL File structure]** tab to configure the output, date, and number formats for the file that will be exported.
 
-   Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. This option allows to retrieve shorter labels that are easy to understand instead of IDs.
+      Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. This option allows to retrieve shorter labels that are easy to understand instead of IDs.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >If you want to extract data to a CSV file with a specific encoding, first select the "Text" output format. Choose the desired encoding from the drop-down list, then change the output format to "CSV (Excel)".
 
 1. In the **[!UICONTROL Properties]** tab, select the **[!UICONTROL Do not generate a file if the inbound transition is empty]** option to avoid creating and uploading empty files on SFTP servers if the inbound transition is empty.
 1. Confirm the configuration of your activity and save your workflow.

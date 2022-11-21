@@ -14,6 +14,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 A note has been added to recommend avoiding blank spaces in the ID field of deliveries. [Read more](../../channels/using/creating-an-email.md)
 
+Information has been added in the **[!UICONTROL Extract file]** workflow activity page on to extract data to a CSV file with a specific encoding. [Read more](../../automating/using/extract-file.md)
+
 ## Release 22.3 - Fall/Winter 2022 {#release-22-3}
 
 Release notes for Campaign Standard 22.3 Fall/Winter release have been published. [Read more](release-notes.md)
