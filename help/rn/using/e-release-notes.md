@@ -18,20 +18,15 @@ This page describes improvements and fixes included in the next Campaign Standar
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 >
 
-## Release 22.3 - Fall/Winter 2022 {#e-rn-2022}
+## Release 22.3.2 {#dec-22}
 
-<!--
-### Improvement{#e-rn-improvements}
+### Security update{#rn-security}
 
+This release comes with the following security upgrade: Debian has been upgraded to v11.0.
 
-**Accessibility**
+## Release 22.3 - Fall/Winter 2022 {#sept-22}
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
--->
-
-### Security update{#e-rn-security}
+### Security update{#rn-security}
 
 This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
 
@@ -41,3 +36,4 @@ This release comes with the following security upgrade: Apache Tomcat has been u
 * Fixed an issue on the Delivery indicators in the Delivery dashboard which did not match Sending Logs (nms:broadLogRcp). (CAMP-51127)
 * Fixed an issue which prevented custom resources extension with ACS Connector (Prime Offering). (CAMP-51033)
 * Improved the publication process for Privacy requests responses to avoid delay. (CAMP-50613)
+
