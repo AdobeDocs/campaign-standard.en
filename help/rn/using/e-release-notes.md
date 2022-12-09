@@ -20,7 +20,7 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ## Release 22.3.2 {#dec-22}
 
-### Security update{#rn-security}
+### Security update{#rn-security2}
 
 This release comes with the following security upgrade: Debian has been upgraded to v11.0.
 
