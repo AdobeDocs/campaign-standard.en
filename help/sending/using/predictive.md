@@ -41,14 +41,14 @@ Output details
 *	The model will indicate the best day in the week and the best hour in that day
 *	Each optimal time is computed twice: once to maximize open rate and once to maximize click rate
 *	16 fields are given (14 for days of the week and 2 for the whole week):
-  *	Best time to send an email to optimize clicks for Monday - values between 0 and 23
-  *	Best time to send an email to optimize opens for Monday - values between 0 and 23
-  * ...
-  *	Best time to send an email to optimize clicks for Sunday - values between 0 and 23
-  *	Best time to send an email to optimize opens for Sunday - values between 0 and 23
-  * ...
-  *	Best day to send an email to optimize opens for the whole week - Monday to Sunday
-  *	Best time to send an email to optimize opens for the whole week - values between 0 and 23
+*	Best time to send an email to optimize clicks for Monday - values between 0 and 23
+*	Best time to send an email to optimize opens for Monday - values between 0 and 23
+* ...
+*	Best time to send an email to optimize clicks for Sunday - values between 0 and 23
+*	Best time to send an email to optimize opens for Sunday - values between 0 and 23
+* ...
+*	Best day to send an email to optimize opens for the whole week - Monday to Sunday
+*	Best time to send an email to optimize opens for the whole week - values between 0 and 23
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Output details
 
 Once implemented into Campaign, Machine Learning capabilities enrich profiles data with new tabs with their best open/click scores. The metrics are computed and brought into Campaign using technical workflows.
 
-To access those metrics, you need to:  
+To access those metrics, you need to:
 
 1. Open a profile and click the Edit button.
 
@@ -66,7 +66,7 @@ To access those metrics, you need to:
 
 By default, the profile scores will give the best time of the day for each day of the week and the best overall time in the week.
 
-  ![](assets/do-not-localize/SendTimeScore.png)
+![](assets/do-not-localize/SendTimeScore.png)
 
 ### Send messages at the best moment{#use-predictive-send-time}
 
@@ -75,16 +75,16 @@ Learn how to compute the sending date [in this section](../../sending/using/comp
 
 The formula needs to be populated with the specific best time of the particular day when the delivery will go out.
 
-  ![](assets/do-not-localize/ComputeSendingDate.png)
+![](assets/do-not-localize/ComputeSendingDate.png)
 
-Formula example:  
+Formula example:
 
 ```
 AddHours([currentDelivery/scheduling/@contactDate], 
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
-  ![](assets/do-not-localize/SendingDateFormula.png)
+![](assets/do-not-localize/SendingDateFormula.png)
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ This model uses multiple scores to indicate:
 
 **Model Output**: A profile attribute that describes the profile’s score and category
 
-To access those metrics, you need to:  
+To access those metrics, you need to:
 
 1. Open a profile and click the Edit button.
 
