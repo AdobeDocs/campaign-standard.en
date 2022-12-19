@@ -14,6 +14,7 @@ exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 Using Campaign, you can optimize the design and delivery of customer journeys to predict each individual's engagement preference. Powered by AI and machine learning, Adobe Campaign’s Send-Time Optimization and Predictive Engagement Scoring can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics.
 
 >[!IMPORTANT]
+>
 >This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
 
 Adobe Campaign offers two new Machine Learning models: **Predictive Send Time Optimization** and **Predictive Engagement Scoring**. These two models are machine-learning models that are specific to designing and delivering better customer journeys.
@@ -29,6 +30,7 @@ Predictive Send-Time Optimization predicts which is the best send time for each 
 Within the Predictive Send-Time Optimization model, there are two sub-models:
 
 *	**Predictive send time for open** is the best time a communication must be sent to the customer to maximize opens
+
 *	**Predictive send time for click** is the best time a communication must be sent to the customer to maximize clicks
 
 **Model input**: Delivery logs, tracking logs and profile attributes (non-PII)
@@ -70,7 +72,8 @@ By default, the profile scores will give the best time of the day for each day o
 
 ### Send messages at the best moment{#use-predictive-send-time}
 
-In order for the emails to go out at the optimal time per profile, the delivery must be scheduled using the option **[!UICONTROL Send at a custom date defined by a formula]**. 
+In order for the emails to go out at the optimal time per profile, the delivery must be scheduled using the option **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Learn how to compute the sending date [in this section](../../sending/using/computing-the-sending-date.md).
 
 The formula needs to be populated with the specific best time of the particular day when the delivery will go out.
@@ -80,7 +83,7 @@ The formula needs to be populated with the specific best time of the particular 
 Formula example:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
@@ -89,7 +92,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >The data model might be different depending on your implementation.
-> 
 
 ## Predictive engagement scoring {#predictive-scoring}
 
