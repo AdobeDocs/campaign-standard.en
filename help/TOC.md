@@ -157,7 +157,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
-       + [AI-powered emails](sending/using/predictive.md)       
+       + [Predictive user engagement capabilities](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
        + [Adding a control group](sending/using/control-group.md)
        + [Using traps](sending/using/using-traps.md)
