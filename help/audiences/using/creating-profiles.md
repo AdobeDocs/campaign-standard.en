@@ -44,6 +44,10 @@ As an example, to create a new profile directly in the user interface, follow th
     * The contact information, such as first name, last name, gender, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)) helps better personalize deliveries.
     * The profile's **[!UICONTROL Time zone]** is used to send deliveries at the profile's time zone. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md). 
     * The **[!UICONTROL Channels]** category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.
+
+      >[!NOTE]
+      > Mobile phone numbers must always be in international format (`+<country><number>`) format in the profile table.
+
     * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
     * The **[!UICONTROL Address]** category contains the postal address that needs to be filled along with the **[!UICONTROL Address specified]** option to send [direct mail](../../channels/using/about-direct-mail.md) to this profile. If the **[!UICONTROL Address specified]** option is not checked, this profile will be excluded from every direct mail delivery.
     * The **[!UICONTROL Access authorization]** category indicates the profile's organizational units to [manage permissions](../../administration/using/about-access-management.md). To add the organizational fields to your profiles, refer to the [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles) section.
