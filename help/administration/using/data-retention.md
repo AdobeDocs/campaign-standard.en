@@ -17,16 +17,15 @@ Reach out to the Adobe consultants or technical administrators to learn more abo
 
 Note that using standard workflow functionality, it is possible to set up retention periods for any custom table.
 
-Below are the default recommended retention values for standard tables:
+Below are the default retention periods for standard tables. Whenever possible, and depending on your data usage, Adobe invites you to move to the recommended retention periods.
 
-* **Consolidated tracking**: 6 months
-* **Delivery logs**: 6 months
-* **Tracking logs**: 6 months
+* **Consolidated tracking**: 6 months (recommended: 1 month)
+* **Delivery logs**: 6 months (recommended: 1 month)
+* **Tracking logs**: 6 months (recommended: 1 month)
 * **Events**: 1 month
-* **Statistics of event processing**: 6 months
-* **Archived events**: 6 months
+* **Statistics of event processing**: 6 months (recommended: 1 month)
+* **Archived events**: 6 months (recommended: 1 month)
 * **Temporary entities**: 7 days
 * **Ignored pipeline events**: 1 month
 * **Delivery alerts**: 1 month
-* **Export audit**: 6 months
-
+* **Export audit**: 6 months (recommended: 1 month)
