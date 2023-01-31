@@ -20,7 +20,7 @@ Information has been added in the **[!UICONTROL Extract file]** workflow activit
 
 Release notes for Campaign Standard 22.3 Fall/Winter release have been published. [Read more](release-notes.md)
 
-Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)
+<!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
 
 ## Release 22.2 - June 2022 {#release-22-2}
