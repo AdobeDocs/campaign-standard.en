@@ -92,25 +92,14 @@ Define the address (or phone number, etc.) and channel type. You can set a statu
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### Removing a quarantined address {#removing-a-quarantined-address}
+## Removing a address from quarantine {#removing-a-quarantined-address}
 
-If needed, you can manually remove an address from the quarantine list. In addition to this, addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. (For more on technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-To manually remove an address from the quarantine list, perform one of the actions below.
 
->[!IMPORTANT]
->
->Manually deleting an email address from quarantine means that you will start again delivering to this address. Consequently, this can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Proceed with extra care when considering removing any address from quarantine. In case of any doubt, contact a deliverability expert.
 
-* Select the address from the **[!UICONTROL Administration > Channels > Quarantines > Addresses]** list and select **[!UICONTROL Delete element]**.
+### Automatic updates {#unquarantine-auto}
 
-  ![](assets/quarantine-delete-address.png)
-
-* Select an address and change its **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
-
-  ![](assets/quarantine-valid-status.png)
-
-  You can also change its status to **[!UICONTROL On allowlist]**. In this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
+Addresses that match specific conditions are automatically deleted from the quarantine list by the Database cleanup workflow. Learn more about technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 The addresses are automatically removed from the quarantine list in the following cases:
 
@@ -120,11 +109,43 @@ The addresses are automatically removed from the quarantine list in the followin
 
 Their status then changes to **[!UICONTROL Valid]**.
 
+The maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
+
+
 >[!IMPORTANT]
 >
->Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed automatically, even if they receive an email.
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status are never removed, even if they receive an email.
 
-The maximum number of retries to be performed in case of **[!UICONTROL Erroneous]** status and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain.
+
+### Manual updates {#unquarantine-manual}
+
+You can also un-quarantine an address manually.  To manually remove an address from the quarantine list, you can remove it from the quarantine list or change its status to **[!UICONTROL Valid]**.
+
+* Select the address from the **[!UICONTROL Administration > Channels > Quarantines > Addresses]** list and select **[!UICONTROL Delete element]**.
+
+  ![](assets/quarantine-delete-address.png)
+
+* Select an address and change its **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
+
+  ![](assets/quarantine-valid-status.png)
+
+
+### Bulk updates {#unquarantine-bulk}
+
+You might need to perform bulk updates on the quarantine list, for example in case of an ISP outage. In such case, emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient. These addresses must be removed from the quarantine list.
+
+To perform this, create a workflow and add a **[!UICONTROL Query]** activity on your quarantine table to filter out all impacted recipients. Once identified, they can be removed from the quarantine list, and included in future Campaign email deliveries. 
+
+Based on the timeframe of the incident, below are the recommended guidelines for this query.
+
+* **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
+
+  where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+        
+* **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
+* **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
+
+Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their email address status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. You can also just delete them from the quarantine table.
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 

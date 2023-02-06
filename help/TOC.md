@@ -176,6 +176,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Receiving alerts when failures happen](sending/using/receiving-alerts-when-failures-happen.md)
        + [Understanding delivery failures](sending/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](sending/using/understanding-quarantine-management.md)
+       + [Update incorrect hard bounces after Italia Online outage](sending/using/update-bounce-it.md)
   + Managing deliverability {#managing-deliverability}
        + [About deliverability](sending/using/about-deliverability.md)
        + [Controlling email content](sending/using/control-email-content.md)
