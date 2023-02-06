@@ -94,9 +94,6 @@ Define the address (or phone number, etc.) and channel type. You can set a statu
 
 ## Removing a address from quarantine {#removing-a-quarantined-address}
 
-
-
-
 ### Automatic updates {#unquarantine-auto}
 
 Addresses that match specific conditions are automatically deleted from the quarantine list by the Database cleanup workflow. Learn more about technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
