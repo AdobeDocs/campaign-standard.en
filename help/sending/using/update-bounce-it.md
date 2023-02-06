@@ -4,7 +4,6 @@ description: Learn how to update bounce qualification after Italia Online outage
 feature: Deliverability
 hide: yes
 hidefromtoc: yes
-feature: Deliverability
 role: User
 level: Intermediate
 ---
