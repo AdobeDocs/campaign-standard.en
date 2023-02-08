@@ -22,7 +22,7 @@ The mobile applications used to collect location data must be configured by an *
 
 To be able to use Adobe Experience Platform Location Services with mobile applications configured with Adobe Experience Platform SDK, you need to:
 
-1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in the Data Collection UI. Set up your mobile application in Adobe Campaign. See [Install the Places extension](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Add the **[!UICONTROL Places]** extension to your mobile app configuration in the Data Collection UI. Set up your mobile application in Adobe Campaign. See [Install the Places extension](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. Once your extensions are set up, create data elements within the Data Collection UI to retrieve data from these extensions. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) to create your data elements.
 
