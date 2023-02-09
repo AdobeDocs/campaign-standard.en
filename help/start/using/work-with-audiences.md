@@ -119,7 +119,7 @@ Thanks to the workflows and the query editor, you can build audiences that will 
 
 GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU. In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as a Data Processor to include additional capabilities, to help facilitate your readiness as a Data Controller for certain GDPR requests.
 
-Refer to this [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) to learn more about the tools and functionalities that Adobe Campaign provides to help you become GDPR compliant.
+Refer to [this section](../../start/using/privacy.md) to learn more about the tools and functionalities that Adobe Campaign provides to help you become GDPR compliant.
 
 **Read more**
 

@@ -99,4 +99,4 @@ The analysis of the delta is a mandatory step as the publication step will modif
 >
 >This publication updates the **[!UICONTROL profilesAndServicesExt]** API. The **[!UICONTROL profilesAndServices]** API is not updated.
 
-For more information on the Adobe Campaign API, consult the dedicated Adobe Campaign documentation on [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+For more information on Adobe Campaign Standard APIs, refer to [this section](../../api/using/get-started-apis.md).

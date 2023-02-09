@@ -189,7 +189,7 @@ exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
  <tbody> 
   <tr> 
    <td> GDPR: Core Service Integration<br /> </td> 
-   <td> Privacy Core Service Integration allows you to automate your GDPR requests in a multi-solution context through a single JSON API call. <br /> GDPR requests pushed from the Privacy Core Service to all Experience Cloud solutions are now automatically handled by Campaign. <br /> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
+   <td> Privacy Core Service Integration allows you to automate your GDPR requests in a multi-solution context through a single JSON API call. <br /> GDPR requests pushed from the Privacy Core Service to all Experience Cloud solutions are now automatically handled by Campaign. <br /> For more information, refer to the <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push improvements - detailed delivery feedback<br /> </td> 
@@ -291,7 +291,7 @@ _Custom resources_
     <ul> 
      <li> Right to Access: allows the Data Subject to receive a copy of their personal data captured by Data Controllers, potentially including data stored in Adobe Campaign. </li> 
      <li> Right to Delete: entitles the Data Subject to have their personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign. </li> 
-    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 

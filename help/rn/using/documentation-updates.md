@@ -416,7 +416,7 @@ Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/d3
 
 **Other documentation updates coming with the release**
 
-The list of error messages for Adobe Campaign has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Adobe Campaign has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
@@ -498,7 +498,7 @@ A new section on Email Designer recommended updates has been added. [Read more](
 
 A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
 
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -510,7 +510,7 @@ A use case was added on how to call a profile using a composite identification k
 
 A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
  Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -618,7 +618,7 @@ A new technote has been added on how to display an image from an Adobe Campaign 
 
 A new technote on push tracking implementation has been added. [Read more](../../administration/using/push-tracking.md)
 
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 The Triggers - Campaign integration documentation has been updated. [Read more](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -742,7 +742,7 @@ Added a section in the API documentation related to **custom filters**. [Read mo
 
 **New capabilities included in the release**
 
-GDPR: Core Service Integration - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+GDPR: Core Service Integration - [Read more](../../start/using/privacy-management.md)
 
 Push improvements - detailed delivery feedback - [Read more](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -776,7 +776,7 @@ Some pages of the content editor documentation have been merged to offer a more 
 
 **New capabilities included in the release**
 
-EU General Data Protection Regulation (GDPR) - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+EU General Data Protection Regulation (GDPR) - [Read more](../../start/using/privacy.md)
 
 Creative Designer for Email - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -816,7 +816,7 @@ Enrichment activity - enrich data based on previous transitions - [Read more](..
 
 Most URLs for Campaign and Adobe solutions integrations have changed! Check your bookmarks! [Read more](../../integrating/using/get-started-campaign-integrations.md)
 
-The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](../../developing/using/datamodel-introduction.md)
 
 Added information on how to prepare a message in a delivery [Read more](../../sending/using/preparing-the-send.md)
 
@@ -944,7 +944,7 @@ Documentation added on active profiles report. [Read more](../../audiences/using
 
 The [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) documentation has been updated with a troubleshooting section presenting a few tips on the actions you can take upon receiving alerts.
 
-A new getting started guide is available: it presents some of the best practices that can be used to deliver with Adobe Campaign, from creating and targeting to sending and monitoring. [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+A new getting started guide is available: it presents some of the best practices that can be used to deliver with Adobe Campaign, from creating and targeting to sending and monitoring. [Read more](../../sending/using/delivery-best-practices.md)
 
 The follow-up messages documentation has been updated with an improved use case. [Read more](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
