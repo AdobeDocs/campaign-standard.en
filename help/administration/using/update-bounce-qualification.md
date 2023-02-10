@@ -7,8 +7,6 @@ exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 ---
 # Update bounce qualification after an ISP outage {#update-bounce-qualification.md}
 
-If you are NOT running the latest version of Campaign, this section may apply to you. Check with your Adobe Campaign representative.
-
 ## Context
 
 In case of an outage of an ISP, emails sent through Campaign cannot be successfully delivered to their recipient: these emails will be wrongly marked as bounces.
