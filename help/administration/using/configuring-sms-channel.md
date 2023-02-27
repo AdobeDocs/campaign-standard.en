@@ -15,6 +15,10 @@ The steps for creating and modifying an external account are detailed in the [Ex
 
 ## Defining an SMS Routing {#defining-an-sms-routing}
 
+>[!IMPORTANT]
+>
+>Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Refer to the [SMS troubleshooting page](troubleshooting-sms#external-account-conflict).
+
 The external account **[!UICONTROL SMS routing via SMPP]** is provided by default, but it can be useful to add other accounts.
 
 If you want to use the SMPP protocol, you can also create a new external account. For more information on SMS protocol and settings, refer to this [technical note](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
