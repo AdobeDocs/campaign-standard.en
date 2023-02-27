@@ -17,7 +17,7 @@ The steps for creating and modifying an external account are detailed in the [Ex
 
 >[!IMPORTANT]
 >
->Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Refer to the [SMS troubleshooting page](troubleshooting-sms#external-account-conflict).
+>Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Refer to the [SMS troubleshooting page](troubleshooting-sms.md#external-account-conflict).
 
 The external account **[!UICONTROL SMS routing via SMPP]** is provided by default, but it can be useful to add other accounts.
 
