@@ -324,7 +324,7 @@ More detailed information on the Enhanced MTA has been added to core documentati
 
 The section dedicated to archiving with Email BCC has been moved and updated. [Read more](../../sending/using/archiving.md)
 
-The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 

@@ -23,9 +23,9 @@ Adobe Campaign Standard supports the following use cases:
 
 To configure these use cases, you need the following extensions:
 
-* **[!DNL Adobe Campaign Standard]** <br>To install and configure the Campaign Standard extension, see [Configure the Campaign Standard extension in the Data Collection UI](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
-* **[!DNL Mobile Core]**, which is automatically installed. <br>For more information about the Mobile Core extension, see [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
-* **[!DNL Profile]**, which is automatically installed. <br>For more information about the Profile extension, see [Profile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
+* **[!DNL Adobe Campaign Standard]** <br>To install and configure the Campaign Standard extension, see [Configure the Campaign Standard extension in the Data Collection UI](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Mobile Core]**, which is automatically installed. <br>For more information about the Mobile Core extension, see [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
+* **[!DNL Profile]**, which is automatically installed. <br>For more information about the Profile extension, see [Profile](https://developer.adobe.com/client-sdks/documentation/profile/).
 
 ## Register a mobile profile in Campaign Standard {#register-mobile-profile}
 
@@ -36,7 +36,7 @@ In iOS, the following [!DNL Experience Platform APIs] are required:
 * **[!UICONTROL Lifecycle Start]**, when the app is started and when the app is in the foreground.
 * **[!UICONTROL Lifecycle Pause]**, when the app is in the background.
 
-For more information, see [Lifecycle extension in iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+For more information, see [Lifecycle extension in iOS](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 Here is a sample implementation of this use case with iOS:
 
@@ -80,7 +80,7 @@ In Android, the following [!DNL Experience Platform APIs] are required:
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-For more information, see [Lifecycle extension in Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+For more information, see [Lifecycle extension in Android](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 Here is a sample implementation for this use case with Android:
 
@@ -107,7 +107,7 @@ public void onResume() {
 
 In iOS, the following [!DNL Experience Platform SDK] is required:
 
-* **[!UICONTROL setPushIdentifier]** <br>For more information, see [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>For more information, see [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 Here is the sample implementation for this use case with iOS:
 
@@ -122,7 +122,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 In Android, the following [!DNL Experience Platform SDK] is required:
 
-* **[!UICONTROL setPushIdentifier]** <br>For more information, see [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>For more information, see [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 Here is the sample implementation for this use case with Android:
 
@@ -182,7 +182,7 @@ In iOS, the following [!DNL Experience Platform APIs] are required:
 * **[!UICONTROL Lifecycle Start]**, when the app is started and when the app is in the foreground.
 * **[!UICONTROL Lifecycle Pause]**, when the app is in the background.
 
-For more information, see [Lifecycle extension in iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+For more information, see [Lifecycle extension in iOS](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 Here is a sample implementation of this use case with iOS:
 
@@ -225,7 +225,7 @@ In Android, the following [!DNL Experience Platform APIs] are required:
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-For more information, see [Lifecycle extension in Android](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+For more information, see [Lifecycle extension in Android](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 Here is a sample implementation for this use case with Android:
 
@@ -254,7 +254,7 @@ You need to create rules for push notifications tracking postback. For more info
 
 In iOS, the following [!DNL Experience Platform SDK] is required:
 
-* **[!UICONTROL trackAction]**. For more information, see [Track app actions](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**. For more information, see [Track app actions](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Here is a sample implementation of this use case with iOS:
 
@@ -271,7 +271,7 @@ if (deliveryId != nil && broadlogId != nil) {
 In Android, the following [!DNL Experience Platform SDK] is required:
 
 * **[!UICONTROL trackAction]**
-For more information, see [Track app actions](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+For more information, see [Track app actions](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Here is a sample implementation for this use case with Android:
 
@@ -288,7 +288,7 @@ MobileCore.trackAction("tracking", contextData);
 
 In iOS, the following [!DNL Experience Platform SDK] is required:
 
-* **[!UICONTROL trackAction]**. For more information, see [Track app actions](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**. For more information, see [Track app actions](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Here is a sample implementation of this use case with iOS:
 
@@ -301,7 +301,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 In Android, the following [!DNL Experience Platform SDK] is required:
 
 * **[!UICONTROL trackAction]**
-For more information, see [Track app actions](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+For more information, see [Track app actions](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Here is a sample implementation for this use case with Android:
 
@@ -315,8 +315,8 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 To set linkage fields for additional authentication for the profile template that is based on In-App messages in iOS, the following [!DNL Experience Platform SDK] is required:
 
-* Set linkage fields <br>For more information, see [Set linkage fields](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* Reset linkage fields <br>For more information, see [Reset linkage fields](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* Set linkage fields <br>For more information, see [Set linkage fields](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* Reset linkage fields <br>For more information, see [Reset linkage fields](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 
 Here is are sample implementations of this use case with iOS.
 
@@ -338,8 +338,8 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 To set linkage fields for additional authentication for the profile template that is based on In-App messages in Android, the following Experience Platform SDK is required:
 
-* Set linkage fields <br>For more information, see [Set linkage fields](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* Reset linkage fields <br>For more information, see [Reset linkage fields](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* Set linkage fields <br>For more information, see [Set linkage fields](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* Reset linkage fields <br>For more information, see [Reset linkage fields](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
 
 Here is are sample implementations of this use case with Android.
 

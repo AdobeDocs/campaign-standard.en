@@ -49,7 +49,7 @@ Before migrating, you should take into account the following recommendations:
 * Before migration make sure that you are assigned the **[!UICONTROL Organizational unit]** of the mobile application you want to migrate and of the Adobe Experience Platform application you are using for migration.
 * After migration, the application will become an Adobe Experience Platform SDK application. Its changes will be linked to its corresponding tag **[!UICONTROL Mobile Property]**.
 
-1. Create a new **[!UICONTROL Mobile property]** in the Data Collection UI. For more information on this, refer to the [documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Create a new **[!UICONTROL Mobile property]** in the Data Collection UI. For more information on this, refer to the [documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** and open the **[!UICONTROL syncWithLaunch]** workflow. Check if the workflow has ended without error.
 

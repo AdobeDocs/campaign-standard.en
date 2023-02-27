@@ -28,7 +28,7 @@ Since In-App messages are pulled by the SDK from Campaign, we want to provide a 
 * Messages built using Profile template can only get served when the user has logged in the App. 
 * In order to facilitate this secure handshake, mobile app developers should pass additional authentication details using the setLinkageField API. Please note that the linkage field are the ones that are identified as the link between Mobile Profile and CRM Profile while extending appSubscriberRcp table.
 * They should flush the In-App messages stored on the device and resetLinkagefields when the user logs out of the App using resetLinkageField. This ensures that if a different user logs into the App, they do not see the messages meant for previous user.
-* Refer to [Mobile SDK APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) to implement this security mechanism client side.
+* Refer to [Mobile SDK APIs](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) to implement this security mechanism client side.
 
 ## What do I have to do to enable In-App reporting in Campaign? {#enable-inapp-reporting}
 

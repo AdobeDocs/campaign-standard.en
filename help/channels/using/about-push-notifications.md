@@ -58,7 +58,7 @@ Before sending your push notifications, you should:
 
 1. Verify that your user has the necessary permissions in Adobe Campaign Standard and tags in Adobe Experience Platform.
 
-1. In the Data Collection UI , create a mobile property. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. In the Data Collection UI , create a mobile property. For more information, see [Set up a mobile property](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. In the Data Collection UI , install the **[!UICONTROL Adobe Campaign Standard]** extension.
 
@@ -81,7 +81,7 @@ Check out the resources below:
 
 ### What do I have to do to acquire a Push token in Campaign? {#push-token-acquisition}
 
-Ensure that the provisioning team has completed the provisioning of Push channel in Adobe Campaign Standard. Implement setPushIdentifier API from SDK. For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Ensure that the provisioning team has completed the provisioning of Push channel in Adobe Campaign Standard. Implement setPushIdentifier API from SDK. For more on this, refer to this [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Once I have Push token and ECID in Campaign, what else do I need to send a Push notification? {#sending-push}
 
@@ -138,7 +138,7 @@ Mobile App developers need to handle the support for media files in the App. Som
 Follow the steps below:
 
 * Configure a Push tracking postback. Instructions can be found [here](../../administration/using/configuring-a-mobile-application.md).
-* Implement trackAction API from Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
+* Implement trackAction API from Mobile Core. Refer to this [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) for more information.
 
 More detailed instructions can be found in this [page](../../administration/using/push-tracking.md).
 

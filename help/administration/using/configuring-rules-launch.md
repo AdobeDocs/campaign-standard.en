@@ -14,7 +14,7 @@ exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 
 In the Data Collection UI, create data elements and rules to send PII and other data from mobile applications to [!DNL Adobe Campaign Standard].
 
-To ensure that all configuration changes in the Data Collection UI take effect, you must publish these changes. For more information, see [Publishing](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+To ensure that all configuration changes in the Data Collection UI take effect, you must publish these changes. For more information, see [Publishing](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 To create rules in the Data Collection UI, follow these steps:
 
@@ -71,7 +71,7 @@ You must create rules for the following:
 
 >[!NOTE]
 >
->To send PII information from a mobile app to Adobe Campaign, you must implement an SDK API. For more information, go to [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>To send PII information from a mobile app to Adobe Campaign, you must implement an SDK API. For more information, go to [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 To send PII data to [!DNL Adobe Campaign Standard], create a rule in the Data Collection UI:
 

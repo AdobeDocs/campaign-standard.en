@@ -30,7 +30,7 @@ Check out the resources below for more information on the Adobe Experience Platf
 
 Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You must install the corresponding **[!UICONTROL Extension]** via the [!DNL Data Collection UI] to enable the integration.
 
-For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+For more on this, refer to this [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## What capabilities does Adobe Experience Platform SDK integration facilitate in Adobe Campaign? {#aep-capabilities}
 
@@ -59,16 +59,16 @@ To do so, follow the steps below:
 1. Configure a **[!UICONTROL Mobile property]** in [!DNL Launch].
 1. Install Adobe Campaign Standard extension. Note that Adobe Campaign Standard extension also requires **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** and **[!UICONTROL Lifecycle]** extensions which are installed by default in [!DNL Launch].
     * Users should configure Session timeout in **[!UICONTROL Mobile Core]** extension which impacts the frequency of lifecycle events.
-    * Once the extension is configured, users should add appropriate dependencies in the Mobile App using Cocoapods for iOS and Gradle for Android. Follow the directions [here](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+    * Once the extension is configured, users should add appropriate dependencies in the Mobile App using Cocoapods for iOS and Gradle for Android. Follow the directions [here](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
     * Always take the latest versions of the libraries.
-    * In Mobile App, register **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** and **[!UICONTROL Signal]** extensions. Follow the directions [here](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+    * In Mobile App, register **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** and **[!UICONTROL Signal]** extensions. Follow the directions [here](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
     * Once extensions are registered, start ACPCore. For Android, be sure to setApplication onCreate(). Follow the exact instructions provided in Mobile Install Instructions for your Mobile Property in Launch.
-    * Following SDK APIs will also be required. Implement Lifecycle Start and Pause APIs as described [here](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) for Android and here for iOS. 
+    * Following SDK APIs will also be required. Implement Lifecycle Start and Pause APIs as described [here](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) for Android and here for iOS. 
 1. Configure a **[!UICONTROL Mobile Property]** in Adobe Campaign Standard. Follow the procedure [here](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## What do I have to do in order to enrich a Mobile Profile in Campaign? {#enrich-mobile-profile}
 
-You must configure a CollectPII postback (refer to this [page](../../administration/using/configuring-rules-launch.md#pii-postback)) and implement CollectPII API from SDK (refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+You must configure a CollectPII postback (refer to this [page](../../administration/using/configuring-rules-launch.md#pii-postback)) and implement CollectPII API from SDK (refer to this [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## How frequently should a CollectPII call be fired? {#collect-pii}
 
@@ -90,9 +90,9 @@ This is a known issue and happens due to token expiration. You should try login 
 
 Check out the resources below:
 
-* Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/)
-* Getting Started with Launch & Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* Upgrading to Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/documentation/)
+* Getting Started with Launch & Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Upgrading to Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * Github Experience Platform SDK [documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## I am getting error "You do not have write access on delivery" while creating a push notification delivery. {#write-access-error}

@@ -40,9 +40,9 @@ To complete the configuration, complete the following steps:
 
    To complete additional tasks like installing an extension, publishing an app, configuring environments, and so on, you need to set permissions in the product profile.
 
-1. In the Data Collection UI, create a **[!UICONTROL Mobile property]**. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. In the Data Collection UI, create a **[!UICONTROL Mobile property]**. For more information, see [Set up a mobile property](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
 
-1. In the Data Collection UI, click the **[!UICONTROL Extensions]** tab, go to **[!UICONTROL Catalog]**, and search for the **[!UICONTROL Adobe Campaign Standard]** extension. For more information, see [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. In the Data Collection UI, click the **[!UICONTROL Extensions]** tab, go to **[!UICONTROL Catalog]**, and search for the **[!UICONTROL Adobe Campaign Standard]** extension. For more information, see [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. To support location use cases in Campaign Standard, install the **[!UICONTROL Places]** extension in the Data Collection UI. Refer to this [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
@@ -116,7 +116,7 @@ For more information on Sync Mobile app AEPSDK from Launch technical workflow, r
 
 1. For this configuration to take effect, the changes need to be published in the Data Collection UI.
 
-   For more information, see [Publish configuration](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   For more information, see [Publish configuration](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Channel-specific application configuration in Adobe Campaign {#channel-specific-config}
 
@@ -158,7 +158,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 >
 >Deleting your application cannot be reversed.
 
-To delete your application, complete the steps in [Deleting mobile properties](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+To delete your application, complete the steps in [Deleting mobile properties](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 After your application is deleted, in Adobe Campaign, verify whether your application's Property status has been correctly updated to Deleted in Launch.
 
