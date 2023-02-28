@@ -8,11 +8,11 @@ exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 ---
 # Active profiles{#active-profiles}
 
-Campaign functional administrators can access the **[!UICONTROL Customer metrics]** report from **[!UICONTROL Administration > Customer metrics]**. 
+You can access the active profiles details from the **[!UICONTROL Customer metrics]** report. This report is available to Campaign functional administrators only. To access this report, click the Adobe Campaign icon on the top left of the [user interface](../../start/using/interface-description.md#advanced-menu), and browse to **[!UICONTROL Administration > Customer metrics]**. 
 
 ![](assets/audience_customer_metrics.png)
 
-This report is generated every month by the **[!UICONTROL Billing]** technical workflow and displays the number of **active profiles**. 
+This report is generated every month by the **[!UICONTROL Billing]** technical workflow and displays the number of **active profiles**. Learn more about technical workflows in [this page](../../administration/using/technical-workflows.md).
 
 A “Profile” is a record of information representing an end-customer, prospect, or lead. Profiles are considered **active** if they have been targeted by a Campaign delivery within the past 12 months via any channel. 
 
