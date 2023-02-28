@@ -18,6 +18,8 @@ exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 
 The **[!UICONTROL Reconciliation]** activity allows you to link unidentified data to existing resources.
 
+While the **Enrichment** activity allows you to define additional data to process in your workflow (use an **Enrichment** activity to combine data coming from multiple sets, or to create links to a temporary resource), the **Reconciliation** activity allows you to link unidentified data to existing resources. Reconciliation operation implies that the data of the linked dimensions are already in the database. Use cases are available in [this section](#use-cases-reconciliation).
+
 ## Context of use {#context-of-use}
 
 The **[!UICONTROL Reconciliation]** activity is essentially used for Data Management purposes and implies two different use cases:
@@ -36,13 +38,8 @@ The **[!UICONTROL Reconciliation]** activity is essentially used for Data Manage
 
   For example, you can then perform a save audience, database update, etc.
 
-For example, the **[!UICONTROL Reconciliation]** activity can be placed after a load data activity with the aim of importing non-standard data into the database.
+For example, the **[!UICONTROL Reconciliation]** activity can be placed after a load data activity to import non-standard data into the database.
 
-**Related topics:**
-
-* [Use case: Data reconciliation using relations](../../automating/using/reconciliation-using-relations.md)
-* [Use case: Data update using reconciliation](../../automating/using/data-update-reconciliation.md)
-* [Use case: Reconcile a File audience with the database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
@@ -64,3 +61,12 @@ For example, the **[!UICONTROL Reconciliation]** activity can be placed after a 
     * **[!UICONTROL Keep in the outbound population]**: all the data from the inbound transition is kept in the activity's outbound transition.
 
 1. Confirm the configuration of your activity and save your workflow.
+
+
+## Use cases{#use-cases-reconciliation}
+
+Learn how to use this activity in the following use cases:
+
+* [Use case: Data reconciliation using relations](../../automating/using/reconciliation-using-relations.md)
+* [Use case: Data update using reconciliation](../../automating/using/data-update-reconciliation.md)
+* [Use case: Reconcile a File audience with the database](../../automating/using/reconcile-file-audience-with-database.md)
