@@ -20,7 +20,7 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: visit this page regularly to check for updates.
 
-## Release 22.3 - 2022 Fall/Winter Release {#release-22-3-release}
+## Release 23.1 - 2023 Spring/Summer Release {#release-23-1-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
@@ -36,11 +36,11 @@ Detailed information about this release is available in the [Release Notes](rele
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Sept 8, 2022 - early 2023<br /> </td>
+   <td>April 11, 2023 - July 2023<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>Sept 15, 2022 - early 2023<br /> </td>
+   <td>April 18, 2023 - July 2023<br /> </td>
   </tr>
  </tbody>
 </table>
