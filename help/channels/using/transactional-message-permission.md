@@ -11,15 +11,42 @@ level: Intermediate
 ---
 # Transactional messaging permission {#transactional-message-permission}
 
-Currently, users without administrative privileges in Adobe Campaign Standard cannot access, create, or publish events, which is causing issues for business users who need to configure and publish events but lack admin rights. To address this, a new role will be created in Adobe Campaign Standard  that allows non-admin users to handle transactional events. This new role will give standard users the ability to access, create, and publish events, and also allow them to unpublish existing events and messages, bringing them on par with admin users.
+>[!IMPORTANT]
+>
+> Proceed with caution when assigning the MC User role to operators, as this grants them the ability to unpublish events.
 
-The table provided below outlines the impact of this feature on access control:
+Currently, in Adobe Campaign Standard, users without the Administrator security group cannot access, create, or publish events, causing issues for business users who need to configure and publish events but lack Administrator rights.
 
-| Objects | Existing Behavior | Future Behavior |
-|:-----: | :-----: | :----:|
-| Child Deliveries| Child deliveries right now have the Organizational unit of the Message Center agent security group.| Child deliveries will have the Organizational unit of the user who have created the message template|
-|Message Template| Message Template are set with the Organizational unit of the Message Center agents. | Message Template will be made with the the Organizational unit of the user creating them.|
-|Campaign| Campaign right now have the Message Center agents.| The Campaign's org unit will be changed to all so that all the child deliveries that are made can be put into this campaign. Now, all users will have access to see the reporting of the child deliveries albeit they will have read-only access to the deliveries themselves|
-|Transactional Events| Only Administrator role users have access to create and publish events | The rights to create and publish events will be role based so any group can have the access|
-|Transactional Message Template| Message Template are made with org and geo unit all | Message Template will be made with the org unit of the user creating them|
+We have implemented the following improvements to transactional messaging access control:
 
+* A new **[!UICONTROL Role]**, called **MC user**, has been added to allow non-administrator users to manage transactional events. The **MC user** role grants these users the ability to access, create, publish, and unpublish transactional events and messages.
+
+* Child deliveries are now set to the **[!UICONTROL Organizational unit]** of the user who creates the message template, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
+
+* The **Message Center Execution (mcExec)** campaign is now set to the organizational unit **All** allowing all users to view reports of child deliveries.
+
+To assign the **MC user** role:
+
+1. Create a new **[!UICONTROL Security group]** or update an existing one. [Learn more](../../administration/using/managing-groups-and-users.md).
+
+1. Click **[!UICONTROL Create element]** to assign roles to your security group.
+
+   ![](assets/event_access_1.png)
+
+1. Select the MC user **[!UICONTROL Role]** and click **[!UICONTROL Confirm]**.
+
+   ![](assets/event_access_2.png)
+
+1. Once configured, click **[!UICONTROL Save]**.
+
+Users linked to this **[!UICONTROL Security group]** can now access, create, and publish Transactional events and messages.
+
+The table below outlines the impact of this feature on access control:
+
+| Objects | Before this change | After this change |
+|:-: | :--: | :-:|
+|Message Center Execution (mcExec) campaign| **Message Center Execution (mcExec)** campaign is set to the Organizational unit of the **Message Center agent (mcExec)** security group.| **Message Center Execution (mcExec)** campaign is set to the Organizational unit **All** to allow all child deliveries to be associated with this campaign.</br> All users will be able to view reports of the child deliveries, but will only have read-only access to the delivery content.|
+| Child Deliveries| Child deliveries are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group.| Child deliveries will be set to the **Organizational unit** of the user creating the message template.|
+|Message Template| Message Templates are set to the **Organizational unit** of the**Message Center agent (mcExec)** security group. | Message Templates will be set to the the **Organizational unit** of the user creating them.|
+|Transactional Events| Only users within the **Administrator** security group can create and publish events. | The **MC user** role allows users to create and publish events.|
+|Transactional Message Templates| Message templates are set to the Organizational unit **All**. | Message Template are set to the **Organizational unit** of the user creating them.|
