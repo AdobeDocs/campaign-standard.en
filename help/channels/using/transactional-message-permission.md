@@ -11,10 +11,6 @@ level: Intermediate
 ---
 # Transactional messaging permission {#transactional-message-permission}
 
->[!IMPORTANT]
->
-> Proceed with caution when assigning the MC User role to operators, as this grants them the ability to unpublish events.
-
 Currently, in Adobe Campaign Standard, users without the Administrator security group cannot access, create, or publish events, causing issues for business users who need to configure and publish events but lack Administrator rights.
 
 We have implemented the following improvements to transactional messaging access control:
@@ -23,7 +19,7 @@ We have implemented the following improvements to transactional messaging access
 
 * Child deliveries are now set to the **[!UICONTROL Organizational unit]** of the user who creates the message template, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
 
-* The **Message Center Execution (mcExec)** campaign is now set to the organizational unit **All** allowing all users to view reports of child deliveries.
+* The default **Message Center Execution (mcExec)** campaign, which gathers the transactional messaging child deliveries, is now set to the organizational unit **All** allowing all users to view reports of child deliveries.
 
 To assign the **MC user** role:
 
@@ -34,6 +30,10 @@ To assign the **MC user** role:
    ![](assets/event_access_1.png)
 
 1. Select the MC user **[!UICONTROL Role]** and click **[!UICONTROL Confirm]**.
+
+    >[!IMPORTANT]
+    >
+    > Proceed with caution when assigning the MC User role to operators, as this grants them the ability to unpublish events.
 
    ![](assets/event_access_2.png)
 
