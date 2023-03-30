@@ -5,6 +5,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+hide: yes
+hidefromtoc: yes
 feature: Transactional Messaging
 role: User
 level: Intermediate

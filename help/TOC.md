@@ -115,6 +115,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
   + Transactional messaging {#transactional-messaging}
        + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
        + [Best practices and limitations](channels/using/transactional-messaging-limitations.md)
+       + [Transactional messaging permission updates](channels/using/transactional-message-permission.md)
        + Event configuration {#event-configuration}
           + [Configuring a transactional event](channels/using/configuring-transactional-event.md)
           + [Publishing a transactional event](channels/using/publishing-transactional-event.md)
