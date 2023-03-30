@@ -17,7 +17,7 @@ We have implemented the following improvements to transactional messaging access
 
 * A new **[!UICONTROL Role]**, called **MC user**, has been added to allow non-administrator users to manage transactional events. The **MC user** role grants these users the ability to access, create, publish, and unpublish transactional events and messages.
 
-* Child deliveries are now set to the **[!UICONTROL Organizational unit]** of the user who creates the message template, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
+* Child deliveries are now set to the **[!UICONTROL Organizational unit]** of the security group to which the user creating the message template belongs, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
 
 * The default **Message Center Execution (mcExec)** campaign, which gathers the transactional messaging child deliveries, is now set to the organizational unit **All** allowing all users to view reports of child deliveries.
 
@@ -46,7 +46,7 @@ The table below outlines the impact of this feature on access control:
 | Objects | Before this change | After this change |
 |:-: | :--: | :-:|
 |Message Center Execution (mcExec) campaign| **Message Center Execution (mcExec)** campaign is set to the Organizational unit of the **Message Center agent (mcExec)** security group.| **Message Center Execution (mcExec)** campaign is set to the Organizational unit **All** to allow all child deliveries to be associated with this campaign.</br> All users will be able to view reports of the child deliveries, but will only have read-only access to the delivery content.|
-| Child Deliveries| Child deliveries are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group.| Child deliveries will be set to the **Organizational unit** of the user creating the message template.|
-|Message Template| Message Templates are set to the **Organizational unit** of the**Message Center agent (mcExec)** security group. | Message Templates will be set to the the **Organizational unit** of the user creating them.|
+| Child Deliveries| Child deliveries are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group.| Child deliveries will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
+|Message Template| Message Templates are set to the **Organizational unit** of the**Message Center agent (mcExec)** security group. | Message Templates will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
 |Transactional Events| Only users within the **Administrator** security group can create and publish events. | The **MC user** role allows users to create and publish events.|
-|Transactional Message Templates| Message templates are set to the Organizational unit **All**. | Message Template are set to the **Organizational unit** of the user creating them.|
+|Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
