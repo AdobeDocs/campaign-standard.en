@@ -1,7 +1,21 @@
+---
+title: Early Release Notes
+description: Early Release Notes
+feature: Overview
+role: User
+level: Beginner
+hide: yes
+hidefromtoc: yes
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+---
+
+# Early release notes {#e-new-release}
+
+This page describes improvements and fixes included in the next Campaign Standard release.
 >[!CAUTION]
 >
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
->
+
 ## Release 22.3.2 {#dec-22}
 
 ### Security update{#rn-security2}
