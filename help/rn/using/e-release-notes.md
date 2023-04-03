@@ -30,7 +30,7 @@ This page describes improvements and fixes included in the next Campaign Standar
 * Fixed an issue which could lead to a timeout error when displaying the **Hot click** report. (CAMP-51582)
 * Fixed an issue which could prevent you from using the integration with the **Places** service. (CAMP-51923)
 * Fixed an issue which could prevent the workflow scheduler from working correctly. (CAMP-52003)
-* Fixed an issue which prevented the breakdown details from dislaying when viewing the PDF version of a custom dynamic report with a large volume of data. (CAMP-52178)
+* Fixed an issue which prevented the breakdown details from displaying when viewing the PDF version of a custom dynamic report with a large volume of data. (CAMP-52178)
 * Fixed an issue which could display an error when accessing reports. (CAMP-52500)
 * Fixed an issue which wrongly applied the "Limit MTA instances for this account" SMS connector parameter to all channels instead of applying only to SMS. (CAMP-52640)
 
