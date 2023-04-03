@@ -22,7 +22,6 @@ This page describes improvements and fixes included in the next Campaign Standar
 ### Improvements {#e-rn-improvements}
 
 * The SMS messaging service has been modernized to provide an enhanced compatibility and an improved stability. (CAMP-52217)
-* (CAMP-52640)
 * A new out-of-the-box workflow is available. When importing a target mapping from one instance to another, the **Reporting Enrichment Creation Workflow** automatically imports the corresponding reporting enrichment entries. (CAMP-52452)
 
 ### Patches{#e-rn-patches}
