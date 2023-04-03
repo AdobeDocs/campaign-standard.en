@@ -16,24 +16,25 @@ This page describes improvements and fixes included in the next Campaign Standar
 >[!CAUTION]
 >
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
->
 
-## Release 22.3.2 {#dec-22}
+## Release 23.1 - 2023 Spring/Summer Release {#apr-23}
 
-### Security update{#rn-security2}
+### Improvements {#e-rn-improvements}
 
-This release comes with the following security upgrade: Debian has been upgraded to v11.0.
+* The SMS messaging service has been modernized to provide an enhanced compatibility and an improved stability. (CAMP-52217)
+* (CAMP-52640)
+* A new out-of-the-box workflow is available. When importing a target mapping from one instance to another, the **Reporting Enrichment Creation Workflow** automatically imports the corresponding reporting enrichment entries. (CAMP-52452)
 
-## Release 22.3 - Fall/Winter 2022 {#sept-22}
+### Patches{#e-rn-patches}
 
-### Security update{#rn-security}
+* Fixed an issue which could lead to a timeout error when displaying the **Hot click** report. (CAMP-51582)
+* Fixed an issue which could prevent you from using the integration with the **Places** service. (CAMP-51923)
+* Fixed an issue which could prevent the workflow scheduler from working correctly. (CAMP-52003)
+* Fixed an issue which prevented the breakdown details from dislaying when viewing the PDF version of a custom dynamic report with a large volume of data. (CAMP-52178)
+* Fixed an issue which could display an error when accessing reports. (CAMP-52500)
+* Fixed an issue which wrongly applied the "Limit MTA instances for this account" SMS connector parameter to all channels instead of applying only to SMS. (CAMP-52640)
 
-This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
 
-### Fixes{#e-rn-fixes}
 
-* Fixed an issue with scheduled reports, which were triggered an hour prior to the scheduled timing. (CAMP-51502)
-* Fixed an issue on the Delivery indicators in the Delivery dashboard which did not match Sending Logs (nms:broadLogRcp). (CAMP-51127)
-* Fixed an issue which prevented custom resources extension with ACS Connector (Prime Offering). (CAMP-51033)
-* Improved the publication process for Privacy requests responses to avoid delay. (CAMP-50613)
+
 
