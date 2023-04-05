@@ -21,8 +21,9 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ### Improvements {#e-rn-improvements}
 
-* The SMS messaging service has been modernized to provide an enhanced compatibility and an improved stability. (CAMP-52217)
-* A new out-of-the-box workflow is available. When importing a target mapping from one instance to another, the **Reporting Enrichment Creation Workflow** automatically imports the corresponding reporting enrichment entries. (CAMP-52452)
+* The Push messaging service has been modernized to optimize maintenance. (CAMP-47959)
+* The SMS messaging service has been modernized to provide an improved stability. (CAMP-52217)
+* The out-of-the-box **Reporting Enrichment Creation Workflow** has been added. After importing a target mapping from one instance to another, simply run the workflow to import the corresponding reporting enrichment entries. (CAMP-52452)
 
 ### Patches{#e-rn-patches}
 
@@ -32,8 +33,4 @@ This page describes improvements and fixes included in the next Campaign Standar
 * Fixed an issue which prevented the breakdown details from displaying when viewing the PDF version of a custom dynamic report with a large volume of data. (CAMP-52178)
 * Fixed an issue which could display an error when accessing reports. (CAMP-52500)
 * Fixed an issue which wrongly applied the **Limit MTA instances for this account** SMS connector parameter to all channels instead of applying only to SMS. (CAMP-52640)
-
-
-
-
 
