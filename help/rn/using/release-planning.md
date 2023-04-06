@@ -24,23 +24,23 @@ All release dates are subject to change: visit this page regularly to check for 
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release is available in the [Release Notes](release-notes.md).
+Detailed information about this release is available in the [Release Notes](e-release-notes.md).
 
 <table>
  <thead>
   <tr>
-   <th> Environments<br /> </th>
-   <th> Dates<br /> </th>
+   <th> Environments </th>
+   <th> Dates </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>Stage<br /> </td>
-   <td>April 11, 2023 - July 2023<br /> </td>
+   <td>Stage </td>
+   <td>April 11, 2023 - July 2023 </td>
   </tr>
   <tr>
-   <td>Production<br /> </td>
-   <td>April 18, 2023 - July 2023<br /> </td>
+   <td>Production </td>
+   <td>April 18, 2023 - July 2023 </td>
   </tr>
  </tbody>
 </table>
