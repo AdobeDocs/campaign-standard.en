@@ -19,7 +19,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 * The SMS messaging service has been improved to provide a better stability. (CAMP-52217)
 * Adobe has made many accessibility fixes to improve the application's overall ease of use. Here are a few examples of accessibility improvements:
     * The keyboard accessibility of the interface has been optimized in many screens.
-    * The application has been enchanced for touchscreen users. 
+    * The application has been enhanced for touchscreen users. 
     * The color of several items across the interface has been changed to improve visibility.
 
 ### Other changes {#e-rn-changes}
