@@ -8,6 +8,25 @@ exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 ---
 # Release Notes 2022{#release-notes-2022}
 
+## Release 22.3.2 {#feb-23}
+
+### Security update{#rn-security2}
+
+This release comes with the following security upgrade: Debian has been upgraded to v11.0.
+
+## Release 22.3 - Fall/Winter 2022 {#sept-22}
+
+### Security update{#rn-security}
+
+This release comes with the following security upgrade: Apache Tomcat has been upgraded from v7.0 to v8.0.
+
+### Fixes{#rn-fixes}
+
+* Fixed an issue with scheduled reports, which were triggered an hour prior to the scheduled timing. (CAMP-51502)
+* Fixed an issue on the Delivery indicators in the Delivery dashboard which did not match Sending Logs (nms:broadLogRcp). (CAMP-51127)
+* Fixed an issue which prevented custom resources extension with ACS Connector (Prime Offering). (CAMP-51033)
+* Improved the publication process for Privacy requests responses to avoid delay. (CAMP-50613)
+
 ## Release 22.2 - June 2022 {#june-2022}
 
 **Improvements**
