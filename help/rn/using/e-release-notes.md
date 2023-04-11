@@ -20,11 +20,18 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ### Improvements {#e-rn-improvements}
 
-* The Push messaging service has been modernized to optimize maintenance. (CAMP-47959)
-* The SMS messaging service has been modernized to provide an improved stability. (CAMP-52217)
+* The Push messaging service has been modernized to improve support. (CAMP-47959)
+* The SMS messaging service has been improved to provide a better stability. (CAMP-52217)
+* Adobe has made many accessibility fixes to improve the application's overall ease of use. Here are a few examples of accessibility improvements:
+    * The keyboard accessibility of the interface has been optimized in many screens.
+    * The application has been enchanced for touchscreen users. 
+    * The color of several items across the interface has been changed to improve visibility.
+
+### Other changes {#e-rn-changes}
+
 * The out-of-the-box **Reporting Enrichment Creation Workflow** has been added. After importing a target mapping from one instance to another, simply run the workflow to import the corresponding reporting enrichment entries. (CAMP-52452)
 
-### Patches{#e-rn-patches}
+### Issues fixed{#e-rn-patches}
 
 * Fixed an issue which could lead to a timeout error when displaying the **Hot click** report. (CAMP-51582)
 * Fixed an issue which could prevent you from using the integration with the **Places** service. (CAMP-51923)
