@@ -4,12 +4,13 @@ description: Learn about permissions linked to transactional events.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: 
+context-tags: null
 hide: yes
 hidefromtoc: yes
 feature: Transactional Messaging
 role: User
 level: Intermediate
+exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 ---
 # Transactional messaging permission {#transactional-message-permission}
 
