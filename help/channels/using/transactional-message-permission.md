@@ -53,3 +53,18 @@ The table below outlines the impact of this feature on access control:
 |Message Template| Message Templates are set to the **Organizational unit** of the**Message Center agent (mcExec)** security group. | Message Templates will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
 |Transactional Events| Only users within the **Administrator** security group can create and publish events. | The **MC user** role allows users to create and publish events.|
 |Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
+
+## Duplicate transactional events
+
+When the FEATUREFLAG_MC_DUPLICATE_EVENT feature flag is enabled, a user with the **Administrator** security group ([Functional administrators](../../administration/using/users-management.md#functional-administrators)?) can duplicate an event configuration if it has been published.
+
+=> Is the FEATUREFLAG_MC_DUPLICATE_EVENT feature flag enabled for all customers or is it only on demand? If so, what's the process to request enablement? Shall we mention this process in core documentation and/or Release Notes?
+
+If the feature flag FEATUREFLAT_MC_NONADMINACCESS is also turned on, non-administrator users with the **MC user** role can also access event configurations, but their permission is determined by the **Organizational unit** of the current user and the **Organizational unit** of the event configuration's creator.
+If the user's **Organizational unit** and the creator's **Organizational unit** are in the same **Organizational unit** hierarchy, duplication is allowed.
+
+For example:
+* If an event configuration is created by a user whose **Organizational unit** is 'France Sales', another user whose **Organizational unit** is 'Paris Sales' will be able to duplicate the event configuration as 'Paris Sales' is part of the 'France Sales' **Organizational unit**.
+* However, a user whose **Organizational unit** is 'San Francisco Sales' will not be able to do so as 'San Francisco Sales' is under the 'US Sales' **Organizational unit**, which is separate from the 'France Sales' **Organizational unit**.
+
+=> Is the FEATUREFLAT_MC_NONADMINACCESS feature flag enabled for Microsoft only? Can it be enabled for other customers on demand? If so, what's the process to request enablement? Shall we mention this process in core documentation and/or Release Notes?
