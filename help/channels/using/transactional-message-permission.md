@@ -32,9 +32,9 @@ We have implemented the following improvements to transactional messaging access
 
 * Users with the **MC user** role can now duplicate published events if they are in the same **Organizational unit** as the user who created the event. <!--Does it mean they can duplicate an event created by a user form the Admin security group?-->
 
-## Transactional event permissions?
+## Assign the MC user role {#assign-role}
 
-To assign the **MC user** role:
+To assign the **MC user** role to your security group:
 
 1. Create a new **[!UICONTROL Security group]** or update an existing one. [Learn more](../../administration/using/managing-groups-and-users.md).
 
@@ -53,6 +53,20 @@ To assign the **MC user** role:
 1. Once configured, click **[!UICONTROL Save]**.
 
 Users linked to this **[!UICONTROL Security group]** can now access, create, and publish Transactional events and messages.
+
+## Assign the MC user security group {#assign-group}
+
+1. In the Admin Console, select the **Products** tab.
+
+1. Select **Adobe Campaign Standard** then choose your instance.
+
+1. From the **Product profiles** list, select the **MC user** group.
+
+1. Click **Add user** and enter the name, user group, or email address of the profile you want to add to this product profile.
+
+1. Once added, click **Save**.
+
+Users added to this **[!UICONTROL Security group]** can now access, create, and publish Transactional events and messages.
 
 ## Duplicate transactional events
 
