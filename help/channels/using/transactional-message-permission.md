@@ -18,19 +18,17 @@ exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 >
 >These features are currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-Currently, in Adobe Campaign Standard, users without the Administrator security group cannot access, create, or publish transactional events, causing issues for business users who need to configure and publish events but lack Administrator rights.
-
-Also, it is not possible to duplicate transactional events.
+Currently, in Adobe Campaign Standard, users without the Administrator security group cannot access, create, or publish transactional events, causing issues for business users who need to configure and publish events but lack Administrator rights. Also, it is not possible to duplicate transactional events.
 
 We have implemented the following improvements to transactional messaging access control:
 
 * A new **[!UICONTROL Role]**, called **MC user**, has been added to allow non-administrator users to manage transactional events. The **MC user** role grants these users the ability to access, create, publish, and unpublish transactional events and messages.
 
-* Child deliveries are now set to the **[!UICONTROL Organizational unit]** of the security group to which the user creating the message template belongs, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
+* Execution deliveries (technical messages that are created each time a transactional message is edited and published again, or once a month by default) are now set to the **[!UICONTROL Organizational unit]** of the security group to which the user creating the message template belongs, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
 
-* The default **Message Center Execution (mcExec)** campaign, which gathers the transactional messaging child deliveries, is now set to the organizational unit **All** allowing all users to view reports of child deliveries.
+* The default **Message Center Execution (mcExec)** campaign, which gathers the transactional messaging execution deliveries, is now set to the organizational unit **All** allowing all users to view reports of execution deliveries.
 
-* Users with the **MC user** role can now duplicate published events if they are in the same **Organizational unit** as the user who created the event. <!--Does it mean they can duplicate an event created by a user form the Admin security group?-->
+* Users with the **MC user** role can now duplicate published events if they are in the same **Organizational unit** as the user who created the event.
 
 ## Assign the MC user role {#assign-role}
 
@@ -68,11 +66,7 @@ Users linked to this **[!UICONTROL Security group]** can now access, create, and
 
 Users added to this **[!UICONTROL Security group]** can now access, create, and publish Transactional events and messages.
 
-## Duplicate transactional events
-
->[!AVAILABILITY]
->
->This feature is currently only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+## Duplicate transactional events {#duplicate-transactional-events}
 
 A user with the **Administrator** security group<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> can now duplicate an event configuration if the event has been published.
 
@@ -85,7 +79,7 @@ For example:
 
 * However, a user whose **Organizational unit** is 'San Francisco Sales' will not be able to do so as 'San Francisco Sales' is under the 'US Sales' **Organizational unit**, which is separate from the 'France Sales' **Organizational unit**.
 
-## Impacts?
+## Impacts {#impacts}
 
 The table below outlines the impact of these improvements:
 
