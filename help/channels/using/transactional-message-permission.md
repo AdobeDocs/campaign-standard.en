@@ -68,7 +68,7 @@ Users added to this **[!UICONTROL Security group]** can now access, create, and 
 
 ## Duplicate transactional events {#duplicate-transactional-events}
 
-A user with the **Administrator** security group<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> can now duplicate an event configuration if the event has been published.
+A user with the **Administrator** security group<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> can now duplicate an event configuration if the event has been **published**.
 
 Moreover, non-administrator users with the **MC user** role can now access event configurations, but their permission to duplicate is determined by the **Organizational unit** they belong to. If the current user and the user who created the event belong to the same organizational unit hierarchy, duplication is allowed.
 
@@ -77,6 +77,32 @@ For example, if a user belonging to the 'France Sales' organizational unit creat
 * Another user whose organizational unit is 'Paris Sales' will be able to duplicate this event, because 'Paris Sales' is part of the 'France Sales' organizational unit.
 
 * However, a user whose organizational unit is 'San Francisco Sales' will not be able to do so, because 'San Francisco Sales' is under the 'US Sales' organizational unit, which is separate from the 'France Sales' organizational unit.
+
+To duplicate an event configuration, follow the steps below.
+
+1. Click the **Adobe** logo, in the top-left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+
+1. Hover the mouse over the published event configuration of your choice and select the **[!UICONTROL Duplicate element]** button.
+
+   ![](assets/message-center_duplicate-button.png)
+
+   >[!CAUTION]
+   >
+   >You cannot duplicated an event configuration that is not published. [Learn more](publishing-transactional-event.md)
+
+1. The duplicated event automatically displays. It contains the same configuration that you defined for the original event, but it has the **[!UICONTROL Draft]** status.
+
+   ![](assets/message-center_duplicated-draft-event.png)
+
+1. The corresponding transactional message is automatically created. To access it, go to **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+
+   ![](assets/message-center_duplicated-message.png)
+
+1. Open the newly duplicated message. It contains the same design you defined for the original message, but it has the **[!UICONTROL Draft]** status, even if the original transactional message was published.
+
+   ![](assets/message-center_duplicated-draft-message.png)
+
+1. You can now edit and personalize this message. See [Editing transactional messages](../../channels/using/editing-transactional-message.md).
 
 ## Impacts {#impacts}
 
