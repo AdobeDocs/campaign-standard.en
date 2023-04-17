@@ -44,7 +44,7 @@ To get started, create the event corresponding to your needs.
 
 >[!NOTE]
 >
->The number of transactinoal events can have an impact on your platform. To ensure optimal performance, make sure you delete unused events. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>The number of transactional events can have an impact on your platform. To ensure optimal performance, make sure you delete unused events. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Defining the event attributes {#defining-the-event-attributes}
 
