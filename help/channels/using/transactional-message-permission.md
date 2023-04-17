@@ -22,13 +22,13 @@ Currently, in Adobe Campaign Standard, users without the Administrator security 
 
 We have implemented the following improvements to transactional messaging access control:
 
-* A new **[!UICONTROL Role]**, called **MC user**, has been added to allow non-administrator users to manage transactional events. The **MC user** role grants these users the ability to access, create, publish, and unpublish transactional events and messages.
+* A new **[!UICONTROL Role]**, called **MC user**, has been added to allow non-administrator users to manage transactional event configuration. The **MC user** role grants these users the ability to access, create, publish, and unpublish transactional events and messages.
 
-* Execution deliveries (technical messages that are created each time a transactional message is edited and published again, or once a month by default) are now set to the **[!UICONTROL Organizational unit]** of the security group to which the user creating the message template belongs, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
+* Execution deliveries (i.e. technical messages that are created each time a transactional message is edited and published again, or once a month by default) are now set to the **[!UICONTROL Organizational unit]** of the security group to which the user creating the event belongs, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
 
 * The default **Message Center Execution (mcExec)** campaign, which gathers the transactional messaging execution deliveries, is now set to the organizational unit **All** allowing all users to view reports of execution deliveries.
 
-* Users with the **MC user** role can now duplicate published events if they are in the same **Organizational unit** as the user who created the event.
+* **Administrators** can now duplicate published transactional events, as well as users with the **MC user** role provided they are in the same **Organizational unit** hierarchy as the user who created the event.
 
 ## Assign the MC user role {#assign-role}
 
@@ -50,7 +50,7 @@ To assign the **MC user** role to your security group:
 
 1. Once configured, click **[!UICONTROL Save]**.
 
-Users linked to this **[!UICONTROL Security group]** can now access, create, and publish Transactional events and messages.
+Users linked to this **[!UICONTROL Security group]** can now access, create, and publish transactional events and messages.
 
 ## Assign the MC user security group {#assign-group}
 
@@ -64,20 +64,19 @@ Users linked to this **[!UICONTROL Security group]** can now access, create, and
 
 1. Once added, click **Save**.
 
-Users added to this **[!UICONTROL Security group]** can now access, create, and publish Transactional events and messages.
+Users added to this **[!UICONTROL Security group]** can now access, create, and publish transactional events and messages.
 
 ## Duplicate transactional events {#duplicate-transactional-events}
 
 A user with the **Administrator** security group<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> can now duplicate an event configuration if the event has been published.
 
-Moreover, non-administrator users with the **MC user** role can also access event configurations, but their permission is determined by the **Organizational unit** of the current user and the **Organizational unit** of the event configuration's creator.
-If the user's **Organizational unit** and the creator's **Organizational unit** are in the same **Organizational unit** hierarchy, duplication is allowed.
+Moreover, non-administrator users with the **MC user** role can now access event configurations, but their permission to duplicate is determined by the **Organizational unit** they belong to. If the current user and the user who created the event belong to the same organizational unit hierarchy, duplication is allowed.
 
-For example:
+For example, if a user belonging to the 'France Sales' organizational unit creates an event configuration:
 
-* If an event configuration is created by a user whose **Organizational unit** is 'France Sales', another user whose **Organizational unit** is 'Paris Sales' will be able to duplicate the event configuration as 'Paris Sales' is part of the 'France Sales' **Organizational unit**.
+* Another user whose organizational unit is 'Paris Sales' will be able to duplicate this event, because 'Paris Sales' is part of the 'France Sales' organizational unit.
 
-* However, a user whose **Organizational unit** is 'San Francisco Sales' will not be able to do so as 'San Francisco Sales' is under the 'US Sales' **Organizational unit**, which is separate from the 'France Sales' **Organizational unit**.
+* However, a user whose organizational unit is 'San Francisco Sales' will not be able to do so, because 'San Francisco Sales' is under the 'US Sales' organizational unit, which is separate from the 'France Sales' organizational unit.
 
 ## Impacts {#impacts}
 
@@ -85,9 +84,9 @@ The table below outlines the impact of these improvements:
 
 | Objects | Before this change | After this change |
 |:-: | :--: | :-:|
-|Message Center Execution (mcExec) campaign| **Message Center Execution (mcExec)** campaign is set to the Organizational unit of the **Message Center agent (mcExec)** security group.| **Message Center Execution (mcExec)** campaign is set to the Organizational unit **All** to allow all child deliveries to be associated with this campaign.</br> All users will be able to view reports of the child deliveries, but will only have read-only access to the delivery content.|
-| Child Deliveries| Child deliveries are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group.| Child deliveries will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
-|Message Template| Message Templates are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group. | Message Templates will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
 |Transactional Events| Only users within the **Administrator** security group can create and publish events. | The **MC user** role allows users to create and publish events.|
-|Published Transactional Events| Duplication is not possible for any user. | <ul><li>Users with the **Administrator** security group can duplicate published events.</li> <li>Users with the **MC user** role can duplicate published events if they are in the same **Organizational unit** as the user who created the event.</li></ul>|
-|Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|
+|Transactional Messages| Transactional messages are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group. | Transactional messages are set to the **Organizational unit** of the security group to which the user creating the transactional event/message belongs.|
+| Execution Deliveries| Execution deliveries are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group.| Execution deliveries are set to the **Organizational unit** of the security group to which the user creating the transactional event/message belongs.|
+|Message Center Execution (mcExec) campaign| **Message Center Execution (mcExec)** campaign is set to the Organizational unit of the **Message Center agent (mcExec)** security group.| **Message Center Execution (mcExec)** campaign is set to the Organizational unit **All** to allow all execution deliveries to be associated with this campaign.</br> All users are able to view reports of the execution deliveries, but only have read-only access to the delivery content.|
+|Published Transactional Events| Duplication is not possible for any user. | <ul><li>Users with the **Administrator** security group can duplicate published events.</li> <li>Users with the **MC user** role can duplicate published events provided they are in the same **Organizational unit** as the user who created the event.</li></ul>|
+<!--|Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.|-->
