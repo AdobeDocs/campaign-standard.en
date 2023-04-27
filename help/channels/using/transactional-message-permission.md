@@ -26,8 +26,6 @@ We have implemented the following improvements to transactional messaging access
 
 * Execution deliveries (i.e. technical messages that are created each time a transactional message is edited and published again, or once a month by default) are now set to the **[!UICONTROL Organizational unit]** of the security group to which the user creating the event belongs, rather than being restricted to the **[!UICONTROL Organizational unit]** of the **Message Center agent (mcExec)** security group.
 
-* The default **Message Center Execution (mcExec)** campaign, which gathers the transactional messaging execution deliveries, is now set to the organizational unit **All** allowing all users to view reports of execution deliveries.
-
 * **Administrators** can now duplicate published transactional events, as well as users with the **MC user** role provided they are in the same **Organizational unit** hierarchy as the user who created the event.
 
 ## Assign the MC user role {#assign-role}
@@ -113,7 +111,6 @@ The table below outlines the impact of these improvements:
 |Transactional Events| Only users within the **Administrator** security group can create and publish events. | The **MC user** role allows users to create and publish events.|
 |Transactional Messages| Transactional messages are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group. | Transactional messages are set to the **Organizational unit** of the security group to which the user creating the transactional event/message belongs.|
 | Execution Deliveries| Execution deliveries are set to the **Organizational unit** of the **Message Center agent (mcExec)** security group.| Execution deliveries are set to the **Organizational unit** of the security group to which the user creating the transactional event/message belongs.|
-|Message Center Execution (mcExec) campaign| **Message Center Execution (mcExec)** campaign is set to the Organizational unit of the **Message Center agent (mcExec)** security group.| **Message Center Execution (mcExec)** campaign is set to the Organizational unit **All** to allow all execution deliveries to be associated with this campaign.</br> All users are able to view reports of the execution deliveries, but only have read-only access to the delivery content.|
 |Published Transactional Events| Duplication is not possible for any user. | <ul><li>Users with the **Administrator** security group can duplicate published events.</li> <li>Users with the **MC user** role can duplicate published events provided they are in the same **Organizational unit** hierarchy as the user who created the event.</li></ul>|
 
 
