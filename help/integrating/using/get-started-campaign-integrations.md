@@ -91,7 +91,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Allows to send emails, push notifications and SMS using the Adobe Campaign Standard’s Transactional Messaging capabilities in the context of Adobe Journey Orchestration, through an out-of-the-box action.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Working with Adobe Journey Orchestration and Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Working with Adobe Journey Orchestration and Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

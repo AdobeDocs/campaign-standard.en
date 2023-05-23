@@ -121,4 +121,4 @@ Adobe Campaign Standard strives to provide an ever-increasing degree of accessib
 
 We encourage you to use the [Adobe Accessibility Feedback Form](https://www.adobe.com/accessibility/feedback.html) to send us improvement suggestions and accessibility issues that you run into.
 
-You can also refer to [Adobe Campaign Standard release notes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en#release-notes) to follow the latest improvements and features.
+You can also refer to [Adobe Campaign Standard release notes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes) to follow the latest improvements and features.

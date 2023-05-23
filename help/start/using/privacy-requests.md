@@ -40,7 +40,7 @@ It is therefore your responsibility as a Data Controller to confirm the identity
 
 Before creating Privacy requests, define the namespace you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database. Out-of-the-box, two namespaces are available: email and mobile phone. If you need a different namespace (a profile custom field, for example), follow these steps.
 
-Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=en#privacy) on how to create a namespace.
+Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) on how to create a namespace.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
     ![](assets/privacy-create-new-namespace.png)
 
-    To learn more about identity namespaces, see the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en) documentation.
+    To learn more about identity namespaces, see the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) documentation.
 
 1. One Identity Service Namespace is mapped to one namespace in Campaign. You must specify how the namespace will be reconciled in Campaign.
 
@@ -86,13 +86,13 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 The Privacy Core Service Integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
 
-Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) documentation to learn how to create Privacy requests from the Privacy Core Service.
+Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) documentation to learn how to create Privacy requests from the Privacy Core Service.
 
 >[!IMPORTANT]
 >
->To submit a request using the custom namespace type, leverage the [JSON method](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target="_blank"} to make the request.
+>To submit a request using the custom namespace type, leverage the [JSON method](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} to make the request.
 >
->Only use the [Privacy user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target="_blank"} to submit requests using the standard namespace type.
+>Only use the [Privacy user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} to submit requests using the standard namespace type.
 
 Each Privacy core service job is split into multiple Privacy requests in Campaign based on how many namespaces are being used, one request corresponding to one namespace. Also, one job can be run on multiple instances. Therefore, multiple files are created for one job. For example, if a request has two namespaces and is running on three instances, then a total of six files are sent. One file per namespace and instance.
 
@@ -120,7 +120,7 @@ Here is the list of out-of-the-box resources that are taken into account when pe
 
 If you created custom resources that have a link to the profiles resource (own type), they will also be taken into account. For example, if you have a transaction resource linked to the profiles resource and a transaction details resource linked to the transaction resource, they will be both taken into account.
 
-Also refer to [this tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=en#privacy) on how to modify custom resources.
+Also refer to [this tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) on how to modify custom resources.
 
 For this to work, you must select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option in the custom resource:
 

@@ -70,18 +70,18 @@ You need to specify:
 
 ## SFTP setup in Adobe Campaign {#ac-control-panel-settings}
 
-Discover SFTP management with [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) in these sections:
+Discover SFTP management with [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) in these sections:
 
-* [About SFTP management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+* [About SFTP management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [SFTP storage management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+* [SFTP storage management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Add IP ranges](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+* [Add IP ranges](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Manage keys](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+* [Manage keys](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Log on to your SFTP server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+* [Log on to your SFTP server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Once configuration is done, log into the SFTP server with the private key and create the directory "d365_loads/exports".
 
-[Visit this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server.
+[Visit this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) for information about the Adobe Campaign Standard SFTP server.

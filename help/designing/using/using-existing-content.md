@@ -103,7 +103,7 @@ Discover this feature in video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).
 
 ### Retrieving content from a URL automatically at preparation time {#retrieving-content-from-a-url-automatically-at-preparation-time}
 

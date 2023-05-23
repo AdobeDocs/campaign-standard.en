@@ -13,7 +13,7 @@ exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 
 Adobe Campaign allows you to assign a set of roles to your users to define which part of the interface they can access.
 
-The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Administrators can manage users from the Admin Console. Users are then automatically synchronized with Adobe Campaign. For more on this, refer to the [Admin Console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
 
@@ -29,7 +29,7 @@ To access the user management interface from Adobe Campaign, click **[!UICONTROL
 
 * [Managing user permissions](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) video
 * [List of roles](../../administration/using/list-of-roles.md)
-* [List of authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [List of authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Type of users {#type-of-users}
 
@@ -152,4 +152,4 @@ This video shows ow to manage user access rights.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).

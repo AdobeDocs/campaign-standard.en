@@ -28,4 +28,4 @@ This video shows how to create custom resources.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).

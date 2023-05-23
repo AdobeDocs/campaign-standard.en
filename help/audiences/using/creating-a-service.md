@@ -61,4 +61,4 @@ This video shows how to create a service and manage its subscriptions.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).

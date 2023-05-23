@@ -14,7 +14,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 
 To learn more on compatibility between dimensions and metrics, refer to this [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
 
-[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## Dimensions {#dimensions}
 

@@ -132,4 +132,4 @@ This video shows how to create and edit a landing page.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).

@@ -94,4 +94,4 @@ This video shows how to send a test email, prepare and then send an email delive
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).

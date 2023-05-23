@@ -36,7 +36,7 @@ To complete the configuration, complete the following steps:
    * In Adobe Campaign Standard, ensure that the IMS user is part of the Standard User and Administrator Product Profiles. This step allows the user to log in to Adobe Campaign Standard, navigate to the Experience Platform SDK mobile app page, and view the mobile app properties that you created in the Data Collection UI.
 
    * In the Data Collection UI, ensure that your IMS user is part of a Experience Platform Launch product profile.
-   This step allows the user to log in to the Data Collection UI to create and view the properties. For more information about product profiles in the Data Collection UI, see [Create your product profile](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile). In the product profile, there should be no permissions set on the company or the properties, but the user should be able to still log in.
+   This step allows the user to log in to the Data Collection UI to create and view the properties. For more information about product profiles in the Data Collection UI, see [Create your product profile](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). In the product profile, there should be no permissions set on the company or the properties, but the user should be able to still log in.
 
    To complete additional tasks like installing an extension, publishing an app, configuring environments, and so on, you need to set permissions in the product profile.
 

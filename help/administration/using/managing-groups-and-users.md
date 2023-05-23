@@ -19,7 +19,7 @@ Security groups are sets of users that share the same roles and rights within yo
 
 Users must always be linked to a security group. This will allow you to assign them specific roles and organizational units. To restrict a user's access, do not add the user to the Campaign **[!UICONTROL Standard Users]** group as this is linked to **[!UICONTROL All]** organizational unit.
 
-For more information on roles, the table in the following page presents possible operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+For more information on roles, the table in the following page presents possible operations available according to a user's role(s): [Adobe Campaign Standard authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Default security groups are:
 

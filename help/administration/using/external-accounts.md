@@ -79,7 +79,7 @@ SFTP servers can be managed from the Control Panel. For more information, refer 
 
 >[!NOTE]
 >
->Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 
 ## OAuth 2.0 account {#oauth-account}
 

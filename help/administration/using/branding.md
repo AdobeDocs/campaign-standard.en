@@ -85,7 +85,7 @@ You can add new entities of your organization in Campaign, or create a new type 
 
    >[!NOTE]
    >
-   >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 
 1. **Create a ticket** - Once the subdomain is configured, Adobe will set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
 

@@ -79,4 +79,4 @@ This video provides an overview over the reporting capabilities of Adobe Campaig
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).

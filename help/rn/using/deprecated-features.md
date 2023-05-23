@@ -38,7 +38,7 @@ Customers are advised to review if they make use of the feature/capability in th
  <tbody> 
   <tr> 
    <td> <p> Starting Campaign Standard 21.3 release, integration with Audience Destinations service is deprecated. </p>
-   <p>For new implementation, you can no longer integrate Audience Destinations service with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Learn more</a>.</p>
+   <p>For new implementation, you can no longer integrate Audience Destinations service with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Learn more</a>.</p>
      <em>Target removal date: 2023</em></p>
      </td> 
   </tr> 
@@ -54,7 +54,7 @@ Customers are advised to review if they make use of the feature/capability in th
  <tbody> 
   <tr> 
    <td> <p> Starting Campaign Standard 21.3 release, integration with Adobe Experience Platform Data Connector is deprecated. </p>
-   <p>For new implementation, you can no longer integrate Adobe Experience Platform Data Connector with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Learn more</a>.</p>
+   <p>For new implementation, you can no longer integrate Adobe Experience Platform Data Connector with Adobe Campaign Standard. You can however integrate Campaign and Adobe Experience Platform through Sources and Destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Learn more</a>.</p>
      <em>Target removal date: 2023</em></p>
      </td> 
   </tr> 
@@ -123,7 +123,7 @@ This section lists features and capabilities that have been removed from Campaig
  <tbody> 
   <tr> 
    <td> <p>Starting Campaign 21.2 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
-   <p>See also <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Managing Privacy requests</a>.</p>
+   <p>See also <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Managing Privacy requests</a>.</p>
   </td> 
   </tr> 
  </tbody> 

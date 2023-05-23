@@ -79,31 +79,31 @@ Get support using our FAQs, best practices, online resources and support portal.
 ### What is Control Panel?
 
 The Control Panel helps you increase efficiency in your work as a product admin of Campaign Standard, by allowing you to manage settings and track usages for each of your instances.
-[Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) for more information.
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel) for more information.
 
 >[!NOTE]
 >
->Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Control Panel is accessible to all Admin users. The steps to grant Admin access to a user are detailed in [this page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
 
 ### How to access Control Panel?
 
-The Control Panel is available directly from Adobe Experience Cloud. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) for more information.
+The Control Panel is available directly from Adobe Experience Cloud. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel) for more information.
 
 ### Control Panel FAQ
 
-[Click here](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en) to access Campaign Control Panel FAQ.
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) to access Campaign Control Panel FAQ.
 
 ### SFTP management
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management) for more information.
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management) for more information.
 
 ### Subdomains and certificates
 
 You can monitor your subdomains and their certificates. Learn more:
 
-* [Subdomain branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=en#subdomains-and-certificates)
-* [Set up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=en#subdomains-and-certificates)
-* [Monitor SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=en#subdomains-and-certificates)
+* [Subdomain branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
+* [Set up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
+* [Monitor SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
 
 ## Request for help
 

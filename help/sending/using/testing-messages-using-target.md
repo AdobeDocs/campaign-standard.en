@@ -267,4 +267,4 @@ This video shows how you can test your email messages using Profile substitution
 
 >[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
-Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).
