@@ -38,11 +38,6 @@ If you have configured the integration to issue regular profile delete calls to 
 
 1. Verify record has been removed from both systems
 
-Below are links to help guide you in implementing access and/or delete privacy related requests in each system:
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >

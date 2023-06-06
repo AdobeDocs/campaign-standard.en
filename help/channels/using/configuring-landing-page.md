@@ -109,4 +109,4 @@ Your landing page is now set up with Google reCAPTCHA which can be seen at the b
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA will then return a score based on users' interactions with your page. To check your score, connect to your [Google admin console](https://g.co/recaptcha/admin).
+Google reCAPTCHA will then return a score based on users' interactions with your page. To check your score, connect to your Google admin console.
