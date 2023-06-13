@@ -24,7 +24,7 @@ To know if a field can be sorted, check the "sortable" parameter into the resour
 
     ```
 
-    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
+    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer <ACCESS_TOKEN>' \
     -H 'Cache-Control: no-cache' \
