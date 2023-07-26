@@ -22,7 +22,7 @@ Multiple applications will need to be configured to enable the integration, howe
 
 ## Prerequisites
 
-Before performing the pre-integration setup in this document, it is assumed that you have already provisioned and have admin access to your organization’s Microsoft Dynamics 365 instance.  If this has not happened, then you will need to get in contact with Microsoft customer support to complete Dynamics 365 provisioning.
+Before performing the pre-integration setup in this document, it is assumed that you have already provisioned and have admin access to your organization's Microsoft Dynamics 365 instance.  If this has not happened, then you will need to get in contact with Microsoft customer support to complete Dynamics 365 provisioning.
 
 If you are configuring the integration for both staging and production environments, you will need to perform the steps below for both your staging and production Dynamics 365 instances. A few instructions below vary slightly depending if you are configuring a stage or production Dynamics 365 instance (e.g., for production instance, select "prod" for `<stage or prod>`)
 
@@ -108,15 +108,14 @@ This new user is a generic user. It will be used by the application: any change 
 
 ### Get the tenant ID {#get-the-tenant-id}
 
-Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) to find your tenant ID.  You’ll need this ID during pre-integration setup in the integration tool.
+Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) to find your tenant ID.  You'll need this ID during pre-integration setup in the integration tool.
 
 ## Install Campaign Standard for Microsoft Dynamics 365 {#install-appsource-app}
 
 To integrate the Dynamics 365 App to your Campaign Standard environment, follow the steps below:
 
-1. Navigate to the following link: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) and search for _Adobe Campaign for Dynamics 365_ in the search bar.
-    Alternatively, you can navigate to this [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview)
-    {target="_blank"}.
+1. Navigate to [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps){target="_blank"} and search for_Adobe Campaign Standard_ in the search bar.
+    Alternatively, you can navigate to this [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Follow the instructions to install the app for your Dynamics 365 instance.
 1. Once installed, navigate to your Dynamics 365 instance and sign in as administrator.
 1. Click on the gear icon in the upper right corner and click on **[!UICONTROL Advanced Settings]**. In the top banner, click on the drop down next to **[!UICONTROL Settings]**, click on **[!UICONTROL Processes]** under **[!UICONTROL Process Center]**.
