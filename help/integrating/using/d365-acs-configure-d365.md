@@ -114,7 +114,7 @@ Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive
 
 To integrate the Dynamics 365 App to your Campaign Standard environment, follow the steps below:
 
-1. Browse to [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps){target="_blank"} and search for_Adobe Campaign Standard_ in the search bar.
+1. Browse to [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps), and search for_Adobe Campaign Standard_ in the search bar.
     Alternatively, you can navigate to this [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Follow the instructions to install the app for your Dynamics 365 instance.
 1. Once installed, navigate to your Dynamics 365 instance and sign in as administrator.
