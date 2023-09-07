@@ -114,7 +114,7 @@ The section listing the key steps to send a message has been enhanced with addit
 
 Information has been added to specify that, when selecting au audience in a query, its definition is copied and not referenced. [Read more](../../audiences/using/selecting-an-audience-in-a-message.md) 
 
-Information related to the Audience Destinations Service and Adobe Experience Platform Data Connector has been regrouped into a new section. [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
+Information related to the Audience Destinations Service and Adobe Experience Platform Data Connector has been regrouped into a new section. 
 
 **Declared ID** data source can now also be used with People core service integration. Information has been added in the Campaign-Audience Manager or People core service integration documentation. [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -172,7 +172,7 @@ The **Privacy** section has been moved and enriched with two new pages: [Privacy
 
 The **Transactional messaging** section has been reorganized and gathered into one place for improved navigation. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
-Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../integrating/using/aep-mapping-activation.md)
+Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it.
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -274,7 +274,7 @@ The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentatio
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
-Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation.
 
 The Transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -340,9 +340,9 @@ Information has been added on the **[!UICONTROL History in days field]** availab
 
 **New capabilities included in the release**
 
-Adobe Experience Platform Data Connector (beta) - [Read more](../../integrating/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (beta)
 
-Audience Destinations (beta) - [Read more](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations (beta)
 
 **Other documentation updates coming with the release**
 

@@ -260,7 +260,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 
 **Experience Platform integrations**
 
-* Activation of Adobe [Experience Platform Audiences](../../integrating/using/aep-targeting-audiences.md) from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences.
+* Activation of Adobe Experience Platform Audiences from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences.
 
 **Patches**
 
@@ -353,7 +353,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 
 >[!NOTE]
 >
->Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: [Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md), [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: Experience Platform Data Connector, Audience Destinations
 
 * In workflow logs, every 10 minutes, Campaign now displays the number of records already processed by the job that is currently running.
 * Fixed an issue that could occur when importing an Adobe Experience Platform profile that had been deleted from the database.
@@ -400,7 +400,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
  <tbody> 
   <tr> 
    <td> <p>The Adobe Experience Platform Data Connector is now integrated with Adobe Campaign Standard. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). </p>
-    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../integrating/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
+    <p>Please note this capability is only available to customers hosted on Azure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -415,7 +415,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations allows you to share segments from Adobe Experience Platform to Adobe Campaign.</p>
-    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../integrating/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>. </p>
+    <p>Please note this capability is only available to customers hosted on Azure.</p>
    </td> 
   </tr> 
  </tbody> 
