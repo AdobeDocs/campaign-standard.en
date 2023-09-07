@@ -268,18 +268,6 @@ breadcrumb-title: Adobe Campaign Standard Documentation
      + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)
      + [Ingest Adobe Experience Platform audiences into Campaign](integrating/using/ingest-aep-data.md)
      + [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
-       + Audience Destinations Service (beta) {#audience-destinations}
-          + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
-          + [Managing Adobe Experience Platform audiences](integrating/using/aep-managing-audiences.md)
-          + [Using the Segment Builder](integrating/using/aep-using-segment-builder.md)
-          + [Targeting Adobe Experience Platform audiences](integrating/using/aep-targeting-audiences.md)
-          + [Personalizing campaigns using Adobe Experience Platform attributes](integrating/using/aep-personalizing-campaigns.md)
-       + Adobe Experience Platform Data Connector (beta) {#data-connector}
-          + [About Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-          + [Experience Platform Data model overview](integrating/using/aep-data-model-overview.md)
-          + [Mapping definition](integrating/using/aep-mapping-definition.md)
-          + [Mapping activation](integrating/using/aep-mapping-activation.md)
-          + [Triggering data ingestion through APIs](integrating/using/aep-triggering-data-ingestion.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
@@ -511,3 +499,4 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Updating a Geographical unit attributes](api/using/updating-geographical-unit-attributes.md)  
   + [Troubleshooting](api/using/troubleshooting.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+
