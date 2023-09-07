@@ -265,10 +265,9 @@ breadcrumb-title: Adobe Campaign Standard Documentation
           + [Map data between Microsoft Dynamics 365 and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
        + [Use the Microsoft Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
   + Campaign and Adobe Experience Platform {#adobe-experience-platform}
-       + Adobe Experience Platform Sources and Destinations {#aep-sources-destinations}
-          + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)
-          + [Ingest Adobe Experience Platform audiences into Campaign](integrating/using/ingest-aep-data.md)
-          + [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
+     + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)
+     + [Ingest Adobe Experience Platform audiences into Campaign](integrating/using/ingest-aep-data.md)
+     + [Export data from Campaign to Adobe Experience Platform](integrating/using/export-campaign-data.md)
        + Audience Destinations Service (beta) {#audience-destinations}
           + [About the Audience Destinations service](integrating/using/aep-about-audience-destinations-service.md)
           + [Managing Adobe Experience Platform audiences](integrating/using/aep-managing-audiences.md)
