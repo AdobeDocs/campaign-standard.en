@@ -12,30 +12,26 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 # Early release notes {#e-new-release}
 
 This page describes improvements and fixes included in the next Campaign Standard release.
+
 >[!CAUTION]
 >
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 
-## Release 23.1 - 2023 Spring/Summer Release {#apr-23}
+## Release 23.2 - 2023 Fall/Winter Release {#fall-23}
+
+>[!AVAILABILITY]
+>
+>This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
 ### Improvements {#e-rn-improvements}
 
-* The Push messaging service has been modernized to improve support. (CAMP-47959)
-* The SMS messaging service has been improved to provide a better stability. (CAMP-52217)
-* Adobe has made many accessibility fixes to improve the application's overall ease of use. Here are a few examples of accessibility improvements:
-    * The keyboard accessibility of the interface has been optimized in many screens.
-    * The application has been enchanced for touchscreen users. 
-    * The color of several items across the interface has been changed to improve visibility.
+* **Integration with Adobe Experience Manager**. While creating a delivery template for transactional messages in Adobe Experience Manager, you can now personalize the message by selecting and using the personalization fields defined in Campaign Standard. A new drop-down is available within Adobe Experience Manager.
 
-### Other changes {#e-rn-changes}
+* **Cookie expiration** – The default cookie expirations is now set to 6 months, to align with the French regulation.
 
-* The out-of-the-box **Reporting Enrichment Creation Workflow** has been added. After importing a target mapping from one instance to another, simply run the workflow to import the corresponding reporting enrichment entries. (CAMP-52452)
+* **Profile Search Improvement** – Profile search has been optimized so that search timeout scenarios can be reduced
 
-### Issues fixed{#e-rn-patches}
+* **Integration with Adobe Experience Cloud Triggers** - The new user interface for Experience Cloud Triggers offers an intuitive experience to manage consumer behaviors and personalize user experiences. Adobe Experience Cloud Triggers new user interface is progressively rolled out to all customers.
 
-* Fixed an issue which could lead to a timeout error when displaying the **Hot click** report. (CAMP-51582)
-* Fixed an issue which could prevent you from using the integration with the **Places** service. (CAMP-51923)
-* Fixed an issue which could prevent the workflow scheduler from working correctly. (CAMP-52003)
-* Fixed an issue which prevented the breakdown details from displaying when viewing the PDF version of a custom dynamic report with a large volume of data. (CAMP-52178)
-* Fixed an issue which could display an error when accessing reports. (CAMP-52500)
-* Fixed an issue which wrongly applied the **Limit MTA instances for this account** SMS connector parameter to all channels instead of applying only to SMS. (CAMP-52640)
+    Learn more about Adobe Campaign and Experience Cloud Triggers on [this page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+

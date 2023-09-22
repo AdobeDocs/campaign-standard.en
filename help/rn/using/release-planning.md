@@ -20,11 +20,15 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: visit this page regularly to check for updates.
 
-## Release 23.1 - 2023 Spring/Summer Release {#release-23-1-release}
+## Release 23.2 - 2023 Fall/Winter Release {#release-23-2-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-Detailed information about this release is available in the [Release Notes](release-notes.md).
+>[!AVAILABILITY]
+>
+>This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -36,11 +40,11 @@ Detailed information about this release is available in the [Release Notes](rele
  <tbody>
   <tr>
    <td>Stage </td>
-   <td>April 11, 2023 - July 2023 </td>
+   <td>October 3-9, 2023 </td>
   </tr>
   <tr>
    <td>Production </td>
-   <td>April 18, 2023 - July 2023 </td>
+   <td>October 12-18, 2023 </td>
   </tr>
  </tbody>
 </table>
