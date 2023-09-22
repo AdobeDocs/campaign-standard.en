@@ -35,3 +35,10 @@ This page describes improvements and fixes included in the next Campaign Standar
 
     Learn more about Adobe Campaign and Experience Cloud Triggers on [this page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
+* **Localization** - The translations of the term "audience" when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for the following languages:
+
+    * German: Zielgruppe
+    * Brazilian Portuguese: público-alvo
+    * Spanish: público destinatario
+    
+    These changes will be rolled out gradually with the next UI and documentation releases.
