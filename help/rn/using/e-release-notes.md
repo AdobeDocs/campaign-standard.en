@@ -25,9 +25,9 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ### Improvements {#e-rn-improvements}
 
-* **Integration with Adobe Experience Manager**. While creating a delivery template for transactional messages in Adobe Experience Manager, you can now personalize the message by selecting and using the personalization fields defined in Campaign Standard. A new drop-down is available within Adobe Experience Manager.
+* **Integration with Adobe Experience Manager**. While creating a personalized delivery template for transactional messages in Adobe Experience Manager you can now select and use the personalization fields defined in Campaign Standard in a drop down.
 
-* **Cookie expiration** – The default cookie expirations is now set to 6 months, to align with the French regulation.
+* **Cookie expiration** – The default cookie expirations is now set to 6 months, to align with the French Data Protection Agency (CNIL) recommendations.
 
 * **Profile Search Improvement** – Profile search has been optimized so that search timeout scenarios can be reduced
 
