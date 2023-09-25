@@ -17,11 +17,9 @@ exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 >
 >To create Triggers, you will need the **[!UICONTROL Administration]** role or to be in the **[!UICONTROL Administrators]** security group. For more information on this, refer to this [page](../../administration/using/list-of-roles.md).
 
-You should make sure to define the behaviors that you want to monitor beforehand in Adobe Experience Cloud ( **[!UICONTROL Triggers]** core service). For more on this, refer to the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Note that when you define the trigger, you need to enable the aliases. For each behavior (browsing/form abandonment, adding/deleting products, session expired, etc.), a new trigger must be added in Adobe Experience Cloud.
+You should make sure to define the behaviors that you want to monitor beforehand in Adobe Experience Cloud (**[!UICONTROL Triggers]** core service). For more on this, refer to the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Note that when you define the trigger, you need to enable the aliases. For each behavior (browsing/form abandonment, adding/deleting products, session expired, etc.), a new trigger must be added in Adobe Experience Cloud.
 
 You now have to create a trigger event in Adobe Campaign based on an existing Adobe Experience Cloud trigger.
-
-You can watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) to help you understand how triggers are set up in Adobe Campaign.
 
 The steps for putting this into place are:
 

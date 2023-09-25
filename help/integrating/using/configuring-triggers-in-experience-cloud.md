@@ -90,7 +90,7 @@ An Adobe Experience Cloud trigger needs to be created so that you can use it in 
 
 Create a new trigger in Experience Cloud and make sure you select the report suite used on your website. Make sure you choose the right dimension so that the trigger will fire.
 
-Refer to the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) and watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Refer to the [Adobe Experience Cloud documentation](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Triggers best practices and limitations {#triggers-best-practices-and-limitations}
 
