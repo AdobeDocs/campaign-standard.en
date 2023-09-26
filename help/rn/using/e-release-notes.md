@@ -31,10 +31,6 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 * **Profile Search Improvement** – Profile search has been optimized so that search timeout scenarios can be reduced
 
-* **Integration with Adobe Experience Cloud Triggers** - The new user interface for Experience Cloud Triggers offers an intuitive experience to manage consumer behaviors and personalize user experiences. Adobe Experience Cloud Triggers new user interface is progressively rolled out to all customers.
-
-    Learn more about Adobe Campaign and Experience Cloud Triggers on [this page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
-
 * **Localization** - The translations of the term "audience" when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for the following languages:
 
     * German: Zielgruppe
@@ -42,3 +38,7 @@ This page describes improvements and fixes included in the next Campaign Standar
     * Spanish: público destinatario
     
     These changes will be rolled out gradually with the next UI and documentation releases.
+
+* **Integration with Adobe Experience Cloud Triggers** - The new user interface for Experience Cloud Triggers is now  available. It offers an intuitive experience to manage consumer behaviors and personalize user experiences. Adobe Experience Cloud Triggers new user interface is progressively rolled out to all customers, between October 11-16, 2023.
+
+    Learn more about Adobe Campaign and Experience Cloud Triggers on [this page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
