@@ -10,6 +10,19 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## September 2023 {#doc-updates-sept-2023}
+
+* The new user interface for Experience Cloud Triggers is now  available. It offers an intuitive experience to manage consumer behaviors and personalize user experiences. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Release 23.1 - Spring/Summer 2023 {#release-23-1}
+
+Release notes for Campaign Standard 23.1 Spring/Summer 2023 release have been published. [Read more](release-notes.md)
+
+
 ## November 2022 {#doc-updates-november-2022}
 
 A note has been added to recommend avoiding blank spaces in the ID field of deliveries. [Read more](../../channels/using/creating-an-email.md)
@@ -18,7 +31,7 @@ Information has been added in the **[!UICONTROL Extract file]** workflow activit
 
 ## Release 22.3 - Fall/Winter 2022 {#release-22-3}
 
-Release notes for Campaign Standard 22.3 Fall/Winter release have been published. [Read more](release-notes.md)
+Release notes for Campaign Standard 22.3 Fall/Winter 2022 release have been published. [Read more](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -220,7 +233,7 @@ A new section has been added with guidelines related to Campaign Standard monito
 
 External API Guardrails and limitations section has been updated. [Read more](../../automating/using/external-api.md#guardrails)
 
-The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+The Privacy Management Overview page has been updated to include information on the Thailand's Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 The Mobile channel guide has been reorganized and improved. A new guide Configuring mobile channels has been added with technical documentation on mobile configuration. [Read more](../../administration/using/push-tracking.md)
 
@@ -390,7 +403,7 @@ The getting started guide on how to export / import custom resources has been in
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard.
 
-Information related to landing pages’ properties have been moved into a dedicated section. [Read more](../../channels/using/configuring-landing-page.md)
+Information related to landing pages' properties have been moved into a dedicated section. [Read more](../../channels/using/configuring-landing-page.md)
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
@@ -478,7 +491,7 @@ A set of new help articles have been created about Microsoft Dynamics 365 connec
 
 A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
 
-Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../automating/using/external-signal.md)
+Information was added on how to personalize a delivery's label with event variables that have been declared in the workflow's external signal activity. [Read more](../../automating/using/external-signal.md)
 
 A new section has been added detailing how to create a user in Adobe Campaign Standard. [Read more](../../administration/using/users-management.md)
 
@@ -764,7 +777,7 @@ Added information on tracking log types. [Read more](../../sending/using/trackin
 
 The query activity section has been updated with query samples. [Read more](../../automating/using/query.md#query-samples)
 
-The section dedicated to denylists has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+The section dedicated to denylists has been renamed "Understanding opt-in and opt-out processes". It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1006,7 +1019,7 @@ A new technote is now available: "Integrating the Adobe Mobile SDK with your mob
 
 Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Authorizations table revised to make certain roles’ function clearer. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+Authorizations table revised to make certain roles' function clearer. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Update of the contextual help links available directly from Adobe Campaign.
 
