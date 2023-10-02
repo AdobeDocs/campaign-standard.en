@@ -38,4 +38,7 @@ This page describes improvements and fixes included in the next Campaign Standar
     * Spanish: público destinatario
     
     These changes will be rolled out gradually with the next UI and documentation releases.
+    
+### Fixes {#e-rn-fixes}
 
+* Fixed a regression which could cause performance issues when using large workflows. (CAMP-53369)
