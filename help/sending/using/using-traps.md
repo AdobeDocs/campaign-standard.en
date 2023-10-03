@@ -56,4 +56,6 @@ You can use traps when sending transactional messages. In this case, the test pr
 
 >[!NOTE]
 >
->When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile. For more on enrichment, see [this example](../../automating/using/enriching-profile-data-file.md).
+>When using a test profile as a trap, any enriched fields within a message will have their corresponding additional data randomly selected from a real targeted profile and assigned to the trap test profile. However, be aware that if the real targeted profile is excluded due to typology rules applied during the first message preparation, the delivery preparation will fail. This failure occurs because the enriched field values cannot be substituted for the trap profile. Consequently, exclusion typology rules might not apply correctly to the real recipients.
+>
+>To prevent this situation, avoid using trap test profiles simultaneously with filtering or fatigue rules in your transactional typology. Learn more on enrichment. For more on enrichment, see [this example](../../automating/using/enriching-profile-data-file.md).

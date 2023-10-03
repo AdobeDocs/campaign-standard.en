@@ -18,6 +18,8 @@ Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been publ
 
 * The new user interface for Experience Cloud Triggers is now  available. It offers an intuitive experience to manage consumer behaviors and personalize user experiences. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
+* A note has been added on the use of trap test profiles combined with filtering or fatigue rules. [Read more](../../sending/using/using-traps.md)
+
 ## Release 23.1 - Spring/Summer 2023 {#release-23-1}
 
 Release notes for Campaign Standard 23.1 Spring/Summer 2023 release have been published. [Read more](release-notes.md)
