@@ -21,7 +21,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 ### Improvements {#e-rn-improvements}
 
-* **Integration with Adobe Experience Manager**. While creating a personalized delivery template for transactional messages in Adobe Experience Manager you can now select and use the personalization fields defined in Campaign Standard in a drop down.
+* **Integration with Adobe Experience Manager**. While creating a personalized delivery template for transactional messages in Adobe Experience Manager you can now select and use the personalization fields defined in Campaign Standard in a drop down. [Learn more](../../integrating/using/creating-email-experience-manager.md)
 
 * **Cookie expiration** – The default cookie expirations is now set to 6 months, to align with the French Data Protection Agency (CNIL) recommendations.
 
