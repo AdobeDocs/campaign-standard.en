@@ -19,7 +19,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 >
 >This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-### Improvements {#e-rn-improvements}
+### Improvements {#fall-23-rn-improvements}
 
 * **Integration with Adobe Experience Manager**. While creating a personalized delivery template for transactional messages in Adobe Experience Manager you can now select and use the personalization fields defined in Campaign Standard in a drop down. [Learn more](../../integrating/using/creating-email-experience-manager.md)
 
