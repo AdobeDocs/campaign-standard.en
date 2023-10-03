@@ -36,6 +36,15 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
     These changes will be rolled out gradually with the next UI and documentation releases.
 
 
+### Other changes {#fall-23-rn-other-changes}
+
+* Transactional Messaging now supports the use of multiple comma-separated affinities.
+
+### Fixes {#fall-23-rn-fixes}
+
+* Fixed a regression which could cause performance issues when using large workflows. (CAMP-53369)
+* Fixed an issue which prevented the email link in a workflow alert or notification from workfing. (CAMP-51874)
+
 ## Release 23.1 - 2023 Spring/Summer Release {#apr-23}
 
 ### Improvements {#e-rn-improvements}
