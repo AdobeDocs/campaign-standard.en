@@ -37,7 +37,7 @@ This release comes with the following security upgrade: Apache Tomcat has been u
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Accessibility** - Adobe has made many accessibility fixes for improving the application’s overall ease of use. These features are currently enabled for a set of early adopters only, and they will be rolled out to all customers in future releases. Examples of accessibility improvements include:
+* **Accessibility** - Adobe has made many accessibility fixes for improving the application's overall ease of use. These features are currently enabled for a set of early adopters only, and they will be rolled out to all customers in future releases. Examples of accessibility improvements include:
 
     * Ensuring that there is a visible focus indicator for focusable elements on each screen
     * Creating page landmarks for easier navigation
@@ -105,8 +105,8 @@ This release comes with the following security upgrade: Apache Tomcat has been u
 * To solve various issues, the retry mechanism has been improved for deliveries including content imported from a URL. [Learn more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Fixed an issue which occurred after creating a new filter in a custom resource, then using it as a reconciliation key in a landing page. If the custom resource was published again, the filter was removed from the list of available reconciliation keys for the landing page. (CAMP-49516)
 * Fixed an issue in landing pages when using dynamic conditions with checkboxes. (CAMP-48604)
-* Fixed an issue that occurred in a **Query** activity when using the “On or before October” filter condition. When working from an instance set to a European timezone, the selected month for the filter showed September instead of October, due to an issue when converting the timezone. (CAMP-48602)
+* Fixed an issue that occurred in a **Query** activity when using the "On or before October" filter condition. When working from an instance set to a European timezone, the selected month for the filter showed September instead of October, due to an issue when converting the timezone. (CAMP-48602)
 * To optimize deliverability, Adobe Campaign now sends emails using 7-bit encoding instead of 8-bit. This prevents intermediate relays from invalidating the DKIM signature which could affect the authenticity of the messages. (CAMP-49016)
 * Performances when duplicating audiences have been enhanced in order to avoid any issue when working with large audiences. (CAMP-49639)
 * Fixed an issue which could prevent a custom filter from displaying the correct results when used into a **Query** activity. (CAMP-49417)
-* Fixed an error that displayed an error message when trying to use a fragment in a delivery with a comma in its name. The issue has been resolved, commas can now be used in fragments’ names. (CAMP-49216)
+* Fixed an error that displayed an error message when trying to use a fragment in a delivery with a comma in its name. The issue has been resolved, commas can now be used in fragments' names. (CAMP-49216)
