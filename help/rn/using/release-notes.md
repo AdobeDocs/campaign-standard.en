@@ -23,7 +23,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 * **Integration with Adobe Experience Manager**. While creating a personalized delivery template for transactional messages in Adobe Experience Manager you can now select and use the personalization fields defined in Campaign Standard in a drop down. [Learn more](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie expiration** – The default cookie expirations is now set to 6 months, to align with the French Data Protection Agency (CNIL) recommendations.
+* **Cookie expiration** – The default cookie expiration is now set to 6 months, to align with the French Data Protection Agency (CNIL) recommendations.
 
 * **Profile Search Improvement** – Profile search has been optimized so that search timeout scenarios can be reduced
 
@@ -38,12 +38,12 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 ### Other changes {#fall-23-rn-other-changes}
 
-* Transactional Messaging now supports the use of multiple comma-separated affinities.
+* Transactional Messaging now supports the use of multiple comma-separated affinities. [Learn more](../../sending/using/managing-typologies.md)
 
 ### Fixes {#fall-23-rn-fixes}
 
 * Fixed a regression which could cause performance issues when using large workflows. (CAMP-53369)
-* Fixed an issue which prevented the email link in a workflow alert or notification from workfing. (CAMP-51874)
+* Fixed an issue which prevented the link in a workflow email alert or notification from working. (CAMP-51874)
 
 ## Release 23.1 - 2023 Spring/Summer Release {#apr-23}
 
