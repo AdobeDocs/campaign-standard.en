@@ -13,7 +13,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 ## What's New
 
-* **[Campaign 22.3 Release notes are live](rn/using/release-notes.md)**<br/> Discover new features, improvements and fixes coming with Campaign Standard 22.3 release
+* **[Campaign 23.2 Release notes are live](rn/using/release-notes.md)**<br/> Discover new features, improvements and fixes coming with Campaign Standard 23.2 release
 
 * **[Campaign - RTCDP integration](integrating/using/get-started-sources-destinations.md)**<br/> Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP)
 

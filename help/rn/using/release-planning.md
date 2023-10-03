@@ -28,7 +28,7 @@ Environment updates happen in waves, during the indicated timeframes below. Exac
 >
 >This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-Detailed information about this release is available in the [Early Release Notes](e-release-notes.md).
+Detailed information about this release is available in the [Release Notes](release-notes.md).
 
 <table>
  <thead>

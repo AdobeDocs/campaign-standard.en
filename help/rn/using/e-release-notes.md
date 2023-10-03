@@ -38,4 +38,12 @@ This page describes improvements and fixes included in the next Campaign Standar
     * Spanish: público destinatario
     
     These changes will be rolled out gradually with the next UI and documentation releases.
+    
+### Other changes {#e-rn-other-changes}
 
+* Transactional Messaging now supports the use of multiple comma-separated affinities.
+
+### Fixes {#e-rn-fixes}
+
+* Fixed a regression which could cause performance issues when using large workflows. (CAMP-53369)
+* Fixed an issue which prevented the email link in a workflow alert or notification from workfing. (CAMP-51874)

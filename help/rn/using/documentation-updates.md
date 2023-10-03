@@ -10,13 +10,13 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+## Release 23.2 - Fall/Winter 2023 {#release-23-2}
 
-Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)
 
-## September 2023 {#doc-updates-sept-2023}
+## October 2023 {#doc-updates-oct-2023}
 
-* The new user interface for Experience Cloud Triggers is now  available. It offers an intuitive experience to manage consumer behaviors and personalize user experiences. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* The new user interface for Experience Cloud Triggers is now available. It offers an intuitive experience to manage consumer behaviors and personalize user experiences. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
 * A note has been added on the use of trap test profiles combined with filtering or fatigue rules. [Read more](../../sending/using/using-traps.md)
 
