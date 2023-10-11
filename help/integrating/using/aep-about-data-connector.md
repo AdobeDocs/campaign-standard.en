@@ -15,7 +15,7 @@ hidefromtoc: yes
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
+>Adobe Experience Platform Data Connector is now deprecated. Deprecated capabilities are still available, but they are not be further enhanced, nor supported. Learn more [in this page](../../rn/using/deprecated-features.md)
 
 Adobe Experience Platform Data Connector helps existing customers to make their data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
 

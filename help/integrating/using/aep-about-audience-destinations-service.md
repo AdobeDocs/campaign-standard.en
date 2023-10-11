@@ -16,7 +16,7 @@ hidefromtoc: yes
 
 >[!IMPORTANT]
 >
->Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
+>Audience Destinations service is now deprecated. Deprecated capabilities are still available, but they are not be further enhanced, nor supported. Learn more [in this page](../../rn/using/deprecated-features.md)
 
 Empower your consumer experiences by leveraging the [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) to build highly targeted audiences based on large, complex datasets. The Adobe Experience Platform consolidates profile, behavioral and multi-entity data across online and offline sources, including Adobe Analytics, to help you build a 360-degree view of your customer, enabling you to effectively manage your customer experiences.
 
