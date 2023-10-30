@@ -9,7 +9,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 ---
 # Adobe Campaign Standard Documentation {#campaign-standard-documentation}
 
-![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) 
+<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
 
 ## What's New
 
