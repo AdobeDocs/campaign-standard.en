@@ -4,8 +4,7 @@ description: Learn how to manage encrypted data.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-
-feature: Workflows
+feature: Workflows, Encryption
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
