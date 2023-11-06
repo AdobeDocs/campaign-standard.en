@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 ---
-# Push Notification Channel upgrade {#push-upgrade}
+# Push Notification Channel upcoming changes {#push-upgrade}
 
 This page describes the upcoming changes to Android and iOS Push Notification Channel in Adobe Campaign Standard.
 
