@@ -5,6 +5,8 @@ audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
+hide: yes
+hidefromtoc: yes
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}
 
@@ -24,19 +26,19 @@ We understand that you, our customers, rely on these services for your marketing
 
 ## What Are We Doing? 
 
-**Product Changes**: Working on product changes to support technical stack upgrades in Android/iOS Push notification channel. 
+* **Product Changes**: Working on product changes to support technical stack upgrades in Android/iOS Push notification channel. 
 
-**Detailed Instructions**: We will provide step-by-step guides and other resources to facilitate a smooth transition process. 
+* **Detailed Instructions**: We will provide step-by-step guides and other resources to facilitate a smooth transition process. 
 
-**Support**: Our Customer Support Team will be available to assist you throughout this transition. We may also host webinars and enablement sessions to cover the technical aspects and best practices for the transition. 
+* **Support**: Our Customer Support Team will be available to assist you throughout this transition. We may also host webinars and enablement sessions to cover the technical aspects and best practices for the transition. 
 
 ## How Does This Impact You? 
 
-**Stay Informed**: Keep an eye on your inbox for further communications from us, including the detailed transition plan. 
+* **Stay Informed**: Keep an eye on your inbox for further communications from us, including the detailed transition plan. 
 
-**Review Current Setup**: Take this time to review your current configuration and customization in Adobe Campaign Standard so you are prepared to make any necessary changes, if required. 
+* **Review Current Setup**: Take this time to review your current configuration and customization in Adobe Campaign Standard so you are prepared to make any necessary changes, if required. 
 
-**Contact Us**: If you have any immediate concerns or questions, please don't hesitate to reach out to our support team. 
+* **Contact Us**: If you have any immediate concerns or questions, please don't hesitate to reach out to our support team. 
 
 ## Next Steps 
 
