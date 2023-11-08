@@ -263,6 +263,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
           + [Connect systems with the integration app](integrating/using/d365-acs-self-service-app-settings.md)
           + [Manage synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
           + [Map data between Microsoft Dynamics 365 and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+          + [Migrate Credentials from JWT to OAuth Server-to-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
        + [Use the Microsoft Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
   + Campaign and Adobe Experience Platform {#adobe-experience-platform}
      + [Get started with Sources and Destinations](integrating/using/get-started-sources-destinations.md)

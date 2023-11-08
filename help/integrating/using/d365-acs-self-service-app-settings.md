@@ -33,11 +33,10 @@ The Microsoft Dynamics 365 Credentials give the integration application permissi
 
 The Adobe Campaign credentials are generated using [Adobe I/O](https://www.adobe.io/). You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
 
-The following image will explain in detail the mapping between Adobe I/O and the settings screen inputs.
+* Select the Auth Type as Oauth since JWT based authentication is deprecated.
+* The following image will explain in detail the mapping between Adobe I/O and the settings screen inputs.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Private Key*: the process to to define this starts by clicking the "Generate public/private keypair" button. This will create a zip file that you must download. Once you download it then unzip the file which will result in two files named certificate_pub.crt and private.key. Make sure to put the private.key in a secure place and do not share it. Open the private.key file in a text editor. Copy the entire value in the text editor (ctrl-A then ctrl-C on a PC, or  cmd-A then cmd-C on a Mac). This should include the lines with "BEGIN PRIVATE KEY" and "END PRIVATE KEY" in their entirety. Paste this entire, multi-line text into the "Private Key" input in the Settings screen.
 
 * *URL*: This value will fit the pattern https\://mc.adobe.io/&lt;campaign-instance-name&gt;. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
 
