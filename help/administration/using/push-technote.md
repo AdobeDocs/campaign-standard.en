@@ -10,13 +10,13 @@ hidefromtoc: yes
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}
 
-This page describes the upcoming changes to Android and iOS Push Notification Channel in Adobe Campaign Standard.
-
 There are important updates regarding upcoming changes to the Push Notification Channel across Android and iOS devices that may impact your Adobe Campaign Standard implementation. 
 
 ## Android {#push-android}
 
-As part of Google's continual effort to improve its services, Google is making changes to its Firebase Cloud Messaging HTTP protocol. As a result, The Firebase Cloud Messaging "HTTP legacy APIs" that were deprecated on June 20, 2023, will be replaced by "HTTP v1 APIs” in June of 2024. (https://firebase.google.com/docs/cloud-messaging/http-server-ref). Currently Adobe Campaign Standard is using HTTP legacy APIs to send Android Push Notification Messages and will be making changes in the upcoming months to upgrade to the HTTP v1 APIs. More information about these changes will be provided as Adobe works on these updates.  
+As part of Google's continual effort to improve its services, Google is making changes to its [Firebase Cloud Messaging HTTP protocol](https://firebase.google.com/docs/cloud-messaging/http-server-ref). As a result, The Firebase Cloud Messaging "HTTP legacy APIs" that were deprecated on June 20, 2023, will be replaced by "HTTP v1 APIs” in June of 2024. 
+
+Currently Adobe Campaign Standard is using HTTP legacy APIs to send Android Push Notification Messages and will be making changes in the upcoming months to upgrade to the HTTP v1 APIs. More information about these changes will be provided as Adobe works on these updates.  
 
 ## iOS {#push-ios}
 
