@@ -440,6 +440,7 @@ breadcrumb-title: Adobe Campaign Standard Documentation
        + [Configuring tag rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
        + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
        + [How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
+       + [Push Notification Channel upcoming changes](administration/using/push-technote.md)
   + Configuring SMS channel {#configuring-sms}
        + [Implementing the SMS channel](administration/using/configuring-sms-channel.md)
        + [SMS connector protocol and settings](administration/using/sms-protocol.md)
