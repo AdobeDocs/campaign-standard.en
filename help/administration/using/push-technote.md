@@ -2,7 +2,7 @@
 title: Push Notification Channel upcoming changes
 description: Push Notification Channel upcoming changes
 audience: channels
-feature: Instance Settings
+feature: Push
 role: Admin
 level: Experienced
 hide: yes
