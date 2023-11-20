@@ -36,7 +36,7 @@ As you are configuring and publishing transactional events, some of the steps yo
 
 ## Number of transactional messages {#transactional-message-number}
 
-The number of published transactional messages can have a significant impact on your platform. For optimal performance, the number of published transactional messages should remain under 100. To ensure this, unpublish or delete any unused transactional messages. See [Unpublishing a transactional message](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) and [Deleting a transactional message](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+The number of published transactional messages can have a significant impact on your platform. For optimal performance, the number of published transactional messages should remain under 100, otherwise performance degradation can be encountered. To ensure this, unpublish or delete any unused transactional messages in order to meet the aforementioned guardrail. See [Unpublishing a transactional message](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) and [Deleting a transactional message](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 To ensure best performance, you can also unpublish or delete unused events. Indeed, unpublishing or deleting an event will also unpublish or delete the corresponding transactional message(s), and its sending and tracking logs if any. See [Unpublishing an event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) and [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
