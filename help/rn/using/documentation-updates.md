@@ -12,7 +12,9 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## Release 23.2 - Fall/Winter 2023 {#release-23-2}
 
-Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)
+* Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)
+
+* JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
 
 ## October 2023 {#doc-updates-oct-2023}
 
@@ -23,7 +25,6 @@ Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been publ
 ## Release 23.1 - Spring/Summer 2023 {#release-23-1}
 
 Release notes for Campaign Standard 23.1 Spring/Summer 2023 release have been published. [Read more](release-notes.md)
-
 
 ## November 2022 {#doc-updates-november-2022}
 
