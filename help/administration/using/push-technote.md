@@ -7,6 +7,7 @@ role: Admin
 level: Experienced
 hide: yes
 hidefromtoc: yes
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}
 
@@ -38,4 +39,4 @@ Our Customer Support Team will be available to assist you throughout this transi
 
 In the meantime, recommendation is to take this time to review your current configuration and customization in Adobe Campaign Standard so you are prepared to make any necessary changes, if required. 
 
-If you have any immediate concerns or questions, please don't hesitate to reach out to our support team. 
+If you have any immediate concerns or questions, please don't hesitate to reach out to our support team.
