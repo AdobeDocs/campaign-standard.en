@@ -47,27 +47,19 @@ To achieve this, follow the procedure below:
 
 1. Then click **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
-    ![](assets/adobeIO1.png)
+   ![](assets/adobeIO1.png)
 
 1. Under **[!UICONTROL Get started with your new project]**, click **[!UICONTROL Add API]**.
 
-    ![](assets/adobeIO2.png)
+   ![](assets/adobeIO2.png)
 
-1. Select the Adobe Campaign API (you may need to scroll towards the bottom) and click **[!UICONTROL Next]**.
+1. Select the Adobe Campaign and click **[!UICONTROL Next]**.
 
-    ![](assets/adobeIO3.png)
+   ![](assets/adobeIO3.png)
 
-1. On the next screen you will have the option to upload your own public key or let Adobe Developer generate the key pair for you. These instructions will follow the latter option. If you decide to let Adobe Developer generate the key pair, click on option 1; then click the **[!UICONTROL Generate keypair]** button.
+1. On the next screen you will have the option to choose type of authentication. You can either choose OAuth Server-to-Server or Service Account (JWT). Please note that Service Account (JWT) credentials are no longer recommended for new projects and have been deprecated in favor of the newer OAuth Server-to-Server credentials. The instructions provided in this guide will only apply to OAuth Server-to-Server authentication.
 
-    ![](assets/adobeIO4.png)
-
-1. On the next screen you will be prompted to name and select the download location of the key pair zip file.
-
-Once downloaded, you can unzip the file to reveal the public and private keys. Adobe Developer has already applied the public key to your Adobe Developer project. You will need to retain your private key for later; the private key will be used during the pre-integration setup of the integration tool.
-
-1. Click **[!UICONTROL Next]** to continue
-
-    ![](assets/adobeIO5.png)
+   ![](assets/adobeIO4.png)
 
 1. On the next screen you will select product profiles to associate with this project. Select the product profile that contains in the title: The tenant ID of your Campaign instance - [!UICONTROL Administrators] 
 
@@ -75,11 +67,11 @@ Once downloaded, you can unzip the file to reveal the public and private keys. A
 
 1. Click **[!UICONTROL Save configured API]**.
 
-    ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. On the next screen you will see the details of your new Adobe Developer project. Click **[!UICONTROL Add to Project]** at the top-left of the screen and select **API** from the drop down.
 
-    ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. On the next screen you will need to select the I/O Events API, then click **[!UICONTROL Next]**.
 
@@ -97,8 +89,7 @@ Pre-integration setup in Campaign is now complete.
 
 * [Configure Adobe Developer for Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-configure-adobe-io.md) is the next step in setting up the integration
 * [Integration Self-Service Application Overview](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contains the full list of steps to get the integration up-and-running.
-
-
 * [Adobe Developer - Service Account Integration](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365 integration](../../integrating/using/d365-acs-configure-d365.md)
+* [Migrate Credentials from JWT to OAuth Server-to-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contains the steps to migrate credentials from JWT to OAuth Server-to-Server.
