@@ -119,10 +119,16 @@ To create the **[!UICONTROL Declared ID]** data source:
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
-Here, you need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name configuration in [this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+To enable shared audiences to function with Visitor ID, the tracking server domain should be a sub-domain of the clicked URL or the main website.
+
+>[!IMPORTANT]
+>
+> You need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name configuration in [this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 ### Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
 In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+
+Sync customer identifiers with Declared ID using the `setCustomerID` function in the Experience Cloud ID service with the integration code: `AdobeCampaignID`. The `AdobeCampaignID` should match the value of the Reconcilation key set in the Recipient Data Source configured in [Step 2: Configure the Data Sources](#step-2--configure-the-data-sources).
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.
