@@ -72,7 +72,7 @@ Three tabs help you to find help and assistance:
     * a **[!UICONTROL Learning]** link which allows you to access Adobe Campaign courses library.  
     * a **[!UICONTROL Community]** link to access the forum dedicated to your questions on Campaign.
     * a direct access to: Help Center, Customer Care, Experience Cloud product status, Developers connection, Release Notes, Release Planning and the **[!UICONTROL About]** screen.
-1. The **[!UICONTROL Support]** tab allows you to open a support case and contact us by phone or Twitter.
+1. The **[!UICONTROL Support]** tab allows you to open a support case and contact us by phone or X (formerly known as Twitter).
 1. The **[!UICONTROL Feedback]**  tab makes it easier to report issues or share your ideas.
 
 ## Advanced menu {#advanced-menu}
