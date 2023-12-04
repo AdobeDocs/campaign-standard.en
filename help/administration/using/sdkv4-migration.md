@@ -9,6 +9,9 @@ exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 ---
 # How to migrate your mobile application from SDK v4 to Adobe Experience Platform SDK {#sdkv4-migration}
 
+
+Support for the Adobe Experience Platform Mobile version 4 SDKs has ended as of **August 31, 2021**. Learn how to migrate to Adobe Experience Plaform SDK in this article.
+
 >[!IMPORTANT]
 >
 > The migration process is irreversible.
