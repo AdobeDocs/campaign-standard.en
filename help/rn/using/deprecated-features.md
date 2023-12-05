@@ -40,7 +40,7 @@ Customers are advised to review if they make use of the feature/capability in th
  <tbody> 
   <tr> 
    <td> <p>Support for the Adobe Experience Platform Mobile version 4 SDKs has ended as of August 31, 2021. If you are still using this legacy version of the SDK in Adobe Campaign Standard, you must update your implementation with Adobe Experience Platform SDK <strong>before end of June 2024</strong>. </p></br>
-   <p>Read out <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this article</a> to learn how to adapt your implementation and move to the latest Experience Platform SDK.</p></br>
+   <p>Read out <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">this article</a> to learn how to adapt your implementation and move to the latest Experience Platform SDK.</p></br>
    <p><strong>Caution</strong>: The SDK V4 will no longer be supported in Campaign Standard starting end of June 2024.</p>
   </td> 
   </tr> 
