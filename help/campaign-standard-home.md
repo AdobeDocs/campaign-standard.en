@@ -2,73 +2,105 @@
 keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard product documentation
 description: Browse Campaign Standard product documentation
-feature: Overview
-role: User
-level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 ---
 # Adobe Campaign Standard Documentation {#campaign-standard-documentation}
 
-<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
-
 ## What's New
 
-* **[Campaign 23.2 Release notes are live](rn/using/release-notes.md)**<br/> Discover new features, improvements and fixes coming with Campaign Standard 23.2 release
+Get a glimpse of the newest enhancements in Adobe Campaign Standard product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](rn/using/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](rn/using/documentation-updates.md).
 
-* **[Campaign - RTCDP integration](integrating/using/get-started-sources-destinations.md)**<br/> Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP)
+>[!BEGINTABS]
 
-* **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
+>[!TAB Campaign 23.2 release is live!]
 
-* **[AI-powered emails](sending/using/predictive.md)**<br/> Optimize design and delivery with AI-powered emails
+Discover new features, improvements and fixes coming with Campaign Standard 23.2 release.
 
-* **[External API](automating/using/external-api.md)**<br/> Use the External API activity to bring data into the workflow from an external system
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
-* **[Get started with mobile deliveries](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Learn more about general guidelines for mobile deliveries (SMS, Push, In-App)
+>[!TAB AI-powered emails]
 
-[More updates](rn/using/documentation-updates.md)
+Optimize design and delivery with AI-powered emails.
 
-## Top pages
+[![image](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
-<table>
-<tr>
-  <td valign="top">
-    <a href="administration/using/about-access-management.md">
-      <img alt="Roles" src="start/using/assets/roles.png"/>
-    </a>
-    <div>
-    <a href="administration/using/about-access-management.md"><strong>Roles and security groups</strong></a>
-    </div>
-    <em>Learn how to define permissions and assign roles to Campaign users</em>
-    <br>
-  </td>
-  <td valign="top">
-    <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="Designer" src="start/using/assets/design.png" />
-    </a>
-    <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
-    </div>
-    <em>Learn how to use the Email Designer to create responsive and personalized emails</em>
-    <br>
-  </td>
-  <td valign="top">
-       <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="support.md">
-    <strong>Get Support</strong></a>
-    </div>
-    <p><em>Access FAQs, best practices, help resources, and connect with the experts</em></p>
-    <br>
-  </td>
-</tr>
+>[!TAB Campaign - RTCDP integration] 
+
+Learn how to share data between Campaign and Real-time Customer Data Platform (RTCDP).
+
+[![image](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
+
+>[!ENDTABS]
+
+## Start with the basics
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>User interface</strong><br/>Learn how to navigate and optimize your experience in Journey Optimizer.</div>
+    </td>
+    <td>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/start-designer.png"></a>
+    <div><strong>Email Designer</strong><br/>Learn how to use the Email Designer to create responsive and personalized emails.</div>
+    </td>
+    <td>
+    <a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <div><strong>Communications channels</strong><br/>Learn how to send messages across various channels such as email, SMS, push notifications among others.
+    </td>
+    <td>
+    <a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <div><strong>Build your first workflow</strong><br/>Learn the main principles and best practices for building workflows.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
-## Additional Resources
+## Explore the documentation
 
-| Useful pages | Resources for developers |
-|---|---|
-| [Release notes](rn/using/release-notes.md) | [Experience Cloud triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [Campaign APIs](api/using/get-started-apis.md) |
-| [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |  [List of error messages](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
-| [Release planning](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
-| [Deprecated and removed features](rn/using/deprecated-features.md) | [Multi-solution guide](integrating/using/get-started-campaign-integrations.md) |
-| [Get started with Campaign Standard](start/using/about-campaign-standard.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <strong>Customer's experience</strong><br/><a href="sending/using/track-and-monitor.md">Monitoring messages</a> - <a href="channels/using/getting-started-with-transactional-msg.md">Transactional messaging</a> - <a href="channels/using/getting-started-with-landing-pages.md">Landing pages</a> - <a href="reporting/using/about-dynamic-reports.md">Reporting</a> - <a href="start/using/privacy-management.md">Privacy</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>Configuration<br/>administration</strong><br/><a href="administration/using/about-channel-configuration.md">Configure channels</a> - <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard settings</a>  - <a href="administration/using/about-access-management.md">Access management</a> - <a href="administration/using/monitoring-guidelines.md">Monitoring guidelines</a> - <a href="integrating/using/get-started-campaign-integrations.md">Integrate Campaign with other solutions</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>Communication channels</strong><br/><a href="channels/using/about-emails.md">Email</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">In-app</a> - <a href="channels/using/about-push-notifications.md">Push notifications</a> - <a href="channels/using/about-direct-mail.md">Direct mail</a> - <a href="channels/using/about-direct-mail.md">Web</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-content.svg" width="35px"><br/>
+      <strong>Content management</strong><br/><a href="sending/using/design-and-personalize.md">Build personalized content</a> - <a href="sending/using/sending-proofs.md">Send proofs</a> - <a href="sending/using/previewing-messages.md">Preview deliveries</a> - <a href="sending/using/use-templates.md">Use templates</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
+      <strong>Profiles & audiences</strong><br/><a href="audiences/using/about-audiences.md">Audiences</a> - <a href="audiences/using/about-profiles.md">Profiles</a> - <a href="audiences/using/about-subscriptions.md">Subscriptions</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">Opt-in & opt-out</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
+      <strong>Data management</strong><br/><a href="developing/using/data-model-concepts.md">Campaign Standard data model</a> - <a href="developing/using/key-steps-to-add-a-resource.md">Adding or extending a resource</a> - <a href="automating/using/about-data-import-and-export.md">Data import and export</a> - <a href="automating/using/managing-encrypted-data.md">Manage encrypted data</a>
+    </td>
+  </tr>
+</table> 
+
+## Additional resources
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>Useful pages</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html" target="_blank">Product description</a> - <a href="rn/using/deprecated-features.md">Deprecated and removed features</a> - <a href="rn/using/release-planning.md">Release planning</a>
+</td>
+<td><strong>Technical resources</strong><br/>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud triggers</a> - <a href="api/using/get-started-apis.md">Campaign APIs</a> - <a href="https://helpx.adobe.com/campaign/kb/acs-article-list.html" target="blank">Technical notes</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html" target="_blank">Control Panel documentation</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html">List of error messages</a>
+</td>
+</tr></table>
