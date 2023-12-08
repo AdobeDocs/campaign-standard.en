@@ -340,7 +340,7 @@ More detailed information on the Enhanced MTA has been added to core documentati
 
 The section dedicated to archiving with Email BCC has been moved and updated. [Read more](../../sending/using/archiving.md)
 
-The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 
@@ -1050,7 +1050,7 @@ Report indicator calculation now available for dynamic reports, including full d
 
 New dedicated section about Adobe Mobile Services configuration to use push notifications and Point of Interest data in Adobe Campaign. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Mobile app configuration and implementation sections updated, including more detailed steps to set up and send push notifications. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html )
+Mobile app configuration and implementation sections updated, including more detailed steps to set up and send push notifications. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Updated section about how to work with images in Campaign. [Read more](../../designing/using/images.md#setting-up-image-properties)
 

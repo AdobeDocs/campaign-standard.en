@@ -44,7 +44,7 @@ To complete the configuration, complete the following steps:
 
 1. In the Data Collection UI, click the **[!UICONTROL Extensions]** tab, go to **[!UICONTROL Catalog]**, and search for the **[!UICONTROL Adobe Campaign Standard]** extension. For more information, see [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. To support location use cases in Campaign Standard, install the **[!UICONTROL Places]** extension in the Data Collection UI. Refer to this [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. To support location use cases in Campaign Standard, install the **[!UICONTROL Places]** extension in the Data Collection UI. Refer to this [page](https://developer.adobe.com/client-sdks/solution/places).
 
 1. In Adobe Campaign Standard, configure the mobile property that you created in the Data Collection UI. Refer to [Setting up your Adobe Experience Platform Launch application in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 

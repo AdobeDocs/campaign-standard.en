@@ -121,7 +121,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Starting Campaign 20.1 release, SDK v4 is deprecated. It is now removed. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Learn more</a>.</p><br/>
+   <td> <p> Starting Campaign 20.1 release, SDK v4 is deprecated. It is now removed. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html">Learn more</a>.</p><br/>
    <p>The <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (previously referred to as v5) now exclusively support upcoming Adobe Experience Cloud features and functionality.</p>
    <p>After August 31, 2021 customers can continue to download and use the version 4 SDKs, but there will be no Customer Care support or access to forums.</p>
    <p>Learn how to migrate from SDK v4 to Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in this page</a>.</p></br>

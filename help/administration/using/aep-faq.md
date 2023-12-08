@@ -30,7 +30,7 @@ Check out the resources below for more information on the Adobe Experience Platf
 
 Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You must install the corresponding **[!UICONTROL Extension]** via the [!DNL Data Collection UI] to enable the integration.
 
-For more on this, refer to this [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+For more on this, refer to this [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## What capabilities does Adobe Experience Platform SDK integration facilitate in Adobe Campaign? {#aep-capabilities}
 
@@ -92,7 +92,7 @@ Check out the resources below:
 
 * Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/documentation/)
 * Getting Started with Launch & Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Upgrading to Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Upgrading to Experience Platform SDK [documentation](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * Github Experience Platform SDK [documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## I am getting error "You do not have write access on delivery" while creating a push notification delivery. {#write-access-error}
