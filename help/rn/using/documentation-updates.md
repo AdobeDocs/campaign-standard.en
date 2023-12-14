@@ -14,7 +14,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and will impact your Adobe Campaign implementation. Learn more in [this technote](../../administration/using/push-technote.md).
 
-## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+## Release 23.2 - Fall 2023 {#release-23-2}
 
 * Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)
 

@@ -18,11 +18,34 @@ All Adobe Campaign Standard instances are upgraded with every new release. No ac
 
 Upgrades are deployed in two phases. First, Stage instances are upgraded to allow you to test new capabilities and adapt your configuration if needed. Production instances are then upgraded.
 
-All release dates are subject to change: visit this page regularly to check for updates.
+All release dates are subject to change: visit this page regularly to check for updates. Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-## Release 23.2 - 2023 Fall/Winter Release {#release-23-2-release}
+## Release 24.1 - 2024 Winter Release {#release-23-2-release}
 
-Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
+Detailed information about this release will be available in the [Release Notes](release-notes.md) a week before the stage environment upgrades start. 
+
+<table>
+ <thead>
+  <tr>
+   <th> Environments </th>
+   <th> Dates </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Stage </td>
+   <td>Jan 16 - Feb 13, 2024 </td>
+  </tr>
+  <tr>
+   <td>Production </td>
+   <td>Jan 23 - Feb 20, 2024 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## Release 23.2 - 2023 Fall Limited Release {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
