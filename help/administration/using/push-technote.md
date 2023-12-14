@@ -5,8 +5,6 @@ audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: yes
-hidefromtoc: yes
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}

@@ -7,6 +7,7 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: yes
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 ---
 # Release Notes 2020{#release-notes-2020}
@@ -62,7 +63,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 <tbody> 
 <tr> 
   <td> <p>We are excited to announce Journey AI for all Adobe Campaign Standard customers.</p>
-  <p>Journey AI uses advanced Machine Learning (ML) to enable companies to optimize the design and delivery of customer journeys by predicting each individual’s engagement preference.</p>
+  <p>Journey AI uses advanced Machine Learning (ML) to enable companies to optimize the design and delivery of customer journeys by predicting each individual's engagement preference.</p>
   <P>Journey AI consists of two ML features:</p>
 <ul> 
      <li> <strong>Predictive Engagement Scoring</strong>  - Intelligently identifies customers' preferred level of engagement to better target and personalize messages to increase conversions and retention. Watch the <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">how-to video</a>.</li> 
@@ -229,7 +230,7 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 **Additional capabilities** (starting July 13)
  
 * **AI-Powered send time optimization and profile scoring** - You can now you can optimize the design and delivery of customer journeys to predict each individual's engagement preference. Powered by Journey AI, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics. [Learn more](../../sending/using/predictive.md)
-* **Brazil’s new privacy regulation** - In addition to the privacy capabilities already available in Campaign, Adobe helps facilitate your readiness for Brazil’s Lei Geral de Proteçao de Datos (LGPD). When creating a Privacy request, the LGPD regulation has been added to Adobe Privacy Core Service. [Learn more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+* **Brazil's new privacy regulation** - In addition to the privacy capabilities already available in Campaign, Adobe helps facilitate your readiness for Brazil's Lei Geral de Proteçao de Datos (LGPD). When creating a Privacy request, the LGPD regulation has been added to Adobe Privacy Core Service. [Learn more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **Improvements**
 
