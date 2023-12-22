@@ -17,7 +17,7 @@ This page describes improvements and fixes included in the next Campaign Standar
 >
 > This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
 
-## Release 23.2 - 2023 Fall/Winter Release {#fall-23}
+## Release 24.1 - 2024 Winter Release {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -25,25 +25,9 @@ This page describes improvements and fixes included in the next Campaign Standar
 
 ### Improvements {#e-rn-improvements}
 
-* **Integration with Adobe Experience Manager**. While creating a personalized delivery template for transactional messages in Adobe Experience Manager you can now select and use the personalization fields defined in Campaign Standard in a drop down.
+Adobe Campaign Standard 24.1 uses the HTTP v1 APIs to send Android Push Notification Messages, to ensure compatibility with upcoming FCM changes. Learn more in [this technote](../../administration/using/push-technote.md).
 
-* **Cookie expiration** – The default cookie expirations is now set to 6 months, to align with the French Data Protection Agency (CNIL) recommendations.
-
-* **Profile Search Improvement** – Profile search has been optimized so that search timeout scenarios can be reduced
-
-* **Localization** - The translations of the term "audience" when referring to a group of profiles targeted to receive a message were harmonized across all Digital Experience products for the following languages:
-
-    * German: Zielgruppe
-    * Brazilian Portuguese: público-alvo
-    * Spanish: público destinatario
-    
-    These changes will be rolled out gradually with the next UI and documentation releases.
-    
-### Other changes {#e-rn-other-changes}
-
-* Transactional Messaging now supports the use of multiple comma-separated affinities.
 
 ### Fixes {#e-rn-fixes}
 
-* Fixed a regression which could cause performance issues when using large workflows. (CAMP-53369)
-* Fixed an issue which prevented the email link in a workflow alert or notification from workfing. (CAMP-51874)
+* Fixed an issue which stopped the Delivery Alerting workflow with the following error: `division by zero`. (CAMP-49786)
