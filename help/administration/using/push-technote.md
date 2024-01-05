@@ -9,7 +9,7 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}
 
-You can use Campaign to send push notifications on Android and iOS devices. To perform this, Campaign relies on specific subscription services. Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and will impact your Adobe Campaign implementation. In addition, for iOS apps, Adobe is changing the way to allow Administrators to configure certificates.
+You can use Campaign to send push notifications on Android and iOS devices. To perform this, Campaign relies on specific subscription services. Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released with 24.1 2024 Winter release, and will impact your Adobe Campaign implementation. In addition, for iOS apps, Adobe is changing the way to allow Administrators to configure certificates.
 
 ## What changed? {#push-changes}
 
@@ -21,7 +21,7 @@ Currently Adobe Campaign Standard is using HTTP legacy APIs to send Android Push
 
 ### iOS {#push-ios}
 
-Adobe will also be upgrading Adobe Campaign Standard for the iOS Push Notification Channel and changing the way we allow Administrators to configure certificates for their iOS applications. Administrators will now need to upload the iOS certificates through the Adobe Campaign Standard's user interface.   
+Adobe will also be upgrading Adobe Campaign Standard for the iOS Push Notification Channel and changing the way we allow Administrators to configure certificates for their iOS applications. Starting 24.2 2024 Winter release, administrators need to upload the iOS certificates through the Adobe Campaign Standard's user interface, in your mobile application properties.
 
 ## Are you impacted? {#push-impact}
 
@@ -29,7 +29,7 @@ As a Campaign Standard user, if you are sending push notification messages to yo
 
 ## How to migrate? {#push-migration}
 
-These updates require a Campaign Standard build upgrade, as they impact the mobile channel configuration and permission management.
+These updates require a Campaign Standard build upgrade to 24.1 2024 Winter release, as they impact the mobile channel configuration and permission management.
 
 Detailed instructions will be provided soon to facilitate a smooth transition process. 
 
