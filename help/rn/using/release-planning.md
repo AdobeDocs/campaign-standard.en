@@ -22,7 +22,7 @@ All release dates are subject to change: visit this page regularly to check for 
 
 ## Release 24.1 - 2024 Winter Release {#release-24-1-release}
 
-Detailed information about this release will be available in the [Release Notes](release-notes.md) a week before the stage environment upgrades start. 
+Detailed information about this release are available in the [Early Release Notes](e-release-notes.md). 
 
 <table>
  <thead>
