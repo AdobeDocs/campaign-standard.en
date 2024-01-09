@@ -140,15 +140,38 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
    Your event is now available on the Triggers tab when you create an In-App message. For more information, see [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. In the **[!UICONTROL Device-specific settings]** section of a mobile application dashboard, for each device, provide the application details, including the certificate for iOS and the server key for Android.
+1. In the **[!UICONTROL Device-specific settings]** section of a mobile application dashboard, for each device, provide the application details. After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
 
-   After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
+   * +++ For iOS
+
+      Enter the following application details:
+
+      * **App ID (iOS Bundle ID)**: Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) for more information on Bundle ID.
+      * **iOS Certificate (P8) file**: Drag and drop your .p8 auth key.
+      * **Key ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) for more information on Key ID.
+      * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) for more information on iOS Team ID.
+      
+         ![](assets/mobile_app_ios_config.png)
+
+   +++
+
+   * +++For Android
+
+      Enter the following application details:
+
+      * **App ID (Android Package Name)**: Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) for more information on Package name.
+      * **Android Key (Json) file**: Drag and drop your .json private key file.
+
+         ![](assets/mobile_app_android_config.png)
+
+   +++
+
+1. After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
 
    >[!NOTE]
    >
    >After successfully adding the certificate in Adobe Campaign Standard, you will no longer be able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
 
-      ![](assets/launch_8.png)
 
 1. Click the **[!UICONTROL Mobile application subscribers]** tab to see a list of subscribers and other information about these subscribers, for example, whether they opted out of your notifications.
 
