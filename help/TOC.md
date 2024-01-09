@@ -1,12 +1,12 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 
+user-guide-description: Product documentation for Adobe Campaign Standard. 
 title: Campaign Standard Guide
-breadcrumb-title: Adobe Campaign Standard Documentation
+breadcrumb-title: Campaign Standard Documentation
 ---
 
-# Adobe Campaign Standard Help {#using}
+# Adobe Campaign Standard Documentation {#using}
 
 + [Campaign Standard documentation](campaign-standard-home.md)
 + [Latest Updates](rn/using/documentation-updates.md)
