@@ -152,10 +152,9 @@ Your mobile application is now ready to be used in Campaign for push notificatio
       * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) for more information on iOS Team ID.
       
          ![](assets/mobile_app_ios_config.png)
+      +++
 
-   +++
-
-   * +++For Android
+   * +++ For Android
 
       Enter the following application details:
 
@@ -163,8 +162,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
       * **Android Key (Json) file**: Drag and drop your .json private key file.
 
          ![](assets/mobile_app_android_config.png)
-
-   +++
+      +++
 
 1. After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
 
