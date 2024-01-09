@@ -140,7 +140,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
    Your event is now available on the Triggers tab when you create an In-App message. For more information, see [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. In the **[!UICONTROL Device-specific settings]** section of a mobile application dashboard, for each device, provide the application details. After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
+1. In the **[!UICONTROL Device-specific settings]** section of a mobile application dashboard, for each device, provide the application details.
 
    * +++ For iOS
 
