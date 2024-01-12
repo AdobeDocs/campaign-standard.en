@@ -19,11 +19,11 @@ To ensure that the push notification has been fully developed you need to be sur
 
 Push Tracking is separated into three types:
 
-* **Push Impressions** - When a push notification has been delivered to the device and is sitting on the notification center but hasn't been touched at all.  This is considered an impression.  In most cases impressions numbers should be similar if not the same as the delivered number. It ensures that the device did get the message and relayed that information back to the server.
+* **Push Impressions** - When a push notification has been successfully delivered to the device, residing in the notification center without any user interaction.
 
 * **Push Click** - When a push notification has been delivered to the device and the user has clicked on the device.  The user either wanted to view the notification (which will in turn move to Push Open tracking) or dismiss the notification.
 
-* **Push Open** - When a push notification has been delivered to the device and the user has clicked on the notification causing the app to open.  This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
+* **Push Open** - When a push notification has been delivered to the device and the user has clicked on the notification causing the app to open. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
 
 To implement tracking for Campaign Standard, the mobile app needs to include the Adobe Experience Platform SDKs. These SDKs are available in the [Adobe Experience Platform SDKs documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
