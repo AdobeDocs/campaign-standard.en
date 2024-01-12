@@ -12,11 +12,15 @@ exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
 ---
 # Hot clicks{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>The Hot Clicks report exclusively showcases the HTML version of the email and does not support the Text version.
+
 This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-It presents the message content (HTML and/or text) with the percentage of clicks on each link.
+It presents the message content with the percentage of clicks on each link.
 
 ![](assets/delivery_reports_10.png)
 
