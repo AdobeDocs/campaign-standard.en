@@ -22,7 +22,7 @@ All release dates are subject to change: visit this page regularly to check for 
 
 ## Release 24.1 - 2024 Winter Release {#release-24-1-release}
 
-Detailed information about this release are available in the [Early Release Notes](e-release-notes.md). 
+Detailed information about this release are available in the [Release Notes](release-notes.md) when Stage environment updgrades start. 
 
 <table>
  <thead>
@@ -42,37 +42,6 @@ Detailed information about this release are available in the [Early Release Note
   </tr>
  </tbody>
 </table>
-
-
-## Release 23.2 - 2023 Fall Limited Release {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
-Detailed information about this release is available in the [Release Notes](release-notes.md).
-
-<table>
- <thead>
-  <tr>
-   <th> Environments </th>
-   <th> Dates </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Stage </td>
-   <td>October 3-9, 2023 </td>
-  </tr>
-  <tr>
-   <td>Production </td>
-   <td>October 12-18, 2023 </td>
-  </tr>
- </tbody>
-</table>
-
-If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 ## Questions & Answers {#questions-and-answers}
 
