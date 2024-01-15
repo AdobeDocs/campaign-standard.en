@@ -13,10 +13,6 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 ## Release 24.1 - 2024 Winter Release {#winter-24}
 
->[!AVAILABILITY]
->
->This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
-
 ### Improvements {#e-rn-improvements}
 
 Adobe Campaign Standard 24.1 uses the HTTP v1 APIs to send Android Push Notification Messages, to ensure compatibility with upcoming FCM changes. Learn more in [this technote](../../administration/using/push-technote.md).
