@@ -166,11 +166,6 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
 
-   >[!NOTE]
-   >
-   >After successfully adding the certificate in Adobe Campaign Standard, you will no longer be able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
-
-
 1. Click the **[!UICONTROL Mobile application subscribers]** tab to see a list of subscribers and other information about these subscribers, for example, whether they opted out of your notifications.
 
 ## Deleting your application {#delete-app}
