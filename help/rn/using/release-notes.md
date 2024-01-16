@@ -9,7 +9,8 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 
 # Latest Release{#latest-release}
 
-![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
+<!--
+![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
 ## Release 24.1 - 2024 Winter Release {#winter-24}
 
