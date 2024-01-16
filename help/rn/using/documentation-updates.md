@@ -10,6 +10,10 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 24.1 - Winter 2024 {#release-24-1}
+
+Release notes for Campaign Standard 24.1 Winter 2024 release have been published. [Read more](release-notes.md)
+
 ## December 2023 {#doc-updates-dec-2023}
 
 Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and will impact your Adobe Campaign implementation. Learn more in [this technote](../../administration/using/push-technote.md).
