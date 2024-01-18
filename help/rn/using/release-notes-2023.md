@@ -4,6 +4,7 @@ description: This page lists all 2023 releases of Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
+exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
 ---
 # Release Notes 2023 {#release-notes-2023}
 
