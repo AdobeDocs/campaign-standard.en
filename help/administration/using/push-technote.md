@@ -11,6 +11,8 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 
 You can use Campaign to send push notifications on Android and iOS devices. To perform this, Campaign relies on specific subscription services. Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released with 24.1 2024 Winter release, and will impact your Adobe Campaign implementation. In addition, for iOS apps, Adobe is changing the way to allow Administrators to configure certificates.
 
+[Learn more on how to configure your mobile application certificates in Adobe Campaign Standard.](configuring-a-mobile-application.md#channel-specific-config)
+
 ## What changed? {#push-changes}
 
 ### Android {#push-android}
