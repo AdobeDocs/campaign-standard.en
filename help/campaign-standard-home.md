@@ -12,9 +12,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign Standard product and 
 
 >[!BEGINTABS]
 
->[!TAB Campaign 23.2 release is live!]
+>[!TAB Campaign 24.1 release is live!]
 
-Discover new features, improvements and fixes coming with Campaign Standard 23.2 release.
+Discover new features, improvements and fixes coming with Campaign Standard 24.1 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
