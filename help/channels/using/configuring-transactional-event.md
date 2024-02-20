@@ -97,7 +97,7 @@ Here is the API preview for this example:
 
 You can enrich the transactional message content with information from the Adobe Campaign database in order to personalize your messages. From the last name or CRM ID of each of your recipients, for example, you can recover data such as their address or date of birth or any other custom field added in the Profile table, in order to personalize the information that is sent to them.
 
-It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. For more information, see [Extending the API: Publishing the extension](../../developing/using/step-2--publish-the-extension.md)
+It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. For more information, see [Extending the API: Publishing the extension](../../developing/using/step-2-publish-the-extension.md)
 
 This information can also be stored in new resources. In that case, the resource must be linked to the **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources either directly, or via another table. For example, in the configuration below, it is possible to enrich the transactional message content with information from the **[!UICONTROL Product]** resource like the product category or ID, if the **[!UICONTROL Product]** resource is linked to the **[!UICONTROL Profile]** resource.
 

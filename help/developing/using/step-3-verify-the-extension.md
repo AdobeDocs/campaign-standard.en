@@ -3,7 +3,7 @@ title: "Step 3: Verify the extension"
 description: Learn how to access to the extended field with the Rest API.
 audience: developing
 content-type: reference
-topic-tags: use-case--extending-the-api
+topic-tags: use-case-extending-the-api
 
 feature: Data Model
 role: Developer

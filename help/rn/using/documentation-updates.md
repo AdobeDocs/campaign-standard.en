@@ -892,7 +892,7 @@ Updated the service creation section. [Read more](../../audiences/using/creating
 
 Added use cases for a better understanding of security groups and units. [Read more](../../administration/using/organizational-units.md)
 
-Improved definitions and calculations of dimensions, metrics and segments in dynamic reports. [Read more](../../reporting/using/list-of-components-.md)
+Improved definitions and calculations of dimensions, metrics and segments in dynamic reports. [Read more](../../reporting/using/list-of-components.md)
 
 Added information about retrieving incoming SMS messages with a workflow. [Read more](../../administration/using/configuring-sms-channel.md)
 
@@ -952,7 +952,7 @@ Enhancement on Mass subscription - [Read more](../../automating/using/subscripti
 
 **Other documentation updates coming with the release**
 
-Detailed list of every components available in Dynamic Reports and some changes in formulas. [Read more](../../reporting/using/list-of-components-.md)
+Detailed list of every components available in Dynamic Reports and some changes in formulas. [Read more](../../reporting/using/list-of-components.md)
 
 Detailed list of KPIs shared with Adobe Analytics. [Read more](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1004,7 +1004,7 @@ The Email rendering documentation has been updated. [Read more](../../sending/us
 
 The report indicator calculation table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
-The reporting documentation has been updated with four new metrics. [Read more](../../reporting/using/list-of-components-.md)
+The reporting documentation has been updated with four new metrics. [Read more](../../reporting/using/list-of-components.md)
 
 Documentation added on unique ID generation for profiles. [Read more](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

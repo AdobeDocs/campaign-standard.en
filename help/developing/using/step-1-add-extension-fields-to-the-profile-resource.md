@@ -3,7 +3,7 @@ title: "Step 1: Add extension fields to the profile resource"
 description: Discover how to extend the profile resource.
 audience: developing
 content-type: reference
-topic-tags: use-case--extending-the-api
+topic-tags: use-case-extending-the-api
 
 feature: Data Model
 role: Developer

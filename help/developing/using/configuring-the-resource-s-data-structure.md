@@ -244,7 +244,7 @@ In order to generate a new sub-dimension linked to the Profile dimension, check 
 
 From Dynamic Reporting, you can drag and drop the custom field dimension into a freeform table.
 
-For more information on Dynamic Reporting, refer to the [List of components](../../reporting/using/list-of-components-.md).
+For more information on Dynamic Reporting, refer to the [List of components](../../reporting/using/list-of-components.md).
 
 >[!IMPORTANT]
 >

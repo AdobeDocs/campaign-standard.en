@@ -46,7 +46,7 @@ Campaign Standard comes with a set of **ready-to-use dynamic reports** allowing 
 
 Read more:
 
-* [List of components](../../reporting/using/list-of-components-.md)
+* [List of components](../../reporting/using/list-of-components.md)
 * [Indicator calculation](../../reporting/using/indicator-calculation.md)
 * [List of reports](../../reporting/using/defining-the-report-period.md)
 
