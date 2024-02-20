@@ -195,7 +195,7 @@ breadcrumb-title: Campaign Standard Documentation
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
        + [Reporting interface](reporting/using/reporting-interface.md)
-       + [List of components](reporting/using/list-of-components-.md)
+       + [List of components](reporting/using/list-of-components.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
        + [Troubleshooting](reporting/using/troubleshooting.md)
   + List of reports {#list-of-reports}
@@ -227,7 +227,7 @@ breadcrumb-title: Campaign Standard Documentation
        + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
        + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)
        + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-       + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+       + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager.md)
        + [Creating a multilingual email with the Adobe Experience Manager integration](integrating/using/creating-multilingual-email-aem.md)
   + Campaign and Target {#working-with-campaign-and-target}
        + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
@@ -391,11 +391,11 @@ breadcrumb-title: Campaign Standard Documentation
        + [Updating the database structure](developing/using/updating-the-database-structure.md)
        + [Deleting a resource](developing/using/deleting-a-resource.md)
        + [Calling a resource using a composite identification key](developing/using/uc-calling-resource-id-key.md)
-  + Use case: Extending the API {#use-case--extending-the-api}
+  + Use case: Extending the API {#use-case-extending-the-api}
        + [About extending the API](developing/using/about-extending-the-api.md)
-       + [Step 1: Add extension fields to the profile resource](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-       + [Step 2: Publish the extension](developing/using/step-2--publish-the-extension.md)
-       + [Step 3: Verify the extension](developing/using/step-3--verify-the-extension.md)
+       + [Step 1: Add extension fields to the profile resource](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+       + [Step 2: Publish the extension](developing/using/step-2-publish-the-extension.md)
+       + [Step 3: Verify the extension](developing/using/step-3-verify-the-extension.md)
   + Use cases: Extending resources {#use-cases--extending-resources}
        + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
        + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
