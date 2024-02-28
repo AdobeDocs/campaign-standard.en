@@ -396,7 +396,7 @@ breadcrumb-title: Campaign Standard Documentation
        + [Step 1: Add extension fields to the profile resource](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
        + [Step 2: Publish the extension](developing/using/step-2-publish-the-extension.md)
        + [Step 3: Verify the extension](developing/using/step-3-verify-the-extension.md)
-  + Use cases: Extending resources {#use-cases--extending-resources}
+  + Use cases: Extending resources {#use-cases-extending-resources}
        + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
        + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
   + Datamodel {#datamodel}
