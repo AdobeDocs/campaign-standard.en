@@ -20,7 +20,7 @@ Adobe Campaign Standard 24.1 uses the HTTP v1 APIs to send Android Push Notifica
 
 Adobe Campaign Standard 24.1 now supports p8 authentication certificates for iOS push notifications. Your implementation must be adapted to activate these changes. Learn more in [this technote](../../administration/using/push-technote.md). 
 
-Starting February 19th, 2024, Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Learn more in [this page](../../administration/using/configuring-email-channel.md#email-channel-parameters). 
+Starting on June 1, 2024, Google and Yahoo! will be requiring senders to comply with One-Click List-Unsubscribe. Campaign now supports this capability out-of-the-box. Learn more in [this section](../../administration/using/configuring-email-channel.md#email-channel-parameters). 
 
 
 ### Fixes {#e-rn-fixes}

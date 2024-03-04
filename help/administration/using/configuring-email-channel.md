@@ -27,7 +27,6 @@ The email configuration screen allows to define the parameters for the email cha
     * You cannot edit those fields. To update an address, contact the Adobe Customer Care team.
     * To add another address, you can use [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they are separated by commas.
     * It is a good practice to set addresses using a star such as **@yourdomain.com**: it enables you to use any address ending with your subdomain name.
-    * Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.
 
 * **Deliverability**
 
@@ -288,6 +287,14 @@ The **[!UICONTROL SMTP]** section contains the following parameters:
   >[!IMPORTANT]
   >
   >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
+
+  Starting on June 1, 2024, Google and Yahoo! will be requiring senders to comply with **One-Click List-Unsubscribe**. Campaign supports, out-of-the-box, this capability. [Learn more on this change](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  
+  >[!CAUTION]
+  >
+  >If you modify the header value in the **[!UICONTROL Additional SMTP headers]** of your email templates, it could break the compliance with the **One-Click List-Unsubscribe** requirement from Google and Yahoo!.
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### List of access authorization parameters {#list-of-access-authorization-parameters}
 
