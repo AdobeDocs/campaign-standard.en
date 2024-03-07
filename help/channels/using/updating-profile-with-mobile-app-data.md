@@ -16,7 +16,7 @@ exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 
 This page describes the steps to develop a workflow which creates/updates profile data after a Mobile Application sends Collect PII data, on a scheduled basis.
 
-* **PII** stands for “Personally Identifiable Information”. It can be any data, including information that does not appear in the Profile table from your Campaign database like, for example, Analytics for Mobile [Points of Interest](../../integrating/using/about-campaign-points-of-interest-data-integration.md). The PII is defined by the Mobile App Developer, usually with a Marketer.
+* **PII** stands for "Personally Identifiable Information". It can be any data, including information that does not appear in the Profile table from your Campaign database like, for example, Analytics for Mobile [Points of Interest](../../integrating/using/about-campaign-points-of-interest-data-integration.md). The PII is defined by the Mobile App Developer, usually with a Marketer.
 * **Collect PII** is an HTTP-POST operation to a Rest API in Adobe Campaign Standard from a Mobile App.
 
 The goal of this use case is to create or update a Campaign Standard profile, if the PII data returned by a Mobile Application contains profile-related data.
@@ -42,8 +42,8 @@ In this example, the **[!UICONTROL Fields]** section reflect the PII data sent b
 
 The mapping for Profile Data while extending the **[!UICONTROL Subscriptions to an Application]** resource is READ-ONLY. It is used for reconciliation. The profile must be entered into the system with the necessary data to reconcile the profile with the PII data. In our case, an email address for the profile must match an email from the Collect PII in order for the reconciliation to occur:
 
-* Collect PII is received from a Mobile App for a user where their First Name is “Jane, Last Name is “Doe” and Email address is janedoe@doe.com.
-* Separately, the Profile Data must exist (for example, the data must be manually entered or already come from some other resource) where the profile’s Email address is janedoe@doe.com.
+* Collect PII is received from a Mobile App for a user where their First Name is "Jane, Last Name is "Doe" and Email address is janedoe@doe.com.
+* Separately, the Profile Data must exist (for example, the data must be manually entered or already come from some other resource) where the profile's Email address is janedoe@doe.com.
 
 **Related topics:**
 
@@ -82,7 +82,7 @@ In the **[!UICONTROL General]** tab, set the **[!UICONTROL Execution frequency]*
 
 ### Configure the **[!UICONTROL Incremental query]** activity.
 
-1. In the **[!UICONTROL Properties]** tab, click the **[!UICONTROL Select an element]** icon of the **[!UICONTROL Resource]** field, then select the **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
+1. In the **[!UICONTROL Properties]** tab, click the **[!UICONTROL Select an element]** icon of the **[!UICONTROL Resource]** field, then select the **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** element.
 
     ![](assets/update_profile3.png)
 

@@ -4,7 +4,6 @@ description: Discover how to send a message at a specific date and time.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-
 feature: Performance Monitoring
 role: User
 level: Intermediate
@@ -36,7 +35,7 @@ You can schedule this using a workflow.
 
     * Fill in the **[!UICONTROL Segment code]** field: manually enter the desired date and time for sending the message.
 
-      For example, you want to send the first batch on June 1st at 10:00 AM GMT+1. Use the following format: **YYYY-MM-DD hh:mm:ss+tz**.
+      For example, you want to send the first batch on June 1st at 10:00 AM GMT+1. Use the following format: **`YYYY-MM-DD hh:mm:ss+tz`**.
     
       ![](assets/send-time_opt_segment_configuration.png)
 

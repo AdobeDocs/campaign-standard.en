@@ -4,7 +4,6 @@ description: Learn more about the best practices to follow when importing data i
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
@@ -50,7 +49,7 @@ For example:
 * Separator: tab or semicolon
 * First line with headers
 * No string delimiter
-* Date format: YYYY/MM/DD HH:mm:SS
+* Date format: `YYYY/MM/DD HH:mm:SS`
 
 Example of file to import:
 

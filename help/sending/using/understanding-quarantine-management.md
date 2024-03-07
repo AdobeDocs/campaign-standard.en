@@ -135,12 +135,12 @@ To perform this, create a workflow and add a **[!UICONTROL Query]** activity on 
 
 Based on the timeframe of the incident, below are the recommended guidelines for this query.
 
-* **Error text (quarantine text)** contains “550-5.1.1” AND **Error text (quarantine text)** contains “support.ISP.com” 
+* **Error text (quarantine text)** contains "550-5.1.1" AND **Error text (quarantine text)** contains "support.ISP.com" 
 
-  where “support.ISP.com” can be: “support.apple.com” or “support.google.com” for example
+  where "support.ISP.com" can be: "support.apple.com" or "support.google.com" for example
         
-* **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
-* **Update status (@lastModified)** on or before  MM/DD/YYYY HH:MM:SS PM
+* **Update status (@lastModified)** on or after `MM/DD/YYYY HH:MM:SS AM`
+* **Update status (@lastModified)** on or before  `MM/DD/YYYY HH:MM:SS PM`
 
 Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their email address status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow. You can also just delete them from the quarantine table.
 
