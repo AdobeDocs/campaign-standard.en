@@ -330,7 +330,7 @@ New features, improvements and fixes included in the next Campaign Standard rele
 
 * The SMPP log format has been improved.
 
-* Optional parameters to cryptString and decryptString JS functions have been added to match Adobe Campaign Classic API's.
+* Optional parameters to cryptString and decryptString JS functions have been added to match Adobe Campaign Standard API's.
 
 * Improved warning or error messages in delivery preparation logs.
 

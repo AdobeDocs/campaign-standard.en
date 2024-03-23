@@ -43,7 +43,7 @@ Transition to the latest APIs is mandatory to avoid any service distruption.
 
 #### Prerequisites {#fcm-transition-prerequisites}
 
-* The support of **HTTP v1 APs** mode has been added in 24.1 release. If your environment is running on an older version, a prerequisite for this change is to upgrade your environment to the [latest Campaign Classic build](../../rn/using/release-notes.md).
+* The support of **HTTP v1 APs** mode has been added in 24.1 release. If your environment is running on an older version, a prerequisite for this change is to upgrade your environment to the [latest Campaign Standard release](../../rn/using/release-notes.md).
 
 * The Android Firebase Admin SDK service's account JSON file is needed to have the mobile application moved to HTTP v1. Learn how to get this file in [Google Firebase documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -102,7 +102,7 @@ If your current implementation relies on certificate-based requests to connect t
 
 #### Prerequisites {#ios-transition-prerequisites}
 
-* The support of **Token-based authentication** mode has been added in 24.1 release. If your environment is running on an older version, a prerequisite for this change is to upgrade your environment to the [latest Campaign Classic build](../../rn/using/release-notes.md).
+* The support of **Token-based authentication** mode has been added in 24.1 release. If your environment is running on an older version, a prerequisite for this change is to upgrade your environment to the [latest Campaign Standard release](../../rn/using/release-notes.md).
 
 * You need an APNs authentication token signing key to generate the tokens that your server uses. You request this key from your Apple developer account, as explained in [Apple Developer documentation](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 

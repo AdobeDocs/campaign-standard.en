@@ -109,11 +109,11 @@ You can monitor your subdomains and their certificates. Learn more:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-The new ticketing system has been through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+The new ticketing system has been through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Ask the experts!
 
-Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Join Campaign Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Create a ticket or start a chat
 
