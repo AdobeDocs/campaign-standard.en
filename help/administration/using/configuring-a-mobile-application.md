@@ -13,7 +13,7 @@ exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Adobe Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the [following document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) for a consolidated reference of the terminology changes.
+> Adobe Experience Platform Launch has been rebranded as a suite of data collection technologies in Adobe Experience Platform. Several terminology changes have rolled out across the product documentation as a result. Please refer to the [following document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} for a consolidated reference of the terminology changes.
 
 Note that Push notification and In-App implementations have to be performed by expert users. For assistance, contact your Adobe Account executive or Professional services partner.
 
@@ -33,6 +33,7 @@ To complete the configuration, complete the following steps:
    If not, contact your account team.
 
 1. Check that your user has the necessary permissions in Adobe Campaign Standard and tags in Adobe Experience Platform.
+
    * In Adobe Campaign Standard, ensure that the IMS user is part of the Standard User and Administrator Product Profiles. This step allows the user to log in to Adobe Campaign Standard, navigate to the Experience Platform SDK mobile app page, and view the mobile app properties that you created in the Data Collection UI.
 
    * In the Data Collection UI, ensure that your IMS user is part of a Experience Platform Launch product profile.
@@ -146,10 +147,10 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
       Enter the following application details:
 
-      * **App ID (iOS Bundle ID)**: Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) for more information on Bundle ID.
-      * **iOS Certificate (P8) file**: Drag and drop your .p8 auth key. For instructions on how to generate the .p8 authentication file, refer to your [Apple developer account](https://developer.apple.com/account/ios/authkey/create).
-      * **Key ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) for more information on Key ID.
-      * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) for more information on iOS Team ID.
+      * **App ID (iOS Bundle ID)**: Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} for more information on Bundle ID.
+      * **iOS Certificate (P8) file**: Drag and drop your .p8 auth key. For instructions on how to generate the .p8 authentication file, refer to your [Apple developer account](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **Key ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} for more information on Key ID.
+      * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} for more information on iOS Team ID.
       
          ![](assets/mobile_app_ios_config.png)
       +++
@@ -158,8 +159,8 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
       Enter the following application details:
 
-      * **App ID (Android Package Name)**: Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) for more information on Package name.
-      * **Android Key (Json) file**: Drag and drop your .json private key file. For instructions on how to generate the .json private key file, refer to the [Developer documentation for Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **App ID (Android Package Name)**: Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} for more information on Package name.
+      * **Android Key (Json) file**: Drag and drop your .json private key file. For instructions on how to generate the .json private key file, refer to the [Developer documentation for Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
          ![](assets/mobile_app_android_config.png)
       +++
