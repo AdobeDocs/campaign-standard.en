@@ -101,3 +101,4 @@ When designing a scheduled workflow which includes multiple activities, you need
 In the following example, the activity is configured so that it will start the workflow on a weekly basis, every other Monday at 7am, for an undetermined duration.
 
 ![](assets/wkf_scheduler_example.png)
+
