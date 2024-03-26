@@ -219,7 +219,7 @@ With Adobe Campaign Standard, you can send mobile deliveries through three diffe
 
 ## Mobile troubleshooting {#mobile-troubleshooting}
 
-The following pages will help you solve the most common problems happening when using mobile delivery in Adobe Campaign Classic. 
+The following pages will help you solve the most common problems happening when using mobile delivery in Adobe Campaign Standard. 
 
 <table style="table-layout:fixed">
 <tr>
