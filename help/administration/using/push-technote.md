@@ -9,7 +9,7 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 ---
 # Push Notification Channel changes {#push-upgrade}
 
-You can use Campaign to send push notifications on Android and iOS devices. To perform this, Campaign relies on specific subscription services.  Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
+You can use Campaign to send push notifications on Android and iOS devices. To perform this, Campaign relies on specific subscription services. Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
 
 In addition, Adobe highly recommends to move to the token-based connection to APNs rather than a certicate-based connection, which is more secure and scalable.
 
@@ -57,12 +57,22 @@ Transition to the latest APIs is mandatory to avoid any service distruption.
 To move your environment to HTTP v1, follow these steps:
 
 1. Browse to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
-1. Select the specific mobile application that requires the certificate update.
-1. Check the **[!UICONTROL Update app credentials]** checkbox. 
-1. Provide the App ID (Android package name) from your Android project's `build.gradle` file. For example, `com.android.test.testApp`. Make sure to use different IDs for staging and production environments.
-1. Upload your Android private key JSON key file.
-1. Click the **Save** button.
 
+    ![](assets/push_technote_1.png)
+
+1. Select the specific mobile application that requires the certificate update.
+
+1. Check the **[!UICONTROL Update app credentials]** checkbox. 
+
+    ![](assets/push_technote_5.png)
+
+1. Provide the App ID (Android package name) from your Android project's `build.gradle` file. For example, `com.android.test.testApp`. Make sure to use different IDs for staging and production environments.
+
+1. Upload your Android private key JSON key file.
+
+    ![](assets/push_technote_3.png)
+
+1. Click the **Save** button.
 
 >[!NOTE]
 >
@@ -112,12 +122,23 @@ If your current implementation relies on certificate-based requests to connect t
 To move your iOS mobile applications to the Token-based authentication mode, follow these steps:
 
 1. Browse to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+
+    ![](assets/push_technote_1.png)
+
 1. Select the specific mobile application that requires the certificate update.
-1. Check the **[!UICONTROL Update app credentials]** checkbox. 
-1. Edit each of these mobile applications, and browse to the **Certificate/Private key** tab.
+
+1. Check the **[!UICONTROL Update app credentials]** checkbox.
+
+    ![](assets/push_technote_2.png)
+
 1. Provide the **App ID** (iOS Bundle ID). You can find the iOS Bundle ID (App ID) in your app's primary target in Xcode.
-1. Fill in the APNs connection settings **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** and **[!UICONTROL Bundle Id]**. 
-1. Upload your p8 certificate.
+
+1. Upload your **iOS p8 certificate file**.
+
+1. Fill in the APNs connection settings **[!UICONTROL Key Id]** and **[!UICONTROL iOS Team Id]**. 
+
+    ![](assets/push_technote_4.png)
+
 1. Click **[!UICONTROL Save]**. 
 
 Your iOS application is now moved to the Token-based authentication mode.
