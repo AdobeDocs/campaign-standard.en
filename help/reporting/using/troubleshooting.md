@@ -184,3 +184,25 @@ To resolve this:
 * After importing your Target mapping from an XML, you will also need to import the Reporting enrichment.
 
 * Instead of importing your Target mapping, you can create it directly in Adobe Campaign Standard which will automatically create the Reporting enrichment. 
+
+## Discrepancy between the column header number and sum of rows 
+
+Discrepancy between the column header number and the sum of all rows is expected for the following cases:
+
+* **Unique Metrics**: Using unique metrics can alter the total count displayed in the header, as it is based on recipient IDs instead of a simple sum of row counts. Consequently, a single profile might trigger numerous events across various dimensions, leading to multiple rows in the dataset. However, in the header, each profile is counted only once.
+
+  For example:
+
+  * If a profile A opens an email on three different days, the breakdown by day will show A in three rows, but in the header, A will count as 1.
+
+  * If profile A clicks on three different links in an email on the same day, the breakdown by tracking URL will show A in three rows, but in the header, A will count as 1. The same applies to breakdowns by device and browser.
+
+* **Open Metrics**: The count of Opens is determined by aggregating the total of both actual Open events and Unique click events (per recipient ID), excluding cases where an open event has not occurred since an email link cannot be clicked without an open event.
+
+  For example:
+
+  * When profile A opens a tracked email (with URL U1), it registers as an open event with the URL noted as null. Clicking on U1 later generates a click event. Although A's click on U1 is counted as an open event too, there is no specific open event for U1. Hence, A is only counted once in the unique open count.
+
+  * A profile R opens an email on day 1, registering an open event, and clicks a link. Over the next two days, R reopens the email and clicks the link again, generating a click event each day. While R's engagement is tracked daily in the Open number, R is only counted once in the column header, focusing on unique engagements.
+
+* **Negated event**: In Reports, negated event means delivery attempts that were initially marked successful but ultimately failed after retries. These are indicated by a count of -1. To avoid confusion, these negative counts are excluded from the displayed Delivery metric numbers. As a result, the total of all rows for the delivery metric may not match the column header number.
