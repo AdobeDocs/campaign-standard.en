@@ -13,7 +13,7 @@ exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
 # About audiences{#about-audiences}
 
 An audience is a list of profiles based on rules and attributes.
-
+ 
 Adobe Campaign allows you to create your audiences manually using queries or automatically using dedicated workflows. You can also use shared audiences from the Adobe Experience Cloud. All of the audiences are regrouped into a list that can be accessed via the **[!UICONTROL Audiences]** card on the Adobe Campaign home page or from the **[!UICONTROL Audiences]** link.
 
 ![](assets/audience_1.png)
