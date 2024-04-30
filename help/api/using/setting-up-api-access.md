@@ -22,9 +22,12 @@ Adobe Campaign Standard API access is set up through the steps below. Each of th
 1. **Create a new integration to Adobe Campaign Service** in [Adobe Developer](https://developer.adobe.com/) and configure it. Your credentials will then be generated (API Key, Client secret...).
 1. **Create a JSON Web Token (JWT)** from the credentials previously generated and sign it with your private key. The JWT encodes all of the identity and security information that is needed by Adobe to verify your identity and grant you access to the API.
 
-    >[!AVAILABILITY]
+    >[!IMPORTANT]
     >
-    >JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+    >JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases. The Service Account (JWT) credentials have been marked as deprecated, they will continue to work until Jan 27, 2025. Therefore you must migrate your application or integration to use the new OAuth Server-to-Server credential before Jan 27, 2025. OAuth authentication is preferred. You will find all the elements to migrate from JWT authentication to OAuth authentication on these pages:
+    >* [Migration](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+    >* [Implementation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+    >* [Deprecation JWT FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 1. **Exchange your JWT for an Access Token** through a POST request. This Access Token will have to be used in each header of your API requests.
 
