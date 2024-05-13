@@ -43,6 +43,12 @@ Technical workflows are used to handle self-triggered background and technical p
    <td> This workflow sends the system activity report to the 'billing' user by email. By default, it is automatically started every day at 1am.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">Copy headers from delivery templates</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> This workflow copies SMTP headers set for email delivery templates to the corresponding child non-template deliveries. Only email marketing deliveries are picked up by this workflow. SMTP headers are not copied to transactional deliveries and proof deliveries. <br> This workflow is not run periodically. It must be started by the user on a per-use basis. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> If there is a high volume of deliveries on your instance, you can update the NmsCleanup_DeliveryPurgeDelay option in the <strong>Application settings</strong>. If you make a change in SMTP headers of any template, you then need to execute the workflow again after the change so that the corrected headers are copied over to non-template deliveries.<a href="data-retention.md#deliveries">Learn more</a>
+   <br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> This workflow is the database maintenance workflow: it runs different statistics and processes, and deletes obsolete data from the database according to the configuration that has been defined. By default, it is automatically started every day 4am.<br /> </td> 

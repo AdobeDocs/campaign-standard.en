@@ -288,7 +288,9 @@ The **[!UICONTROL SMTP]** section contains the following parameters:
   >
   >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
 
-  Starting on June 1, 2024, Google and Yahoo! will be requiring senders to comply with **One-Click List-Unsubscribe**. Campaign supports this capability out-of-the-box.
+  Starting on June 1, 2024, Google and Yahoo! will be requiring senders to comply with **One-Click List-Unsubscribe**. Campaign supports this capability out-of-the-box for delivery templates.
+
+  To apply **One-Click List-Unsubscribe** to all non-template email deliveries, you must run the **[!UICONTROL Copy headers from delivery templates]** technical workflow. [Learn more](technical-workflows.md)
   
   >[!CAUTION]
   >
@@ -326,7 +328,7 @@ Use the **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for s
 
 ### Email processing rules {#legacy-email-processing-rules}
 
-The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONTROL Domain management]** rules can be accessed and modified by administrators through the **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Learn more](#email-processing-rules).
+The **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** and **[!UICONTROL Domain management]** rules can be accessed and modified by administrators through the **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Learn more](#email-processing-rules)
 
 ### Bounce mail qualification {#legacy-bounce-mail-qualification}
 
