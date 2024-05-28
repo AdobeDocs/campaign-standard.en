@@ -7,6 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hide: yes
+hidefromtoc: yes
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 ---
 # Release Notes 2021{#release-notes-2021}
