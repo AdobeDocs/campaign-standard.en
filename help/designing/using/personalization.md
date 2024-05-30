@@ -32,7 +32,7 @@ This field can be personalized. To do this, you can add personalization fields, 
 >
 >The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered.
 
-## Personalizing URLs{#personalizing-urls}
+## Personalizing URLs {#personalizing-urls}
 
 Adobe Campaign allows you to personalize one or several URLs in your message by adding personalization fields, content blocks, or dynamic content to them. To do this:
 
@@ -80,7 +80,7 @@ Once personalization is generated (when previewing and preparing the email for e
 >
 >If the email is created from a workflow, the additional data computed in the workflow is also available in the personalization fields. For more information about adding additional data from a workflow, refer to the [Enriching data](../../automating/using/about-targeting-activities.md#enriching-data) section.
 
-## Adding a content block{#adding-a-content-block}
+## Adding a content block {#adding-a-content-block}
 
 Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering. For example, you can add a greeting or a link to the mirror page.
 
