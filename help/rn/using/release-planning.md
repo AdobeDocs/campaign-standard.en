@@ -20,7 +20,7 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: visit this page regularly to check for updates. Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-## Release 24.1 - 2024 Winter Release {#release-24-1-release}
+## Release 24.2 - 2024 Summer Release {#release-24-2-release}
 
 Detailed information about this release are available in the [Release Notes](release-notes.md) when Stage environment updgrades start. 
 
@@ -28,17 +28,20 @@ Detailed information about this release are available in the [Release Notes](rel
  <thead>
   <tr>
    <th> Environments </th>
-   <th> Dates </th>
+   <th> Limited Availability </th>
+   <th> General Availability </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Stage </td>
-   <td>Jan 16 - Feb 13, 2024 </td>
+   <td>August 6 - 13, 2024 </td>
+   <td>2025 - Dates to be confirmed</td>
   </tr>
   <tr>
    <td>Production </td>
-   <td>Jan 23 - Feb 20, 2024 </td>
+   <td>August 20 - 27, 2024 </td>
+   <td>2025 - Dates to be confirmed</td>
   </tr>
  </tbody>
 </table>
