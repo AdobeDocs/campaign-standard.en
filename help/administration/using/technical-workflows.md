@@ -52,13 +52,7 @@ Technical workflows are used to handle self-triggered background and technical p
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> This workflow is the database maintenance workflow: it runs different statistics and processes, and deletes obsolete data from the database according to the configuration that has been defined. By default, it is automatically started every day 4am.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Forecasting</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> This workflow executes the analysis of the deliveries stored in the provisional forecasting (creation of the provisional logs). By default, it is started every day at 1am. <br />
-   Forecasting workflow is a legacy workflow that has now been stopped in Campaign Standard and is not operating anymore.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Import a shared audience</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
