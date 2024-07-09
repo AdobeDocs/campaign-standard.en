@@ -19,15 +19,17 @@ This section lists improvements and changes included in the next Campaign Standa
 
 >[!CAUTION]
 >
-> This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the [stage environments upgrade date](../../rn/using/release-planning.md).
 
-### Release 24.2 - 2024 Summer Release {#summer-24}
+**Release 24.2 - 2024 Summer Release**
 
-***Migration to OAuth Server-to-Server credential***
+* **Release date**: August 2024 (Limited Availability)
 
-Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
- 
-If you have implemented inbound integrations with Campaign, and if you are using [Campaign APIs](../../api/using/get-started-apis.md), you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will stop working on **January 27, 2025**. 
+* **Migration to OAuth Server-to-Server credential**
+
+    Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
+    
+    If you have implemented inbound integrations with Campaign, and if you are using [Campaign APIs](../../api/using/get-started-apis.md), you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will stop working on **January 27, 2025**. 
 
 
 ## Release 24.1 - 2024 Winter Release {#winter-24}
