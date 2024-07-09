@@ -4,7 +4,6 @@ description: Learn how to manage delivery failures with Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-
 feature: Deliverability
 role: User
 level: Intermediate
@@ -131,6 +130,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 Double opt-in mechanism is a best practice when sending emails. It protects the platform from wrong or invalid email addresses, spambots, and prevents possible spam complaints.
 
-The principle is to send an email to confirm the visitor's agreement before storing them as ‘profiles' into your Campaign database: the visitor fills out an online landing page, then receives an email and has to click in the confirmation link to finalize its subscription.
+The principle is to send an email to confirm the visitor's agreement before storing them as 'profiles' into your Campaign database: the visitor fills out an online landing page, then receives an email and has to click in the confirmation link to finalize its subscription.
 
 For more on this, see [this section](../../channels/using/setting-up-a-double-opt-in-process.md).

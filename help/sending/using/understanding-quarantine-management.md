@@ -4,7 +4,6 @@ description: Learn how to optimize your deliverability with quarantine managemen
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-
 feature: Deliverability
 role: User
 level: Intermediate
