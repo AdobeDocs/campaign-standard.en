@@ -27,7 +27,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
  
-If you have implemented inbound integrations with Campaign, and if you are using Campaign APIs, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**. 
+If you have implemented inbound integrations with Campaign, and if you are using [Campaign APIs](../../api/using/get-started-apis.md), you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will stop working on **January 27, 2025**. 
 
 
 ## Release 24.1 - 2024 Winter Release {#winter-24}
