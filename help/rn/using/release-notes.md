@@ -12,6 +12,24 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+
+## Early release notes {#e-new-release}
+
+This section lists improvements and changes included in the next Campaign Standard release.
+
+>[!CAUTION]
+>
+> This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [release planning page](../../rn/using/release-planning.md).
+
+### Release 24.2 - 2024 Summer Release {#summer-24}
+
+***Migration to OAuth Server-to-Server credential***
+
+Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
+ 
+If you have implemented inbound integrations with Campaign, and if you are using Campaign APIs, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**. 
+
+
 ## Release 24.1 - 2024 Winter Release {#winter-24}
 
 ### Improvements {#e-rn-improvements}
