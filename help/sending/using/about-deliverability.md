@@ -18,6 +18,10 @@ More precisely, email deliverability refers to the set of characteristics that d
 
 For a deeper dive on what deliverability is and to learn more on key deliverability terms, concepts, and approaches, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
+>[!NOTE]
+>
+>Engagement of Deliverability team is based on contract, and customers should contact their Adobe representative for information related to Deliverability engagement.
+
 ## How to improve deliverability {#deliverability-key-points}
 
 Deliverability problems are usually linked to measures of protection against spam implemented by internet service providers and mail server administrators.
@@ -32,7 +36,7 @@ Deliverability problems are usually linked to measures of protection against spa
 
 ### Deliverability rate
 
-The deliverability rate is the number of messages that hit the recipients’ inboxes compared to the number of messages that were delivered. To improve deliverability, you may work on increasing this rate.
+The deliverability rate is the number of messages that hit the recipients' inboxes compared to the number of messages that were delivered. To improve deliverability, you may work on increasing this rate.
 
 With Adobe Campaign, the deliverability rate depends on numerous factors, particularly:
 

@@ -9,10 +9,8 @@ breadcrumb-title: Campaign Standard Documentation
 # Adobe Campaign Standard Documentation {#using}
 
 + [Campaign Standard documentation](campaign-standard-home.md)
-+ [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
-  + [Early Release Notes](rn/using/e-release-notes.md)
   + Previous Releases {#previous-releases}
     + [2023](rn/using/release-notes-2023.md)
     + [2022](rn/using/release-notes-2022.md)
@@ -24,6 +22,7 @@ breadcrumb-title: Campaign Standard Documentation
   + [Release Planning](rn/using/release-planning.md)
   + [Deprecated Features](rn/using/deprecated-features.md)
   + [Tracked URLs Signature Issue](rn/using/tracked-urls.md)
+  + [Latest documentation updates](rn/using/documentation-updates.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
   + Discovering the interface {#discovering-the-interface}

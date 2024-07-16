@@ -19,6 +19,7 @@ Are you experiencing a deliverability problem? You may find the solution here.
 **Why do I always get the same error message for a particular ISP?**
 
 If you always get the same error message for an ISP, your email or IP may have been detected as faulty by the ISP. Carry out the following recommendations:
+
 * Check whether you receive a large percentage of failures linked to inexistent email addresses (**User unknown** failures).
 * Update your subscription forms to detect any errors in the domain names entered (for example: gmaul.com or yaho.com).
 * If you notice errors stating that your messages are declared as spam, or that your messages are constantly blocked, try excluding the recipients that have not opened or clicked in one of your messages in the last 12 months from the target.

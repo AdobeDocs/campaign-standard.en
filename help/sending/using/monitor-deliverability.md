@@ -13,6 +13,7 @@ exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 # Monitoring deliverability{#monitor-deliverability}
 
 Below you will find details on the **[!UICONTROL Delivery throughput]** report as well as the different monitoring tools offered by Adobe Campaign. Here are some additional guidelines on deliverability monitoring:
+
 * Regularly check the delivery throughput for the whole platform to verify whether it is consistent with the original set-up.
 * Check that retries are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the bounce mailbox is accessible and that the account is not about to expire.
