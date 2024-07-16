@@ -19,7 +19,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 >[!CAUTION]
 >
->This content is subject to changes without prior notice until the [stage environments upgrade date](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 **Release 24.2 - 2024 Summer Release**
 
