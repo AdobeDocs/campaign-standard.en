@@ -23,7 +23,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 **Release 24.2 - 2024 Summer Release**
 
-* **Release date**: August 2024 (Limited Availability)
+* **Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).
 
 * **Migration to OAuth Server-to-Server credential**
 
