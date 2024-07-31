@@ -18,7 +18,7 @@ The provisioning and configuring of Audience Manager and People core in Adobe Ca
 
 Audience Manager (AAM) or People core service integration lets you import and export audiences or segments in Adobe Campaign.
 
-This integration must first be configured. To request provisioning of this integration, write an email to [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) with the following information:
+This integration must first be configured. To request provisioning of this integration, contact Adobe Support with the following information:
 
 <table> 
  <tbody> 
