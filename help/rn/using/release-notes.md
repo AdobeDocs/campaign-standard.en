@@ -12,7 +12,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
-
+<!--
 ## Early release notes {#e-new-release}
 
 This section lists improvements and changes included in the next Campaign Standard release.
@@ -20,17 +20,30 @@ This section lists improvements and changes included in the next Campaign Standa
 >[!CAUTION]
 >
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**Release 24.2 - 2024 Summer Release**
+## Release 24.2 - 2024 Summer Release {#summer-24}
 
-* **Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **Migration to OAuth Server-to-Server credential**
+### Improvement {#summer-24-rn-improvements}
 
-    Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
+**Migration to OAuth Server-to-Server credential**
+
+Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
     
-    If you have implemented inbound integrations with Campaign, and if you are using [Campaign APIs](../../api/using/get-started-apis.md), you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will stop working on **January 27, 2025**. 
+If you have implemented inbound integrations with Campaign, and if you are using [Campaign APIs](../../api/using/get-started-apis.md), you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will stop working on **January 27, 2025**. 
 
+### Fixes {#summer-24-rn-fixes}
+
+* Fixed an issue which caused the workflow scheduler to start before scheduled time. (CAMP-55412)
+* Fixed an issue which caused an error when duplicating custom fields in transactional push notifications. (CAMP-54459)
+* Fixed issues which affected the usability of the time and date scheduler for In-App messaging. (CAMP-54495)
+* Fixed an issue which caused tracking to not work when utilizing the Custom Tracking Alias Feature and the entire link is dynamic. (CAMP-56044)
+* Fixed an issue which caused a limited number of templates to show up when using search to find specific templates. (CAMP-55273)
+* Added the following languages to the preferred language drop-down list: en_kz (English - Kazakhstan) and en_ua (English - Ukraine). (CAMP-55336)
+* Fixed an issue which caused the time adjustment buttons to not work in scheduler settings. (CAMP-53602)
+* Fixed several user interface issues regarding the time adjustment bar in scheduler settings. (CAMP-55291)
 
 ## Release 24.1 - 2024 Winter Release {#winter-24}
 
