@@ -24,7 +24,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ## Release 24.2 - 2024 Summer Release {#summer-24}
 
-<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
+**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).
 
 ### Improvement {#summer-24-rn-improvements}
 
