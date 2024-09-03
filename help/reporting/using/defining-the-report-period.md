@@ -12,6 +12,10 @@ exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
 ---
 # Defining the report period{#defining-the-report-period}
 
+>[!NOTE]
+>
+>Data reporting is available for the last three years only. For more information about data retention periods, please contact Adobe consultants or your technical administrators.
+
 Before starting or accessing a report, you must apply a time period. The given period can be accessed on the top right of the report.
 
 By default, for a campaign or program, the filter period is set to the start and end date of the program or campaign. For a delivery, the start date corresponds to the sent date and the end date to the sent date plus 7 days.
