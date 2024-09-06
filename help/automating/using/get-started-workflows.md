@@ -33,10 +33,10 @@ Workflows can be used in different contexts, as for example:
 
 ## Workflow activities {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
 
 Various activities are available to help you design your workflows.
-
+ 
 [Targeting activities](../../automating/using/about-targeting-activities.md) allow you to build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
 
 With [Execution activities](../../automating/using/about-execution-activities.md), coordinate your workflow and its activities, while [Channel activities](../../automating/using/about-channel-activities.md) let you combine Campaign Standard communication channels to create cross-channel workflows.
