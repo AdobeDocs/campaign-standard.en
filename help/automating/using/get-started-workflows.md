@@ -33,7 +33,7 @@ Workflows can be used in different contexts, as for example:
 
 ## Workflow activities {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
 
 Various activities are available to help you design your workflows.
  
@@ -51,7 +51,7 @@ Read more:
 
 ## Filter data {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+<img src="assets/do-not-localize/icon_filter.svg" width="15px">
 
 Leverage the **query editor** to filter data from your database and build a population to better target your recipients. The query editor is available to perform several actions in Campaign Standard: create Query type audiences, define delivery targets, or populations in workflow activities.
 
@@ -65,7 +65,7 @@ Read more:
 
 ## Import/export data {#import-export-data}
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard comes with several **data management capabilities** to import and export data.
 
