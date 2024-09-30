@@ -23,14 +23,14 @@ For more information on Push or In-App, refer to the following FAQs:
 
 Check out the resources below for more information on the Adobe Experience Platform SDK and Campaign Standard integration:
 
-* Launch/Mobile [Overview Video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/Mobile [Overview Video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * Launch/Mobile [Tips & Tricks Guide](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Is Adobe Experience Platform SDK integration available for both Adobe Campaign Standard and Adobe Campaign Classic? {#aep-validity}
 
 Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You must install the corresponding **[!UICONTROL Extension]** via the [!DNL Data Collection UI] to enable the integration.
 
-For more on this, refer to this [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+For more on this, refer to this [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}.
 
 ## What capabilities does Adobe Experience Platform SDK integration facilitate in Adobe Campaign? {#aep-capabilities}
 

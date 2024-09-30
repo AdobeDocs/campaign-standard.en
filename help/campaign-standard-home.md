@@ -12,17 +12,17 @@ Get a glimpse of the newest enhancements in Adobe Campaign Standard product and 
 
 >[!BEGINTABS]
 
+>[!TAB Transition to Campaign v8]
+
+We are excited to announce that Adobe Campaign Standard users are now eligible to transition to Adobe Campaign Managed Cloud Services v8.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+
 >[!TAB Campaign 24.2 release is live!]
 
 Discover new features, improvements and fixes coming with Campaign Standard 24.2 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
-
->[!TAB AI-powered emails]
-
-Optimize design and delivery with AI-powered emails.
-
-[![image](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
 >[!TAB Campaign - RTCDP integration] 
 
