@@ -23,6 +23,8 @@ The workflow editing screen is made up of the following elements:
 
 ![](assets/wkf_overview.png)
 
+![](assets/do-not-localize/how-to-video.png) [Discover how to build a workflow in video](#video)
+
 ## Palette {#palette}
 
 The palette is on the left-hand side of the screen. All available activities are sorted into several categories:
@@ -148,3 +150,11 @@ It is also possible to copy-paste multiple activities, enabling you to duplicate
 To do this, select the activities by drawing a zone around them. then click the **[!UICONTROL Copy selection]** button from the action bar (or press **Ctrl + C**). You can then paste them into the desired location.
 
 ![](assets/wkf_copypaste3.png)
+
+## Tutorial video {#video}
+
+This video shows how to create a workflow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).
