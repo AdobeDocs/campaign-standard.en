@@ -44,6 +44,10 @@ If you are using a recurring delivery with no aggregation period, you can reques
 
 ## Understanding message indicators {#message-indicators}
 
+>[!NOTE]
+>
+> The **Deployment dashboard** provides data for quick reference, which may not match the numbers in Dynamic reports. For accurate and reliable information, we recommend using the Dynamic reporting as the source of truth. [Learn more](../../reporting/using/get-started-reporting.md)
+
 Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data, including:
 
 * The number of messages to deliver
