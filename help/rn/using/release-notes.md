@@ -22,6 +22,13 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 -->
 
+## Release 25.1 - 2025 Winter Release {#winter-25}
+
+### Security fixes {#winter-25-security}
+
+* This release brings security fixes.
+* This release comes with the following security upgrade: Apache Tomcat has been upgraded to v10.1.33.
+
 ## Release 24.2 - 2024 Summer Release {#summer-24}
 
 **Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).
