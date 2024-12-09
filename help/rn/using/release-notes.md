@@ -32,7 +32,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 * Fixed a duplicate problem in templates (CAMP-56340)
 * Fixed a tracking regression when dynamic URLs were used in Adobe Experience Manager templates (CAMP-51932)
-* Fixes a performance issue on the billing process (CAMP-56796)
+* Fixed a performance issue on the billing process (CAMP-56796)
 * Fixed an HTML encoding issue with the `>` character on JSSP web pages (CAMP-56497)
 * Fixed an issue in Dynamic reporting when using **Display on selected rows** option (CAMP-55895)
 
