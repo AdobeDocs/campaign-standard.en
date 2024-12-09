@@ -4,6 +4,7 @@ description: This page lists all 2024 releases of Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
+exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
 ---
 # Release Notes 2024 {#release-notes-2024}
 
@@ -27,4 +28,3 @@ level: Beginner
 
 * Fixed an issue which was preventing the bounced email addresses from being removed from quarantine after 30 days. (CAMP-52977)
 * Fixed an issue which stopped the Delivery Alerting workflow with the following error: `division by zero`. (CAMP-49786)
-
