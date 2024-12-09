@@ -12,6 +12,7 @@ breadcrumb-title: Campaign Standard Documentation
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
   + Previous Releases {#previous-releases}
+    + [2024](rn/using/release-notes-2024.md)
     + [2023](rn/using/release-notes-2023.md)
     + [2022](rn/using/release-notes-2022.md)
     + [2021](rn/using/release-notes-2021.md)
