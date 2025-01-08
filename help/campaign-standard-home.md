@@ -8,7 +8,7 @@ exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 
 ## What's New
 
-Get a glimpse of the newest enhancements in Adobe Campaign Standard product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](rn/using/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](rn/using/documentation-updates.md).
+Get a glimpse of the newest enhancements in Adobe Campaign Standard product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](rn/using/release-notes.md).
 
 >[!BEGINTABS]
 
@@ -18,9 +18,9 @@ We are excited to announce that Adobe Campaign Standard users are now eligible t
 
 [![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign 24.2 release is live!]
+>[!TAB Campaign 25.1 release is live!]
 
-Discover new features, improvements and fixes coming with Campaign Standard 24.2 release.
+Discover improvements and fixes coming with Campaign Standard 25.1 release.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
