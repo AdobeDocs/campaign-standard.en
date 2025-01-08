@@ -13,10 +13,6 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
 
-## Release 25.1 - Winter 2025 {#release-24-1}
-
-Release notes for Campaign Standard 24.1 Winter 2024 release have been published. [Read more](release-notes.md)
-
 ## Release 24.1 - Winter 2024 {#release-24-1}
 
 Release notes for Campaign Standard 24.1 Winter 2024 release have been published. [Read more](release-notes.md)
