@@ -33,31 +33,40 @@ Below are the default retention periods for standard tables. Whenever possible, 
 * **Ignored pipeline events**: 1 month
 * **Delivery alerts**: 1 month
 * **Export audit**: 6 months (recommended: 1 month)
+* **Deliveries**: 2 years
 
 ## Retention period for deliveries {#deliveries}
 
-By default, the retention period for deliveries is unlimited.
+<!-- By default, the retention period for deliveries is unlimited.-->
+
+Effective June 1st, 2025, only deliveries from the past two years will remain available in the system. You will find more details below:
+
+* Any deliveries older than two years will be permanently removed and no longer accessible.
+* This cleanup includes only sent and failed deliveries; recurring deliveries, draft deliveries and templates will not be affected.
+* Once a delivery is removed, any linked tracking or sending information will also be permanently deleted.
+* Marketing or transactional delivery templates will not be deleted.
+* For recurring deliveries, child deliveries with aggregation period set as month or year will not be deleted.
+
+In case you are looking to speed up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow, the delivery retention period can be decreased. To do so, please reach out to your Adobe representative.
+
+<!--
 
 However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
 Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow.
+-->
 
->[!NOTE]
->
->Learn more on technical workflows in [this section](technical-workflows.md).
+<!--
 
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
 
 The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
 
 For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
 
->[!NOTE]
->
->* Marketing or transactional delivery templates will not be deleted.
->
->* For recurring deliveries, child deliveries with aggregation period set as month or year will not be deleted.
+-->
 
-When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
 

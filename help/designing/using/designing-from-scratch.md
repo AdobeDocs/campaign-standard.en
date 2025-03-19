@@ -152,7 +152,6 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 >id="ac_edition_video"
 >title="Video settings"
 >abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Additional info"
 
 Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
