@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 ---
-# Data retention{#data-retention}
+# Data retention{#data-retention} 
 
 >[!NOTE]
 >
