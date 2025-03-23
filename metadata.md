@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 product: campaign
 solution: Campaign, Campaign Standard
-version: Standard
+version: Campaign Standard
 feature-set: Campaign
 git-repo: https://github.com/AdobeDocs/campaign-standard.en
 index: yes
