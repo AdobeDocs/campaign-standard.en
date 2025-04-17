@@ -99,7 +99,7 @@ Once your two users are attached to the **[!UICONTROL Administrators]** and **[!
 
     * The roles of the different groups are cumulated. Here, users are in two different groups: one that will act on roles the other on units.
     * It is the unit that is the highest in the hierarchy that will be used (see example in the [Organizational units](../../administration/using/organizational-units.md) section).
-    * The user will no longer be able to connect if units have the same equivalent level and are in parallel branches in the hierarchy.
+    * If the organizational units assigned to the user are in parallel branches in the hierarchy i.e., they do not have a common assigned parent unit, then the system selects the organizational unit for the user and the user would have access to the system selected organizational unit and its children.
 
 1. Follow the same procedures to assign the Geometrixx Clothes security group to your Standard user.
 
