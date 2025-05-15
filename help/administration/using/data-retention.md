@@ -11,7 +11,7 @@ exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 
 >[!NOTE]
 >
->Data reporting is available for the last three years only. For more information about data retention periods, please contact Adobe consultants or your technical administrators.
+>Data reporting is available for the last two years only. For more information about data retention periods, please contact Adobe consultants or your technical administrators.
 
 Standard log tables in Campaign have pre-set retention periods on them limiting their data storage duration, to avoid overloading your system.
 
