@@ -20,7 +20,7 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: visit this page regularly to check for updates. Environment updates happen in waves, during the indicated timeframes below. Exact dates are communicated by email to each customer. 
 
-## Release 25.1 - 2025 Winter Release {#release-25-1-release}
+## Release 25.2 - 2025 Summer Release {#release-25-2-release}
 
 Detailed information about this release are available in the [Release Notes](release-notes.md) when Stage environment updgrades start. 
 
@@ -35,12 +35,12 @@ Detailed information about this release are available in the [Release Notes](rel
  <tbody>
   <tr>
    <td>Stage </td>
-   <td>Jan 7 - Feb 4, 2025 </td>
+   <td>July 8 - Aug 19, 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Production </td>
-   <td>Jan 13 - Feb 25, 2025 </td>
+   <td>July 15 - Aug 27, 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
