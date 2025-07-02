@@ -35,12 +35,12 @@ Detailed information about this release are available in the [Release Notes](rel
  <tbody>
   <tr>
    <td>Stage </td>
-   <td>July 8 - Aug 19, 2025 </td>
+   <td>August </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Production </td>
-   <td>July 15 - Aug 27, 2025 </td>
+   <td>September </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
