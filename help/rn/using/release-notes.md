@@ -21,6 +21,18 @@ This section lists improvements and changes included in the next Campaign Standa
 
 -->
 
+## Release 25.1.2 {#25.1.2}
+
+### Security fixes {#25.1.2-security}
+
+* This release brings security fixes.
+* This release comes with the following security upgrade: Apache Tomcat has been upgraded to v10.1.36.
+
+### Other fixes {#25.1.2-fixes}
+
+* Fixed a token parsing issue that could prevent users from logging in via IMS. (CAMP-57337)
+* The auto sequence ID generation mechanism has been improved to enhance system reliability. (CAMP-57281)
+
 ## Release 25.1 - 2025 Winter Release {#winter-25}
 
 ### Security fixes {#winter-25-security}
