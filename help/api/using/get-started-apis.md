@@ -14,20 +14,21 @@ exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 
 Campaign Standard APIs are aimed at letting you **create integrations** for Adobe Campaign Standard and **build your own ecosystem** by interfacing Adobe Campaign Standard with the panel of technologies that you use.
 
-With the Adobe Campaign Standard APIs, you get access to the following functionalities:
+With the Adobe Campaign Standard APIs, you get access to the following functionalities: 
 
-<table style="table-layout:auto"><tr style="border: 0;">
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="conditions" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiles</a></p></td>
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+<tbody><tr style="border: 0;background-color: #FFFFFF;">
+<td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="conditions" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profiles</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="conditions" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Services & subscriptions</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="conditions" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Custom resources</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="conditions" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marketing history</a></p></td>
 </tr>
-<tr style="border: 0;">
+<tr style="border: 0;background-color: #FFFFFF;">
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="conditions" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Privacy management</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="conditions" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Transactional messages</a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="conditions" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Workflows</a></p></td>
 <td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="50px" alt="conditions" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Organizational units</a></p></td>
-</tr></table>
+</tr></tbody></table>
 
 >[!NOTE]
 >

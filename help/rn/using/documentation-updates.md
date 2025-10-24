@@ -64,7 +64,7 @@ The usage of SMTP test mode has been detailed. [Read more](../../administration/
 
 ## March 2022 {#doc-updates-march-2022}
 
-A note has been to specify that sending proofs using profile substitution will add records to the logs of the selected profiles. [Read more](../../sending/using/testing-messages-using-target.md)
+A note has been added to specify that sending proofs using profile substitution will add records to the logs of the selected profiles. [Read more](../../sending/using/testing-messages-using-target.md)
 
 ## Release 22.1 - February 2022 {#release-22-1}
 
