@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 ---

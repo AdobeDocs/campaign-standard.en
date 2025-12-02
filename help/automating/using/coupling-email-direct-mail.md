@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
 ---

@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 ---

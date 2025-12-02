@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 ---

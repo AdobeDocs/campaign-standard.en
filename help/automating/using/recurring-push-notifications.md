@@ -2,7 +2,8 @@
 title: Sending a recurring push notification with a workflow
 description: In this example, a personalized push notification is sent every first day of the month at 8 pm to the subscribers of your mobile application depending on their time zones
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
 ---

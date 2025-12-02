@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 ---

@@ -2,7 +2,8 @@
 title: Retrieving subscriptions
 description: Learn how to retrieve subscriptions with APIs
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
 ---

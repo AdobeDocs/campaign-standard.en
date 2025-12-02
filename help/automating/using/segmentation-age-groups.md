@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 ---

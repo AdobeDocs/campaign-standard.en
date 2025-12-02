@@ -5,7 +5,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
 ---

@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: campaign-standard-apis
 
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
 ---

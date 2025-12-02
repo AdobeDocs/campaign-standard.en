@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 ---
