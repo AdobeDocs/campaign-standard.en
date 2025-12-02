@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
 ---

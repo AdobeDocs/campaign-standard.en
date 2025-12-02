@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: filtering-data
 
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 ---

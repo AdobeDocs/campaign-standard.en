@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 ---

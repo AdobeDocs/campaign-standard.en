@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: exclusion,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 ---

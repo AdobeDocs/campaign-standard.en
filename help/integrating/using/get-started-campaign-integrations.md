@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: get-started-campaign-integrations
 
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 ---

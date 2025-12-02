@@ -2,7 +2,8 @@
 title: Interacting with marketing history
 description: Learn how to interact with profiles' marketing history
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 ---

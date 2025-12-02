@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 ---

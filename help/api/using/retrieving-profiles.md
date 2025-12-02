@@ -2,7 +2,8 @@
 title: Retrieving profiles
 description: Learn more how to retrieve profiles with APIs
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 ---

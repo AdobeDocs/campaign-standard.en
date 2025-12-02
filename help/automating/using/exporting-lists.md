@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 ---

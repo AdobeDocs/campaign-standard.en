@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: working-with-campaign-and-target
 
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
 ---

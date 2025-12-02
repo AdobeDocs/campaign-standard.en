@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
 ---

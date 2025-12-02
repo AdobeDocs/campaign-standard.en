@@ -6,7 +6,8 @@ content-type: reference
 topic-tags: configuring-channels
 
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: yes
