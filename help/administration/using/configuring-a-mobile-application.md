@@ -143,27 +143,27 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. In the **[!UICONTROL Device-specific settings]** section of a mobile application dashboard, for each device, provide the application details.
 
-   * +++ For iOS
+   +++ For iOS
 
-      Enter the following application details:
+   Enter the following application details:
 
-      * **App ID (iOS Bundle ID)**: Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} for more information on Bundle ID.
-      * **iOS Certificate (P8) file**: Drag and drop your .p8 auth key. For instructions on how to generate the .p8 authentication file, refer to your [Apple developer account](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
-      * **Key ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} for more information on Key ID.
-      * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} for more information on iOS Team ID.
-      
+   * **App ID (iOS Bundle ID)**: Refer to [Apple documentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} for more information on Bundle ID.
+   * **iOS Certificate (P8) file**: Drag and drop your .p8 auth key. For instructions on how to generate the .p8 authentication file, refer to your [Apple developer account](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+   * **Key ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} for more information on Key ID.
+   * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} for more information on iOS Team ID.
+
          ![](assets/mobile_app_ios_config.png)
-      +++
+   +++
 
-   * +++ For Android
+   +++ For Android
 
-      Enter the following application details:
+   Enter the following application details:
 
-      * **App ID (Android Package Name)**: Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} for more information on Package name.
-      * **Android Key (Json) file**: Drag and drop your .json private key file. For instructions on how to generate the .json private key file, refer to the [Developer documentation for Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
+   * **App ID (Android Package Name)**: Refer to [Android documentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} for more information on Package name.
+   * **Android Key (Json) file**: Drag and drop your .json private key file. For instructions on how to generate the .json private key file, refer to the [Developer documentation for Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
-         ![](assets/mobile_app_android_config.png)
-      +++
+      ![](assets/mobile_app_android_config.png)
+   +++
 
 1. After your certificate is uploaded, a message notifies you that the upload was successful and displays the expiration date of your certificate.
 
