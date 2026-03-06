@@ -21,48 +21,22 @@ This section lists improvements and changes included in the next Campaign Standa
 
 -->
 
-## Release 25.2 - 2025 Summer Release {#summer-25}
+## Release 26.1 (LA) {#26.1}
 
-### Security fixes {#summer-25-security}
+>[!AVAILABILITY]
+>
+>This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-* This release brings security fixes.
-* This release comes with the following security upgrade: PostgreSQL 14.18, migration from CentOS to Rocky for Azure instances.
-
-### Other fixes {#summer-25-fixes}
-
-* Improved handling of sequence exhaustion to enhance system reliability. (CAMP-57281)
-* General product stabilization updates. (CAMP-57339)
-* Improved Dynamic Reporting for better robustness and reduced data mismatches. (CAMP-58157)
-* Fixed an issue where drop-down menus did not wrap text correctly. (CAMP-57360)
-* Updated reporting functionality to prevent users from querying data older than 2 years. (CAMP-59262)
-
-## Release 25.1.2 {#25.1.2}
-
-### Security fixes {#25.1.2-security}
+### Security fixes {#winter-26-security}
 
 * This release brings security fixes.
-* This release comes with the following security upgrade: Apache Tomcat has been upgraded to v10.1.36.
+* This release comes with the following security upgrades: Debian 12 and PostgreSQL 17.
 
-### Other fixes {#25.1.2-fixes}
+### Other fixes {#winter-26-fixes}
 
-* Fixed a token parsing issue that could prevent users from logging in via IMS. (CAMP-57337)
-* The auto sequence ID generation mechanism has been improved to enhance system reliability. (CAMP-57281)
-
-## Release 25.1 - 2025 Winter Release {#winter-25}
-
-### Security fixes {#winter-25-security}
-
-* This release brings security fixes.
-* This release comes with the following security upgrade: Apache Tomcat has been upgraded to v10.1.33.
-
-### Other fixes {#winter-25-fixes}
-
- 
-* Fixed the 'Data Schema' URL in subscription summary screen (CAMP-56168, CAMP-56296)
-* Fixed an issue to bypass the fatigue rules when the **Message to be sent immediately** option is used (CAMP-56866, CAMP-57033)
-* Fixed a duplicate problem in templates (CAMP-56340)
-* Fixed a tracking regression when dynamic URLs were used in Adobe Experience Manager templates (CAMP-51932)
-* Fixed a performance issue on the billing process (CAMP-56796)
-* Fixed an HTML encoding issue with the `>` character on JSSP web pages (CAMP-56497)
-* Fixed an issue in Dynamic reporting when using **Display on selected rows** option (CAMP-55895)
-
+* Improved Dynamic Reporting for better robustness and reduced data mismatches. (CAMP-58964)
+* Improved IMS login mechanism for better reliability. (CAMP-59418)
+* Improved AEM content integration with better URL handling for paginated requests. (CAMP-59540)
+* Added password-type input support in Options screen with automatic hashing. (CAMP-60206)
+* Fixed an issue where temporary workflows were using incorrect sequence IDs. (CAMP-59824)
+* Fixed an issue which could cause errors when retrieving AEM campaign content. (CAMP-59926)
