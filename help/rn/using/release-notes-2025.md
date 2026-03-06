@@ -4,7 +4,7 @@ description: This page lists all 2025 releases of Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
 ---
 # Release Notes 2025 {#release-notes-2025}
 
@@ -52,4 +52,3 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
 * Fixed a performance issue on the billing process (CAMP-56796)
 * Fixed an HTML encoding issue with the `>` character on JSSP web pages (CAMP-56497)
 * Fixed an issue in Dynamic reporting when using **Display on selected rows** option (CAMP-55895)
-
