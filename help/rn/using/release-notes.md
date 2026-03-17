@@ -27,12 +27,28 @@ This section lists improvements and changes included in the next Campaign Standa
 >
 >This release is only available for a set of organizations (Limited Availability). For more information, contact your Adobe representative.
 
-### Security fixes {#winter-26-security}
+### Security fixes {#26-1-security}
 
 * This release brings security fixes.
 * This release comes with the following security upgrades: Debian 12 and PostgreSQL 17.
 
-### Other fixes {#winter-26-fixes}
+### Other fixes {#26-1-fixes}
+
+* Improved Dynamic Reporting for better robustness and reduced data mismatches. (CAMP-58964)
+* Improved IMS login mechanism for better reliability. (CAMP-59418)
+* Improved AEM content integration with better URL handling for paginated requests. (CAMP-59540)
+* Added password-type input support in Options screen with automatic hashing. (CAMP-60206)
+* Fixed an issue where temporary workflows were using incorrect sequence IDs. (CAMP-59824)
+* Fixed an issue which could cause errors when retrieving AEM campaign content. (CAMP-59926)
+
+## Release 26.2 {#26.2}
+
+### Security fixes {#26-2-security}
+
+* This release brings security fixes.
+* This release comes with the following security upgrades: Debian 13 and PostgreSQL 17.
+
+### Other fixes {#26-2-fixes}
 
 * Improved Dynamic Reporting for better robustness and reduced data mismatches. (CAMP-58964)
 * Improved IMS login mechanism for better reliability. (CAMP-59418)
