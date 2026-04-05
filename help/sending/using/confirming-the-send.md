@@ -16,9 +16,11 @@ Once you have finished preparing your messages and the approval steps have been 
 
 Only users with the **[!UICONTROL Start deliveries]** role can confirm sending. For more on this, refer to the [List of roles](../../administration/using/list-of-roles.md) section.
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## Sending the message {#sending-message}
 

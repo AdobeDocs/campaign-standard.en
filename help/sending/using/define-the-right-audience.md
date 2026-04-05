@@ -3,7 +3,7 @@ title: Define the right audience
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: "When you have your content ready, learn how you carefully define who will receive your message."
 feature: Deliverability
 role: User

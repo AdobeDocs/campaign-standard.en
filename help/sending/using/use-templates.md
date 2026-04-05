@@ -3,7 +3,7 @@ title: Use delivery templates
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: "Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities."
 feature: Deliverability
 role: User

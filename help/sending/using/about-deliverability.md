@@ -97,7 +97,8 @@ For more on this, refer to the following sections:
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
 
-<!--## General recommendations
+<!--
+## General recommendations
 
 NOT SURE TO KEEP
 
@@ -113,9 +114,10 @@ Double opt-in mechanisms and effective handling of technical bounce messages mak
 
 ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-<!--Sending to honeypot addresses {#honeypot-addresses}
-ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
+Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.
 
-<!--## Sending on a regular basis {#regular-deliveries}
+## Sending on a regular basis {#regular-deliveries}
 
-Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.
+-->

@@ -32,7 +32,8 @@ The chart below illustrates the overall transactional messaging publication proc
 * [Unpublishing a transactional message](#unpublishing-a-transactional-message)
 * [Publishing an event](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -78,7 +79,8 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## Publishing a transactional message {#publishing-a-transactional-message}
 
@@ -147,7 +149,8 @@ However, deleting a transactional message can only be done under certain conditi
 
 * **Transactional messages from an out-of-the-box event template (internal transactional messages)**: If an internal transactional message is the only one associated with the corresponding internal event, it cannot be deleted. You must first create another transactional message by duplicating it or through the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** menu.
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -239,4 +242,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->

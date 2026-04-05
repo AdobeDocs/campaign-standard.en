@@ -87,9 +87,11 @@ The **[!UICONTROL Email processing rules]** can be accessed by administrators th
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME**.
 * MX rules automatically customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ### Bounce mails {#bounce-mails}
 
@@ -103,7 +105,8 @@ These rules contain the list of character strings which can be returned by remot
 
 For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -115,7 +118,8 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## List of email properties {#list-of-email-properties}
 

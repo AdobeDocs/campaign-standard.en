@@ -29,19 +29,25 @@ Detailed information about this release are available in the [Release Notes](rel
   <tr>
    <th> Environments </th>
    <th> Dates</th>
-   <!--th> General Availability </th-->
+   <!--
+   <th> General Availability </th>
+   -->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Stage </td>
    <td>August </td>
-   <!--td>2025 - Dates to be confirmed</td-->
+   <!--
+   <td>2025 - Dates to be confirmed</td>
+   -->
   </tr>
   <tr>
    <td>Production </td>
    <td>September </td>
-   <!--td>2025 - Dates to be confirmed</td-->
+   <!--
+   <td>2025 - Dates to be confirmed</td>
+   -->
   </tr>
  </tbody>
 </table>

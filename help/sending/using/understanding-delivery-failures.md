@@ -92,8 +92,10 @@ For example, if you want retries for a delivery to stop after one day, you can s
 >
 >Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated<!--from **[!UICONTROL Sent]**--> to **[!UICONTROL Failed]** in the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+-->
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
@@ -114,7 +116,8 @@ Asynchronous bounces are still qualified by the inMail process through the **[!U
 
 For more on bounces and the different kinds of bounces, see [this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
 Bounces can have the following qualification statuses:
 
@@ -124,7 +127,8 @@ Bounces can have the following qualification statuses:
 
 To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
-![](assets/qualification.png)-->
+![](assets/qualification.png)
+-->
 
 ## Optimizing email deliverability with double opt-in mechanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 

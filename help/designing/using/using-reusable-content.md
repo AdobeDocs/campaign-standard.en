@@ -80,9 +80,11 @@ This template can now be used in any email built with the Email Designer. Select
 
 When editing an email with the Email Designer, you can directly save the content of that email as a template.
 
-<!--[!CAUTION]
+<!--
+[!CAUTION]
 >
->You cannot save as template a structure containing personalization fields or dynamic content.-->
+>You cannot save as template a structure containing personalization fields or dynamic content.
+-->
 
 1. Select **[!UICONTROL Save as template]** from the Email Designer main toolbar.
 
@@ -276,7 +278,8 @@ When editing an email with the Email Designer, you can directly save part of tha
 >[!NOTE]
 >The [mobile view](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
 
-<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+<!--
+You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
@@ -290,7 +293,8 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+-->
 
 ## Creating reusable headers and footers using fragments {#header-footer-fragments}
 

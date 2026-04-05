@@ -3,7 +3,7 @@ title: Campaign delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Learn best practices related to delivery design and sending with Adobe Campaign.
 feature: Deliverability
 role: User

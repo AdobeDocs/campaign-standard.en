@@ -83,7 +83,8 @@ For example, you want to send a notification to your website users who have adde
 
    You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a specific test profile](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
+<!--
+## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
 When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
@@ -201,7 +202,8 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+-->
 
 ## Profile-based transactional message specificities {#profile-transactional-message-specificities}
 
@@ -230,7 +232,8 @@ The differences are listed below.
 
 1. Save your changes before publishing the message. For more on this, see [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+<!--
+### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -265,4 +268,5 @@ This rule is part of a specific typology that applies to all transactional messa
 **Related topics**:
 
 * [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+-->

@@ -262,7 +262,8 @@ Response to the request.
 
 <!-- exemple à vérifier de bout en bout-->
 
-<!--+category = query editor
+<!--
++category = query editor
 privacy ?
 displayFOrmat ?
 pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noeud values, chaque @name a une correspondance en format = au format définit par le resType
@@ -273,7 +274,7 @@ pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noe
 
 
 <!--
- if link ou collection.* resName +
+if link ou collection.* resName +
 * resTarget tout ca, ca va ensemble : le système de lien, resTarget va donner la ressource targetée par le lien. type
 resType = type technique (long..) resType = link alors unbound='false' ou 'true'
 If type = enumeration alors champ "values" rajouté et les valeurs sont dans values

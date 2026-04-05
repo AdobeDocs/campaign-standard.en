@@ -150,9 +150,11 @@ To insert and configure this checkbox, do the following:
 
       ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+      <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. Make sure the checkbox is selected.
 
