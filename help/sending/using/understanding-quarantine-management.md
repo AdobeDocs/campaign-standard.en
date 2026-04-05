@@ -43,7 +43,7 @@ Quarantine and denylist do not apply to the same object:
 >
 >Quarantine includes an **On denylist** status, which applies when recipients report your message as spam or reply to an SMS message with a keyword such as "STOP". In that case, the profile's involved address or phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. For more on managing STOP SMS messages, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
  
-<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
@@ -172,7 +172,9 @@ As opposed to hard errors, soft errors do not send immediately an address to qua
 
 Retries will be performed during the [delivery duration](../../administration/using/configuring-email-channel.md#validity-period-parameters). When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-The error counter threshold can be modified.-->
+<!--
+In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.
+-->
 
 The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow. (For more on technical workflows, see [this section](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

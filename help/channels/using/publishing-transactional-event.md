@@ -83,13 +83,15 @@ Now, even if the event is triggered through your website, the corresponding mess
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## Deleting an event {#deleting-an-event}
 

@@ -3,7 +3,7 @@ title: Optimize message delivery
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Learn how to secure and optimize the sending process upstream.
 feature: Deliverability
 role: User

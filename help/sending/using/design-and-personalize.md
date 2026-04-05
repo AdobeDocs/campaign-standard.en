@@ -3,7 +3,7 @@ title: Build personalized content
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Learn how to design your message content and try to avoid common issues that could prevent you from executing your delivery. 
 feature: Deliverability
 role: User

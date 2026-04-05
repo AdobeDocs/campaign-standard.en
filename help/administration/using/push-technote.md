@@ -33,11 +33,13 @@ If you are already using Adobe Campaign Standard to send push notifications, you
 
 Transition to the latest APIs is mandatory to avoid any service distruption. 
 
-<!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
+<!--
+To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
 
 * If any of your active push notification service uses the **HTTP (legacy)** API, your setup will be directly impacted by this change. You must review your current configurations and move to the newer APIs as described below.
 
-* If your setup exclusively uses the **HTTP v1** API for Android push notifications, then you are already in compliance and no further action will be required on your part.-->
+* If your setup exclusively uses the **HTTP v1** API for Android push notifications, then you are already in compliance and no further action will be required on your part.
+-->
 
 ### How to update? {#fcm-transition-procedure}
 
@@ -99,14 +101,16 @@ Adobe Campaign Standard support both token-based and certificate-based connectio
 
 If your current implementation relies on certificate-based requests to connect to APNs, you are impacted. Transition to a token-based connection is recommended.
 
-<!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below:
+<!--
+To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below:
 
 ![](assets/filter-services-ios.png)
 
 
 * If any of your active push notification service uses the **Certificate-based authentication** mode (.p12), your current implementations should be reviewed and moved to a **Token-based authentication** mode (.p8) as described below.
 
-* If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.-->
+* If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.
+-->
 
 ### How to update? {#ios-transition-procedure}
 

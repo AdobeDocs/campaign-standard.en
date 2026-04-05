@@ -209,7 +209,8 @@ To send a profile-based transactional message, you first need to create and conf
 
 1. Integrate the event into your website (see [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-<!--### Transactional SMS messages {#transactional-sms}
+<!--
+### Transactional SMS messages {#transactional-sms}
 
 The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
 
@@ -217,7 +218,8 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
 
-* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).
+-->
 
 ### Transactional push notifications {#transactional-push-notifications}
 

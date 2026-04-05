@@ -33,8 +33,10 @@ The response returns the main metadata from the resource (all other fields are d
 * The **Filters** node returns the URL to retrieve the associated filters. For more on filters, refer to [this section](../../api/using/filtering.md) section.
 
 <!-- créer une section au même niveau sur les liens -->
-<!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
-si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
+<!--
+dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
+si on prend l'exemple de l'org unit, on aura un bon exemple lien
+-->
 <!-- plus reparler du node Data -->
 
 <br/>

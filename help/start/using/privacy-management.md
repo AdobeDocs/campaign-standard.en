@@ -32,9 +32,11 @@ For more on this, see [Right to Access and Right to be Forgotten](#right-access-
 
 For more on this, see [Consent, Retention and Roles](#consent-retention-roles).
 
-<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+<!--
+This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
-It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
+-->
 
 ## Regulations on Privacy management {#privacy-management-regulations}
 

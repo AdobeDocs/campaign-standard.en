@@ -152,7 +152,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
    * **Key ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} for more information on Key ID.
    * **iOS Team ID**: Refer to [Apple documentation](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} for more information on iOS Team ID.
 
-         ![](assets/mobile_app_ios_config.png)
+     ![](assets/mobile_app_ios_config.png)
    +++
 
    +++ For Android

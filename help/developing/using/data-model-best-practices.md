@@ -43,13 +43,15 @@ The Adobe Campaign default data model is presented in this [section](../../devel
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
-<!--### What is a customer? {#customer-definition}
+<!--
+### What is a customer? {#customer-definition}
 
 If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.
+-->
 
 ### Data for Adobe Campaign {#data-for-campaign}
 
@@ -98,11 +100,13 @@ The following table describe these identifiers and their purpose.
 
 Each resource created in Adobe Campaign must have at least one unique [identification key](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
+<!--
+Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.
+-->
 
 When creating a custom resource, you have two options:
 
@@ -121,9 +125,11 @@ Adobe Campaign automatically adds an [index](../../developing/using/configuring-
 * However, do not add too many indexes as they use space on the database. Numerous indexes may also have a negative performance impact.
 * Carefully select the indexes that need to be defined.
 
-<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).
+-->
 
 ### Links {#links}
 
