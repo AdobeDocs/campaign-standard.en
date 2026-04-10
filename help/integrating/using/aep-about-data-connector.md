@@ -10,7 +10,6 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: yes
-hidefromtoc: yes
 ---
 # About Adobe Experience Platform Data Connector {#about-aep-data-connector}
 

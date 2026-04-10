@@ -11,7 +11,6 @@ role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: yes
-hidefromtoc: yes
 ---
 # Using the Segment Builder {#using-the-segment-builder}
 

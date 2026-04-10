@@ -11,7 +11,6 @@ role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: yes
-hidefromtoc: yes
 ---
 # Mapping definition {#mapping-definition}
 

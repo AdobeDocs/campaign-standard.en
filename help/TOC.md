@@ -16,15 +16,15 @@ breadcrumb-title: Campaign Standard Documentation
     + [2024](rn/using/release-notes-2024.md)
     + [2023](rn/using/release-notes-2023.md)
     + [2022](rn/using/release-notes-2022.md)
-    + [2021](rn/using/release-notes-2021.md)
-    + [2020](rn/using/release-notes-2020.md)
-    + [2019](rn/using/release-notes-2019.md)
-    + [2018](rn/using/release-notes-2018.md)
-    + [2017](rn/using/release-notes-2017.md)
+    + {hide-from-toc} [2021](rn/using/release-notes-2021.md)
+    + {hide-from-toc} [2020](rn/using/release-notes-2020.md)
+    + {hide-from-toc} [2019](rn/using/release-notes-2019.md)
+    + {hide-from-toc} [2018](rn/using/release-notes-2018.md)
+    + {hide-from-toc} [2017](rn/using/release-notes-2017.md)
   + [Release Planning](rn/using/release-planning.md)
   + [Deprecated Features](rn/using/deprecated-features.md)
-  + [Tracked URLs Signature Issue](rn/using/tracked-urls.md)
-  + [Latest documentation updates](rn/using/documentation-updates.md)
+  + {hide-from-toc} [Tracked URLs Signature Issue](rn/using/tracked-urls.md)
+  + {hide-from-toc} [Latest documentation updates](rn/using/documentation-updates.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
   + Discovering the interface {#discovering-the-interface}
@@ -42,7 +42,7 @@ breadcrumb-title: Campaign Standard Documentation
        + [Privacy management](start/using/privacy-management.md)
        + [Privacy requests](start/using/privacy-requests.md)
        + [Privacy FAQ](start/using/privacy-faq.md)
-  + [Help & support options](support.md)
+  + {hide-from-toc} [Help & support options](support.md)
 + Profiles and audiences {#profiles-and-audiences}
   + [Get started with profiles and audiences](audiences/using/get-started-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}
@@ -431,7 +431,7 @@ breadcrumb-title: Campaign Standard Documentation
   + Configuring channels {#configuring-channels}
        + [About channel configuration](administration/using/about-channel-configuration.md)
        + [Configuring email channel](administration/using/configuring-email-channel.md)
-       + [Update bounce qualification after an ISP outage](administration/using/update-bounce-qualification.md)
+       + {hide-from-toc} [Update bounce qualification after an ISP outage](administration/using/update-bounce-qualification.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
   + Configuring mobile channels {#configuring-mobile}
        + [Implementing Push tracking](administration/using/push-tracking.md)

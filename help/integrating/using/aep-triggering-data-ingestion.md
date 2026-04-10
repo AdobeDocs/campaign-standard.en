@@ -11,7 +11,6 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: yes
-hidefromtoc: yes
 ---
 # Triggering data ingestion through APIs {#triggering-data-ingestion-apis}
 
