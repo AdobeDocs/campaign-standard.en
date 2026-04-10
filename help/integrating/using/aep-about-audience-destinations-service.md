@@ -11,7 +11,6 @@ role: Developer
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: yes
-hidefromtoc: yes
 ---
 # About the Audience Destinations service {#about-audiences}
 

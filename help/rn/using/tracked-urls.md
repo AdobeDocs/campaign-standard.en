@@ -1,7 +1,6 @@
 ---
 title: Tracked URLs signature issue
 description: Tracked URLs signature issue
-hidefromtoc: yes
 hide: yes
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 ---

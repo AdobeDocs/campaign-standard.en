@@ -4,7 +4,6 @@ description: This page lists all 2017 releases of Adobe Campaign Standard.
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: yes
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 ---
 # Release Notes 2017{#release-notes}

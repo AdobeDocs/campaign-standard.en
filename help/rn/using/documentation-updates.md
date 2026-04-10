@@ -5,7 +5,6 @@ feature: Overview
 role: User
 level: Beginner
 hide: yes
-hidefromtoc: yes
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 ---
 # Documentation Updates{#documentation-updates} 

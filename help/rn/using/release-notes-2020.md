@@ -7,7 +7,6 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: yes
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 ---
 # Release Notes 2020{#release-notes-2020}
