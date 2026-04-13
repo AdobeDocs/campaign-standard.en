@@ -10,7 +10,7 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
-hide: yes
+hide: true
 ---
 # Targeting Adobe Experience Platform audiences {#targeting-aep-audiences}
 
