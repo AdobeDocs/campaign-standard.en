@@ -10,7 +10,7 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-hide: yes
+hide: true
 ---
 # Using the Segment Builder {#using-the-segment-builder}
 

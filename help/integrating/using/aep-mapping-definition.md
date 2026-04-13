@@ -10,7 +10,7 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-hide: yes
+hide: true
 ---
 # Mapping definition {#mapping-definition}
 

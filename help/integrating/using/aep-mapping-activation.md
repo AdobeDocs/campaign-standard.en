@@ -10,7 +10,7 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
-hide: yes
+hide: true
 ---
 # Mapping activation {#mapping-activation}
 
