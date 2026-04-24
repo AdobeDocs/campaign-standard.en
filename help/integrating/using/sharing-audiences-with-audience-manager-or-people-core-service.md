@@ -4,12 +4,24 @@ description: Learn how to import or export your audience within the different Ad
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-
 feature: People Core Service Integration
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
+TQID: https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Sharing audiences with Audience Manager or People core service{#sharing-audiences-with-audience-manager-or-people-core-service}
 

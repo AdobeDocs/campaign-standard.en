@@ -4,11 +4,26 @@ description: Start building email content with the Email Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-
 feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Get started with the Email Designer {#quick-start}
 

@@ -4,11 +4,20 @@ description: Opt-out results in a profile no longer being targeted by any delive
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-
 feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
+TQID: https://experienceleague.adobe.com/9fzQiPrBRAFlTxX5EKo-Qvph3nYZYoA29kMrm6cXVLs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
 

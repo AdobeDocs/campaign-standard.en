@@ -4,11 +4,26 @@ description: Drag and drop components to your freeform table to start filtering 
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-
 feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
+TQID: https://experienceleague.adobe.com/OqhCjOt2SS-vKiuXSCmjgzJ1TNoFu1FHqL4cER0-o0g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Adding components{#adding-components}
 

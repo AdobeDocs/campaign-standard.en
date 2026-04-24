@@ -4,12 +4,21 @@ description: Learn how to collect data to feed your Campaign database.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+TQID: https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Importing data with import templates{#importing-data-with-import-templates}
 

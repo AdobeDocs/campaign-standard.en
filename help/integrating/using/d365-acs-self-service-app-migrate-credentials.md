@@ -9,6 +9,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+TQID: https://experienceleague.adobe.com/2EyFx8q78HBTmD0-txQnkiMA-IGn0OjMRhCft0FvC0k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Migrate Credentials from JWT to OAuth Server-to-Server
 

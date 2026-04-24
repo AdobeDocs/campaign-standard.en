@@ -9,6 +9,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
+TQID: https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
 ---
 # Campaign - Microsoft Dynamics 365 integration workflows
 

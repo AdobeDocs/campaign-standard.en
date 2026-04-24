@@ -4,11 +4,20 @@ description: Understand how opt-in and opt-out are managed in Adobe Campaign.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-
 feature: Audiences
 role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
+TQID: https://experienceleague.adobe.com/RLzfw7dzg3MhpYR7scuOTBdmsIHr5aKHllFjb-RkM-I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}
 

@@ -1,15 +1,24 @@
 ---
-title:  Updating an Organizational unit attributes
+title: Updating an Organizational unit attributes
 description: Learn how to update an Organizational unit attributes
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-
 feature: API
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
+TQID: https://experienceleague.adobe.com/VxXrw8RbDRqNAy14j-302n0mjx0JBOSvsjwfSjAqKAI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Updating an Organizational unit attributes {#updating-organizational-unit-attributes}
 

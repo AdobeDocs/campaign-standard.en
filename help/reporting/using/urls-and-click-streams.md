@@ -9,6 +9,19 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: f9bf39a3-7dca-429e-97bc-454b04f0d2a2
+TQID: https://experienceleague.adobe.com/1vOZ38HiASwKck-nfHVl-EQRjZgqAZUxhmG675cHNEg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # URLs and click streams{#urls-and-click-streams}
 

@@ -4,12 +4,21 @@ description: Learn how to perform pagination operations.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-
 feature: API
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
+TQID: https://experienceleague.adobe.com/DIJnMC-Y1Bk2I4qexYlNlnQDm76SbjDzAFmBnxCA9qs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Pagination
 

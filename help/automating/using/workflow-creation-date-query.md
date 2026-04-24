@@ -3,13 +3,23 @@ title: Creating deliveries on the creation date of the profile
 description: This use case shows how to create deliveries on the creation date of the profile.
 audience: automating
 content-type: reference
-topic-tags: execution-activities 
+topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
+TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Creating deliveries on profiles' creation date {#creation-date-query}
 

@@ -4,12 +4,27 @@ description: The In-App delivery activity allows you to configure sending an In-
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
+TQID: https://experienceleague.adobe.com/fk0D9lHTMGS6deq5PqwzmrZeLexPDqSiVcaeJ4YJrq8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # In-App delivery{#in-app-delivery}
 

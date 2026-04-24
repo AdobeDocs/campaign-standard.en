@@ -4,11 +4,23 @@ description: Learn how to preview a message in the content editor or in the Emai
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-
 feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
+TQID: https://experienceleague.adobe.com/0nQFLX-FzzajBKqGZO-MCnpS9zP5-tRNllV366m8hbs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Previewing deliveries {#previewing-messages}
 

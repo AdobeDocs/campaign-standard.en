@@ -4,11 +4,20 @@ description: Learn how to be notified of an incorrect address and exclude it fro
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-
 feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
+TQID: https://experienceleague.adobe.com/g-0yLI3-qYRfbF-gXuO8AtyCI3Qr5F7an5hqVzaQCE8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Return to sender{#return-to-sender}
 

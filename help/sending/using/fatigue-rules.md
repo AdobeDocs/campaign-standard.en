@@ -4,11 +4,28 @@ description: Create fatigue rules to manage over-communication with profiles.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-
 feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
+TQID: https://experienceleague.adobe.com/yzZqni5CgzXiOBFYrKXbUjfSbpMRdxKAMeSuZL2hiuk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Fatigue rules{#fatigue-rules}
 

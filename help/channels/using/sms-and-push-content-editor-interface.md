@@ -9,6 +9,19 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
+TQID: https://experienceleague.adobe.com/LQ6lGxtncdD2LoXmURVBcv0DZasNI2iMrntOSaWHv-k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # SMS and push content editor interface{#sms-and-push-content-editor-interface}
 

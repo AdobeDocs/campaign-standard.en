@@ -4,11 +4,24 @@ description: Learn how to test a transactional message in Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: 
+context-tags: null
 feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+TQID: https://experienceleague.adobe.com/13JYxn86ZNf9mBAnNCLGCW4M80IvRvkYvnEWmkqGnAU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Testing a transactional message {#testing-a-transactional-message}
 

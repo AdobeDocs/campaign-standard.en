@@ -6,6 +6,19 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
+TQID: https://experienceleague.adobe.com/aWpRR9r5jK3vVHxO9-xFPrVSyTI9Cg2rIBJ6AzvEONQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Updates and maintenance operations{#updates-and-maintenance-operations}
 

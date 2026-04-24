@@ -1,5 +1,5 @@
 ---
-title: Help & support options for Campaign Standard 
+title: Help & support options for Campaign Standard
 description: Need Support for Campaign Standard? You are at the right place!
 audience: rns
 content-type: reference
@@ -7,6 +7,24 @@ topic-tags: latest-release-notes
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
+TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Help & support options for Campaign Standard {#help-support-options}
 

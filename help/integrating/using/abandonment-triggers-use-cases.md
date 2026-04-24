@@ -4,12 +4,24 @@ description: Learn how to use the Experience Cloud Triggers integration with the
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-
 feature: Triggers
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+TQID: https://experienceleague.adobe.com/p8VXPIBMiH5wLdLlD0aIoOmZPzKtxq0oT-tb8BG8kAk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Abandonment Triggers use cases{#abandonment-triggers-use-cases}
 

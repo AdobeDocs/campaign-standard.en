@@ -10,6 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+TQID: https://experienceleague.adobe.com/z40XwpSoXzB0KpOs44BVIkxbUWAZShPIyb9l0QHUXZs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}
 

@@ -1,5 +1,5 @@
 ---
-title: Get Started with the integration tool 
+title: Get Started with the integration tool
 description: Get Started with the integration tool
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -10,6 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
+TQID: https://experienceleague.adobe.com/tVdAYIiQsxqtt8UyvRdrIBZO0EpjrPQx6lfkxHC9CSk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Get started with the self-service integration app {#gs-self-service-app}
 

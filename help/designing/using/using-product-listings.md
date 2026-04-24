@@ -4,11 +4,28 @@ description: Learn how to use product listings in a transactional message conten
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-context-tags: 
+context-tags: null
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
+TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Using product listings in a transactional message {#using-product-listings}
 

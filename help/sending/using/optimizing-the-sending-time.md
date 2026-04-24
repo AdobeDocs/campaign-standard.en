@@ -4,11 +4,23 @@ description: Learn how to set up sending time and improve the open rate of your 
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-
 feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
+TQID: https://experienceleague.adobe.com/FjL5t1ohvrgDdqLiCr03z1Nbq6IukIBysKkmXJ7561c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Optimizing the sending time{#optimizing-the-sending-time}
 

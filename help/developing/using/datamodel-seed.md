@@ -7,6 +7,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
+TQID: https://experienceleague.adobe.com/lfD2ncth570TSScQZE3UiO3ikqqxpjf4CVd7PvuAFXs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Seed Member (nms:seedMember)
 

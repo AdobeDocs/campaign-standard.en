@@ -5,6 +5,19 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+TQID: https://experienceleague.adobe.com/gsEh-PHBSQbDKZGZKklKBQv-rn78MOzciNC9aHuC-6I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # About subscriptions{#about-subscriptions}
 

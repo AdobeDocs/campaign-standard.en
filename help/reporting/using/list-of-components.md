@@ -1,14 +1,26 @@
 ---
-title: List of components 
+title: List of components
 description: Find here the list of every components available in     Dynamic reports as well as their definitions.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-
 feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
+TQID: https://experienceleague.adobe.com/NWtd6wo3BgCFapPO6lVQAcVk8KUud-ioDf1-6MzXfw0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # List of components {#list-of-components}
 

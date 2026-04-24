@@ -9,6 +9,19 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
+TQID: https://experienceleague.adobe.com/RWC1QVnb36uYdmvYN4N4yUeaVATJ2RdI7G8vXkJqR0o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Managing landing page form data{#managing-landing-page-form-data}
 

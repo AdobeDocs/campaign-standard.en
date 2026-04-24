@@ -5,6 +5,22 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
+TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Calling a resource using a composite identification key{#calling-a-resource-using-a-composite-identification-key}
 

@@ -4,12 +4,18 @@ description: The query editing tool allows you to use advanced functions to carr
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # List of functions{#list-of-functions}
 

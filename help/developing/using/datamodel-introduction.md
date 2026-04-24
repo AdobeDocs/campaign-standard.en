@@ -8,6 +8,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
+TQID: https://experienceleague.adobe.com/Fs7YA-EpzPGby-f6g8zv-qHAAuUIGGVkrbSms-DuZMM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Data model description{#data-model-introduction}
 

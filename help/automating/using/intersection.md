@@ -4,12 +4,21 @@ description: The Intersection activity allows you to keep only the elements comm
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
+TQID: https://experienceleague.adobe.com/G9ptSqWfh2BTA76Ul-j2th1W2aHI-eiPvJBpcasLJXs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Intersection{#intersection}
 

@@ -4,11 +4,20 @@ description: Learn how to extend the subscription to an application resource
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
+TQID: https://experienceleague.adobe.com/LtTykn3J6LjivrUr-xkhsZMgaVg-uQ2PHqA6wcJipo8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}
 

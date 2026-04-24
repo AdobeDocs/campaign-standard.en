@@ -4,12 +4,21 @@ description: Learn how to manage geographical units with APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-
 feature: API
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
+TQID: https://experienceleague.adobe.com/1RVk3P72UhhJ8RG7sGv9cu-opebJRAX-PdQQCbZM6vk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Updating a profile's Geographical unit {#updating-a-geographical-unit}
 

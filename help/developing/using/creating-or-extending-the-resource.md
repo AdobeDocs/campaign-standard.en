@@ -4,11 +4,20 @@ description: Discover how to define a resource from scratch.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b8731088-a675-4070-9036-bf2b5254e4e8
+TQID: https://experienceleague.adobe.com/hdn9Hj-zHdqoD2fKbv5Rl-GcV5EpH-L8p95e7W0ouzA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Creating or extending the resource{#creating-or-extending-the-resource}
 

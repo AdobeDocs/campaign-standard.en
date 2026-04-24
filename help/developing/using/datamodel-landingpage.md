@@ -9,6 +9,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
+TQID: https://experienceleague.adobe.com/-9eD752Kgh4kFoeiKTRJH78rm0BVInrZ84-5M7--dfY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # landingPage (nms:landingPage)
 

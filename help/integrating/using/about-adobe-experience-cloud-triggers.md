@@ -10,6 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
+TQID: https://experienceleague.adobe.com/NfIVRjLZxnXW8fCz7PWplxkn6AUyfb1llEIncmIchSM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
 

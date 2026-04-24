@@ -10,6 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
+TQID: https://experienceleague.adobe.com/lDbKhs6o4XJq5JWQfZltEv5iUV7zeNkR8r0evemqEvQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # SMS delivery{#sms-delivery}
 

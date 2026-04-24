@@ -4,12 +4,24 @@ description: Learn how to manage CCPA opt-out with APIs
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-
 feature: API
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
+TQID: https://experienceleague.adobe.com/XcgCy73XQYn-JyB0N41X3n30nGGo1tHVzmn-UQ1TOJQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Managing CCPA opt-out {#managing-ccpa-optout}
 

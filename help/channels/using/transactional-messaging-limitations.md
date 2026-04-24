@@ -4,12 +4,28 @@ description: Learn about the main recommendations and limitations regarding tran
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: 
-
+context-tags: null
 feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
+TQID: https://experienceleague.adobe.com/rFFpX6Up3eir0KrwY0lsfhAHlfennHiJkq2BsHuiAps
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Transactional messaging best practices and limitations {#transactional-messaging-limitations}
 

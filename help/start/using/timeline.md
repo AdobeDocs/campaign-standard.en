@@ -9,6 +9,22 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+TQID: https://experienceleague.adobe.com/q3DxO0moT5QYq1ZeIi6p2QfA-4N473C4C4jVBOT15Fs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Timeline{#timeline}
 

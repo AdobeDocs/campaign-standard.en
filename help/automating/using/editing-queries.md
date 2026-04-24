@@ -10,6 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
+TQID: https://experienceleague.adobe.com/s3em827G4rbFW4oJicP0iQC5PPUqsVWFBoofC3c094Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Editing queries{#editing-queries}
 

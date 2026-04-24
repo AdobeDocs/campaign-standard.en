@@ -4,11 +4,23 @@ description: Use filtering rules to refine the audience of your messages.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-
 feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Filtering rules {#filtering-rules}
 

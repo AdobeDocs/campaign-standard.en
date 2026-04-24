@@ -1,14 +1,26 @@
 ---
-title: Converting Legacy Editor Email to the Email Designer 
+title: Converting Legacy Editor Email to the Email Designer
 description: Discover how to use emails created in the Legacy Editor Email to the Email Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
+TQID: https://experienceleague.adobe.com/cfyUEkc2uP7VKNu2Kzd-9EERkuzfwiFFbJ9-QHgWWX4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Converting Legacy editor email content {#converting-an-html-content}
 
