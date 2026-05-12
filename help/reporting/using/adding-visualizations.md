@@ -4,11 +4,23 @@ description: Dynamic reports offer a set of visualizations to add a graphical re
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-
 feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: a6bf2393-ebb8-49c8-bdc9-d243c227bee9
+TQID: https://experienceleague.adobe.com/caQqahvwwPVmK7MrQwey0ViPEZ6iJ0gDGcrN-RNGno8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Adding visualizations{#adding-visualizations}
 

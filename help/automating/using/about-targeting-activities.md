@@ -4,12 +4,27 @@ description: Targeting activities can be accessed from the left-hand side of the
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
+TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # About targeting activities{#about-targeting-activities}
 

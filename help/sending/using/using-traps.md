@@ -9,6 +9,24 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
+TQID: https://experienceleague.adobe.com/1dwRaqZSGzlWwOv6ftIpV5V3poCwN3hzdRrQdk0WQsE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Using traps {#using-traps}
 

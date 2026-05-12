@@ -1,14 +1,29 @@
 ---
-title: Creating and using reusable content 
+title: Creating and using reusable content
 description: Start building reusable email content with the Email Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
+TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Creating and using reusable content {#using-reusable-content}
 

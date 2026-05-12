@@ -4,11 +4,28 @@ description: Enrich Campaign Standard data model with custom fields and resource
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-
 feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
+TQID: https://experienceleague.adobe.com/LHlfIZ24iApQfr6dL-x-nQViltSetibBgt1slLDsRi4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Get started with Campaign Standard data model {#get-started-data-model}
 

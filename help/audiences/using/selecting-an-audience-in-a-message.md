@@ -9,6 +9,16 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
+TQID: https://experienceleague.adobe.com/Ev0HCh32pGzPlVPe8SrCwBOFdEh-iXSGI6XYt9WMmLc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Selecting an audience in a message{#selecting-an-audience-in-a-message}
 

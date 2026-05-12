@@ -4,11 +4,17 @@ description: Learn here the key steps of adding a resource in the Adobe Campaign
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
+TQID: https://experienceleague.adobe.com/2osydEgGd39bPTJ7vT7RQIjN-F197Lr1vKt92d008Cw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Key steps to add a resource{#key-steps-to-add-a-resource}
 

@@ -4,12 +4,18 @@ description: Learn how to create workflow templates to import data.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
+TQID: https://experienceleague.adobe.com/u3VuLGtTmsM-4wztLfsNhGIX2F-aVI1HTtaCqXinBPw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Creating workflow templates to import data {#import-workflow-template}
 

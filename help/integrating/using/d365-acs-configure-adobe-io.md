@@ -9,6 +9,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
+TQID: https://experienceleague.adobe.com/F-zxGFIsIDW-Xc5hMICIAwHOVDpChxl-AjyCJLjR-v4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Adobe Campaign Standard and Adobe Developer Configuration for the Microsoft Dynamics 365 integration
 

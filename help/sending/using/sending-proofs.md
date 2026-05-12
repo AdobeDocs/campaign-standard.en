@@ -9,6 +9,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Sending proofs {#sending-proofs}
 

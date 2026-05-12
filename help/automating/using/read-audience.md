@@ -10,6 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
+TQID: https://experienceleague.adobe.com/mPVqmIC2ovLQdipvGbwI7GCZXejCTyCgwBYWFbCeTRg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Read audience{#read-audience}
 

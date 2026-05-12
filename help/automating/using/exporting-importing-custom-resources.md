@@ -9,6 +9,16 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
+TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Exporting / importing custom resources {#exporting-importing-custom-resources}
 

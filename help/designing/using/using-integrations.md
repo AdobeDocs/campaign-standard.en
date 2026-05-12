@@ -1,14 +1,31 @@
 ---
-title: Designing emails through Adobe Campaign integrations 
+title: Designing emails through Adobe Campaign integrations
 description: Discover how to design emails through Adobe Campaign integrations in the Email Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+TQID: https://experienceleague.adobe.com/XaVuaudJPbGKggzoSPMc-LP1e1YJ6EvVCnEn87PjE0c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Multi-solution email design {#multi-solution-email-design}
 

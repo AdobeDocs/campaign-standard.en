@@ -4,12 +4,18 @@ description: Learn about the different ways to import and export data with Adobe
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
+TQID: https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # About data import and export{#about-data-import-and-export}
 

@@ -4,12 +4,28 @@ description: Learn how to configure the Points of Interest data feature in Adobe
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-
 feature: Audiences
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
+TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
 

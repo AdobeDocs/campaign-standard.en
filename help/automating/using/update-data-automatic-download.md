@@ -1,6 +1,6 @@
 ---
 title: Updating data based on an automatic file download
-description: The following example shows the result of an automatically downloaded load file activity via a transfer file activity, followed by an update data activity. 
+description: The following example shows the result of an automatically downloaded load file activity via a transfer file activity, followed by an update data activity.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,6 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
+TQID: https://experienceleague.adobe.com/q-u5dH48a4wea1yStaF-QekcD9VaS2NjDhWnSQc6QGU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Updating data based on an automatic file download {#updating-data-automatic-file-download}
 

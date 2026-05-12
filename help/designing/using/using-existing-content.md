@@ -1,14 +1,28 @@
 ---
-title: Designing emails using existing content 
+title: Designing emails using existing content
 description: Discover how to design emails using existing content email content in the Email Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
+TQID: https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Designing using existing content {#designing-using-existing-content}
 

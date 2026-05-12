@@ -4,11 +4,20 @@ description: Learn how to track your subscribers and measure the success of your
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-
 feature: Audiences
 role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
+TQID: https://experienceleague.adobe.com/jHYwTvEq0C1VKagn885L8zk5RFXJFO-ySYqMjN31nyo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Monitoring subscriptions{#monitoring-subscriptions}
 

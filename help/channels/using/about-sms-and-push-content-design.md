@@ -9,6 +9,19 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
+TQID: https://experienceleague.adobe.com/TTYeKB8NvL9AMHSDksqYksUOEEqA-4Hsji44CJLhQh0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # About SMS and push content design{#about-sms-and-push-content-design}
 

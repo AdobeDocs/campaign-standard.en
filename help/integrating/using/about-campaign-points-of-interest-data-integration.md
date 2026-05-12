@@ -4,12 +4,24 @@ description: By collecting the Points of Interest data from your mobile applicat
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-
 feature: Audiences
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
+TQID: https://experienceleague.adobe.com/NMHm-sHLhsjMqprniSnxca27zpoxGEhRGKlt1IJXfVg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 # About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}
 

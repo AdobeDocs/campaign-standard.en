@@ -4,11 +4,23 @@ description: Dynamic report allows you to add panel to better filter your data d
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-
 feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
+TQID: https://experienceleague.adobe.com/jQtNVS-IFlOGMS5RAfKfOU610fZGzLB2GjEWwOPJE84
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Adding panels{#adding-panels}
 

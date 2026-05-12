@@ -8,6 +8,13 @@ feature: Workflows
 old-role: Data Architect
 role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
+TQID: https://experienceleague.adobe.com/mfBrdOii5qQZfqOs8VR4zuFM9CacwW-YwaYJm4U-Lt4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Import best practices {#import-best-practices}
 

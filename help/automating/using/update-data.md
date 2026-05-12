@@ -10,6 +10,22 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
+TQID: https://experienceleague.adobe.com/ad9kmTbPPHVESELYoejgAaUcSy-JgBL00xW7OMW2NUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Update data{#update-data}
 

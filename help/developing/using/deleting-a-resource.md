@@ -1,14 +1,20 @@
 ---
 title: Deleting a resource
-description: Learn how to delete a resource 
+description: Learn how to delete a resource
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
+TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Deleting a resource{#deleting-a-resource}
 

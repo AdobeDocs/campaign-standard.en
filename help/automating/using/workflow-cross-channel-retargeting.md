@@ -4,12 +4,22 @@ description: This use case shows how to retargeting non-openers.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-context-tags: workflow,use-case,query,wait,delivery 
+context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}
 

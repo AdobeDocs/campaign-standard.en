@@ -4,11 +4,26 @@ description: Follow these steps to set up a double opt-in process using landing 
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-
 feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
+TQID: https://experienceleague.adobe.com/uEAfmHvm5tpDoCp9nEQeveyH0oBvmP24IvkUy73QPSw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Setting up a double opt-in process{#setting-up-a-double-opt-in-process}
 

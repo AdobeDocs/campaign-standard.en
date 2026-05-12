@@ -4,11 +4,20 @@ description: Learn how to define and execute multilingual Email/SMS deliveries t
 audience: start
 content-type: reference
 topic-tags: managing-templates
-
 feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
+TQID: https://experienceleague.adobe.com/TsDW-1w3j0-CvsR0R0V-KnUOc4VahG7iCg46bgCyBJ0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Multilingual messages templates {#multilingual-messages-template}
 

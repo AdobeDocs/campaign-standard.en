@@ -3,13 +3,23 @@ title: Creating a weekly delivery
 description: This use case shows how to create a weekly delivery.
 audience: automating
 content-type: reference
-topic-tags: execution-activities 
+topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+TQID: https://experienceleague.adobe.com/NyjUiyKTwq937snrbOa8TNtG4Gk6A9avxrP7T-zO2kw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Creating an email delivery every Tuesday{#creating-email-every-tuesday}
 

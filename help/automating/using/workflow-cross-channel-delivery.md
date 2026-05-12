@@ -4,12 +4,28 @@ description: This use case shows how to create a cross-channel delivery
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-context-tags: workflow,use-case,query,wait,delivery 
+context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
+TQID: https://experienceleague.adobe.com/zcoFbPtWA5lcopKI6FfXdj3I3Ypvl6FZvAiZMh7oDw0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Creating a cross-channel delivery{#cross-channel-delivery}
 

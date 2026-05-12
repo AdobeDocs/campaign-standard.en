@@ -9,6 +9,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
+TQID: https://experienceleague.adobe.com/oqbuWT87B-EkgJVioe5VMlsuqfOoI3tZA9RKM0LG4RI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Configuring the screen definition{#configuring-the-screen-definition}
 

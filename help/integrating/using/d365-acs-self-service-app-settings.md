@@ -9,6 +9,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
+TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Connect systems with the integration app
 

@@ -4,12 +4,21 @@ description: With the Adobe Experience Manager integration, you can create conte
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-
 feature: Triggers
 old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
+TQID: https://experienceleague.adobe.com/eYHAXWPC6z7AhWv1qGoiBRZlN5nSp1-PiYOjCbVdU0g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Creating a multilingual email with the Adobe Experience Manager integration {#creating-multilingual-email-aem}
 

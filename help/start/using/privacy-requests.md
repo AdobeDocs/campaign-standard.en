@@ -4,11 +4,28 @@ description: Learn how to manage Privacy requests in Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-
 feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
+TQID: https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Managing Privacy requests {#privacy-requests}
 

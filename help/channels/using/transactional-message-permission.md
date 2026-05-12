@@ -9,6 +9,21 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 995da330-6c86-444b-86b2-61d887f37db4
+TQID: https://experienceleague.adobe.com/mO3RyLftfTtksp6J4waIdBBWIpPqozhU6TIVXT99Tfs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Transactional event improvements {#transactional-event-improvements}
 

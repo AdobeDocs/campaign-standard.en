@@ -4,11 +4,20 @@ description: Learn how to expose extended fields for the custom resource Profile
 audience: developing
 content-type: reference
 topic-tags: use-case-extending-the-api
-
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
+TQID: https://experienceleague.adobe.com/mXN6T29WmeKkVYY-oBnulLtr9umMGfflrzwCSCzgVfo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # About extending the API{#about-extending-the-api}
 

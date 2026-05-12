@@ -8,6 +8,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
+TQID: https://experienceleague.adobe.com/BPvEkhFMAe2Xiwllo4RwTzGeXo-IPxYiEp-1sGUzK-A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Step 2: Publish the extension{#step-publish-the-extension}
 

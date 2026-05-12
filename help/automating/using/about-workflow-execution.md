@@ -10,6 +10,22 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
+TQID: https://experienceleague.adobe.com/Fgr5Fy5R3xAe5QUwkNFA3k1y-nHDC5uqeCIJeEx7axI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # About workflow execution {#about-workflow-execution}
 

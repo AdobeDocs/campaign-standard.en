@@ -4,11 +4,24 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: true
-description: "Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities."
+description: Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
+TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Use templates {#use-templates}
 
