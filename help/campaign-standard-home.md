@@ -127,7 +127,7 @@ Learn how to share data between Campaign and Real-time Customer Data Platform (R
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Useful pages</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html" target="_blank">Product description</a> - <a href="rn/using/deprecated-features.md">Deprecated and removed features</a> - <a href="rn/using/release-planning.md">Release planning</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html" target="_blank">Product description</a> - <a href="rn/using/deprecated-features.md">Deprecated and removed features</a> - <a href="rn/using/release-planning.md">Release planning</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">Email Tracking Pixels and CNIL Guidance</a>
 </td>
 <td><strong>Technical resources</strong><br/>
 <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud triggers</a> - <a href="api/using/get-started-apis.md">Campaign APIs</a> - <a href="https://helpx.adobe.com/campaign/kb/acs-article-list.html" target="blank">Technical notes</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html" target="_blank">Control Panel documentation</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html">List of error messages</a>
