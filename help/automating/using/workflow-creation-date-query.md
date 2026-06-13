@@ -64,7 +64,7 @@ You retrieved the profiles which creation day is equal to current day.
 
 You should end up with:
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -81,11 +81,11 @@ Click **[!UICONTROL Confirm]**.
 
 You should end up with this:  
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 The final query displays:
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
