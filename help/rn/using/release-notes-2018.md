@@ -557,3 +557,4 @@ _Profiles and audiences_
 * Added a tooltip displaying the exact result number after counting the population of a query.
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
+

@@ -1115,3 +1115,4 @@ URL change: Assets core service - [Read more](../../integrating/using/working-wi
 URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/get-started-profiles-and-audiences.md)
+
