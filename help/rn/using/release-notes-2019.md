@@ -41,7 +41,7 @@ topic_v2:
 ---
 # Release Notes 2019{#release-notes-2019}
 
-## Release 19.4 - December 2019 {#release-19-4---october-2019}
+## Release 19.4 - December 2019 {#release-19-4-october-2019}
 
 **What's new?**
 
@@ -167,7 +167,7 @@ topic_v2:
 * Fixed an issue that could leave the state of a delivery as "Start pending” although the delivery was finished. (CAMP-35355)
 * Fixed an issue that prevented workflow logs from being displayed after enabling, then disabling SQL logs.
 
-## Release 19.3 - July 2019 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3-july-2019}
 
 **What's new?**
 
@@ -278,7 +278,7 @@ topic_v2:
 * Fixed a security issue that broke the email content when the subject contained multiple lines.
 
 
-## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
+## Release 19.2.7 - July 2019 {#release-19-2-7-july-2019}
 
 **Improvements**
 
@@ -287,13 +287,13 @@ topic_v2:
 * Fixed an issue which could prevent non-administrator users from saving or scheduling reports. (CAMP-31133)
 * Fixed an issue when using "|" as the date separator in the Load file workflow activity. (CAMP-34706)
 
-## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
+## Release 19.2.4 - June 2019 {#release-19-2-4-june-2019}
 
 **Email Designer**
 
 * Fixed an issue which prevented users from editing fragments when empty style tags were used in the HTML. This is a follow-up fix for CAMP-33778 in 19.2.3.
 
-## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
+## Release 19.2.3 - June 2019 {#release-19-2-3-june-2019}
 
 **Email Designer**
 
@@ -312,7 +312,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 * Fixed an issue which prevented you from enriching a transactional message content with information from the Service resource. (CAMP-33707)
 * Fixed an issue in the denylist landing pages that occurred when trying to unsubscribe profiles from a service.
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## Release 19.2 - May 2019 {#release-19-2-may-2019}
 
 **What's new?**
 
@@ -416,7 +416,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue that led the Deliverability workflow to turn off if it did not finish successfully. 
 * Fixed an issue which could prevent users from saving or scheduling reports. (CAMP-31133)
 
-## Release 19.1.3 - March 2019 {#release-19-1-3---march-2019}
+## Release 19.1.3 - March 2019 {#release-19-1-3-march-2019}
 
 **Email Designer enhancements**
 
@@ -430,7 +430,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue which prevented typology rules from being edited. (CAMP-31750)
 * Fixed an issue with the inMail process which could stop unexpectedly. (CAMP-31238)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## Release 19.1 - February 2019 {#release-19-1-february-2019}
 
 **What's new?**
 
@@ -536,7 +536,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue which caused discrepancy between the profiles targeted while creating an In-App delivery and the ones displayed in the delivery dashboard. (CAMP-28722)
 * Fixed an issue with the Campaign and Assets Core Service integration which could prevent you from selecting a shared asset in an email.
 
-## Release 19.0 - January 2019 {#release-19-0---january-2019}
+## Release 19.0 - January 2019 {#release-19-0-january-2019}
 
 **What's new?**
 

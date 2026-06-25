@@ -43,7 +43,7 @@ topic_v2:
 ---
 # Release Notes 2021{#release-notes-2021}
 
-## Release 21.3 - September 2021 {#release-21-3---sept-2021}
+## Release 21.3 - September 2021 {#release-21-3-sept-2021}
 
 New features, improvements and fixes included in the latest Campaign Standard release are listed below. 
 
@@ -164,7 +164,7 @@ New features, improvements and fixes included in the latest Campaign Standard re
 * Fixed an issue where the database cleanup workflow which was failing with an error. (CAMP-49097)
 
 
-## Release 21.2 - June 2021 {#release-21-2---june-2021}
+## Release 21.2 - June 2021 {#release-21-2-june-2021}
 
 New features, improvements and fixes included in the next Campaign Standard release are listed below. New features, improvements and fixes included in this Campaign Standard release are listed below.
 
@@ -252,7 +252,7 @@ New features, improvements and fixes included in the next Campaign Standard rele
 
 * Fixed an issue that blocked some Journey Orchestration deliveries due to Campaign not supporting timestamps with an exact value (i.e. ending with 00) sent by events from Journey Orchestration.
 
-## Release 21.1 - February 2021 {#release-21-1---february-2021}
+## Release 21.1 - February 2021 {#release-21-1-february-2021}
 
 **What's new?**
 

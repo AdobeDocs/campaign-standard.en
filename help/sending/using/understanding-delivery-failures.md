@@ -85,7 +85,7 @@ The possible reasons for a delivery failure are:
 | **[!UICONTROL Not connected]** | Ignored | The profile's mobile phone is switched off or not connected to the network when the message is sent.|
 | **[!UICONTROL Invalid domain]** | Soft | The domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.|
 | **[!UICONTROL Text too long]** | Ignored | The number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).|
-| **[!UICONTROL Character not supported by encoding]** | Ignored | The SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).|
+| **[!UICONTROL Character not supported by encoding]** | Ignored | The SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard).|
 
 
 **Related topics:**
