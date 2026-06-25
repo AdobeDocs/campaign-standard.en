@@ -70,7 +70,7 @@ topic_v2:
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Release 20.4 - October 2020 {#release-20-4---october-2020}
+## Release 20.4 - October 2020 {#release-20-4-october-2020}
 
 **What's new?**
 
@@ -236,7 +236,7 @@ topic_v2:
 
 
 
-## Release 20.3 - May 2020 {#release-20-3---may-2020}
+## Release 20.3 - May 2020 {#release-20-3-may-2020}
 
 **What's new?**
 
@@ -340,7 +340,7 @@ topic_v2:
 
 ![](assets/do-not-localize/cp-icon.png) **New Control Panel May release** with Certificate renewal for CNAME subdomains. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Release 20.2 - April 2020 {#release-20-2---april-2020}
+## Release 20.2 - April 2020 {#release-20-2-april-2020}
 
 **What's new?**
 
@@ -425,15 +425,15 @@ topic_v2:
 * Fixed an issue that could occur in workflows when executing an activity with several inbound transitions.
 * Fixed an issue which prevented standard users from using the 'Subscriptions to an application' as the target dimension in a workflow query or a delivery. (CAMP-37618)
 
-## Release 20.1.4 - February 2020 {#release-20-1-4---february-2020}
+## Release 20.1.4 - February 2020 {#release-20-1-4-february-2020}
 
 * Fixed an issue when opening a **Read Audience** actvity on existing workflows. (CAMP-41002) 
 
-## Release 20.1.3 - February 2020 {#release-20-1-3---february-2020}
+## Release 20.1.3 - February 2020 {#release-20-1-3-february-2020}
 
 * Fixed a regression issue introduced in 20.1 by CAMP-39273 for customers using the loophole. CAMP-39273 was reverted. 
 
-## Release 20.1.2 - February 2020 {#release-20-1-2---february-2020}
+## Release 20.1.2 - February 2020 {#release-20-1-2-february-2020}
 
 **Email Designer enhancements**
 
@@ -441,7 +441,7 @@ topic_v2:
 * Fixed an issue which added a space when using dynamic content. (CAMP-40605)
 * Fixed an issue when configuring a transactional email template. (CAMP-40604)
 
-## Release 20.1 - February 2020 {#release-20-1---february-2020}
+## Release 20.1 - February 2020 {#release-20-1-february-2020}
 
 **What's new?**
 

@@ -87,7 +87,7 @@ Updated all obsolete links in the **Privacy** sections. [Read more](../../start/
 
 Added a direct link to Campaign Control Panel documentation in Campaign Standard documentation table of content.
 
-## Release 21.3 - September 2021 {#release-21-3---september-2021}
+## Release 21.3 - September 2021 {#release-21-3-september-2021}
 
 **New capabilities included in the release**
 
@@ -109,7 +109,7 @@ A new section has been added to describe how to allow users to subscribe or unsu
 
 The **Managing landing page form data** section has been updated and clarified. [Read more](../../channels/using/managing-landing-page-form-data.md)
 
-## Release 21.2 - June 2021 {#release-21-2---june-2021}
+## Release 21.2 - June 2021 {#release-21-2-june-2021}
 
 **New capabilities included in the release**
 
@@ -148,7 +148,7 @@ Information has been added on how to implement local tracking for mobile applica
 
 The [Deliverability](../../sending/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
-## Release 21.1 - February 2021 {#release-21-1---february-2021}
+## Release 21.1 - February 2021 {#release-21-1-february-2021}
 
 **New capabilities included in the release**
 
@@ -200,7 +200,7 @@ The **Transactional messaging** section has been reorganized and gathered into o
 
 Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it.
 
-## Release 20.4 - October 2020 {#release-20-4---october-2020}
+## Release 20.4 - October 2020 {#release-20-4-october-2020}
 
 **New capabilities included in the release**
 
@@ -274,7 +274,7 @@ The Email channel parameters section has been clarified with further information
 
 The Configuring a mobile application using Adobe Experience Platform SDKs is now available in the core documentation with further information regarding the Sync Mobile app AEPSDK from Launch technical workflow. [Read more](../../administration/using/configuring-a-mobile-application.md)
 
-## Release 20.3 - May 2020 {#release-20-3---may-2020}
+## Release 20.3 - May 2020 {#release-20-3-may-2020}
 
 **New capabilities included in the release**
 
@@ -320,7 +320,7 @@ The Configuring email channel section has been updated with clarification on all
 
 The Transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../channels/using/configuring-transactional-event.md).
 
-## Release 20.2 - April 2020 {#release-20-2---april-2020}
+## Release 20.2 - April 2020 {#release-20-2-april-2020}
 
 **New capabilities included in the release**
 
@@ -362,7 +362,7 @@ Information has been added on the **[!UICONTROL Workflow]** built-in right. [Rea
 
 Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/about-workflow-execution.md)
 
-## Release 20.1 - February 2020 {#release-20-1---february-2020}
+## Release 20.1 - February 2020 {#release-20-1-february-2020}
 
 **New capabilities included in the release**
 
@@ -432,7 +432,7 @@ The datamodel has been integrated into Campaign Standard documentation. [Read mo
 
 The new API endpoint **/customResources** has been added to the API documentation.[Read more](../../api/using/interacting-with-custom-resources.md)
 
-## Release 19.4 - October 2019 {#release-19-4---october-2019}
+## Release 19.4 - October 2019 {#release-19-4-october-2019}
 
 **New capabilities included in the release**
 
@@ -488,7 +488,7 @@ The section describing the content templates and fragments has been updated. [Re
 
 A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
-## Release 19.3 - July 2019 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3-july-2019}
 
 **New capabilities included in the release**
 
@@ -540,7 +540,7 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
  Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## Release 19.2 - May 2019 {#release-19-2-may-2019}
 
 **New capabilities included in the release**
 
@@ -608,7 +608,7 @@ The Deprecated and Removed features page has been updated. [Read more](../../rn/
 
 The Dreamweaver integration section has been updated and improved. [Read more](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## Release 19.1 - February 2019 {#release-19-1-february-2019}
 
 **New capabilities included in the release**
 
@@ -664,7 +664,7 @@ Added information in the Update data activity section on the new Batch size fiel
 
 Added information in the Extract file activity section on the new option that lets you disable the file generation process if the outbound transition is empty. [Read more](../../automating/using/extract-file.md#configuration)
 
-## Release 19.0 - January 2019 {#release-19-0---january-2019}
+## Release 19.0 - January 2019 {#release-19-0-january-2019}
 
 **New capabilities included in the release**
 
@@ -704,7 +704,7 @@ Videos have been updated and moved [here](https://experienceleague.adobe.com/doc
 
 Updated the Type of users section. [Read more](../../administration/using/users-management.md)
 
-## Release 18.9 - September 2018 {#release-18-9---september-2018}
+## Release 18.9 - September 2018 {#release-18-9-september-2018}
 
 **New capabilities included in the release**
 
@@ -720,7 +720,7 @@ Added information on how to delete an audience. [Read more](../../audiences/usin
 
 Updated Push notification built-in report section. [Read more](../../reporting/using/push-notification-report.md)
 
-## Release 18.7 - July 2018 {#release-18-7---july-2018}
+## Release 18.7 - July 2018 {#release-18-7-july-2018}
 
 **New capabilities included in the release**
 
@@ -744,7 +744,7 @@ Added information on default language for multilingual template. [Read more](../
 
 The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](../../rn/using/deprecated-features.md)
 
-## Release 18.6 - June 2018 {#release-18-6---june-2018}
+## Release 18.6 - June 2018 {#release-18-6-june-2018}
 
 **New capabilities included in the release**
 
@@ -764,7 +764,7 @@ Added a sample in the query activity section on how to target profiles who click
 
 Added a section in the API documentation related to **custom filters**. [Read more](../../api/using/filtering.md)
 
-## Release 18.5 - May 2018 {#release-18-5---may-2018}
+## Release 18.5 - May 2018 {#release-18-5-may-2018}
 
 **New capabilities included in the release**
 
@@ -798,7 +798,7 @@ The list of supported Analytics SKUs for the integration with Triggers has been 
 
 Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Release 18.3 - March 2018 {#release-18-3---march-2018}
+## Release 18.3 - March 2018 {#release-18-3-march-2018}
 
 **New capabilities included in the release**
 
@@ -830,7 +830,7 @@ Updated the list of help materials about Campaign and Adobe solutions integratio
 
 Updated Campaign Standard in-product contextual help.
 
-## Release 18.2 - February 2018 {#release-18-2---february-2018}
+## Release 18.2 - February 2018 {#release-18-2-february-2018}
 
 **New capabilities included in the release**
 
@@ -874,7 +874,7 @@ Updated information about delivery failures and quarantines. [Read more](../../s
 
 New sections dedicated to [target mappings](../../administration/using/target-mappings-in-campaign.md) and [targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Release 18.1 - January 2018 {#release-18-1---january-2018}
+## Release 18.1 - January 2018 {#release-18-1-january-2018}
 
 **New capabilities included in the release**
 
@@ -902,7 +902,7 @@ Added information about Historization settings of the Transfer file activity. [R
 
 Instructions to configure the integration with Audience Manager or People core service have been updated. [Read more](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-## Release 17.10 - October 2017 {#release-17-10---october-2017}
+## Release 17.10 - October 2017 {#release-17-10-october-2017}
 
 **New capabilities included in the release**
 
@@ -942,7 +942,7 @@ New section dedicated to primary keys and the use of a business ID as a key in t
 
 Information added on simple and multiple filtering in the API. [Read more](../../api/using/filtering.md)
 
-## Release 17.9 - September 2017 {#release-17-9---september-2017}
+## Release 17.9 - September 2017 {#release-17-9-september-2017}
 
 **New capabilities included in the release**
 
@@ -982,7 +982,7 @@ Updated section on Transfer file workflow activity. [Read more](../../automating
 
 Information added on "Request confirmation before sending messages" option in Email Delivery workflow activity. [Read more](../../automating/using/email-delivery.md)
 
-## Release 17.7 - July 2017 {#release-17-7---july-2017}
+## Release 17.7 - July 2017 {#release-17-7-july-2017}
 
 **New capabilities included in the release**
 
@@ -1014,7 +1014,7 @@ Double opt-in mechanism is now documented through a step by step procedure. [Rea
 
 The List of roles section has been updated. [Read more](../../administration/using/list-of-roles.md)
 
-## Release 17.5 - May 2017 {#release-17-5---may-2017}
+## Release 17.5 - May 2017 {#release-17-5-may-2017}
 
 **New capabilities included in the release**
 
@@ -1036,7 +1036,7 @@ Authorizations table revised to make certain roles' function clearer. [Read more
 
 Update of the contextual help links available directly from Adobe Campaign.
 
-## Release 17.4 - April 2017 {#release-17-4---april-2017}
+## Release 17.4 - April 2017 {#release-17-4-april-2017}
 
 **New capabilities included in the release**
 
@@ -1066,7 +1066,7 @@ Updated section about how to work with images in Campaign. [Read more](../../des
 
 Integration with Adobe Analytics for Mobile (Point of Interest) updated, including configuration steps and use case. [Read more](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Release 17.2 - March 2017 {#release-17-2---march-2017}
+## Release 17.2 - March 2017 {#release-17-2-march-2017}
 
 **New capabilities included in the release**
 
@@ -1094,7 +1094,7 @@ We have redesigned the developer API documentation with new information and code
 
 Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
 
-## Release 17.1 - January 2017 {#release-17-1---january-2017}
+## Release 17.1 - January 2017 {#release-17-1-january-2017}
 
 **New capabilities included in the release**
 

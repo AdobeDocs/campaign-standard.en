@@ -74,7 +74,7 @@ SMS messages using GSM encoding are limited to 160 characters, or 153 characters
 
 >[!NOTE]
 >
->Certain characters count as two (braces, square brackets, the euro symbol, etc.). The list of available GSM characters is presented in the [Table of characters - GSM Standard](#table-of-characters---gsm-standard) section.
+>Certain characters count as two (braces, square brackets, the euro symbol, etc.). The list of available GSM characters is presented in the [Table of characters - GSM Standard](#table-of-characters-gsm-standard) section.
 
 If you like, you can authorize character transliteration by checking the corresponding box.
 
@@ -93,7 +93,7 @@ By default, character transliteration is disabled. If you would like all of the 
 
 However, if your SMS messages contain a lot of characters that generate Unicode messages, you can choose to enable this option to limit the costs of sending your messages.
 
-### Table of characters - GSM Standard {#table-of-characters---gsm-standard}
+### Table of characters - GSM Standard {#table-of-characters-gsm-standard}
 
 This section presents the characters taken into account by the GSM standard. All of the characters inserted into the message body, other than those mentioned below, convert the entire message into binary format (Unicode) and therefore limit it to 70 characters. For more on this, refer to the [SMS encoding, length and transliteration](#sms-encoding--length-and-transliteration) section.
 

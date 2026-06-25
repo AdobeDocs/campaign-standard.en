@@ -57,7 +57,7 @@ topic_v2:
 ---
 # Release Notes 2018{#release-notes}
 
-## Release 18.9 - September 2018 {#release-18-9---september-2018}
+## Release 18.9 - September 2018 {#release-18-9-september-2018}
 
 **What's new?**
 
@@ -122,7 +122,7 @@ topic_v2:
 * Fixed an issue that prevented displaying the errors that caused the **Database Cleanup** workflow to fail. (CAMP-26876)
 * Fixed an issue which could prevent the deletion of custom fields in a push notification definition. (CAMP-25588)
 
-## Release 18.7 - July 2018 {#release-18-7---july-2018}
+## Release 18.7 - July 2018 {#release-18-7-july-2018}
 
 **What's new?**
 
@@ -185,7 +185,7 @@ topic_v2:
 * Fixed an issue in the Creative Designer which resulted in unwanted color font and formatting when changing some text with inbuilt styling to a link or when editing that link. (CAMP-26001)
 * Fixed an issue that prevented the hot click report to display the percentages for each condition in deliveries containing dynamic content. Previously, only the clicks on the default variant were displayed.
 
-## Release 18.6 - June 2018 {#release-18-6---june-2018}
+## Release 18.6 - June 2018 {#release-18-6-june-2018}
 
 **Improvements**
 
@@ -223,7 +223,7 @@ topic_v2:
 * Fixed an issue with the display of international data for Account levels in Dynamic reports.
 * It is now possible to create a service without a subscription or unsubscription confirmation message.
 
-## Release 18.5 - May 2018 {#release-18-5---may-2018}
+## Release 18.5 - May 2018 {#release-18-5-may-2018}
 
 **What's new?**
 
@@ -295,7 +295,7 @@ topic_v2:
 * Fixed an issue which could prevent the Creative Designer from loading. (CAMP-24573) 
 * Fixed an issue which removed characters added after personalization fields in the email subject. (CAMP-24113)
 
-## Release 18.4 - April 2018 {#release-18-4---april-2018}
+## Release 18.4 - April 2018 {#release-18-4-april-2018}
 
 **Patches**
 
@@ -321,7 +321,7 @@ _Custom resources_
 
 * Fixed an error which caused custom resource preparation to fail.
 
-## Release 18.3 - March 2018 {#release-18-3---march-2018}
+## Release 18.3 - March 2018 {#release-18-3-march-2018}
 
 **New capabilities**
 
@@ -411,7 +411,7 @@ _Transactional messages_
 * Fixed an error with transactional message template when the delivery resource was extended.
 * It is now possible to delete transactional messages.
 
-## Release 18.2 - February 2018 {#release-18-2---february-2018}
+## Release 18.2 - February 2018 {#release-18-2-february-2018}
 
 **New capabilities**
 
@@ -475,7 +475,7 @@ We recommend that you do not use Internet Explorer version 11 because of possibl
 
 Some issues might occur when using contextual help links from Campaign interface. They will be fixed in 18.3.
 
-## Release 18.1 - January 2018 {#release-18-1---january-2018}
+## Release 18.1 - January 2018 {#release-18-1-january-2018}
 
 **New capabilities**
 
