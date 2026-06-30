@@ -534,3 +534,4 @@ topic_v2:
 * Fixed an issue which prevented SMS sending logs from being updated with the correct number of bounces. (CAMP-38395)
 * Fixed a loophole which allowed the application subscription post calls to update the push notification tokens. (CAMP-39273)
 
+

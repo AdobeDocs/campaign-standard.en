@@ -464,3 +464,4 @@ New features, improvements and fixes included in the next Campaign Standard rele
 * Fixed an issue that prevented custom test profiles from displaying in the list when searching profiles in the **Email Designer** preview. (CAMP-45589)
 * Fixed an issue that caused mismatching dates to be displayed when generating trend graphics from the **Delivery summary report**. (CAMP-45521)
 
+
