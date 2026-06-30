@@ -140,3 +140,4 @@ Creating a case allows you to contact the Adobe Customer Support Team about any 
 To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+

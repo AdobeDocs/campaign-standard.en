@@ -558,3 +558,4 @@ _Profiles and audiences_
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
 
+

@@ -575,3 +575,4 @@ _Integrations_
 * Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
 * Fixed an issue that may have caused the **[!UICONTROL Save audience]** activity of a workflow to fail when the option **[!UICONTROL Share in Adobe Marketing Cloud]** was checked.
 
+
