@@ -75,7 +75,7 @@ topic_v2:
  <tbody> 
   <tr> 
    <td> 
-    <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
+    <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You'll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
     <p>Refer to the <a href="../../integrating/using/d365-acs-get-started.md">detailed documentation</a> to set this integration up.</p>
   </td>
   </tr> 
@@ -86,7 +86,7 @@ topic_v2:
 
 * The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting. [Read more](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. 
-* When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
+* When a transactional message event is submitted with an unknown context parameter, Campaign now returns a "400" error message instead of "500". (CAMP-28632)
 * A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports. [Read more](../../reporting/using/list-of-components.md#segments)
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM). [Read more](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md)
@@ -109,7 +109,7 @@ topic_v2:
 * Fixed an issue when searching landing pages. The search has been extended from the 50 first created to all the database. (CAMP-36839)
 * Fixed an issue when saving modifications on the email sender in the **From: Name** field. (CAMP-36606)
 * The carousel component compatibility warning has been modified to reflect supported email clients.
-* Fixed a display issue on mobile. The height attribute is now always set to “height: auto” when adding or uploading a new image in an email. (CAMP-35497)
+* Fixed a display issue on mobile. The height attribute is now always set to "height: auto" when adding or uploading a new image in an email. (CAMP-35497)
 * Fixed an issue which left style and meta tags in the HTML when deleting a fragment from a structure component. (CAMP-35390)
 * Fixed an issue with fragments when updating reusable content. (CAMP-35186)
 * Fixed an issue when displaying mobile only conditional content in emails. (CAMP-35155)
@@ -164,7 +164,7 @@ topic_v2:
 * Fixed an issue that prevented custom resources from being imported into a new environment. (CAMP-36506)
 * Fixed an issue in hot click reports that could lead to percentages being hidden by images (CAMP-36407)
 * Fixed an issue that occurred when trying to export a delivery description field. (CAMP-35467)
-* Fixed an issue that could leave the state of a delivery as "Start pending” although the delivery was finished. (CAMP-35355)
+* Fixed an issue that could leave the state of a delivery as "Start pending" although the delivery was finished. (CAMP-35355)
 * Fixed an issue that prevented workflow logs from being displayed after enabling, then disabling SQL logs.
 
 ## Release 19.3 - July 2019 {#release-19-3-july-2019}
@@ -196,7 +196,7 @@ topic_v2:
 
 **Email Designer enhancements**
 
-* Fixed an issue that added additional HTML style tags to an HTML template each time a component was added, which could dramatically increase the template’s size. (CAMP-34694)
+* Fixed an issue that added additional HTML style tags to an HTML template each time a component was added, which could dramatically increase the template's size. (CAMP-34694)
 * Fixed an issue that could prevent some right top toolbar menu options from being available. (CAMP-34577)
 * Fixed an issue that occurred when the Mirror page URL content block was inserted into an email content. (CAMP-34779)
 * Fixed an issue that occurred when using JSPP code in an email, making it difficult to edit the content. (CAMP-34574)
@@ -228,7 +228,7 @@ topic_v2:
 * In workflows, a new option has been added to preview the next ten executions of a workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
-* You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* You can now personalize a delivery's label with event variables that have been declared in the workflow's external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
 * The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
 * You can now enable and disable the SMTP test mode option for each email message. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
@@ -307,7 +307,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 * Fixed an issue which could prevent SMS sending from resuming after a disconnection of the SMS connector.
 * Fixed an issue which could close SMPP connections when TLS was enabled.
 * Fixed an issue which could close SMPP connections when TLS was enabled.
-* The “Launch_URL_Campaign” option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
+* The "Launch_URL_Campaign" option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
 * Fixed an error that led to the Sandbox environment option being unchecked after uploading the certificate of a newly created mobile property and exiting the mobile application property page.
 * Fixed an issue which prevented you from enriching a transactional message content with information from the Service resource. (CAMP-33707)
 * Fixed an issue in the denylist landing pages that occurred when trying to unsubscribe profiles from a service.
@@ -384,7 +384,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * A new option has been added to the SMS external account. It enables to limit the maximum number of MTA processes that send SMS in order to better control the number of parallel connections. For more information, refer to the [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) technote.
 * When publishing a resource with API extension, if the API has already been published, it is now automatically updated each time it is published again. Previously this action was manual and failing to update the API could break the profile or service resource of this API. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * Zip code dimension has been removed from Dynamic Reporting. We recommend using City, Country, State dimensions instead.
-* The ‘First Launch’ Lifecycle event trigger for In-App messages has been removed.
+* The 'First Launch' Lifecycle event trigger for In-App messages has been removed.
 * When exporting a package with security groups, it now contains the roles that are assigned to each group. (CAMP-32960)
 * In the Load file activity, a new option lets you check that the columns of the file you are uploading match the column definition. For more information, refer to the [detailed documentation](../../automating/using/load-file.md). (CAMP-32229) 
 * Workflows can now be started with a payload, allowing you to use and share external parameters between activities within the workflow. For more information, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 & CAMP-29413)
@@ -412,7 +412,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue in landing pages that could prevent input fields from showing the updated value once it had been modified. (CAMP-31401) 
 * Fixed an issue which could lead a signal activity to activate unexpectedly. 
 * Fixed an issue which could prevent email preview from displaying when the audience is empty.
-* Fixed an issue in the “Extract file” activity that could generate a file while the "Do not generate a file if the inbound transition is empty" option was activated. 
+* Fixed an issue in the "Extract file" activity that could generate a file while the "Do not generate a file if the inbound transition is empty" option was activated. 
 * Fixed an issue that led the Deliverability workflow to turn off if it did not finish successfully. 
 * Fixed an issue which could prevent users from saving or scheduling reports. (CAMP-31133)
 
@@ -444,7 +444,7 @@ Several improvements have been added to the Transactional messaging channel in o
  <tbody> 
   <tr> 
    <td> Push channel Reporting improvements<br /> </td> 
-   <td> <p>Several enhancements have been added to Push channel reporting to allow you to measure user engagement more intuitively. With this release, we are expanding the list of Push channel metrics to three different metrics: Impressions, Clicks, Opens (App Open) to help you measure and analyze users’ interaction with Push notifications more effectively. Along with this, we are also standardizing the definition and implementation of these metrics. The Push notification built-in report has also been improved with commonly used visualizations and metrics.</p><p> For more information, refer to the <a href="../../reporting/using/push-notification-report.md">detailed documentation</a>.</p> </td> 
+   <td> <p>Several enhancements have been added to Push channel reporting to allow you to measure user engagement more intuitively. With this release, we are expanding the list of Push channel metrics to three different metrics: Impressions, Clicks, Opens (App Open) to help you measure and analyze users' interaction with Push notifications more effectively. Along with this, we are also standardizing the definition and implementation of these metrics. The Push notification built-in report has also been improved with commonly used visualizations and metrics.</p><p> For more information, refer to the <a href="../../reporting/using/push-notification-report.md">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Launch integration for Mobile App<br /> </td> 
@@ -561,7 +561,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../designing/using/using-product-listings.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
+   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user's cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../designing/using/using-product-listings.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
@@ -611,7 +611,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue that showed incorrect delivery logs in Dynamic reporting. (CAMP-23446)
 * Fixed an issue that could affect the numbers on the bounce Summary report (CAMP-28703)
 * Fixed an issue with the Campaign and Assets Core Service integration which could prevent assets from being displayed when selecting **[!UICONTROL Image shared from Adobe Experience Cloud]** in an email (CAMP-28732).
-* Fixed an issue that prevented SMS messages containing the ‘œ’ character to be sent even though transliteration was authorized in the SMPP external account. (CAMP-29041)
+* Fixed an issue that prevented SMS messages containing the 'œ' character to be sent even though transliteration was authorized in the SMPP external account. (CAMP-29041)
 * Fixed an issue that could display duplicate records when using a Segmentation activity in workflows. (CAMP-28743) 
 * Fixed an issue which prevented from deleting one of the value mappings on a column in a workflow activity. (CAMP-28708)
 * Fixed an issue in the File transfer activity, when using wildcards with the "Test to see if file exists" option. (CAMP-28977)
@@ -640,5 +640,3 @@ Several improvements have been added to the Transactional messaging channel in o
 * The sending throughput has been improved and stabilized for SMS messages.
 * Fixed an issue which prevented the "~" character from being used in an SMS message. (CAMP-29172)
 * Fixed an issue in deliveries with the Send time optimization option. (CAMP-29231)
-
-

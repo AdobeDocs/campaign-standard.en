@@ -86,10 +86,10 @@ topic_v2:
 
 **Other changes**
 
-* In the broadlogs, there is now a distinction between the maximum number of connections and the maximum number of messages per hour. When the limits are reached, it is then possible to know why the throughput is limited. Previously, the same message (‘quota met’) applied to both cases.
+* In the broadlogs, there is now a distinction between the maximum number of connections and the maximum number of messages per hour. When the limits are reached, it is then possible to know why the throughput is limited. Previously, the same message ('quota met') applied to both cases.
 * When configuring a mobile application in Campaign, the user can now know if the iOS certificate and Android server key have been successfully uploaded and their expiration date.
 
-  For more on this, refer to the detailed documentation on how to configure a mobile application using [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html ) and [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html). 
+  For more on this, refer to the detailed documentation on how to configure a mobile application using [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) and [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html). 
 
 * Target users on a specific Mobile App by selecting a Mobile App while defining the Campaign properties. This feature is for both Push and In-App Messaging channels.
 
@@ -159,8 +159,8 @@ topic_v2:
 
 **Improvements**
 
-* The Adobe Campaign and Adobe Target integration now allows you to leverage Target’s [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) feature. When including a dynamic image from Adobe Target in an email, you can now specify a Target Property (at_property code).
-* Custom resources that have an owncopy link to the profiles resource are now taken into account by GDPR Privacy access/delete requests. For 1 cardinality simple links and N cardinality collection links, you need to select "Deleting/Duplicating the target record implies deleting/duplicating the records referenced by the link" in the custom resource. For 0 or 1 cardinality simple links, select "Deleting/Duplicating the record implies deleting/duplicating the target record referenced by the link”.
+* The Adobe Campaign and Adobe Target integration now allows you to leverage Target's [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) feature. When including a dynamic image from Adobe Target in an email, you can now specify a Target Property (at_property code).
+* Custom resources that have an owncopy link to the profiles resource are now taken into account by GDPR Privacy access/delete requests. For 1 cardinality simple links and N cardinality collection links, you need to select "Deleting/Duplicating the target record implies deleting/duplicating the records referenced by the link" in the custom resource. For 0 or 1 cardinality simple links, select "Deleting/Duplicating the record implies deleting/duplicating the target record referenced by the link".
 
 **Other changes**
 
@@ -301,7 +301,7 @@ topic_v2:
 
 _Platform_
 
-* Fixed an error that could prevent from correctly processing GDPR access or delete requests. This behavior has been observed in some rare cases where the extracted data was containing one of the following characters: & < > " '.
+* Fixed an error that could prevent from correctly processing GDPR access or delete requests. This behavior has been observed in some rare cases where the extracted data was containing one of the following characters: `& < > " '`.
 
 _Emails, SMS messages and direct mail_
 
@@ -335,7 +335,7 @@ _Custom resources_
  <tbody> 
   <tr> 
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.<br /> In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:<br /> 
+   <td> GDPR is the European Union's (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.<br /> In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:<br /> 
     <ul> 
      <li> Right to Access: allows the Data Subject to receive a copy of their personal data captured by Data Controllers, potentially including data stored in Adobe Campaign. </li> 
      <li> Right to Delete: entitles the Data Subject to have their personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign. </li> 
@@ -403,7 +403,7 @@ _Integrations_
 * Fixed an issue that prevented international characters from being correctly sent to Adobe Analytics.
 * Assets should now load faster when trying to insert an image from your Experience Cloud asset library in a message.
 * Fixed an issue that could prevent the asset selection window from being closed in some cases.
-* From a datasource detail, you can now directly access its related workflow to check the workflow’s state.
+* From a datasource detail, you can now directly access its related workflow to check the workflow's state.
 * You can now update the Triggers schema directly when defining or editing a trigger event. With this change, you no longer have to unpublish the trigger and create another one.
 
 _Transactional messages_
@@ -497,7 +497,7 @@ Some issues might occur when using contextual help links from Campaign interface
   </tr> 
   <tr> 
    <td> Push New capabilities<br /> </td> 
-   <td> Push Message Preview - Preview push notifications on iOS and Android devices from within the push notification content editor to see exactly what your recipients will see before testing or executing the delivery.<br /> For more information, refer to the <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">detailed documentation</a>.<br /> Content Available - When apps are not opened over longer periods of time, their data can become outdated. This results in the data having to be updated or replaced at the moment a user finally opens the app, which can cause delays in using the app. With the added support of Content Available, Adobe Campaign users can wake up their app to refresh its data in the background when delivering a push notification, enabling greater consistency and control over a user’s in-app experience.<br /> Mutable Content - With the added support of Mutable Content, Adobe Campaign users can now leverage their mobile app extensions to further modify the content or presentation of arriving push notifications sent from Adobe Campaign. For example, users can leverage Mutable Content to: <br /> 
+   <td> Push Message Preview - Preview push notifications on iOS and Android devices from within the push notification content editor to see exactly what your recipients will see before testing or executing the delivery.<br /> For more information, refer to the <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">detailed documentation</a>.<br /> Content Available - When apps are not opened over longer periods of time, their data can become outdated. This results in the data having to be updated or replaced at the moment a user finally opens the app, which can cause delays in using the app. With the added support of Content Available, Adobe Campaign users can wake up their app to refresh its data in the background when delivering a push notification, enabling greater consistency and control over a user's in-app experience.<br /> Mutable Content - With the added support of Mutable Content, Adobe Campaign users can now leverage their mobile app extensions to further modify the content or presentation of arriving push notifications sent from Adobe Campaign. For example, users can leverage Mutable Content to: <br /> 
     <ul> 
      <li> decrypt data that was delivered in an encrypted format </li> 
      <li> download images or other media files and add them as attachments to a notification </li> 
@@ -507,7 +507,7 @@ Some issues might occur when using contextual help links from Campaign interface
   </tr> 
   <tr> 
    <td> Time-zone optimized deliveries<br /> </td> 
-   <td> Schedule recurring Email, SMS, and Push notifications to be delivered at a specific day/time in every recipients’ time zone ensuring that your messages are delivered at the right time without setting up multiple deliveries. <br /> For more information, refer to the <a href="../../automating/using/scheduler.md">detailed documentation</a>.<br /> </td> 
+   <td> Schedule recurring Email, SMS, and Push notifications to be delivered at a specific day/time in every recipients' time zone ensuring that your messages are delivered at the right time without setting up multiple deliveries. <br /> For more information, refer to the <a href="../../automating/using/scheduler.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API Signal activity triggering<br /> </td> 
@@ -557,5 +557,3 @@ _Profiles and audiences_
 * Added a tooltip displaying the exact result number after counting the population of a query.
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
-
-

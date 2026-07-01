@@ -52,5 +52,3 @@ Once you have the list of affected recipients, you can either set them to a stat
 
 * [Understand Delivery Failures](../../sending/using/understanding-delivery-failures.md)
 * [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
-
