@@ -14,7 +14,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## June 2026 {#doc-updates-june-2026}
 
-Added a page on CNIL guidance for email tracking pixels and the related Adobe Campaign capabilities. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+Added a page on CNIL guidance for email tracking pixels and the related Adobe Campaign Standard capabilities. [Read more](../../administration/using/cnil-pixel-tracking.md)
 
 ## Release 24.1 - Winter 2024 {#release-24-1}
 
