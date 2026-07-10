@@ -2,7 +2,6 @@
 title: CNIL guidance on email tracking pixels
 description: Learn about CNIL's updated guidance on email tracking pixels and the Adobe Campaign Standard controls that can support your compliance efforts.
 audience: administration
-feature: Instance Settings
 role: Admin
 level: Experienced
 hide: true
