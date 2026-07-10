@@ -57,7 +57,7 @@ topic_v2:
 ---
 # Release Notes 2017{#release-notes}
 
-## Release 17.10 - October 2017 {#release-17-10---october-2017}
+## Release 17.10 - October 2017 {#release-17-10-october-2017}
 
 **New capabilities**
 
@@ -136,7 +136,7 @@ _Custom resources_
 * Fixed an issue that occurred in list screens where custom resource rows could be displayed without any data. 
 * Fixed an issue that prevented boolean type fields with 'False' value from being displayed in custom resources.
 
-## Release 17.9 - September 2017 {#release-17-9---september-2017}
+## Release 17.9 - September 2017 {#release-17-9-september-2017}
 
 **New capabilities**
 
@@ -208,7 +208,7 @@ _Profiles and audiences_
 * Adobe Campaign now provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. For more information, refer to the [detailed documentation](../../audiences/using/active-profiles.md).
 * Fixed an issue that prevented profiles from being subscribed to a service when using the Profiles and Services API.
 
-## Release 17.7 - July 2017 {#release-17-7---july-2017}
+## Release 17.7 - July 2017 {#release-17-7-july-2017}
 
 **New capabilities**
 
@@ -256,7 +256,7 @@ _General_
 _Emails, SMS messages and direct mail_
 
 * Fixed an issue with the **updateDeliveryExecInfo** workflow that set the **To deliver** indicator to 0 for SMS deliveries.
-* In the **Advanced parameters** of the delivery template’s properties, the **Routing** drop-down list now only displays external accounts corresponding to the template message type. For example, an email delivery template only displays email external accounts.
+* In the **Advanced parameters** of the delivery template's properties, the **Routing** drop-down list now only displays external accounts corresponding to the template message type. For example, an email delivery template only displays email external accounts.
 * Fixed an issue with the **[!UICONTROL Text]** preferred email format defined for test profiles.
 * Fixed an issue that led to a Javascript error in when selecting the default time zone in the schedule definition screen of a delivery.
 * Fixed an issue which prevented traps from appearing in the sending logs.
@@ -284,7 +284,7 @@ _Workflows_
 * Fixed an issue which prevented you from setting an outbound transition in the creation wizard of recurring delivery.
 * Fixed an issue that occurred when using a workflow query activity based on a custom resource field with an enumeration that had a lot of values
 
-## Release 17.5 - May 2017 {#release-17-5---may-2017}
+## Release 17.5 - May 2017 {#release-17-5-may-2017}
 
 **New capabilities**
 
@@ -298,7 +298,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Direct mail<br /> </td> 
-   <td> Break through the digital barrier and connect to the physical world with Adobe Campaign Standard’s first offline channel, Direct Mail. This feature allows you to personalize and generate the file required by direct mail providers as part of your cross-channel campaigns. Leverage Direct Mail to re-engage customers or to enhance the customer experience with a compelling tactile touchpoint driving customers to your app, website or store.<br /> For more information, refer to the <a href="../../channels/using/about-direct-mail.md">detailed documentation</a>.<br /> </td> 
+   <td> Break through the digital barrier and connect to the physical world with Adobe Campaign Standard's first offline channel, Direct Mail. This feature allows you to personalize and generate the file required by direct mail providers as part of your cross-channel campaigns. Leverage Direct Mail to re-engage customers or to enhance the customer experience with a compelling tactile touchpoint driving customers to your app, website or store.<br /> For more information, refer to the <a href="../../channels/using/about-direct-mail.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
@@ -331,7 +331,7 @@ _Push notifications_
 * Fixed an issue which prevented you from clicking on a push event in a profile's marketing history.
 * The use of push notifications in workflows has been improved.
 
-## Release 17.4 - April 2017 {#release-17-4---april-2017}
+## Release 17.4 - April 2017 {#release-17-4-april-2017}
 
 **New capabilities**
 
@@ -404,7 +404,7 @@ _Integrations_
 _Audiences and queries_
 
 * Fixed an issue that prevented sum and average aggregates from being used on a collection in the query editor.
-* Fixed an issue that could prevent the query editor from being reloaded after changing the filter’s resource.
+* Fixed an issue that could prevent the query editor from being reloaded after changing the filter's resource.
 
 _Reports_
 
@@ -416,7 +416,7 @@ _Push notifications_
 * Fixed an issue where an error message was not displayed when creating an Android application linked to a mobile app that had failed being created on MCPNS.
 * Fixed an issue that allowed a user to add sounds to a silent notification.
 
-## Release 17.2 - March 2017 {#release-17-2---march-2017}
+## Release 17.2 - March 2017 {#release-17-2-march-2017}
 
 **New capabilities**
 
@@ -469,7 +469,7 @@ _Push notifications_
   </tr> 
   <tr> 
    <td> Points of Interest data<br /> </td> 
-   <td> Points of Interest data integrates Adobe Campaign with Adobe Analytics for Mobile. A brand can collect data from users' mobile locations - called <strong>Points of Interest</strong> - when users open the brand's app. This enables the brand to leverage Adobe Campaign workflows in order to send personalized messages based on the users’ locations. This channel leverages the Mobile core service’s SDK.<br /> Please note that using this feature requires Analytics for Mobile, which is a paid solution.<br /> For more information, refer to the <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detailed documentation</a>.<br /> </td> 
+   <td> Points of Interest data integrates Adobe Campaign with Adobe Analytics for Mobile. A brand can collect data from users' mobile locations - called <strong>Points of Interest</strong> - when users open the brand's app. This enables the brand to leverage Adobe Campaign workflows in order to send personalized messages based on the users' locations. This channel leverages the Mobile core service's SDK.<br /> Please note that using this feature requires Analytics for Mobile, which is a paid solution.<br /> For more information, refer to the <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST APIs<br /> </td> 
@@ -499,7 +499,7 @@ _Workflows_
 * Fixed an issue that could prevent from reading the content of the reject transition of a **[!UICONTROL Load file]** activity.
 * Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **[!UICONTROL Load file]** activity.
 
-## Release 17.1 - January 2017 {#release-17-1---january-2017}
+## Release 17.1 - January 2017 {#release-17-1-january-2017}
 
 **New capabilities**
 

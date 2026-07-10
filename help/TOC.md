@@ -5,7 +5,6 @@ user-guide-description: Product documentation for Adobe Campaign Standard.
 title: Campaign Standard Guide
 breadcrumb-title: Campaign Standard Documentation
 ---
-
 # Adobe Campaign Standard Documentation {#using}
 
 + [Campaign Standard documentation](campaign-standard-home.md)
@@ -503,4 +502,3 @@ breadcrumb-title: Campaign Standard Documentation
        + [Updating a Geographical unit attributes](api/using/updating-geographical-unit-attributes.md)  
   + [Troubleshooting](api/using/troubleshooting.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-

@@ -42,7 +42,7 @@ Get support using our FAQs, best practices, online resources and support portal.
 
 ## Common issues and best practices
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![faq icon](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Topics Q&A</strong></td><td><strong>Common issues</strong></td><td><strong>Best practices</strong></td><td><strong>How-to</strong></td></tr>
@@ -91,11 +91,12 @@ Get support using our FAQs, best practices, online resources and support portal.
 
 ## Campaign Control Panel
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![control panel icon](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### What is Control Panel?
 
 The Control Panel helps you increase efficiency in your work as a product admin of Campaign Standard, by allowing you to manage settings and track usages for each of your instances.
+
 [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel) for more information.
 
 >[!NOTE]
@@ -124,7 +125,7 @@ You can monitor your subdomains and their certificates. Learn more:
 
 ## Request for help
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![support icon](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 The new ticketing system has been through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 

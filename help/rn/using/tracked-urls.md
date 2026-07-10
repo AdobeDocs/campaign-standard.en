@@ -21,7 +21,7 @@ Note that unsubscription links can fail as any other links, the frequency is var
 
 **Are you impacted?**
 
-Some Campaign Standard users are impacted as the signature mechanism for tracking links in emails has been introduced in [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) - October 2020 - and is enabled by default for all customers.
+Some Campaign Standard users are impacted as the signature mechanism for tracking links in emails has been introduced in [Campaign Standard 20.4](release-notes-2020.md#release-20-4-october-2020) - October 2020 - and is enabled by default for all customers.
 
 **How to update?**
 
@@ -36,4 +36,3 @@ Once the update is done, all links work as expected.
 >[!NOTE]
 >
 >For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
