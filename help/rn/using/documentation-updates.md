@@ -12,6 +12,10 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
 
+## June 2026 {#doc-updates-june-2026}
+
+Added a page on CNIL guidance for email tracking pixels and the related Adobe Campaign capabilities. [Read more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+
 ## Release 24.1 - Winter 2024 {#release-24-1}
 
 Release notes for Campaign Standard 24.1 Winter 2024 release have been published. [Read more](release-notes.md)
