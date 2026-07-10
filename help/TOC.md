@@ -430,6 +430,7 @@ breadcrumb-title: Campaign Standard Documentation
   + Configuring channels {#configuring-channels}
        + [About channel configuration](administration/using/about-channel-configuration.md)
        + [Configuring email channel](administration/using/configuring-email-channel.md)
+       + {hide-from-toc} [CNIL guidance on email tracking pixels](administration/using/cnil-pixel-tracking.md)
        + {hide-from-toc} [Update bounce qualification after an ISP outage](administration/using/update-bounce-qualification.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
   + Configuring mobile channels {#configuring-mobile}
