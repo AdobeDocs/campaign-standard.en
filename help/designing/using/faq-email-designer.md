@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
