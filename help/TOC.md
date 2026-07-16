@@ -4,6 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Product documentation for Adobe Campaign Standard. 
 title: Campaign Standard Guide
 breadcrumb-title: Campaign Standard Documentation
+nudge: true
 ---
 # Adobe Campaign Standard Documentation {#using}
 
