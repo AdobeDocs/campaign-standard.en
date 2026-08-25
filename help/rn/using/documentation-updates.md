@@ -446,8 +446,6 @@ Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/d3
 
 **Other documentation updates coming with the release**
 
-The list of error messages for Adobe Campaign has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
-
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -528,8 +526,6 @@ A new section on Email Designer recommended updates has been added. [Read more](
 
 A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
 
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
-
 Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
 ## June - July 2019 {#doc-updates-2019}
@@ -540,9 +536,7 @@ A use case was added on how to call a profile using a composite identification k
 
 A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
-
- Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
+Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2-may-2019}
 
@@ -647,8 +641,6 @@ Added information on how to link custom resources. [Read more](../../developing/
 A new technote has been added on how to display an image from an Adobe Campaign Standard push notification. [Read more](../../administration/using/image-push-notification.md)
 
 A new technote on push tracking implementation has been added. [Read more](../../administration/using/push-tracking.md)
-
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 The Triggers - Campaign integration documentation has been updated. [Read more](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
