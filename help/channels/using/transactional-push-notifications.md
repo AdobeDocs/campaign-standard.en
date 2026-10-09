@@ -201,9 +201,9 @@ For more on integrating the triggering of an event into an external system, see 
 
 The corresponding user receives a transactional push notification including the all personalization elements retrieved from the Adobe Campaign database.
 
-   >[!NOTE]
-   >
-   >There is no registration token, application and push platform fields. In this example, the reconciliation is performed with the email field.
+>[!NOTE]
+>
+>There is no registration token, application and push platform fields. In this example, the reconciliation is performed with the email field.
 
 ## Changing the target mapping in a transactional push notification {#change-target-mapping}
 

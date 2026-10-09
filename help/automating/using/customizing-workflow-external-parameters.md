@@ -99,13 +99,13 @@ For more on how to use the activity, refer to [this section](../../automating/us
 
 **[!UICONTROL Channels]** activities: personalize deliveries based on events variables.
 
-  >[!NOTE]
-  >
-  >The delivery parameters' values are retrieved each time the delivery is prepared.
-  >
-  >Recurring deliveries preparation is based on the delivery **aggregation period**. For example, if the aggregation period is "by day", then the delivery will be re-prepared only once a day. If a delivery parameter's value is modified during the day, then it will not be updated in the delivery, as it has already been prepared once.
-  >
-  >If you plan on calling the workflow multiple times a day, use the [!UICONTROL No aggregation] option, so that the delivery parameters are updated each time. For more on recurring deliveries configuration, refer to [this section](/help/automating/using/email-delivery.md#configuration).
+>[!NOTE]
+>
+>The delivery parameters' values are retrieved each time the delivery is prepared.
+>
+>Recurring deliveries preparation is based on the delivery **aggregation period**. For example, if the aggregation period is "by day", then the delivery will be re-prepared only once a day. If a delivery parameter's value is modified during the day, then it will not be updated in the delivery, as it has already been prepared once.
+>
+>If you plan on calling the workflow multiple times a day, use the [!UICONTROL No aggregation] option, so that the delivery parameters are updated each time. For more on recurring deliveries configuration, refer to [this section](/help/automating/using/email-delivery.md#configuration).
 
 To personalize a delivery based on events variables, you must first declare into the delivery activity the variables that you want to use:
 

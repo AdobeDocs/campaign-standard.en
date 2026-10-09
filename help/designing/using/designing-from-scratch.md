@@ -140,17 +140,17 @@ Use this component to insert a dividing line in your email. You can select the c
 
 Use this component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
 
-  >[!NOTE]
-  >
-  >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
+>[!NOTE]
+>
+>A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
 
 To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
 
 When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
 
-  >[!NOTE]
-  >
-  >The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
+>[!NOTE]
+>
+>The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
 
 **Before copying your content**
 

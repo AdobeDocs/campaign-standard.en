@@ -97,9 +97,9 @@ To change the default subject line to use, follow these steps:
 
   To hide the proof's number in the subject line, activate the **[!UICONTROL Hide proof prefix counter]** option.
 
-   >[!NOTE]
-   >
-   >If you want to hide the entire proof prefix, leave the **[!UICONTROL Subject line prefix]** field blank.
+>[!NOTE]
+>
+>If you want to hide the entire proof prefix, leave the **[!UICONTROL Subject line prefix]** field blank.
 
    ![](assets/proof-prefix-configuration.png)
 
