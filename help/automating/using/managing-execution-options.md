@@ -76,9 +76,9 @@ For more information on this, refer to [PostgreSQL documentation](https://www.po
 
 If you have a sequence scan in this query, the **[!UICONTROL Diagnostic mode]** will also provide recommendations to create an index with the help of a filter expression. 
 
-  >[!NOTE]
-  >
-  > These recommendations are meant for reference purposes only and should be used carefully depending on your use case.
+>[!NOTE]
+>
+> These recommendations are meant for reference purposes only and should be used carefully depending on your use case.
 
 ![](assets/wkf_diagnostic_4.png)
 

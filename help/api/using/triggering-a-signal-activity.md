@@ -61,9 +61,9 @@ If you want to call the workflow with parameters, add them into the payload with
 
   ```
 
-  >[!NOTE]
-  >
-  >When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
+>[!NOTE]
+>
+>When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
 
 <br/>
 

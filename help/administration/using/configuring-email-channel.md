@@ -210,10 +210,10 @@ This option is available for emails and email templates.
 
 If you enable the SMTP test mode option for an email template, all email messages created from this template will have this option enabled.
 
-  >[!IMPORTANT]
-  >
-  >When this option is enabled for an email, no messages will be sent until it is unchecked.
-  >A warning will be displayed in the email or email template dashboard.
+>[!IMPORTANT]
+>
+>When this option is enabled for an email, no messages will be sent until it is unchecked.
+>A warning will be displayed in the email or email template dashboard.
 
 For more information on configuring SMTP, refer to the [List of email SMTP parameters](#list-of-email-smtp-parameters) section.
 

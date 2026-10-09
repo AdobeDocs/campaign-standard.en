@@ -42,8 +42,8 @@ Related topics:
 
 ## Step 1: Configure the identification key{#step-1-configure-the-identification-key}
 
-   >[!NOTE]
-   > Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+>[!NOTE]
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 1. Before configuring the identification key, make sure that the resource has been extended with the desired fields and that it has been published. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
@@ -66,8 +66,8 @@ Related topics:
 
 ## Step 2: Configure the filter definition{#step-2-configure-the-filter-definition}
 
-   >[!NOTE]
-   > Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
+>[!NOTE]
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[!UICONTROL Filter definition]** tab, click **[!UICONTROL Add an element]**, then enter the filter definition's label and ID.
 

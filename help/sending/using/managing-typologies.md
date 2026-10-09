@@ -37,9 +37,9 @@ For each typology, the **[!UICONTROL Typology rules]** section lists the set of 
 
 ![](assets/typology_typo-rule-list.png)
 
-   >[!NOTE]
-   >
-   >To get more details on one of the typology rules, double-click it. The rule will display in read-only mode.
+>[!NOTE]
+>
+>To get more details on one of the typology rules, double-click it. The rule will display in read-only mode.
 
 ## Creating a typology {#creating-a-typology}
 
